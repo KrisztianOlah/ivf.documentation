@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.0">
+  <DUT Name="stStation02_Data" Id="{6820b6d7-2a74-4731-a254-d40dfdf6e57e}">
+    <Declaration><![CDATA[{attribute wpf [Container(Layout.Stack)]}
+TYPE stStation02_Data :
+STRUCT
+	{attribute wpf [Container(Layout.Wrap)]}
+	{attribute addProperty Name "Y Min"}
+	DimYMin : REAL;
+	{attribute addProperty Name "Y Measured"}
+	DimYMeasured : REAL;
+	{attribute addProperty Name "Y Max"}
+	DimYMax : REAL;
+	{attribute addProperty Name "Result"}
+	
+	{attribute wpf [Container(Layout.Stack)]}	
+	Result : STRING;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

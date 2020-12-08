@@ -1,0 +1,1246 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vortex.Adapters.Connector.Tc3</name>
+    </assembly>
+    <members>
+        <member name="T:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory">
+            <summary>
+            Implementation of <see cref="T:Vortex.Connector.IConnectorFactory"/> for TwinCat 3 systems.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateConnector(System.Object[])">
+            <summary>
+            Creates an instance of TwinCat 3 connector.
+            </summary>
+            <param name="parameters">Connection parameters</param>
+            <returns><see cref="T:Vortex.Adapters.Connector.Tc3.AdsConnector"/>Connector for TwinCat 3 systems.</returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.Boolean"/> tag of PLC value type BOOL for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBool"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateBYTE(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.Byte"/> tag of PLC value type BYTE for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsByte"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateDINT(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.Int32"/> tag of PLC value type DINT for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDInt"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateDWORD(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.UInt32"/> tag of PLC value type DWORD for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDWord"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateINT(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.Int16"/> tag of PLC value type INT for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsInt"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateLINT(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.Int64"/> tag of PLC value type LINT for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLInt"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateLREAL(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.Double"/> tag of PLC value type LREAL for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLReal"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateLTIME(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.TimeSpan"/> tag of PLC value type LTIME for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLTime"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateLWORD(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.UInt64"/> tag of PLC value type LWORD for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLWord"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateREAL(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.Single"/> tag of PLC value type REAL for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsReal"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateSINT(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.SByte"/> tag of PLC value type SINT for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsSInt"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateSTRING(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.String"/> tag of PLC value type STRING for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateTIME(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.TimeSpan"/> tag of PLC value type TIME for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTime"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateDATE_TIME(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.DateTime"/> tag of PLC value type DATE_AND_TIME (DT) for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDateTime"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateDATE(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.DateTime"/> tag of PLC value type DATE for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDate"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateTIME_OF_DAY(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.TimeSpan"/> tag of PLC value type TIME_OF_DATE (TOD) for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTimeOfDay"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateUDINT(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.UInt32"/> tag of PLC value type UDINT for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUDInt"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateUINT(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.UInt16"/> tag of PLC value type UINT for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUInt"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateULINT(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.UInt64"/> tag of PLC value type ULINT for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsULInt"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateUSINT(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.Byte"/> tag of PLC value type USINT for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUSInt"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateWORD(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.UInt16"/> tag of PLC value type WORD for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWord"/></returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.CreateWSTRING(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Creates <see cref="T:System.String"/> tag of PLC value type WSTRING for TwinCat 3 Systems;
+            </summary>
+            <param name="parent">Parent object of <see cref="T:Vortex.Connector.IVortexObject"/> type.</param>
+            <param name="readableTail">Human readable tail of this value tag.</param>
+            <param name="symbolTail">Symbol tail of this value tag.</param>
+            <returns>New instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString"/></returns>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode">
+            <summary>
+            Enumerates way the symbols will be loaded from the PLC.
+            </summary>
+        </member>
+        <member name="F:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode.AfterConnectorConstruction">
+            <summary>
+            The symbols are loaded and linked when the connector is created.
+            <note type="note">
+            This mode considerably slows down the start of the application. All symbols are loaded and linked regardless the usage by the application.
+            </note>
+            </summary>
+        </member>
+        <member name="F:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode.PreLoadSymbolsLinkOnTheFly">
+            <summary>
+            The symbols are loaded but not linked. Linking is deferred at the first symbol use during the life time of the application.
+            <note type="note">
+            This mode slows down the start up of the application. All symbols are loaded regardless the usage by the application.
+            </note>
+            </summary>
+        </member>
+        <member name="F:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode.LoadAndLinkOnTheFly">
+            <summary>
+            The symbols are loaded and linked when first time required by the application.
+            <note type="note">This is the fastest way of starting up the application. 
+            The symbol loading and linking are performed in a lazily during the application life time.
+            </note>
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod">
+            <summary>
+            Enumerates symbol loading methods.
+            </summary>
+        </member>
+        <member name="F:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.SymbolInfoReader">
+            <summary>
+            Using symbol info loader.
+            <note type="note">Generally faster method for on the fly loading of the symbols.</note>
+            </summary>
+        </member>
+        <member name="F:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.SymbolInfoLoader">
+            <summary>
+            Using symbol info reader.
+            <note type="note">Generally slower method suitable for small-mid size applications.</note>
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter">
+            <summary>
+            Provides connector adapter for TwinCat3 target system.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.#ctor(System.String,System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)">
+            <summary>
+            Creates an instance of Connector adapter for TwinCat3 target system.
+            </summary>
+            <param name="amsId">Target system AMS ID</param>
+            <param name="port">Target system port</param>
+            <param name="consoleOutput">When true outputs information to the console.</param>
+            <param name="symbolLoadingMode">Determines <see cref="T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode"/></param>
+            <param name="symbolLoadingMethod">Determines <see cref="T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod"/></param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.String,System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)">
+            <summary>
+            Creates an instance of <see cref="T:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter"/>.
+            </summary>
+            <param name="amsId">Target system AMS ID</param>
+            <param name="port">Target system port</param>
+            <param name="consoleOutput">When true outputs information to the console.</param>
+            <param name="symbolLoadingMode">Determines <see cref="T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode"/></param>
+            <param name="symbolLoadingMethod">Determines <see cref="T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod"/></param>
+            <returns>TwinCat 3 connector adapter.</returns>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(System.Int32,System.Boolean,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode,Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)">
+            <summary>
+            Creates an instance of <see cref="T:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter"/>.
+            </summary>        
+            <param name="port">Target system port</param>
+            <param name="consoleOutput">When true outputs information to the console.</param>
+            <param name="symbolLoadingMode">Determines <see cref="T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode"/></param>
+            <param name="symbolLoadingMethod">Determines <see cref="T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod"/></param>
+            <returns>TwinCat 3 connector adapter.</returns>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsConnector">
+            <summary>
+                Ads connector.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsConnector.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsConnector" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsConnector.#ctor(System.Object[])">
+            <summary>
+            Initializes new instance of <see cref="T:Vortex.Adapters.Connector.Tc3.AdsConnector"/>
+            </summary>
+            <param name="parameters">Connection parameters</param>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsConnector.OnAdsStateChangeDelegate">
+            <summary>
+                The on ads state change delegate.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsConnector.ReadSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})">
+            <summary>
+                The read sum non extended types from current Ads connection.
+            </summary>
+            <param name="tags">
+               Online tags to be read.
+            </param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsConnector.WriteSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})">
+            <summary>
+                Writes non extended online variables.
+            </summary>
+            <param name="tags">
+                Online tags to be written.
+            </param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsConnector.ConnectToController(System.String,System.Int32)">
+            <summary>
+                Creates connection.
+            </summary>
+            <param name="netId">
+                The net id.
+            </param>
+            <param name="srvPort">
+                The server port.
+            </param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicRead">
+            <summary>
+                Reads online variables required to be read.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWrite">
+            <summary>
+                Writes modified online variables.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWriteRead">
+            <summary>
+                Write read operation.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsConnector.StartReadWriteOps">
+            <summary>
+              Starts cyclical read write operation on this connector.
+            </summary>        
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsConnector.InitializeConnector">
+            <summary>
+                Initializes connector for on line operations.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsConnector.Client">
+            <summary>
+                Gets the client.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsConnector.Dispose">
+            <summary>
+                The dispose.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsConnector.SetAllToCyclicReading">
+            <summary>
+                Sets all online variables to cyclic reading.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsConnector.DoNotStartReportingConsole">
+            <summary>
+                Gets or sets a value indicating whether start reporting console.
+            </summary>
+            <value>
+                Do not start reporting console when true.
+            </value>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsConnector.LoadingStatus">
+            <summary>
+                Gets or sets the loading status.
+            </summary>
+            <value>
+                The loading status.
+            </value>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsConnector.Name">
+            <summary>
+                Gets or sets the name of this connector.
+            </summary>
+            <value>
+                The name of the connector.
+            </value>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsConnector.NetId">
+            <summary>
+                Gets the net id.
+            </summary>
+            <value>
+                The net id.
+            </value>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsConnector.SrvPort">
+            <summary>
+                Gets the server port.
+            </summary>
+            <value>
+                The server port.
+            </value>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsConnector.Timeout">
+            <summary>
+                Gets or sets a value indicating whether synchronous access should be suspended.
+                Typically this value should be set to true during extensive reflection operation when synchronous access
+                to the controller is not required. Suspending synchronous access considerably improves performance.
+                N.B. Suspended synchronous access bypasses all synchronous read and write operations with no further warning.
+            </summary>
+            <value>
+                Synchronous access is suspended.
+            </value>
+            <summary>
+                Gets or sets the timeout for connector operations.
+            </summary>
+            <value>
+                The timeout for connector operations.
+            </value>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadMethod">
+            <summary>
+            Get or sets symbol loading method.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadingMode">
+            <summary>
+            Gets or sets symbol loading mode.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler">
+            <summary>
+                The ads exception handler.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.OnlineSymbolRetriever">
+            <summary>
+                Class provides access to the symbols accessible from the PLC controller.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.OnlineSymbolRetriever.LoadOnLineSymbolList(Vortex.Adapters.Connector.Tc3.AdsConnector)">
+            <summary>
+            The creates list of symbols present at the current Ads connection.
+            </summary>
+            <param name="connector">
+            The connector.
+            </param>
+            <exception cref="T:System.Exception">
+            Exception during symbol loading from the current Ads connection.
+            </exception>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo">
+            <summary>
+                Online variable information class.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexOffset">
+            <summary>
+                Gets index offset of the variable.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsAvailableInController">
+            <summary>
+                Gets a value indicating whether the variable is available in the controller.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Length">
+            <summary>
+                Gets the length of the variable.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Symbol">
+            <summary>
+                Gets the symbol of the variable.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Name">
+            <summary>
+                Gets or sets variables name.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsSymbolExpectedToBeAvailable(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)">
+            <summary>
+            Gets true when online variable is expected to be is available in the controller and accessible to .Net environment.
+            </summary>
+            <param name="onlineSymbolInfo">
+            Online variable symbol information.
+            </param>
+            <returns>
+            The <see cref="T:System.Boolean"/>.
+            </returns>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.Properties.Resources.AdsConnector_AdsConnector_Creating_objects___">
+            <summary>
+              Looks up a localized string similar to Creating objects....
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.Properties.Resources.AdsConnector_AdsConnector_Creating_objects____Done">
+            <summary>
+              Looks up a localized string similar to Creating objects... Done.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.Properties.Resources.AdsConnector_ConnectToController_Connecting_to_controller_AMS__0__port__1_">
+            <summary>
+              Looks up a localized string similar to Connecting to controller AMS {0} port {1}.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.Properties.Resources.AdsConnector_CreateListOfIdentities_Creating_objects_identities___">
+            <summary>
+              Looks up a localized string similar to Creating objects identities....
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.Properties.Resources.AdsConnector_CreateListOfIdentities_Creating_objects_identities____Done">
+            <summary>
+              Looks up a localized string similar to Creating objects identities... Done.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.Properties.Resources.AdsConnector_CreateListOfIdentities_Getting_objects_identities___">
+            <summary>
+              Looks up a localized string similar to Getting objects identities....
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.Properties.Resources.AdsConnector_CreateListOfIdentities_Getting_objects_identities____Done">
+            <summary>
+              Looks up a localized string similar to Getting objects identities... Done.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.Properties.Resources.AdsConnector_InitializeConnector_Start_rw_ops___">
+            <summary>
+              Looks up a localized string similar to Start rw ops....
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.Properties.Resources.AdsConnector_InitializeConnector_Start_rw_ops____Done">
+            <summary>
+              Looks up a localized string similar to Start rw ops... Done.
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.Properties.Resources.AdsConnector_SetAttributes_Setting_access_attributes___">
+            <summary>
+              Looks up a localized string similar to Setting access attributes....
+            </summary>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.Properties.Resources.AdsConnector_SetAttributes_Setting_access_attributes____Done">
+            <summary>
+              Looks up a localized string similar to Setting access attributes... Done.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBool">
+            <summary>
+                Class providing access to the BOOL type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBool.#ctor">
+            <summary>
+              Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBool" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBool.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBool" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsByte">
+            <summary>
+                Class providing access to the BYTE type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsByte.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsByte" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsByte.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsByte"/> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsByte.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            Reads this value from binary reader in a R/W loop.
+            </summary>
+            <param name="reader">
+            Binary reader from which the value is to be retrieved.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsByte.Synchron">
+            <summary>
+                Gets or sets the value synchronously.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDate">
+            <summary>
+                Class providing access to the DATE type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDate.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDate" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDate.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDate" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDate.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            Reads this value from binary reader in a R/W loop.
+            </summary>
+            <param name="reader">
+            Binary reader from which the value is to be retrieved.
+            </param>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDateTime">
+            <summary>
+                Class providing access to the DATE TIME type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDateTime.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDate" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDateTime.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDateTime" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDateTime.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            Reads this value from binary reader in a R/W loop.
+            </summary>
+            <param name="reader">
+            Binary reader from which the value is to be retrieved.
+            </param>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDInt">
+            <summary>
+                Class providing access to the DINT type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDInt.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDInt" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDInt" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDInt.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            Reads this value from binary reader in a R/W loop.
+            </summary>
+            <param name="reader">
+            Binary reader from which the value is to be retrieved.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDInt.Synchron">
+            <summary>
+                Gets or sets the value synchronously.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDWord">
+            <summary>
+                Class providing access to the DWORD type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDWord.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDWord" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDWord.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDWord" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDWord.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            Reads this value from binary reader in a R/W loop.
+            </summary>
+            <param name="reader">
+            Binary reader from which the value is to be retrieved.
+            </param>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsInt">
+            <summary>
+                Class providing access to the INT type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsInt.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsInt" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsInt" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsInt.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            Reads this value from binary reader in a R/W loop.
+            </summary>
+            <param name="reader">
+            Binary reader from which the value is to be retrieved.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsInt.Synchron">
+            <summary>
+                Gets or sets the value synchronously.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLInt">
+            <summary>
+                Class providing access to the LINT type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLInt.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLInt" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLInt" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLInt.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            Reads this value from binary reader in a R/W loop.
+            </summary>
+            <param name="reader">
+            Binary reader from which the value is to be retrieved.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLInt.Synchron">
+            <summary>
+                Gets or sets the value synchronously.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLReal">
+            <summary>
+                Class providing access to the LREAL type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLReal.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLReal" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLReal.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLReal" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLReal.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            Reads this value from binary reader in a R/W loop.
+            </summary>
+            <param name="reader">
+            Binary reader from which the value is to be retrieved.
+            </param>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLTime">
+            <summary>
+                Class providing access to the LTIME type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLTime.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTime" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLTime.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLTime" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLTime.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            TODO The read from binary reader.
+            </summary>
+            <param name="reader">
+            TODO The reader.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLTime.Synchron">
+            <summary>
+                Gets or sets the synchron.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLWord">
+            <summary>
+                Class providing access to the LWORD type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLWord.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLWord" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLWord.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLWord" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLWord.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            Reads this value from binary reader in a R/W loop.
+            </summary>
+            <param name="reader">
+            Binary reader from which the value is to be retrieved.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLWord.Synchron">
+            <summary>
+                Gets or sets the value synchronously.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsReal">
+            <summary>
+                Class providing access to the REAL type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsReal.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsReal" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsReal.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsReal" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsReal.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            TODO The read from binary reader.
+            </summary>
+            <param name="reader">
+            TODO The reader.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsReal.Synchron">
+            <summary>
+                Gets or sets the value synchronously.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsSInt">
+            <summary>
+                Class providing access to the SINT type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsSInt.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsSInt" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsSInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsSInt" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsSInt.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            TODO The read from binary reader.
+            </summary>
+            <param name="reader">
+            TODO The reader.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsSInt.Synchron">
+            <summary>
+                Gets or sets the synchron.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString">
+            <summary>
+                Class providing access to the STRING type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            TODO The read from binary reader.
+            </summary>
+            <param name="reader">
+            TODO The reader.
+            </param>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTime">
+            <summary>
+                Class providing access to the TIME type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTime.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTime" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTime.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTime" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTime.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            TODO The read from binary reader.
+            </summary>
+            <param name="reader">
+            TODO The reader.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTime.Synchron">
+            <summary>
+                Gets or sets the synchron.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTimeOfDay">
+            <summary>
+                Class providing access to the TIME OF DAY type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTimeOfDay.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTimeOfDay" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTimeOfDay.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTimeOfDay" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTimeOfDay.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            TODO The read from binary reader.
+            </summary>
+            <param name="reader">
+            TODO The reader.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTimeOfDay.Synchron">
+            <summary>
+                Gets or sets the synchron.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUDInt">
+            <summary>
+                Class providing access to the UDINT type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUDInt.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUDInt" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUDInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUDInt" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUDInt.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            TODO The read from binary reader.
+            </summary>
+            <param name="reader">
+            TODO The reader.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUDInt.Synchron">
+            <summary>
+                Gets or sets the synchron.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUInt">
+            <summary>
+                Class providing access to the UINT type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUInt.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUInt" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUInt" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUInt.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            TODO The read from binary reader.
+            </summary>
+            <param name="reader">
+            TODO The reader.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUInt.Synchron">
+            <summary>
+                Gets or sets the synchron.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsULInt">
+            <summary>
+                Class providing access to the ULINT type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsULInt.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsULInt" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsULInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsULInt" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsULInt.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            TODO The read from binary reader.
+            </summary>
+            <param name="reader">
+            TODO The reader.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsULInt.Synchron">
+            <summary>
+                Gets or sets the synchron.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUSInt">
+            <summary>
+                Class providing access to the USINT type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUSInt.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUSInt" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUSInt.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUSInt" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUSInt.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            TODO The read from binary reader.
+            </summary>
+            <param name="reader">
+            TODO The reader.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUSInt.Synchron">
+            <summary>
+                Gets or sets the synchron.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWord">
+            <summary>
+                Class providing access to the WORD type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWord.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWord" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWord.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWord" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWord.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            Reads this value from binary reader in a R/W loop.
+            </summary>
+            <param name="reader">
+            Binary reader from which the value is to be retrieved.
+            </param>
+        </member>
+        <member name="P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWord.Synchron">
+            <summary>
+                Gets or sets the value synchronously.
+            </summary>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString">
+            <summary> 
+                Class providing access to the WSTRING type online variable.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString" /> class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString" /> class.
+            </summary>
+            <param name="parent">Parent object of this instance.</param>
+            <param name="readableTail">Human readable tail of this instance.</param>
+            <param name="symbolTail">Symbol tail of this instance.</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ReadFromBinaryReader(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            TODO The read from binary reader.
+            </summary>
+            <param name="reader">
+            TODO The reader.
+            </param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Read(TwinCAT.Ads.AdsBinaryReader)">
+            <summary>
+            Reads value of this tag from the stream.
+            </summary>
+            <param name="reader">Reader</param>
+        </member>
+        <member name="M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Write(TwinCAT.Ads.AdsBinaryWriter)">
+            <summary>
+            Writes value of this tag to the stream.
+            </summary>
+            <param name="binaryWriter">Writer</param>
+        </member>
+        <member name="T:Vortex.Adapters.Connector.Tc3Adapter.Adapter.NamespaceDoc">
+            <summary>
+            <para>
+                <see cref="N:Vortex.Adapters.Connector.Tc3Adapter.Adapter"/> namespace contains set of classes that provide access to TwinCat 3 systems from vortex framework.  
+            </para>
+            </summary>
+        </member>
+    </members>
+</doc>

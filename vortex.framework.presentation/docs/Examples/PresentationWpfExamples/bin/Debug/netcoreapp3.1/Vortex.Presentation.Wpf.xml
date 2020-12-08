@@ -1,0 +1,639 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vortex.Presentation.Wpf</name>
+    </assembly>
+    <members>
+        <member name="T:Vortex.Presentation.Wpf.BindableBase">
+            <summary>
+            Represents base class for bindable objects.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)">
+            <summary>
+            Sets the property and raises <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged"/> event.
+            </summary>
+            <typeparam name="T">Property type.</typeparam>
+            <param name="member">Member</param>
+            <param name="val">New value</param>
+            <param name="propertyName">Property name</param>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)">
+            <summary>
+            Raises <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged"/> event.
+            </summary>
+            <param name="propertyName"></param>
+        </member>
+        <member name="E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged">
+            <summary>
+            Implementation of <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged"/>
+            </summary>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.RelayCommand`1">
+            <summary>
+            Relay command with logging capabilities.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RelayCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean},Vortex.Connector.IVortexObject,System.String)">
+            <summary>
+            Creates new instance of <see cref="T:Vortex.Presentation.Wpf.RelayCommand"/>.
+            </summary>
+            <param name="executeMethod">Method to be executed with this command.</param>
+            <param name="canExecuteMethod">Can execute method determined whether this command can be executed.</param>
+            <param name="callerObject">Object that invoked this command.</param>
+            <param name="commandName">Optional command description of the command to enrich the logged data.</param>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RelayCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean},System.Object,System.String)">
+            <summary>
+            Creates new instance of <see cref="T:Vortex.Presentation.Wpf.RelayCommand"/>.
+            </summary>
+            <param name="executeMethod">Method to be executed with this command.</param>
+            <param name="canExecuteMethod">Can execute method determined whether this command can be executed.</param>
+            <param name="callerObject">Object that invoked this command.</param>
+            <param name="commandName">Optional command description of the command to enrich the logged data.</param>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RelayCommand`1.RaiseCanExecuteChanged">
+            <summary>
+            Forces raising of <see cref="E:Vortex.Presentation.Wpf.RelayCommand`1.CanExecuteChanged"/> can execute event.
+            </summary>
+        </member>
+        <member name="E:Vortex.Presentation.Wpf.RelayCommand`1.CanExecuteChanged">
+            <summary>
+            Can execute handler.
+            </summary>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.RelayCommand">
+            <summary>
+            Relay command with logging capabilities.
+            </summary>
+        </member>
+        <member name="E:Vortex.Presentation.Wpf.RelayCommand.CanExecuteChanged">
+            <summary>
+            Adds or removes <see cref="E:Vortex.Presentation.Wpf.RelayCommand.CanExecuteChanged"/> handler.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RelayCommand.#ctor(System.Action{System.Object},System.Func{System.Object,System.Boolean},Vortex.Connector.IVortexObject,System.String)">
+            <summary>
+            Creates new instance of <see cref="T:Vortex.Presentation.Wpf.RelayCommand"/>.
+            </summary>
+            <param name="executeMethod">Method to be executed with this command.</param>
+            <param name="canExecuteMethod">Can execute method determined whether this command can be executed.</param>
+            <param name="callerObject">Object that invoked this command.</param>
+            <param name="commandName">Optional command description of the command to enrich the logged data.</param>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RelayCommand.#ctor(System.Action{System.Object},System.Func{System.Object,System.Boolean},System.Object,System.String)">
+            <summary>
+            Creates new instance of <see cref="T:Vortex.Presentation.Wpf.RelayCommand"/>.
+            </summary>
+            <param name="executeMethod">Method to be executed with this command.</param>
+            <param name="canExecuteMethod">Can execute method determined whether this command can be executed.</param>
+            <param name="callerObject">Object that invoked this command.</param>
+            <param name="commandName">Optional command description of the command to enrich the logged data.</param>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RelayCommand.#ctor(System.Action{System.Object},System.Func{System.Object,System.Boolean})">
+            <summary>
+            Creates new instance of <see cref="T:Vortex.Presentation.Wpf.RelayCommand"/>.
+            </summary>
+            <param name="executeMethod">Method to be executed with this command.</param>
+            <param name="canExecuteMethod">Can execute method determined whether this command can be executed.</param>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RelayCommand.#ctor(System.Action{System.Object})">
+            <summary>
+            Creates new instance of <see cref="T:Vortex.Presentation.Wpf.RelayCommand"/>.
+            </summary>
+            <param name="executeMethod">Method to be executed with this command.</param>        
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.CreatorFailureDisplayBox">
+            <summary>
+               Displays failures from <see cref="T:Vortex.Presentation.Wpf.Renderer"/>.    
+            </summary>
+            <summary>
+            CreatorFailureDisplayBox
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.CreatorFailureDisplayBox.#ctor">
+            <summary>
+            Creates new instance of <see cref="T:Vortex.Presentation.Wpf.CreatorFailureDisplayBox"/>.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.CreatorFailureDisplayBox.#ctor(System.Exception,Vortex.Presentation.Wpf.ReportingLevel)">
+            <summary>
+            Creates new instance of <see cref="T:Vortex.Presentation.Wpf.CreatorFailureDisplayBox"/>
+            </summary>
+            <param name="description"></param>
+            <param name="severity"></param>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.CreatorFailureDisplayBox.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.LazyRenderer">
+            <summary>
+            Provides visual rendering that creates containers of which content is rendering delayed until the actual view is made visible.
+            </summary>
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.LazyRenderer.Get">
+            <summary>
+            Gets singleton instance of <see cref="T:Vortex.Presentation.Wpf.Renderer"/>
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.Object,System.Object,System.Windows.FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)">
+            <summary>
+            Creates pre-rendered containers that are fully rendered when made visible.
+            </summary>
+            <param name="presentationType">Presentation type</param>
+            <param name="vortexObject">Object which should be visually represented.</param>
+            <param name="rootContainer">Optionaly provides root container when the default option is not desirable.</param>
+            <param name="preferCustomized">Instructs the renderer to prefer the use of layouting and other paramters from the customized control.</param>
+            <param name="reportingLevel">Reporting level <see cref="T:Vortex.Presentation.Wpf.ReportingLevel"/></param>
+            <param name="maxObjectsInDesignMode">Max object that should be rendered in design mode.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.RenderableContentControl">
+            <summary>
+              Extended content control that allows to render objects deriving form <see cref="T:Vortex.Connector.IVortexObject"/> or <see cref="T:Vortex.Connector.IValueTag"/> into UI Content.
+            </summary>
+            <example Title="This example demonstrates rendering in MVVM setting.">
+                <code source="..\Examples\PresentationWpfExamples\MVVM\RenderableContentControl\AutoRenderingView.xaml" lang="xaml"></code>
+                <code source="..\Examples\PresentationWpfExamples\MVVM\RenderableContentControl\AutoRenderingView.xaml.cs" lang="C#"></code>
+                <code source="..\Examples\PresentationWpfExamples\MVVM\RenderableContentControl\AutoRenderingViewModel.cs" lang="C#"></code>
+            </example>
+            <seealso cref="T:Vortex.Presentation.Wpf.RenderableViewModel"/>
+            <seealso cref="T:Vortex.Presentation.Wpf.RenderContentConverter"/>
+            <seealso cref="T:Vortex.Presentation.Wpf.Renderer"/>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RenderableContentControl.Create(Vortex.Connector.IVortexObject,System.String)">
+             <summary>
+             Create representation of an object according the PresentationType
+             </summary>
+             <param name="obj"><see cref="T:Vortex.Connector.IVortexObject"/> to be rendered.</param>
+             <param name="presentationType">Presentation type (e.g. 'Display', 'Control')</param>
+             <returns>Rendered presentation of given object.</returns>
+            <example>
+                 <code source="..\Examples\PresentationWpfExamples\CB\RenderableContentControlExample\AutoRenderingViewCodeBehind.xaml" lang="xaml"></code>
+                 <code source="..\Examples\PresentationWpfExamples\CB\RenderableContentControlExample\AutoRenderingViewCodeBehind.xaml.cs" lang="C#"></code>
+             </example>
+             <seealso cref="T:Vortex.Presentation.Wpf.RenderableViewModel"/>
+             <seealso cref="T:Vortex.Presentation.Wpf.RenderContentConverter"/>
+             <seealso cref="T:Vortex.Presentation.Wpf.Renderer"/>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RenderableContentControl.#ctor">
+            <summary>
+            Creates new instance of <see cref="T:Vortex.Presentation.Wpf.RenderableContentControl"/>
+            </summary>
+        </member>
+        <member name="F:Vortex.Presentation.Wpf.RenderableContentControl.DesignTime">
+            <summary>
+            Determines whether the object is in Design Mode.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RenderableContentControl.RenderableContentControl_DataContextChanged(System.Object,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Executes when 'DataContext' of this <see cref="T:Vortex.Presentation.Wpf.RenderableContentControl"/> changes.
+            </summary>
+            <param name="sender">Sender object.</param>
+            <param name="e">Event arguments.</param>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RenderableContentControl.RenderableContentControl_IsVisibleChanged(System.Object,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Executes when IsVisible property of this <see cref="T:Vortex.Presentation.Wpf.RenderableContentControl"/> changes.
+            </summary>
+            <param name="sender">Sender object.</param>
+            <param name="e">Event arguments.</param>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RenderableContentControl.RenderableContentControl_RequestBringIntoView(System.Object,System.Windows.RequestBringIntoViewEventArgs)">
+            <summary>
+            Executes when this <see cref="T:Vortex.Presentation.Wpf.RenderableContentControl"/> is requested to be brought into view.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RenderableContentControl.RenderContent">
+            <summary>
+            Renders content of this <see cref="T:Vortex.Presentation.Wpf.RenderableContentControl"/> form the object stored in 'DataContext'
+            property.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RenderableContentControl.ClearContainer">
+            <summary>
+                Clears the content of the container of this <see cref="T:Vortex.Presentation.Wpf.RenderableContentControl"/>.
+            </summary>
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.RenderableContentControl.PresentationType">
+            <summary>
+            Gets or sets the presentation type for the content rendered by this <see cref="T:Vortex.Presentation.Wpf.RenderableContentControl"/>.
+            PresentationType defines the pipeline to be followed by the <see cref="T:Vortex.Presentation.Wpf.Renderer"/> to deliver desired content in desired form.        
+            </summary>
+            <seealso cref="T:Vortex.Presentation.Wpf.Renderer"/>      
+            <seealso cref="T:Vortex.Presentation.Wpf.RenderableViewModel"/>
+        </member>
+        <member name="F:Vortex.Presentation.Wpf.RenderableContentControl.PresentationTypeProperty">
+            <summary>
+            Gets or sets the presentation type for the content rendered by this <see cref="T:Vortex.Presentation.Wpf.RenderableContentControl"/>.
+            PresentationType defines the pipeline to be followed by the <see cref="T:Vortex.Presentation.Wpf.Renderer"/> to deliver desired content in desired form.        
+            </summary>
+            <seealso cref="T:Vortex.Presentation.Wpf.Renderer"/>  
+            <seealso cref="T:Vortex.Presentation.Wpf.RenderableViewModel"/>
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.RenderableContentControl.Container">
+            <summary>
+            Gets or sets the container in which the content is rendered.
+            </summary>
+        </member>
+        <member name="F:Vortex.Presentation.Wpf.RenderableContentControl.ContainerProperty">
+            <summary>
+            Gets or sets the container in which the content is rendered.
+            </summary>        
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.RenderableContentControl.ReportingLevel">
+            <summary>
+            Gets or sets reporting level of possible messages or errors that might be produced by the rendering process.
+            </summary>
+        </member>
+        <member name="F:Vortex.Presentation.Wpf.RenderableContentControl.ReportingLevelProperty">
+            <summary>
+            Gets or sets reporting level of possible messages or errors that might be produced by the rendering process.
+            </summary>
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.RenderableContentControl.MaxObjectsInDesignMode">
+            <summary>
+            Gets or sets maximal number of object to be rendered in design mode.
+            </summary>
+        </member>
+        <member name="F:Vortex.Presentation.Wpf.RenderableContentControl.MaxObjectsInDesignModeProperty">
+            <summary>
+            Gets or sets maximal number of object to be rendered in design mode.
+            </summary>
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.RenderableContentControl.PreferCustomized">
+            <summary>
+            Gets or sets weather the render should prefer cusomized view layout over default.
+            </summary>
+        </member>
+        <member name="F:Vortex.Presentation.Wpf.RenderableContentControl.PreferCustomizedProperty">
+            <summary>
+            Gets or sets weather the render should prefer cusomized view layout over default.
+            </summary>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.RenderableViewModel">
+            <summary>
+            Abstract class for implementation of renderable ViewModel types.    
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RenderableViewModel.#ctor">
+            <summary>
+            Creates new instance of <see cref="T:Vortex.Presentation.Wpf.RenderableViewModel"/>
+            </summary>
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.RenderableViewModel.Model">
+            <summary>
+            Gets or sets model object for this ViewModel type.
+            </summary>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.RenderContentConverter">
+            <summary>
+                Value Converter provides rendering of <see cref="!:Twin"/> objects  implementing <see cref="T:Vortex.Connector.IVortexObject"/> or <see cref="T:Vortex.Connector.IValueTag"/>.
+            </summary>
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.RenderContentConverter.ParentContainer">
+            <summary>
+            Gets or sets the parent container for the content rendered by this converter.
+            </summary>
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.RenderContentConverter.PresentationType">
+            <summary>
+            Gets or sets presentation type of the content rendered by this converter.
+            </summary>
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.RenderContentConverter.ReportingLevel">
+            <summary>
+            Gets or sets reporting level of possible messages or errors that might be produced by the rendering process.
+            </summary>
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.RenderContentConverter.MaxCountInDesignMode">
+            <summary>
+            Gets or sets maximum number of object rendered in Design mode.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RenderContentConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts an object that derives form <see cref="T:Vortex.Connector.IVortexObject"/> or <see cref="T:Vortex.Connector.IValueTag"/>
+            into UI representation following 'PresentationType' pipeline.
+            </summary>
+            <param name="value">object <see cref="T:Vortex.Connector.IVortexObject"/> or <see cref="T:Vortex.Connector.IValueTag"/></param>
+            <param name="targetType">Target type</param>
+            <param name="parameter">Presentation type</param>
+            <param name="culture">Culture</param>
+            <returns><see cref="T:System.Windows.FrameworkElement"/></returns>        
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RenderContentConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Not implemented for <see cref="T:Vortex.Presentation.Wpf.RenderContentConverter"/>
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RenderContentConverter.ProvideValue(System.IServiceProvider)">
+            <summary>
+            Provides instance of this <see cref="T:Vortex.Presentation.Wpf.RenderContentConverter"/>
+            </summary>
+            <param name="serviceProvider">Service provider.</param>
+            <returns><see cref="T:Vortex.Presentation.Wpf.RenderContentConverter"/></returns>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.RenderContentDelayedConverter">
+            <summary>
+             Value Converter provides rendering of objects implementing <see cref="T:Vortex.Connector.IVortexObject"/> or <see cref="T:Vortex.Connector.IValueTag"/>.
+             <see cref="T:Vortex.Presentation.Wpf.RenderContentDelayedConverter"/> delays the rendering until the object is requested to be rendered by UI.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.RenderContentDelayedConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts an object that derives form <see cref="T:Vortex.Connector.IVortexObject"/> or <see cref="T:Vortex.Connector.IValueTag"/> 
+            into UI representation following 'PresentationType' pipeline.
+            </summary>
+            <param name="value">object <see cref="T:Vortex.Connector.IVortexObject"/> or <see cref="T:Vortex.Connector.IValueTag"/></param>
+            <param name="targetType">Target type</param>
+            <param name="parameter">Presentation type</param>
+            <param name="culture">Culture</param>
+            <returns><see cref="T:System.Windows.FrameworkElement"/></returns>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.Renderer">
+            <summary>
+            <see cref="T:Vortex.Presentation.Wpf.Renderer"/> renders representation for object that derive <see cref="T:Vortex.Connector.IVortexObject"/> or <see cref="T:Vortex.Connector.IValueTag"/>  
+            </summary>                
+            <conceptualLink target="f89438a0-b071-411f-9c91-3061a8156633"/>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.Renderer.AttachAssembliesInDesignMode">
+            <summary>
+            Loads assemblies in design mode.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.Renderer.AttachAllAssemblieFromApplicationDomain">
+            <summary>
+            Loads all assemblies from the application domain of currently running application.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesAtRuntime">
+            <summary>
+            Loads all assemblies from current application directory that have defined <see cref="T:Vortex.Presentation.Wpf.RenderableAssemblyAttribute"/>.
+            These assemblies are then search for corresponding Views and ViewModel.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.Renderer.AttachAssemblyToLookUpList(System.String)">
+            <summary>
+            Attaches the assembly with given assembly name to the list of assemblies that are being searched for 
+            Views and ViewModels.
+            </summary>
+            <param name="assemblyName"></param>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement)">
+            <summary>
+            Creates presentation of <see cref="T:Vortex.Connector.IVortexObject"/> of given presentation type.
+            </summary>
+            <param name="presentationType">Presentation type</param>
+            <param name="vortexObject"><see cref="T:Vortex.Connector.IVortexObject"/> from which the presentation will be rendered.</param>
+            <param name="parentContainer">Optionally can be parent UI container.</param>       
+            <returns></returns>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement)">
+            <summary>
+            Creates presentation of <see cref="T:Vortex.Connector.IValueTag"/> of given presentation type.
+            </summary>
+            <param name="presentationType">Presentation type</param>
+            <param name="vortexObject"><see cref="T:Vortex.Connector.IValueTag"/> from which the presentation will be rendered.</param>
+            <param name="parentContainer">Optionally can be parent UI container.</param>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.Renderer.CreatePresentation(System.Object,System.Object,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32,System.Boolean)">
+            <summary>
+            Creates presentation of <see cref="T:Vortex.Connector.IVortexObject"/> or <see cref="T:Vortex.Connector.IValueTag"/> of given presentation type.
+            </summary>
+            <param name="presentationType">Presentation type</param>
+            <param name="vortexObject">Object to be represented.</param>
+            <param name="preferCustomized">Instructs the renderer to prefer the use of layouting and other paramters from the customized control.</param>
+            <param name="reportingLevel">Reporting level.</param>
+            <param name="maxObjectsInDesignMode">Max number of object to be displayed in design mode.</param>
+            <param name="cacheVisuals">When true indicates that created visuals will be cached when first time created. This value is set to 'true' by default.</param>
+            <returns>Visual representation of given presentation type for given object </returns>
+            <note type = "note" >
+                When caching is enabled all visual elements are held in memory. This might increase footprint of the application.
+                Caching elements on the other hand reduces the workload when the same visual element is used repeatedly during the 
+                lifetime of the application.     
+            </note >
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.Renderer.GetEnumeratorDiscriminatorAttribute(Vortex.Connector.IVortexElement)">
+            <summary>
+            Returns Enumerator description attribute for given member.
+            </summary>
+            <param name="vortexObject">Object on which the attribute will be searched.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.Renderer.GetPropertyViaSymbol(Vortex.Connector.IVortexElement)">
+            <summary>
+            Locates property of <see cref="T:Vortex.Connector.IVortexObject"/> via its symbol.
+            </summary>
+            <param name="vortexObject"><see cref="T:Vortex.Connector.IVortexObject"/> of which property info is to be located via its symbol.</param>
+            <returns><see cref="T:System.Reflection.PropertyInfo"/> of the property located via symbol information.</returns>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.Renderer.GetReferencedAssemblies">
+            <summary>
+            Returns lookup assemblies.
+            </summary>
+            <returns>String of lookup assemblies.</returns>
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.Renderer.Get">
+            <summary>
+            Gets singleton instance of <see cref="T:Vortex.Presentation.Wpf.Renderer"/>
+            </summary>
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.Renderer.ReportingSeverity">
+            <summary>
+            Gets or sets <see cref="T:Vortex.Presentation.Wpf.ReportingLevel"/> that displays messages and errors that might occur during the rendering process.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.Renderer.GetView(System.String,System.Type)">
+            <summary>
+            Gets the view of given presentation type for given object type.
+            </summary>
+            <param name="presentationType">Presentation type</param>
+            <param name="objType">Object type</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.Renderer.GetViewModel(System.String,System.Type,System.Object)">
+            <summary>
+            Gets the view model for given object type and given presentation type.
+            </summary>
+            <param name="presentationType">Presentation type</param>
+            <param name="objType">Object type</param>
+            <param name="model">Model object</param>
+            <returns></returns>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.ReportingLevel">
+            <summary>
+            Enumerates level of reporting from <see cref="T:Vortex.Presentation.Wpf.Renderer"/>.
+            </summary>
+        </member>
+        <member name="F:Vortex.Presentation.Wpf.ReportingLevel.None">
+            <summary>
+            No reporting. Rendered objects will not display messages related to rendering process.
+            This is default option for production environment.
+            </summary>
+        </member>
+        <member name="F:Vortex.Presentation.Wpf.ReportingLevel.Info">
+            <summary>
+            Rendered objects will display information messages related to rendering process. Not to be used in production only for debugging.
+            </summary>
+        </member>
+        <member name="F:Vortex.Presentation.Wpf.ReportingLevel.Warnings">
+            <summary>
+            Rendered objects will display information warnings related to rendering process. Not to be used in production only for debugging.
+            </summary>
+        </member>
+        <member name="F:Vortex.Presentation.Wpf.ReportingLevel.Errors">
+            <summary>
+            Rendered objects will display information errors related to rendering process. Not to be used in production only for debugging.
+            </summary>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.TestView">
+            <summary>
+            Interaction logic for TestView.xaml
+            </summary>
+            <summary>
+            TestView
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.TestView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.MenuControlView">
+            <summary>
+            Interaction logic for MainView.xaml
+            </summary>
+            <summary>
+            MenuControlView
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.MenuControlView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.NavCommand.ShowInWindow(System.Object)">
+            <summary>
+            Shows content in separate window.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.NavCommand.ShowDialogueInWindow(System.Object)">
+            <summary>
+            Shows content in separate dialogue window.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.NavigableViewModelBase.ShowDialogueInWindow(System.Windows.FrameworkElement)">
+            <summary>
+            Shows content in separate dialogue window.
+            </summary>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.PresentationHelper">
+            <summary>
+            Presentation helper class.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.PresentationHelper.IsDesignMode">
+            <summary>
+            Determines whether the current environment is running in Design Mode.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.PresentationHelper.Dispatcher">
+            <summary>
+            Gets the <see cref="P:Vortex.Presentation.Wpf.PresentationHelper.Dispatcher"/> associated with the main window of current application.
+            </summary>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.WpfLayoutProvider">
+            <summary>
+            Provides layout provider for Vortex WPF application.
+            </summary>        
+            <example><code source="..\Examples\PresentationWpfExamples\App.xaml.cs" region="CreateLayoutProvider" lang="C#"></code></example>
+            <note>For proper function of layout provider it is necessary that all assemblies are copied to the output directory of the application. 
+            Make sure that all referenced assemblies required for layout rendering have the parameter Copy Local set to 'true'. 
+            In particular: <see cref="!:PresentationFramework"/> must be copied to the output directory of the application.</note>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.WpfLayoutProvider.#ctor">
+            <summary>
+            Creates new instance of <see cref="T:Vortex.Presentation.Wpf.WpfLayoutProvider"/>
+            </summary>        
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.WpfLayoutProvider.GetControl(Layout)">
+            <summary>
+            Gets layout control.
+            </summary>
+            <param name="layoutType">Type of <see cref="T:Layout"/></param>
+            <returns></returns>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.RenderableAssemblyAttribute">
+            <summary>
+            Assembly attribute to notify consumers that the assembly is contains types eligible in the automated UI rendering process.
+            </summary>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.StartUpWindow">
+            <summary>
+            Interaction logic for StartUpWindow.xaml
+            </summary>
+            <summary>
+            StartUpWindow
+            </summary>
+        </member>
+        <member name="F:Vortex.Presentation.Wpf.StartUpWindow.OverlayContent">
+            <summary>
+            OverlayContent Name Field
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.StartUpWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Vortex.Presentation.Wpf.ConsoleWriter">
+            <summary>
+            The console writer.
+            </summary>
+        </member>
+        <member name="E:Vortex.Presentation.Wpf.ConsoleWriter.WriteEvent">
+            <summary>
+            The write event.
+            </summary>
+        </member>
+        <member name="E:Vortex.Presentation.Wpf.ConsoleWriter.WriteLineEvent">
+            <summary>
+            The write line event.
+            </summary>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.ConsoleWriter.Write(System.String)">
+            <summary>
+            The write.
+            </summary>
+            <param name="value">
+            The value.
+            </param>
+        </member>
+        <member name="M:Vortex.Presentation.Wpf.ConsoleWriter.WriteLine(System.String)">
+            <summary>
+            The write line.
+            </summary>
+            <param name="value">
+            The value.
+            </param>
+        </member>
+        <member name="P:Vortex.Presentation.Wpf.ConsoleWriter.Encoding">
+            <summary>
+            Gets the encoding.
+            </summary>
+        </member>
+    </members>
+</doc>

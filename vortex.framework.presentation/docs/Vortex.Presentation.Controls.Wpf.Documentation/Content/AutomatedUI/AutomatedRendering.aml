@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="f89438a0-b071-411f-9c91-3061a8156633" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">   
+    <summary>
+      <para>Following documentation describes automated visualisation rendering process for WPF applications.</para>
+    </summary>
+   
+    <introduction>      
+      <para>
+            Visualization rendering mechanism provides automated way of representing objects that are product of compilation process of Vortex.Builder.
+            Vortex.Builder tran-spiles data declarations and structures of the PLC program into objects accessible in .net environment, shuch objects are called
+            'Twin's.              
+      </para>
+      <para>
+            Each complex Twin type object emitted by the Vortex.Builder implements 'IVortexObject' interface and each base (value) type (or tag) Twin
+            implements 'IValueTag' interface. Base types will be referred to as 'Value Tags' . Object implementing one of these two interfaces can be rendered by the 'Renderer'.
+      </para>
+      <para>
+            Multiple object can be rendered in hierarchal structure replicating the structure of Twin object. Additional layout attribute can direct the rendering
+            process. An object of rendering process will be calle <codeInline>Twin Visual</codeInline>.             
+      </para>
+    </introduction>
+    <section address="Section1">
+        <title>Principle of operation</title>  
+        <content>
+            <para>
+                The <codeInline>Renderer</codeInline> class provides core functionality for rendering <codeInline>Twin Visual</codeInline>s. <codeInline>Renderer</codeInline> 
+                takes as parameters Twin object and desired type of representation. Renderer runs accross the recursivelly the structure of the Twin object, looking for an
+                existing 'View' for given type of Twin object and required presentation type.
+                
+                When a 'View' for a Twin object is located respective 'View' is added to the Visual tree and recursion stops for that object, but continues at the same recursion
+                level if any other objects are present.
+                
+                When there are no Views located for an object the Renderer will run the recusion to the Value Tag and represent it from the piking up a respective represantion from
+                the base control library.
+            </para>
+           
+                
+            <code title="stCounter"  language="pascal">
+              {attribute wpf [Container(Layout.Stack)]}
+              TYPE stCounter :
+                STRUCT
+	                {attribute addProperty Name "Allow counting"}
+	                {attribute addProperty ToolTip "Allows the counter to increment value."}
+	                _doCount : BOOL;
+	                {attribute addProperty Name "Counter"}
+	                {attribute addProperty ToolTip "Counter value."}
+	                _counterValue : INT;	
+	                {attribute addProperty Name "Reset Counter"}
+	                {attribute addProperty ToolTip "Resets counter to 0"}
+	                _resetCounterValue : BOOL;
+                END_STRUCT
+              END_TYPE
+            </code>
+        
+            <code region="CodeBehindRenderingDisplay" 
+                   title="Creates base presentation" 
+                   source="..\Examples\PresentationWpfExamples\CB\RenderableContentControlExample\AutoRenderingViewCodeBehind.xaml.cs"                   
+                   language="c#"></code>  
+          
+           <mediaLink>
+              <caption>stCounter is represented like this when there is no 'View' defined for 'Display' presentation type.</caption>
+              <image placement="center" xlink:href="RenderCouterNoCustomView"/>
+            </mediaLink>
+        
+            <code region="RenderedWithManualType" 
+                  title="Creates manual presentation" 
+                  source="..\Examples\PresentationWpfExamples\CustomizedPresentations\fbCounter\CounterCustomizedView.xaml.cs"
+                  language="c#"></code>
+
+            <mediaLink>
+              <caption>stCounter is represented like this when there is 'View' defined for 'Manual' presentation type.</caption>
+              <image placement="center" xlink:href="AutomatedUIRenderedAsManual"/>
+            </mediaLink>                 
+        </content>
+        <sections>
+        <section address="Section1-1">
+          <title>Assemblies and Views and ViewModels</title>
+          <content>
+             <para>
+                Renderer searches for the respective View/VieModel in assemblies that are present in the application directory. Assemblies are located
+                automatically providing that:
+            </para>           
+            <list class="bullet">
+                <listItem>              
+                  <para>
+                     assembly of the running application (automatically included).
+                  </para>                  
+                </listItem>
+                <listItem>
+                  <para>
+                     assembly declares <codeInline>RenderableAssemblyAttribute</codeInline>.                
+                  </para>             
+                </listItem>
+            </list>
+            <alert class="tip">
+            <para>
+              Assemblies that do not meet above listed requirements can be added manually by calling              
+              <codeInline>
+                Renderer.Get.AttachAssemblyToLookUpList("assemblyName");
+              </codeInline>              
+            </para>              
+          </alert>
+            <alert class="note">
+                <para>
+                  The application assembly i searched for Views and ViewModel before searching other assembly. Any definition of matching View or ViewModel in the application
+                  assembly will override possible Views or ViewModels in other assemblies.
+                </para>
+            </alert>
+            <alert class="important">
+                <para>
+                    Assembly must be located in the directory of the running application.
+                </para>
+            </alert>          
+         </content>
+        </section>
+    </sections>
+    </section>
+    
+    <section address="Section2">
+      <title>Creating and customizing renderable controls</title>
+      <content>        
+        <para>
+          Visualisation rendering is based on a variant of Locator Pattern. The visual represnetation of an Twin object will be called 'View'. 
+          Twin object that is to be represented will be called 'Model'. 'ViewModel' will be called an object that encapsulated 'Model' object
+          and additional interaction logic between 'View' and 'Model'.
+        </para>
+        <para>
+          Each View has a 'DataContex' object that can be either'Model' object (direct bining to representation of Twin object)
+          or a 'ViewModel' that encapsulated Mode of Twin object.
+        </para>
+        <para>
+           
+        </para>
+        <alert class="note">
+          <para>
+            When the 'ViewModel'is not defined the the 'DataContext' of the View will be the 'Model' that is respective 'IVortexObject' or 'IValueTag'.
+          </para>
+        </alert>
+      </content>
+      <sections>
+      
+        <section address="Section1-2">
+          <title>View and ViewModel location</title>
+          <content>
+            <para>
+                View and ViewModel for given type of object are located accoring to naming convention 
+                where the name of the View and ViewModel starts with the name of the obect type suffixed
+                with <codeInline>View</codeInline> for Views and <codeInline>ViewModel</codeInline> for ViewModels.
+                The View and ViewModel must be placed in the same namespace in which the type is located.
+                In addition to that <codeInline>View</codeInline> and <codeInline>ViewModel</codeInline> can be
+                prefixed with 'Presentation type' signature that will determine the type of the UI presentation
+                that shall be rendered.
+            </para>            
+            <para>
+              Object <codeInline>stCounter</codeInline> will be represented in its presentation form 'Base' by the View named <codeInline>stCounterView</codeInline> 
+              with ViewModel <codeInline>stCounterViewModel</codeInline> 
+              when the rendering is created by calling the renderer <codeInline>Renderer.Get.CreatePresentation("Base")</codeInline>.              
+            </para>
+            
+            <code title="stCounterView.xaml" source="..\Examples\PresentationWpfExamples\CustomizedPresentations\fbCounter\Base\stCounterView.xaml" language="xaml"></code>
+            <code title="stCounterView.xaml.cs" source="..\Examples\PresentationWpfExamples\CustomizedPresentations\fbCounter\Base\stCounterView.xaml.cs" language="c#"></code>
+            <code title="stCounterViewMode.cs" source="..\Examples\PresentationWpfExamples\CustomizedPresentations\fbCounter\Base\stCounterViewModel.cs" language="c#"></code>
+
+            <code region="RendererWithBaseType" title="Creates base presentation" source="..\Examples\PresentationWpfExamples\CustomizedPresentations\fbCounter\CounterCustomizedView.xaml.cs"                   
+                  language="c#"></code>
+
+            <mediaLink>
+              <caption>Renderer will create following Base UI rapresentation of stCounter</caption>
+              <image placement="center" xlink:href="AutomatedUIRenderedAsBase"/>
+            </mediaLink>
+                             
+            <para>
+              Object <codeInline>fbCounter</codeInline> will be represented in its presentation form 'Manual' by the View named <codeInline>fbCounterView</codeInline> 
+              with ViewModel <codeInline>fbCounterViewModel</codeInline> 
+              when the rendering is created by calling the renderer <codeInline>Renderer.Get.CreatePresentation("Manual")</codeInline>.              
+            </para>
+
+            <code title="stCounterManualView.xaml" 
+                  source="..\Examples\PresentationWpfExamples\CustomizedPresentations\fbCounter\Manual\stCounterManualView.xaml" 
+                  language="xaml"></code>
+            <code title="stCounterManualView.xaml.cs" 
+                  source="..\Examples\PresentationWpfExamples\CustomizedPresentations\fbCounter\Manual\stCounterManualView.xaml.cs" 
+                  language="c#"></code>
+            <code title="stCounterManualViewMode.cs" 
+                  source="..\Examples\PresentationWpfExamples\CustomizedPresentations\fbCounter\Manual\stCounterManualViewModel.cs" 
+                  language="c#"></code>
+
+            <code region="RenderedWithManualType" 
+                  title="Creates manual presentation" 
+                  source="..\Examples\PresentationWpfExamples\CustomizedPresentations\fbCounter\CounterCustomizedView.xaml.cs"
+                  language="c#"></code>
+
+            <mediaLink>
+              <caption>Renderer will create following Manual UI rapresentation of stCounter</caption>
+              <image placement="center" xlink:href="AutomatedUIRenderedAsManual"/>
+            </mediaLink>                       
+          </content>
+          <sections>
+            <section address="Section1-2-3">
+              <title>Pipelining</title>
+              <content>
+                 <para>
+                   In some instances it is desirable to render different types of presentation when there is no View or ViewModel defined for some type of presentation.
+                   In that case the rednerer is called with the parameter presentation type containing different types of presentation separated by '-'.
+                   <codeInline>Renderer.Get.CreatePresentation("Diagnostics-Manual")</codeInline>. In this case is if the 'Diagnostic' type View and ViewModel are not defined
+                   the View/ViewModel of 'Manual' type is rendered.
+                 </para>
+                
+                <code region="RenderedWithPipelineDiagnosticsManual"
+                   title="Creates manual presentation"
+                   source="..\Examples\PresentationWpfExamples\CustomizedPresentations\fbCounter\CounterCustomizedView.xaml.cs"
+                   language="c#"></code>
+
+                <mediaLink>
+                  <caption>Renderer will create following Manual UI rapresentation of stCounter. Diagnostics does not exists.</caption>
+                  <image placement="center" xlink:href="RenderAsDiagnosticsManual"/>
+                </mediaLink>
+
+                <code region="RenderedWithPipelineDiagnosticsBase"
+                   title="Creates manual presentation"
+                   source="..\Examples\PresentationWpfExamples\CustomizedPresentations\fbCounter\CounterCustomizedView.xaml.cs"
+                   language="c#"></code>
+
+                <mediaLink>
+                  <caption>Renderer will create following Base UI rapresentation of stCounter. 'Diagnostics' does not exists.</caption>
+                  <image placement="center" xlink:href="RenderAsDiagnosticsBase"/>
+                </mediaLink>
+              </content>
+            </section>            
+          </sections>                    
+        </section>
+        <section address="Section1-3">
+          <title>Consuming defined Views and ViewModel</title>
+          <content>            
+            <code title="stCounterManualView.xaml" source="..\Examples\PresentationWpfExamples\CustomizedPresentations\fbCounter\CounterCustomizedView.xaml" language="xaml"></code>
+            <code title="stCounterManualView.xaml.cs" source="..\Examples\PresentationWpfExamples\CustomizedPresentations\fbCounter\CounterCustomizedView.xaml.cs" language="c#"></code>
+            
+            <mediaLink>
+              <caption>UI Presentation from example above</caption>
+              <image placement="center" xlink:href="RendererConsumingExample"/>
+            </mediaLink>            
+          </content>
+        </section>
+      </sections>   
+    </section>
+    
+    <section address="Section3">
+      <title>Controlling layout</title>      
+      <content>
+        <para>
+          Resulting visual layout can be controlled by placing layout attributes to the PLC types and variable declarations. Let's consider following code.
+          fbStations contains two members _st01 and _st02. Notice that fbStation has attribute [Container(Layout.Tabs)] defined which means that all subsequence 
+          members will be placed in 'TabControl' until next container is found.
+        </para>
+        <code>
+          {attribute wpf [Container(Layout.Tabs)]}
+          FUNCTION_BLOCK fbStations
+          VAR
+          	_st01 : fbStation01;
+          	_st02 : fbStation02;
+          END_VAR
+        </code>
+        <para>
+          fbStation01 has [Container(Layout.Stack)] defined. A stack panel will be created and placed on separate 'TabItem' in the 'TabControl' with header
+          stored in addedProperty 'Name' in this case 'ST 01'. All following members will be placed on this stack panel until new container is hit. 
+          Next container in this case is Wrap panel [Container(Layout.Wrap)] declared on '_step' member. All subsequent members (_step and _stepDescription) 
+          are placed in the Wrap panel until next container is hit.          
+          Next layout attribute is declared on _dataMember which is [Container(Layout.Wrap)] of which parent container of this Stack panel of 'fbStation01' structure.
+        </para>
+        <code>          
+          {attribute wpf [Container(Layout.Stack)]}
+          {attribute wpf [Group(Layout.Scroll)]}
+          {attribute addProperty Name "ST 01"}
+          FUNCTION_BLOCK fbStation01
+          VAR	
+	          {attribute wpf [Container(Layout.Wrap)]}
+	          {attribute addProperty Name "Step Number"}
+	          {attribute clr [ReadOnly()]}
+	          _step : INT;
+	          {attribute addProperty Name "Step description"}
+	          {attribute clr [ReadOnly()]}
+	          _stepDescription : STRING;
+	          {attribute wpf [Container(Layout.Wrap)]}	
+	          {attribute addProperty Name "Data"}
+	          _data : stStation01_Data;
+	          {attribute addProperty Name "Components"}
+	          _components : stStation01_Components;
+          END_VAR
+        </code>      
+        <code>
+          {attribute wpf [Container(Layout.Stack)]}
+          TYPE stStation01_Data :
+          STRUCT
+	          {attribute addProperty Name "X Min"}
+	          DimXMin : REAL;	
+	          {attribute clr [ReadOnly()]}
+	          {attribute addProperty Name "X Measured"}
+	          DimXMeasured : REAL;	
+	          {attribute addProperty Name "X Max"}
+	          DimXMax : REAL;
+	          {attribute addProperty Name "Result"}
+	          Result : STRING;
+          END_STRUCT
+          END_TYPE
+
+        </code>
+        <code>
+          {attribute wpf [Container(Layout.Stack)]}
+          TYPE stStation01_Components :
+          STRUCT
+          	{attribute addProperty Name "Sensor X"}
+          	SensorX : REAL;
+          	
+          	{attribute wpf [Container(Layout.Wrap)]}
+          	{attribute addProperty Name "Upper piston sensor"}
+          	PistonUpPosition AT %I* : BOOL;
+          	{attribute addProperty Name "Bottom piston sensor"}
+          	PistonDownPosition AT %I* : BOOL;
+          	
+          	{attribute wpf [Container(Layout.Wrap)]}
+          	{attribute addProperty Name "Move up piston singal"}
+          	MovePistonUp AT %Q* : BOOL;
+          	{attribute addProperty Name "Move down piston singal"}
+          	MovePistonDown AT %Q* : BOOL;
+          END_STRUCT
+          END_TYPE
+        </code>
+        
+      <code title="stCounterManualView.xaml.cs" source="..\Examples\PresentationWpfExamples\fbStations\Generic\StationsGenerated.xaml" language="c#"></code>
+      <mediaLink>
+              <caption>UI Presentation from example above</caption>
+              <image placement="center" xlink:href="ST01_RENDERING_EXAMPLE"/>
+            </mediaLink>    
+      </content>
+    </section>
+    <relatedTopics>
+      <!-- One or more of the following:
+           - A local link
+           - An external link
+           - A code entity reference
+
+      <link xlink:href="Other Topic's ID"/>
+      <link xlink:href="Other Topic's ID">Link inner text</link>
+
+      <externalLink>
+          <linkText>Link text</linkText>
+          <linkAlternateText>Optional alternate link text</linkAlternateText>
+          <linkUri>URI</linkUri>
+      </externalLink>
+
+      <codeEntityReference>API member ID</codeEntityReference>
+
+      Examples:
+
+      <link xlink:href="00e97994-e9e6-46e0-b420-5be86b2f8270" />
+      <link xlink:href="00e97994-e9e6-46e0-b420-5be86b2f8278">Some other topic</link>
+
+      <externalLink>
+          <linkText>SHFB on GitHub</linkText>
+          <linkAlternateText>Go to GitHub</linkAlternateText>
+          <linkUri>https://GitHub.com/EWSoftware/SHFB</linkUri>
+      </externalLink>
+
+      <codeEntityReference>T:TestDoc.TestClass</codeEntityReference>
+      <codeEntityReference>P:TestDoc.TestClass.SomeProperty</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor(System.String,System.Int32)</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.ToString</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.FirstMethod</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.SecondMethod(System.Int32,System.String)</codeEntityReference>
+      -->
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

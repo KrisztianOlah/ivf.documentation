@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="PresentationWpfExamples.CustomizePresentations.fbCounter.CounterCustomizedView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PresentationWpfExamples.CustomizePresentations.fbCounter"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <UniformGrid Grid.Row="0">
+            <GroupBox Header="Rendered as 'Base'" x:Name="stCounterBase"/>
+            <GroupBox Header="Rendered as 'Manual' " x:Name="stCounterManual"/>
+        </UniformGrid>
+        <GroupBox Header="Rendering with pipelines" Grid.Row="1">
+            <UniformGrid>
+                <GroupBox Header="Pipeline 'Diagnostics-Manual' rendered as 'Manual' (no view for 'Diagnostics')" x:Name="stCounterDiagnosticsManual"/>
+                <GroupBox Header="Pipeline 'Diagnostics-Base' rendered as 'Base' (no view for 'Diagnostics')" x:Name="stCounterDiagnosticsBase"/>
+            </UniformGrid>
+        </GroupBox>
+    </Grid>
+</UserControl>

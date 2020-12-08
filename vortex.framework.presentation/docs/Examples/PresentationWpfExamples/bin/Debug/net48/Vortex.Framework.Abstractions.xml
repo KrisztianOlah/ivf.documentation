@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vortex.Framework.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:Vortex.Framework.Abstractions.Journal.DummyJournal">
+            <summary>
+            Provides empty Journal class when journaling is not set up by other means.
+            </summary>
+        </member>
+        <member name="M:Vortex.Framework.Abstractions.Journal.DummyJournal.AddRecord(Vortex.Framework.Abstractions.Journal.JournalLogItem)">
+            <summary>
+            Adds Journal record.
+            </summary>
+            <param name="record"></param>
+        </member>
+        <member name="M:Vortex.Framework.Abstractions.Journal.DummyJournal.AppInfo(System.String)">
+            <summary>
+            Add application info.
+            </summary>
+            <param name="message">Application info message.</param>
+        </member>
+        <member name="M:Vortex.Framework.Abstractions.Presentation.PresentationProviderNotAssignedException.#ctor">
+            <summary>Initializes a new instance of the <see cref="T:Vortex.Framework.Abstractions.Presentation.PresentationProviderNotAssignedException"></see> class.</summary>
+        </member>
+        <member name="M:Vortex.Framework.Abstractions.Presentation.PresentationProviderNotAssignedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Initializes a new instance of the <see cref="T:Vortex.Framework.Abstractions.Presentation.PresentationProviderNotAssignedException"></see> class with serialized data.</summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo"></see> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext"></see> that contains contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="info">info</paramref> parameter is null.</exception>
+            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult"></see> is zero (0).</exception>
+        </member>
+        <member name="M:Vortex.Framework.Abstractions.Presentation.PresentationProviderNotAssignedException.#ctor(System.String,System.Exception)">
+            <summary>Initializes a new instance of the <see cref="T:Vortex.Framework.Abstractions.Presentation.PresentationProviderNotAssignedException"></see> class with a specified error message and a reference to the inner exception that is the cause of this exception.</summary>
+            <param name="message">The error message that explains the reason for the exception.</param>
+            <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+        </member>
+        <member name="T:Vortex.Framework.Abstractions.Security.AuthenticationServiceNotActiveException">
+            <summary>
+            Authentication service is not available exception.
+            </summary>
+        </member>
+        <member name="M:Vortex.Framework.Abstractions.Security.AuthenticationServiceNotActiveException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Initializes a new instance of the <see cref="T:Vortex.Framework.Abstractions.Security.AuthenticationServiceNotActiveException"></see> class with serialized data.</summary>
+            <param name="info">The object that holds the serialized object data.</param>
+            <param name="context">The contextual information about the source or destination.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="info">info</paramref> is null.</exception>
+        </member>
+        <member name="M:Vortex.Framework.Abstractions.Security.AuthenticationServiceNotActiveException.#ctor(System.String)">
+            <summary>Initializes a new instance of the <see cref="T:Vortex.Framework.Abstractions.Security.AuthenticationServiceNotActiveException"></see> class with a specified error message.</summary>
+            <param name="message">The error message that explains the reason for the exception.</param>
+        </member>
+        <member name="M:Vortex.Framework.Abstractions.Security.AuthenticationServiceNotActiveException.#ctor(System.String,System.Exception)">
+            <summary>Initializes a new instance of the <see cref="T:Vortex.Framework.Abstractions.Security.AuthenticationServiceNotActiveException"></see> class with a specified error message and a reference to the inner exception that is the cause of this exception.</summary>
+            <param name="message">The error message that explains the reason for the exception.</param>
+            <param name="inner">The exception that is the cause of the current exception. If the inner parameter is not null, the current exception is raised in a catch block that handles the inner exception.</param>
+        </member>
+        <member name="M:Vortex.Framework.Abstractions.Security.AuthenticationServiceNotActiveException.#ctor(System.String,System.Type)">
+            <summary>Initializes a new instance of the <see cref="T:Vortex.Framework.Abstractions.Security.AuthenticationServiceNotActiveException"></see> class with a specified error message and the permission type that caused the exception to be thrown.</summary>
+            <param name="message">The error message that explains the reason for the exception.</param>
+            <param name="type">The type of the permission that caused the exception to be thrown.</param>
+        </member>
+        <member name="M:Vortex.Framework.Abstractions.Security.AuthenticationServiceNotActiveException.#ctor(System.String,System.Type,System.String)">
+            <summary>Initializes a new instance of the <see cref="T:Vortex.Framework.Abstractions.Security.AuthenticationServiceNotActiveException"></see> class with a specified error message, the permission type that caused the exception to be thrown, and the permission state.</summary>
+            <param name="message">The error message that explains the reason for the exception.</param>
+            <param name="type">The type of the permission that caused the exception to be thrown.</param>
+            <param name="state">The state of the permission that caused the exception to be thrown.</param>
+        </member>
+        <member name="T:Vortex.Framework.Abstractions.Security.IAuthenticationService">
+            <summary>
+            Provides abstraction for authentication service in a vortex application.
+            </summary>
+        </member>
+        <member name="M:Vortex.Framework.Abstractions.Security.IAuthenticationService.AuthenticateUser(System.String,System.String)">
+            <summary>
+            Attempts to authenticate the user.
+            </summary>
+            <param name="username">User name</param>
+            <param name="password">Password</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vortex.Framework.Abstractions.Security.IAuthenticationService.DeAuthenticateCurrentUser">
+            <summary>
+            De-authenticates current user.
+            </summary>
+        </member>
+        <member name="M:Vortex.Framework.Abstractions.Security.IAuthenticationService.CalculateHash(System.String,System.String)">
+            <summary>
+            Calculates hash of the password
+            </summary>
+            <param name="clearTextPassword">Plain test password</param>
+            <param name="salt">Salt</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vortex.Framework.Abstractions.Security.IAuthenticationService.ChangePassword(System.String,System.String,System.String,System.String)">
+            <summary>
+            Changes the password of given user.
+            </summary>
+            <param name="userName">User name</param>
+            <param name="password">Old password</param>
+            <param name="newPassword1">New password</param>
+            <param name="newPassword2">New password</param>
+        </member>
+        <member name="P:Vortex.Framework.Abstractions.Security.IAuthenticationService.UserRepository">
+            <summary>
+            Users repository.
+            </summary>
+        </member>
+        <member name="E:Vortex.Framework.Abstractions.Security.IAuthenticationService.OnUserAuthenticateSuccess">
+            <summary>
+            Occurs when the uses is successfully authenticated.
+            </summary>
+        </member>
+        <member name="E:Vortex.Framework.Abstractions.Security.IAuthenticationService.OnUserAuthenticateFailed">
+            <summary>
+            Occurs when user authentication fails. 
+            </summary>
+        </member>
+        <member name="E:Vortex.Framework.Abstractions.Security.IAuthenticationService.OnDeAuthenticating">
+            <summary>
+            Occurs when current user is to be de-authenticated.
+            </summary>
+        </member>
+        <member name="E:Vortex.Framework.Abstractions.Security.IAuthenticationService.OnDeAuthenticated">
+            <summary>
+            Occurs when current user is de-authenticated.
+            </summary>
+        </member>
+        <member name="P:Vortex.Framework.Abstractions.Security.IAuthenticationService.OnTimedLogoutRequest">
+            <summary>
+            Delegate is used to prevent/allow automatic user logout. 
+            </summary>
+        </member>
+        <member name="P:Vortex.Framework.Abstractions.Security.IAuthenticationService.ExternalAuthorization">
+            <summary>
+            Get or set external authentication device.
+            </summary>
+        </member>
+        <member name="T:Vortex.Framework.Abstractions.Security.OnUserAuthentication">
+            <summary>
+            
+            </summary>
+            <param name="username"></param>
+        </member>
+        <member name="T:Vortex.Framework.Abstractions.Security.OnTimedLogoutRequestDelegate">
+            <summary>
+            Determines whether user can be logged out automatically.
+            </summary>
+            <returns>True when the user can be logged out automatically.</returns>
+        </member>
+        <member name="T:ContainerAttribute">
+            <summary>
+            Provides description of the container that shall contain the controls for data items.
+            </summary>
+        </member>
+        <member name="M:ContainerAttribute.#ctor(Layout)">
+            <summary>Initializes a new instance of the <see cref="T:ContainerAttribute" /> class.</summary>
+        </member>
+        <member name="M:GroupAttribute.#ctor(Layout)">
+            <summary>Initializes a new instance of the <see cref="T:ContainerAttribute" /> class.</summary>
+        </member>
+        <member name="F:Layout.Stack">
+            <summary>
+            Stack controls in order of declaration.
+            </summary>
+        </member>
+        <member name="F:Layout.Wrap">
+            <summary>
+            Wraps controls in order or declaration.
+            </summary>
+        </member>
+        <member name="F:Layout.Tabs">
+            <summary>
+            Organizes the controls into tab control. Each control that declares <see cref="T:ContainerAttribute"/> will be placed
+            into separate tab.
+            </summary>
+        </member>
+        <member name="F:Layout.Tree">
+            <summary>
+            Organizes the controls into tree control. Each control that declares <see cref="T:ContainerAttribute"/> will be placed
+            into separate tree item.
+            </summary>
+        </member>
+        <member name="F:Layout.Scroll">
+            <summary>
+            Places the controls into scroll panel.
+            </summary>
+        </member>
+    </members>
+</doc>

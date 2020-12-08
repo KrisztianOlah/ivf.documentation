@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.0">
+  <POU Name="fbStations" Id="{cc899c92-6ae3-40e0-9464-761ebb373dc8}" SpecialFunc="None">
+    <Declaration><![CDATA[{attribute wpf [Container(Layout.Tabs)]}
+FUNCTION_BLOCK fbStations
+VAR
+	_st01 : fbStation01;
+	_st02 : fbStation02;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[_st01();
+_st02();]]></ST>
+    </Implementation>
+    <LineIds Name="fbStations">
+      <LineId Id="9" Count="0" />
+      <LineId Id="18" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PresentationWpfExamples</name>
+    </assembly>
+    <members>
+        <member name="T:PresentationWpfExamples.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="P:PresentationWpfExamples.App.Plc">
+            <summary>
+            Gets the vortex connector.
+            </summary>
+        </member>
+        <member name="M:PresentationWpfExamples.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:PresentationWpfExamples.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:PresentationWpfExamples.CB.RenderableContentControlExample.AutoRenderingViewCodeBehind">
+            <summary>
+            Interaction logic for AutoRenderingViewCodeBehind.xaml
+            </summary>
+            <summary>
+            AutoRenderingViewCodeBehind
+            </summary>
+        </member>
+        <member name="M:PresentationWpfExamples.CB.RenderableContentControlExample.AutoRenderingViewCodeBehind.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:PresentationWpfExamples.CustomizePresentations.fbCounter.CounterCustomizedView">
+            <summary>
+            Interaction logic for CounterCustomizedView.xaml
+            </summary>
+            <summary>
+            CounterCustomizedView
+            </summary>
+        </member>
+        <member name="M:PresentationWpfExamples.CustomizePresentations.fbCounter.CounterCustomizedView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:PresentationWpfExamples.fbStations.Generic.StationsGenerated">
+            <summary>
+            Interaction logic for StationsGenerated.xaml
+            </summary>
+            <summary>
+            StationsGenerated
+            </summary>
+        </member>
+        <member name="M:PresentationWpfExamples.fbStations.Generic.StationsGenerated.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:PresentationWpfExamples.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:PresentationWpfExamples.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:PresentationWpfExamples.MenuedControl.MainMenuView">
+            <summary>
+            Interaction logic for MainMenuView.xaml
+            </summary>
+            <summary>
+            MainMenuView
+            </summary>
+        </member>
+        <member name="M:PresentationWpfExamples.MenuedControl.MainMenuView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:PresentationWpfExamples.MenuedControl.Operator.OperatorView">
+            <summary>
+            Interaction logic for OperatorView.xaml
+            </summary>
+            <summary>
+            OperatorView
+            </summary>
+        </member>
+        <member name="M:PresentationWpfExamples.MenuedControl.Operator.OperatorView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:PresentationWpfExamples.MVVM.ManualBinding">
+            <summary>
+            Interaction logic for ManualBinding.xaml
+            </summary>
+            <summary>
+            ManualBinding
+            </summary>
+        </member>
+        <member name="M:PresentationWpfExamples.MVVM.ManualBinding.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:PresentationWpfExamples.MVVM.AutoRenderingView">
+            <summary>
+            Interaction logic for AutoRenderingView.xaml
+            </summary>
+            <summary>
+            AutoRenderingView
+            </summary>
+        </member>
+        <member name="M:PresentationWpfExamples.MVVM.AutoRenderingView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:PresentationWpfExamples.MVVM.AutoRenderingViewModel">
+            <summary>
+            View model for <see cref="T:PresentationWpfExamples.MVVM.AutoRenderingView"/>
+            </summary>
+        </member>
+        <member name="P:PresentationWpfExamples.MVVM.AutoRenderingViewModel.MAIN">
+            <summary>
+            Gets .net representation of MAIN prg from the PLC program.
+            </summary>
+        </member>
+        <member name="T:PlcPresentationExamples.stCounterView">
+            <summary>
+            Interaction logic for stCounterView.xaml
+            </summary>
+            <summary>
+            stCounterView
+            </summary>
+        </member>
+        <member name="M:PlcPresentationExamples.stCounterView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:PlcPresentationExamples.stCounterManualView">
+            <summary>
+            Interaction logic for stCounterManualView.xaml
+            </summary>
+            <summary>
+            stCounterManualView
+            </summary>
+        </member>
+        <member name="M:PlcPresentationExamples.stCounterManualView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:PlcPresentationExamples.fbStationsView">
+            <summary>
+            Interaction logic for fbStationsView.xaml
+            </summary>
+            <summary>
+            fbStationsView
+            </summary>
+        </member>
+        <member name="M:PlcPresentationExamples.fbStationsView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>
