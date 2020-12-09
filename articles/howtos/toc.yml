@@ -1,2 +1,5 @@
-- name : How to implement recipe management
+- name : Implement recipe management
   href : recipes/recipes.md
+
+- name : Connect to a influx database
+  href : influxdb/influxdb.md
