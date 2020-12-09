@@ -1,0 +1,1 @@
+rm -r _site/ -erroraction silentlycontinue | dotnet build -v q
