@@ -67,7 +67,11 @@
       {
         "files": [
           "images/**",
-          "articles/common_assets/**"
+          "articles/common_assets/**",
+          "articles/**/*.png",
+          "articles/**/*.gif",
+          "articles/**/*.jpg",
+          "articles/**/*.jpeg"
         ]
       }
     ],

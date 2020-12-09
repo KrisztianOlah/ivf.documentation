@@ -2,3 +2,5 @@
   href: intro.md
 - name : Core
   href : core/toc.yml
+- name : How to 
+  href : howtos/toc.yml
