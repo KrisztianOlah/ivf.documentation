@@ -1,4 +1,4 @@
-![Inxton logo](./../../common_./../../common_assets/logo.png)
+![Inxton logo](./../../common_assets/logo.png)
 
 # Inxton.Package.Vortex.Core
 

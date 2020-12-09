@@ -86,7 +86,7 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "statictoc"
+      "inxton.doc.template"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
