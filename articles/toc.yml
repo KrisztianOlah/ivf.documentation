@@ -1,6 +1,11 @@
 - name: Introduction
   href: intro.md
-- name : Core
-  href : core/toc.yml
+
 - name : How to 
   href : howtos/toc.yml
+- name : Core
+  href : 01core/toc.yml
+- name : Essentials
+  href : 02essentials/toc.yml
+- name : Advanced
+  href : 03advanced/toc.yml

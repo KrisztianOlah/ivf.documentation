@@ -1,2 +1,5 @@
-
-.manifest
+###############
+#  temp file  #
+###############
+*/*.yml
+*/.manifest

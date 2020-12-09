@@ -1,5 +1,8 @@
 - name : Implement recipe management
   href : recipes/recipes.md
-
 - name : Connect to a influx database
   href : influxdb/influxdb.md
+- name : Invoke C# from PLC
+  href : invoke_csharp/invoke_csharp.md
+- name : Use diagnostics tools
+  href : diag/diag.md
