@@ -1,0 +1,346 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowInt
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowInt
+  id: IShadowInt
+  parent: Vortex.Connector.ValueTypes.Shadows
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IShadowInt
+  nameWithType: IShadowInt
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowInt
+  type: Interface
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IShadows/IShadowInt.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IShadowInt
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IShadows/IShadowInt.cs
+    startLine: 5
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.ValueTypes.Shadows
+  summary: "\nDefines contract to access shadow value of <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref>; INT type of the PLC.\n"
+  example: []
+  syntax:
+    content: 'public interface IShadowInt : IShadow<short>'
+    content.vb: >-
+      Public Interface IShadowInt
+          Inherits IShadow(Of Short)
+  inheritedMembers:
+  - Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.Symbol
+  - Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.AttributeName
+  - Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.AttributeUnits
+  - Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.Shadow
+  - Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.Value
+  - Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.ValueChanged
+  extensionMethods:
+  - Vortex.Connector.ValueTypes.Shadows.IShadowInt.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: Vortex.Connector.ValueTypes.Shadows
+  commentId: N:Vortex.Connector.ValueTypes.Shadows
+  name: Vortex.Connector.ValueTypes.Shadows
+  nameWithType: Vortex.Connector.ValueTypes.Shadows
+  fullName: Vortex.Connector.ValueTypes.Shadows
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.Symbol
+  commentId: P:Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.Symbol
+  parent: Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}
+  definition: Vortex.Connector.ValueTypes.Shadows.IShadow`1.Symbol
+  name: Symbol
+  nameWithType: IShadow<Int16>.Symbol
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<System.Int16>.Symbol
+  nameWithType.vb: IShadow(Of Int16).Symbol
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of System.Int16).Symbol
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.AttributeName
+  commentId: P:Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.AttributeName
+  parent: Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}
+  definition: Vortex.Connector.ValueTypes.Shadows.IShadow`1.AttributeName
+  name: AttributeName
+  nameWithType: IShadow<Int16>.AttributeName
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<System.Int16>.AttributeName
+  nameWithType.vb: IShadow(Of Int16).AttributeName
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of System.Int16).AttributeName
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.AttributeUnits
+  commentId: P:Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.AttributeUnits
+  parent: Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}
+  definition: Vortex.Connector.ValueTypes.Shadows.IShadow`1.AttributeUnits
+  name: AttributeUnits
+  nameWithType: IShadow<Int16>.AttributeUnits
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<System.Int16>.AttributeUnits
+  nameWithType.vb: IShadow(Of Int16).AttributeUnits
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of System.Int16).AttributeUnits
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.Shadow
+  commentId: P:Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.Shadow
+  parent: Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}
+  definition: Vortex.Connector.ValueTypes.Shadows.IShadow`1.Shadow
+  name: Shadow
+  nameWithType: IShadow<Int16>.Shadow
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<System.Int16>.Shadow
+  nameWithType.vb: IShadow(Of Int16).Shadow
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of System.Int16).Shadow
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.Value
+  commentId: P:Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.Value
+  parent: Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}
+  definition: Vortex.Connector.ValueTypes.Shadows.IShadow`1.Value
+  name: Value
+  nameWithType: IShadow<Int16>.Value
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<System.Int16>.Value
+  nameWithType.vb: IShadow(Of Int16).Value
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of System.Int16).Value
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.ValueChanged
+  commentId: E:Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.ValueChanged
+  parent: Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}
+  definition: Vortex.Connector.ValueTypes.Shadows.IShadow`1.ValueChanged
+  name: ValueChanged
+  nameWithType: IShadow<Int16>.ValueChanged
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<System.Int16>.ValueChanged
+  nameWithType.vb: IShadow(Of Int16).ValueChanged
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of System.Int16).ValueChanged
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowInt.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<IShadowInt>(Object)
+  nameWithType: IValueTagExtensions.Cast<IShadowInt>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.ValueTypes.Shadows.IShadowInt>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of IShadowInt)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.ValueTypes.Shadows.IShadowInt)(System.Object)
+  name.vb: Cast(Of IShadowInt)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<IShadowInt>
+    nameWithType: IValueTagExtensions.Cast<IShadowInt>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.ValueTypes.Shadows.IShadowInt>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of IShadowInt)
+    nameWithType: IValueTagExtensions.Cast(Of IShadowInt)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.ValueTypes.Shadows.IShadowInt)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1.Symbol
+  commentId: P:Vortex.Connector.ValueTypes.Shadows.IShadow`1.Symbol
+  name: Symbol
+  nameWithType: IShadow<T>.Symbol
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Symbol
+  nameWithType.vb: IShadow(Of T).Symbol
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of T).Symbol
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}
+  parent: Vortex.Connector.ValueTypes.Shadows
+  definition: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+  name: IShadow<Int16>
+  nameWithType: IShadow<Int16>
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<System.Int16>
+  nameWithType.vb: IShadow(Of Int16)
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of System.Int16)
+  name.vb: IShadow(Of Int16)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+    name: IShadow
+    nameWithType: IShadow
+    fullName: Vortex.Connector.ValueTypes.Shadows.IShadow
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+    name: IShadow
+    nameWithType: IShadow
+    fullName: Vortex.Connector.ValueTypes.Shadows.IShadow
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1.AttributeName
+  commentId: P:Vortex.Connector.ValueTypes.Shadows.IShadow`1.AttributeName
+  name: AttributeName
+  nameWithType: IShadow<T>.AttributeName
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeName
+  nameWithType.vb: IShadow(Of T).AttributeName
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of T).AttributeName
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1.AttributeUnits
+  commentId: P:Vortex.Connector.ValueTypes.Shadows.IShadow`1.AttributeUnits
+  name: AttributeUnits
+  nameWithType: IShadow<T>.AttributeUnits
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeUnits
+  nameWithType.vb: IShadow(Of T).AttributeUnits
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of T).AttributeUnits
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1.Shadow
+  commentId: P:Vortex.Connector.ValueTypes.Shadows.IShadow`1.Shadow
+  name: Shadow
+  nameWithType: IShadow<T>.Shadow
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Shadow
+  nameWithType.vb: IShadow(Of T).Shadow
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of T).Shadow
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1.Value
+  commentId: P:Vortex.Connector.ValueTypes.Shadows.IShadow`1.Value
+  name: Value
+  nameWithType: IShadow<T>.Value
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Value
+  nameWithType.vb: IShadow(Of T).Value
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of T).Value
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1.ValueChanged
+  commentId: E:Vortex.Connector.ValueTypes.Shadows.IShadow`1.ValueChanged
+  name: ValueChanged
+  nameWithType: IShadow<T>.ValueChanged
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.ValueChanged
+  nameWithType.vb: IShadow(Of T).ValueChanged
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of T).ValueChanged
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadow`1
+  name: IShadow<T>
+  nameWithType: IShadow<T>
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<T>
+  nameWithType.vb: IShadow(Of T)
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of T)
+  name.vb: IShadow(Of T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+    name: IShadow
+    nameWithType: IShadow
+    fullName: Vortex.Connector.ValueTypes.Shadows.IShadow
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+    name: IShadow
+    nameWithType: IShadow
+    fullName: Vortex.Connector.ValueTypes.Shadows.IShadow
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector

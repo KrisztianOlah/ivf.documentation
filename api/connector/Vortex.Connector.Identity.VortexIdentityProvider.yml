@@ -1,0 +1,1430 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.Identity.VortexIdentityProvider
+  commentId: T:Vortex.Connector.Identity.VortexIdentityProvider
+  id: VortexIdentityProvider
+  parent: Vortex.Connector.Identity
+  children:
+  - Vortex.Connector.Identity.VortexIdentityProvider.#ctor(Vortex.Connector.IConnector)
+  - Vortex.Connector.Identity.VortexIdentityProvider._connector
+  - Vortex.Connector.Identity.VortexIdentityProvider._identities
+  - Vortex.Connector.Identity.VortexIdentityProvider._identitiesTags
+  - Vortex.Connector.Identity.VortexIdentityProvider._null_vortex
+  - Vortex.Connector.Identity.VortexIdentityProvider._sortedIdentities
+  - Vortex.Connector.Identity.VortexIdentityProvider.AddIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  - Vortex.Connector.Identity.VortexIdentityProvider.GetReferencedVortexerByIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  - Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity(System.Object)
+  - Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity(System.UInt64)
+  - Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  - Vortex.Connector.Identity.VortexIdentityProvider.HasMemberByIdentityAttribute(Vortex.Connector.Identity.IVortexIdentity)
+  - Vortex.Connector.Identity.VortexIdentityProvider.Identities
+  - Vortex.Connector.Identity.VortexIdentityProvider.IdentitiesCount
+  - Vortex.Connector.Identity.VortexIdentityProvider.ReadIdentities
+  - Vortex.Connector.Identity.VortexIdentityProvider.RefreshIdentities
+  - Vortex.Connector.Identity.VortexIdentityProvider.SortIdentities
+  langs:
+  - csharp
+  - vb
+  name: VortexIdentityProvider
+  nameWithType: VortexIdentityProvider
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: VortexIdentityProvider
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 10
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nProvides access to the objects by their identities.\n"
+  example: []
+  syntax:
+    content: public class VortexIdentityProvider
+    content.vb: Public Class VortexIdentityProvider
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Vortex.Connector.Identity.VortexIdentityProvider.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vortex.Connector.Identity.VortexIdentityProvider._null_vortex
+  commentId: F:Vortex.Connector.Identity.VortexIdentityProvider._null_vortex
+  id: _null_vortex
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: _null_vortex
+  nameWithType: VortexIdentityProvider._null_vortex
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider._null_vortex
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _null_vortex
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 12
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  syntax:
+    content: static NullVortexIdentity _null_vortex
+    return:
+      type: Vortex.Connector.Identity.NullVortexIdentity
+    content.vb: Shared _null_vortex As NullVortexIdentity
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Connector.Identity.VortexIdentityProvider._connector
+  commentId: F:Vortex.Connector.Identity.VortexIdentityProvider._connector
+  id: _connector
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: _connector
+  nameWithType: VortexIdentityProvider._connector
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider._connector
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _connector
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 14
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  syntax:
+    content: IConnector _connector
+    return:
+      type: Vortex.Connector.IConnector
+    content.vb: _connector As IConnector
+- uid: Vortex.Connector.Identity.VortexIdentityProvider._identitiesTags
+  commentId: F:Vortex.Connector.Identity.VortexIdentityProvider._identitiesTags
+  id: _identitiesTags
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: _identitiesTags
+  nameWithType: VortexIdentityProvider._identitiesTags
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider._identitiesTags
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _identitiesTags
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 16
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  syntax:
+    content: List<OnlinerULInt> _identitiesTags
+    return:
+      type: System.Collections.Generic.List{Vortex.Connector.ValueTypes.OnlinerULInt}
+    content.vb: _identitiesTags As List(Of OnlinerULInt)
+- uid: Vortex.Connector.Identity.VortexIdentityProvider._identities
+  commentId: F:Vortex.Connector.Identity.VortexIdentityProvider._identities
+  id: _identities
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: _identities
+  nameWithType: VortexIdentityProvider._identities
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider._identities
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _identities
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 17
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  syntax:
+    content: Dictionary<OnlinerULInt, IVortexIdentity> _identities
+    return:
+      type: System.Collections.Generic.Dictionary{Vortex.Connector.ValueTypes.OnlinerULInt,Vortex.Connector.Identity.IVortexIdentity}
+    content.vb: _identities As Dictionary(Of OnlinerULInt, IVortexIdentity)
+- uid: Vortex.Connector.Identity.VortexIdentityProvider._sortedIdentities
+  commentId: F:Vortex.Connector.Identity.VortexIdentityProvider._sortedIdentities
+  id: _sortedIdentities
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: _sortedIdentities
+  nameWithType: VortexIdentityProvider._sortedIdentities
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider._sortedIdentities
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _sortedIdentities
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 19
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  syntax:
+    content: readonly SortedDictionary<ulong, IVortexIdentity> _sortedIdentities
+    return:
+      type: System.Collections.Generic.SortedDictionary{System.UInt64,Vortex.Connector.Identity.IVortexIdentity}
+    content.vb: ReadOnly _sortedIdentities As SortedDictionary(Of ULong, IVortexIdentity)
+  modifiers.csharp:
+  - readonly
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.#ctor(Vortex.Connector.IConnector)
+  commentId: M:Vortex.Connector.Identity.VortexIdentityProvider.#ctor(Vortex.Connector.IConnector)
+  id: '#ctor(Vortex.Connector.IConnector)'
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: VortexIdentityProvider(IConnector)
+  nameWithType: VortexIdentityProvider.VortexIdentityProvider(IConnector)
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.VortexIdentityProvider(Vortex.Connector.IConnector)
+  type: Constructor
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 24
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nCreates an instance of <xref href=\"Vortex.Connector.Identity.VortexIdentityProvider\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public VortexIdentityProvider(IConnector connector)
+    parameters:
+    - id: connector
+      type: Vortex.Connector.IConnector
+    content.vb: Public Sub New(connector As IConnector)
+  overload: Vortex.Connector.Identity.VortexIdentityProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.GetReferencedVortexerByIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  commentId: M:Vortex.Connector.Identity.VortexIdentityProvider.GetReferencedVortexerByIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  id: GetReferencedVortexerByIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: GetReferencedVortexerByIdentity(IVortexIdentity)
+  nameWithType: VortexIdentityProvider.GetReferencedVortexerByIdentity(IVortexIdentity)
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.GetReferencedVortexerByIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetReferencedVortexerByIdentity
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 30
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  syntax:
+    content: IVortexIdentity GetReferencedVortexerByIdentity(IVortexIdentity obj)
+    parameters:
+    - id: obj
+      type: Vortex.Connector.Identity.IVortexIdentity
+    return:
+      type: Vortex.Connector.Identity.IVortexIdentity
+    content.vb: Function GetReferencedVortexerByIdentity(obj As IVortexIdentity) As IVortexIdentity
+  overload: Vortex.Connector.Identity.VortexIdentityProvider.GetReferencedVortexerByIdentity*
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.HasMemberByIdentityAttribute(Vortex.Connector.Identity.IVortexIdentity)
+  commentId: M:Vortex.Connector.Identity.VortexIdentityProvider.HasMemberByIdentityAttribute(Vortex.Connector.Identity.IVortexIdentity)
+  id: HasMemberByIdentityAttribute(Vortex.Connector.Identity.IVortexIdentity)
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: HasMemberByIdentityAttribute(IVortexIdentity)
+  nameWithType: VortexIdentityProvider.HasMemberByIdentityAttribute(IVortexIdentity)
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.HasMemberByIdentityAttribute(Vortex.Connector.Identity.IVortexIdentity)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: HasMemberByIdentityAttribute
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 59
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  syntax:
+    content: bool HasMemberByIdentityAttribute(IVortexIdentity obj)
+    parameters:
+    - id: obj
+      type: Vortex.Connector.Identity.IVortexIdentity
+    return:
+      type: System.Boolean
+    content.vb: Function HasMemberByIdentityAttribute(obj As IVortexIdentity) As Boolean
+  overload: Vortex.Connector.Identity.VortexIdentityProvider.HasMemberByIdentityAttribute*
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.AddIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  commentId: M:Vortex.Connector.Identity.VortexIdentityProvider.AddIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  id: AddIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: AddIdentity(IVortexIdentity)
+  nameWithType: VortexIdentityProvider.AddIdentity(IVortexIdentity)
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.AddIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddIdentity
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 82
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nAdds vortexer object to the list of identities.\n"
+  example: []
+  syntax:
+    content: public void AddIdentity(IVortexIdentity vortexObject)
+    parameters:
+    - id: vortexObject
+      type: Vortex.Connector.Identity.IVortexIdentity
+      description: vortexer object
+    content.vb: Public Sub AddIdentity(vortexObject As IVortexIdentity)
+  overload: Vortex.Connector.Identity.VortexIdentityProvider.AddIdentity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity(System.Object)
+  commentId: M:Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity(System.Object)
+  id: GetVortexerByIdentity(System.Object)
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: GetVortexerByIdentity(Object)
+  nameWithType: VortexIdentityProvider.GetVortexerByIdentity(Object)
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity(System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetVortexerByIdentity
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 103
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nGets vortexer object by identity, if the object implements <xref href=\"Vortex.Connector.Identity.IVortexIdentity\" data-throw-if-not-resolved=\"false\"></xref>. \nIf object does not implements <xref href=\"Vortex.Connector.Identity.IVortexIdentity\" data-throw-if-not-resolved=\"false\"></xref> the same object is returned.\n"
+  example: []
+  syntax:
+    content: public dynamic GetVortexerByIdentity(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: Object with identity
+    return:
+      type: System.Object
+      description: Vortexer object with given identity.
+    content.vb: Public Function GetVortexerByIdentity(obj As Object) As Object
+  overload: Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  commentId: M:Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  id: GetVortexerByIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: GetVortexerByIdentity(IVortexIdentity)
+  nameWithType: VortexIdentityProvider.GetVortexerByIdentity(IVortexIdentity)
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity(Vortex.Connector.Identity.IVortexIdentity)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetVortexerByIdentity
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 118
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nGets vortexer object by identity.\n"
+  example: []
+  syntax:
+    content: public dynamic GetVortexerByIdentity(IVortexIdentity obj)
+    parameters:
+    - id: obj
+      type: Vortex.Connector.Identity.IVortexIdentity
+      description: Vortexer object.
+    return:
+      type: System.Object
+      description: Vortexer object with given identity.
+    content.vb: Public Function GetVortexerByIdentity(obj As IVortexIdentity) As Object
+  overload: Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity(System.UInt64)
+  commentId: M:Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity(System.UInt64)
+  id: GetVortexerByIdentity(System.UInt64)
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: GetVortexerByIdentity(UInt64)
+  nameWithType: VortexIdentityProvider.GetVortexerByIdentity(UInt64)
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity(System.UInt64)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetVortexerByIdentity
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 128
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nGets vortexer object by identity.\n"
+  example: []
+  syntax:
+    content: public IVortexIdentity GetVortexerByIdentity(ulong identity)
+    parameters:
+    - id: identity
+      type: System.UInt64
+      description: Vortexer identity address.
+    return:
+      type: Vortex.Connector.Identity.IVortexIdentity
+      description: Vortexer object with given identity.
+    content.vb: Public Function GetVortexerByIdentity(identity As ULong) As IVortexIdentity
+  overload: Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.ReadIdentities
+  commentId: M:Vortex.Connector.Identity.VortexIdentityProvider.ReadIdentities
+  id: ReadIdentities
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: ReadIdentities()
+  nameWithType: VortexIdentityProvider.ReadIdentities()
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.ReadIdentities()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReadIdentities
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 155
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nReads vortex objects identities.\n"
+  example: []
+  syntax:
+    content: public void ReadIdentities()
+    content.vb: Public Sub ReadIdentities
+  overload: Vortex.Connector.Identity.VortexIdentityProvider.ReadIdentities*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.RefreshIdentities
+  commentId: M:Vortex.Connector.Identity.VortexIdentityProvider.RefreshIdentities
+  id: RefreshIdentities
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: RefreshIdentities()
+  nameWithType: VortexIdentityProvider.RefreshIdentities()
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.RefreshIdentities()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: RefreshIdentities
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 169
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nRefreshes and sorts identities.\n"
+  example: []
+  syntax:
+    content: public void RefreshIdentities()
+    content.vb: Public Sub RefreshIdentities
+  overload: Vortex.Connector.Identity.VortexIdentityProvider.RefreshIdentities*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.SortIdentities
+  commentId: M:Vortex.Connector.Identity.VortexIdentityProvider.SortIdentities
+  id: SortIdentities
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: SortIdentities()
+  nameWithType: VortexIdentityProvider.SortIdentities()
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.SortIdentities()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SortIdentities
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 178
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nSorts identities.\n"
+  example: []
+  syntax:
+    content: public void SortIdentities()
+    content.vb: Public Sub SortIdentities
+  overload: Vortex.Connector.Identity.VortexIdentityProvider.SortIdentities*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.Identities
+  commentId: P:Vortex.Connector.Identity.VortexIdentityProvider.Identities
+  id: Identities
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: Identities
+  nameWithType: VortexIdentityProvider.Identities
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.Identities
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Identities
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 194
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nGet dictionary of identities.\n"
+  example: []
+  syntax:
+    content: public SortedDictionary<ulong, IVortexIdentity> Identities { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.SortedDictionary{System.UInt64,Vortex.Connector.Identity.IVortexIdentity}
+    content.vb: Public ReadOnly Property Identities As SortedDictionary(Of ULong, IVortexIdentity)
+  overload: Vortex.Connector.Identity.VortexIdentityProvider.Identities*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.IdentitiesCount
+  commentId: P:Vortex.Connector.Identity.VortexIdentityProvider.IdentitiesCount
+  id: IdentitiesCount
+  parent: Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: IdentitiesCount
+  nameWithType: VortexIdentityProvider.IdentitiesCount
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.IdentitiesCount
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IdentitiesCount
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
+    startLine: 202
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nGet count of identities.\n"
+  example: []
+  syntax:
+    content: public long IdentitiesCount { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property IdentitiesCount As Long
+  overload: Vortex.Connector.Identity.VortexIdentityProvider.IdentitiesCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Vortex.Connector.Identity
+  commentId: N:Vortex.Connector.Identity
+  name: Vortex.Connector.Identity
+  nameWithType: Vortex.Connector.Identity
+  fullName: Vortex.Connector.Identity
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<VortexIdentityProvider>(Object)
+  nameWithType: IValueTagExtensions.Cast<VortexIdentityProvider>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.Identity.VortexIdentityProvider>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of VortexIdentityProvider)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.Identity.VortexIdentityProvider)(System.Object)
+  name.vb: Cast(Of VortexIdentityProvider)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<VortexIdentityProvider>
+    nameWithType: IValueTagExtensions.Cast<VortexIdentityProvider>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.Identity.VortexIdentityProvider>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of VortexIdentityProvider)
+    nameWithType: IValueTagExtensions.Cast(Of VortexIdentityProvider)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.Identity.VortexIdentityProvider)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.Identity.NullVortexIdentity
+  commentId: T:Vortex.Connector.Identity.NullVortexIdentity
+  parent: Vortex.Connector.Identity
+  name: NullVortexIdentity
+  nameWithType: NullVortexIdentity
+  fullName: Vortex.Connector.Identity.NullVortexIdentity
+- uid: Vortex.Connector.IConnector
+  commentId: T:Vortex.Connector.IConnector
+  parent: Vortex.Connector
+  name: IConnector
+  nameWithType: IConnector
+  fullName: Vortex.Connector.IConnector
+- uid: System.Collections.Generic.List{Vortex.Connector.ValueTypes.OnlinerULInt}
+  commentId: T:System.Collections.Generic.List{Vortex.Connector.ValueTypes.OnlinerULInt}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<OnlinerULInt>
+  nameWithType: List<OnlinerULInt>
+  fullName: System.Collections.Generic.List<Vortex.Connector.ValueTypes.OnlinerULInt>
+  nameWithType.vb: List(Of OnlinerULInt)
+  fullName.vb: System.Collections.Generic.List(Of Vortex.Connector.ValueTypes.OnlinerULInt)
+  name.vb: List(Of OnlinerULInt)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Connector.ValueTypes.OnlinerULInt
+    name: OnlinerULInt
+    nameWithType: OnlinerULInt
+    fullName: Vortex.Connector.ValueTypes.OnlinerULInt
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Connector.ValueTypes.OnlinerULInt
+    name: OnlinerULInt
+    nameWithType: OnlinerULInt
+    fullName: Vortex.Connector.ValueTypes.OnlinerULInt
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.Dictionary{Vortex.Connector.ValueTypes.OnlinerULInt,Vortex.Connector.Identity.IVortexIdentity}
+  commentId: T:System.Collections.Generic.Dictionary{Vortex.Connector.ValueTypes.OnlinerULInt,Vortex.Connector.Identity.IVortexIdentity}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<OnlinerULInt, IVortexIdentity>
+  nameWithType: Dictionary<OnlinerULInt, IVortexIdentity>
+  fullName: System.Collections.Generic.Dictionary<Vortex.Connector.ValueTypes.OnlinerULInt, Vortex.Connector.Identity.IVortexIdentity>
+  nameWithType.vb: Dictionary(Of OnlinerULInt, IVortexIdentity)
+  fullName.vb: System.Collections.Generic.Dictionary(Of Vortex.Connector.ValueTypes.OnlinerULInt, Vortex.Connector.Identity.IVortexIdentity)
+  name.vb: Dictionary(Of OnlinerULInt, IVortexIdentity)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Connector.ValueTypes.OnlinerULInt
+    name: OnlinerULInt
+    nameWithType: OnlinerULInt
+    fullName: Vortex.Connector.ValueTypes.OnlinerULInt
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vortex.Connector.Identity.IVortexIdentity
+    name: IVortexIdentity
+    nameWithType: IVortexIdentity
+    fullName: Vortex.Connector.Identity.IVortexIdentity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Connector.ValueTypes.OnlinerULInt
+    name: OnlinerULInt
+    nameWithType: OnlinerULInt
+    fullName: Vortex.Connector.ValueTypes.OnlinerULInt
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vortex.Connector.Identity.IVortexIdentity
+    name: IVortexIdentity
+    nameWithType: IVortexIdentity
+    fullName: Vortex.Connector.Identity.IVortexIdentity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.SortedDictionary{System.UInt64,Vortex.Connector.Identity.IVortexIdentity}
+  commentId: T:System.Collections.Generic.SortedDictionary{System.UInt64,Vortex.Connector.Identity.IVortexIdentity}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.SortedDictionary`2
+  name: SortedDictionary<UInt64, IVortexIdentity>
+  nameWithType: SortedDictionary<UInt64, IVortexIdentity>
+  fullName: System.Collections.Generic.SortedDictionary<System.UInt64, Vortex.Connector.Identity.IVortexIdentity>
+  nameWithType.vb: SortedDictionary(Of UInt64, IVortexIdentity)
+  fullName.vb: System.Collections.Generic.SortedDictionary(Of System.UInt64, Vortex.Connector.Identity.IVortexIdentity)
+  name.vb: SortedDictionary(Of UInt64, IVortexIdentity)
+  spec.csharp:
+  - uid: System.Collections.Generic.SortedDictionary`2
+    name: SortedDictionary
+    nameWithType: SortedDictionary
+    fullName: System.Collections.Generic.SortedDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vortex.Connector.Identity.IVortexIdentity
+    name: IVortexIdentity
+    nameWithType: IVortexIdentity
+    fullName: Vortex.Connector.Identity.IVortexIdentity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.SortedDictionary`2
+    name: SortedDictionary
+    nameWithType: SortedDictionary
+    fullName: System.Collections.Generic.SortedDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vortex.Connector.Identity.IVortexIdentity
+    name: IVortexIdentity
+    nameWithType: IVortexIdentity
+    fullName: Vortex.Connector.Identity.IVortexIdentity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.SortedDictionary`2
+  commentId: T:System.Collections.Generic.SortedDictionary`2
+  isExternal: true
+  name: SortedDictionary<TKey, TValue>
+  nameWithType: SortedDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.SortedDictionary<TKey, TValue>
+  nameWithType.vb: SortedDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.SortedDictionary(Of TKey, TValue)
+  name.vb: SortedDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.SortedDictionary`2
+    name: SortedDictionary
+    nameWithType: SortedDictionary
+    fullName: System.Collections.Generic.SortedDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.SortedDictionary`2
+    name: SortedDictionary
+    nameWithType: SortedDictionary
+    fullName: System.Collections.Generic.SortedDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.Identity.VortexIdentityProvider
+  commentId: T:Vortex.Connector.Identity.VortexIdentityProvider
+  parent: Vortex.Connector.Identity
+  name: VortexIdentityProvider
+  nameWithType: VortexIdentityProvider
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.#ctor*
+  commentId: Overload:Vortex.Connector.Identity.VortexIdentityProvider.#ctor
+  name: VortexIdentityProvider
+  nameWithType: VortexIdentityProvider.VortexIdentityProvider
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.VortexIdentityProvider
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.GetReferencedVortexerByIdentity*
+  commentId: Overload:Vortex.Connector.Identity.VortexIdentityProvider.GetReferencedVortexerByIdentity
+  name: GetReferencedVortexerByIdentity
+  nameWithType: VortexIdentityProvider.GetReferencedVortexerByIdentity
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.GetReferencedVortexerByIdentity
+- uid: Vortex.Connector.Identity.IVortexIdentity
+  commentId: T:Vortex.Connector.Identity.IVortexIdentity
+  parent: Vortex.Connector.Identity
+  name: IVortexIdentity
+  nameWithType: IVortexIdentity
+  fullName: Vortex.Connector.Identity.IVortexIdentity
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.HasMemberByIdentityAttribute*
+  commentId: Overload:Vortex.Connector.Identity.VortexIdentityProvider.HasMemberByIdentityAttribute
+  name: HasMemberByIdentityAttribute
+  nameWithType: VortexIdentityProvider.HasMemberByIdentityAttribute
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.HasMemberByIdentityAttribute
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.AddIdentity*
+  commentId: Overload:Vortex.Connector.Identity.VortexIdentityProvider.AddIdentity
+  name: AddIdentity
+  nameWithType: VortexIdentityProvider.AddIdentity
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.AddIdentity
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity*
+  commentId: Overload:Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity
+  name: GetVortexerByIdentity
+  nameWithType: VortexIdentityProvider.GetVortexerByIdentity
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.GetVortexerByIdentity
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: System.UInt64
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.ReadIdentities*
+  commentId: Overload:Vortex.Connector.Identity.VortexIdentityProvider.ReadIdentities
+  name: ReadIdentities
+  nameWithType: VortexIdentityProvider.ReadIdentities
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.ReadIdentities
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.RefreshIdentities*
+  commentId: Overload:Vortex.Connector.Identity.VortexIdentityProvider.RefreshIdentities
+  name: RefreshIdentities
+  nameWithType: VortexIdentityProvider.RefreshIdentities
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.RefreshIdentities
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.SortIdentities*
+  commentId: Overload:Vortex.Connector.Identity.VortexIdentityProvider.SortIdentities
+  name: SortIdentities
+  nameWithType: VortexIdentityProvider.SortIdentities
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.SortIdentities
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.Identities*
+  commentId: Overload:Vortex.Connector.Identity.VortexIdentityProvider.Identities
+  name: Identities
+  nameWithType: VortexIdentityProvider.Identities
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.Identities
+- uid: Vortex.Connector.Identity.VortexIdentityProvider.IdentitiesCount*
+  commentId: Overload:Vortex.Connector.Identity.VortexIdentityProvider.IdentitiesCount
+  name: IdentitiesCount
+  nameWithType: VortexIdentityProvider.IdentitiesCount
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider.IdentitiesCount
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

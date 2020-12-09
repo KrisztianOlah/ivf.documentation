@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.IVortexShadowObject
+  commentId: T:Vortex.Connector.IVortexShadowObject
+  id: IVortexShadowObject
+  parent: Vortex.Connector
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IVortexShadowObject
+  nameWithType: IVortexShadowObject
+  fullName: Vortex.Connector.IVortexShadowObject
+  type: Interface
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IPlain.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IVortexShadowObject
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IPlain.cs
+    startLine: 14
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nBasic abstraction for &apos;IShadow&apos; types.\n<div class=\"NOTE\"><h5>note</h5><p>Implementation used in building process. Not to be declared by framework consumers.</p></div>\n"
+  example: []
+  syntax:
+    content: public interface IVortexShadowObject
+    content.vb: Public Interface IVortexShadowObject
+  extensionMethods:
+  - Vortex.Connector.IVortexShadowObject.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.IVortexShadowObject.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<IVortexShadowObject>(Object)
+  nameWithType: IValueTagExtensions.Cast<IVortexShadowObject>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.IVortexShadowObject>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of IVortexShadowObject)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.IVortexShadowObject)(System.Object)
+  name.vb: Cast(Of IVortexShadowObject)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<IVortexShadowObject>
+    nameWithType: IValueTagExtensions.Cast<IVortexShadowObject>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.IVortexShadowObject>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of IVortexShadowObject)
+    nameWithType: IValueTagExtensions.Cast(Of IVortexShadowObject)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.IVortexShadowObject)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions

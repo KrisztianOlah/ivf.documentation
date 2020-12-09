@@ -1,0 +1,2182 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  commentId: T:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  id: OnlineVariableInfo
+  parent: Vortex.Adapters.Connector.Tc3
+  children:
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.#ctor(System.String,TwinCAT.Ads.AdsClient)
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._client
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._handle
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._symbols
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.AdsSymbol
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.BitSize
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol})
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Handle
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexGroup
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexOffset
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.InvalidateSymbol
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsAvailableInController
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsSymbolExpectedToBeAvailable(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsValid
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Length
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Link(System.String,Vortex.Adapters.Connector.Tc3.AdsConnector,Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LinkOnlineVariableSymbolInfo(System.String,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LinkOnlineVariableSymbolInfo(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFly(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyFromPreLoadedSymbols(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolLoader(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolReader(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Name
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.reservedGroups
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.ReservedGroups
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Size
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Symbol
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolInfoFactory(TwinCAT.Ads.TypeSystem.IAdsSymbol,System.String,TwinCAT.Ads.AdsClient)
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Group
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#IsAvailable
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Length
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Offset
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Size
+  langs:
+  - csharp
+  - vb
+  name: OnlineVariableInfo
+  nameWithType: OnlineVariableInfo
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: OnlineVariableInfo
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 16
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nOnline variable information class.\n"
+  example: []
+  syntax:
+    content: 'sealed class OnlineVariableInfo : IValueTagInfo'
+    content.vb: >-
+      NotInheritable Class OnlineVariableInfo
+          Implements IValueTagInfo
+  inheritance:
+  - System.Object
+  implements:
+  - Vortex.Connector.IValueTagInfo
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - sealed
+  - class
+  modifiers.vb:
+  - NotInheritable
+  - Class
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.InvalidateSymbol
+  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.InvalidateSymbol
+  id: InvalidateSymbol
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: InvalidateSymbol()
+  nameWithType: OnlineVariableInfo.InvalidateSymbol()
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.InvalidateSymbol()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: InvalidateSymbol
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 19
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: void InvalidateSymbol()
+    content.vb: Sub InvalidateSymbol
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.InvalidateSymbol*
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsValid
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsValid
+  id: IsValid
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: OnlineVariableInfo.IsValid
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsValid
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IsValid
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 24
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: >-
+      bool IsValid
+
+      {
+
+      }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly WriteOnly Property IsValid As Boolean
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsValid*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.#ctor(System.String,TwinCAT.Ads.AdsClient)
+  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.#ctor(System.String,TwinCAT.Ads.AdsClient)
+  id: '#ctor(System.String,TwinCAT.Ads.AdsClient)'
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: OnlineVariableInfo(String, AdsClient)
+  nameWithType: OnlineVariableInfo.OnlineVariableInfo(String, AdsClient)
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.OnlineVariableInfo(System.String, TwinCAT.Ads.AdsClient)
+  type: Constructor
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 30
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: OnlineVariableInfo(string symbol, AdsClient client)
+    parameters:
+    - id: symbol
+      type: System.String
+    - id: client
+      type: TwinCAT.Ads.AdsClient
+    content.vb: Sub New(symbol As String, client As AdsClient)
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.#ctor*
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._client
+  commentId: F:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._client
+  id: _client
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: _client
+  nameWithType: OnlineVariableInfo._client
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._client
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _client
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 41
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: AdsClient _client
+    return:
+      type: TwinCAT.Ads.AdsClient
+    content.vb: _client As AdsClient
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._handle
+  commentId: F:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._handle
+  id: _handle
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: _handle
+  nameWithType: OnlineVariableInfo._handle
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._handle
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _handle
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 42
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: uint _handle
+    return:
+      type: System.UInt32
+    content.vb: _handle As UInteger
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Handle
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Handle
+  id: Handle
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: Handle
+  nameWithType: OnlineVariableInfo.Handle
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Handle
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Handle
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 43
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public uint Handle { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property Handle As UInteger
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Handle*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Group
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Group
+  id: Vortex#Connector#IValueTagInfo#Group
+  isEii: true
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: IValueTagInfo.Group
+  nameWithType: OnlineVariableInfo.IValueTagInfo.Group
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Group
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Vortex.Connector.IValueTagInfo.Group
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 57
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: uint IValueTagInfo.Group { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: ReadOnly WriteOnly Property Vortex.Connector.IValueTagInfo.Group As UInteger Implements IValueTagInfo.Group
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Group*
+  implements:
+  - Vortex.Connector.IValueTagInfo.Group
+  nameWithType.vb: OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Group
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: Vortex.Connector.IValueTagInfo.Group
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Offset
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Offset
+  id: Vortex#Connector#IValueTagInfo#Offset
+  isEii: true
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: IValueTagInfo.Offset
+  nameWithType: OnlineVariableInfo.IValueTagInfo.Offset
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Offset
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Vortex.Connector.IValueTagInfo.Offset
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 62
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: uint IValueTagInfo.Offset { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: ReadOnly WriteOnly Property Vortex.Connector.IValueTagInfo.Offset As UInteger Implements IValueTagInfo.Offset
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Offset*
+  implements:
+  - Vortex.Connector.IValueTagInfo.Offset
+  nameWithType.vb: OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Offset
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: Vortex.Connector.IValueTagInfo.Offset
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Length
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Length
+  id: Vortex#Connector#IValueTagInfo#Length
+  isEii: true
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: IValueTagInfo.Length
+  nameWithType: OnlineVariableInfo.IValueTagInfo.Length
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Length
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Vortex.Connector.IValueTagInfo.Length
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 67
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: int IValueTagInfo.Length { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly WriteOnly Property Vortex.Connector.IValueTagInfo.Length As Integer Implements IValueTagInfo.Length
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Length*
+  implements:
+  - Vortex.Connector.IValueTagInfo.Length
+  nameWithType.vb: OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Length
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: Vortex.Connector.IValueTagInfo.Length
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Size
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Size
+  id: Vortex#Connector#IValueTagInfo#Size
+  isEii: true
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: IValueTagInfo.Size
+  nameWithType: OnlineVariableInfo.IValueTagInfo.Size
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Size
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Vortex.Connector.IValueTagInfo.Size
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 72
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: int IValueTagInfo.Size { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly WriteOnly Property Vortex.Connector.IValueTagInfo.Size As Integer Implements IValueTagInfo.Size
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Size*
+  implements:
+  - Vortex.Connector.IValueTagInfo.Size
+  nameWithType.vb: OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Size
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: Vortex.Connector.IValueTagInfo.Size
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#IsAvailable
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#IsAvailable
+  id: Vortex#Connector#IValueTagInfo#IsAvailable
+  isEii: true
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: IValueTagInfo.IsAvailable
+  nameWithType: OnlineVariableInfo.IValueTagInfo.IsAvailable
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex.Connector.IValueTagInfo.IsAvailable
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Vortex.Connector.IValueTagInfo.IsAvailable
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 77
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: bool IValueTagInfo.IsAvailable { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly WriteOnly Property Vortex.Connector.IValueTagInfo.IsAvailable As Boolean Implements IValueTagInfo.IsAvailable
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#IsAvailable*
+  implements:
+  - Vortex.Connector.IValueTagInfo.IsAvailable
+  nameWithType.vb: OnlineVariableInfo.Vortex.Connector.IValueTagInfo.IsAvailable
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: Vortex.Connector.IValueTagInfo.IsAvailable
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexGroup
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexGroup
+  id: IndexGroup
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: IndexGroup
+  nameWithType: OnlineVariableInfo.IndexGroup
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexGroup
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IndexGroup
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 82
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: >-
+      uint IndexGroup
+
+      {
+
+      }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: ReadOnly WriteOnly Property IndexGroup As UInteger
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexGroup*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexOffset
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexOffset
+  id: IndexOffset
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: IndexOffset
+  nameWithType: OnlineVariableInfo.IndexOffset
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexOffset
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IndexOffset
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 89
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets index offset of the variable.\n"
+  example: []
+  syntax:
+    content: >-
+      uint IndexOffset
+
+      {
+
+      }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: ReadOnly WriteOnly Property IndexOffset As UInteger
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexOffset*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsAvailableInController
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsAvailableInController
+  id: IsAvailableInController
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: IsAvailableInController
+  nameWithType: OnlineVariableInfo.IsAvailableInController
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsAvailableInController
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IsAvailableInController
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 96
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets a value indicating whether the variable is available in the controller.\n"
+  example: []
+  syntax:
+    content: >-
+      bool IsAvailableInController
+
+      {
+
+      }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly WriteOnly Property IsAvailableInController As Boolean
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsAvailableInController*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Length
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Length
+  id: Length
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: OnlineVariableInfo.Length
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Length
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Length
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 104
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets the length of the variable.\n"
+  example: []
+  syntax:
+    content: public int Length { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Length As Integer
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Length*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Size
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Size
+  id: Size
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: OnlineVariableInfo.Size
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Size
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Size
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 112
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets the length of the variable.\n"
+  example: []
+  syntax:
+    content: public int Size { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Size As Integer
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Size*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.BitSize
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.BitSize
+  id: BitSize
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: BitSize
+  nameWithType: OnlineVariableInfo.BitSize
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.BitSize
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: BitSize
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 120
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets the length of the variable.\n"
+  example: []
+  syntax:
+    content: public int BitSize { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BitSize As Integer
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.BitSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Symbol
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Symbol
+  id: Symbol
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: Symbol
+  nameWithType: OnlineVariableInfo.Symbol
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Symbol
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Symbol
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 128
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets the symbol of the variable.\n"
+  example: []
+  syntax:
+    content: public string Symbol { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Symbol As String
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Symbol*
+  implements:
+  - Vortex.Connector.IValueTagInfo.Symbol
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Name
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Name
+  id: Name
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: OnlineVariableInfo.Name
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Name
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Name
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 136
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets or sets variables name.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFly(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFly(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  id: LoadSymbolOnTheFly(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: LoadSymbolOnTheFly(AdsConnector)
+  nameWithType: OnlineVariableInfo.LoadSymbolOnTheFly(AdsConnector)
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFly(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: LoadSymbolOnTheFly
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 141
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: void LoadSymbolOnTheFly(AdsConnector connector)
+    parameters:
+    - id: connector
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector
+    content.vb: Sub LoadSymbolOnTheFly(connector As AdsConnector)
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFly*
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.AdsSymbol
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.AdsSymbol
+  id: AdsSymbol
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: AdsSymbol
+  nameWithType: OnlineVariableInfo.AdsSymbol
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.AdsSymbol
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AdsSymbol
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 158
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public ISymbol AdsSymbol { get; }
+    parameters: []
+    return:
+      type: TwinCAT.TypeSystem.ISymbol
+    content.vb: Public ReadOnly Property AdsSymbol As ISymbol
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.AdsSymbol*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol})
+  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol})
+  id: CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol})
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: CreateSymbolTable(ISymbolCollection<ISymbol>)
+  nameWithType: OnlineVariableInfo.CreateSymbolTable(ISymbolCollection<ISymbol>)
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection<TwinCAT.TypeSystem.ISymbol>)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateSymbolTable
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 169
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: static void CreateSymbolTable(ISymbolCollection<ISymbol> symbols)
+    parameters:
+    - id: symbols
+      type: TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol}
+    content.vb: Shared Sub CreateSymbolTable(symbols As ISymbolCollection(Of ISymbol))
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable*
+  nameWithType.vb: OnlineVariableInfo.CreateSymbolTable(ISymbolCollection(Of ISymbol))
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+  fullName.vb: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection(Of TwinCAT.TypeSystem.ISymbol))
+  name.vb: CreateSymbolTable(ISymbolCollection(Of ISymbol))
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._symbols
+  commentId: F:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._symbols
+  id: _symbols
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: _symbols
+  nameWithType: OnlineVariableInfo._symbols
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._symbols
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _symbols
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 192
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: static Dictionary<string, ISymbol> _symbols
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,TwinCAT.TypeSystem.ISymbol}
+    content.vb: Shared _symbols As Dictionary(Of String, ISymbol)
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolLoader(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolLoader(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  id: LoadSymbolOnTheFlyUseSymbolLoader(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: LoadSymbolOnTheFlyUseSymbolLoader(AdsConnector)
+  nameWithType: OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolLoader(AdsConnector)
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolLoader(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: LoadSymbolOnTheFlyUseSymbolLoader
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 194
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: void LoadSymbolOnTheFlyUseSymbolLoader(AdsConnector connector)
+    parameters:
+    - id: connector
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector
+    content.vb: Sub LoadSymbolOnTheFlyUseSymbolLoader(connector As AdsConnector)
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolLoader*
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolReader(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolReader(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  id: LoadSymbolOnTheFlyUseSymbolReader(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: LoadSymbolOnTheFlyUseSymbolReader(AdsConnector)
+  nameWithType: OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolReader(AdsConnector)
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolReader(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: LoadSymbolOnTheFlyUseSymbolReader
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 214
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: void LoadSymbolOnTheFlyUseSymbolReader(AdsConnector connector)
+    parameters:
+    - id: connector
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector
+    content.vb: Sub LoadSymbolOnTheFlyUseSymbolReader(connector As AdsConnector)
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolReader*
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyFromPreLoadedSymbols(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyFromPreLoadedSymbols(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  id: LoadSymbolOnTheFlyFromPreLoadedSymbols(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: LoadSymbolOnTheFlyFromPreLoadedSymbols(AdsConnector)
+  nameWithType: OnlineVariableInfo.LoadSymbolOnTheFlyFromPreLoadedSymbols(AdsConnector)
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyFromPreLoadedSymbols(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: LoadSymbolOnTheFlyFromPreLoadedSymbols
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 230
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: void LoadSymbolOnTheFlyFromPreLoadedSymbols(AdsConnector connector)
+    parameters:
+    - id: connector
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector
+    content.vb: Sub LoadSymbolOnTheFlyFromPreLoadedSymbols(connector As AdsConnector)
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyFromPreLoadedSymbols*
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LinkOnlineVariableSymbolInfo(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LinkOnlineVariableSymbolInfo(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  id: LinkOnlineVariableSymbolInfo(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: LinkOnlineVariableSymbolInfo(OnlineVariableInfo, AdsConnector)
+  nameWithType: OnlineVariableInfo.LinkOnlineVariableSymbolInfo(OnlineVariableInfo, AdsConnector)
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LinkOnlineVariableSymbolInfo(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo, Vortex.Adapters.Connector.Tc3.AdsConnector)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: LinkOnlineVariableSymbolInfo
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 236
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: void LinkOnlineVariableSymbolInfo(OnlineVariableInfo symbol, AdsConnector connector)
+    parameters:
+    - id: symbol
+      type: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+    - id: connector
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector
+    content.vb: Sub LinkOnlineVariableSymbolInfo(symbol As OnlineVariableInfo, connector As AdsConnector)
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LinkOnlineVariableSymbolInfo*
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LinkOnlineVariableSymbolInfo(System.String,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LinkOnlineVariableSymbolInfo(System.String,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  id: LinkOnlineVariableSymbolInfo(System.String,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: LinkOnlineVariableSymbolInfo(String, AdsConnector)
+  nameWithType: OnlineVariableInfo.LinkOnlineVariableSymbolInfo(String, AdsConnector)
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LinkOnlineVariableSymbolInfo(System.String, Vortex.Adapters.Connector.Tc3.AdsConnector)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: LinkOnlineVariableSymbolInfo
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 242
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: void LinkOnlineVariableSymbolInfo(string symbol, AdsConnector connector)
+    parameters:
+    - id: symbol
+      type: System.String
+    - id: connector
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector
+    content.vb: Sub LinkOnlineVariableSymbolInfo(symbol As String, connector As AdsConnector)
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LinkOnlineVariableSymbolInfo*
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.reservedGroups
+  commentId: F:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.reservedGroups
+  id: reservedGroups
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: reservedGroups
+  nameWithType: OnlineVariableInfo.reservedGroups
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.reservedGroups
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: reservedGroups
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 262
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: static IEnumerable<uint> reservedGroups
+    return:
+      type: System.Collections.Generic.IEnumerable{System.UInt32}
+    content.vb: Shared reservedGroups As IEnumerable(Of UInteger)
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.ReservedGroups
+  commentId: P:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.ReservedGroups
+  id: ReservedGroups
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: ReservedGroups
+  nameWithType: OnlineVariableInfo.ReservedGroups
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.ReservedGroups
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReservedGroups
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 263
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: >-
+      static IEnumerable<uint> ReservedGroups
+
+      {
+
+      }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.UInt32}
+    content.vb: Shared ReadOnly WriteOnly Property ReservedGroups As IEnumerable(Of UInteger)
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.ReservedGroups*
+  modifiers.csharp:
+  - static
+  - get
+  modifiers.vb:
+  - Shared
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Link(System.String,Vortex.Adapters.Connector.Tc3.AdsConnector,Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Link(System.String,Vortex.Adapters.Connector.Tc3.AdsConnector,Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  id: Link(System.String,Vortex.Adapters.Connector.Tc3.AdsConnector,Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: Link(String, AdsConnector, OnlineVariableInfo)
+  nameWithType: OnlineVariableInfo.Link(String, AdsConnector, OnlineVariableInfo)
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Link(System.String, Vortex.Adapters.Connector.Tc3.AdsConnector, Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Link
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 271
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: void Link(string symbol, AdsConnector connector, OnlineVariableInfo varInfo)
+    parameters:
+    - id: symbol
+      type: System.String
+    - id: connector
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector
+    - id: varInfo
+      type: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+    content.vb: Sub Link(symbol As String, connector As AdsConnector, varInfo As OnlineVariableInfo)
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Link*
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsSymbolExpectedToBeAvailable(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsSymbolExpectedToBeAvailable(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  id: IsSymbolExpectedToBeAvailable(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: IsSymbolExpectedToBeAvailable(OnlineVariableInfo)
+  nameWithType: OnlineVariableInfo.IsSymbolExpectedToBeAvailable(OnlineVariableInfo)
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsSymbolExpectedToBeAvailable(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IsSymbolExpectedToBeAvailable
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 300
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets true when online variable is expected to be is available in the controller and accessible to .Net environment.\n"
+  example: []
+  syntax:
+    content: static bool IsSymbolExpectedToBeAvailable(OnlineVariableInfo onlineSymbolInfo)
+    parameters:
+    - id: onlineSymbolInfo
+      type: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+      description: "\nOnline variable symbol information.\n"
+    return:
+      type: System.Boolean
+      description: "\nThe <xref href=\"System.Boolean\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+    content.vb: Shared Function IsSymbolExpectedToBeAvailable(onlineSymbolInfo As OnlineVariableInfo) As Boolean
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsSymbolExpectedToBeAvailable*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolInfoFactory(TwinCAT.Ads.TypeSystem.IAdsSymbol,System.String,TwinCAT.Ads.AdsClient)
+  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolInfoFactory(TwinCAT.Ads.TypeSystem.IAdsSymbol,System.String,TwinCAT.Ads.AdsClient)
+  id: SymbolInfoFactory(TwinCAT.Ads.TypeSystem.IAdsSymbol,System.String,TwinCAT.Ads.AdsClient)
+  parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  langs:
+  - csharp
+  - vb
+  name: SymbolInfoFactory(IAdsSymbol, String, AdsClient)
+  nameWithType: OnlineVariableInfo.SymbolInfoFactory(IAdsSymbol, String, AdsClient)
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolInfoFactory(TwinCAT.Ads.TypeSystem.IAdsSymbol, System.String, TwinCAT.Ads.AdsClient)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SymbolInfoFactory
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
+    startLine: 310
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public static OnlineVariableInfo SymbolInfoFactory(IAdsSymbol adsSymbolInfo, string symbol, AdsClient client)
+    parameters:
+    - id: adsSymbolInfo
+      type: TwinCAT.Ads.TypeSystem.IAdsSymbol
+    - id: symbol
+      type: System.String
+    - id: client
+      type: TwinCAT.Ads.AdsClient
+    return:
+      type: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+    content.vb: Public Shared Function SymbolInfoFactory(adsSymbolInfo As IAdsSymbol, symbol As String, client As AdsClient) As OnlineVariableInfo
+  overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolInfoFactory*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Vortex.Adapters.Connector.Tc3
+  commentId: N:Vortex.Adapters.Connector.Tc3
+  name: Vortex.Adapters.Connector.Tc3
+  nameWithType: Vortex.Adapters.Connector.Tc3
+  fullName: Vortex.Adapters.Connector.Tc3
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vortex.Connector.IValueTagInfo
+  commentId: T:Vortex.Connector.IValueTagInfo
+  parent: Vortex.Connector
+  name: IValueTagInfo
+  nameWithType: IValueTagInfo
+  fullName: Vortex.Connector.IValueTagInfo
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<OnlineVariableInfo>(Object)
+  nameWithType: IValueTagExtensions.Cast<OnlineVariableInfo>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.OnlineVariableInfo>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of OnlineVariableInfo)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)(System.Object)
+  name.vb: Cast(Of OnlineVariableInfo)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<OnlineVariableInfo>
+    nameWithType: IValueTagExtensions.Cast<OnlineVariableInfo>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.OnlineVariableInfo>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of OnlineVariableInfo)
+    nameWithType: IValueTagExtensions.Cast(Of OnlineVariableInfo)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.InvalidateSymbol*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.InvalidateSymbol
+  name: InvalidateSymbol
+  nameWithType: OnlineVariableInfo.InvalidateSymbol
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.InvalidateSymbol
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsValid*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsValid
+  name: IsValid
+  nameWithType: OnlineVariableInfo.IsValid
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.#ctor*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.#ctor
+  name: OnlineVariableInfo
+  nameWithType: OnlineVariableInfo.OnlineVariableInfo
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.OnlineVariableInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TwinCAT.Ads.AdsClient
+  commentId: T:TwinCAT.Ads.AdsClient
+  parent: TwinCAT.Ads
+  isExternal: true
+  name: AdsClient
+  nameWithType: AdsClient
+  fullName: TwinCAT.Ads.AdsClient
+- uid: TwinCAT.Ads
+  commentId: N:TwinCAT.Ads
+  isExternal: true
+  name: TwinCAT.Ads
+  nameWithType: TwinCAT.Ads
+  fullName: TwinCAT.Ads
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Handle*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Handle
+  name: Handle
+  nameWithType: OnlineVariableInfo.Handle
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Handle
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Group*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Group
+  name: IValueTagInfo.Group
+  nameWithType: OnlineVariableInfo.IValueTagInfo.Group
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Group
+  nameWithType.vb: OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Group
+  name.vb: Vortex.Connector.IValueTagInfo.Group
+- uid: Vortex.Connector.IValueTagInfo.Group
+  commentId: P:Vortex.Connector.IValueTagInfo.Group
+  parent: Vortex.Connector.IValueTagInfo
+  name: Group
+  nameWithType: IValueTagInfo.Group
+  fullName: Vortex.Connector.IValueTagInfo.Group
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Offset*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Offset
+  name: IValueTagInfo.Offset
+  nameWithType: OnlineVariableInfo.IValueTagInfo.Offset
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Offset
+  nameWithType.vb: OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Offset
+  name.vb: Vortex.Connector.IValueTagInfo.Offset
+- uid: Vortex.Connector.IValueTagInfo.Offset
+  commentId: P:Vortex.Connector.IValueTagInfo.Offset
+  parent: Vortex.Connector.IValueTagInfo
+  name: Offset
+  nameWithType: IValueTagInfo.Offset
+  fullName: Vortex.Connector.IValueTagInfo.Offset
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Length*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Length
+  name: IValueTagInfo.Length
+  nameWithType: OnlineVariableInfo.IValueTagInfo.Length
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Length
+  nameWithType.vb: OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Length
+  name.vb: Vortex.Connector.IValueTagInfo.Length
+- uid: Vortex.Connector.IValueTagInfo.Length
+  commentId: P:Vortex.Connector.IValueTagInfo.Length
+  parent: Vortex.Connector.IValueTagInfo
+  name: Length
+  nameWithType: IValueTagInfo.Length
+  fullName: Vortex.Connector.IValueTagInfo.Length
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Size*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#Size
+  name: IValueTagInfo.Size
+  nameWithType: OnlineVariableInfo.IValueTagInfo.Size
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Size
+  nameWithType.vb: OnlineVariableInfo.Vortex.Connector.IValueTagInfo.Size
+  name.vb: Vortex.Connector.IValueTagInfo.Size
+- uid: Vortex.Connector.IValueTagInfo.Size
+  commentId: P:Vortex.Connector.IValueTagInfo.Size
+  parent: Vortex.Connector.IValueTagInfo
+  name: Size
+  nameWithType: IValueTagInfo.Size
+  fullName: Vortex.Connector.IValueTagInfo.Size
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#IsAvailable*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex#Connector#IValueTagInfo#IsAvailable
+  name: IValueTagInfo.IsAvailable
+  nameWithType: OnlineVariableInfo.IValueTagInfo.IsAvailable
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex.Connector.IValueTagInfo.IsAvailable
+  nameWithType.vb: OnlineVariableInfo.Vortex.Connector.IValueTagInfo.IsAvailable
+  name.vb: Vortex.Connector.IValueTagInfo.IsAvailable
+- uid: Vortex.Connector.IValueTagInfo.IsAvailable
+  commentId: P:Vortex.Connector.IValueTagInfo.IsAvailable
+  parent: Vortex.Connector.IValueTagInfo
+  name: IsAvailable
+  nameWithType: IValueTagInfo.IsAvailable
+  fullName: Vortex.Connector.IValueTagInfo.IsAvailable
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexGroup*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexGroup
+  name: IndexGroup
+  nameWithType: OnlineVariableInfo.IndexGroup
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexGroup
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexOffset*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexOffset
+  name: IndexOffset
+  nameWithType: OnlineVariableInfo.IndexOffset
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexOffset
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsAvailableInController*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsAvailableInController
+  name: IsAvailableInController
+  nameWithType: OnlineVariableInfo.IsAvailableInController
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsAvailableInController
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Length*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Length
+  name: Length
+  nameWithType: OnlineVariableInfo.Length
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Length
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Size*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Size
+  name: Size
+  nameWithType: OnlineVariableInfo.Size
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Size
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.BitSize*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.BitSize
+  name: BitSize
+  nameWithType: OnlineVariableInfo.BitSize
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.BitSize
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Symbol*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Symbol
+  name: Symbol
+  nameWithType: OnlineVariableInfo.Symbol
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Symbol
+- uid: Vortex.Connector.IValueTagInfo.Symbol
+  commentId: P:Vortex.Connector.IValueTagInfo.Symbol
+  parent: Vortex.Connector.IValueTagInfo
+  name: Symbol
+  nameWithType: IValueTagInfo.Symbol
+  fullName: Vortex.Connector.IValueTagInfo.Symbol
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Name*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Name
+  name: Name
+  nameWithType: OnlineVariableInfo.Name
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Name
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFly*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFly
+  name: LoadSymbolOnTheFly
+  nameWithType: OnlineVariableInfo.LoadSymbolOnTheFly
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFly
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsConnector
+  parent: Vortex.Adapters.Connector.Tc3
+  name: AdsConnector
+  nameWithType: AdsConnector
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.AdsSymbol*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.AdsSymbol
+  name: AdsSymbol
+  nameWithType: OnlineVariableInfo.AdsSymbol
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.AdsSymbol
+- uid: TwinCAT.TypeSystem.ISymbol
+  commentId: T:TwinCAT.TypeSystem.ISymbol
+  parent: TwinCAT.TypeSystem
+  isExternal: true
+  name: ISymbol
+  nameWithType: ISymbol
+  fullName: TwinCAT.TypeSystem.ISymbol
+- uid: TwinCAT.TypeSystem
+  commentId: N:TwinCAT.TypeSystem
+  isExternal: true
+  name: TwinCAT.TypeSystem
+  nameWithType: TwinCAT.TypeSystem
+  fullName: TwinCAT.TypeSystem
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable
+  name: CreateSymbolTable
+  nameWithType: OnlineVariableInfo.CreateSymbolTable
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable
+- uid: TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol}
+  commentId: T:TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol}
+  parent: TwinCAT.TypeSystem
+  definition: TwinCAT.TypeSystem.ISymbolCollection`1
+  name: ISymbolCollection<ISymbol>
+  nameWithType: ISymbolCollection<ISymbol>
+  fullName: TwinCAT.TypeSystem.ISymbolCollection<TwinCAT.TypeSystem.ISymbol>
+  nameWithType.vb: ISymbolCollection(Of ISymbol)
+  fullName.vb: TwinCAT.TypeSystem.ISymbolCollection(Of TwinCAT.TypeSystem.ISymbol)
+  name.vb: ISymbolCollection(Of ISymbol)
+  spec.csharp:
+  - uid: TwinCAT.TypeSystem.ISymbolCollection`1
+    name: ISymbolCollection
+    nameWithType: ISymbolCollection
+    fullName: TwinCAT.TypeSystem.ISymbolCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TwinCAT.TypeSystem.ISymbol
+    name: ISymbol
+    nameWithType: ISymbol
+    fullName: TwinCAT.TypeSystem.ISymbol
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TwinCAT.TypeSystem.ISymbolCollection`1
+    name: ISymbolCollection
+    nameWithType: ISymbolCollection
+    fullName: TwinCAT.TypeSystem.ISymbolCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TwinCAT.TypeSystem.ISymbol
+    name: ISymbol
+    nameWithType: ISymbol
+    fullName: TwinCAT.TypeSystem.ISymbol
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TwinCAT.TypeSystem.ISymbolCollection`1
+  commentId: T:TwinCAT.TypeSystem.ISymbolCollection`1
+  isExternal: true
+  name: ISymbolCollection<T>
+  nameWithType: ISymbolCollection<T>
+  fullName: TwinCAT.TypeSystem.ISymbolCollection<T>
+  nameWithType.vb: ISymbolCollection(Of T)
+  fullName.vb: TwinCAT.TypeSystem.ISymbolCollection(Of T)
+  name.vb: ISymbolCollection(Of T)
+  spec.csharp:
+  - uid: TwinCAT.TypeSystem.ISymbolCollection`1
+    name: ISymbolCollection
+    nameWithType: ISymbolCollection
+    fullName: TwinCAT.TypeSystem.ISymbolCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TwinCAT.TypeSystem.ISymbolCollection`1
+    name: ISymbolCollection
+    nameWithType: ISymbolCollection
+    fullName: TwinCAT.TypeSystem.ISymbolCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary{System.String,TwinCAT.TypeSystem.ISymbol}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,TwinCAT.TypeSystem.ISymbol}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, ISymbol>
+  nameWithType: Dictionary<String, ISymbol>
+  fullName: System.Collections.Generic.Dictionary<System.String, TwinCAT.TypeSystem.ISymbol>
+  nameWithType.vb: Dictionary(Of String, ISymbol)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, TwinCAT.TypeSystem.ISymbol)
+  name.vb: Dictionary(Of String, ISymbol)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TwinCAT.TypeSystem.ISymbol
+    name: ISymbol
+    nameWithType: ISymbol
+    fullName: TwinCAT.TypeSystem.ISymbol
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TwinCAT.TypeSystem.ISymbol
+    name: ISymbol
+    nameWithType: ISymbol
+    fullName: TwinCAT.TypeSystem.ISymbol
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolLoader*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolLoader
+  name: LoadSymbolOnTheFlyUseSymbolLoader
+  nameWithType: OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolLoader
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolLoader
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolReader*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolReader
+  name: LoadSymbolOnTheFlyUseSymbolReader
+  nameWithType: OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolReader
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyUseSymbolReader
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyFromPreLoadedSymbols*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyFromPreLoadedSymbols
+  name: LoadSymbolOnTheFlyFromPreLoadedSymbols
+  nameWithType: OnlineVariableInfo.LoadSymbolOnTheFlyFromPreLoadedSymbols
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LoadSymbolOnTheFlyFromPreLoadedSymbols
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LinkOnlineVariableSymbolInfo*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LinkOnlineVariableSymbolInfo
+  name: LinkOnlineVariableSymbolInfo
+  nameWithType: OnlineVariableInfo.LinkOnlineVariableSymbolInfo
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.LinkOnlineVariableSymbolInfo
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  commentId: T:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  parent: Vortex.Adapters.Connector.Tc3
+  name: OnlineVariableInfo
+  nameWithType: OnlineVariableInfo
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+- uid: System.Collections.Generic.IEnumerable{System.UInt32}
+  commentId: T:System.Collections.Generic.IEnumerable{System.UInt32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<UInt32>
+  nameWithType: IEnumerable<UInt32>
+  fullName: System.Collections.Generic.IEnumerable<System.UInt32>
+  nameWithType.vb: IEnumerable(Of UInt32)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.UInt32)
+  name.vb: IEnumerable(Of UInt32)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.ReservedGroups*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.ReservedGroups
+  name: ReservedGroups
+  nameWithType: OnlineVariableInfo.ReservedGroups
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.ReservedGroups
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Link*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Link
+  name: Link
+  nameWithType: OnlineVariableInfo.Link
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Link
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsSymbolExpectedToBeAvailable*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsSymbolExpectedToBeAvailable
+  name: IsSymbolExpectedToBeAvailable
+  nameWithType: OnlineVariableInfo.IsSymbolExpectedToBeAvailable
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IsSymbolExpectedToBeAvailable
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolInfoFactory*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolInfoFactory
+  name: SymbolInfoFactory
+  nameWithType: OnlineVariableInfo.SymbolInfoFactory
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolInfoFactory
+- uid: TwinCAT.Ads.TypeSystem.IAdsSymbol
+  commentId: T:TwinCAT.Ads.TypeSystem.IAdsSymbol
+  parent: TwinCAT.Ads.TypeSystem
+  isExternal: true
+  name: IAdsSymbol
+  nameWithType: IAdsSymbol
+  fullName: TwinCAT.Ads.TypeSystem.IAdsSymbol
+- uid: TwinCAT.Ads.TypeSystem
+  commentId: N:TwinCAT.Ads.TypeSystem
+  isExternal: true
+  name: TwinCAT.Ads.TypeSystem
+  nameWithType: TwinCAT.Ads.TypeSystem
+  fullName: TwinCAT.Ads.TypeSystem

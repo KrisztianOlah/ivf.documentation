@@ -1,0 +1,637 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.LibraryDescriptors.TypeMetaData
+  commentId: T:Vortex.Connector.LibraryDescriptors.TypeMetaData
+  id: TypeMetaData
+  parent: Vortex.Connector.LibraryDescriptors
+  children:
+  - Vortex.Connector.LibraryDescriptors.TypeMetaData.Namespace
+  - Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeAttributes
+  - Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeMetaInfo
+  - Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeName
+  langs:
+  - csharp
+  - vb
+  name: TypeMetaData
+  nameWithType: TypeMetaData
+  fullName: Vortex.Connector.LibraryDescriptors.TypeMetaData
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: TypeMetaData
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
+    startLine: 8
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.LibraryDescriptors
+  summary: "\nContainer for meta information about vortex object type.\n"
+  example: []
+  syntax:
+    content: public class TypeMetaData
+    content.vb: Public Class TypeMetaData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Vortex.Connector.LibraryDescriptors.TypeMetaData.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeAttributes
+  commentId: P:Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeAttributes
+  id: TypeAttributes
+  parent: Vortex.Connector.LibraryDescriptors.TypeMetaData
+  langs:
+  - csharp
+  - vb
+  name: TypeAttributes
+  nameWithType: TypeMetaData.TypeAttributes
+  fullName: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeAttributes
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: TypeAttributes
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
+    startLine: 13
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.LibraryDescriptors
+  summary: "\nGets or sets attributes of this vortex object type.\n"
+  example: []
+  syntax:
+    content: public string TypeAttributes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TypeAttributes As String
+  overload: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeAttributes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeName
+  commentId: P:Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeName
+  id: TypeName
+  parent: Vortex.Connector.LibraryDescriptors.TypeMetaData
+  langs:
+  - csharp
+  - vb
+  name: TypeName
+  nameWithType: TypeMetaData.TypeName
+  fullName: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeName
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: TypeName
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
+    startLine: 18
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.LibraryDescriptors
+  summary: "\nGets or sets name of the this vortex object type.\n"
+  example: []
+  syntax:
+    content: public string TypeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TypeName As String
+  overload: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vortex.Connector.LibraryDescriptors.TypeMetaData.Namespace
+  commentId: P:Vortex.Connector.LibraryDescriptors.TypeMetaData.Namespace
+  id: Namespace
+  parent: Vortex.Connector.LibraryDescriptors.TypeMetaData
+  langs:
+  - csharp
+  - vb
+  name: Namespace
+  nameWithType: TypeMetaData.Namespace
+  fullName: Vortex.Connector.LibraryDescriptors.TypeMetaData.Namespace
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Namespace
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
+    startLine: 22
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.LibraryDescriptors
+  summary: "\nGets or sets namespace of this vortex object type.\n"
+  example: []
+  syntax:
+    content: public string Namespace { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Namespace As String
+  overload: Vortex.Connector.LibraryDescriptors.TypeMetaData.Namespace*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeMetaInfo
+  commentId: P:Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeMetaInfo
+  id: TypeMetaInfo
+  parent: Vortex.Connector.LibraryDescriptors.TypeMetaData
+  langs:
+  - csharp
+  - vb
+  name: TypeMetaInfo
+  nameWithType: TypeMetaData.TypeMetaInfo
+  fullName: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeMetaInfo
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: TypeMetaInfo
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
+    startLine: 27
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.LibraryDescriptors
+  summary: "\nGets or sets information about this vortex object type complexity.\n"
+  example: []
+  syntax:
+    content: public TypeComplexityEnum TypeMetaInfo { get; set; }
+    parameters: []
+    return:
+      type: Vortex.Connector.TypeComplexityEnum
+    content.vb: Public Property TypeMetaInfo As TypeComplexityEnum
+  overload: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeMetaInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vortex.Connector.LibraryDescriptors
+  commentId: N:Vortex.Connector.LibraryDescriptors
+  name: Vortex.Connector.LibraryDescriptors
+  nameWithType: Vortex.Connector.LibraryDescriptors
+  fullName: Vortex.Connector.LibraryDescriptors
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.LibraryDescriptors.TypeMetaData.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<TypeMetaData>(Object)
+  nameWithType: IValueTagExtensions.Cast<TypeMetaData>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.LibraryDescriptors.TypeMetaData>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of TypeMetaData)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.LibraryDescriptors.TypeMetaData)(System.Object)
+  name.vb: Cast(Of TypeMetaData)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<TypeMetaData>
+    nameWithType: IValueTagExtensions.Cast<TypeMetaData>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.LibraryDescriptors.TypeMetaData>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of TypeMetaData)
+    nameWithType: IValueTagExtensions.Cast(Of TypeMetaData)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.LibraryDescriptors.TypeMetaData)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeAttributes*
+  commentId: Overload:Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeAttributes
+  name: TypeAttributes
+  nameWithType: TypeMetaData.TypeAttributes
+  fullName: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeAttributes
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeName*
+  commentId: Overload:Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeName
+  name: TypeName
+  nameWithType: TypeMetaData.TypeName
+  fullName: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeName
+- uid: Vortex.Connector.LibraryDescriptors.TypeMetaData.Namespace*
+  commentId: Overload:Vortex.Connector.LibraryDescriptors.TypeMetaData.Namespace
+  name: Namespace
+  nameWithType: TypeMetaData.Namespace
+  fullName: Vortex.Connector.LibraryDescriptors.TypeMetaData.Namespace
+- uid: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeMetaInfo*
+  commentId: Overload:Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeMetaInfo
+  name: TypeMetaInfo
+  nameWithType: TypeMetaData.TypeMetaInfo
+  fullName: Vortex.Connector.LibraryDescriptors.TypeMetaData.TypeMetaInfo
+- uid: Vortex.Connector.TypeComplexityEnum
+  commentId: T:Vortex.Connector.TypeComplexityEnum
+  parent: Vortex.Connector
+  name: TypeComplexityEnum
+  nameWithType: TypeComplexityEnum
+  fullName: Vortex.Connector.TypeComplexityEnum

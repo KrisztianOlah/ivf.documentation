@@ -1,0 +1,572 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole
+  commentId: T:Vortex.Adapters.Connector.Tc3.ReportingConsole
+  id: ReportingConsole
+  parent: Vortex.Adapters.Connector.Tc3
+  children:
+  - Vortex.Adapters.Connector.Tc3.ReportingConsole.AllocConsole
+  - Vortex.Adapters.Connector.Tc3.ReportingConsole.FreeConsole
+  - Vortex.Adapters.Connector.Tc3.ReportingConsole.SetConsoleMode
+  - Vortex.Adapters.Connector.Tc3.ReportingConsole.Start(System.String)
+  - Vortex.Adapters.Connector.Tc3.ReportingConsole.Stop
+  - Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpInfo
+  langs:
+  - csharp
+  - vb
+  name: ReportingConsole
+  nameWithType: ReportingConsole
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReportingConsole
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
+    startLine: 5
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: static class ReportingConsole
+    content.vb: Module ReportingConsole
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - static
+  - class
+  modifiers.vb:
+  - Module
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpInfo
+  commentId: P:Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpInfo
+  id: UpdateStartUpInfo
+  parent: Vortex.Adapters.Connector.Tc3.ReportingConsole
+  langs:
+  - csharp
+  - vb
+  name: UpdateStartUpInfo
+  nameWithType: ReportingConsole.UpdateStartUpInfo
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpInfo
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: UpdateStartUpInfo
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
+    startLine: 7
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public static ReportingConsole.UpdateStartUpDelegate UpdateStartUpInfo { get; set; }
+    parameters: []
+    return:
+      type: Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpDelegate
+    content.vb: Public Shared Property UpdateStartUpInfo As ReportingConsole.UpdateStartUpDelegate
+  overload: Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpInfo*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.AllocConsole
+  commentId: M:Vortex.Adapters.Connector.Tc3.ReportingConsole.AllocConsole
+  id: AllocConsole
+  parent: Vortex.Adapters.Connector.Tc3.ReportingConsole
+  langs:
+  - csharp
+  - vb
+  name: AllocConsole()
+  nameWithType: ReportingConsole.AllocConsole()
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole.AllocConsole()
+  type: Method
+  source:
+    path: Vortex.Adapters.Connector.Tc3
+    isExternal: true
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: static void AllocConsole()
+    content.vb: Shared Sub AllocConsole
+  overload: Vortex.Adapters.Connector.Tc3.ReportingConsole.AllocConsole*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.FreeConsole
+  commentId: M:Vortex.Adapters.Connector.Tc3.ReportingConsole.FreeConsole
+  id: FreeConsole
+  parent: Vortex.Adapters.Connector.Tc3.ReportingConsole
+  langs:
+  - csharp
+  - vb
+  name: FreeConsole()
+  nameWithType: ReportingConsole.FreeConsole()
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole.FreeConsole()
+  type: Method
+  source:
+    path: Vortex.Adapters.Connector.Tc3
+    isExternal: true
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: static void FreeConsole()
+    content.vb: Shared Sub FreeConsole
+  overload: Vortex.Adapters.Connector.Tc3.ReportingConsole.FreeConsole*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.SetConsoleMode
+  commentId: M:Vortex.Adapters.Connector.Tc3.ReportingConsole.SetConsoleMode
+  id: SetConsoleMode
+  parent: Vortex.Adapters.Connector.Tc3.ReportingConsole
+  langs:
+  - csharp
+  - vb
+  name: SetConsoleMode()
+  nameWithType: ReportingConsole.SetConsoleMode()
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole.SetConsoleMode()
+  type: Method
+  source:
+    path: Vortex.Adapters.Connector.Tc3
+    isExternal: true
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: static void SetConsoleMode()
+    content.vb: Shared Sub SetConsoleMode
+  overload: Vortex.Adapters.Connector.Tc3.ReportingConsole.SetConsoleMode*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.Start(System.String)
+  commentId: M:Vortex.Adapters.Connector.Tc3.ReportingConsole.Start(System.String)
+  id: Start(System.String)
+  parent: Vortex.Adapters.Connector.Tc3.ReportingConsole
+  langs:
+  - csharp
+  - vb
+  name: Start(String)
+  nameWithType: ReportingConsole.Start(String)
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole.Start(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Start
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
+    startLine: 20
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public static void Start(string identifier)
+    parameters:
+    - id: identifier
+      type: System.String
+    content.vb: Public Shared Sub Start(identifier As String)
+  overload: Vortex.Adapters.Connector.Tc3.ReportingConsole.Start*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.Stop
+  commentId: M:Vortex.Adapters.Connector.Tc3.ReportingConsole.Stop
+  id: Stop
+  parent: Vortex.Adapters.Connector.Tc3.ReportingConsole
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: ReportingConsole.Stop()
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole.Stop()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Stop
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
+    startLine: 27
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public static void Stop()
+    content.vb: Public Shared Sub Stop
+  overload: Vortex.Adapters.Connector.Tc3.ReportingConsole.Stop*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Vortex.Adapters.Connector.Tc3
+  commentId: N:Vortex.Adapters.Connector.Tc3
+  name: Vortex.Adapters.Connector.Tc3
+  nameWithType: Vortex.Adapters.Connector.Tc3
+  fullName: Vortex.Adapters.Connector.Tc3
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpInfo*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpInfo
+  name: UpdateStartUpInfo
+  nameWithType: ReportingConsole.UpdateStartUpInfo
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpInfo
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpDelegate
+  commentId: T:Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpDelegate
+  parent: Vortex.Adapters.Connector.Tc3
+  name: ReportingConsole.UpdateStartUpDelegate
+  nameWithType: ReportingConsole.UpdateStartUpDelegate
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpDelegate
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.AllocConsole*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.ReportingConsole.AllocConsole
+  isExternal: true
+  name: AllocConsole
+  nameWithType: ReportingConsole.AllocConsole
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole.AllocConsole
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.FreeConsole*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.ReportingConsole.FreeConsole
+  isExternal: true
+  name: FreeConsole
+  nameWithType: ReportingConsole.FreeConsole
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole.FreeConsole
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.SetConsoleMode*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.ReportingConsole.SetConsoleMode
+  isExternal: true
+  name: SetConsoleMode
+  nameWithType: ReportingConsole.SetConsoleMode
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole.SetConsoleMode
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.Start*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.ReportingConsole.Start
+  name: Start
+  nameWithType: ReportingConsole.Start
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole.Start
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.Stop*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.ReportingConsole.Stop
+  name: Stop
+  nameWithType: ReportingConsole.Stop
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole.Stop

@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Adapters.Connector.Tc3.Adapter
+  commentId: N:Vortex.Adapters.Connector.Tc3.Adapter
+  id: Vortex.Adapters.Connector.Tc3.Adapter
+  children:
+  - Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory
+  - Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode
+  - Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+  - Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Adapters.Connector.Tc3.Adapter
+  nameWithType: Vortex.Adapters.Connector.Tc3.Adapter
+  fullName: Vortex.Adapters.Connector.Tc3.Adapter
+  type: Namespace
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+references:
+- uid: Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory
+  commentId: T:Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory
+  name: ConnectorFactory
+  nameWithType: ConnectorFactory
+  fullName: Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory
+- uid: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode
+  commentId: T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode
+  parent: Vortex.Adapters.Connector.Tc3.Adapter
+  name: SymbolLoadingMode
+  nameWithType: SymbolLoadingMode
+  fullName: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode
+- uid: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+  commentId: T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+  parent: Vortex.Adapters.Connector.Tc3.Adapter
+  name: SymbolLoadMethod
+  nameWithType: SymbolLoadMethod
+  fullName: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+- uid: Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter
+  commentId: T:Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter
+  name: Tc3ConnectorAdapter
+  nameWithType: Tc3ConnectorAdapter
+  fullName: Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter
+- uid: Vortex.Adapters.Connector.Tc3.Adapter
+  commentId: N:Vortex.Adapters.Connector.Tc3.Adapter
+  name: Vortex.Adapters.Connector.Tc3.Adapter
+  nameWithType: Vortex.Adapters.Connector.Tc3.Adapter
+  fullName: Vortex.Adapters.Connector.Tc3.Adapter

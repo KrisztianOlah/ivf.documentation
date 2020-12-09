@@ -1,0 +1,845 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.ValueValidation.BoolValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.BoolValueValidationRule
+  id: BoolValueValidationRule
+  parent: Vortex.Connector.ValueValidation
+  children:
+  - Vortex.Connector.ValueValidation.BoolValueValidationRule.#ctor(Vortex.Connector.ValueTypes.OnlinerBool)
+  - Vortex.Connector.ValueValidation.BoolValueValidationRule.Validate(System.Boolean,System.Globalization.CultureInfo)
+  langs:
+  - csharp
+  - vb
+  name: BoolValueValidationRule
+  nameWithType: BoolValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.BoolValueValidationRule
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/BoolValueValidationRule.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: BoolValueValidationRule
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/BoolValueValidationRule.cs
+    startLine: 8
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.ValueValidation
+  summary: "\nProvides validation rule for <xref href=\"Vortex.Connector.ValueTypes.OnlinerBool\" data-throw-if-not-resolved=\"false\"></xref> type.\n"
+  example: []
+  syntax:
+    content: 'public class BoolValueValidationRule : OnlinerValidationRule<bool>'
+    content.vb: >-
+      Public Class BoolValueValidationRule
+          Inherits OnlinerValidationRule(Of Boolean)
+  inheritance:
+  - System.Object
+  - Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}
+  inheritedMembers:
+  - Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.onliner
+  - Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.Max
+  - Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.Min
+  - Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.ValidationErrorTip
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Vortex.Connector.ValueValidation.BoolValueValidationRule.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vortex.Connector.ValueValidation.BoolValueValidationRule.#ctor(Vortex.Connector.ValueTypes.OnlinerBool)
+  commentId: M:Vortex.Connector.ValueValidation.BoolValueValidationRule.#ctor(Vortex.Connector.ValueTypes.OnlinerBool)
+  id: '#ctor(Vortex.Connector.ValueTypes.OnlinerBool)'
+  parent: Vortex.Connector.ValueValidation.BoolValueValidationRule
+  langs:
+  - csharp
+  - vb
+  name: BoolValueValidationRule(OnlinerBool)
+  nameWithType: BoolValueValidationRule.BoolValueValidationRule(OnlinerBool)
+  fullName: Vortex.Connector.ValueValidation.BoolValueValidationRule.BoolValueValidationRule(Vortex.Connector.ValueTypes.OnlinerBool)
+  type: Constructor
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/BoolValueValidationRule.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/BoolValueValidationRule.cs
+    startLine: 16
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.ValueValidation
+  summary: "\nInitializes a new instance of the <xref href=\"Vortex.Connector.ValueValidation.BoolValueValidationRule\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public BoolValueValidationRule(OnlinerBool onliner)
+    parameters:
+    - id: onliner
+      type: Vortex.Connector.ValueTypes.OnlinerBool
+      description: "\nOnliner type.\n"
+    content.vb: Public Sub New(onliner As OnlinerBool)
+  overload: Vortex.Connector.ValueValidation.BoolValueValidationRule.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Connector.ValueValidation.BoolValueValidationRule.Validate(System.Boolean,System.Globalization.CultureInfo)
+  commentId: M:Vortex.Connector.ValueValidation.BoolValueValidationRule.Validate(System.Boolean,System.Globalization.CultureInfo)
+  id: Validate(System.Boolean,System.Globalization.CultureInfo)
+  parent: Vortex.Connector.ValueValidation.BoolValueValidationRule
+  langs:
+  - csharp
+  - vb
+  name: Validate(Boolean, CultureInfo)
+  nameWithType: BoolValueValidationRule.Validate(Boolean, CultureInfo)
+  fullName: Vortex.Connector.ValueValidation.BoolValueValidationRule.Validate(System.Boolean, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/BoolValueValidationRule.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Validate
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/BoolValueValidationRule.cs
+    startLine: 26
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.ValueValidation
+  summary: "\nValidates value of <xref href=\"Vortex.Connector.ValueTypes.OnlinerBool\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public override ValidationResult Validate(bool value, CultureInfo cultureInfo)
+    parameters:
+    - id: value
+      type: System.Boolean
+      description: Value to validate.
+    - id: cultureInfo
+      type: System.Globalization.CultureInfo
+      description: Culture.
+    return:
+      type: Vortex.Connector.ValueValidation.ValidationResult
+      description: Validation result.
+    content.vb: Public Overrides Function Validate(value As Boolean, cultureInfo As CultureInfo) As ValidationResult
+  overridden: Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.Validate(System.Boolean,System.Globalization.CultureInfo)
+  overload: Vortex.Connector.ValueValidation.BoolValueValidationRule.Validate*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Vortex.Connector.ValueTypes.OnlinerBool
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerBool
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerBool
+  nameWithType: OnlinerBool
+  fullName: Vortex.Connector.ValueTypes.OnlinerBool
+- uid: Vortex.Connector.ValueValidation
+  commentId: N:Vortex.Connector.ValueValidation
+  name: Vortex.Connector.ValueValidation
+  nameWithType: Vortex.Connector.ValueValidation
+  fullName: Vortex.Connector.ValueValidation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}
+  commentId: T:Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}
+  parent: Vortex.Connector.ValueValidation
+  definition: Vortex.Connector.ValueValidation.OnlinerValidationRule`1
+  name: OnlinerValidationRule<Boolean>
+  nameWithType: OnlinerValidationRule<Boolean>
+  fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<System.Boolean>
+  nameWithType.vb: OnlinerValidationRule(Of Boolean)
+  fullName.vb: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of System.Boolean)
+  name.vb: OnlinerValidationRule(Of Boolean)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1
+    name: OnlinerValidationRule
+    nameWithType: OnlinerValidationRule
+    fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1
+    name: OnlinerValidationRule
+    nameWithType: OnlinerValidationRule
+    fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.onliner
+  commentId: F:Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.onliner
+  parent: Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}
+  definition: Vortex.Connector.ValueValidation.OnlinerValidationRule`1.onliner
+  name: onliner
+  nameWithType: OnlinerValidationRule<Boolean>.onliner
+  fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<System.Boolean>.onliner
+  nameWithType.vb: OnlinerValidationRule(Of Boolean).onliner
+  fullName.vb: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of System.Boolean).onliner
+- uid: Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.Max
+  commentId: P:Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.Max
+  parent: Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}
+  definition: Vortex.Connector.ValueValidation.OnlinerValidationRule`1.Max
+  name: Max
+  nameWithType: OnlinerValidationRule<Boolean>.Max
+  fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<System.Boolean>.Max
+  nameWithType.vb: OnlinerValidationRule(Of Boolean).Max
+  fullName.vb: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of System.Boolean).Max
+- uid: Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.Min
+  commentId: P:Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.Min
+  parent: Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}
+  definition: Vortex.Connector.ValueValidation.OnlinerValidationRule`1.Min
+  name: Min
+  nameWithType: OnlinerValidationRule<Boolean>.Min
+  fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<System.Boolean>.Min
+  nameWithType.vb: OnlinerValidationRule(Of Boolean).Min
+  fullName.vb: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of System.Boolean).Min
+- uid: Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.ValidationErrorTip
+  commentId: P:Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.ValidationErrorTip
+  parent: Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}
+  definition: Vortex.Connector.ValueValidation.OnlinerValidationRule`1.ValidationErrorTip
+  name: ValidationErrorTip
+  nameWithType: OnlinerValidationRule<Boolean>.ValidationErrorTip
+  fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<System.Boolean>.ValidationErrorTip
+  nameWithType.vb: OnlinerValidationRule(Of Boolean).ValidationErrorTip
+  fullName.vb: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of System.Boolean).ValidationErrorTip
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueValidation.BoolValueValidationRule.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<BoolValueValidationRule>(Object)
+  nameWithType: IValueTagExtensions.Cast<BoolValueValidationRule>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.ValueValidation.BoolValueValidationRule>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of BoolValueValidationRule)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.ValueValidation.BoolValueValidationRule)(System.Object)
+  name.vb: Cast(Of BoolValueValidationRule)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<BoolValueValidationRule>
+    nameWithType: IValueTagExtensions.Cast<BoolValueValidationRule>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.ValueValidation.BoolValueValidationRule>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of BoolValueValidationRule)
+    nameWithType: IValueTagExtensions.Cast(Of BoolValueValidationRule)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.ValueValidation.BoolValueValidationRule)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes
+  commentId: N:Vortex.Connector.ValueTypes
+  name: Vortex.Connector.ValueTypes
+  nameWithType: Vortex.Connector.ValueTypes
+  fullName: Vortex.Connector.ValueTypes
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1
+  commentId: T:Vortex.Connector.ValueValidation.OnlinerValidationRule`1
+  name: OnlinerValidationRule<T>
+  nameWithType: OnlinerValidationRule<T>
+  fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<T>
+  nameWithType.vb: OnlinerValidationRule(Of T)
+  fullName.vb: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of T)
+  name.vb: OnlinerValidationRule(Of T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1
+    name: OnlinerValidationRule
+    nameWithType: OnlinerValidationRule
+    fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1
+    name: OnlinerValidationRule
+    nameWithType: OnlinerValidationRule
+    fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1.onliner
+  commentId: F:Vortex.Connector.ValueValidation.OnlinerValidationRule`1.onliner
+  name: onliner
+  nameWithType: OnlinerValidationRule<T>.onliner
+  fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<T>.onliner
+  nameWithType.vb: OnlinerValidationRule(Of T).onliner
+  fullName.vb: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of T).onliner
+- uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1.Max
+  commentId: P:Vortex.Connector.ValueValidation.OnlinerValidationRule`1.Max
+  name: Max
+  nameWithType: OnlinerValidationRule<T>.Max
+  fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<T>.Max
+  nameWithType.vb: OnlinerValidationRule(Of T).Max
+  fullName.vb: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of T).Max
+- uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1.Min
+  commentId: P:Vortex.Connector.ValueValidation.OnlinerValidationRule`1.Min
+  name: Min
+  nameWithType: OnlinerValidationRule<T>.Min
+  fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<T>.Min
+  nameWithType.vb: OnlinerValidationRule(Of T).Min
+  fullName.vb: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of T).Min
+- uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1.ValidationErrorTip
+  commentId: P:Vortex.Connector.ValueValidation.OnlinerValidationRule`1.ValidationErrorTip
+  name: ValidationErrorTip
+  nameWithType: OnlinerValidationRule<T>.ValidationErrorTip
+  fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<T>.ValidationErrorTip
+  nameWithType.vb: OnlinerValidationRule(Of T).ValidationErrorTip
+  fullName.vb: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of T).ValidationErrorTip
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.ValueValidation.BoolValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.BoolValueValidationRule
+  name: BoolValueValidationRule
+  nameWithType: BoolValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.BoolValueValidationRule
+- uid: Vortex.Connector.ValueValidation.BoolValueValidationRule.#ctor*
+  commentId: Overload:Vortex.Connector.ValueValidation.BoolValueValidationRule.#ctor
+  name: BoolValueValidationRule
+  nameWithType: BoolValueValidationRule.BoolValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.BoolValueValidationRule.BoolValueValidationRule
+- uid: Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.Validate(System.Boolean,System.Globalization.CultureInfo)
+  commentId: M:Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}.Validate(System.Boolean,System.Globalization.CultureInfo)
+  parent: Vortex.Connector.ValueValidation.OnlinerValidationRule{System.Boolean}
+  definition: Vortex.Connector.ValueValidation.OnlinerValidationRule`1.Validate(`0,System.Globalization.CultureInfo)
+  name: Validate(Boolean, CultureInfo)
+  nameWithType: OnlinerValidationRule<Boolean>.Validate(Boolean, CultureInfo)
+  fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<System.Boolean>.Validate(System.Boolean, System.Globalization.CultureInfo)
+  nameWithType.vb: OnlinerValidationRule(Of Boolean).Validate(Boolean, CultureInfo)
+  fullName.vb: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of System.Boolean).Validate(System.Boolean, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1.Validate(`0,System.Globalization.CultureInfo)
+    name: Validate
+    nameWithType: OnlinerValidationRule<Boolean>.Validate
+    fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<System.Boolean>.Validate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1.Validate(`0,System.Globalization.CultureInfo)
+    name: Validate
+    nameWithType: OnlinerValidationRule(Of Boolean).Validate
+    fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of System.Boolean).Validate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueValidation.BoolValueValidationRule.Validate*
+  commentId: Overload:Vortex.Connector.ValueValidation.BoolValueValidationRule.Validate
+  name: Validate
+  nameWithType: BoolValueValidationRule.Validate
+  fullName: Vortex.Connector.ValueValidation.BoolValueValidationRule.Validate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: Vortex.Connector.ValueValidation.ValidationResult
+  commentId: T:Vortex.Connector.ValueValidation.ValidationResult
+  parent: Vortex.Connector.ValueValidation
+  name: ValidationResult
+  nameWithType: ValidationResult
+  fullName: Vortex.Connector.ValueValidation.ValidationResult
+- uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1.Validate(`0,System.Globalization.CultureInfo)
+  commentId: M:Vortex.Connector.ValueValidation.OnlinerValidationRule`1.Validate(`0,System.Globalization.CultureInfo)
+  isExternal: true
+  name: Validate(T, CultureInfo)
+  nameWithType: OnlinerValidationRule<T>.Validate(T, CultureInfo)
+  fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<T>.Validate(T, System.Globalization.CultureInfo)
+  nameWithType.vb: OnlinerValidationRule(Of T).Validate(T, CultureInfo)
+  fullName.vb: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of T).Validate(T, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1.Validate(`0,System.Globalization.CultureInfo)
+    name: Validate
+    nameWithType: OnlinerValidationRule<T>.Validate
+    fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<T>.Validate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1.Validate(`0,System.Globalization.CultureInfo)
+    name: Validate
+    nameWithType: OnlinerValidationRule(Of T).Validate
+    fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of T).Validate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization

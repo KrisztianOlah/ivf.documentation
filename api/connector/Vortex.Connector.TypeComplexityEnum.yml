@@ -1,0 +1,256 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.TypeComplexityEnum
+  commentId: T:Vortex.Connector.TypeComplexityEnum
+  id: TypeComplexityEnum
+  parent: Vortex.Connector
+  children:
+  - Vortex.Connector.TypeComplexityEnum.BuiltIn
+  - Vortex.Connector.TypeComplexityEnum.Complex
+  - Vortex.Connector.TypeComplexityEnum.Enumerator
+  langs:
+  - csharp
+  - vb
+  name: TypeComplexityEnum
+  nameWithType: TypeComplexityEnum
+  fullName: Vortex.Connector.TypeComplexityEnum
+  type: Enum
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeFamily.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: TypeComplexityEnum
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeFamily.cs
+    startLine: 5
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nEnumerates types of objects depending on complexity.\n"
+  example: []
+  syntax:
+    content: public enum TypeComplexityEnum
+    content.vb: Public Enum TypeComplexityEnum
+  extensionMethods:
+  - Vortex.Connector.TypeComplexityEnum.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vortex.Connector.TypeComplexityEnum.BuiltIn
+  commentId: F:Vortex.Connector.TypeComplexityEnum.BuiltIn
+  id: BuiltIn
+  parent: Vortex.Connector.TypeComplexityEnum
+  langs:
+  - csharp
+  - vb
+  name: BuiltIn
+  nameWithType: TypeComplexityEnum.BuiltIn
+  fullName: Vortex.Connector.TypeComplexityEnum.BuiltIn
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeFamily.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: BuiltIn
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeFamily.cs
+    startLine: 10
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nBuilt-in value type.\n"
+  example: []
+  syntax:
+    content: BuiltIn = 0
+    return:
+      type: Vortex.Connector.TypeComplexityEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.TypeComplexityEnum.Complex
+  commentId: F:Vortex.Connector.TypeComplexityEnum.Complex
+  id: Complex
+  parent: Vortex.Connector.TypeComplexityEnum
+  langs:
+  - csharp
+  - vb
+  name: Complex
+  nameWithType: TypeComplexityEnum.Complex
+  fullName: Vortex.Connector.TypeComplexityEnum.Complex
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeFamily.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Complex
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeFamily.cs
+    startLine: 15
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nNot-Built-in Complex type.\n"
+  example: []
+  syntax:
+    content: Complex = 1
+    return:
+      type: Vortex.Connector.TypeComplexityEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.TypeComplexityEnum.Enumerator
+  commentId: F:Vortex.Connector.TypeComplexityEnum.Enumerator
+  id: Enumerator
+  parent: Vortex.Connector.TypeComplexityEnum
+  langs:
+  - csharp
+  - vb
+  name: Enumerator
+  nameWithType: TypeComplexityEnum.Enumerator
+  fullName: Vortex.Connector.TypeComplexityEnum.Enumerator
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeFamily.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Enumerator
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeFamily.cs
+    startLine: 20
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nEnumerator type.\n"
+  example: []
+  syntax:
+    content: Enumerator = 2
+    return:
+      type: Vortex.Connector.TypeComplexityEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.TypeComplexityEnum.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<TypeComplexityEnum>(Object)
+  nameWithType: IValueTagExtensions.Cast<TypeComplexityEnum>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.TypeComplexityEnum>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of TypeComplexityEnum)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.TypeComplexityEnum)(System.Object)
+  name.vb: Cast(Of TypeComplexityEnum)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<TypeComplexityEnum>
+    nameWithType: IValueTagExtensions.Cast<TypeComplexityEnum>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.TypeComplexityEnum>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of TypeComplexityEnum)
+    nameWithType: IValueTagExtensions.Cast(Of TypeComplexityEnum)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.TypeComplexityEnum)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector.TypeComplexityEnum
+  commentId: T:Vortex.Connector.TypeComplexityEnum
+  parent: Vortex.Connector
+  name: TypeComplexityEnum
+  nameWithType: TypeComplexityEnum
+  fullName: Vortex.Connector.TypeComplexityEnum

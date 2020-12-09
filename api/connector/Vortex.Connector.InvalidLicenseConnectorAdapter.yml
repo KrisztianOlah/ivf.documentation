@@ -1,0 +1,653 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.InvalidLicenseConnectorAdapter
+  commentId: T:Vortex.Connector.InvalidLicenseConnectorAdapter
+  id: InvalidLicenseConnectorAdapter
+  parent: Vortex.Connector
+  children:
+  - Vortex.Connector.InvalidLicenseConnectorAdapter.#ctor(System.Object[])
+  - Vortex.Connector.InvalidLicenseConnectorAdapter.Message
+  langs:
+  - csharp
+  - vb
+  name: InvalidLicenseConnectorAdapter
+  nameWithType: InvalidLicenseConnectorAdapter
+  fullName: Vortex.Connector.InvalidLicenseConnectorAdapter
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/InvalidLicense/InvalidLicenseConnectorAdapter.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: InvalidLicenseConnectorAdapter
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/InvalidLicense/InvalidLicenseConnectorAdapter.cs
+    startLine: 7
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nProvides connector for application with invalid license.\n"
+  example: []
+  syntax:
+    content: 'public class InvalidLicenseConnectorAdapter : ConnectorAdapter'
+    content.vb: >-
+      Public Class InvalidLicenseConnectorAdapter
+          Inherits ConnectorAdapter
+  inheritance:
+  - System.Object
+  - Vortex.Connector.ConnectorAdapter
+  inheritedMembers:
+  - Vortex.Connector.ConnectorAdapter.GetConnector(System.Object[])
+  - Vortex.Connector.ConnectorAdapter.AdapterType
+  - Vortex.Connector.ConnectorAdapter._adapter
+  - Vortex.Connector.ConnectorAdapter.Adapter
+  - Vortex.Connector.ConnectorAdapter.Parameters
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Vortex.Connector.InvalidLicenseConnectorAdapter.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vortex.Connector.InvalidLicenseConnectorAdapter.#ctor(System.Object[])
+  commentId: M:Vortex.Connector.InvalidLicenseConnectorAdapter.#ctor(System.Object[])
+  id: '#ctor(System.Object[])'
+  parent: Vortex.Connector.InvalidLicenseConnectorAdapter
+  langs:
+  - csharp
+  - vb
+  name: InvalidLicenseConnectorAdapter(Object[])
+  nameWithType: InvalidLicenseConnectorAdapter.InvalidLicenseConnectorAdapter(Object[])
+  fullName: Vortex.Connector.InvalidLicenseConnectorAdapter.InvalidLicenseConnectorAdapter(System.Object[])
+  type: Constructor
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/InvalidLicense/InvalidLicenseConnectorAdapter.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/InvalidLicense/InvalidLicenseConnectorAdapter.cs
+    startLine: 12
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nProvides connector for application with invalid license and error message.\n"
+  example: []
+  syntax:
+    content: public InvalidLicenseConnectorAdapter(object[] Parameters)
+    parameters:
+    - id: Parameters
+      type: System.Object[]
+    content.vb: Public Sub New(Parameters As Object())
+  overload: Vortex.Connector.InvalidLicenseConnectorAdapter.#ctor*
+  nameWithType.vb: InvalidLicenseConnectorAdapter.InvalidLicenseConnectorAdapter(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Connector.InvalidLicenseConnectorAdapter.InvalidLicenseConnectorAdapter(System.Object())
+  name.vb: InvalidLicenseConnectorAdapter(Object())
+- uid: Vortex.Connector.InvalidLicenseConnectorAdapter.Message
+  commentId: P:Vortex.Connector.InvalidLicenseConnectorAdapter.Message
+  id: Message
+  parent: Vortex.Connector.InvalidLicenseConnectorAdapter
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: InvalidLicenseConnectorAdapter.Message
+  fullName: Vortex.Connector.InvalidLicenseConnectorAdapter.Message
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/InvalidLicense/InvalidLicenseConnectorAdapter.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Message
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/InvalidLicense/InvalidLicenseConnectorAdapter.cs
+    startLine: 27
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nContains description of the failure\n"
+  example: []
+  syntax:
+    content: public string Message { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Message As String
+  overload: Vortex.Connector.InvalidLicenseConnectorAdapter.Message*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vortex.Connector.ConnectorAdapter
+  commentId: T:Vortex.Connector.ConnectorAdapter
+  parent: Vortex.Connector
+  name: ConnectorAdapter
+  nameWithType: ConnectorAdapter
+  fullName: Vortex.Connector.ConnectorAdapter
+- uid: Vortex.Connector.ConnectorAdapter.GetConnector(System.Object[])
+  commentId: M:Vortex.Connector.ConnectorAdapter.GetConnector(System.Object[])
+  parent: Vortex.Connector.ConnectorAdapter
+  isExternal: true
+  name: GetConnector(Object[])
+  nameWithType: ConnectorAdapter.GetConnector(Object[])
+  fullName: Vortex.Connector.ConnectorAdapter.GetConnector(System.Object[])
+  nameWithType.vb: ConnectorAdapter.GetConnector(Object())
+  fullName.vb: Vortex.Connector.ConnectorAdapter.GetConnector(System.Object())
+  name.vb: GetConnector(Object())
+  spec.csharp:
+  - uid: Vortex.Connector.ConnectorAdapter.GetConnector(System.Object[])
+    name: GetConnector
+    nameWithType: ConnectorAdapter.GetConnector
+    fullName: Vortex.Connector.ConnectorAdapter.GetConnector
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ConnectorAdapter.GetConnector(System.Object[])
+    name: GetConnector
+    nameWithType: ConnectorAdapter.GetConnector
+    fullName: Vortex.Connector.ConnectorAdapter.GetConnector
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ConnectorAdapter.AdapterType
+  commentId: P:Vortex.Connector.ConnectorAdapter.AdapterType
+  parent: Vortex.Connector.ConnectorAdapter
+  name: AdapterType
+  nameWithType: ConnectorAdapter.AdapterType
+  fullName: Vortex.Connector.ConnectorAdapter.AdapterType
+- uid: Vortex.Connector.ConnectorAdapter._adapter
+  commentId: F:Vortex.Connector.ConnectorAdapter._adapter
+  parent: Vortex.Connector.ConnectorAdapter
+  name: _adapter
+  nameWithType: ConnectorAdapter._adapter
+  fullName: Vortex.Connector.ConnectorAdapter._adapter
+- uid: Vortex.Connector.ConnectorAdapter.Adapter
+  commentId: P:Vortex.Connector.ConnectorAdapter.Adapter
+  parent: Vortex.Connector.ConnectorAdapter
+  name: Adapter
+  nameWithType: ConnectorAdapter.Adapter
+  fullName: Vortex.Connector.ConnectorAdapter.Adapter
+- uid: Vortex.Connector.ConnectorAdapter.Parameters
+  commentId: P:Vortex.Connector.ConnectorAdapter.Parameters
+  parent: Vortex.Connector.ConnectorAdapter
+  name: Parameters
+  nameWithType: ConnectorAdapter.Parameters
+  fullName: Vortex.Connector.ConnectorAdapter.Parameters
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.InvalidLicenseConnectorAdapter.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<InvalidLicenseConnectorAdapter>(Object)
+  nameWithType: IValueTagExtensions.Cast<InvalidLicenseConnectorAdapter>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.InvalidLicenseConnectorAdapter>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of InvalidLicenseConnectorAdapter)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.InvalidLicenseConnectorAdapter)(System.Object)
+  name.vb: Cast(Of InvalidLicenseConnectorAdapter)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<InvalidLicenseConnectorAdapter>
+    nameWithType: IValueTagExtensions.Cast<InvalidLicenseConnectorAdapter>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.InvalidLicenseConnectorAdapter>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of InvalidLicenseConnectorAdapter)
+    nameWithType: IValueTagExtensions.Cast(Of InvalidLicenseConnectorAdapter)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.InvalidLicenseConnectorAdapter)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector.InvalidLicenseConnectorAdapter.#ctor*
+  commentId: Overload:Vortex.Connector.InvalidLicenseConnectorAdapter.#ctor
+  name: InvalidLicenseConnectorAdapter
+  nameWithType: InvalidLicenseConnectorAdapter.InvalidLicenseConnectorAdapter
+  fullName: Vortex.Connector.InvalidLicenseConnectorAdapter.InvalidLicenseConnectorAdapter
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Vortex.Connector.InvalidLicenseConnectorAdapter.Message*
+  commentId: Overload:Vortex.Connector.InvalidLicenseConnectorAdapter.Message
+  name: Message
+  nameWithType: InvalidLicenseConnectorAdapter.Message
+  fullName: Vortex.Connector.InvalidLicenseConnectorAdapter.Message
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

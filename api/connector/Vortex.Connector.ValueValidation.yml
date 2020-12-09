@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.ValueValidation
+  commentId: N:Vortex.Connector.ValueValidation
+  id: Vortex.Connector.ValueValidation
+  children:
+  - Vortex.Connector.ValueValidation.BoolValueValidationRule
+  - Vortex.Connector.ValueValidation.ByteValueValidationRule
+  - Vortex.Connector.ValueValidation.DateTimeValueValidationRule
+  - Vortex.Connector.ValueValidation.DateValueValidationRule
+  - Vortex.Connector.ValueValidation.DintValueValidationRule
+  - Vortex.Connector.ValueValidation.DWordValueValidationRule
+  - Vortex.Connector.ValueValidation.IntValueValidationRule
+  - Vortex.Connector.ValueValidation.IValueBoundaries`1
+  - Vortex.Connector.ValueValidation.LIntValueValidationRule
+  - Vortex.Connector.ValueValidation.LRealValueValidationRule
+  - Vortex.Connector.ValueValidation.LTimeValueValidationRule
+  - Vortex.Connector.ValueValidation.LWordValueValidationRule
+  - Vortex.Connector.ValueValidation.NamespaceDoc
+  - Vortex.Connector.ValueValidation.OnlinerValidationRule`1
+  - Vortex.Connector.ValueValidation.RealValueValidationRule
+  - Vortex.Connector.ValueValidation.SIntValueValidationRule
+  - Vortex.Connector.ValueValidation.StringValueValidationRule
+  - Vortex.Connector.ValueValidation.TimeOfDayValueValidationRule
+  - Vortex.Connector.ValueValidation.TimeValueValidationRule
+  - Vortex.Connector.ValueValidation.UDIntValueValidationRule
+  - Vortex.Connector.ValueValidation.UIntValueValidationRule
+  - Vortex.Connector.ValueValidation.ULIntValueValidationRule
+  - Vortex.Connector.ValueValidation.USintValueValidationRule
+  - Vortex.Connector.ValueValidation.ValidationResult
+  - Vortex.Connector.ValueValidation.WordValueValidationRule
+  - Vortex.Connector.ValueValidation.WStringValueValidationRule
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Connector.ValueValidation
+  nameWithType: Vortex.Connector.ValueValidation
+  fullName: Vortex.Connector.ValueValidation
+  type: Namespace
+  assemblies:
+  - Vortex.Connector
+references:
+- uid: Vortex.Connector.ValueValidation.BoolValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.BoolValueValidationRule
+  name: BoolValueValidationRule
+  nameWithType: BoolValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.BoolValueValidationRule
+- uid: Vortex.Connector.ValueValidation.ByteValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.ByteValueValidationRule
+  name: ByteValueValidationRule
+  nameWithType: ByteValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.ByteValueValidationRule
+- uid: Vortex.Connector.ValueValidation.DateTimeValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.DateTimeValueValidationRule
+  name: DateTimeValueValidationRule
+  nameWithType: DateTimeValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.DateTimeValueValidationRule
+- uid: Vortex.Connector.ValueValidation.DateValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.DateValueValidationRule
+  name: DateValueValidationRule
+  nameWithType: DateValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.DateValueValidationRule
+- uid: Vortex.Connector.ValueValidation.DintValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.DintValueValidationRule
+  name: DintValueValidationRule
+  nameWithType: DintValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.DintValueValidationRule
+- uid: Vortex.Connector.ValueValidation.DWordValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.DWordValueValidationRule
+  name: DWordValueValidationRule
+  nameWithType: DWordValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.DWordValueValidationRule
+- uid: Vortex.Connector.ValueValidation.IntValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.IntValueValidationRule
+  name: IntValueValidationRule
+  nameWithType: IntValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.IntValueValidationRule
+- uid: Vortex.Connector.ValueValidation.LIntValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.LIntValueValidationRule
+  name: LIntValueValidationRule
+  nameWithType: LIntValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.LIntValueValidationRule
+- uid: Vortex.Connector.ValueValidation.LRealValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.LRealValueValidationRule
+  name: LRealValueValidationRule
+  nameWithType: LRealValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.LRealValueValidationRule
+- uid: Vortex.Connector.ValueValidation.LTimeValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.LTimeValueValidationRule
+  name: LTimeValueValidationRule
+  nameWithType: LTimeValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.LTimeValueValidationRule
+- uid: Vortex.Connector.ValueValidation.LWordValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.LWordValueValidationRule
+  name: LWordValueValidationRule
+  nameWithType: LWordValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.LWordValueValidationRule
+- uid: Vortex.Connector.ValueValidation.RealValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.RealValueValidationRule
+  name: RealValueValidationRule
+  nameWithType: RealValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.RealValueValidationRule
+- uid: Vortex.Connector.ValueValidation.SIntValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.SIntValueValidationRule
+  name: SIntValueValidationRule
+  nameWithType: SIntValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.SIntValueValidationRule
+- uid: Vortex.Connector.ValueValidation.StringValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.StringValueValidationRule
+  name: StringValueValidationRule
+  nameWithType: StringValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.StringValueValidationRule
+- uid: Vortex.Connector.ValueValidation.TimeOfDayValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.TimeOfDayValueValidationRule
+  name: TimeOfDayValueValidationRule
+  nameWithType: TimeOfDayValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.TimeOfDayValueValidationRule
+- uid: Vortex.Connector.ValueValidation.TimeValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.TimeValueValidationRule
+  name: TimeValueValidationRule
+  nameWithType: TimeValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.TimeValueValidationRule
+- uid: Vortex.Connector.ValueValidation.UDIntValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.UDIntValueValidationRule
+  name: UDIntValueValidationRule
+  nameWithType: UDIntValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.UDIntValueValidationRule
+- uid: Vortex.Connector.ValueValidation.UIntValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.UIntValueValidationRule
+  name: UIntValueValidationRule
+  nameWithType: UIntValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.UIntValueValidationRule
+- uid: Vortex.Connector.ValueValidation.ULIntValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.ULIntValueValidationRule
+  name: ULIntValueValidationRule
+  nameWithType: ULIntValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.ULIntValueValidationRule
+- uid: Vortex.Connector.ValueValidation.USintValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.USintValueValidationRule
+  name: USintValueValidationRule
+  nameWithType: USintValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.USintValueValidationRule
+- uid: Vortex.Connector.ValueValidation.ValidationResult
+  commentId: T:Vortex.Connector.ValueValidation.ValidationResult
+  parent: Vortex.Connector.ValueValidation
+  name: ValidationResult
+  nameWithType: ValidationResult
+  fullName: Vortex.Connector.ValueValidation.ValidationResult
+- uid: Vortex.Connector.ValueValidation.NamespaceDoc
+  commentId: T:Vortex.Connector.ValueValidation.NamespaceDoc
+  name: NamespaceDoc
+  nameWithType: NamespaceDoc
+  fullName: Vortex.Connector.ValueValidation.NamespaceDoc
+- uid: Vortex.Connector.ValueValidation.WordValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.WordValueValidationRule
+  name: WordValueValidationRule
+  nameWithType: WordValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.WordValueValidationRule
+- uid: Vortex.Connector.ValueValidation.WStringValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.WStringValueValidationRule
+  name: WStringValueValidationRule
+  nameWithType: WStringValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.WStringValueValidationRule
+- uid: Vortex.Connector.ValueValidation.IValueBoundaries`1
+  commentId: T:Vortex.Connector.ValueValidation.IValueBoundaries`1
+  name: IValueBoundaries<T>
+  nameWithType: IValueBoundaries<T>
+  fullName: Vortex.Connector.ValueValidation.IValueBoundaries<T>
+  nameWithType.vb: IValueBoundaries(Of T)
+  fullName.vb: Vortex.Connector.ValueValidation.IValueBoundaries(Of T)
+  name.vb: IValueBoundaries(Of T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueValidation.IValueBoundaries`1
+    name: IValueBoundaries
+    nameWithType: IValueBoundaries
+    fullName: Vortex.Connector.ValueValidation.IValueBoundaries
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueValidation.IValueBoundaries`1
+    name: IValueBoundaries
+    nameWithType: IValueBoundaries
+    fullName: Vortex.Connector.ValueValidation.IValueBoundaries
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1
+  commentId: T:Vortex.Connector.ValueValidation.OnlinerValidationRule`1
+  name: OnlinerValidationRule<T>
+  nameWithType: OnlinerValidationRule<T>
+  fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule<T>
+  nameWithType.vb: OnlinerValidationRule(Of T)
+  fullName.vb: Vortex.Connector.ValueValidation.OnlinerValidationRule(Of T)
+  name.vb: OnlinerValidationRule(Of T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1
+    name: OnlinerValidationRule
+    nameWithType: OnlinerValidationRule
+    fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1
+    name: OnlinerValidationRule
+    nameWithType: OnlinerValidationRule
+    fullName: Vortex.Connector.ValueValidation.OnlinerValidationRule
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueValidation
+  commentId: N:Vortex.Connector.ValueValidation
+  name: Vortex.Connector.ValueValidation
+  nameWithType: Vortex.Connector.ValueValidation
+  fullName: Vortex.Connector.ValueValidation

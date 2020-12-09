@@ -1,0 +1,1111 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Localizations.LocalizationHelper
+  commentId: T:Vortex.Localizations.LocalizationHelper
+  id: LocalizationHelper
+  parent: Vortex.Localizations
+  children:
+  - Vortex.Localizations.LocalizationHelper.CleanUpLocalizationTokens(System.String)
+  - Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.List{Vortex.Localizations.Localizables})
+  - Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.String,System.Collections.Generic.List{Vortex.Localizations.Localizables})
+  - Vortex.Localizations.LocalizationHelper.CreateTranslationTables(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String)
+  - Vortex.Localizations.LocalizationHelper.GetLocalizables(System.String,System.Collections.Generic.List{Vortex.Localizations.LocalizableItem})
+  - Vortex.Localizations.LocalizationHelper.GetTranslatable(System.String,System.Collections.Generic.List{Vortex.Localizations.LocalizableItem})
+  - Vortex.Localizations.LocalizationHelper.LoadLocalizer(System.String,System.String)
+  - Vortex.Localizations.LocalizationHelper.pattern
+  - Vortex.Localizations.LocalizationHelper.rgx
+  - Vortex.Localizations.LocalizationHelper.SaveLocalizer(System.String,Vortex.Localizations.LocalizerDictionary,System.Globalization.CultureInfo)
+  - Vortex.Localizations.LocalizationHelper.TranslationTableFileName(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: LocalizationHelper
+  nameWithType: LocalizationHelper
+  fullName: Vortex.Localizations.LocalizationHelper
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: LocalizationHelper
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+    startLine: 10
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: public static class LocalizationHelper
+    content.vb: Public Module LocalizationHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Vortex.Localizations.LocalizationHelper.pattern
+  commentId: F:Vortex.Localizations.LocalizationHelper.pattern
+  id: pattern
+  parent: Vortex.Localizations.LocalizationHelper
+  langs:
+  - csharp
+  - vb
+  name: pattern
+  nameWithType: LocalizationHelper.pattern
+  fullName: Vortex.Localizations.LocalizationHelper.pattern
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: pattern
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+    startLine: 12
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: static readonly string pattern
+    return:
+      type: System.String
+    content.vb: Shared ReadOnly pattern As String
+  modifiers.csharp:
+  - static
+  - readonly
+  modifiers.vb:
+  - Shared
+  - ReadOnly
+- uid: Vortex.Localizations.LocalizationHelper.rgx
+  commentId: F:Vortex.Localizations.LocalizationHelper.rgx
+  id: rgx
+  parent: Vortex.Localizations.LocalizationHelper
+  langs:
+  - csharp
+  - vb
+  name: rgx
+  nameWithType: LocalizationHelper.rgx
+  fullName: Vortex.Localizations.LocalizationHelper.rgx
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: rgx
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+    startLine: 13
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: static readonly Regex rgx
+    return:
+      type: System.Text.RegularExpressions.Regex
+    content.vb: Shared ReadOnly rgx As Regex
+  modifiers.csharp:
+  - static
+  - readonly
+  modifiers.vb:
+  - Shared
+  - ReadOnly
+- uid: Vortex.Localizations.LocalizationHelper.GetLocalizables(System.String,System.Collections.Generic.List{Vortex.Localizations.LocalizableItem})
+  commentId: M:Vortex.Localizations.LocalizationHelper.GetLocalizables(System.String,System.Collections.Generic.List{Vortex.Localizations.LocalizableItem})
+  id: GetLocalizables(System.String,System.Collections.Generic.List{Vortex.Localizations.LocalizableItem})
+  parent: Vortex.Localizations.LocalizationHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLocalizables(String, List<LocalizableItem>)
+  nameWithType: LocalizationHelper.GetLocalizables(String, List<LocalizableItem>)
+  fullName: Vortex.Localizations.LocalizationHelper.GetLocalizables(System.String, System.Collections.Generic.List<Vortex.Localizations.LocalizableItem>)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetLocalizables
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+    startLine: 14
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: public static List<LocalizableItem> GetLocalizables(string input, List<LocalizableItem> localizables = null)
+    parameters:
+    - id: input
+      type: System.String
+    - id: localizables
+      type: System.Collections.Generic.List{Vortex.Localizations.LocalizableItem}
+    return:
+      type: System.Collections.Generic.List{Vortex.Localizations.LocalizableItem}
+    content.vb: Public Shared Function GetLocalizables(input As String, localizables As List(Of LocalizableItem) = Nothing) As List(Of LocalizableItem)
+  overload: Vortex.Localizations.LocalizationHelper.GetLocalizables*
+  nameWithType.vb: LocalizationHelper.GetLocalizables(String, List(Of LocalizableItem))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Vortex.Localizations.LocalizationHelper.GetLocalizables(System.String, System.Collections.Generic.List(Of Vortex.Localizations.LocalizableItem))
+  name.vb: GetLocalizables(String, List(Of LocalizableItem))
+- uid: Vortex.Localizations.LocalizationHelper.GetTranslatable(System.String,System.Collections.Generic.List{Vortex.Localizations.LocalizableItem})
+  commentId: M:Vortex.Localizations.LocalizationHelper.GetTranslatable(System.String,System.Collections.Generic.List{Vortex.Localizations.LocalizableItem})
+  id: GetTranslatable(System.String,System.Collections.Generic.List{Vortex.Localizations.LocalizableItem})
+  parent: Vortex.Localizations.LocalizationHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTranslatable(String, List<LocalizableItem>)
+  nameWithType: LocalizationHelper.GetTranslatable(String, List<LocalizableItem>)
+  fullName: Vortex.Localizations.LocalizationHelper.GetTranslatable(System.String, System.Collections.Generic.List<Vortex.Localizations.LocalizableItem>)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetTranslatable
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+    startLine: 52
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: static IEnumerable<LocalizableItem> GetTranslatable(string input, List<LocalizableItem> localizables = null)
+    parameters:
+    - id: input
+      type: System.String
+    - id: localizables
+      type: System.Collections.Generic.List{Vortex.Localizations.LocalizableItem}
+    return:
+      type: System.Collections.Generic.IEnumerable{Vortex.Localizations.LocalizableItem}
+    content.vb: Shared Function GetTranslatable(input As String, localizables As List(Of LocalizableItem) = Nothing) As IEnumerable(Of LocalizableItem)
+  overload: Vortex.Localizations.LocalizationHelper.GetTranslatable*
+  nameWithType.vb: LocalizationHelper.GetTranslatable(String, List(Of LocalizableItem))
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+  fullName.vb: Vortex.Localizations.LocalizationHelper.GetTranslatable(System.String, System.Collections.Generic.List(Of Vortex.Localizations.LocalizableItem))
+  name.vb: GetTranslatable(String, List(Of LocalizableItem))
+- uid: Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.String,System.Collections.Generic.List{Vortex.Localizations.Localizables})
+  commentId: M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.String,System.Collections.Generic.List{Vortex.Localizations.Localizables})
+  id: CreateTranslationTable(System.String,System.Collections.Generic.List{Vortex.Localizations.Localizables})
+  parent: Vortex.Localizations.LocalizationHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateTranslationTable(String, List<Localizables>)
+  nameWithType: LocalizationHelper.CreateTranslationTable(String, List<Localizables>)
+  fullName: Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.String, System.Collections.Generic.List<Vortex.Localizations.Localizables>)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateTranslationTable
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+    startLine: 116
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: public static List<Localizables> CreateTranslationTable(string input, List<Localizables> list = null)
+    parameters:
+    - id: input
+      type: System.String
+    - id: list
+      type: System.Collections.Generic.List{Vortex.Localizations.Localizables}
+    return:
+      type: System.Collections.Generic.List{Vortex.Localizations.Localizables}
+    content.vb: Public Shared Function CreateTranslationTable(input As String, list As List(Of Localizables) = Nothing) As List(Of Localizables)
+  overload: Vortex.Localizations.LocalizationHelper.CreateTranslationTable*
+  nameWithType.vb: LocalizationHelper.CreateTranslationTable(String, List(Of Localizables))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.String, System.Collections.Generic.List(Of Vortex.Localizations.Localizables))
+  name.vb: CreateTranslationTable(String, List(Of Localizables))
+- uid: Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.List{Vortex.Localizations.Localizables})
+  commentId: M:Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.List{Vortex.Localizations.Localizables})
+  id: CreateTranslationTable(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.List{Vortex.Localizations.Localizables})
+  parent: Vortex.Localizations.LocalizationHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateTranslationTable(IEnumerable<String>, List<Localizables>)
+  nameWithType: LocalizationHelper.CreateTranslationTable(IEnumerable<String>, List<Localizables>)
+  fullName: Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.List<Vortex.Localizations.Localizables>)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateTranslationTable
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+    startLine: 141
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: public static List<Localizables> CreateTranslationTable(IEnumerable<string> input, List<Localizables> list = null)
+    parameters:
+    - id: input
+      type: System.Collections.Generic.IEnumerable{System.String}
+    - id: list
+      type: System.Collections.Generic.List{Vortex.Localizations.Localizables}
+    return:
+      type: System.Collections.Generic.List{Vortex.Localizations.Localizables}
+    content.vb: Public Shared Function CreateTranslationTable(input As IEnumerable(Of String), list As List(Of Localizables) = Nothing) As List(Of Localizables)
+  overload: Vortex.Localizations.LocalizationHelper.CreateTranslationTable*
+  nameWithType.vb: LocalizationHelper.CreateTranslationTable(IEnumerable(Of String), List(Of Localizables))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Vortex.Localizations.LocalizationHelper.CreateTranslationTable(System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.List(Of Vortex.Localizations.Localizables))
+  name.vb: CreateTranslationTable(IEnumerable(Of String), List(Of Localizables))
+- uid: Vortex.Localizations.LocalizationHelper.CleanUpLocalizationTokens(System.String)
+  commentId: M:Vortex.Localizations.LocalizationHelper.CleanUpLocalizationTokens(System.String)
+  id: CleanUpLocalizationTokens(System.String)
+  parent: Vortex.Localizations.LocalizationHelper
+  langs:
+  - csharp
+  - vb
+  name: CleanUpLocalizationTokens(String)
+  nameWithType: LocalizationHelper.CleanUpLocalizationTokens(String)
+  fullName: Vortex.Localizations.LocalizationHelper.CleanUpLocalizationTokens(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CleanUpLocalizationTokens
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+    startLine: 166
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: static string CleanUpLocalizationTokens(string localized)
+    parameters:
+    - id: localized
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Shared Function CleanUpLocalizationTokens(localized As String) As String
+  overload: Vortex.Localizations.LocalizationHelper.CleanUpLocalizationTokens*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Localizations.LocalizationHelper.SaveLocalizer(System.String,Vortex.Localizations.LocalizerDictionary,System.Globalization.CultureInfo)
+  commentId: M:Vortex.Localizations.LocalizationHelper.SaveLocalizer(System.String,Vortex.Localizations.LocalizerDictionary,System.Globalization.CultureInfo)
+  id: SaveLocalizer(System.String,Vortex.Localizations.LocalizerDictionary,System.Globalization.CultureInfo)
+  parent: Vortex.Localizations.LocalizationHelper
+  langs:
+  - csharp
+  - vb
+  name: SaveLocalizer(String, LocalizerDictionary, CultureInfo)
+  nameWithType: LocalizationHelper.SaveLocalizer(String, LocalizerDictionary, CultureInfo)
+  fullName: Vortex.Localizations.LocalizationHelper.SaveLocalizer(System.String, Vortex.Localizations.LocalizerDictionary, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SaveLocalizer
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+    startLine: 176
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: public static void SaveLocalizer(string folder, LocalizerDictionary localizer, CultureInfo culture = null)
+    parameters:
+    - id: folder
+      type: System.String
+    - id: localizer
+      type: Vortex.Localizations.LocalizerDictionary
+    - id: culture
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared Sub SaveLocalizer(folder As String, localizer As LocalizerDictionary, culture As CultureInfo = Nothing)
+  overload: Vortex.Localizations.LocalizationHelper.SaveLocalizer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vortex.Localizations.LocalizationHelper.TranslationTableFileName(System.String,System.String)
+  commentId: M:Vortex.Localizations.LocalizationHelper.TranslationTableFileName(System.String,System.String)
+  id: TranslationTableFileName(System.String,System.String)
+  parent: Vortex.Localizations.LocalizationHelper
+  langs:
+  - csharp
+  - vb
+  name: TranslationTableFileName(String, String)
+  nameWithType: LocalizationHelper.TranslationTableFileName(String, String)
+  fullName: Vortex.Localizations.LocalizationHelper.TranslationTableFileName(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: TranslationTableFileName
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+    startLine: 188
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: static string TranslationTableFileName(string folder, string culture)
+    parameters:
+    - id: folder
+      type: System.String
+    - id: culture
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Shared Function TranslationTableFileName(folder As String, culture As String) As String
+  overload: Vortex.Localizations.LocalizationHelper.TranslationTableFileName*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Localizations.LocalizationHelper.LoadLocalizer(System.String,System.String)
+  commentId: M:Vortex.Localizations.LocalizationHelper.LoadLocalizer(System.String,System.String)
+  id: LoadLocalizer(System.String,System.String)
+  parent: Vortex.Localizations.LocalizationHelper
+  langs:
+  - csharp
+  - vb
+  name: LoadLocalizer(String, String)
+  nameWithType: LocalizationHelper.LoadLocalizer(String, String)
+  fullName: Vortex.Localizations.LocalizationHelper.LoadLocalizer(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: LoadLocalizer
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+    startLine: 193
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: public static LocalizerDictionary LoadLocalizer(string folder, string culture = null)
+    parameters:
+    - id: folder
+      type: System.String
+    - id: culture
+      type: System.String
+    return:
+      type: Vortex.Localizations.LocalizerDictionary
+    content.vb: Public Shared Function LoadLocalizer(folder As String, culture As String = Nothing) As LocalizerDictionary
+  overload: Vortex.Localizations.LocalizationHelper.LoadLocalizer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vortex.Localizations.LocalizationHelper.CreateTranslationTables(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String)
+  commentId: M:Vortex.Localizations.LocalizationHelper.CreateTranslationTables(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String)
+  id: CreateTranslationTables(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String)
+  parent: Vortex.Localizations.LocalizationHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateTranslationTables(IEnumerable<String>, IEnumerable<String>, String)
+  nameWithType: LocalizationHelper.CreateTranslationTables(IEnumerable<String>, IEnumerable<String>, String)
+  fullName: Vortex.Localizations.LocalizationHelper.CreateTranslationTables(System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateTranslationTables
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
+    startLine: 204
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: public static void CreateTranslationTables(IEnumerable<string> localizables, IEnumerable<string> cultures, string folder)
+    parameters:
+    - id: localizables
+      type: System.Collections.Generic.IEnumerable{System.String}
+    - id: cultures
+      type: System.Collections.Generic.IEnumerable{System.String}
+    - id: folder
+      type: System.String
+    content.vb: Public Shared Sub CreateTranslationTables(localizables As IEnumerable(Of String), cultures As IEnumerable(Of String), folder As String)
+  overload: Vortex.Localizations.LocalizationHelper.CreateTranslationTables*
+  nameWithType.vb: LocalizationHelper.CreateTranslationTables(IEnumerable(Of String), IEnumerable(Of String), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Vortex.Localizations.LocalizationHelper.CreateTranslationTables(System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.String)
+  name.vb: CreateTranslationTables(IEnumerable(Of String), IEnumerable(Of String), String)
+references:
+- uid: Vortex.Localizations
+  commentId: N:Vortex.Localizations
+  name: Vortex.Localizations
+  nameWithType: Vortex.Localizations
+  fullName: Vortex.Localizations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Text.RegularExpressions.Regex
+  commentId: T:System.Text.RegularExpressions.Regex
+  parent: System.Text.RegularExpressions
+  isExternal: true
+  name: Regex
+  nameWithType: Regex
+  fullName: System.Text.RegularExpressions.Regex
+- uid: System.Text.RegularExpressions
+  commentId: N:System.Text.RegularExpressions
+  isExternal: true
+  name: System.Text.RegularExpressions
+  nameWithType: System.Text.RegularExpressions
+  fullName: System.Text.RegularExpressions
+- uid: Vortex.Localizations.LocalizationHelper.GetLocalizables*
+  commentId: Overload:Vortex.Localizations.LocalizationHelper.GetLocalizables
+  name: GetLocalizables
+  nameWithType: LocalizationHelper.GetLocalizables
+  fullName: Vortex.Localizations.LocalizationHelper.GetLocalizables
+- uid: System.Collections.Generic.List{Vortex.Localizations.LocalizableItem}
+  commentId: T:System.Collections.Generic.List{Vortex.Localizations.LocalizableItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<LocalizableItem>
+  nameWithType: List<LocalizableItem>
+  fullName: System.Collections.Generic.List<Vortex.Localizations.LocalizableItem>
+  nameWithType.vb: List(Of LocalizableItem)
+  fullName.vb: System.Collections.Generic.List(Of Vortex.Localizations.LocalizableItem)
+  name.vb: List(Of LocalizableItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Localizations.LocalizableItem
+    name: LocalizableItem
+    nameWithType: LocalizableItem
+    fullName: Vortex.Localizations.LocalizableItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Localizations.LocalizableItem
+    name: LocalizableItem
+    nameWithType: LocalizableItem
+    fullName: Vortex.Localizations.LocalizableItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vortex.Localizations.LocalizationHelper.GetTranslatable*
+  commentId: Overload:Vortex.Localizations.LocalizationHelper.GetTranslatable
+  name: GetTranslatable
+  nameWithType: LocalizationHelper.GetTranslatable
+  fullName: Vortex.Localizations.LocalizationHelper.GetTranslatable
+- uid: System.Collections.Generic.IEnumerable{Vortex.Localizations.LocalizableItem}
+  commentId: T:System.Collections.Generic.IEnumerable{Vortex.Localizations.LocalizableItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<LocalizableItem>
+  nameWithType: IEnumerable<LocalizableItem>
+  fullName: System.Collections.Generic.IEnumerable<Vortex.Localizations.LocalizableItem>
+  nameWithType.vb: IEnumerable(Of LocalizableItem)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Vortex.Localizations.LocalizableItem)
+  name.vb: IEnumerable(Of LocalizableItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Localizations.LocalizableItem
+    name: LocalizableItem
+    nameWithType: LocalizableItem
+    fullName: Vortex.Localizations.LocalizableItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Localizations.LocalizableItem
+    name: LocalizableItem
+    nameWithType: LocalizableItem
+    fullName: Vortex.Localizations.LocalizableItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Localizations.LocalizationHelper.CreateTranslationTable*
+  commentId: Overload:Vortex.Localizations.LocalizationHelper.CreateTranslationTable
+  name: CreateTranslationTable
+  nameWithType: LocalizationHelper.CreateTranslationTable
+  fullName: Vortex.Localizations.LocalizationHelper.CreateTranslationTable
+- uid: System.Collections.Generic.List{Vortex.Localizations.Localizables}
+  commentId: T:System.Collections.Generic.List{Vortex.Localizations.Localizables}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Localizables>
+  nameWithType: List<Localizables>
+  fullName: System.Collections.Generic.List<Vortex.Localizations.Localizables>
+  nameWithType.vb: List(Of Localizables)
+  fullName.vb: System.Collections.Generic.List(Of Vortex.Localizations.Localizables)
+  name.vb: List(Of Localizables)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Localizations.Localizables
+    name: Localizables
+    nameWithType: Localizables
+    fullName: Vortex.Localizations.Localizables
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Localizations.Localizables
+    name: Localizables
+    nameWithType: Localizables
+    fullName: Vortex.Localizations.Localizables
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Localizations.LocalizationHelper.CleanUpLocalizationTokens*
+  commentId: Overload:Vortex.Localizations.LocalizationHelper.CleanUpLocalizationTokens
+  name: CleanUpLocalizationTokens
+  nameWithType: LocalizationHelper.CleanUpLocalizationTokens
+  fullName: Vortex.Localizations.LocalizationHelper.CleanUpLocalizationTokens
+- uid: Vortex.Localizations.LocalizationHelper.SaveLocalizer*
+  commentId: Overload:Vortex.Localizations.LocalizationHelper.SaveLocalizer
+  name: SaveLocalizer
+  nameWithType: LocalizationHelper.SaveLocalizer
+  fullName: Vortex.Localizations.LocalizationHelper.SaveLocalizer
+- uid: Vortex.Localizations.LocalizerDictionary
+  commentId: T:Vortex.Localizations.LocalizerDictionary
+  parent: Vortex.Localizations
+  name: LocalizerDictionary
+  nameWithType: LocalizerDictionary
+  fullName: Vortex.Localizations.LocalizerDictionary
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+- uid: Vortex.Localizations.LocalizationHelper.TranslationTableFileName*
+  commentId: Overload:Vortex.Localizations.LocalizationHelper.TranslationTableFileName
+  name: TranslationTableFileName
+  nameWithType: LocalizationHelper.TranslationTableFileName
+  fullName: Vortex.Localizations.LocalizationHelper.TranslationTableFileName
+- uid: Vortex.Localizations.LocalizationHelper.LoadLocalizer*
+  commentId: Overload:Vortex.Localizations.LocalizationHelper.LoadLocalizer
+  name: LoadLocalizer
+  nameWithType: LocalizationHelper.LoadLocalizer
+  fullName: Vortex.Localizations.LocalizationHelper.LoadLocalizer
+- uid: Vortex.Localizations.LocalizationHelper.CreateTranslationTables*
+  commentId: Overload:Vortex.Localizations.LocalizationHelper.CreateTranslationTables
+  name: CreateTranslationTables
+  nameWithType: LocalizationHelper.CreateTranslationTables
+  fullName: Vortex.Localizations.LocalizationHelper.CreateTranslationTables

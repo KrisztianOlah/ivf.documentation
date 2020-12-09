@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.LibraryDescriptors
+  commentId: N:Vortex.Connector.LibraryDescriptors
+  id: Vortex.Connector.LibraryDescriptors
+  children:
+  - Vortex.Connector.LibraryDescriptors.TypeMetaData
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Connector.LibraryDescriptors
+  nameWithType: Vortex.Connector.LibraryDescriptors
+  fullName: Vortex.Connector.LibraryDescriptors
+  type: Namespace
+  assemblies:
+  - Vortex.Connector
+references:
+- uid: Vortex.Connector.LibraryDescriptors.TypeMetaData
+  commentId: T:Vortex.Connector.LibraryDescriptors.TypeMetaData
+  parent: Vortex.Connector.LibraryDescriptors
+  name: TypeMetaData
+  nameWithType: TypeMetaData
+  fullName: Vortex.Connector.LibraryDescriptors.TypeMetaData
+- uid: Vortex.Connector.LibraryDescriptors
+  commentId: N:Vortex.Connector.LibraryDescriptors
+  name: Vortex.Connector.LibraryDescriptors
+  nameWithType: Vortex.Connector.LibraryDescriptors
+  fullName: Vortex.Connector.LibraryDescriptors

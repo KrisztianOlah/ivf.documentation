@@ -1,0 +1,440 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.IValueTag
+  commentId: T:Vortex.Connector.IValueTag
+  id: IValueTag
+  parent: Vortex.Connector
+  children:
+  - Vortex.Connector.IValueTag.EditValueChange
+  - Vortex.Connector.IValueTag.MakeReadOnly
+  - Vortex.Connector.IValueTag.ShadowValueChange
+  - Vortex.Connector.IValueTag.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  - Vortex.Connector.IValueTag.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  langs:
+  - csharp
+  - vb
+  name: IValueTag
+  nameWithType: IValueTag
+  fullName: Vortex.Connector.IValueTag
+  type: Interface
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IValueTag
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
+    startLine: 8
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nProvides basic contract for plc tag.\n"
+  example: []
+  syntax:
+    content: 'public interface IValueTag : ITwinPrimitive, IVortexElement'
+    content.vb: >-
+      Public Interface IValueTag
+          Inherits ITwinPrimitive, IVortexElement
+  inheritedMembers:
+  - Vortex.Connector.IVortexElement.Symbol
+  - Vortex.Connector.IVortexElement.AttributeName
+  - Vortex.Connector.IVortexElement.HumanReadable
+  - Vortex.Connector.IVortexElement.GetParent
+  - Vortex.Connector.IVortexElement.GetSymbolTail
+  extensionMethods:
+  - Vortex.Connector.IValueTag.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Vortex.Connector.IValueTag.EditValueChange
+  commentId: P:Vortex.Connector.IValueTag.EditValueChange
+  id: EditValueChange
+  parent: Vortex.Connector.IValueTag
+  langs:
+  - csharp
+  - vb
+  name: EditValueChange
+  nameWithType: IValueTag.EditValueChange
+  fullName: Vortex.Connector.IValueTag.EditValueChange
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: EditValueChange
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
+    startLine: 13
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nDelegate invoked when the &apos;Edit&apos; value changes.\n"
+  example: []
+  syntax:
+    content: OnlinerBaseType.ValueChangeDelegate EditValueChange { get; set; }
+    parameters: []
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+    content.vb: Property EditValueChange As OnlinerBaseType.ValueChangeDelegate
+  overload: Vortex.Connector.IValueTag.EditValueChange*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vortex.Connector.IValueTag.ShadowValueChange
+  commentId: P:Vortex.Connector.IValueTag.ShadowValueChange
+  id: ShadowValueChange
+  parent: Vortex.Connector.IValueTag
+  langs:
+  - csharp
+  - vb
+  name: ShadowValueChange
+  nameWithType: IValueTag.ShadowValueChange
+  fullName: Vortex.Connector.IValueTag.ShadowValueChange
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ShadowValueChange
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
+    startLine: 18
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nDelegate invoked when the &apos;Shadow&apos; value changes.\n"
+  example: []
+  syntax:
+    content: OnlinerBaseType.ValueChangeDelegate ShadowValueChange { get; set; }
+    parameters: []
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+    content.vb: Property ShadowValueChange As OnlinerBaseType.ValueChangeDelegate
+  overload: Vortex.Connector.IValueTag.ShadowValueChange*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vortex.Connector.IValueTag.MakeReadOnly
+  commentId: M:Vortex.Connector.IValueTag.MakeReadOnly
+  id: MakeReadOnly
+  parent: Vortex.Connector.IValueTag
+  langs:
+  - csharp
+  - vb
+  name: MakeReadOnly()
+  nameWithType: IValueTag.MakeReadOnly()
+  fullName: Vortex.Connector.IValueTag.MakeReadOnly()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: MakeReadOnly
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
+    startLine: 23
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nMakes this tag readonly for the current application.\n"
+  example: []
+  syntax:
+    content: void MakeReadOnly()
+    content.vb: Sub MakeReadOnly
+  overload: Vortex.Connector.IValueTag.MakeReadOnly*
+- uid: Vortex.Connector.IValueTag.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  commentId: M:Vortex.Connector.IValueTag.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  id: Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  parent: Vortex.Connector.IValueTag
+  langs:
+  - csharp
+  - vb
+  name: Subscribe(ValueChangedEventHandlerDelegate)
+  nameWithType: IValueTag.Subscribe(ValueChangedEventHandlerDelegate)
+  fullName: Vortex.Connector.IValueTag.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Subscribe
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
+    startLine: 30
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nSubscribes this tag for cyclical reading and invokes <xref href=\"Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate\" data-throw-if-not-resolved=\"false\"></xref> when the value changes.\n<div class=\"NOTE\"><h5>note</h5><p>Tag will be set for cyclical reading.</p></div>\n"
+  example: []
+  syntax:
+    content: void Subscribe(ValueChangedEventHandlerDelegate handler)
+    parameters:
+    - id: handler
+      type: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+      description: Handles the value change event.
+    content.vb: Sub Subscribe(handler As ValueChangedEventHandlerDelegate)
+  overload: Vortex.Connector.IValueTag.Subscribe*
+- uid: Vortex.Connector.IValueTag.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  commentId: M:Vortex.Connector.IValueTag.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  id: UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  parent: Vortex.Connector.IValueTag
+  langs:
+  - csharp
+  - vb
+  name: UnSubscribe(ValueChangedEventHandlerDelegate)
+  nameWithType: IValueTag.UnSubscribe(ValueChangedEventHandlerDelegate)
+  fullName: Vortex.Connector.IValueTag.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: UnSubscribe
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
+    startLine: 37
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nUn-subscribes this tag from handling the value change. \n<div class=\"NOTE\"><h5>note</h5><p>The cyclical reading of this tag will not be cancelled.</p></div>\n"
+  example: []
+  syntax:
+    content: void UnSubscribe(ValueChangedEventHandlerDelegate handler)
+    parameters:
+    - id: handler
+      type: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+      description: ''
+    content.vb: Sub UnSubscribe(handler As ValueChangedEventHandlerDelegate)
+  overload: Vortex.Connector.IValueTag.UnSubscribe*
+references:
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.IVortexElement.Symbol
+  commentId: P:Vortex.Connector.IVortexElement.Symbol
+  parent: Vortex.Connector.IVortexElement
+  name: Symbol
+  nameWithType: IVortexElement.Symbol
+  fullName: Vortex.Connector.IVortexElement.Symbol
+- uid: Vortex.Connector.IVortexElement.AttributeName
+  commentId: P:Vortex.Connector.IVortexElement.AttributeName
+  parent: Vortex.Connector.IVortexElement
+  name: AttributeName
+  nameWithType: IVortexElement.AttributeName
+  fullName: Vortex.Connector.IVortexElement.AttributeName
+- uid: Vortex.Connector.IVortexElement.HumanReadable
+  commentId: P:Vortex.Connector.IVortexElement.HumanReadable
+  parent: Vortex.Connector.IVortexElement
+  name: HumanReadable
+  nameWithType: IVortexElement.HumanReadable
+  fullName: Vortex.Connector.IVortexElement.HumanReadable
+- uid: Vortex.Connector.IVortexElement.GetParent
+  commentId: M:Vortex.Connector.IVortexElement.GetParent
+  parent: Vortex.Connector.IVortexElement
+  name: GetParent()
+  nameWithType: IVortexElement.GetParent()
+  fullName: Vortex.Connector.IVortexElement.GetParent()
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexElement.GetParent
+    name: GetParent
+    nameWithType: IVortexElement.GetParent
+    fullName: Vortex.Connector.IVortexElement.GetParent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexElement.GetParent
+    name: GetParent
+    nameWithType: IVortexElement.GetParent
+    fullName: Vortex.Connector.IVortexElement.GetParent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexElement.GetSymbolTail
+  commentId: M:Vortex.Connector.IVortexElement.GetSymbolTail
+  parent: Vortex.Connector.IVortexElement
+  name: GetSymbolTail()
+  nameWithType: IVortexElement.GetSymbolTail()
+  fullName: Vortex.Connector.IVortexElement.GetSymbolTail()
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexElement.GetSymbolTail
+    name: GetSymbolTail
+    nameWithType: IVortexElement.GetSymbolTail
+    fullName: Vortex.Connector.IVortexElement.GetSymbolTail
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexElement.GetSymbolTail
+    name: GetSymbolTail
+    nameWithType: IVortexElement.GetSymbolTail
+    fullName: Vortex.Connector.IVortexElement.GetSymbolTail
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTag.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<IValueTag>(Object)
+  nameWithType: IValueTagExtensions.Cast<IValueTag>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.IValueTag>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of IValueTag)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.IValueTag)(System.Object)
+  name.vb: Cast(Of IValueTag)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<IValueTag>
+    nameWithType: IValueTagExtensions.Cast<IValueTag>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.IValueTag>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of IValueTag)
+    nameWithType: IValueTagExtensions.Cast(Of IValueTag)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.IValueTag)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexElement
+  commentId: T:Vortex.Connector.IVortexElement
+  parent: Vortex.Connector
+  name: IVortexElement
+  nameWithType: IVortexElement
+  fullName: Vortex.Connector.IVortexElement
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector.IValueTag.EditValueChange*
+  commentId: Overload:Vortex.Connector.IValueTag.EditValueChange
+  name: EditValueChange
+  nameWithType: IValueTag.EditValueChange
+  fullName: Vortex.Connector.IValueTag.EditValueChange
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerBaseType.ValueChangeDelegate
+  nameWithType: OnlinerBaseType.ValueChangeDelegate
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+- uid: Vortex.Connector.ValueTypes
+  commentId: N:Vortex.Connector.ValueTypes
+  name: Vortex.Connector.ValueTypes
+  nameWithType: Vortex.Connector.ValueTypes
+  fullName: Vortex.Connector.ValueTypes
+- uid: Vortex.Connector.IValueTag.ShadowValueChange*
+  commentId: Overload:Vortex.Connector.IValueTag.ShadowValueChange
+  name: ShadowValueChange
+  nameWithType: IValueTag.ShadowValueChange
+  fullName: Vortex.Connector.IValueTag.ShadowValueChange
+- uid: Vortex.Connector.IValueTag.MakeReadOnly*
+  commentId: Overload:Vortex.Connector.IValueTag.MakeReadOnly
+  name: MakeReadOnly
+  nameWithType: IValueTag.MakeReadOnly
+  fullName: Vortex.Connector.IValueTag.MakeReadOnly
+- uid: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+  commentId: T:Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+  parent: Vortex.Connector.ValueTypes
+  name: ValueChangedEventHandlerDelegate
+  nameWithType: ValueChangedEventHandlerDelegate
+  fullName: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+- uid: Vortex.Connector.IValueTag.Subscribe*
+  commentId: Overload:Vortex.Connector.IValueTag.Subscribe
+  name: Subscribe
+  nameWithType: IValueTag.Subscribe
+  fullName: Vortex.Connector.IValueTag.Subscribe
+- uid: Vortex.Connector.IValueTag.UnSubscribe*
+  commentId: Overload:Vortex.Connector.IValueTag.UnSubscribe
+  name: UnSubscribe
+  nameWithType: IValueTag.UnSubscribe
+  fullName: Vortex.Connector.IValueTag.UnSubscribe

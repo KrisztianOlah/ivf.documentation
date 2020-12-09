@@ -1,0 +1,656 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  id: IValueTagExtensions
+  parent: Vortex.Connector
+  children:
+  - Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  - Vortex.Connector.IValueTagExtensions.GetCyclicValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  - Vortex.Connector.IValueTagExtensions.GetLastValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  - Vortex.Connector.IValueTagExtensions.GetShadowValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  - Vortex.Connector.IValueTagExtensions.SetCyclicValue``1(Vortex.Connector.ValueTypes.OnlinerBaseType,``0)
+  - Vortex.Connector.IValueTagExtensions.SetShadowValue(Vortex.Connector.ValueTypes.OnlinerBaseType,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IValueTagExtensions
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
+    startLine: 3
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: public static class IValueTagExtensions
+    content.vb: Public Module IValueTagExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Vortex.Connector.IValueTagExtensions.SetCyclicValue``1(Vortex.Connector.ValueTypes.OnlinerBaseType,``0)
+  commentId: M:Vortex.Connector.IValueTagExtensions.SetCyclicValue``1(Vortex.Connector.ValueTypes.OnlinerBaseType,``0)
+  id: SetCyclicValue``1(Vortex.Connector.ValueTypes.OnlinerBaseType,``0)
+  isExtensionMethod: true
+  parent: Vortex.Connector.IValueTagExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetCyclicValue<T>(OnlinerBaseType, T)
+  nameWithType: IValueTagExtensions.SetCyclicValue<T>(OnlinerBaseType, T)
+  fullName: Vortex.Connector.IValueTagExtensions.SetCyclicValue<T>(Vortex.Connector.ValueTypes.OnlinerBaseType, T)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SetCyclicValue
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
+    startLine: 5
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: public static void SetCyclicValue<T>(this OnlinerBaseType tag, T value)
+    parameters:
+    - id: tag
+      type: Vortex.Connector.ValueTypes.OnlinerBaseType
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetCyclicValue(Of T)(tag As OnlinerBaseType, value As T)
+  overload: Vortex.Connector.IValueTagExtensions.SetCyclicValue*
+  nameWithType.vb: IValueTagExtensions.SetCyclicValue(Of T)(OnlinerBaseType, T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Vortex.Connector.IValueTagExtensions.SetCyclicValue(Of T)(Vortex.Connector.ValueTypes.OnlinerBaseType, T)
+  name.vb: SetCyclicValue(Of T)(OnlinerBaseType, T)
+- uid: Vortex.Connector.IValueTagExtensions.SetShadowValue(Vortex.Connector.ValueTypes.OnlinerBaseType,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.SetShadowValue(Vortex.Connector.ValueTypes.OnlinerBaseType,System.Object)
+  id: SetShadowValue(Vortex.Connector.ValueTypes.OnlinerBaseType,System.Object)
+  isExtensionMethod: true
+  parent: Vortex.Connector.IValueTagExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetShadowValue(OnlinerBaseType, Object)
+  nameWithType: IValueTagExtensions.SetShadowValue(OnlinerBaseType, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.SetShadowValue(Vortex.Connector.ValueTypes.OnlinerBaseType, System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SetShadowValue
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
+    startLine: 10
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: public static void SetShadowValue(this OnlinerBaseType tag, object value)
+    parameters:
+    - id: tag
+      type: Vortex.Connector.ValueTypes.OnlinerBaseType
+    - id: value
+      type: System.Object
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetShadowValue(tag As OnlinerBaseType, value As Object)
+  overload: Vortex.Connector.IValueTagExtensions.SetShadowValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  id: Cast``1(``0,System.Object)
+  isExtensionMethod: true
+  parent: Vortex.Connector.IValueTagExtensions
+  langs:
+  - csharp
+  - vb
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Cast
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
+    startLine: 15
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: static T Cast<T>(this T taget, object obj)
+    parameters:
+    - id: taget
+      type: '{T}'
+    - id: obj
+      type: System.Object
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Shared Function Cast(Of T)(taget As T, obj As Object) As T
+  overload: Vortex.Connector.IValueTagExtensions.Cast*
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+- uid: Vortex.Connector.IValueTagExtensions.GetCyclicValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  commentId: M:Vortex.Connector.IValueTagExtensions.GetCyclicValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  id: GetCyclicValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  isExtensionMethod: true
+  parent: Vortex.Connector.IValueTagExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetCyclicValue(OnlinerBaseType)
+  nameWithType: IValueTagExtensions.GetCyclicValue(OnlinerBaseType)
+  fullName: Vortex.Connector.IValueTagExtensions.GetCyclicValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetCyclicValue
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
+    startLine: 20
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: public static object GetCyclicValue(this OnlinerBaseType tag)
+    parameters:
+    - id: tag
+      type: Vortex.Connector.ValueTypes.OnlinerBaseType
+    return:
+      type: System.Object
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetCyclicValue(tag As OnlinerBaseType) As Object
+  overload: Vortex.Connector.IValueTagExtensions.GetCyclicValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vortex.Connector.IValueTagExtensions.GetLastValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  commentId: M:Vortex.Connector.IValueTagExtensions.GetLastValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  id: GetLastValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  isExtensionMethod: true
+  parent: Vortex.Connector.IValueTagExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetLastValue(OnlinerBaseType)
+  nameWithType: IValueTagExtensions.GetLastValue(OnlinerBaseType)
+  fullName: Vortex.Connector.IValueTagExtensions.GetLastValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetLastValue
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
+    startLine: 25
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: public static object GetLastValue(this OnlinerBaseType tag)
+    parameters:
+    - id: tag
+      type: Vortex.Connector.ValueTypes.OnlinerBaseType
+    return:
+      type: System.Object
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetLastValue(tag As OnlinerBaseType) As Object
+  overload: Vortex.Connector.IValueTagExtensions.GetLastValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vortex.Connector.IValueTagExtensions.GetShadowValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  commentId: M:Vortex.Connector.IValueTagExtensions.GetShadowValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  id: GetShadowValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  isExtensionMethod: true
+  parent: Vortex.Connector.IValueTagExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetShadowValue(OnlinerBaseType)
+  nameWithType: IValueTagExtensions.GetShadowValue(OnlinerBaseType)
+  fullName: Vortex.Connector.IValueTagExtensions.GetShadowValue(Vortex.Connector.ValueTypes.OnlinerBaseType)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetShadowValue
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
+    startLine: 30
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: public static object GetShadowValue(this OnlinerBaseType tag)
+    parameters:
+    - id: tag
+      type: Vortex.Connector.ValueTypes.OnlinerBaseType
+    return:
+      type: System.Object
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetShadowValue(tag As OnlinerBaseType) As Object
+  overload: Vortex.Connector.IValueTagExtensions.GetShadowValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.IValueTagExtensions.SetCyclicValue*
+  commentId: Overload:Vortex.Connector.IValueTagExtensions.SetCyclicValue
+  name: SetCyclicValue
+  nameWithType: IValueTagExtensions.SetCyclicValue
+  fullName: Vortex.Connector.IValueTagExtensions.SetCyclicValue
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerBaseType
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerBaseType
+  nameWithType: OnlinerBaseType
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Vortex.Connector.ValueTypes
+  commentId: N:Vortex.Connector.ValueTypes
+  name: Vortex.Connector.ValueTypes
+  nameWithType: Vortex.Connector.ValueTypes
+  fullName: Vortex.Connector.ValueTypes
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Vortex.Connector.IValueTagExtensions.SetShadowValue*
+  commentId: Overload:Vortex.Connector.IValueTagExtensions.SetShadowValue
+  name: SetShadowValue
+  nameWithType: IValueTagExtensions.SetShadowValue
+  fullName: Vortex.Connector.IValueTagExtensions.SetShadowValue
+- uid: Vortex.Connector.IValueTagExtensions.Cast*
+  commentId: Overload:Vortex.Connector.IValueTagExtensions.Cast
+  name: Cast
+  nameWithType: IValueTagExtensions.Cast
+  fullName: Vortex.Connector.IValueTagExtensions.Cast
+- uid: Vortex.Connector.IValueTagExtensions.GetCyclicValue*
+  commentId: Overload:Vortex.Connector.IValueTagExtensions.GetCyclicValue
+  name: GetCyclicValue
+  nameWithType: IValueTagExtensions.GetCyclicValue
+  fullName: Vortex.Connector.IValueTagExtensions.GetCyclicValue
+- uid: Vortex.Connector.IValueTagExtensions.GetLastValue*
+  commentId: Overload:Vortex.Connector.IValueTagExtensions.GetLastValue
+  name: GetLastValue
+  nameWithType: IValueTagExtensions.GetLastValue
+  fullName: Vortex.Connector.IValueTagExtensions.GetLastValue
+- uid: Vortex.Connector.IValueTagExtensions.GetShadowValue*
+  commentId: Overload:Vortex.Connector.IValueTagExtensions.GetShadowValue
+  name: GetShadowValue
+  nameWithType: IValueTagExtensions.GetShadowValue
+  fullName: Vortex.Connector.IValueTagExtensions.GetShadowValue

@@ -1,0 +1,1266 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.IVortexObject
+  commentId: T:Vortex.Connector.IVortexObject
+  id: IVortexObject
+  parent: Vortex.Connector
+  children:
+  - Vortex.Connector.IVortexObject.AddChild(Vortex.Connector.IVortexObject)
+  - Vortex.Connector.IVortexObject.AddValueTag(Vortex.Connector.IValueTag)
+  - Vortex.Connector.IVortexObject.GetChildren
+  - Vortex.Connector.IVortexObject.GetConnector
+  - Vortex.Connector.IVortexObject.GetValueTags
+  langs:
+  - csharp
+  - vb
+  name: IVortexObject
+  nameWithType: IVortexObject
+  fullName: Vortex.Connector.IVortexObject
+  type: Interface
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IVortexObject
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
+    startLine: 7
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nBasic contract for any complex object that is product of build process.\n"
+  example: []
+  syntax:
+    content: 'public interface IVortexObject : ITwinObject, IVortexElement'
+    content.vb: >-
+      Public Interface IVortexObject
+          Inherits ITwinObject, IVortexElement
+  inheritedMembers:
+  - Vortex.Connector.IVortexElement.Symbol
+  - Vortex.Connector.IVortexElement.AttributeName
+  - Vortex.Connector.IVortexElement.HumanReadable
+  - Vortex.Connector.IVortexElement.GetParent
+  - Vortex.Connector.IVortexElement.GetSymbolTail
+  extensionMethods:
+  - Vortex.Connector.IVortexObject.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  - Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.MakeReadOnly
+  - Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.Read
+  - Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.Write
+  - Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags(System.Collections.Generic.List{Vortex.Connector.IValueTag})
+  - Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  - Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange
+  - Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  - Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Vortex.Connector.IVortexObject.GetChildren
+  commentId: M:Vortex.Connector.IVortexObject.GetChildren
+  id: GetChildren
+  parent: Vortex.Connector.IVortexObject
+  langs:
+  - csharp
+  - vb
+  name: GetChildren()
+  nameWithType: IVortexObject.GetChildren()
+  fullName: Vortex.Connector.IVortexObject.GetChildren()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetChildren
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
+    startLine: 13
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nGets all complex object that are created by this instance.\n"
+  example: []
+  syntax:
+    content: IEnumerable<IVortexObject> GetChildren()
+    return:
+      type: System.Collections.Generic.IEnumerable{Vortex.Connector.IVortexObject}
+      description: ''
+    content.vb: Function GetChildren As IEnumerable(Of IVortexObject)
+  overload: Vortex.Connector.IVortexObject.GetChildren*
+- uid: Vortex.Connector.IVortexObject.GetValueTags
+  commentId: M:Vortex.Connector.IVortexObject.GetValueTags
+  id: GetValueTags
+  parent: Vortex.Connector.IVortexObject
+  langs:
+  - csharp
+  - vb
+  name: GetValueTags()
+  nameWithType: IVortexObject.GetValueTags()
+  fullName: Vortex.Connector.IVortexObject.GetValueTags()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetValueTags
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
+    startLine: 19
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nGet all base type objects (tags) that are created by this instance.\n"
+  example: []
+  syntax:
+    content: IEnumerable<IValueTag> GetValueTags()
+    return:
+      type: System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag}
+      description: ''
+    content.vb: Function GetValueTags As IEnumerable(Of IValueTag)
+  overload: Vortex.Connector.IVortexObject.GetValueTags*
+- uid: Vortex.Connector.IVortexObject.AddChild(Vortex.Connector.IVortexObject)
+  commentId: M:Vortex.Connector.IVortexObject.AddChild(Vortex.Connector.IVortexObject)
+  id: AddChild(Vortex.Connector.IVortexObject)
+  parent: Vortex.Connector.IVortexObject
+  langs:
+  - csharp
+  - vb
+  name: AddChild(IVortexObject)
+  nameWithType: IVortexObject.AddChild(IVortexObject)
+  fullName: Vortex.Connector.IVortexObject.AddChild(Vortex.Connector.IVortexObject)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddChild
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
+    startLine: 26
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nAdds child object to the list of children of this object. <xref href=\"Vortex.Connector.IVortexObject.GetChildren\" data-throw-if-not-resolved=\"false\"></xref>\n<div class=\"NOTE\"><h5>note</h5><p>This method is used by the objects built in building process. Not to be used by framework consumers.</p></div>\n"
+  example: []
+  syntax:
+    content: void AddChild(IVortexObject vortexObject)
+    parameters:
+    - id: vortexObject
+      type: Vortex.Connector.IVortexObject
+      description: Child <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref>
+    content.vb: Sub AddChild(vortexObject As IVortexObject)
+  overload: Vortex.Connector.IVortexObject.AddChild*
+- uid: Vortex.Connector.IVortexObject.AddValueTag(Vortex.Connector.IValueTag)
+  commentId: M:Vortex.Connector.IVortexObject.AddValueTag(Vortex.Connector.IValueTag)
+  id: AddValueTag(Vortex.Connector.IValueTag)
+  parent: Vortex.Connector.IVortexObject
+  langs:
+  - csharp
+  - vb
+  name: AddValueTag(IValueTag)
+  nameWithType: IVortexObject.AddValueTag(IValueTag)
+  fullName: Vortex.Connector.IVortexObject.AddValueTag(Vortex.Connector.IValueTag)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddValueTag
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
+    startLine: 33
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nAdds child value tag to the list of value tags of this object. <xref href=\"Vortex.Connector.IVortexObject.GetValueTags\" data-throw-if-not-resolved=\"false\"></xref>\n<div class=\"NOTE\"><h5>note</h5><p>This method is used by the objects built in building process. Not to be used by framework consumers.</p></div>\n"
+  example: []
+  syntax:
+    content: void AddValueTag(IValueTag valueTag)
+    parameters:
+    - id: valueTag
+      type: Vortex.Connector.IValueTag
+      description: Child <xref href="Vortex.Connector.IValueTag" data-throw-if-not-resolved="false"></xref>
+    content.vb: Sub AddValueTag(valueTag As IValueTag)
+  overload: Vortex.Connector.IVortexObject.AddValueTag*
+- uid: Vortex.Connector.IVortexObject.GetConnector
+  commentId: M:Vortex.Connector.IVortexObject.GetConnector
+  id: GetConnector
+  parent: Vortex.Connector.IVortexObject
+  langs:
+  - csharp
+  - vb
+  name: GetConnector()
+  nameWithType: IVortexObject.GetConnector()
+  fullName: Vortex.Connector.IVortexObject.GetConnector()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetConnector
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
+    startLine: 39
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nGets the instance of the <xref href=\"Vortex.Connector.IConnector\" data-throw-if-not-resolved=\"false\"></xref> class to which this <xref href=\"Vortex.Connector.IVortexObject\" data-throw-if-not-resolved=\"false\"></xref> belongs.\n"
+  example: []
+  syntax:
+    content: IConnector GetConnector()
+    return:
+      type: Vortex.Connector.IConnector
+      description: ''
+    content.vb: Function GetConnector As IConnector
+  overload: Vortex.Connector.IVortexObject.GetConnector*
+references:
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.IVortexElement.Symbol
+  commentId: P:Vortex.Connector.IVortexElement.Symbol
+  parent: Vortex.Connector.IVortexElement
+  name: Symbol
+  nameWithType: IVortexElement.Symbol
+  fullName: Vortex.Connector.IVortexElement.Symbol
+- uid: Vortex.Connector.IVortexElement.AttributeName
+  commentId: P:Vortex.Connector.IVortexElement.AttributeName
+  parent: Vortex.Connector.IVortexElement
+  name: AttributeName
+  nameWithType: IVortexElement.AttributeName
+  fullName: Vortex.Connector.IVortexElement.AttributeName
+- uid: Vortex.Connector.IVortexElement.HumanReadable
+  commentId: P:Vortex.Connector.IVortexElement.HumanReadable
+  parent: Vortex.Connector.IVortexElement
+  name: HumanReadable
+  nameWithType: IVortexElement.HumanReadable
+  fullName: Vortex.Connector.IVortexElement.HumanReadable
+- uid: Vortex.Connector.IVortexElement.GetParent
+  commentId: M:Vortex.Connector.IVortexElement.GetParent
+  parent: Vortex.Connector.IVortexElement
+  name: GetParent()
+  nameWithType: IVortexElement.GetParent()
+  fullName: Vortex.Connector.IVortexElement.GetParent()
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexElement.GetParent
+    name: GetParent
+    nameWithType: IVortexElement.GetParent
+    fullName: Vortex.Connector.IVortexElement.GetParent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexElement.GetParent
+    name: GetParent
+    nameWithType: IVortexElement.GetParent
+    fullName: Vortex.Connector.IVortexElement.GetParent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexElement.GetSymbolTail
+  commentId: M:Vortex.Connector.IVortexElement.GetSymbolTail
+  parent: Vortex.Connector.IVortexElement
+  name: GetSymbolTail()
+  nameWithType: IVortexElement.GetSymbolTail()
+  fullName: Vortex.Connector.IVortexElement.GetSymbolTail()
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexElement.GetSymbolTail
+    name: GetSymbolTail
+    nameWithType: IVortexElement.GetSymbolTail
+    fullName: Vortex.Connector.IVortexElement.GetSymbolTail
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexElement.GetSymbolTail
+    name: GetSymbolTail
+    nameWithType: IVortexElement.GetSymbolTail
+    fullName: Vortex.Connector.IVortexElement.GetSymbolTail
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObject.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<IVortexObject>(Object)
+  nameWithType: IValueTagExtensions.Cast<IVortexObject>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.IVortexObject>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of IVortexObject)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.IVortexObject)(System.Object)
+  name.vb: Cast(Of IVortexObject)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<IVortexObject>
+    nameWithType: IValueTagExtensions.Cast<IVortexObject>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.IVortexObject>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of IVortexObject)
+    nameWithType: IValueTagExtensions.Cast(Of IVortexObject)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.IVortexObject)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.MakeReadOnly
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.MakeReadOnly(Vortex.Connector.IVortexObject)
+  parent: Vortex.Connector.IVortexObjectExtensions
+  definition: Vortex.Connector.IVortexObjectExtensions.MakeReadOnly(Vortex.Connector.IVortexObject)
+  name: MakeReadOnly()
+  nameWithType: IVortexObjectExtensions.MakeReadOnly()
+  fullName: Vortex.Connector.IVortexObjectExtensions.MakeReadOnly()
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.MakeReadOnly
+    name: MakeReadOnly
+    nameWithType: IVortexObjectExtensions.MakeReadOnly
+    fullName: Vortex.Connector.IVortexObjectExtensions.MakeReadOnly
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.MakeReadOnly
+    name: MakeReadOnly
+    nameWithType: IVortexObjectExtensions.MakeReadOnly
+    fullName: Vortex.Connector.IVortexObjectExtensions.MakeReadOnly
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.Read
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.Read(Vortex.Connector.IVortexObject)
+  parent: Vortex.Connector.IVortexObjectExtensions
+  definition: Vortex.Connector.IVortexObjectExtensions.Read(Vortex.Connector.IVortexObject)
+  name: Read()
+  nameWithType: IVortexObjectExtensions.Read()
+  fullName: Vortex.Connector.IVortexObjectExtensions.Read()
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.Read
+    name: Read
+    nameWithType: IVortexObjectExtensions.Read
+    fullName: Vortex.Connector.IVortexObjectExtensions.Read
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.Read
+    name: Read
+    nameWithType: IVortexObjectExtensions.Read
+    fullName: Vortex.Connector.IVortexObjectExtensions.Read
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.Write
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.Write(Vortex.Connector.IVortexObject)
+  parent: Vortex.Connector.IVortexObjectExtensions
+  definition: Vortex.Connector.IVortexObjectExtensions.Write(Vortex.Connector.IVortexObject)
+  name: Write()
+  nameWithType: IVortexObjectExtensions.Write()
+  fullName: Vortex.Connector.IVortexObjectExtensions.Write()
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.Write
+    name: Write
+    nameWithType: IVortexObjectExtensions.Write
+    fullName: Vortex.Connector.IVortexObjectExtensions.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.Write
+    name: Write
+    nameWithType: IVortexObjectExtensions.Write
+    fullName: Vortex.Connector.IVortexObjectExtensions.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags(System.Collections.Generic.List{Vortex.Connector.IValueTag})
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags(Vortex.Connector.IVortexObject,System.Collections.Generic.List{Vortex.Connector.IValueTag})
+  parent: Vortex.Connector.IVortexObjectExtensions
+  definition: Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags(Vortex.Connector.IVortexObject,System.Collections.Generic.List{Vortex.Connector.IValueTag})
+  name: RetrieveValueTags(List<IValueTag>)
+  nameWithType: IVortexObjectExtensions.RetrieveValueTags(List<IValueTag>)
+  fullName: Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags(System.Collections.Generic.List<Vortex.Connector.IValueTag>)
+  nameWithType.vb: IVortexObjectExtensions.RetrieveValueTags(List(Of IValueTag))
+  fullName.vb: Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags(System.Collections.Generic.List(Of Vortex.Connector.IValueTag))
+  name.vb: RetrieveValueTags(List(Of IValueTag))
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags(System.Collections.Generic.List{Vortex.Connector.IValueTag})
+    name: RetrieveValueTags
+    nameWithType: IVortexObjectExtensions.RetrieveValueTags
+    fullName: Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+    nameWithType: IValueTag
+    fullName: Vortex.Connector.IValueTag
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags(System.Collections.Generic.List{Vortex.Connector.IValueTag})
+    name: RetrieveValueTags
+    nameWithType: IVortexObjectExtensions.RetrieveValueTags
+    fullName: Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+    nameWithType: IValueTag
+    fullName: Vortex.Connector.IValueTag
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange(Vortex.Connector.IVortexObject,Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  parent: Vortex.Connector.IVortexObjectExtensions
+  definition: Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange(Vortex.Connector.IVortexObject,Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  name: SubscribeShadowValueChange(OnlinerBaseType.ValueChangeDelegate)
+  nameWithType: IVortexObjectExtensions.SubscribeShadowValueChange(OnlinerBaseType.ValueChangeDelegate)
+  fullName: Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+    name: SubscribeShadowValueChange
+    nameWithType: IVortexObjectExtensions.SubscribeShadowValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+    name: OnlinerBaseType.ValueChangeDelegate
+    nameWithType: OnlinerBaseType.ValueChangeDelegate
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+    name: SubscribeShadowValueChange
+    nameWithType: IVortexObjectExtensions.SubscribeShadowValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+    name: OnlinerBaseType.ValueChangeDelegate
+    nameWithType: OnlinerBaseType.ValueChangeDelegate
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange(Vortex.Connector.IVortexObject)
+  parent: Vortex.Connector.IVortexObjectExtensions
+  definition: Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange(Vortex.Connector.IVortexObject)
+  name: UnSubscribeShadowValueChange()
+  nameWithType: IVortexObjectExtensions.UnSubscribeShadowValueChange()
+  fullName: Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange()
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange
+    name: UnSubscribeShadowValueChange
+    nameWithType: IVortexObjectExtensions.UnSubscribeShadowValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange
+    name: UnSubscribeShadowValueChange
+    nameWithType: IVortexObjectExtensions.UnSubscribeShadowValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange(Vortex.Connector.IVortexObject,Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  parent: Vortex.Connector.IVortexObjectExtensions
+  definition: Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange(Vortex.Connector.IVortexObject,Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  name: SubscribeEditValueChange(OnlinerBaseType.ValueChangeDelegate)
+  nameWithType: IVortexObjectExtensions.SubscribeEditValueChange(OnlinerBaseType.ValueChangeDelegate)
+  fullName: Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+    name: SubscribeEditValueChange
+    nameWithType: IVortexObjectExtensions.SubscribeEditValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+    name: OnlinerBaseType.ValueChangeDelegate
+    nameWithType: OnlinerBaseType.ValueChangeDelegate
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+    name: SubscribeEditValueChange
+    nameWithType: IVortexObjectExtensions.SubscribeEditValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+    name: OnlinerBaseType.ValueChangeDelegate
+    nameWithType: OnlinerBaseType.ValueChangeDelegate
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObject.Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange(Vortex.Connector.IVortexObject)
+  parent: Vortex.Connector.IVortexObjectExtensions
+  definition: Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange(Vortex.Connector.IVortexObject)
+  name: UnSubscribeEditValueChange()
+  nameWithType: IVortexObjectExtensions.UnSubscribeEditValueChange()
+  fullName: Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange()
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange
+    name: UnSubscribeEditValueChange
+    nameWithType: IVortexObjectExtensions.UnSubscribeEditValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange
+    name: UnSubscribeEditValueChange
+    nameWithType: IVortexObjectExtensions.UnSubscribeEditValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexElement
+  commentId: T:Vortex.Connector.IVortexElement
+  parent: Vortex.Connector
+  name: IVortexElement
+  nameWithType: IVortexElement
+  fullName: Vortex.Connector.IVortexElement
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector.IVortexObjectExtensions.MakeReadOnly(Vortex.Connector.IVortexObject)
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.MakeReadOnly(Vortex.Connector.IVortexObject)
+  name: MakeReadOnly(IVortexObject)
+  nameWithType: IVortexObjectExtensions.MakeReadOnly(IVortexObject)
+  fullName: Vortex.Connector.IVortexObjectExtensions.MakeReadOnly(Vortex.Connector.IVortexObject)
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.MakeReadOnly(Vortex.Connector.IVortexObject)
+    name: MakeReadOnly
+    nameWithType: IVortexObjectExtensions.MakeReadOnly
+    fullName: Vortex.Connector.IVortexObjectExtensions.MakeReadOnly
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.MakeReadOnly(Vortex.Connector.IVortexObject)
+    name: MakeReadOnly
+    nameWithType: IVortexObjectExtensions.MakeReadOnly
+    fullName: Vortex.Connector.IVortexObjectExtensions.MakeReadOnly
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObjectExtensions
+  commentId: T:Vortex.Connector.IVortexObjectExtensions
+  parent: Vortex.Connector
+  name: IVortexObjectExtensions
+  nameWithType: IVortexObjectExtensions
+  fullName: Vortex.Connector.IVortexObjectExtensions
+- uid: Vortex.Connector.IVortexObjectExtensions.Read(Vortex.Connector.IVortexObject)
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.Read(Vortex.Connector.IVortexObject)
+  name: Read(IVortexObject)
+  nameWithType: IVortexObjectExtensions.Read(IVortexObject)
+  fullName: Vortex.Connector.IVortexObjectExtensions.Read(Vortex.Connector.IVortexObject)
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.Read(Vortex.Connector.IVortexObject)
+    name: Read
+    nameWithType: IVortexObjectExtensions.Read
+    fullName: Vortex.Connector.IVortexObjectExtensions.Read
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.Read(Vortex.Connector.IVortexObject)
+    name: Read
+    nameWithType: IVortexObjectExtensions.Read
+    fullName: Vortex.Connector.IVortexObjectExtensions.Read
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObjectExtensions.Write(Vortex.Connector.IVortexObject)
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.Write(Vortex.Connector.IVortexObject)
+  name: Write(IVortexObject)
+  nameWithType: IVortexObjectExtensions.Write(IVortexObject)
+  fullName: Vortex.Connector.IVortexObjectExtensions.Write(Vortex.Connector.IVortexObject)
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.Write(Vortex.Connector.IVortexObject)
+    name: Write
+    nameWithType: IVortexObjectExtensions.Write
+    fullName: Vortex.Connector.IVortexObjectExtensions.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.Write(Vortex.Connector.IVortexObject)
+    name: Write
+    nameWithType: IVortexObjectExtensions.Write
+    fullName: Vortex.Connector.IVortexObjectExtensions.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags(Vortex.Connector.IVortexObject,System.Collections.Generic.List{Vortex.Connector.IValueTag})
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags(Vortex.Connector.IVortexObject,System.Collections.Generic.List{Vortex.Connector.IValueTag})
+  isExternal: true
+  name: RetrieveValueTags(IVortexObject, List<IValueTag>)
+  nameWithType: IVortexObjectExtensions.RetrieveValueTags(IVortexObject, List<IValueTag>)
+  fullName: Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags(Vortex.Connector.IVortexObject, System.Collections.Generic.List<Vortex.Connector.IValueTag>)
+  nameWithType.vb: IVortexObjectExtensions.RetrieveValueTags(IVortexObject, List(Of IValueTag))
+  fullName.vb: Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags(Vortex.Connector.IVortexObject, System.Collections.Generic.List(Of Vortex.Connector.IValueTag))
+  name.vb: RetrieveValueTags(IVortexObject, List(Of IValueTag))
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags(Vortex.Connector.IVortexObject,System.Collections.Generic.List{Vortex.Connector.IValueTag})
+    name: RetrieveValueTags
+    nameWithType: IVortexObjectExtensions.RetrieveValueTags
+    fullName: Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+    nameWithType: IValueTag
+    fullName: Vortex.Connector.IValueTag
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags(Vortex.Connector.IVortexObject,System.Collections.Generic.List{Vortex.Connector.IValueTag})
+    name: RetrieveValueTags
+    nameWithType: IVortexObjectExtensions.RetrieveValueTags
+    fullName: Vortex.Connector.IVortexObjectExtensions.RetrieveValueTags
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+    nameWithType: IValueTag
+    fullName: Vortex.Connector.IValueTag
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange(Vortex.Connector.IVortexObject,Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange(Vortex.Connector.IVortexObject,Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  name: SubscribeShadowValueChange(IVortexObject, OnlinerBaseType.ValueChangeDelegate)
+  nameWithType: IVortexObjectExtensions.SubscribeShadowValueChange(IVortexObject, OnlinerBaseType.ValueChangeDelegate)
+  fullName: Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange(Vortex.Connector.IVortexObject, Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange(Vortex.Connector.IVortexObject,Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+    name: SubscribeShadowValueChange
+    nameWithType: IVortexObjectExtensions.SubscribeShadowValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+    name: OnlinerBaseType.ValueChangeDelegate
+    nameWithType: OnlinerBaseType.ValueChangeDelegate
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange(Vortex.Connector.IVortexObject,Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+    name: SubscribeShadowValueChange
+    nameWithType: IVortexObjectExtensions.SubscribeShadowValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.SubscribeShadowValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+    name: OnlinerBaseType.ValueChangeDelegate
+    nameWithType: OnlinerBaseType.ValueChangeDelegate
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange(Vortex.Connector.IVortexObject)
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange(Vortex.Connector.IVortexObject)
+  name: UnSubscribeShadowValueChange(IVortexObject)
+  nameWithType: IVortexObjectExtensions.UnSubscribeShadowValueChange(IVortexObject)
+  fullName: Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange(Vortex.Connector.IVortexObject)
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange(Vortex.Connector.IVortexObject)
+    name: UnSubscribeShadowValueChange
+    nameWithType: IVortexObjectExtensions.UnSubscribeShadowValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange(Vortex.Connector.IVortexObject)
+    name: UnSubscribeShadowValueChange
+    nameWithType: IVortexObjectExtensions.UnSubscribeShadowValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.UnSubscribeShadowValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange(Vortex.Connector.IVortexObject,Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange(Vortex.Connector.IVortexObject,Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  name: SubscribeEditValueChange(IVortexObject, OnlinerBaseType.ValueChangeDelegate)
+  nameWithType: IVortexObjectExtensions.SubscribeEditValueChange(IVortexObject, OnlinerBaseType.ValueChangeDelegate)
+  fullName: Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange(Vortex.Connector.IVortexObject, Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange(Vortex.Connector.IVortexObject,Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+    name: SubscribeEditValueChange
+    nameWithType: IVortexObjectExtensions.SubscribeEditValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+    name: OnlinerBaseType.ValueChangeDelegate
+    nameWithType: OnlinerBaseType.ValueChangeDelegate
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange(Vortex.Connector.IVortexObject,Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+    name: SubscribeEditValueChange
+    nameWithType: IVortexObjectExtensions.SubscribeEditValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.SubscribeEditValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+    name: OnlinerBaseType.ValueChangeDelegate
+    nameWithType: OnlinerBaseType.ValueChangeDelegate
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange(Vortex.Connector.IVortexObject)
+  commentId: M:Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange(Vortex.Connector.IVortexObject)
+  name: UnSubscribeEditValueChange(IVortexObject)
+  nameWithType: IVortexObjectExtensions.UnSubscribeEditValueChange(IVortexObject)
+  fullName: Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange(Vortex.Connector.IVortexObject)
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange(Vortex.Connector.IVortexObject)
+    name: UnSubscribeEditValueChange
+    nameWithType: IVortexObjectExtensions.UnSubscribeEditValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange(Vortex.Connector.IVortexObject)
+    name: UnSubscribeEditValueChange
+    nameWithType: IVortexObjectExtensions.UnSubscribeEditValueChange
+    fullName: Vortex.Connector.IVortexObjectExtensions.UnSubscribeEditValueChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObject.GetChildren*
+  commentId: Overload:Vortex.Connector.IVortexObject.GetChildren
+  name: GetChildren
+  nameWithType: IVortexObject.GetChildren
+  fullName: Vortex.Connector.IVortexObject.GetChildren
+- uid: System.Collections.Generic.IEnumerable{Vortex.Connector.IVortexObject}
+  commentId: T:System.Collections.Generic.IEnumerable{Vortex.Connector.IVortexObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<IVortexObject>
+  nameWithType: IEnumerable<IVortexObject>
+  fullName: System.Collections.Generic.IEnumerable<Vortex.Connector.IVortexObject>
+  nameWithType.vb: IEnumerable(Of IVortexObject)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Vortex.Connector.IVortexObject)
+  name.vb: IEnumerable(Of IVortexObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vortex.Connector.IVortexObject.GetValueTags*
+  commentId: Overload:Vortex.Connector.IVortexObject.GetValueTags
+  name: GetValueTags
+  nameWithType: IVortexObject.GetValueTags
+  fullName: Vortex.Connector.IVortexObject.GetValueTags
+- uid: System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag}
+  commentId: T:System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<IValueTag>
+  nameWithType: IEnumerable<IValueTag>
+  fullName: System.Collections.Generic.IEnumerable<Vortex.Connector.IValueTag>
+  nameWithType.vb: IEnumerable(Of IValueTag)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Vortex.Connector.IValueTag)
+  name.vb: IEnumerable(Of IValueTag)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+    nameWithType: IValueTag
+    fullName: Vortex.Connector.IValueTag
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+    nameWithType: IValueTag
+    fullName: Vortex.Connector.IValueTag
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObject.GetChildren
+  commentId: M:Vortex.Connector.IVortexObject.GetChildren
+  parent: Vortex.Connector.IVortexObject
+  name: GetChildren()
+  nameWithType: IVortexObject.GetChildren()
+  fullName: Vortex.Connector.IVortexObject.GetChildren()
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObject.GetChildren
+    name: GetChildren
+    nameWithType: IVortexObject.GetChildren
+    fullName: Vortex.Connector.IVortexObject.GetChildren
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObject.GetChildren
+    name: GetChildren
+    nameWithType: IVortexObject.GetChildren
+    fullName: Vortex.Connector.IVortexObject.GetChildren
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexObject
+  commentId: T:Vortex.Connector.IVortexObject
+  parent: Vortex.Connector
+  name: IVortexObject
+  nameWithType: IVortexObject
+  fullName: Vortex.Connector.IVortexObject
+- uid: Vortex.Connector.IVortexObject.AddChild*
+  commentId: Overload:Vortex.Connector.IVortexObject.AddChild
+  name: AddChild
+  nameWithType: IVortexObject.AddChild
+  fullName: Vortex.Connector.IVortexObject.AddChild
+- uid: Vortex.Connector.IVortexObject.GetValueTags
+  commentId: M:Vortex.Connector.IVortexObject.GetValueTags
+  parent: Vortex.Connector.IVortexObject
+  name: GetValueTags()
+  nameWithType: IVortexObject.GetValueTags()
+  fullName: Vortex.Connector.IVortexObject.GetValueTags()
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObject.GetValueTags
+    name: GetValueTags
+    nameWithType: IVortexObject.GetValueTags
+    fullName: Vortex.Connector.IVortexObject.GetValueTags
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObject.GetValueTags
+    name: GetValueTags
+    nameWithType: IVortexObject.GetValueTags
+    fullName: Vortex.Connector.IVortexObject.GetValueTags
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTag
+  commentId: T:Vortex.Connector.IValueTag
+  parent: Vortex.Connector
+  name: IValueTag
+  nameWithType: IValueTag
+  fullName: Vortex.Connector.IValueTag
+- uid: Vortex.Connector.IVortexObject.AddValueTag*
+  commentId: Overload:Vortex.Connector.IVortexObject.AddValueTag
+  name: AddValueTag
+  nameWithType: IVortexObject.AddValueTag
+  fullName: Vortex.Connector.IVortexObject.AddValueTag
+- uid: Vortex.Connector.IConnector
+  commentId: T:Vortex.Connector.IConnector
+  parent: Vortex.Connector
+  name: IConnector
+  nameWithType: IConnector
+  fullName: Vortex.Connector.IConnector
+- uid: Vortex.Connector.IVortexObject.GetConnector*
+  commentId: Overload:Vortex.Connector.IVortexObject.GetConnector
+  name: GetConnector
+  nameWithType: IVortexObject.GetConnector
+  fullName: Vortex.Connector.IVortexObject.GetConnector

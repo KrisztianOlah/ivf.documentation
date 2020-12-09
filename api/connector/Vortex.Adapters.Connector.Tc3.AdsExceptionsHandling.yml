@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  commentId: N:Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  id: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  children:
+  - Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  nameWithType: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  fullName: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  type: Namespace
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+references:
+- uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler
+  parent: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  name: ExceptionHandler
+  nameWithType: ExceptionHandler
+  fullName: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler
+- uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  commentId: N:Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  name: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  nameWithType: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  fullName: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling

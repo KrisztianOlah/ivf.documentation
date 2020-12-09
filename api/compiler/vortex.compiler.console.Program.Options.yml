@@ -1,0 +1,1095 @@
+### YamlMime:ManagedReference
+items:
+- uid: vortex.compiler.console.Program.Options
+  commentId: T:vortex.compiler.console.Program.Options
+  id: Program.Options
+  parent: vortex.compiler.console
+  children:
+  - vortex.compiler.console.Program.Options.AttributeDirectives
+  - vortex.compiler.console.Program.Options.BuildConnectorProjects
+  - vortex.compiler.console.Program.Options.CloseVisualStudionOnDone
+  - vortex.compiler.console.Program.Options.ConfigFile
+  - vortex.compiler.console.Program.Options.CreatePlcLibraries
+  - vortex.compiler.console.Program.Options.currentDirectory
+  - vortex.compiler.console.Program.Options.DoInferUnknownTypes
+  - vortex.compiler.console.Program.Options.InstallProjectLibraries
+  - vortex.compiler.console.Program.Options.OutputDirectory
+  - vortex.compiler.console.Program.Options.SolutionFile
+  - vortex.compiler.console.Program.Options.UpdateControllerVersionInfo
+  - vortex.compiler.console.Program.Options.Verbosity
+  langs:
+  - csharp
+  - vb
+  name: Program.Options
+  nameWithType: Program.Options
+  fullName: vortex.compiler.console.Program.Options
+  type: Class
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Options
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+    startLine: 49
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console
+  syntax:
+    content: class Options
+    content.vb: Class Options
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - class
+  modifiers.vb:
+  - Class
+- uid: vortex.compiler.console.Program.Options.currentDirectory
+  commentId: F:vortex.compiler.console.Program.Options.currentDirectory
+  id: currentDirectory
+  parent: vortex.compiler.console.Program.Options
+  langs:
+  - csharp
+  - vb
+  name: currentDirectory
+  nameWithType: Program.Options.currentDirectory
+  fullName: vortex.compiler.console.Program.Options.currentDirectory
+  type: Field
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: currentDirectory
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+    startLine: 51
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console
+  syntax:
+    content: static readonly string currentDirectory
+    return:
+      type: System.String
+    content.vb: Shared ReadOnly currentDirectory As String
+  modifiers.csharp:
+  - static
+  - readonly
+  modifiers.vb:
+  - Shared
+  - ReadOnly
+- uid: vortex.compiler.console.Program.Options.SolutionFile
+  commentId: P:vortex.compiler.console.Program.Options.SolutionFile
+  id: SolutionFile
+  parent: vortex.compiler.console.Program.Options
+  langs:
+  - csharp
+  - vb
+  name: SolutionFile
+  nameWithType: Program.Options.SolutionFile
+  fullName: vortex.compiler.console.Program.Options.SolutionFile
+  type: Property
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SolutionFile
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+    startLine: 53
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console
+  syntax:
+    content: >-
+      [Option('s', "solution", Required = false, Default = null, HelpText = "Compiler config file")]
+
+      public string SolutionFile { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Option("s"c, "solution", Required:=False, Default:=Nothing, HelpText:="Compiler config file")>
+
+      Public Property SolutionFile As String
+  overload: vortex.compiler.console.Program.Options.SolutionFile*
+  attributes:
+  - type: CommandLine.OptionAttribute
+    ctor: CommandLine.OptionAttribute.#ctor(System.Char,System.String)
+    arguments:
+    - type: System.Char
+      value: s
+    - type: System.String
+      value: solution
+    namedArguments:
+    - name: Required
+      type: System.Boolean
+      value: false
+    - name: Default
+      type: System.Object
+    - name: HelpText
+      type: System.String
+      value: Compiler config file
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: vortex.compiler.console.Program.Options.ConfigFile
+  commentId: P:vortex.compiler.console.Program.Options.ConfigFile
+  id: ConfigFile
+  parent: vortex.compiler.console.Program.Options
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile
+  nameWithType: Program.Options.ConfigFile
+  fullName: vortex.compiler.console.Program.Options.ConfigFile
+  type: Property
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ConfigFile
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+    startLine: 55
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console
+  syntax:
+    content: >-
+      [Option('c', "config", Required = false, Default = "vortex_config.json", HelpText = "Compiler config file")]
+
+      public string ConfigFile { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Option("c"c, "config", Required:=False, Default:="vortex_config.json", HelpText:="Compiler config file")>
+
+      Public Property ConfigFile As String
+  overload: vortex.compiler.console.Program.Options.ConfigFile*
+  attributes:
+  - type: CommandLine.OptionAttribute
+    ctor: CommandLine.OptionAttribute.#ctor(System.Char,System.String)
+    arguments:
+    - type: System.Char
+      value: c
+    - type: System.String
+      value: config
+    namedArguments:
+    - name: Required
+      type: System.Boolean
+      value: false
+    - name: Default
+      type: System.String
+      value: vortex_config.json
+    - name: HelpText
+      type: System.String
+      value: Compiler config file
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: vortex.compiler.console.Program.Options.AttributeDirectives
+  commentId: P:vortex.compiler.console.Program.Options.AttributeDirectives
+  id: AttributeDirectives
+  parent: vortex.compiler.console.Program.Options
+  langs:
+  - csharp
+  - vb
+  name: AttributeDirectives
+  nameWithType: Program.Options.AttributeDirectives
+  fullName: vortex.compiler.console.Program.Options.AttributeDirectives
+  type: Property
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AttributeDirectives
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+    startLine: 58
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console
+  syntax:
+    content: >-
+      [Option('d', "directives", Required = false, Default = "wpf+clr", HelpText = "Attribute directives")]
+
+      public string AttributeDirectives { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Option("d"c, "directives", Required:=False, Default:="wpf+clr", HelpText:="Attribute directives")>
+
+      Public Property AttributeDirectives As String
+  overload: vortex.compiler.console.Program.Options.AttributeDirectives*
+  attributes:
+  - type: CommandLine.OptionAttribute
+    ctor: CommandLine.OptionAttribute.#ctor(System.Char,System.String)
+    arguments:
+    - type: System.Char
+      value: d
+    - type: System.String
+      value: directives
+    namedArguments:
+    - name: Required
+      type: System.Boolean
+      value: false
+    - name: Default
+      type: System.String
+      value: wpf+clr
+    - name: HelpText
+      type: System.String
+      value: Attribute directives
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: vortex.compiler.console.Program.Options.OutputDirectory
+  commentId: P:vortex.compiler.console.Program.Options.OutputDirectory
+  id: OutputDirectory
+  parent: vortex.compiler.console.Program.Options
+  langs:
+  - csharp
+  - vb
+  name: OutputDirectory
+  nameWithType: Program.Options.OutputDirectory
+  fullName: vortex.compiler.console.Program.Options.OutputDirectory
+  type: Property
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: OutputDirectory
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+    startLine: 61
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console
+  syntax:
+    content: >-
+      [Option('o', "output", Required = false, Default = "out", HelpText = "Compile product output directory")]
+
+      public string OutputDirectory { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Option("o"c, "output", Required:=False, Default:="out", HelpText:="Compile product output directory")>
+
+      Public Property OutputDirectory As String
+  overload: vortex.compiler.console.Program.Options.OutputDirectory*
+  attributes:
+  - type: CommandLine.OptionAttribute
+    ctor: CommandLine.OptionAttribute.#ctor(System.Char,System.String)
+    arguments:
+    - type: System.Char
+      value: o
+    - type: System.String
+      value: output
+    namedArguments:
+    - name: Required
+      type: System.Boolean
+      value: false
+    - name: Default
+      type: System.String
+      value: out
+    - name: HelpText
+      type: System.String
+      value: Compile product output directory
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: vortex.compiler.console.Program.Options.CreatePlcLibraries
+  commentId: P:vortex.compiler.console.Program.Options.CreatePlcLibraries
+  id: CreatePlcLibraries
+  parent: vortex.compiler.console.Program.Options
+  langs:
+  - csharp
+  - vb
+  name: CreatePlcLibraries
+  nameWithType: Program.Options.CreatePlcLibraries
+  fullName: vortex.compiler.console.Program.Options.CreatePlcLibraries
+  type: Property
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreatePlcLibraries
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+    startLine: 64
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console
+  syntax:
+    content: >-
+      [Option('p', "publish", Required = false, Default = false, HelpText = "Creates and installs plc libraries")]
+
+      public string CreatePlcLibraries { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Option("p"c, "publish", Required:=False, Default:=False, HelpText:="Creates and installs plc libraries")>
+
+      Public Property CreatePlcLibraries As String
+  overload: vortex.compiler.console.Program.Options.CreatePlcLibraries*
+  attributes:
+  - type: CommandLine.OptionAttribute
+    ctor: CommandLine.OptionAttribute.#ctor(System.Char,System.String)
+    arguments:
+    - type: System.Char
+      value: p
+    - type: System.String
+      value: publish
+    namedArguments:
+    - name: Required
+      type: System.Boolean
+      value: false
+    - name: Default
+      type: System.Boolean
+      value: false
+    - name: HelpText
+      type: System.String
+      value: Creates and installs plc libraries
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: vortex.compiler.console.Program.Options.CloseVisualStudionOnDone
+  commentId: P:vortex.compiler.console.Program.Options.CloseVisualStudionOnDone
+  id: CloseVisualStudionOnDone
+  parent: vortex.compiler.console.Program.Options
+  langs:
+  - csharp
+  - vb
+  name: CloseVisualStudionOnDone
+  nameWithType: Program.Options.CloseVisualStudionOnDone
+  fullName: vortex.compiler.console.Program.Options.CloseVisualStudionOnDone
+  type: Property
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CloseVisualStudionOnDone
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+    startLine: 67
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console
+  syntax:
+    content: >-
+      [Option('q', "quit-when-done", Required = false, Default = "wpf+clr", HelpText = "Closes VS instance when done")]
+
+      public string CloseVisualStudionOnDone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Option("q"c, "quit-when-done", Required:=False, Default:="wpf+clr", HelpText:="Closes VS instance when done")>
+
+      Public Property CloseVisualStudionOnDone As String
+  overload: vortex.compiler.console.Program.Options.CloseVisualStudionOnDone*
+  attributes:
+  - type: CommandLine.OptionAttribute
+    ctor: CommandLine.OptionAttribute.#ctor(System.Char,System.String)
+    arguments:
+    - type: System.Char
+      value: q
+    - type: System.String
+      value: quit-when-done
+    namedArguments:
+    - name: Required
+      type: System.Boolean
+      value: false
+    - name: Default
+      type: System.String
+      value: wpf+clr
+    - name: HelpText
+      type: System.String
+      value: Closes VS instance when done
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: vortex.compiler.console.Program.Options.UpdateControllerVersionInfo
+  commentId: P:vortex.compiler.console.Program.Options.UpdateControllerVersionInfo
+  id: UpdateControllerVersionInfo
+  parent: vortex.compiler.console.Program.Options
+  langs:
+  - csharp
+  - vb
+  name: UpdateControllerVersionInfo
+  nameWithType: Program.Options.UpdateControllerVersionInfo
+  fullName: vortex.compiler.console.Program.Options.UpdateControllerVersionInfo
+  type: Property
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: UpdateControllerVersionInfo
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+    startLine: 70
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console
+  syntax:
+    content: >-
+      [Option('i', "update-plc-project-version", Required = false, Default = "wpf+clr", HelpText = "Updates plc project version from connector project assembly info or project file")]
+
+      public string UpdateControllerVersionInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Option("i"c, "update-plc-project-version", Required:=False, Default:="wpf+clr", HelpText:="Updates plc project version from connector project assembly info or project file")>
+
+      Public Property UpdateControllerVersionInfo As String
+  overload: vortex.compiler.console.Program.Options.UpdateControllerVersionInfo*
+  attributes:
+  - type: CommandLine.OptionAttribute
+    ctor: CommandLine.OptionAttribute.#ctor(System.Char,System.String)
+    arguments:
+    - type: System.Char
+      value: i
+    - type: System.String
+      value: update-plc-project-version
+    namedArguments:
+    - name: Required
+      type: System.Boolean
+      value: false
+    - name: Default
+      type: System.String
+      value: wpf+clr
+    - name: HelpText
+      type: System.String
+      value: Updates plc project version from connector project assembly info or project file
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: vortex.compiler.console.Program.Options.InstallProjectLibraries
+  commentId: P:vortex.compiler.console.Program.Options.InstallProjectLibraries
+  id: InstallProjectLibraries
+  parent: vortex.compiler.console.Program.Options
+  langs:
+  - csharp
+  - vb
+  name: InstallProjectLibraries
+  nameWithType: Program.Options.InstallProjectLibraries
+  fullName: vortex.compiler.console.Program.Options.InstallProjectLibraries
+  type: Property
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: InstallProjectLibraries
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+    startLine: 73
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console
+  syntax:
+    content: >-
+      [Option('l', "install-libraries", Required = false, Default = "wpf+clr", HelpText = "Install plc library into systems (libraries with the same version are overwritten)")]
+
+      public string InstallProjectLibraries { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Option("l"c, "install-libraries", Required:=False, Default:="wpf+clr", HelpText:="Install plc library into systems (libraries with the same version are overwritten)")>
+
+      Public Property InstallProjectLibraries As String
+  overload: vortex.compiler.console.Program.Options.InstallProjectLibraries*
+  attributes:
+  - type: CommandLine.OptionAttribute
+    ctor: CommandLine.OptionAttribute.#ctor(System.Char,System.String)
+    arguments:
+    - type: System.Char
+      value: l
+    - type: System.String
+      value: install-libraries
+    namedArguments:
+    - name: Required
+      type: System.Boolean
+      value: false
+    - name: Default
+      type: System.String
+      value: wpf+clr
+    - name: HelpText
+      type: System.String
+      value: Install plc library into systems (libraries with the same version are overwritten)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: vortex.compiler.console.Program.Options.Verbosity
+  commentId: P:vortex.compiler.console.Program.Options.Verbosity
+  id: Verbosity
+  parent: vortex.compiler.console.Program.Options
+  langs:
+  - csharp
+  - vb
+  name: Verbosity
+  nameWithType: Program.Options.Verbosity
+  fullName: vortex.compiler.console.Program.Options.Verbosity
+  type: Property
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Verbosity
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+    startLine: 76
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console
+  syntax:
+    content: >-
+      [Option('v', "verbosity", Required = false, Default = "wpf+clr", HelpText = "Verbosity")]
+
+      public string Verbosity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Option("v"c, "verbosity", Required:=False, Default:="wpf+clr", HelpText:="Verbosity")>
+
+      Public Property Verbosity As String
+  overload: vortex.compiler.console.Program.Options.Verbosity*
+  attributes:
+  - type: CommandLine.OptionAttribute
+    ctor: CommandLine.OptionAttribute.#ctor(System.Char,System.String)
+    arguments:
+    - type: System.Char
+      value: v
+    - type: System.String
+      value: verbosity
+    namedArguments:
+    - name: Required
+      type: System.Boolean
+      value: false
+    - name: Default
+      type: System.String
+      value: wpf+clr
+    - name: HelpText
+      type: System.String
+      value: Verbosity
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: vortex.compiler.console.Program.Options.BuildConnectorProjects
+  commentId: P:vortex.compiler.console.Program.Options.BuildConnectorProjects
+  id: BuildConnectorProjects
+  parent: vortex.compiler.console.Program.Options
+  langs:
+  - csharp
+  - vb
+  name: BuildConnectorProjects
+  nameWithType: Program.Options.BuildConnectorProjects
+  fullName: vortex.compiler.console.Program.Options.BuildConnectorProjects
+  type: Property
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: BuildConnectorProjects
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+    startLine: 79
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console
+  syntax:
+    content: >-
+      [Option('b', "build-output-projects", Required = false, Default = "wpf+clr", HelpText = "Build output project (Twin)")]
+
+      public string BuildConnectorProjects { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Option("b"c, "build-output-projects", Required:=False, Default:="wpf+clr", HelpText:="Build output project (Twin)")>
+
+      Public Property BuildConnectorProjects As String
+  overload: vortex.compiler.console.Program.Options.BuildConnectorProjects*
+  attributes:
+  - type: CommandLine.OptionAttribute
+    ctor: CommandLine.OptionAttribute.#ctor(System.Char,System.String)
+    arguments:
+    - type: System.Char
+      value: b
+    - type: System.String
+      value: build-output-projects
+    namedArguments:
+    - name: Required
+      type: System.Boolean
+      value: false
+    - name: Default
+      type: System.String
+      value: wpf+clr
+    - name: HelpText
+      type: System.String
+      value: Build output project (Twin)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: vortex.compiler.console.Program.Options.DoInferUnknownTypes
+  commentId: P:vortex.compiler.console.Program.Options.DoInferUnknownTypes
+  id: DoInferUnknownTypes
+  parent: vortex.compiler.console.Program.Options
+  langs:
+  - csharp
+  - vb
+  name: DoInferUnknownTypes
+  nameWithType: Program.Options.DoInferUnknownTypes
+  fullName: vortex.compiler.console.Program.Options.DoInferUnknownTypes
+  type: Property
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: DoInferUnknownTypes
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
+    startLine: 82
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console
+  syntax:
+    content: >-
+      [Option('x', "infer-unknonwn-types", Required = false, Default = "wpf+clr", HelpText = "Infers unknown type form tmc file (internal use only, might be not available)")]
+
+      public string DoInferUnknownTypes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Option("x"c, "infer-unknonwn-types", Required:=False, Default:="wpf+clr", HelpText:="Infers unknown type form tmc file (internal use only, might be not available)")>
+
+      Public Property DoInferUnknownTypes As String
+  overload: vortex.compiler.console.Program.Options.DoInferUnknownTypes*
+  attributes:
+  - type: CommandLine.OptionAttribute
+    ctor: CommandLine.OptionAttribute.#ctor(System.Char,System.String)
+    arguments:
+    - type: System.Char
+      value: x
+    - type: System.String
+      value: infer-unknonwn-types
+    namedArguments:
+    - name: Required
+      type: System.Boolean
+      value: false
+    - name: Default
+      type: System.String
+      value: wpf+clr
+    - name: HelpText
+      type: System.String
+      value: Infers unknown type form tmc file (internal use only, might be not available)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: vortex.compiler.console
+  commentId: N:vortex.compiler.console
+  name: vortex.compiler.console
+  nameWithType: vortex.compiler.console
+  fullName: vortex.compiler.console
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: vortex.compiler.console.Program.Options.SolutionFile*
+  commentId: Overload:vortex.compiler.console.Program.Options.SolutionFile
+  name: SolutionFile
+  nameWithType: Program.Options.SolutionFile
+  fullName: vortex.compiler.console.Program.Options.SolutionFile
+- uid: vortex.compiler.console.Program.Options.ConfigFile*
+  commentId: Overload:vortex.compiler.console.Program.Options.ConfigFile
+  name: ConfigFile
+  nameWithType: Program.Options.ConfigFile
+  fullName: vortex.compiler.console.Program.Options.ConfigFile
+- uid: vortex.compiler.console.Program.Options.AttributeDirectives*
+  commentId: Overload:vortex.compiler.console.Program.Options.AttributeDirectives
+  name: AttributeDirectives
+  nameWithType: Program.Options.AttributeDirectives
+  fullName: vortex.compiler.console.Program.Options.AttributeDirectives
+- uid: vortex.compiler.console.Program.Options.OutputDirectory*
+  commentId: Overload:vortex.compiler.console.Program.Options.OutputDirectory
+  name: OutputDirectory
+  nameWithType: Program.Options.OutputDirectory
+  fullName: vortex.compiler.console.Program.Options.OutputDirectory
+- uid: vortex.compiler.console.Program.Options.CreatePlcLibraries*
+  commentId: Overload:vortex.compiler.console.Program.Options.CreatePlcLibraries
+  name: CreatePlcLibraries
+  nameWithType: Program.Options.CreatePlcLibraries
+  fullName: vortex.compiler.console.Program.Options.CreatePlcLibraries
+- uid: vortex.compiler.console.Program.Options.CloseVisualStudionOnDone*
+  commentId: Overload:vortex.compiler.console.Program.Options.CloseVisualStudionOnDone
+  name: CloseVisualStudionOnDone
+  nameWithType: Program.Options.CloseVisualStudionOnDone
+  fullName: vortex.compiler.console.Program.Options.CloseVisualStudionOnDone
+- uid: vortex.compiler.console.Program.Options.UpdateControllerVersionInfo*
+  commentId: Overload:vortex.compiler.console.Program.Options.UpdateControllerVersionInfo
+  name: UpdateControllerVersionInfo
+  nameWithType: Program.Options.UpdateControllerVersionInfo
+  fullName: vortex.compiler.console.Program.Options.UpdateControllerVersionInfo
+- uid: vortex.compiler.console.Program.Options.InstallProjectLibraries*
+  commentId: Overload:vortex.compiler.console.Program.Options.InstallProjectLibraries
+  name: InstallProjectLibraries
+  nameWithType: Program.Options.InstallProjectLibraries
+  fullName: vortex.compiler.console.Program.Options.InstallProjectLibraries
+- uid: vortex.compiler.console.Program.Options.Verbosity*
+  commentId: Overload:vortex.compiler.console.Program.Options.Verbosity
+  name: Verbosity
+  nameWithType: Program.Options.Verbosity
+  fullName: vortex.compiler.console.Program.Options.Verbosity
+- uid: vortex.compiler.console.Program.Options.BuildConnectorProjects*
+  commentId: Overload:vortex.compiler.console.Program.Options.BuildConnectorProjects
+  name: BuildConnectorProjects
+  nameWithType: Program.Options.BuildConnectorProjects
+  fullName: vortex.compiler.console.Program.Options.BuildConnectorProjects
+- uid: vortex.compiler.console.Program.Options.DoInferUnknownTypes*
+  commentId: Overload:vortex.compiler.console.Program.Options.DoInferUnknownTypes
+  name: DoInferUnknownTypes
+  nameWithType: Program.Options.DoInferUnknownTypes
+  fullName: vortex.compiler.console.Program.Options.DoInferUnknownTypes

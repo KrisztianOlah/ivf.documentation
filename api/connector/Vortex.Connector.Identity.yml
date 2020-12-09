@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.Identity
+  commentId: N:Vortex.Connector.Identity
+  id: Vortex.Connector.Identity
+  children:
+  - Vortex.Connector.Identity.IVortexIdentity
+  - Vortex.Connector.Identity.MemberByIdentityAttribute
+  - Vortex.Connector.Identity.NullVortexIdentity
+  - Vortex.Connector.Identity.VortexIdentityProvider
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Connector.Identity
+  nameWithType: Vortex.Connector.Identity
+  fullName: Vortex.Connector.Identity
+  type: Namespace
+  assemblies:
+  - Vortex.Connector
+references:
+- uid: Vortex.Connector.Identity.IVortexIdentity
+  commentId: T:Vortex.Connector.Identity.IVortexIdentity
+  parent: Vortex.Connector.Identity
+  name: IVortexIdentity
+  nameWithType: IVortexIdentity
+  fullName: Vortex.Connector.Identity.IVortexIdentity
+- uid: Vortex.Connector.Identity.MemberByIdentityAttribute
+  commentId: T:Vortex.Connector.Identity.MemberByIdentityAttribute
+  name: MemberByIdentityAttribute
+  nameWithType: MemberByIdentityAttribute
+  fullName: Vortex.Connector.Identity.MemberByIdentityAttribute
+- uid: Vortex.Connector.Identity.NullVortexIdentity
+  commentId: T:Vortex.Connector.Identity.NullVortexIdentity
+  parent: Vortex.Connector.Identity
+  name: NullVortexIdentity
+  nameWithType: NullVortexIdentity
+  fullName: Vortex.Connector.Identity.NullVortexIdentity
+- uid: Vortex.Connector.Identity.VortexIdentityProvider
+  commentId: T:Vortex.Connector.Identity.VortexIdentityProvider
+  parent: Vortex.Connector.Identity
+  name: VortexIdentityProvider
+  nameWithType: VortexIdentityProvider
+  fullName: Vortex.Connector.Identity.VortexIdentityProvider
+- uid: Vortex.Connector.Identity
+  commentId: N:Vortex.Connector.Identity
+  name: Vortex.Connector.Identity
+  nameWithType: Vortex.Connector.Identity
+  fullName: Vortex.Connector.Identity

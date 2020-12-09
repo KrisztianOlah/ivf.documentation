@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.ValueTypes.Online
+  commentId: N:Vortex.Connector.ValueTypes.Online
+  id: Vortex.Connector.ValueTypes.Online
+  children:
+  - Vortex.Connector.ValueTypes.Online.IOnline`1
+  - Vortex.Connector.ValueTypes.Online.IOnlineBool
+  - Vortex.Connector.ValueTypes.Online.IOnlineByte
+  - Vortex.Connector.ValueTypes.Online.IOnlineDate
+  - Vortex.Connector.ValueTypes.Online.IOnlineDateTime
+  - Vortex.Connector.ValueTypes.Online.IOnlineDInt
+  - Vortex.Connector.ValueTypes.Online.IOnlineDWord
+  - Vortex.Connector.ValueTypes.Online.IOnlineInt
+  - Vortex.Connector.ValueTypes.Online.IOnlineLInt
+  - Vortex.Connector.ValueTypes.Online.IOnlineLReal
+  - Vortex.Connector.ValueTypes.Online.IOnlineLTime
+  - Vortex.Connector.ValueTypes.Online.IOnlineLWord
+  - Vortex.Connector.ValueTypes.Online.IOnlineReal
+  - Vortex.Connector.ValueTypes.Online.IOnlineSInt
+  - Vortex.Connector.ValueTypes.Online.IOnlineString
+  - Vortex.Connector.ValueTypes.Online.IOnlineTime
+  - Vortex.Connector.ValueTypes.Online.IOnlineTimeOfDay
+  - Vortex.Connector.ValueTypes.Online.IOnlineUDInt
+  - Vortex.Connector.ValueTypes.Online.IOnlineUInt
+  - Vortex.Connector.ValueTypes.Online.IOnlineULInt
+  - Vortex.Connector.ValueTypes.Online.IOnlineUSInt
+  - Vortex.Connector.ValueTypes.Online.IOnlineWord
+  - Vortex.Connector.ValueTypes.Online.IOnlineWString
+  - Vortex.Connector.ValueTypes.Online.NamespaceDoc
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Connector.ValueTypes.Online
+  nameWithType: Vortex.Connector.ValueTypes.Online
+  fullName: Vortex.Connector.ValueTypes.Online
+  type: Namespace
+  assemblies:
+  - Vortex.Connector
+references:
+- uid: Vortex.Connector.ValueTypes.Online.IOnline`1
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnline`1
+  name: IOnline<T>
+  nameWithType: IOnline<T>
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<T>
+  nameWithType.vb: IOnline(Of T)
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of T)
+  name.vb: IOnline(Of T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.Online.IOnline`1
+    name: IOnline
+    nameWithType: IOnline
+    fullName: Vortex.Connector.ValueTypes.Online.IOnline
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.Online.IOnline`1
+    name: IOnline
+    nameWithType: IOnline
+    fullName: Vortex.Connector.ValueTypes.Online.IOnline
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineBool
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineBool
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineBool
+  nameWithType: IOnlineBool
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineBool
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineByte
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineByte
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineByte
+  nameWithType: IOnlineByte
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineByte
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineDate
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineDate
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineDate
+  nameWithType: IOnlineDate
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineDate
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineDateTime
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineDateTime
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineDateTime
+  nameWithType: IOnlineDateTime
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineDateTime
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineDInt
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineDInt
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineDInt
+  nameWithType: IOnlineDInt
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineDInt
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineDWord
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineDWord
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineDWord
+  nameWithType: IOnlineDWord
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineDWord
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineInt
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineInt
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineInt
+  nameWithType: IOnlineInt
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineInt
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineLInt
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineLInt
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineLInt
+  nameWithType: IOnlineLInt
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineLInt
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineLReal
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineLReal
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineLReal
+  nameWithType: IOnlineLReal
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineLReal
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineLTime
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineLTime
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineLTime
+  nameWithType: IOnlineLTime
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineLTime
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineLWord
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineLWord
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineLWord
+  nameWithType: IOnlineLWord
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineLWord
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineReal
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineReal
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineReal
+  nameWithType: IOnlineReal
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineReal
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineSInt
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineSInt
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineSInt
+  nameWithType: IOnlineSInt
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineSInt
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineString
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineString
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineString
+  nameWithType: IOnlineString
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineString
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineTime
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineTime
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineTime
+  nameWithType: IOnlineTime
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineTime
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineTimeOfDay
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineTimeOfDay
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineTimeOfDay
+  nameWithType: IOnlineTimeOfDay
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineTimeOfDay
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineUDInt
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineUDInt
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineUDInt
+  nameWithType: IOnlineUDInt
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineUDInt
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineUInt
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineUInt
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineUInt
+  nameWithType: IOnlineUInt
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineUInt
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineULInt
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineULInt
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineULInt
+  nameWithType: IOnlineULInt
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineULInt
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineUSInt
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineUSInt
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineUSInt
+  nameWithType: IOnlineUSInt
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineUSInt
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineWord
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineWord
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineWord
+  nameWithType: IOnlineWord
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineWord
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineWString
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineWString
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineWString
+  nameWithType: IOnlineWString
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineWString
+- uid: Vortex.Connector.ValueTypes.Online.NamespaceDoc
+  commentId: T:Vortex.Connector.ValueTypes.Online.NamespaceDoc
+  name: NamespaceDoc
+  nameWithType: NamespaceDoc
+  fullName: Vortex.Connector.ValueTypes.Online.NamespaceDoc
+- uid: Vortex.Connector.ValueTypes.Online
+  commentId: N:Vortex.Connector.ValueTypes.Online
+  name: Vortex.Connector.ValueTypes.Online
+  nameWithType: Vortex.Connector.ValueTypes.Online
+  fullName: Vortex.Connector.ValueTypes.Online

@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.Attributes
+  commentId: N:Vortex.Connector.Attributes
+  id: Vortex.Connector.Attributes
+  children:
+  - Vortex.Connector.Attributes.AssemblyPlcCounterPart
+  - Vortex.Connector.Attributes.CompilerOmissionGroups
+  - Vortex.Connector.Attributes.CompilerOmitsAttribute
+  - Vortex.Connector.Attributes.ReadOnlyAttribute
+  - Vortex.Connector.Attributes.TypeMetaDescriptorAttribute
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Connector.Attributes
+  nameWithType: Vortex.Connector.Attributes
+  fullName: Vortex.Connector.Attributes
+  type: Namespace
+  assemblies:
+  - Vortex.Connector
+references:
+- uid: Vortex.Connector.Attributes.AssemblyPlcCounterPart
+  commentId: T:Vortex.Connector.Attributes.AssemblyPlcCounterPart
+  name: AssemblyPlcCounterPart
+  nameWithType: AssemblyPlcCounterPart
+  fullName: Vortex.Connector.Attributes.AssemblyPlcCounterPart
+- uid: Vortex.Connector.Attributes.CompilerOmitsAttribute
+  commentId: T:Vortex.Connector.Attributes.CompilerOmitsAttribute
+  name: CompilerOmitsAttribute
+  nameWithType: CompilerOmitsAttribute
+  fullName: Vortex.Connector.Attributes.CompilerOmitsAttribute
+- uid: Vortex.Connector.Attributes.CompilerOmissionGroups
+  commentId: T:Vortex.Connector.Attributes.CompilerOmissionGroups
+  parent: Vortex.Connector.Attributes
+  name: CompilerOmissionGroups
+  nameWithType: CompilerOmissionGroups
+  fullName: Vortex.Connector.Attributes.CompilerOmissionGroups
+- uid: Vortex.Connector.Attributes.ReadOnlyAttribute
+  commentId: T:Vortex.Connector.Attributes.ReadOnlyAttribute
+  name: ReadOnlyAttribute
+  nameWithType: ReadOnlyAttribute
+  fullName: Vortex.Connector.Attributes.ReadOnlyAttribute
+- uid: Vortex.Connector.Attributes.TypeMetaDescriptorAttribute
+  commentId: T:Vortex.Connector.Attributes.TypeMetaDescriptorAttribute
+  name: TypeMetaDescriptorAttribute
+  nameWithType: TypeMetaDescriptorAttribute
+  fullName: Vortex.Connector.Attributes.TypeMetaDescriptorAttribute
+- uid: Vortex.Connector.Attributes
+  commentId: N:Vortex.Connector.Attributes
+  name: Vortex.Connector.Attributes
+  nameWithType: Vortex.Connector.Attributes
+  fullName: Vortex.Connector.Attributes

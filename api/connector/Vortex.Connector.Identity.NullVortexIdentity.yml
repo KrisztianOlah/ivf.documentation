@@ -1,0 +1,684 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.Identity.NullVortexIdentity
+  commentId: T:Vortex.Connector.Identity.NullVortexIdentity
+  id: NullVortexIdentity
+  parent: Vortex.Connector.Identity
+  children:
+  - Vortex.Connector.Identity.NullVortexIdentity.AttributeName
+  - Vortex.Connector.Identity.NullVortexIdentity.HumanReadable
+  - Vortex.Connector.Identity.NullVortexIdentity.Identity
+  - Vortex.Connector.Identity.NullVortexIdentity.Symbol
+  langs:
+  - csharp
+  - vb
+  name: NullVortexIdentity
+  nameWithType: NullVortexIdentity
+  fullName: Vortex.Connector.Identity.NullVortexIdentity
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: NullVortexIdentity
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
+    startLine: 7
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nRepresents null or non-existing <xref href=\"Vortex.Connector.Identity.IVortexIdentity\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  example: []
+  syntax:
+    content: 'public class NullVortexIdentity : IVortexIdentity'
+    content.vb: >-
+      Public Class NullVortexIdentity
+          Implements IVortexIdentity
+  inheritance:
+  - System.Object
+  implements:
+  - Vortex.Connector.Identity.IVortexIdentity
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Vortex.Connector.Identity.NullVortexIdentity.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vortex.Connector.Identity.NullVortexIdentity.Identity
+  commentId: P:Vortex.Connector.Identity.NullVortexIdentity.Identity
+  id: Identity
+  parent: Vortex.Connector.Identity.NullVortexIdentity
+  langs:
+  - csharp
+  - vb
+  name: Identity
+  nameWithType: NullVortexIdentity.Identity
+  fullName: Vortex.Connector.Identity.NullVortexIdentity.Identity
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Identity
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
+    startLine: 12
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nGets empty identity value.\n"
+  example: []
+  syntax:
+    content: public OnlinerULInt Identity { get; }
+    parameters: []
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerULInt
+    content.vb: Public ReadOnly Property Identity As OnlinerULInt
+  overload: Vortex.Connector.Identity.NullVortexIdentity.Identity*
+  implements:
+  - Vortex.Connector.Identity.IVortexIdentity.Identity
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Connector.Identity.NullVortexIdentity.AttributeName
+  commentId: P:Vortex.Connector.Identity.NullVortexIdentity.AttributeName
+  id: AttributeName
+  parent: Vortex.Connector.Identity.NullVortexIdentity
+  langs:
+  - csharp
+  - vb
+  name: AttributeName
+  nameWithType: NullVortexIdentity.AttributeName
+  fullName: Vortex.Connector.Identity.NullVortexIdentity.AttributeName
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AttributeName
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
+    startLine: 17
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nGets unknown identity name.\n"
+  example: []
+  syntax:
+    content: public string AttributeName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property AttributeName As String
+  overload: Vortex.Connector.Identity.NullVortexIdentity.AttributeName*
+  implements:
+  - Vortex.Connector.Identity.IVortexIdentity.AttributeName
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Connector.Identity.NullVortexIdentity.Symbol
+  commentId: P:Vortex.Connector.Identity.NullVortexIdentity.Symbol
+  id: Symbol
+  parent: Vortex.Connector.Identity.NullVortexIdentity
+  langs:
+  - csharp
+  - vb
+  name: Symbol
+  nameWithType: NullVortexIdentity.Symbol
+  fullName: Vortex.Connector.Identity.NullVortexIdentity.Symbol
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Symbol
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
+    startLine: 22
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nGets unknown symbol.\n"
+  example: []
+  syntax:
+    content: public string Symbol { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Symbol As String
+  overload: Vortex.Connector.Identity.NullVortexIdentity.Symbol*
+  implements:
+  - Vortex.Connector.Identity.IVortexIdentity.Symbol
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Connector.Identity.NullVortexIdentity.HumanReadable
+  commentId: P:Vortex.Connector.Identity.NullVortexIdentity.HumanReadable
+  id: HumanReadable
+  parent: Vortex.Connector.Identity.NullVortexIdentity
+  langs:
+  - csharp
+  - vb
+  name: HumanReadable
+  nameWithType: NullVortexIdentity.HumanReadable
+  fullName: Vortex.Connector.Identity.NullVortexIdentity.HumanReadable
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: HumanReadable
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
+    startLine: 27
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nGets unknown human readable path.\n"
+  example: []
+  syntax:
+    content: public string HumanReadable { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property HumanReadable As String
+  overload: Vortex.Connector.Identity.NullVortexIdentity.HumanReadable*
+  implements:
+  - Vortex.Connector.Identity.IVortexIdentity.HumanReadable
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Vortex.Connector.Identity.IVortexIdentity
+  commentId: T:Vortex.Connector.Identity.IVortexIdentity
+  parent: Vortex.Connector.Identity
+  name: IVortexIdentity
+  nameWithType: IVortexIdentity
+  fullName: Vortex.Connector.Identity.IVortexIdentity
+- uid: Vortex.Connector.Identity
+  commentId: N:Vortex.Connector.Identity
+  name: Vortex.Connector.Identity
+  nameWithType: Vortex.Connector.Identity
+  fullName: Vortex.Connector.Identity
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.Identity.NullVortexIdentity.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<NullVortexIdentity>(Object)
+  nameWithType: IValueTagExtensions.Cast<NullVortexIdentity>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.Identity.NullVortexIdentity>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of NullVortexIdentity)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.Identity.NullVortexIdentity)(System.Object)
+  name.vb: Cast(Of NullVortexIdentity)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<NullVortexIdentity>
+    nameWithType: IValueTagExtensions.Cast<NullVortexIdentity>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.Identity.NullVortexIdentity>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of NullVortexIdentity)
+    nameWithType: IValueTagExtensions.Cast(Of NullVortexIdentity)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.Identity.NullVortexIdentity)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.Identity.NullVortexIdentity.Identity*
+  commentId: Overload:Vortex.Connector.Identity.NullVortexIdentity.Identity
+  name: Identity
+  nameWithType: NullVortexIdentity.Identity
+  fullName: Vortex.Connector.Identity.NullVortexIdentity.Identity
+- uid: Vortex.Connector.Identity.IVortexIdentity.Identity
+  commentId: P:Vortex.Connector.Identity.IVortexIdentity.Identity
+  parent: Vortex.Connector.Identity.IVortexIdentity
+  name: Identity
+  nameWithType: IVortexIdentity.Identity
+  fullName: Vortex.Connector.Identity.IVortexIdentity.Identity
+- uid: Vortex.Connector.ValueTypes.OnlinerULInt
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerULInt
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerULInt
+  nameWithType: OnlinerULInt
+  fullName: Vortex.Connector.ValueTypes.OnlinerULInt
+- uid: Vortex.Connector.ValueTypes
+  commentId: N:Vortex.Connector.ValueTypes
+  name: Vortex.Connector.ValueTypes
+  nameWithType: Vortex.Connector.ValueTypes
+  fullName: Vortex.Connector.ValueTypes
+- uid: Vortex.Connector.Identity.NullVortexIdentity.AttributeName*
+  commentId: Overload:Vortex.Connector.Identity.NullVortexIdentity.AttributeName
+  name: AttributeName
+  nameWithType: NullVortexIdentity.AttributeName
+  fullName: Vortex.Connector.Identity.NullVortexIdentity.AttributeName
+- uid: Vortex.Connector.Identity.IVortexIdentity.AttributeName
+  commentId: P:Vortex.Connector.Identity.IVortexIdentity.AttributeName
+  parent: Vortex.Connector.Identity.IVortexIdentity
+  name: AttributeName
+  nameWithType: IVortexIdentity.AttributeName
+  fullName: Vortex.Connector.Identity.IVortexIdentity.AttributeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vortex.Connector.Identity.NullVortexIdentity.Symbol*
+  commentId: Overload:Vortex.Connector.Identity.NullVortexIdentity.Symbol
+  name: Symbol
+  nameWithType: NullVortexIdentity.Symbol
+  fullName: Vortex.Connector.Identity.NullVortexIdentity.Symbol
+- uid: Vortex.Connector.Identity.IVortexIdentity.Symbol
+  commentId: P:Vortex.Connector.Identity.IVortexIdentity.Symbol
+  parent: Vortex.Connector.Identity.IVortexIdentity
+  name: Symbol
+  nameWithType: IVortexIdentity.Symbol
+  fullName: Vortex.Connector.Identity.IVortexIdentity.Symbol
+- uid: Vortex.Connector.Identity.NullVortexIdentity.HumanReadable*
+  commentId: Overload:Vortex.Connector.Identity.NullVortexIdentity.HumanReadable
+  name: HumanReadable
+  nameWithType: NullVortexIdentity.HumanReadable
+  fullName: Vortex.Connector.Identity.NullVortexIdentity.HumanReadable
+- uid: Vortex.Connector.Identity.IVortexIdentity.HumanReadable
+  commentId: P:Vortex.Connector.Identity.IVortexIdentity.HumanReadable
+  parent: Vortex.Connector.Identity.IVortexIdentity
+  name: HumanReadable
+  nameWithType: IVortexIdentity.HumanReadable
+  fullName: Vortex.Connector.Identity.IVortexIdentity.HumanReadable

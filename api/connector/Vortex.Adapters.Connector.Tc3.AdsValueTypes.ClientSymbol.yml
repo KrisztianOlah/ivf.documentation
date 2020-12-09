@@ -1,0 +1,710 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol
+  id: ClientSymbol
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  children:
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.#ctor(Vortex.Adapters.Connector.Tc3.AdsConnector,Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType,System.String)
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.Connector
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.CreateSymbol(System.String,System.String)
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.onlineVariableInfo
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.OnlineVariableInfo
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.SetOnlineVariableInfo(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  langs:
+  - csharp
+  - vb
+  name: ClientSymbol
+  nameWithType: ClientSymbol
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/ClientSymbol.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ClientSymbol
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/ClientSymbol.cs
+    startLine: 8
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: class ClientSymbol
+    content.vb: Class ClientSymbol
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - class
+  modifiers.vb:
+  - Class
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.#ctor(Vortex.Adapters.Connector.Tc3.AdsConnector,Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType,System.String)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.#ctor(Vortex.Adapters.Connector.Tc3.AdsConnector,Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType,System.String)
+  id: '#ctor(Vortex.Adapters.Connector.Tc3.AdsConnector,Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType,System.String)'
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol
+  langs:
+  - csharp
+  - vb
+  name: ClientSymbol(AdsConnector, IAdsBaseType, String)
+  nameWithType: ClientSymbol.ClientSymbol(AdsConnector, IAdsBaseType, String)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.ClientSymbol(Vortex.Adapters.Connector.Tc3.AdsConnector, Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/ClientSymbol.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/ClientSymbol.cs
+    startLine: 10
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: ClientSymbol(AdsConnector connector, IAdsBaseType adsBaseType, string symbol)
+    parameters:
+    - id: connector
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector
+    - id: adsBaseType
+      type: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+    - id: symbol
+      type: System.String
+    content.vb: Sub New(connector As AdsConnector, adsBaseType As IAdsBaseType, symbol As String)
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.#ctor*
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.Connector
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.Connector
+  id: Connector
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol
+  langs:
+  - csharp
+  - vb
+  name: Connector
+  nameWithType: ClientSymbol.Connector
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.Connector
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/ClientSymbol.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Connector
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/ClientSymbol.cs
+    startLine: 17
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: >-
+      AdsConnector Connector
+
+      {
+
+      }
+    parameters: []
+    return:
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector
+    content.vb: ReadOnly WriteOnly Property Connector As AdsConnector
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.Connector*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.onlineVariableInfo
+  commentId: F:Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.onlineVariableInfo
+  id: onlineVariableInfo
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol
+  langs:
+  - csharp
+  - vb
+  name: onlineVariableInfo
+  nameWithType: ClientSymbol.onlineVariableInfo
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.onlineVariableInfo
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/ClientSymbol.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: onlineVariableInfo
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/ClientSymbol.cs
+    startLine: 23
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: OnlineVariableInfo onlineVariableInfo
+    return:
+      type: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+    content.vb: onlineVariableInfo As OnlineVariableInfo
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.OnlineVariableInfo
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.OnlineVariableInfo
+  id: OnlineVariableInfo
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol
+  langs:
+  - csharp
+  - vb
+  name: OnlineVariableInfo
+  nameWithType: ClientSymbol.OnlineVariableInfo
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.OnlineVariableInfo
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/ClientSymbol.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: OnlineVariableInfo
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/ClientSymbol.cs
+    startLine: 24
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: >-
+      OnlineVariableInfo OnlineVariableInfo
+
+      {
+
+      }
+    parameters: []
+    return:
+      type: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+    content.vb: ReadOnly WriteOnly Property OnlineVariableInfo As OnlineVariableInfo
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.OnlineVariableInfo*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.SetOnlineVariableInfo(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.SetOnlineVariableInfo(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  id: SetOnlineVariableInfo(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol
+  langs:
+  - csharp
+  - vb
+  name: SetOnlineVariableInfo(OnlineVariableInfo)
+  nameWithType: ClientSymbol.SetOnlineVariableInfo(OnlineVariableInfo)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.SetOnlineVariableInfo(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/ClientSymbol.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SetOnlineVariableInfo
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/ClientSymbol.cs
+    startLine: 47
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: void SetOnlineVariableInfo(OnlineVariableInfo val)
+    parameters:
+    - id: val
+      type: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+    content.vb: Sub SetOnlineVariableInfo(val As OnlineVariableInfo)
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.SetOnlineVariableInfo*
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.CreateSymbol(System.String,System.String)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.CreateSymbol(System.String,System.String)
+  id: CreateSymbol(System.String,System.String)
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol
+  langs:
+  - csharp
+  - vb
+  name: CreateSymbol(String, String)
+  nameWithType: ClientSymbol.CreateSymbol(String, String)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.CreateSymbol(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/ClientSymbol.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateSymbol
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/ClientSymbol.cs
+    startLine: 60
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: static string CreateSymbol(string rootSymbol, string symbol)
+    parameters:
+    - id: rootSymbol
+      type: System.String
+    - id: symbol
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Shared Function CreateSymbol(rootSymbol As String, symbol As String) As String
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.CreateSymbol*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+references:
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  commentId: N:Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  name: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  nameWithType: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<ClientSymbol>(Object)
+  nameWithType: IValueTagExtensions.Cast<ClientSymbol>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of ClientSymbol)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol)(System.Object)
+  name.vb: Cast(Of ClientSymbol)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<ClientSymbol>
+    nameWithType: IValueTagExtensions.Cast<ClientSymbol>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of ClientSymbol)
+    nameWithType: IValueTagExtensions.Cast(Of ClientSymbol)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.#ctor*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.#ctor
+  name: ClientSymbol
+  nameWithType: ClientSymbol.ClientSymbol
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.ClientSymbol
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsConnector
+  parent: Vortex.Adapters.Connector.Tc3
+  name: AdsConnector
+  nameWithType: AdsConnector
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  name: IAdsBaseType
+  nameWithType: IAdsBaseType
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vortex.Adapters.Connector.Tc3
+  commentId: N:Vortex.Adapters.Connector.Tc3
+  name: Vortex.Adapters.Connector.Tc3
+  nameWithType: Vortex.Adapters.Connector.Tc3
+  fullName: Vortex.Adapters.Connector.Tc3
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.Connector*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.Connector
+  name: Connector
+  nameWithType: ClientSymbol.Connector
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.Connector
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  commentId: T:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  parent: Vortex.Adapters.Connector.Tc3
+  name: OnlineVariableInfo
+  nameWithType: OnlineVariableInfo
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.OnlineVariableInfo*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.OnlineVariableInfo
+  name: OnlineVariableInfo
+  nameWithType: ClientSymbol.OnlineVariableInfo
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.OnlineVariableInfo
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.SetOnlineVariableInfo*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.SetOnlineVariableInfo
+  name: SetOnlineVariableInfo
+  nameWithType: ClientSymbol.SetOnlineVariableInfo
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.SetOnlineVariableInfo
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.CreateSymbol*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.CreateSymbol
+  name: CreateSymbol
+  nameWithType: ClientSymbol.CreateSymbol
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.CreateSymbol

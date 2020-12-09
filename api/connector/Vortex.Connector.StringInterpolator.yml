@@ -1,0 +1,929 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.StringInterpolator
+  commentId: T:Vortex.Connector.StringInterpolator
+  id: StringInterpolator
+  parent: Vortex.Connector
+  children:
+  - Vortex.Connector.StringInterpolator.CleanUpTokens(System.String)
+  - Vortex.Connector.StringInterpolator.closeToken
+  - Vortex.Connector.StringInterpolator.ExtractString(System.String)
+  - Vortex.Connector.StringInterpolator.FindParent(System.Int32,Vortex.Connector.IVortexElement)
+  - Vortex.Connector.StringInterpolator.GetInterpolatedValue(System.String,Vortex.Connector.IVortexElement)
+  - Vortex.Connector.StringInterpolator.GetObject(System.String,Vortex.Connector.IVortexElement)
+  - Vortex.Connector.StringInterpolator.GetPropertyInfo(System.String,Vortex.Connector.IVortexElement)
+  - Vortex.Connector.StringInterpolator.GetPropertyValue(System.String,Vortex.Connector.IVortexElement)
+  - Vortex.Connector.StringInterpolator.Interpolate(System.String,System.Object)
+  - Vortex.Connector.StringInterpolator.Interpolate(System.String,Vortex.Connector.IVortexElement)
+  - Vortex.Connector.StringInterpolator.openToken
+  langs:
+  - csharp
+  - vb
+  name: StringInterpolator
+  nameWithType: StringInterpolator
+  fullName: Vortex.Connector.StringInterpolator
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: StringInterpolator
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+    startLine: 12
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nProvides extension methods for PLC&apos;s string interpolation.\n"
+  example: []
+  syntax:
+    content: public static class StringInterpolator
+    content.vb: Public Module StringInterpolator
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Vortex.Connector.StringInterpolator.openToken
+  commentId: F:Vortex.Connector.StringInterpolator.openToken
+  id: openToken
+  parent: Vortex.Connector.StringInterpolator
+  langs:
+  - csharp
+  - vb
+  name: openToken
+  nameWithType: StringInterpolator.openToken
+  fullName: Vortex.Connector.StringInterpolator.openToken
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: openToken
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+    startLine: 14
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: static string openToken
+    return:
+      type: System.String
+    content.vb: Shared openToken As String
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Connector.StringInterpolator.closeToken
+  commentId: F:Vortex.Connector.StringInterpolator.closeToken
+  id: closeToken
+  parent: Vortex.Connector.StringInterpolator
+  langs:
+  - csharp
+  - vb
+  name: closeToken
+  nameWithType: StringInterpolator.closeToken
+  fullName: Vortex.Connector.StringInterpolator.closeToken
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: closeToken
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+    startLine: 15
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: static string closeToken
+    return:
+      type: System.String
+    content.vb: Shared closeToken As String
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Connector.StringInterpolator.Interpolate(System.String,System.Object)
+  commentId: M:Vortex.Connector.StringInterpolator.Interpolate(System.String,System.Object)
+  id: Interpolate(System.String,System.Object)
+  isExtensionMethod: true
+  parent: Vortex.Connector.StringInterpolator
+  langs:
+  - csharp
+  - vb
+  name: Interpolate(String, Object)
+  nameWithType: StringInterpolator.Interpolate(String, Object)
+  fullName: Vortex.Connector.StringInterpolator.Interpolate(System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Interpolate
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+    startLine: 23
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nInterpolates original string attached to an vortex object.\n"
+  example: []
+  syntax:
+    content: public static string Interpolate(this string original, object obj)
+    parameters:
+    - id: original
+      type: System.String
+      description: Original yet non-interpolated string.
+    - id: obj
+      type: System.Object
+      description: Object on which original string created.
+    return:
+      type: System.String
+      description: Interpolated string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Interpolate(original As String, obj As Object) As String
+  overload: Vortex.Connector.StringInterpolator.Interpolate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vortex.Connector.StringInterpolator.Interpolate(System.String,Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Connector.StringInterpolator.Interpolate(System.String,Vortex.Connector.IVortexElement)
+  id: Interpolate(System.String,Vortex.Connector.IVortexElement)
+  isExtensionMethod: true
+  parent: Vortex.Connector.StringInterpolator
+  langs:
+  - csharp
+  - vb
+  name: Interpolate(String, IVortexElement)
+  nameWithType: StringInterpolator.Interpolate(String, IVortexElement)
+  fullName: Vortex.Connector.StringInterpolator.Interpolate(System.String, Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Interpolate
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+    startLine: 35
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nInterpolates original string attached to an vortex object.\n"
+  example: []
+  syntax:
+    content: public static string Interpolate(this string original, IVortexElement obj)
+    parameters:
+    - id: original
+      type: System.String
+      description: Original yet non-interpolated string.
+    - id: obj
+      type: Vortex.Connector.IVortexElement
+      description: <xref href="Vortex.Connector.IVortexElement" data-throw-if-not-resolved="false"></xref> object on which original string created.
+    return:
+      type: System.String
+      description: Interpolated string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Interpolate(original As String, obj As IVortexElement) As String
+  overload: Vortex.Connector.StringInterpolator.Interpolate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vortex.Connector.StringInterpolator.FindParent(System.Int32,Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Connector.StringInterpolator.FindParent(System.Int32,Vortex.Connector.IVortexElement)
+  id: FindParent(System.Int32,Vortex.Connector.IVortexElement)
+  parent: Vortex.Connector.StringInterpolator
+  langs:
+  - csharp
+  - vb
+  name: FindParent(Int32, IVortexElement)
+  nameWithType: StringInterpolator.FindParent(Int32, IVortexElement)
+  fullName: Vortex.Connector.StringInterpolator.FindParent(System.Int32, Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: FindParent
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+    startLine: 60
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: static IVortexElement FindParent(int generation, IVortexElement obj)
+    parameters:
+    - id: generation
+      type: System.Int32
+    - id: obj
+      type: Vortex.Connector.IVortexElement
+    return:
+      type: Vortex.Connector.IVortexElement
+    content.vb: Shared Function FindParent(generation As Integer, obj As IVortexElement) As IVortexElement
+  overload: Vortex.Connector.StringInterpolator.FindParent*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Connector.StringInterpolator.GetObject(System.String,Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Connector.StringInterpolator.GetObject(System.String,Vortex.Connector.IVortexElement)
+  id: GetObject(System.String,Vortex.Connector.IVortexElement)
+  parent: Vortex.Connector.StringInterpolator
+  langs:
+  - csharp
+  - vb
+  name: GetObject(String, IVortexElement)
+  nameWithType: StringInterpolator.GetObject(String, IVortexElement)
+  fullName: Vortex.Connector.StringInterpolator.GetObject(System.String, Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetObject
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+    startLine: 71
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: static IVortexElement GetObject(string memberName, IVortexElement obj)
+    parameters:
+    - id: memberName
+      type: System.String
+    - id: obj
+      type: Vortex.Connector.IVortexElement
+    return:
+      type: Vortex.Connector.IVortexElement
+    content.vb: Shared Function GetObject(memberName As String, obj As IVortexElement) As IVortexElement
+  overload: Vortex.Connector.StringInterpolator.GetObject*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Connector.StringInterpolator.GetInterpolatedValue(System.String,Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Connector.StringInterpolator.GetInterpolatedValue(System.String,Vortex.Connector.IVortexElement)
+  id: GetInterpolatedValue(System.String,Vortex.Connector.IVortexElement)
+  parent: Vortex.Connector.StringInterpolator
+  langs:
+  - csharp
+  - vb
+  name: GetInterpolatedValue(String, IVortexElement)
+  nameWithType: StringInterpolator.GetInterpolatedValue(String, IVortexElement)
+  fullName: Vortex.Connector.StringInterpolator.GetInterpolatedValue(System.String, Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetInterpolatedValue
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+    startLine: 87
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: static string GetInterpolatedValue(string path, IVortexElement obj)
+    parameters:
+    - id: path
+      type: System.String
+    - id: obj
+      type: Vortex.Connector.IVortexElement
+    return:
+      type: System.String
+    content.vb: Shared Function GetInterpolatedValue(path As String, obj As IVortexElement) As String
+  overload: Vortex.Connector.StringInterpolator.GetInterpolatedValue*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Connector.StringInterpolator.GetPropertyInfo(System.String,Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Connector.StringInterpolator.GetPropertyInfo(System.String,Vortex.Connector.IVortexElement)
+  id: GetPropertyInfo(System.String,Vortex.Connector.IVortexElement)
+  parent: Vortex.Connector.StringInterpolator
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyInfo(String, IVortexElement)
+  nameWithType: StringInterpolator.GetPropertyInfo(String, IVortexElement)
+  fullName: Vortex.Connector.StringInterpolator.GetPropertyInfo(System.String, Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetPropertyInfo
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+    startLine: 105
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: static PropertyInfo GetPropertyInfo(string interpolated, IVortexElement obj)
+    parameters:
+    - id: interpolated
+      type: System.String
+    - id: obj
+      type: Vortex.Connector.IVortexElement
+    return:
+      type: System.Reflection.PropertyInfo
+    content.vb: Shared Function GetPropertyInfo(interpolated As String, obj As IVortexElement) As PropertyInfo
+  overload: Vortex.Connector.StringInterpolator.GetPropertyInfo*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Connector.StringInterpolator.GetPropertyValue(System.String,Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Connector.StringInterpolator.GetPropertyValue(System.String,Vortex.Connector.IVortexElement)
+  id: GetPropertyValue(System.String,Vortex.Connector.IVortexElement)
+  parent: Vortex.Connector.StringInterpolator
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyValue(String, IVortexElement)
+  nameWithType: StringInterpolator.GetPropertyValue(String, IVortexElement)
+  fullName: Vortex.Connector.StringInterpolator.GetPropertyValue(System.String, Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetPropertyValue
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+    startLine: 119
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: static string GetPropertyValue(string interpolated, IVortexElement obj)
+    parameters:
+    - id: interpolated
+      type: System.String
+    - id: obj
+      type: Vortex.Connector.IVortexElement
+    return:
+      type: System.String
+    content.vb: Shared Function GetPropertyValue(interpolated As String, obj As IVortexElement) As String
+  overload: Vortex.Connector.StringInterpolator.GetPropertyValue*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Connector.StringInterpolator.CleanUpTokens(System.String)
+  commentId: M:Vortex.Connector.StringInterpolator.CleanUpTokens(System.String)
+  id: CleanUpTokens(System.String)
+  parent: Vortex.Connector.StringInterpolator
+  langs:
+  - csharp
+  - vb
+  name: CleanUpTokens(String)
+  nameWithType: StringInterpolator.CleanUpTokens(String)
+  fullName: Vortex.Connector.StringInterpolator.CleanUpTokens(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CleanUpTokens
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+    startLine: 138
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: static string CleanUpTokens(string interpolated)
+    parameters:
+    - id: interpolated
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Shared Function CleanUpTokens(interpolated As String) As String
+  overload: Vortex.Connector.StringInterpolator.CleanUpTokens*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Connector.StringInterpolator.ExtractString(System.String)
+  commentId: M:Vortex.Connector.StringInterpolator.ExtractString(System.String)
+  id: ExtractString(System.String)
+  parent: Vortex.Connector.StringInterpolator
+  langs:
+  - csharp
+  - vb
+  name: ExtractString(String)
+  nameWithType: StringInterpolator.ExtractString(String)
+  fullName: Vortex.Connector.StringInterpolator.ExtractString(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ExtractString
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
+    startLine: 150
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: static IEnumerable<InterpolatedAncestor> ExtractString(string s)
+    parameters:
+    - id: s
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{Vortex.Connector.InterpolatedAncestor}
+    content.vb: Shared Function ExtractString(s As String) As IEnumerable(Of InterpolatedAncestor)
+  overload: Vortex.Connector.StringInterpolator.ExtractString*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+references:
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vortex.Connector.StringInterpolator.Interpolate*
+  commentId: Overload:Vortex.Connector.StringInterpolator.Interpolate
+  name: Interpolate
+  nameWithType: StringInterpolator.Interpolate
+  fullName: Vortex.Connector.StringInterpolator.Interpolate
+- uid: Vortex.Connector.IVortexElement
+  commentId: T:Vortex.Connector.IVortexElement
+  parent: Vortex.Connector
+  name: IVortexElement
+  nameWithType: IVortexElement
+  fullName: Vortex.Connector.IVortexElement
+- uid: Vortex.Connector.StringInterpolator.FindParent*
+  commentId: Overload:Vortex.Connector.StringInterpolator.FindParent
+  name: FindParent
+  nameWithType: StringInterpolator.FindParent
+  fullName: Vortex.Connector.StringInterpolator.FindParent
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vortex.Connector.StringInterpolator.GetObject*
+  commentId: Overload:Vortex.Connector.StringInterpolator.GetObject
+  name: GetObject
+  nameWithType: StringInterpolator.GetObject
+  fullName: Vortex.Connector.StringInterpolator.GetObject
+- uid: Vortex.Connector.StringInterpolator.GetInterpolatedValue*
+  commentId: Overload:Vortex.Connector.StringInterpolator.GetInterpolatedValue
+  name: GetInterpolatedValue
+  nameWithType: StringInterpolator.GetInterpolatedValue
+  fullName: Vortex.Connector.StringInterpolator.GetInterpolatedValue
+- uid: Vortex.Connector.StringInterpolator.GetPropertyInfo*
+  commentId: Overload:Vortex.Connector.StringInterpolator.GetPropertyInfo
+  name: GetPropertyInfo
+  nameWithType: StringInterpolator.GetPropertyInfo
+  fullName: Vortex.Connector.StringInterpolator.GetPropertyInfo
+- uid: System.Reflection.PropertyInfo
+  commentId: T:System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: true
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+- uid: Vortex.Connector.StringInterpolator.GetPropertyValue*
+  commentId: Overload:Vortex.Connector.StringInterpolator.GetPropertyValue
+  name: GetPropertyValue
+  nameWithType: StringInterpolator.GetPropertyValue
+  fullName: Vortex.Connector.StringInterpolator.GetPropertyValue
+- uid: Vortex.Connector.StringInterpolator.CleanUpTokens*
+  commentId: Overload:Vortex.Connector.StringInterpolator.CleanUpTokens
+  name: CleanUpTokens
+  nameWithType: StringInterpolator.CleanUpTokens
+  fullName: Vortex.Connector.StringInterpolator.CleanUpTokens
+- uid: Vortex.Connector.StringInterpolator.ExtractString*
+  commentId: Overload:Vortex.Connector.StringInterpolator.ExtractString
+  name: ExtractString
+  nameWithType: StringInterpolator.ExtractString
+  fullName: Vortex.Connector.StringInterpolator.ExtractString
+- uid: System.Collections.Generic.IEnumerable{Vortex.Connector.InterpolatedAncestor}
+  commentId: T:System.Collections.Generic.IEnumerable{Vortex.Connector.InterpolatedAncestor}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<InterpolatedAncestor>
+  nameWithType: IEnumerable<InterpolatedAncestor>
+  fullName: System.Collections.Generic.IEnumerable<Vortex.Connector.InterpolatedAncestor>
+  nameWithType.vb: IEnumerable(Of InterpolatedAncestor)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Vortex.Connector.InterpolatedAncestor)
+  name.vb: IEnumerable(Of InterpolatedAncestor)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Connector.InterpolatedAncestor
+    name: InterpolatedAncestor
+    nameWithType: InterpolatedAncestor
+    fullName: Vortex.Connector.InterpolatedAncestor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Connector.InterpolatedAncestor
+    name: InterpolatedAncestor
+    nameWithType: InterpolatedAncestor
+    fullName: Vortex.Connector.InterpolatedAncestor
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

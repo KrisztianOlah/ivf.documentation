@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Localizations
+  commentId: N:Vortex.Localizations
+  id: Vortex.Localizations
+  children:
+  - Vortex.Localizations.IdentifierValidator
+  - Vortex.Localizations.LocalizableItem
+  - Vortex.Localizations.Localizables
+  - Vortex.Localizations.LocalizationHelper
+  - Vortex.Localizations.LocalizerDictionary
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Localizations
+  nameWithType: Vortex.Localizations
+  fullName: Vortex.Localizations
+  type: Namespace
+  assemblies:
+  - Vortex.Connector
+references:
+- uid: Vortex.Localizations.LocalizableItem
+  commentId: T:Vortex.Localizations.LocalizableItem
+  name: LocalizableItem
+  nameWithType: LocalizableItem
+  fullName: Vortex.Localizations.LocalizableItem
+- uid: Vortex.Localizations.Localizables
+  commentId: T:Vortex.Localizations.Localizables
+  name: Localizables
+  nameWithType: Localizables
+  fullName: Vortex.Localizations.Localizables
+- uid: Vortex.Localizations.LocalizationHelper
+  commentId: T:Vortex.Localizations.LocalizationHelper
+  name: LocalizationHelper
+  nameWithType: LocalizationHelper
+  fullName: Vortex.Localizations.LocalizationHelper
+- uid: Vortex.Localizations.LocalizerDictionary
+  commentId: T:Vortex.Localizations.LocalizerDictionary
+  parent: Vortex.Localizations
+  name: LocalizerDictionary
+  nameWithType: LocalizerDictionary
+  fullName: Vortex.Localizations.LocalizerDictionary
+- uid: Vortex.Localizations.IdentifierValidator
+  commentId: T:Vortex.Localizations.IdentifierValidator
+  name: IdentifierValidator
+  nameWithType: IdentifierValidator
+  fullName: Vortex.Localizations.IdentifierValidator
+- uid: Vortex.Localizations
+  commentId: N:Vortex.Localizations
+  name: Vortex.Localizations
+  nameWithType: Vortex.Localizations
+  fullName: Vortex.Localizations

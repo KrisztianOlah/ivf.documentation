@@ -1,0 +1,3851 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsConnector
+  id: AdsConnector
+  parent: Vortex.Adapters.Connector.Tc3
+  children:
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.#ctor
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.#ctor(System.Object[])
+  - Vortex.Adapters.Connector.Tc3.AdsConnector._justBuilt
+  - Vortex.Adapters.Connector.Tc3.AdsConnector._onlineVariables
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.AddTagLink(Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType)
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsStateChanged(System.Object,TwinCAT.Ads.AdsStateChangedEventArgs)
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsSymbolVersionChanged(System.Object,System.EventArgs)
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.AMSID
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.BuildAndStart
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.chunk_size
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.Client
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.ConnectToController(System.String,System.Int32)
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicRead
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWrite
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWriteRead
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.Dispose
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.DoNotStartReportingConsole
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.ErrorCount
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.HasAdsSymbolVersionChanged
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.InitializeConnector
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.InvalidateSymbols
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.InvokeRpc(System.String,System.String,System.Object[])
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.liveClient
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.LoadingStatus
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.Name
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.NetId
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineTags
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.onlineTagToObjectLinks
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineVariables
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.PreventSynchronousAccess
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.qr
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.ReadFully(System.IO.Stream)
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.ReadSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.ReloadConnector
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.rwopsAction
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.SetAllToCyclicReading
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.SplitIntoChunks``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.SrvPort
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.StartReadWriteOps
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadingMode
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadMethod
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.Timeout
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.WriteSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
+  langs:
+  - csharp
+  - vb
+  name: AdsConnector
+  nameWithType: AdsConnector
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AdsConnector
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 22
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nAds connector.\n"
+  example: []
+  syntax:
+    content: 'class AdsConnector : IConnector, IVortexObject, ITwinObject, IVortexElement, IDisposable, INotifyPropertyChanged'
+    content.vb: >-
+      Class AdsConnector
+          Inherits IConnector
+          Implements IVortexObject, ITwinObject, IVortexElement, IDisposable, INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - Vortex.Connector.RootVortexerObject
+  - Vortex.Connector.IConnector
+  implements:
+  - Vortex.Connector.IVortexObject
+  - Vortex.Connector.ITwinObject
+  - Vortex.Connector.IVortexElement
+  - System.IDisposable
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - Vortex.Connector.IConnector._logger
+  - Vortex.Connector.IConnector.Logger
+  - Vortex.Connector.IConnector._commState
+  - Vortex.Connector.IConnector._cyclicRwDuration
+  - Vortex.Connector.IConnector._DataExchangeStatus
+  - Vortex.Connector.IConnector._loadingSymbol
+  - Vortex.Connector.IConnector._rwCycleCount
+  - Vortex.Connector.IConnector._startUpTime
+  - Vortex.Connector.IConnector.readWriteCycleDealy
+  - Vortex.Connector.IConnector.Online
+  - Vortex.Connector.IConnector.IdentityProvider
+  - Vortex.Connector.IConnector.RwCycleCount
+  - Vortex.Connector.IConnector.CyclicRwDuration
+  - Vortex.Connector.IConnector.StartUpTime
+  - Vortex.Connector.IConnector.MonitorConnector
+  - Vortex.Connector.IConnector.CommState
+  - Vortex.Connector.IConnector.LoadingSymbol
+  - Vortex.Connector.IConnector.ReadWriteCycleDelay
+  - Vortex.Connector.IConnector.DataExchangeStatus
+  - Vortex.Connector.IConnector.PropertyChanged
+  - Vortex.Connector.IConnector.CreateSymbol(System.String,System.String)
+  - Vortex.Connector.IConnector.NotifyPropertyChanged(System.String)
+  - Vortex.Connector.IConnector.SubscribeAllEditValueObserver(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  - Vortex.Connector.RootVortexerObject.SymbolTail
+  - Vortex.Connector.RootVortexerObject.GetSymbolTail
+  - Vortex.Connector.RootVortexerObject.AttributeName
+  - Vortex.Connector.RootVortexerObject.Symbol
+  - Vortex.Connector.RootVortexerObject.HumanReadable
+  - Vortex.Connector.RootVortexerObject.GetChildren
+  - Vortex.Connector.RootVortexerObject.Children
+  - Vortex.Connector.RootVortexerObject.GetParent
+  - Vortex.Connector.RootVortexerObject.AddChild(Vortex.Connector.IVortexObject)
+  - Vortex.Connector.RootVortexerObject._valueTags
+  - Vortex.Connector.RootVortexerObject.ValueTags
+  - Vortex.Connector.RootVortexerObject.Identity
+  - Vortex.Connector.RootVortexerObject.GetValueTags
+  - Vortex.Connector.RootVortexerObject.AddValueTag(Vortex.Connector.IValueTag)
+  - Vortex.Connector.RootVortexerObject.GetConnector
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(System.Exception,System.String)
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - class
+  modifiers.vb:
+  - Class
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector._onlineVariables
+  commentId: F:Vortex.Adapters.Connector.Tc3.AdsConnector._onlineVariables
+  id: _onlineVariables
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: _onlineVariables
+  nameWithType: AdsConnector._onlineVariables
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector._onlineVariables
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _onlineVariables
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 24
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: IAdsBaseType[] _onlineVariables
+    return:
+      type: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType[]
+    content.vb: _onlineVariables As IAdsBaseType()
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.liveClient
+  commentId: F:Vortex.Adapters.Connector.Tc3.AdsConnector.liveClient
+  id: liveClient
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: liveClient
+  nameWithType: AdsConnector.liveClient
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.liveClient
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: liveClient
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 25
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: readonly LiveClient liveClient
+    return:
+      type: Vortex.Adapters.Connector.Tc3.LiveClient
+    content.vb: ReadOnly liveClient As LiveClient
+  modifiers.csharp:
+  - readonly
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.onlineTagToObjectLinks
+  commentId: F:Vortex.Adapters.Connector.Tc3.AdsConnector.onlineTagToObjectLinks
+  id: onlineTagToObjectLinks
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: onlineTagToObjectLinks
+  nameWithType: AdsConnector.onlineTagToObjectLinks
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.onlineTagToObjectLinks
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: onlineTagToObjectLinks
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 26
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: List<IAdsBaseType> onlineTagToObjectLinks
+    return:
+      type: System.Collections.Generic.List{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType}
+    content.vb: onlineTagToObjectLinks As List(Of IAdsBaseType)
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.rwopsAction
+  commentId: F:Vortex.Adapters.Connector.Tc3.AdsConnector.rwopsAction
+  id: rwopsAction
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: rwopsAction
+  nameWithType: AdsConnector.rwopsAction
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.rwopsAction
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: rwopsAction
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 27
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: Action rwopsAction
+    return:
+      type: System.Action
+    content.vb: rwopsAction As Action
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.#ctor
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.#ctor
+  id: '#ctor'
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: AdsConnector()
+  nameWithType: AdsConnector.AdsConnector()
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.AdsConnector()
+  type: Constructor
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 47
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nInitializes a new instance of the <xref href=\"Vortex.Adapters.Connector.Tc3.AdsConnector\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public AdsConnector()
+    content.vb: Public Sub New
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.#ctor(System.Object[])
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.#ctor(System.Object[])
+  id: '#ctor(System.Object[])'
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: AdsConnector(Object[])
+  nameWithType: AdsConnector.AdsConnector(Object[])
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.AdsConnector(System.Object[])
+  type: Constructor
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 56
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nInitializes new instance of <xref href=\"Vortex.Adapters.Connector.Tc3.AdsConnector\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public AdsConnector(object[] parameters)
+    parameters:
+    - id: parameters
+      type: System.Object[]
+      description: Connection parameters
+    content.vb: Public Sub New(parameters As Object())
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.#ctor*
+  nameWithType.vb: AdsConnector.AdsConnector(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Adapters.Connector.Tc3.AdsConnector.AdsConnector(System.Object())
+  name.vb: AdsConnector(Object())
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.SplitIntoChunks``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.SplitIntoChunks``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  id: SplitIntoChunks``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: SplitIntoChunks<T>(IEnumerable<T>, Int32)
+  nameWithType: AdsConnector.SplitIntoChunks<T>(IEnumerable<T>, Int32)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.SplitIntoChunks<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SplitIntoChunks
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 87
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: static IEnumerable<IEnumerable<T>> SplitIntoChunks<T>(IEnumerable<T> source, int chunkSize)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: chunkSize
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{{T}}}
+    content.vb: Shared Function SplitIntoChunks(Of T)(source As IEnumerable(Of T), chunkSize As Integer) As IEnumerable(Of IEnumerable(Of T))
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.SplitIntoChunks*
+  nameWithType.vb: AdsConnector.SplitIntoChunks(Of T)(IEnumerable(Of T), Int32)
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+  fullName.vb: Vortex.Adapters.Connector.Tc3.AdsConnector.SplitIntoChunks(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
+  name.vb: SplitIntoChunks(Of T)(IEnumerable(Of T), Int32)
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadFully(System.IO.Stream)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.ReadFully(System.IO.Stream)
+  id: ReadFully(System.IO.Stream)
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: ReadFully(Stream)
+  nameWithType: AdsConnector.ReadFully(Stream)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadFully(System.IO.Stream)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReadFully
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 92
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public static byte[] ReadFully(Stream input)
+    parameters:
+    - id: input
+      type: System.IO.Stream
+    return:
+      type: System.Byte[]
+    content.vb: Public Shared Function ReadFully(input As Stream) As Byte()
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadFully*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.ReadSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
+  id: ReadSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: ReadSum(IEnumerable<IAdsBaseType>)
+  nameWithType: AdsConnector.ReadSum(IEnumerable<IAdsBaseType>)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadSum(System.Collections.Generic.IEnumerable<Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType>)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReadSum
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 107
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nThe read sum non extended types from current Ads connection.\n"
+  example: []
+  syntax:
+    content: void ReadSum(IEnumerable<IAdsBaseType> tags)
+    parameters:
+    - id: tags
+      type: System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType}
+      description: "\nOnline tags to be read.\n"
+    content.vb: Sub ReadSum(tags As IEnumerable(Of IAdsBaseType))
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadSum*
+  nameWithType.vb: AdsConnector.ReadSum(IEnumerable(Of IAdsBaseType))
+  fullName.vb: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadSum(System.Collections.Generic.IEnumerable(Of Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType))
+  name.vb: ReadSum(IEnumerable(Of IAdsBaseType))
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.chunk_size
+  commentId: F:Vortex.Adapters.Connector.Tc3.AdsConnector.chunk_size
+  id: chunk_size
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: chunk_size
+  nameWithType: AdsConnector.chunk_size
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.chunk_size
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: chunk_size
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 184
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: readonly int chunk_size
+    return:
+      type: System.Int32
+    content.vb: ReadOnly chunk_size As Integer
+  modifiers.csharp:
+  - readonly
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.WriteSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
+  id: WriteSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: WriteSum(IEnumerable<IAdsBaseType>)
+  nameWithType: AdsConnector.WriteSum(IEnumerable<IAdsBaseType>)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteSum(System.Collections.Generic.IEnumerable<Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType>)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: WriteSum
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 192
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nWrites non extended online variables.\n"
+  example: []
+  syntax:
+    content: void WriteSum(IEnumerable<IAdsBaseType> tags)
+    parameters:
+    - id: tags
+      type: System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType}
+      description: "\nOnline tags to be written.\n"
+    content.vb: Sub WriteSum(tags As IEnumerable(Of IAdsBaseType))
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteSum*
+  nameWithType.vb: AdsConnector.WriteSum(IEnumerable(Of IAdsBaseType))
+  fullName.vb: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteSum(System.Collections.Generic.IEnumerable(Of Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType))
+  name.vb: WriteSum(IEnumerable(Of IAdsBaseType))
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ConnectToController(System.String,System.Int32)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.ConnectToController(System.String,System.Int32)
+  id: ConnectToController(System.String,System.Int32)
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: ConnectToController(String, Int32)
+  nameWithType: AdsConnector.ConnectToController(String, Int32)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.ConnectToController(System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ConnectToController
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 271
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nCreates connection.\n"
+  example: []
+  syntax:
+    content: protected void ConnectToController(string netId, int srvPort)
+    parameters:
+    - id: netId
+      type: System.String
+      description: "\nThe net id.\n"
+    - id: srvPort
+      type: System.Int32
+      description: "\nThe server port.\n"
+    content.vb: Protected Sub ConnectToController(netId As String, srvPort As Integer)
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.ConnectToController*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.HasAdsSymbolVersionChanged
+  commentId: F:Vortex.Adapters.Connector.Tc3.AdsConnector.HasAdsSymbolVersionChanged
+  id: HasAdsSymbolVersionChanged
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: HasAdsSymbolVersionChanged
+  nameWithType: AdsConnector.HasAdsSymbolVersionChanged
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.HasAdsSymbolVersionChanged
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: HasAdsSymbolVersionChanged
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 286
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: bool HasAdsSymbolVersionChanged
+    return:
+      type: System.Boolean
+    content.vb: HasAdsSymbolVersionChanged As Boolean
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.InvalidateSymbols
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.InvalidateSymbols
+  id: InvalidateSymbols
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: InvalidateSymbols()
+  nameWithType: AdsConnector.InvalidateSymbols()
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.InvalidateSymbols()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: InvalidateSymbols
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 287
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: void InvalidateSymbols()
+    content.vb: Sub InvalidateSymbols
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.InvalidateSymbols*
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsSymbolVersionChanged(System.Object,System.EventArgs)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsSymbolVersionChanged(System.Object,System.EventArgs)
+  id: AdsClient_AdsSymbolVersionChanged(System.Object,System.EventArgs)
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: AdsClient_AdsSymbolVersionChanged(Object, EventArgs)
+  nameWithType: AdsConnector.AdsClient_AdsSymbolVersionChanged(Object, EventArgs)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsSymbolVersionChanged(System.Object, System.EventArgs)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AdsClient_AdsSymbolVersionChanged
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 305
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: void AdsClient_AdsSymbolVersionChanged(object sender, EventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.EventArgs
+    content.vb: Sub AdsClient_AdsSymbolVersionChanged(sender As Object, e As EventArgs)
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsSymbolVersionChanged*
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ReloadConnector
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.ReloadConnector
+  id: ReloadConnector
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: ReloadConnector()
+  nameWithType: AdsConnector.ReloadConnector()
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.ReloadConnector()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReloadConnector
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 316
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public override void ReloadConnector()
+    content.vb: Public Overrides Sub ReloadConnector
+  overridden: Vortex.Connector.IConnector.ReloadConnector
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.ReloadConnector*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsStateChanged(System.Object,TwinCAT.Ads.AdsStateChangedEventArgs)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsStateChanged(System.Object,TwinCAT.Ads.AdsStateChangedEventArgs)
+  id: AdsClient_AdsStateChanged(System.Object,TwinCAT.Ads.AdsStateChangedEventArgs)
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: AdsClient_AdsStateChanged(Object, AdsStateChangedEventArgs)
+  nameWithType: AdsConnector.AdsClient_AdsStateChanged(Object, AdsStateChangedEventArgs)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsStateChanged(System.Object, TwinCAT.Ads.AdsStateChangedEventArgs)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AdsClient_AdsStateChanged
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 327
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: void AdsClient_AdsStateChanged(object sender, AdsStateChangedEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: TwinCAT.Ads.AdsStateChangedEventArgs
+    content.vb: Sub AdsClient_AdsStateChanged(sender As Object, e As AdsStateChangedEventArgs)
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsStateChanged*
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.qr
+  commentId: F:Vortex.Adapters.Connector.Tc3.AdsConnector.qr
+  id: qr
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: qr
+  nameWithType: AdsConnector.qr
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.qr
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: qr
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 357
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: IQueryable<IAdsBaseType> qr
+    return:
+      type: System.Linq.IQueryable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType}
+    content.vb: qr As IQueryable(Of IAdsBaseType)
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicRead
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicRead
+  id: CyclicRead
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: CyclicRead()
+  nameWithType: AdsConnector.CyclicRead()
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicRead()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CyclicRead
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 362
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nReads online variables required to be read.\n"
+  example: []
+  syntax:
+    content: protected void CyclicRead()
+    content.vb: Protected Sub CyclicRead
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicRead*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWrite
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWrite
+  id: CyclicWrite
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: CyclicWrite()
+  nameWithType: AdsConnector.CyclicWrite()
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWrite()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CyclicWrite
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 375
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nWrites modified online variables.\n"
+  example: []
+  syntax:
+    content: protected void CyclicWrite()
+    content.vb: Protected Sub CyclicWrite
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWrite*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWriteRead
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWriteRead
+  id: CyclicWriteRead
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: CyclicWriteRead()
+  nameWithType: AdsConnector.CyclicWriteRead()
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWriteRead()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CyclicWriteRead
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 388
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nWrite read operation.\n"
+  example: []
+  syntax:
+    content: protected void CyclicWriteRead()
+    content.vb: Protected Sub CyclicWriteRead
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWriteRead*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.StartReadWriteOps
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.StartReadWriteOps
+  id: StartReadWriteOps
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: StartReadWriteOps()
+  nameWithType: AdsConnector.StartReadWriteOps()
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.StartReadWriteOps()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: StartReadWriteOps
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 405
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nStarts cyclical read write operation on this connector.\n"
+  example: []
+  syntax:
+    content: protected void StartReadWriteOps()
+    content.vb: Protected Sub StartReadWriteOps
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.StartReadWriteOps*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.AddTagLink(Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.AddTagLink(Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType)
+  id: AddTagLink(Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType)
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: AddTagLink(IAdsBaseType)
+  nameWithType: AdsConnector.AddTagLink(IAdsBaseType)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.AddTagLink(Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddTagLink
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 449
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: void AddTagLink(IAdsBaseType variable)
+    parameters:
+    - id: variable
+      type: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+    content.vb: Sub AddTagLink(variable As IAdsBaseType)
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.AddTagLink*
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.InitializeConnector
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.InitializeConnector
+  id: InitializeConnector
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: InitializeConnector()
+  nameWithType: AdsConnector.InitializeConnector()
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.InitializeConnector()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: InitializeConnector
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 457
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nInitializes connector for on line operations.\n"
+  example: []
+  syntax:
+    content: void InitializeConnector()
+    content.vb: Sub InitializeConnector
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.InitializeConnector*
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Client
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsConnector.Client
+  id: Client
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: Client
+  nameWithType: AdsConnector.Client
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.Client
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Client
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 502
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets the client.\n"
+  example: []
+  syntax:
+    content: >-
+      LiveClient Client
+
+      {
+
+      }
+    parameters: []
+    return:
+      type: Vortex.Adapters.Connector.Tc3.LiveClient
+    content.vb: ReadOnly WriteOnly Property Client As LiveClient
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.Client*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineVariables
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineVariables
+  id: OnlineVariables
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: OnlineVariables
+  nameWithType: AdsConnector.OnlineVariables
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineVariables
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: OnlineVariables
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 521
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: >-
+      IAdsBaseType[] OnlineVariables
+
+      {
+
+      }
+    parameters: []
+    return:
+      type: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType[]
+    content.vb: ReadOnly WriteOnly Property OnlineVariables As IAdsBaseType()
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineVariables*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.PreventSynchronousAccess
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsConnector.PreventSynchronousAccess
+  id: PreventSynchronousAccess
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: PreventSynchronousAccess
+  nameWithType: AdsConnector.PreventSynchronousAccess
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.PreventSynchronousAccess
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: PreventSynchronousAccess
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 537
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: >-
+      bool PreventSynchronousAccess
+
+      {
+
+      }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly WriteOnly Property PreventSynchronousAccess As Boolean
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.PreventSynchronousAccess*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector._justBuilt
+  commentId: F:Vortex.Adapters.Connector.Tc3.AdsConnector._justBuilt
+  id: _justBuilt
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: _justBuilt
+  nameWithType: AdsConnector._justBuilt
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector._justBuilt
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _justBuilt
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 543
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: bool _justBuilt
+    return:
+      type: System.Boolean
+    content.vb: _justBuilt As Boolean
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.BuildAndStart
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.BuildAndStart
+  id: BuildAndStart
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: BuildAndStart()
+  nameWithType: AdsConnector.BuildAndStart()
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.BuildAndStart()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: BuildAndStart
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 544
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public override IConnector BuildAndStart()
+    return:
+      type: Vortex.Connector.IConnector
+    content.vb: Public Overrides Function BuildAndStart As IConnector
+  overridden: Vortex.Connector.IConnector.BuildAndStart
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.BuildAndStart*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Dispose
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.Dispose
+  id: Dispose
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AdsConnector.Dispose()
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.Dispose()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Dispose
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 562
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nThe dispose.\n"
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+  id: ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: ReadBatch(IEnumerable<IValueTag>)
+  nameWithType: AdsConnector.ReadBatch(IEnumerable<IValueTag>)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadBatch(System.Collections.Generic.IEnumerable<Vortex.Connector.IValueTag>)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReadBatch
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 569
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public override void ReadBatch(IEnumerable<IValueTag> valueTags)
+    parameters:
+    - id: valueTags
+      type: System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag}
+    content.vb: Public Overrides Sub ReadBatch(valueTags As IEnumerable(Of IValueTag))
+  overridden: Vortex.Connector.IConnector.ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadBatch*
+  nameWithType.vb: AdsConnector.ReadBatch(IEnumerable(Of IValueTag))
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadBatch(System.Collections.Generic.IEnumerable(Of Vortex.Connector.IValueTag))
+  name.vb: ReadBatch(IEnumerable(Of IValueTag))
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.SetAllToCyclicReading
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.SetAllToCyclicReading
+  id: SetAllToCyclicReading
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: SetAllToCyclicReading()
+  nameWithType: AdsConnector.SetAllToCyclicReading()
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.SetAllToCyclicReading()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SetAllToCyclicReading
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 577
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nSets all online variables to cyclic reading.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public void SetAllToCyclicReading()
+    content.vb: >-
+      <Obsolete>
+
+      Public Sub SetAllToCyclicReading
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.SetAllToCyclicReading*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+  id: WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: WriteBatch(IEnumerable<IValueTag>)
+  nameWithType: AdsConnector.WriteBatch(IEnumerable<IValueTag>)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteBatch(System.Collections.Generic.IEnumerable<Vortex.Connector.IValueTag>)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: WriteBatch
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 586
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public override void WriteBatch(IEnumerable<IValueTag> valueTags)
+    parameters:
+    - id: valueTags
+      type: System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag}
+    content.vb: Public Overrides Sub WriteBatch(valueTags As IEnumerable(Of IValueTag))
+  overridden: Vortex.Connector.IConnector.WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteBatch*
+  nameWithType.vb: AdsConnector.WriteBatch(IEnumerable(Of IValueTag))
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteBatch(System.Collections.Generic.IEnumerable(Of Vortex.Connector.IValueTag))
+  name.vb: WriteBatch(IEnumerable(Of IValueTag))
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.AMSID
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsConnector.AMSID
+  id: AMSID
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: AMSID
+  nameWithType: AdsConnector.AMSID
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.AMSID
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AMSID
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 597
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public string AMSID { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property AMSID As String
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.AMSID*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.DoNotStartReportingConsole
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsConnector.DoNotStartReportingConsole
+  id: DoNotStartReportingConsole
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: DoNotStartReportingConsole
+  nameWithType: AdsConnector.DoNotStartReportingConsole
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.DoNotStartReportingConsole
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: DoNotStartReportingConsole
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 611
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets or sets a value indicating whether start reporting console.\n"
+  example: []
+  syntax:
+    content: public bool DoNotStartReportingConsole { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: "\nDo not start reporting console when true.\n"
+    content.vb: Public Property DoNotStartReportingConsole As Boolean
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.DoNotStartReportingConsole*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ErrorCount
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsConnector.ErrorCount
+  id: ErrorCount
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: ErrorCount
+  nameWithType: AdsConnector.ErrorCount
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.ErrorCount
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ErrorCount
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 616
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public override int ErrorCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Property ErrorCount As Integer
+  overridden: Vortex.Connector.IConnector.ErrorCount
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.ErrorCount*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.LoadingStatus
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsConnector.LoadingStatus
+  id: LoadingStatus
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: LoadingStatus
+  nameWithType: AdsConnector.LoadingStatus
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.LoadingStatus
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: LoadingStatus
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 624
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets or sets the loading status.\n"
+  example: []
+  syntax:
+    content: public static string LoadingStatus { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe loading status.\n"
+    content.vb: Public Shared Property LoadingStatus As String
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.LoadingStatus*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Name
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsConnector.Name
+  id: Name
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: AdsConnector.Name
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.Name
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Name
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 634
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets or sets the name of this connector.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe name of the connector.\n"
+    content.vb: Public Property Name As String
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.NetId
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsConnector.NetId
+  id: NetId
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: NetId
+  nameWithType: AdsConnector.NetId
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.NetId
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: NetId
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 644
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets the net id.\n"
+  example: []
+  syntax:
+    content: public string NetId { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe net id.\n"
+    content.vb: Public ReadOnly Property NetId As String
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.NetId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.SrvPort
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsConnector.SrvPort
+  id: SrvPort
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: SrvPort
+  nameWithType: AdsConnector.SrvPort
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.SrvPort
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SrvPort
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 656
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets the server port.\n"
+  example: []
+  syntax:
+    content: public int SrvPort { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: "\nThe server port.\n"
+    content.vb: Public ReadOnly Property SrvPort As Integer
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.SrvPort*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Timeout
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsConnector.Timeout
+  id: Timeout
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: AdsConnector.Timeout
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.Timeout
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Timeout
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 679
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets or sets a value indicating whether synchronous access should be suspended.\nTypically this value should be set to true during extensive reflection operation when synchronous access\nto the controller is not required. Suspending synchronous access considerably improves performance.\nN.B. Suspended synchronous access bypasses all synchronous read and write operations with no further warning.\n"
+  example: []
+  syntax:
+    content: public int Timeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: "\nSynchronous access is suspended.\n"
+    content.vb: Public Property Timeout As Integer
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.Timeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.InvokeRpc(System.String,System.String,System.Object[])
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.InvokeRpc(System.String,System.String,System.Object[])
+  id: InvokeRpc(System.String,System.String,System.Object[])
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: InvokeRpc(String, String, Object[])
+  nameWithType: AdsConnector.InvokeRpc(String, String, Object[])
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.InvokeRpc(System.String, System.String, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: InvokeRpc
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 692
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public override object InvokeRpc(string symbolPath, string methodName, object[] params)
+    parameters:
+    - id: symbolPath
+      type: System.String
+    - id: methodName
+      type: System.String
+    - id: params
+      type: System.Object[]
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function InvokeRpc(symbolPath As String, methodName As String, params As Object()) As Object
+  overridden: Vortex.Connector.IConnector.InvokeRpc(System.String,System.String,System.Object[])
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.InvokeRpc*
+  nameWithType.vb: AdsConnector.InvokeRpc(String, String, Object())
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Vortex.Adapters.Connector.Tc3.AdsConnector.InvokeRpc(System.String, System.String, System.Object())
+  name.vb: InvokeRpc(String, String, Object())
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineTags
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineTags
+  id: OnlineTags
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: OnlineTags
+  nameWithType: AdsConnector.OnlineTags
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineTags
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: OnlineTags
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 697
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public override IEnumerable<IValueTag> OnlineTags { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag}
+    content.vb: Public Overrides ReadOnly Property OnlineTags As IEnumerable(Of IValueTag)
+  overridden: Vortex.Connector.IConnector.OnlineTags
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineTags*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadMethod
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadMethod
+  id: SymbolLoadMethod
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: SymbolLoadMethod
+  nameWithType: AdsConnector.SymbolLoadMethod
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadMethod
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SymbolLoadMethod
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 702
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGet or sets symbol loading method.\n"
+  example: []
+  syntax:
+    content: public SymbolLoadMethod SymbolLoadMethod { get; set; }
+    parameters: []
+    return:
+      type: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+    content.vb: Public Property SymbolLoadMethod As SymbolLoadMethod
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadMethod*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadingMode
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadingMode
+  id: SymbolLoadingMode
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: SymbolLoadingMode
+  nameWithType: AdsConnector.SymbolLoadingMode
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadingMode
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SymbolLoadingMode
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 707
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  summary: "\nGets or sets symbol loading mode.\n"
+  example: []
+  syntax:
+    content: public SymbolLoadingMode SymbolLoadingMode { get; set; }
+    parameters: []
+    return:
+      type: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode
+    content.vb: Public Property SymbolLoadingMode As SymbolLoadingMode
+  overload: Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadingMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vortex.Adapters.Connector.Tc3
+  commentId: N:Vortex.Adapters.Connector.Tc3
+  name: Vortex.Adapters.Connector.Tc3
+  nameWithType: Vortex.Adapters.Connector.Tc3
+  fullName: Vortex.Adapters.Connector.Tc3
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vortex.Connector.RootVortexerObject
+  commentId: T:Vortex.Connector.RootVortexerObject
+  parent: Vortex.Connector
+  name: RootVortexerObject
+  nameWithType: RootVortexerObject
+  fullName: Vortex.Connector.RootVortexerObject
+- uid: Vortex.Connector.IConnector
+  commentId: T:Vortex.Connector.IConnector
+  parent: Vortex.Connector
+  name: IConnector
+  nameWithType: IConnector
+  fullName: Vortex.Connector.IConnector
+- uid: Vortex.Connector.IVortexObject
+  commentId: T:Vortex.Connector.IVortexObject
+  parent: Vortex.Connector
+  name: IVortexObject
+  nameWithType: IVortexObject
+  fullName: Vortex.Connector.IVortexObject
+- uid: Vortex.Connector.ITwinObject
+  commentId: T:Vortex.Connector.ITwinObject
+  parent: Vortex.Connector
+  name: ITwinObject
+  nameWithType: ITwinObject
+  fullName: Vortex.Connector.ITwinObject
+- uid: Vortex.Connector.IVortexElement
+  commentId: T:Vortex.Connector.IVortexElement
+  parent: Vortex.Connector
+  name: IVortexElement
+  nameWithType: IVortexElement
+  fullName: Vortex.Connector.IVortexElement
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Vortex.Connector.IConnector._logger
+  commentId: F:Vortex.Connector.IConnector._logger
+  parent: Vortex.Connector.IConnector
+  name: _logger
+  nameWithType: IConnector._logger
+  fullName: Vortex.Connector.IConnector._logger
+- uid: Vortex.Connector.IConnector.Logger
+  commentId: P:Vortex.Connector.IConnector.Logger
+  parent: Vortex.Connector.IConnector
+  name: Logger
+  nameWithType: IConnector.Logger
+  fullName: Vortex.Connector.IConnector.Logger
+- uid: Vortex.Connector.IConnector._commState
+  commentId: F:Vortex.Connector.IConnector._commState
+  parent: Vortex.Connector.IConnector
+  name: _commState
+  nameWithType: IConnector._commState
+  fullName: Vortex.Connector.IConnector._commState
+- uid: Vortex.Connector.IConnector._cyclicRwDuration
+  commentId: F:Vortex.Connector.IConnector._cyclicRwDuration
+  parent: Vortex.Connector.IConnector
+  name: _cyclicRwDuration
+  nameWithType: IConnector._cyclicRwDuration
+  fullName: Vortex.Connector.IConnector._cyclicRwDuration
+- uid: Vortex.Connector.IConnector._DataExchangeStatus
+  commentId: F:Vortex.Connector.IConnector._DataExchangeStatus
+  parent: Vortex.Connector.IConnector
+  name: _DataExchangeStatus
+  nameWithType: IConnector._DataExchangeStatus
+  fullName: Vortex.Connector.IConnector._DataExchangeStatus
+- uid: Vortex.Connector.IConnector._loadingSymbol
+  commentId: F:Vortex.Connector.IConnector._loadingSymbol
+  parent: Vortex.Connector.IConnector
+  name: _loadingSymbol
+  nameWithType: IConnector._loadingSymbol
+  fullName: Vortex.Connector.IConnector._loadingSymbol
+- uid: Vortex.Connector.IConnector._rwCycleCount
+  commentId: F:Vortex.Connector.IConnector._rwCycleCount
+  parent: Vortex.Connector.IConnector
+  name: _rwCycleCount
+  nameWithType: IConnector._rwCycleCount
+  fullName: Vortex.Connector.IConnector._rwCycleCount
+- uid: Vortex.Connector.IConnector._startUpTime
+  commentId: F:Vortex.Connector.IConnector._startUpTime
+  parent: Vortex.Connector.IConnector
+  name: _startUpTime
+  nameWithType: IConnector._startUpTime
+  fullName: Vortex.Connector.IConnector._startUpTime
+- uid: Vortex.Connector.IConnector.readWriteCycleDealy
+  commentId: F:Vortex.Connector.IConnector.readWriteCycleDealy
+  parent: Vortex.Connector.IConnector
+  name: readWriteCycleDealy
+  nameWithType: IConnector.readWriteCycleDealy
+  fullName: Vortex.Connector.IConnector.readWriteCycleDealy
+- uid: Vortex.Connector.IConnector.Online
+  commentId: P:Vortex.Connector.IConnector.Online
+  parent: Vortex.Connector.IConnector
+  name: Online
+  nameWithType: IConnector.Online
+  fullName: Vortex.Connector.IConnector.Online
+- uid: Vortex.Connector.IConnector.IdentityProvider
+  commentId: P:Vortex.Connector.IConnector.IdentityProvider
+  parent: Vortex.Connector.IConnector
+  name: IdentityProvider
+  nameWithType: IConnector.IdentityProvider
+  fullName: Vortex.Connector.IConnector.IdentityProvider
+- uid: Vortex.Connector.IConnector.RwCycleCount
+  commentId: P:Vortex.Connector.IConnector.RwCycleCount
+  parent: Vortex.Connector.IConnector
+  name: RwCycleCount
+  nameWithType: IConnector.RwCycleCount
+  fullName: Vortex.Connector.IConnector.RwCycleCount
+- uid: Vortex.Connector.IConnector.CyclicRwDuration
+  commentId: P:Vortex.Connector.IConnector.CyclicRwDuration
+  parent: Vortex.Connector.IConnector
+  name: CyclicRwDuration
+  nameWithType: IConnector.CyclicRwDuration
+  fullName: Vortex.Connector.IConnector.CyclicRwDuration
+- uid: Vortex.Connector.IConnector.StartUpTime
+  commentId: P:Vortex.Connector.IConnector.StartUpTime
+  parent: Vortex.Connector.IConnector
+  name: StartUpTime
+  nameWithType: IConnector.StartUpTime
+  fullName: Vortex.Connector.IConnector.StartUpTime
+- uid: Vortex.Connector.IConnector.MonitorConnector
+  commentId: P:Vortex.Connector.IConnector.MonitorConnector
+  parent: Vortex.Connector.IConnector
+  name: MonitorConnector
+  nameWithType: IConnector.MonitorConnector
+  fullName: Vortex.Connector.IConnector.MonitorConnector
+- uid: Vortex.Connector.IConnector.CommState
+  commentId: P:Vortex.Connector.IConnector.CommState
+  parent: Vortex.Connector.IConnector
+  name: CommState
+  nameWithType: IConnector.CommState
+  fullName: Vortex.Connector.IConnector.CommState
+- uid: Vortex.Connector.IConnector.LoadingSymbol
+  commentId: P:Vortex.Connector.IConnector.LoadingSymbol
+  parent: Vortex.Connector.IConnector
+  name: LoadingSymbol
+  nameWithType: IConnector.LoadingSymbol
+  fullName: Vortex.Connector.IConnector.LoadingSymbol
+- uid: Vortex.Connector.IConnector.ReadWriteCycleDelay
+  commentId: P:Vortex.Connector.IConnector.ReadWriteCycleDelay
+  parent: Vortex.Connector.IConnector
+  name: ReadWriteCycleDelay
+  nameWithType: IConnector.ReadWriteCycleDelay
+  fullName: Vortex.Connector.IConnector.ReadWriteCycleDelay
+- uid: Vortex.Connector.IConnector.DataExchangeStatus
+  commentId: P:Vortex.Connector.IConnector.DataExchangeStatus
+  parent: Vortex.Connector.IConnector
+  name: DataExchangeStatus
+  nameWithType: IConnector.DataExchangeStatus
+  fullName: Vortex.Connector.IConnector.DataExchangeStatus
+- uid: Vortex.Connector.IConnector.PropertyChanged
+  commentId: E:Vortex.Connector.IConnector.PropertyChanged
+  parent: Vortex.Connector.IConnector
+  name: PropertyChanged
+  nameWithType: IConnector.PropertyChanged
+  fullName: Vortex.Connector.IConnector.PropertyChanged
+- uid: Vortex.Connector.IConnector.CreateSymbol(System.String,System.String)
+  commentId: M:Vortex.Connector.IConnector.CreateSymbol(System.String,System.String)
+  parent: Vortex.Connector.IConnector
+  isExternal: true
+  name: CreateSymbol(String, String)
+  nameWithType: IConnector.CreateSymbol(String, String)
+  fullName: Vortex.Connector.IConnector.CreateSymbol(System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnector.CreateSymbol(System.String,System.String)
+    name: CreateSymbol
+    nameWithType: IConnector.CreateSymbol
+    fullName: Vortex.Connector.IConnector.CreateSymbol
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnector.CreateSymbol(System.String,System.String)
+    name: CreateSymbol
+    nameWithType: IConnector.CreateSymbol
+    fullName: Vortex.Connector.IConnector.CreateSymbol
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnector.NotifyPropertyChanged(System.String)
+  commentId: M:Vortex.Connector.IConnector.NotifyPropertyChanged(System.String)
+  parent: Vortex.Connector.IConnector
+  isExternal: true
+  name: NotifyPropertyChanged(String)
+  nameWithType: IConnector.NotifyPropertyChanged(String)
+  fullName: Vortex.Connector.IConnector.NotifyPropertyChanged(System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnector.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    nameWithType: IConnector.NotifyPropertyChanged
+    fullName: Vortex.Connector.IConnector.NotifyPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnector.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    nameWithType: IConnector.NotifyPropertyChanged
+    fullName: Vortex.Connector.IConnector.NotifyPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnector.SubscribeAllEditValueObserver(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  commentId: M:Vortex.Connector.IConnector.SubscribeAllEditValueObserver(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  parent: Vortex.Connector.IConnector
+  name: SubscribeAllEditValueObserver(OnlinerBaseType.ValueChangeDelegate)
+  nameWithType: IConnector.SubscribeAllEditValueObserver(OnlinerBaseType.ValueChangeDelegate)
+  fullName: Vortex.Connector.IConnector.SubscribeAllEditValueObserver(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnector.SubscribeAllEditValueObserver(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+    name: SubscribeAllEditValueObserver
+    nameWithType: IConnector.SubscribeAllEditValueObserver
+    fullName: Vortex.Connector.IConnector.SubscribeAllEditValueObserver
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+    name: OnlinerBaseType.ValueChangeDelegate
+    nameWithType: OnlinerBaseType.ValueChangeDelegate
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnector.SubscribeAllEditValueObserver(Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate)
+    name: SubscribeAllEditValueObserver
+    nameWithType: IConnector.SubscribeAllEditValueObserver
+    fullName: Vortex.Connector.IConnector.SubscribeAllEditValueObserver
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+    name: OnlinerBaseType.ValueChangeDelegate
+    nameWithType: OnlinerBaseType.ValueChangeDelegate
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.RootVortexerObject.SymbolTail
+  commentId: P:Vortex.Connector.RootVortexerObject.SymbolTail
+  parent: Vortex.Connector.RootVortexerObject
+  name: SymbolTail
+  nameWithType: RootVortexerObject.SymbolTail
+  fullName: Vortex.Connector.RootVortexerObject.SymbolTail
+- uid: Vortex.Connector.RootVortexerObject.GetSymbolTail
+  commentId: M:Vortex.Connector.RootVortexerObject.GetSymbolTail
+  parent: Vortex.Connector.RootVortexerObject
+  name: GetSymbolTail()
+  nameWithType: RootVortexerObject.GetSymbolTail()
+  fullName: Vortex.Connector.RootVortexerObject.GetSymbolTail()
+  spec.csharp:
+  - uid: Vortex.Connector.RootVortexerObject.GetSymbolTail
+    name: GetSymbolTail
+    nameWithType: RootVortexerObject.GetSymbolTail
+    fullName: Vortex.Connector.RootVortexerObject.GetSymbolTail
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.RootVortexerObject.GetSymbolTail
+    name: GetSymbolTail
+    nameWithType: RootVortexerObject.GetSymbolTail
+    fullName: Vortex.Connector.RootVortexerObject.GetSymbolTail
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.RootVortexerObject.AttributeName
+  commentId: P:Vortex.Connector.RootVortexerObject.AttributeName
+  parent: Vortex.Connector.RootVortexerObject
+  name: AttributeName
+  nameWithType: RootVortexerObject.AttributeName
+  fullName: Vortex.Connector.RootVortexerObject.AttributeName
+- uid: Vortex.Connector.RootVortexerObject.Symbol
+  commentId: P:Vortex.Connector.RootVortexerObject.Symbol
+  parent: Vortex.Connector.RootVortexerObject
+  name: Symbol
+  nameWithType: RootVortexerObject.Symbol
+  fullName: Vortex.Connector.RootVortexerObject.Symbol
+- uid: Vortex.Connector.RootVortexerObject.HumanReadable
+  commentId: P:Vortex.Connector.RootVortexerObject.HumanReadable
+  parent: Vortex.Connector.RootVortexerObject
+  name: HumanReadable
+  nameWithType: RootVortexerObject.HumanReadable
+  fullName: Vortex.Connector.RootVortexerObject.HumanReadable
+- uid: Vortex.Connector.RootVortexerObject.GetChildren
+  commentId: M:Vortex.Connector.RootVortexerObject.GetChildren
+  parent: Vortex.Connector.RootVortexerObject
+  name: GetChildren()
+  nameWithType: RootVortexerObject.GetChildren()
+  fullName: Vortex.Connector.RootVortexerObject.GetChildren()
+  spec.csharp:
+  - uid: Vortex.Connector.RootVortexerObject.GetChildren
+    name: GetChildren
+    nameWithType: RootVortexerObject.GetChildren
+    fullName: Vortex.Connector.RootVortexerObject.GetChildren
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.RootVortexerObject.GetChildren
+    name: GetChildren
+    nameWithType: RootVortexerObject.GetChildren
+    fullName: Vortex.Connector.RootVortexerObject.GetChildren
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.RootVortexerObject.Children
+  commentId: F:Vortex.Connector.RootVortexerObject.Children
+  parent: Vortex.Connector.RootVortexerObject
+  name: Children
+  nameWithType: RootVortexerObject.Children
+  fullName: Vortex.Connector.RootVortexerObject.Children
+- uid: Vortex.Connector.RootVortexerObject.GetParent
+  commentId: M:Vortex.Connector.RootVortexerObject.GetParent
+  parent: Vortex.Connector.RootVortexerObject
+  name: GetParent()
+  nameWithType: RootVortexerObject.GetParent()
+  fullName: Vortex.Connector.RootVortexerObject.GetParent()
+  spec.csharp:
+  - uid: Vortex.Connector.RootVortexerObject.GetParent
+    name: GetParent
+    nameWithType: RootVortexerObject.GetParent
+    fullName: Vortex.Connector.RootVortexerObject.GetParent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.RootVortexerObject.GetParent
+    name: GetParent
+    nameWithType: RootVortexerObject.GetParent
+    fullName: Vortex.Connector.RootVortexerObject.GetParent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.RootVortexerObject.AddChild(Vortex.Connector.IVortexObject)
+  commentId: M:Vortex.Connector.RootVortexerObject.AddChild(Vortex.Connector.IVortexObject)
+  parent: Vortex.Connector.RootVortexerObject
+  name: AddChild(IVortexObject)
+  nameWithType: RootVortexerObject.AddChild(IVortexObject)
+  fullName: Vortex.Connector.RootVortexerObject.AddChild(Vortex.Connector.IVortexObject)
+  spec.csharp:
+  - uid: Vortex.Connector.RootVortexerObject.AddChild(Vortex.Connector.IVortexObject)
+    name: AddChild
+    nameWithType: RootVortexerObject.AddChild
+    fullName: Vortex.Connector.RootVortexerObject.AddChild
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.RootVortexerObject.AddChild(Vortex.Connector.IVortexObject)
+    name: AddChild
+    nameWithType: RootVortexerObject.AddChild
+    fullName: Vortex.Connector.RootVortexerObject.AddChild
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.RootVortexerObject._valueTags
+  commentId: F:Vortex.Connector.RootVortexerObject._valueTags
+  parent: Vortex.Connector.RootVortexerObject
+  name: _valueTags
+  nameWithType: RootVortexerObject._valueTags
+  fullName: Vortex.Connector.RootVortexerObject._valueTags
+- uid: Vortex.Connector.RootVortexerObject.ValueTags
+  commentId: P:Vortex.Connector.RootVortexerObject.ValueTags
+  parent: Vortex.Connector.RootVortexerObject
+  name: ValueTags
+  nameWithType: RootVortexerObject.ValueTags
+  fullName: Vortex.Connector.RootVortexerObject.ValueTags
+- uid: Vortex.Connector.RootVortexerObject.Identity
+  commentId: P:Vortex.Connector.RootVortexerObject.Identity
+  parent: Vortex.Connector.RootVortexerObject
+  name: Identity
+  nameWithType: RootVortexerObject.Identity
+  fullName: Vortex.Connector.RootVortexerObject.Identity
+- uid: Vortex.Connector.RootVortexerObject.GetValueTags
+  commentId: M:Vortex.Connector.RootVortexerObject.GetValueTags
+  parent: Vortex.Connector.RootVortexerObject
+  name: GetValueTags()
+  nameWithType: RootVortexerObject.GetValueTags()
+  fullName: Vortex.Connector.RootVortexerObject.GetValueTags()
+  spec.csharp:
+  - uid: Vortex.Connector.RootVortexerObject.GetValueTags
+    name: GetValueTags
+    nameWithType: RootVortexerObject.GetValueTags
+    fullName: Vortex.Connector.RootVortexerObject.GetValueTags
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.RootVortexerObject.GetValueTags
+    name: GetValueTags
+    nameWithType: RootVortexerObject.GetValueTags
+    fullName: Vortex.Connector.RootVortexerObject.GetValueTags
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.RootVortexerObject.AddValueTag(Vortex.Connector.IValueTag)
+  commentId: M:Vortex.Connector.RootVortexerObject.AddValueTag(Vortex.Connector.IValueTag)
+  parent: Vortex.Connector.RootVortexerObject
+  name: AddValueTag(IValueTag)
+  nameWithType: RootVortexerObject.AddValueTag(IValueTag)
+  fullName: Vortex.Connector.RootVortexerObject.AddValueTag(Vortex.Connector.IValueTag)
+  spec.csharp:
+  - uid: Vortex.Connector.RootVortexerObject.AddValueTag(Vortex.Connector.IValueTag)
+    name: AddValueTag
+    nameWithType: RootVortexerObject.AddValueTag
+    fullName: Vortex.Connector.RootVortexerObject.AddValueTag
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+    nameWithType: IValueTag
+    fullName: Vortex.Connector.IValueTag
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.RootVortexerObject.AddValueTag(Vortex.Connector.IValueTag)
+    name: AddValueTag
+    nameWithType: RootVortexerObject.AddValueTag
+    fullName: Vortex.Connector.RootVortexerObject.AddValueTag
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+    nameWithType: IValueTag
+    fullName: Vortex.Connector.IValueTag
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.RootVortexerObject.GetConnector
+  commentId: M:Vortex.Connector.RootVortexerObject.GetConnector
+  parent: Vortex.Connector.RootVortexerObject
+  name: GetConnector()
+  nameWithType: RootVortexerObject.GetConnector()
+  fullName: Vortex.Connector.RootVortexerObject.GetConnector()
+  spec.csharp:
+  - uid: Vortex.Connector.RootVortexerObject.GetConnector
+    name: GetConnector
+    nameWithType: RootVortexerObject.GetConnector
+    fullName: Vortex.Connector.RootVortexerObject.GetConnector
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.RootVortexerObject.GetConnector
+    name: GetConnector
+    nameWithType: RootVortexerObject.GetConnector
+    fullName: Vortex.Connector.RootVortexerObject.GetConnector
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(System.Exception,System.String)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(Vortex.Adapters.Connector.Tc3.AdsConnector,System.Exception,System.String)
+  parent: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler
+  definition: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(Vortex.Adapters.Connector.Tc3.AdsConnector,System.Exception,System.String)
+  name: Post(Exception, String)
+  nameWithType: ExceptionHandler.Post(Exception, String)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(System.Exception, System.String)
+  spec.csharp:
+  - uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(System.Exception,System.String)
+    name: Post
+    nameWithType: ExceptionHandler.Post
+    fullName: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(System.Exception,System.String)
+    name: Post
+    nameWithType: ExceptionHandler.Post
+    fullName: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<AdsConnector>(Object)
+  nameWithType: IValueTagExtensions.Cast<AdsConnector>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.AdsConnector>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of AdsConnector)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.AdsConnector)(System.Object)
+  name.vb: Cast(Of AdsConnector)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<AdsConnector>
+    nameWithType: IValueTagExtensions.Cast<AdsConnector>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.AdsConnector>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of AdsConnector)
+    nameWithType: IValueTagExtensions.Cast(Of AdsConnector)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.AdsConnector)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(Vortex.Adapters.Connector.Tc3.AdsConnector,System.Exception,System.String)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(Vortex.Adapters.Connector.Tc3.AdsConnector,System.Exception,System.String)
+  isExternal: true
+  name: Post(AdsConnector, Exception, String)
+  nameWithType: ExceptionHandler.Post(AdsConnector, Exception, String)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(Vortex.Adapters.Connector.Tc3.AdsConnector, System.Exception, System.String)
+  spec.csharp:
+  - uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(Vortex.Adapters.Connector.Tc3.AdsConnector,System.Exception,System.String)
+    name: Post
+    nameWithType: ExceptionHandler.Post
+    fullName: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Adapters.Connector.Tc3.AdsConnector
+    name: AdsConnector
+    nameWithType: AdsConnector
+    fullName: Vortex.Adapters.Connector.Tc3.AdsConnector
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(Vortex.Adapters.Connector.Tc3.AdsConnector,System.Exception,System.String)
+    name: Post
+    nameWithType: ExceptionHandler.Post
+    fullName: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Adapters.Connector.Tc3.AdsConnector
+    name: AdsConnector
+    nameWithType: AdsConnector
+    fullName: Vortex.Adapters.Connector.Tc3.AdsConnector
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler
+  parent: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  name: ExceptionHandler
+  nameWithType: ExceptionHandler
+  fullName: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  commentId: N:Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  name: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  nameWithType: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  fullName: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType[]
+  isExternal: true
+  name: IAdsBaseType[]
+  nameWithType: IAdsBaseType[]
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType[]
+  nameWithType.vb: IAdsBaseType()
+  fullName.vb: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType()
+  name.vb: IAdsBaseType()
+  spec.csharp:
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+    name: IAdsBaseType
+    nameWithType: IAdsBaseType
+    fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+    name: IAdsBaseType
+    nameWithType: IAdsBaseType
+    fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient
+  commentId: T:Vortex.Adapters.Connector.Tc3.LiveClient
+  parent: Vortex.Adapters.Connector.Tc3
+  name: LiveClient
+  nameWithType: LiveClient
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient
+- uid: System.Collections.Generic.List{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType}
+  commentId: T:System.Collections.Generic.List{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IAdsBaseType>
+  nameWithType: List<IAdsBaseType>
+  fullName: System.Collections.Generic.List<Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType>
+  nameWithType.vb: List(Of IAdsBaseType)
+  fullName.vb: System.Collections.Generic.List(Of Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType)
+  name.vb: List(Of IAdsBaseType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+    name: IAdsBaseType
+    nameWithType: IAdsBaseType
+    fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+    name: IAdsBaseType
+    nameWithType: IAdsBaseType
+    fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsConnector
+  parent: Vortex.Adapters.Connector.Tc3
+  name: AdsConnector
+  nameWithType: AdsConnector
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.#ctor*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.#ctor
+  name: AdsConnector
+  nameWithType: AdsConnector.AdsConnector
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.AdsConnector
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.SplitIntoChunks*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.SplitIntoChunks
+  name: SplitIntoChunks
+  nameWithType: AdsConnector.SplitIntoChunks
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.SplitIntoChunks
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{{T}}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<IEnumerable<T>>
+  nameWithType: IEnumerable<IEnumerable<T>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<T>>
+  nameWithType.vb: IEnumerable(Of IEnumerable(Of T))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IEnumerable(Of T))
+  name.vb: IEnumerable(Of IEnumerable(Of T))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadFully*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.ReadFully
+  name: ReadFully
+  nameWithType: AdsConnector.ReadFully
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadFully
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadSum*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.ReadSum
+  name: ReadSum
+  nameWithType: AdsConnector.ReadSum
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadSum
+- uid: System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType}
+  commentId: T:System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<IAdsBaseType>
+  nameWithType: IEnumerable<IAdsBaseType>
+  fullName: System.Collections.Generic.IEnumerable<Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType>
+  nameWithType.vb: IEnumerable(Of IAdsBaseType)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType)
+  name.vb: IEnumerable(Of IAdsBaseType)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+    name: IAdsBaseType
+    nameWithType: IAdsBaseType
+    fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+    name: IAdsBaseType
+    nameWithType: IAdsBaseType
+    fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteSum*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.WriteSum
+  name: WriteSum
+  nameWithType: AdsConnector.WriteSum
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteSum
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ConnectToController*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.ConnectToController
+  name: ConnectToController
+  nameWithType: AdsConnector.ConnectToController
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.ConnectToController
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.InvalidateSymbols*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.InvalidateSymbols
+  name: InvalidateSymbols
+  nameWithType: AdsConnector.InvalidateSymbols
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.InvalidateSymbols
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsSymbolVersionChanged*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsSymbolVersionChanged
+  name: AdsClient_AdsSymbolVersionChanged
+  nameWithType: AdsConnector.AdsClient_AdsSymbolVersionChanged
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsSymbolVersionChanged
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: Vortex.Connector.IConnector.ReloadConnector
+  commentId: M:Vortex.Connector.IConnector.ReloadConnector
+  parent: Vortex.Connector.IConnector
+  name: ReloadConnector()
+  nameWithType: IConnector.ReloadConnector()
+  fullName: Vortex.Connector.IConnector.ReloadConnector()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnector.ReloadConnector
+    name: ReloadConnector
+    nameWithType: IConnector.ReloadConnector
+    fullName: Vortex.Connector.IConnector.ReloadConnector
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnector.ReloadConnector
+    name: ReloadConnector
+    nameWithType: IConnector.ReloadConnector
+    fullName: Vortex.Connector.IConnector.ReloadConnector
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ReloadConnector*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.ReloadConnector
+  name: ReloadConnector
+  nameWithType: AdsConnector.ReloadConnector
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.ReloadConnector
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsStateChanged*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsStateChanged
+  name: AdsClient_AdsStateChanged
+  nameWithType: AdsConnector.AdsClient_AdsStateChanged
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsStateChanged
+- uid: TwinCAT.Ads.AdsStateChangedEventArgs
+  commentId: T:TwinCAT.Ads.AdsStateChangedEventArgs
+  parent: TwinCAT.Ads
+  isExternal: true
+  name: AdsStateChangedEventArgs
+  nameWithType: AdsStateChangedEventArgs
+  fullName: TwinCAT.Ads.AdsStateChangedEventArgs
+- uid: TwinCAT.Ads
+  commentId: N:TwinCAT.Ads
+  isExternal: true
+  name: TwinCAT.Ads
+  nameWithType: TwinCAT.Ads
+  fullName: TwinCAT.Ads
+- uid: System.Linq.IQueryable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType}
+  commentId: T:System.Linq.IQueryable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType}
+  parent: System.Linq
+  definition: System.Linq.IQueryable`1
+  name: IQueryable<IAdsBaseType>
+  nameWithType: IQueryable<IAdsBaseType>
+  fullName: System.Linq.IQueryable<Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType>
+  nameWithType.vb: IQueryable(Of IAdsBaseType)
+  fullName.vb: System.Linq.IQueryable(Of Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType)
+  name.vb: IQueryable(Of IAdsBaseType)
+  spec.csharp:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    nameWithType: IQueryable
+    fullName: System.Linq.IQueryable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+    name: IAdsBaseType
+    nameWithType: IAdsBaseType
+    fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    nameWithType: IQueryable
+    fullName: System.Linq.IQueryable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+    name: IAdsBaseType
+    nameWithType: IAdsBaseType
+    fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.IQueryable`1
+  commentId: T:System.Linq.IQueryable`1
+  isExternal: true
+  name: IQueryable<T>
+  nameWithType: IQueryable<T>
+  fullName: System.Linq.IQueryable<T>
+  nameWithType.vb: IQueryable(Of T)
+  fullName.vb: System.Linq.IQueryable(Of T)
+  name.vb: IQueryable(Of T)
+  spec.csharp:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    nameWithType: IQueryable
+    fullName: System.Linq.IQueryable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    nameWithType: IQueryable
+    fullName: System.Linq.IQueryable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq
+  commentId: N:System.Linq
+  isExternal: true
+  name: System.Linq
+  nameWithType: System.Linq
+  fullName: System.Linq
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicRead*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicRead
+  name: CyclicRead
+  nameWithType: AdsConnector.CyclicRead
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicRead
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWrite*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWrite
+  name: CyclicWrite
+  nameWithType: AdsConnector.CyclicWrite
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWrite
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWriteRead*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWriteRead
+  name: CyclicWriteRead
+  nameWithType: AdsConnector.CyclicWriteRead
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicWriteRead
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.StartReadWriteOps*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.StartReadWriteOps
+  name: StartReadWriteOps
+  nameWithType: AdsConnector.StartReadWriteOps
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.StartReadWriteOps
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.AddTagLink*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.AddTagLink
+  name: AddTagLink
+  nameWithType: AdsConnector.AddTagLink
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.AddTagLink
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  name: IAdsBaseType
+  nameWithType: IAdsBaseType
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  commentId: N:Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  name: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  nameWithType: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.InitializeConnector*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.InitializeConnector
+  name: InitializeConnector
+  nameWithType: AdsConnector.InitializeConnector
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.InitializeConnector
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Client*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.Client
+  name: Client
+  nameWithType: AdsConnector.Client
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.Client
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineVariables*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineVariables
+  name: OnlineVariables
+  nameWithType: AdsConnector.OnlineVariables
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineVariables
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.PreventSynchronousAccess*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.PreventSynchronousAccess
+  name: PreventSynchronousAccess
+  nameWithType: AdsConnector.PreventSynchronousAccess
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.PreventSynchronousAccess
+- uid: Vortex.Connector.IConnector.BuildAndStart
+  commentId: M:Vortex.Connector.IConnector.BuildAndStart
+  parent: Vortex.Connector.IConnector
+  name: BuildAndStart()
+  nameWithType: IConnector.BuildAndStart()
+  fullName: Vortex.Connector.IConnector.BuildAndStart()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnector.BuildAndStart
+    name: BuildAndStart
+    nameWithType: IConnector.BuildAndStart
+    fullName: Vortex.Connector.IConnector.BuildAndStart
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnector.BuildAndStart
+    name: BuildAndStart
+    nameWithType: IConnector.BuildAndStart
+    fullName: Vortex.Connector.IConnector.BuildAndStart
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.BuildAndStart*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.BuildAndStart
+  name: BuildAndStart
+  nameWithType: AdsConnector.BuildAndStart
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.BuildAndStart
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Dispose*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.Dispose
+  name: Dispose
+  nameWithType: AdsConnector.Dispose
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnector.ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+  commentId: M:Vortex.Connector.IConnector.ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+  parent: Vortex.Connector.IConnector
+  isExternal: true
+  name: ReadBatch(IEnumerable<IValueTag>)
+  nameWithType: IConnector.ReadBatch(IEnumerable<IValueTag>)
+  fullName: Vortex.Connector.IConnector.ReadBatch(System.Collections.Generic.IEnumerable<Vortex.Connector.IValueTag>)
+  nameWithType.vb: IConnector.ReadBatch(IEnumerable(Of IValueTag))
+  fullName.vb: Vortex.Connector.IConnector.ReadBatch(System.Collections.Generic.IEnumerable(Of Vortex.Connector.IValueTag))
+  name.vb: ReadBatch(IEnumerable(Of IValueTag))
+  spec.csharp:
+  - uid: Vortex.Connector.IConnector.ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+    name: ReadBatch
+    nameWithType: IConnector.ReadBatch
+    fullName: Vortex.Connector.IConnector.ReadBatch
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+    nameWithType: IValueTag
+    fullName: Vortex.Connector.IValueTag
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnector.ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+    name: ReadBatch
+    nameWithType: IConnector.ReadBatch
+    fullName: Vortex.Connector.IConnector.ReadBatch
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+    nameWithType: IValueTag
+    fullName: Vortex.Connector.IValueTag
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadBatch*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.ReadBatch
+  name: ReadBatch
+  nameWithType: AdsConnector.ReadBatch
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadBatch
+- uid: System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag}
+  commentId: T:System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<IValueTag>
+  nameWithType: IEnumerable<IValueTag>
+  fullName: System.Collections.Generic.IEnumerable<Vortex.Connector.IValueTag>
+  nameWithType.vb: IEnumerable(Of IValueTag)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Vortex.Connector.IValueTag)
+  name.vb: IEnumerable(Of IValueTag)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+    nameWithType: IValueTag
+    fullName: Vortex.Connector.IValueTag
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+    nameWithType: IValueTag
+    fullName: Vortex.Connector.IValueTag
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.SetAllToCyclicReading*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.SetAllToCyclicReading
+  name: SetAllToCyclicReading
+  nameWithType: AdsConnector.SetAllToCyclicReading
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.SetAllToCyclicReading
+- uid: Vortex.Connector.IConnector.WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+  commentId: M:Vortex.Connector.IConnector.WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+  parent: Vortex.Connector.IConnector
+  isExternal: true
+  name: WriteBatch(IEnumerable<IValueTag>)
+  nameWithType: IConnector.WriteBatch(IEnumerable<IValueTag>)
+  fullName: Vortex.Connector.IConnector.WriteBatch(System.Collections.Generic.IEnumerable<Vortex.Connector.IValueTag>)
+  nameWithType.vb: IConnector.WriteBatch(IEnumerable(Of IValueTag))
+  fullName.vb: Vortex.Connector.IConnector.WriteBatch(System.Collections.Generic.IEnumerable(Of Vortex.Connector.IValueTag))
+  name.vb: WriteBatch(IEnumerable(Of IValueTag))
+  spec.csharp:
+  - uid: Vortex.Connector.IConnector.WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+    name: WriteBatch
+    nameWithType: IConnector.WriteBatch
+    fullName: Vortex.Connector.IConnector.WriteBatch
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+    nameWithType: IValueTag
+    fullName: Vortex.Connector.IValueTag
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnector.WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
+    name: WriteBatch
+    nameWithType: IConnector.WriteBatch
+    fullName: Vortex.Connector.IConnector.WriteBatch
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+    nameWithType: IValueTag
+    fullName: Vortex.Connector.IValueTag
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteBatch*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.WriteBatch
+  name: WriteBatch
+  nameWithType: AdsConnector.WriteBatch
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteBatch
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.AMSID*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.AMSID
+  name: AMSID
+  nameWithType: AdsConnector.AMSID
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.AMSID
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.DoNotStartReportingConsole*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.DoNotStartReportingConsole
+  name: DoNotStartReportingConsole
+  nameWithType: AdsConnector.DoNotStartReportingConsole
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.DoNotStartReportingConsole
+- uid: Vortex.Connector.IConnector.ErrorCount
+  commentId: P:Vortex.Connector.IConnector.ErrorCount
+  parent: Vortex.Connector.IConnector
+  name: ErrorCount
+  nameWithType: IConnector.ErrorCount
+  fullName: Vortex.Connector.IConnector.ErrorCount
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ErrorCount*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.ErrorCount
+  name: ErrorCount
+  nameWithType: AdsConnector.ErrorCount
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.ErrorCount
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.LoadingStatus*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.LoadingStatus
+  name: LoadingStatus
+  nameWithType: AdsConnector.LoadingStatus
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.LoadingStatus
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Name*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.Name
+  name: Name
+  nameWithType: AdsConnector.Name
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.Name
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.NetId*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.NetId
+  name: NetId
+  nameWithType: AdsConnector.NetId
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.NetId
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.SrvPort*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.SrvPort
+  name: SrvPort
+  nameWithType: AdsConnector.SrvPort
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.SrvPort
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Timeout*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.Timeout
+  name: Timeout
+  nameWithType: AdsConnector.Timeout
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.Timeout
+- uid: Vortex.Connector.IConnector.InvokeRpc(System.String,System.String,System.Object[])
+  commentId: M:Vortex.Connector.IConnector.InvokeRpc(System.String,System.String,System.Object[])
+  parent: Vortex.Connector.IConnector
+  isExternal: true
+  name: InvokeRpc(String, String, Object[])
+  nameWithType: IConnector.InvokeRpc(String, String, Object[])
+  fullName: Vortex.Connector.IConnector.InvokeRpc(System.String, System.String, System.Object[])
+  nameWithType.vb: IConnector.InvokeRpc(String, String, Object())
+  fullName.vb: Vortex.Connector.IConnector.InvokeRpc(System.String, System.String, System.Object())
+  name.vb: InvokeRpc(String, String, Object())
+  spec.csharp:
+  - uid: Vortex.Connector.IConnector.InvokeRpc(System.String,System.String,System.Object[])
+    name: InvokeRpc
+    nameWithType: IConnector.InvokeRpc
+    fullName: Vortex.Connector.IConnector.InvokeRpc
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnector.InvokeRpc(System.String,System.String,System.Object[])
+    name: InvokeRpc
+    nameWithType: IConnector.InvokeRpc
+    fullName: Vortex.Connector.IConnector.InvokeRpc
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.InvokeRpc*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.InvokeRpc
+  name: InvokeRpc
+  nameWithType: AdsConnector.InvokeRpc
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.InvokeRpc
+- uid: Vortex.Connector.IConnector.OnlineTags
+  commentId: P:Vortex.Connector.IConnector.OnlineTags
+  parent: Vortex.Connector.IConnector
+  name: OnlineTags
+  nameWithType: IConnector.OnlineTags
+  fullName: Vortex.Connector.IConnector.OnlineTags
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineTags*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineTags
+  name: OnlineTags
+  nameWithType: AdsConnector.OnlineTags
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.OnlineTags
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadMethod*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadMethod
+  name: SymbolLoadMethod
+  nameWithType: AdsConnector.SymbolLoadMethod
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadMethod
+- uid: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+  commentId: T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+  parent: Vortex.Adapters.Connector.Tc3.Adapter
+  name: SymbolLoadMethod
+  nameWithType: SymbolLoadMethod
+  fullName: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+- uid: Vortex.Adapters.Connector.Tc3.Adapter
+  commentId: N:Vortex.Adapters.Connector.Tc3.Adapter
+  name: Vortex.Adapters.Connector.Tc3.Adapter
+  nameWithType: Vortex.Adapters.Connector.Tc3.Adapter
+  fullName: Vortex.Adapters.Connector.Tc3.Adapter
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadingMode*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadingMode
+  name: SymbolLoadingMode
+  nameWithType: AdsConnector.SymbolLoadingMode
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.SymbolLoadingMode
+- uid: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode
+  commentId: T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode
+  parent: Vortex.Adapters.Connector.Tc3.Adapter
+  name: SymbolLoadingMode
+  nameWithType: SymbolLoadingMode
+  fullName: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode

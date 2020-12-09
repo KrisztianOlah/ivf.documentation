@@ -1,0 +1,423 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.IValueTagInfo
+  commentId: T:Vortex.Connector.IValueTagInfo
+  id: IValueTagInfo
+  parent: Vortex.Connector
+  children:
+  - Vortex.Connector.IValueTagInfo.Group
+  - Vortex.Connector.IValueTagInfo.IsAvailable
+  - Vortex.Connector.IValueTagInfo.Length
+  - Vortex.Connector.IValueTagInfo.Offset
+  - Vortex.Connector.IValueTagInfo.Size
+  - Vortex.Connector.IValueTagInfo.Symbol
+  langs:
+  - csharp
+  - vb
+  name: IValueTagInfo
+  nameWithType: IValueTagInfo
+  fullName: Vortex.Connector.IValueTagInfo
+  type: Interface
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IValueTagInfo
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
+    startLine: 5
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nProvides interface for information about value types symbols.\n"
+  example: []
+  syntax:
+    content: public interface IValueTagInfo
+    content.vb: Public Interface IValueTagInfo
+  extensionMethods:
+  - Vortex.Connector.IValueTagInfo.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Vortex.Connector.IValueTagInfo.Group
+  commentId: P:Vortex.Connector.IValueTagInfo.Group
+  id: Group
+  parent: Vortex.Connector.IValueTagInfo
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: IValueTagInfo.Group
+  fullName: Vortex.Connector.IValueTagInfo.Group
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Group
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
+    startLine: 10
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nGets group of this value type.\n"
+  example: []
+  syntax:
+    content: uint Group { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: ReadOnly Property Group As UInteger
+  overload: Vortex.Connector.IValueTagInfo.Group*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Connector.IValueTagInfo.Offset
+  commentId: P:Vortex.Connector.IValueTagInfo.Offset
+  id: Offset
+  parent: Vortex.Connector.IValueTagInfo
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: IValueTagInfo.Offset
+  fullName: Vortex.Connector.IValueTagInfo.Offset
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Offset
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
+    startLine: 14
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nGet offset of this value type.\n"
+  example: []
+  syntax:
+    content: uint Offset { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: ReadOnly Property Offset As UInteger
+  overload: Vortex.Connector.IValueTagInfo.Offset*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Connector.IValueTagInfo.Length
+  commentId: P:Vortex.Connector.IValueTagInfo.Length
+  id: Length
+  parent: Vortex.Connector.IValueTagInfo
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: IValueTagInfo.Length
+  fullName: Vortex.Connector.IValueTagInfo.Length
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Length
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
+    startLine: 19
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nGets length of this value type in bytes.\n"
+  example: []
+  syntax:
+    content: int Length { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Length As Integer
+  overload: Vortex.Connector.IValueTagInfo.Length*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Connector.IValueTagInfo.Size
+  commentId: P:Vortex.Connector.IValueTagInfo.Size
+  id: Size
+  parent: Vortex.Connector.IValueTagInfo
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: IValueTagInfo.Size
+  fullName: Vortex.Connector.IValueTagInfo.Size
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Size
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
+    startLine: 21
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  syntax:
+    content: int Size { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Size As Integer
+  overload: Vortex.Connector.IValueTagInfo.Size*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Connector.IValueTagInfo.IsAvailable
+  commentId: P:Vortex.Connector.IValueTagInfo.IsAvailable
+  id: IsAvailable
+  parent: Vortex.Connector.IValueTagInfo
+  langs:
+  - csharp
+  - vb
+  name: IsAvailable
+  nameWithType: IValueTagInfo.IsAvailable
+  fullName: Vortex.Connector.IValueTagInfo.IsAvailable
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IsAvailable
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
+    startLine: 28
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nGet the value indicating if the tag is available in the plc.\n"
+  example: []
+  syntax:
+    content: bool IsAvailable { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsAvailable As Boolean
+  overload: Vortex.Connector.IValueTagInfo.IsAvailable*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Connector.IValueTagInfo.Symbol
+  commentId: P:Vortex.Connector.IValueTagInfo.Symbol
+  id: Symbol
+  parent: Vortex.Connector.IValueTagInfo
+  langs:
+  - csharp
+  - vb
+  name: Symbol
+  nameWithType: IValueTagInfo.Symbol
+  fullName: Vortex.Connector.IValueTagInfo.Symbol
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Symbol
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
+    startLine: 33
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nGet the symbol of this tag.\n"
+  example: []
+  syntax:
+    content: string Symbol { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Symbol As String
+  overload: Vortex.Connector.IValueTagInfo.Symbol*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.IValueTagInfo.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<IValueTagInfo>(Object)
+  nameWithType: IValueTagExtensions.Cast<IValueTagInfo>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.IValueTagInfo>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of IValueTagInfo)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.IValueTagInfo)(System.Object)
+  name.vb: Cast(Of IValueTagInfo)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<IValueTagInfo>
+    nameWithType: IValueTagExtensions.Cast<IValueTagInfo>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.IValueTagInfo>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of IValueTagInfo)
+    nameWithType: IValueTagExtensions.Cast(Of IValueTagInfo)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.IValueTagInfo)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector.IValueTagInfo.Group*
+  commentId: Overload:Vortex.Connector.IValueTagInfo.Group
+  name: Group
+  nameWithType: IValueTagInfo.Group
+  fullName: Vortex.Connector.IValueTagInfo.Group
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.IValueTagInfo.Offset*
+  commentId: Overload:Vortex.Connector.IValueTagInfo.Offset
+  name: Offset
+  nameWithType: IValueTagInfo.Offset
+  fullName: Vortex.Connector.IValueTagInfo.Offset
+- uid: Vortex.Connector.IValueTagInfo.Length*
+  commentId: Overload:Vortex.Connector.IValueTagInfo.Length
+  name: Length
+  nameWithType: IValueTagInfo.Length
+  fullName: Vortex.Connector.IValueTagInfo.Length
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vortex.Connector.IValueTagInfo.Size*
+  commentId: Overload:Vortex.Connector.IValueTagInfo.Size
+  name: Size
+  nameWithType: IValueTagInfo.Size
+  fullName: Vortex.Connector.IValueTagInfo.Size
+- uid: Vortex.Connector.IValueTagInfo.IsAvailable*
+  commentId: Overload:Vortex.Connector.IValueTagInfo.IsAvailable
+  name: IsAvailable
+  nameWithType: IValueTagInfo.IsAvailable
+  fullName: Vortex.Connector.IValueTagInfo.IsAvailable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vortex.Connector.IValueTagInfo.Symbol*
+  commentId: Overload:Vortex.Connector.IValueTagInfo.Symbol
+  name: Symbol
+  nameWithType: IValueTagInfo.Symbol
+  fullName: Vortex.Connector.IValueTagInfo.Symbol
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

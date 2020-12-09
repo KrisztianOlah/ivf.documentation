@@ -1,0 +1,850 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Localizations.LocalizerDictionary
+  commentId: T:Vortex.Localizations.LocalizerDictionary
+  id: LocalizerDictionary
+  parent: Vortex.Localizations
+  children:
+  - Vortex.Localizations.LocalizerDictionary.#ctor
+  - Vortex.Localizations.LocalizerDictionary._sortedDictionary
+  - Vortex.Localizations.LocalizerDictionary.Culture
+  - Vortex.Localizations.LocalizerDictionary.Dictionary
+  - Vortex.Localizations.LocalizerDictionary.SortedDictionary
+  langs:
+  - csharp
+  - vb
+  name: LocalizerDictionary
+  nameWithType: LocalizerDictionary
+  fullName: Vortex.Localizations.LocalizerDictionary
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: LocalizerDictionary
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
+    startLine: 9
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: public class LocalizerDictionary
+    content.vb: Public Class LocalizerDictionary
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Vortex.Localizations.LocalizerDictionary.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vortex.Localizations.LocalizerDictionary.#ctor
+  commentId: M:Vortex.Localizations.LocalizerDictionary.#ctor
+  id: '#ctor'
+  parent: Vortex.Localizations.LocalizerDictionary
+  langs:
+  - csharp
+  - vb
+  name: LocalizerDictionary()
+  nameWithType: LocalizerDictionary.LocalizerDictionary()
+  fullName: Vortex.Localizations.LocalizerDictionary.LocalizerDictionary()
+  type: Constructor
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
+    startLine: 12
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: public LocalizerDictionary()
+    content.vb: Public Sub New
+  overload: Vortex.Localizations.LocalizerDictionary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Localizations.LocalizerDictionary.Culture
+  commentId: P:Vortex.Localizations.LocalizerDictionary.Culture
+  id: Culture
+  parent: Vortex.Localizations.LocalizerDictionary
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: LocalizerDictionary.Culture
+  fullName: Vortex.Localizations.LocalizerDictionary.Culture
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Culture
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
+    startLine: 17
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: public string Culture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Culture As String
+  overload: Vortex.Localizations.LocalizerDictionary.Culture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vortex.Localizations.LocalizerDictionary.Dictionary
+  commentId: P:Vortex.Localizations.LocalizerDictionary.Dictionary
+  id: Dictionary
+  parent: Vortex.Localizations.LocalizerDictionary
+  langs:
+  - csharp
+  - vb
+  name: Dictionary
+  nameWithType: LocalizerDictionary.Dictionary
+  fullName: Vortex.Localizations.LocalizerDictionary.Dictionary
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Dictionary
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
+    startLine: 20
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: public List<Localizables> Dictionary { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Vortex.Localizations.Localizables}
+    content.vb: Public Property Dictionary As List(Of Localizables)
+  overload: Vortex.Localizations.LocalizerDictionary.Dictionary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vortex.Localizations.LocalizerDictionary._sortedDictionary
+  commentId: F:Vortex.Localizations.LocalizerDictionary._sortedDictionary
+  id: _sortedDictionary
+  parent: Vortex.Localizations.LocalizerDictionary
+  langs:
+  - csharp
+  - vb
+  name: _sortedDictionary
+  nameWithType: LocalizerDictionary._sortedDictionary
+  fullName: Vortex.Localizations.LocalizerDictionary._sortedDictionary
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _sortedDictionary
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
+    startLine: 26
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: SortedList<string, Localizables> _sortedDictionary
+    return:
+      type: System.Collections.Generic.SortedList{System.String,Vortex.Localizations.Localizables}
+    content.vb: _sortedDictionary As SortedList(Of String, Localizables)
+- uid: Vortex.Localizations.LocalizerDictionary.SortedDictionary
+  commentId: P:Vortex.Localizations.LocalizerDictionary.SortedDictionary
+  id: SortedDictionary
+  parent: Vortex.Localizations.LocalizerDictionary
+  langs:
+  - csharp
+  - vb
+  name: SortedDictionary
+  nameWithType: LocalizerDictionary.SortedDictionary
+  fullName: Vortex.Localizations.LocalizerDictionary.SortedDictionary
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SortedDictionary
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
+    startLine: 28
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Localizations
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public SortedList<string, Localizables> SortedDictionary { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.SortedList{System.String,Vortex.Localizations.Localizables}
+    content.vb: >-
+      <JsonIgnore>
+
+      Public ReadOnly Property SortedDictionary As SortedList(Of String, Localizables)
+  overload: Vortex.Localizations.LocalizerDictionary.SortedDictionary*
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Vortex.Localizations
+  commentId: N:Vortex.Localizations
+  name: Vortex.Localizations
+  nameWithType: Vortex.Localizations
+  fullName: Vortex.Localizations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Localizations.LocalizerDictionary.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<LocalizerDictionary>(Object)
+  nameWithType: IValueTagExtensions.Cast<LocalizerDictionary>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Localizations.LocalizerDictionary>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of LocalizerDictionary)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Localizations.LocalizerDictionary)(System.Object)
+  name.vb: Cast(Of LocalizerDictionary)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<LocalizerDictionary>
+    nameWithType: IValueTagExtensions.Cast<LocalizerDictionary>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Localizations.LocalizerDictionary>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of LocalizerDictionary)
+    nameWithType: IValueTagExtensions.Cast(Of LocalizerDictionary)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Localizations.LocalizerDictionary)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Localizations.LocalizerDictionary.#ctor*
+  commentId: Overload:Vortex.Localizations.LocalizerDictionary.#ctor
+  name: LocalizerDictionary
+  nameWithType: LocalizerDictionary.LocalizerDictionary
+  fullName: Vortex.Localizations.LocalizerDictionary.LocalizerDictionary
+- uid: Vortex.Localizations.LocalizerDictionary.Culture*
+  commentId: Overload:Vortex.Localizations.LocalizerDictionary.Culture
+  name: Culture
+  nameWithType: LocalizerDictionary.Culture
+  fullName: Vortex.Localizations.LocalizerDictionary.Culture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vortex.Localizations.LocalizerDictionary.Dictionary*
+  commentId: Overload:Vortex.Localizations.LocalizerDictionary.Dictionary
+  name: Dictionary
+  nameWithType: LocalizerDictionary.Dictionary
+  fullName: Vortex.Localizations.LocalizerDictionary.Dictionary
+- uid: System.Collections.Generic.List{Vortex.Localizations.Localizables}
+  commentId: T:System.Collections.Generic.List{Vortex.Localizations.Localizables}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Localizables>
+  nameWithType: List<Localizables>
+  fullName: System.Collections.Generic.List<Vortex.Localizations.Localizables>
+  nameWithType.vb: List(Of Localizables)
+  fullName.vb: System.Collections.Generic.List(Of Vortex.Localizations.Localizables)
+  name.vb: List(Of Localizables)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Localizations.Localizables
+    name: Localizables
+    nameWithType: Localizables
+    fullName: Vortex.Localizations.Localizables
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Localizations.Localizables
+    name: Localizables
+    nameWithType: Localizables
+    fullName: Vortex.Localizations.Localizables
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.SortedList{System.String,Vortex.Localizations.Localizables}
+  commentId: T:System.Collections.Generic.SortedList{System.String,Vortex.Localizations.Localizables}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.SortedList`2
+  name: SortedList<String, Localizables>
+  nameWithType: SortedList<String, Localizables>
+  fullName: System.Collections.Generic.SortedList<System.String, Vortex.Localizations.Localizables>
+  nameWithType.vb: SortedList(Of String, Localizables)
+  fullName.vb: System.Collections.Generic.SortedList(Of System.String, Vortex.Localizations.Localizables)
+  name.vb: SortedList(Of String, Localizables)
+  spec.csharp:
+  - uid: System.Collections.Generic.SortedList`2
+    name: SortedList
+    nameWithType: SortedList
+    fullName: System.Collections.Generic.SortedList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vortex.Localizations.Localizables
+    name: Localizables
+    nameWithType: Localizables
+    fullName: Vortex.Localizations.Localizables
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.SortedList`2
+    name: SortedList
+    nameWithType: SortedList
+    fullName: System.Collections.Generic.SortedList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vortex.Localizations.Localizables
+    name: Localizables
+    nameWithType: Localizables
+    fullName: Vortex.Localizations.Localizables
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.SortedList`2
+  commentId: T:System.Collections.Generic.SortedList`2
+  isExternal: true
+  name: SortedList<TKey, TValue>
+  nameWithType: SortedList<TKey, TValue>
+  fullName: System.Collections.Generic.SortedList<TKey, TValue>
+  nameWithType.vb: SortedList(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.SortedList(Of TKey, TValue)
+  name.vb: SortedList(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.SortedList`2
+    name: SortedList
+    nameWithType: SortedList
+    fullName: System.Collections.Generic.SortedList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.SortedList`2
+    name: SortedList
+    nameWithType: SortedList
+    fullName: System.Collections.Generic.SortedList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Localizations.LocalizerDictionary.SortedDictionary*
+  commentId: Overload:Vortex.Localizations.LocalizerDictionary.SortedDictionary
+  name: SortedDictionary
+  nameWithType: LocalizerDictionary.SortedDictionary
+  fullName: Vortex.Localizations.LocalizerDictionary.SortedDictionary

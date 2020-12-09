@@ -1,0 +1,397 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineDInt
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineDInt
+  id: IOnlineDInt
+  parent: Vortex.Connector.ValueTypes.Online
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IOnlineDInt
+  nameWithType: IOnlineDInt
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineDInt
+  type: Interface
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IOnlines/IOnlineDInt.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IOnlineDInt
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IOnlines/IOnlineDInt.cs
+    startLine: 7
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.ValueTypes.Online
+  summary: "\nDefines contract to access online value of <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref>; DINT type of the PLC.\n"
+  example: []
+  syntax:
+    content: 'public interface IOnlineDInt : IOnline<int>'
+    content.vb: >-
+      Public Interface IOnlineDInt
+          Inherits IOnline(Of Integer)
+  inheritedMembers:
+  - Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Symbol
+  - Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.AttributeName
+  - Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.AttributeUnits
+  - Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Cyclic
+  - Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Edit
+  - Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Synchron
+  - Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Value
+  - Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.ValueChanged
+  - Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.CyclicReading
+  extensionMethods:
+  - Vortex.Connector.ValueTypes.Online.IOnlineDInt.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vortex.Connector.ValueTypes.Online
+  commentId: N:Vortex.Connector.ValueTypes.Online
+  name: Vortex.Connector.ValueTypes.Online
+  nameWithType: Vortex.Connector.ValueTypes.Online
+  fullName: Vortex.Connector.ValueTypes.Online
+- uid: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Symbol
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Symbol
+  parent: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}
+  definition: Vortex.Connector.ValueTypes.Online.IOnline`1.Symbol
+  name: Symbol
+  nameWithType: IOnline<Int32>.Symbol
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<System.Int32>.Symbol
+  nameWithType.vb: IOnline(Of Int32).Symbol
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of System.Int32).Symbol
+- uid: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.AttributeName
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.AttributeName
+  parent: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}
+  definition: Vortex.Connector.ValueTypes.Online.IOnline`1.AttributeName
+  name: AttributeName
+  nameWithType: IOnline<Int32>.AttributeName
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<System.Int32>.AttributeName
+  nameWithType.vb: IOnline(Of Int32).AttributeName
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of System.Int32).AttributeName
+- uid: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.AttributeUnits
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.AttributeUnits
+  parent: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}
+  definition: Vortex.Connector.ValueTypes.Online.IOnline`1.AttributeUnits
+  name: AttributeUnits
+  nameWithType: IOnline<Int32>.AttributeUnits
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<System.Int32>.AttributeUnits
+  nameWithType.vb: IOnline(Of Int32).AttributeUnits
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of System.Int32).AttributeUnits
+- uid: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Cyclic
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Cyclic
+  parent: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}
+  definition: Vortex.Connector.ValueTypes.Online.IOnline`1.Cyclic
+  name: Cyclic
+  nameWithType: IOnline<Int32>.Cyclic
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<System.Int32>.Cyclic
+  nameWithType.vb: IOnline(Of Int32).Cyclic
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of System.Int32).Cyclic
+- uid: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Edit
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Edit
+  parent: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}
+  definition: Vortex.Connector.ValueTypes.Online.IOnline`1.Edit
+  name: Edit
+  nameWithType: IOnline<Int32>.Edit
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<System.Int32>.Edit
+  nameWithType.vb: IOnline(Of Int32).Edit
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of System.Int32).Edit
+- uid: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Synchron
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Synchron
+  parent: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}
+  definition: Vortex.Connector.ValueTypes.Online.IOnline`1.Synchron
+  name: Synchron
+  nameWithType: IOnline<Int32>.Synchron
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<System.Int32>.Synchron
+  nameWithType.vb: IOnline(Of Int32).Synchron
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of System.Int32).Synchron
+- uid: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Value
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Value
+  parent: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}
+  definition: Vortex.Connector.ValueTypes.Online.IOnline`1.Value
+  name: Value
+  nameWithType: IOnline<Int32>.Value
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<System.Int32>.Value
+  nameWithType.vb: IOnline(Of Int32).Value
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of System.Int32).Value
+- uid: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.ValueChanged
+  commentId: E:Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.ValueChanged
+  parent: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}
+  definition: Vortex.Connector.ValueTypes.Online.IOnline`1.ValueChanged
+  name: ValueChanged
+  nameWithType: IOnline<Int32>.ValueChanged
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<System.Int32>.ValueChanged
+  nameWithType.vb: IOnline(Of Int32).ValueChanged
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of System.Int32).ValueChanged
+- uid: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.CyclicReading
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.CyclicReading
+  parent: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}
+  definition: Vortex.Connector.ValueTypes.Online.IOnline`1.CyclicReading
+  name: CyclicReading
+  nameWithType: IOnline<Int32>.CyclicReading
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<System.Int32>.CyclicReading
+  nameWithType.vb: IOnline(Of Int32).CyclicReading
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of System.Int32).CyclicReading
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineDInt.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<IOnlineDInt>(Object)
+  nameWithType: IValueTagExtensions.Cast<IOnlineDInt>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.ValueTypes.Online.IOnlineDInt>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of IOnlineDInt)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.ValueTypes.Online.IOnlineDInt)(System.Object)
+  name.vb: Cast(Of IOnlineDInt)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<IOnlineDInt>
+    nameWithType: IValueTagExtensions.Cast<IOnlineDInt>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.ValueTypes.Online.IOnlineDInt>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of IOnlineDInt)
+    nameWithType: IValueTagExtensions.Cast(Of IOnlineDInt)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.ValueTypes.Online.IOnlineDInt)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.ValueTypes.Online.IOnline`1.Symbol
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline`1.Symbol
+  name: Symbol
+  nameWithType: IOnline<T>.Symbol
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<T>.Symbol
+  nameWithType.vb: IOnline(Of T).Symbol
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of T).Symbol
+- uid: Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}
+  parent: Vortex.Connector.ValueTypes.Online
+  definition: Vortex.Connector.ValueTypes.Online.IOnline`1
+  name: IOnline<Int32>
+  nameWithType: IOnline<Int32>
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<System.Int32>
+  nameWithType.vb: IOnline(Of Int32)
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of System.Int32)
+  name.vb: IOnline(Of Int32)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.Online.IOnline`1
+    name: IOnline
+    nameWithType: IOnline
+    fullName: Vortex.Connector.ValueTypes.Online.IOnline
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.Online.IOnline`1
+    name: IOnline
+    nameWithType: IOnline
+    fullName: Vortex.Connector.ValueTypes.Online.IOnline
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.Online.IOnline`1.AttributeName
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline`1.AttributeName
+  name: AttributeName
+  nameWithType: IOnline<T>.AttributeName
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeName
+  nameWithType.vb: IOnline(Of T).AttributeName
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of T).AttributeName
+- uid: Vortex.Connector.ValueTypes.Online.IOnline`1.AttributeUnits
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline`1.AttributeUnits
+  name: AttributeUnits
+  nameWithType: IOnline<T>.AttributeUnits
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeUnits
+  nameWithType.vb: IOnline(Of T).AttributeUnits
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of T).AttributeUnits
+- uid: Vortex.Connector.ValueTypes.Online.IOnline`1.Cyclic
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline`1.Cyclic
+  name: Cyclic
+  nameWithType: IOnline<T>.Cyclic
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<T>.Cyclic
+  nameWithType.vb: IOnline(Of T).Cyclic
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of T).Cyclic
+- uid: Vortex.Connector.ValueTypes.Online.IOnline`1.Edit
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline`1.Edit
+  name: Edit
+  nameWithType: IOnline<T>.Edit
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<T>.Edit
+  nameWithType.vb: IOnline(Of T).Edit
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of T).Edit
+- uid: Vortex.Connector.ValueTypes.Online.IOnline`1.Synchron
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline`1.Synchron
+  name: Synchron
+  nameWithType: IOnline<T>.Synchron
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<T>.Synchron
+  nameWithType.vb: IOnline(Of T).Synchron
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of T).Synchron
+- uid: Vortex.Connector.ValueTypes.Online.IOnline`1.Value
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline`1.Value
+  name: Value
+  nameWithType: IOnline<T>.Value
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<T>.Value
+  nameWithType.vb: IOnline(Of T).Value
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of T).Value
+- uid: Vortex.Connector.ValueTypes.Online.IOnline`1.ValueChanged
+  commentId: E:Vortex.Connector.ValueTypes.Online.IOnline`1.ValueChanged
+  name: ValueChanged
+  nameWithType: IOnline<T>.ValueChanged
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<T>.ValueChanged
+  nameWithType.vb: IOnline(Of T).ValueChanged
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of T).ValueChanged
+- uid: Vortex.Connector.ValueTypes.Online.IOnline`1.CyclicReading
+  commentId: P:Vortex.Connector.ValueTypes.Online.IOnline`1.CyclicReading
+  name: CyclicReading
+  nameWithType: IOnline<T>.CyclicReading
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<T>.CyclicReading
+  nameWithType.vb: IOnline(Of T).CyclicReading
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of T).CyclicReading
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector.ValueTypes.Online.IOnline`1
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnline`1
+  name: IOnline<T>
+  nameWithType: IOnline<T>
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<T>
+  nameWithType.vb: IOnline(Of T)
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of T)
+  name.vb: IOnline(Of T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.Online.IOnline`1
+    name: IOnline
+    nameWithType: IOnline
+    fullName: Vortex.Connector.ValueTypes.Online.IOnline
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.Online.IOnline`1
+    name: IOnline
+    nameWithType: IOnline
+    fullName: Vortex.Connector.ValueTypes.Online.IOnline
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector

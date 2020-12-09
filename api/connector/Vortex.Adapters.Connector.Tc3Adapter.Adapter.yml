@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Adapters.Connector.Tc3Adapter.Adapter
+  commentId: N:Vortex.Adapters.Connector.Tc3Adapter.Adapter
+  id: Vortex.Adapters.Connector.Tc3Adapter.Adapter
+  children:
+  - Vortex.Adapters.Connector.Tc3Adapter.Adapter.NamespaceDoc
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Adapters.Connector.Tc3Adapter.Adapter
+  nameWithType: Vortex.Adapters.Connector.Tc3Adapter.Adapter
+  fullName: Vortex.Adapters.Connector.Tc3Adapter.Adapter
+  type: Namespace
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+references:
+- uid: Vortex.Adapters.Connector.Tc3Adapter.Adapter.NamespaceDoc
+  commentId: T:Vortex.Adapters.Connector.Tc3Adapter.Adapter.NamespaceDoc
+  name: NamespaceDoc
+  nameWithType: NamespaceDoc
+  fullName: Vortex.Adapters.Connector.Tc3Adapter.Adapter.NamespaceDoc

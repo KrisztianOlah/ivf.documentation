@@ -1,0 +1,291 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.DataExchangeStatusEnum
+  commentId: T:Vortex.Connector.DataExchangeStatusEnum
+  id: DataExchangeStatusEnum
+  parent: Vortex.Connector
+  children:
+  - Vortex.Connector.DataExchangeStatusEnum.Init
+  - Vortex.Connector.DataExchangeStatusEnum.Live
+  - Vortex.Connector.DataExchangeStatusEnum.NoComm
+  - Vortex.Connector.DataExchangeStatusEnum.SymbolLoading
+  langs:
+  - csharp
+  - vb
+  name: DataExchangeStatusEnum
+  nameWithType: DataExchangeStatusEnum
+  fullName: Vortex.Connector.DataExchangeStatusEnum
+  type: Enum
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: DataExchangeStatusEnum
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
+    startLine: 5
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nEnumerates possible states of communication with target system.\n"
+  example: []
+  syntax:
+    content: public enum DataExchangeStatusEnum
+    content.vb: Public Enum DataExchangeStatusEnum
+  extensionMethods:
+  - Vortex.Connector.DataExchangeStatusEnum.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vortex.Connector.DataExchangeStatusEnum.NoComm
+  commentId: F:Vortex.Connector.DataExchangeStatusEnum.NoComm
+  id: NoComm
+  parent: Vortex.Connector.DataExchangeStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: NoComm
+  nameWithType: DataExchangeStatusEnum.NoComm
+  fullName: Vortex.Connector.DataExchangeStatusEnum.NoComm
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: NoComm
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
+    startLine: 10
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nNo communication target not available or in a state where communication is not possible.\n"
+  example: []
+  syntax:
+    content: NoComm = 0
+    return:
+      type: Vortex.Connector.DataExchangeStatusEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.DataExchangeStatusEnum.Init
+  commentId: F:Vortex.Connector.DataExchangeStatusEnum.Init
+  id: Init
+  parent: Vortex.Connector.DataExchangeStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: Init
+  nameWithType: DataExchangeStatusEnum.Init
+  fullName: Vortex.Connector.DataExchangeStatusEnum.Init
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Init
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
+    startLine: 14
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCommunication with the target system is being initialized.\n"
+  example: []
+  syntax:
+    content: Init = 1
+    return:
+      type: Vortex.Connector.DataExchangeStatusEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.DataExchangeStatusEnum.SymbolLoading
+  commentId: F:Vortex.Connector.DataExchangeStatusEnum.SymbolLoading
+  id: SymbolLoading
+  parent: Vortex.Connector.DataExchangeStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: SymbolLoading
+  nameWithType: DataExchangeStatusEnum.SymbolLoading
+  fullName: Vortex.Connector.DataExchangeStatusEnum.SymbolLoading
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SymbolLoading
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
+    startLine: 18
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nApplication is loading the symbols from the target system.\n"
+  example: []
+  syntax:
+    content: SymbolLoading = 2
+    return:
+      type: Vortex.Connector.DataExchangeStatusEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.DataExchangeStatusEnum.Live
+  commentId: F:Vortex.Connector.DataExchangeStatusEnum.Live
+  id: Live
+  parent: Vortex.Connector.DataExchangeStatusEnum
+  langs:
+  - csharp
+  - vb
+  name: Live
+  nameWithType: DataExchangeStatusEnum.Live
+  fullName: Vortex.Connector.DataExchangeStatusEnum.Live
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Live
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
+    startLine: 22
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCommunication is up and running.\n"
+  example: []
+  syntax:
+    content: Live = 3
+    return:
+      type: Vortex.Connector.DataExchangeStatusEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.DataExchangeStatusEnum.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<DataExchangeStatusEnum>(Object)
+  nameWithType: IValueTagExtensions.Cast<DataExchangeStatusEnum>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.DataExchangeStatusEnum>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of DataExchangeStatusEnum)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.DataExchangeStatusEnum)(System.Object)
+  name.vb: Cast(Of DataExchangeStatusEnum)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<DataExchangeStatusEnum>
+    nameWithType: IValueTagExtensions.Cast<DataExchangeStatusEnum>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.DataExchangeStatusEnum>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of DataExchangeStatusEnum)
+    nameWithType: IValueTagExtensions.Cast(Of DataExchangeStatusEnum)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.DataExchangeStatusEnum)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector.DataExchangeStatusEnum
+  commentId: T:Vortex.Connector.DataExchangeStatusEnum
+  parent: Vortex.Connector
+  name: DataExchangeStatusEnum
+  nameWithType: DataExchangeStatusEnum
+  fullName: Vortex.Connector.DataExchangeStatusEnum

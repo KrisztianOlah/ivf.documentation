@@ -1,0 +1,1986 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient
+  commentId: T:Vortex.Adapters.Connector.Tc3.LiveClient
+  id: LiveClient
+  parent: Vortex.Adapters.Connector.Tc3
+  children:
+  - Vortex.Adapters.Connector.Tc3.LiveClient.AmsNetId
+  - Vortex.Adapters.Connector.Tc3.LiveClient.ClientAdsStateChanged(System.Object,TwinCAT.Ads.AdsStateChangedEventArgs)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.Connect(System.Int32)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.Connect(System.String,System.Int32)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.CreateVariableHandle(System.String)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.Dispose
+  - Vortex.Adapters.Connector.Tc3.LiveClient.InternalAdsClient
+  - Vortex.Adapters.Connector.Tc3.LiveClient.IsConnected
+  - Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolList(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolListAll(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.OnAdsStateChangeEvent
+  - Vortex.Adapters.Connector.Tc3.LiveClient.onlineSymbolRetriever
+  - Vortex.Adapters.Connector.Tc3.LiveClient.OnlineSymbolRetriever
+  - Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32,System.UInt32,System.Memory{System.Byte})
+  - Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny(System.UInt32,System.UInt32,System.Type)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny``1(System.UInt32,System.UInt32,System.Int32[])
+  - Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyWString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.ReadSymbolInfo(System.String)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32,System.UInt32,System.Memory{System.Byte},System.ReadOnlyMemory{System.Byte})
+  - Vortex.Adapters.Connector.Tc3.LiveClient.SymbolLoaderSession
+  - Vortex.Adapters.Connector.Tc3.LiveClient.Timeout
+  - Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect(System.Int32,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect(System.String,System.Int32,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.TryReadState(TwinCAT.Ads.StateInfo@)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32,System.UInt32,System.ReadOnlyMemory{System.Byte})
+  - Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny``1(System.UInt32,System.UInt32,``0)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny``1(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,``0)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,System.String)
+  - Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyWString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,System.String)
+  langs:
+  - csharp
+  - vb
+  name: LiveClient
+  nameWithType: LiveClient
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: LiveClient
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 9
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: class LiveClient
+    content.vb: Class LiveClient
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Vortex.Adapters.Connector.Tc3.LiveClient.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - class
+  modifiers.vb:
+  - Class
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.onlineSymbolRetriever
+  commentId: F:Vortex.Adapters.Connector.Tc3.LiveClient.onlineSymbolRetriever
+  id: onlineSymbolRetriever
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: onlineSymbolRetriever
+  nameWithType: LiveClient.onlineSymbolRetriever
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.onlineSymbolRetriever
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: onlineSymbolRetriever
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 11
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: readonly OnlineSymbolRetriever onlineSymbolRetriever
+    return:
+      type: Vortex.Adapters.Connector.Tc3.OnlineSymbolRetriever
+    content.vb: ReadOnly onlineSymbolRetriever As OnlineSymbolRetriever
+  modifiers.csharp:
+  - readonly
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ClientAdsStateChanged(System.Object,TwinCAT.Ads.AdsStateChangedEventArgs)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.ClientAdsStateChanged(System.Object,TwinCAT.Ads.AdsStateChangedEventArgs)
+  id: ClientAdsStateChanged(System.Object,TwinCAT.Ads.AdsStateChangedEventArgs)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: ClientAdsStateChanged(Object, AdsStateChangedEventArgs)
+  nameWithType: LiveClient.ClientAdsStateChanged(Object, AdsStateChangedEventArgs)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ClientAdsStateChanged(System.Object, TwinCAT.Ads.AdsStateChangedEventArgs)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ClientAdsStateChanged
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 13
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: void ClientAdsStateChanged(object sender, AdsStateChangedEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: TwinCAT.Ads.AdsStateChangedEventArgs
+    content.vb: Sub ClientAdsStateChanged(sender As Object, e As AdsStateChangedEventArgs)
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.ClientAdsStateChanged*
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolListAll(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolListAll(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  id: LoadAndSortOnlineVariablesSymbolListAll(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: LoadAndSortOnlineVariablesSymbolListAll(AdsConnector)
+  nameWithType: LiveClient.LoadAndSortOnlineVariablesSymbolListAll(AdsConnector)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolListAll(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: LoadAndSortOnlineVariablesSymbolListAll
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 24
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: void LoadAndSortOnlineVariablesSymbolListAll(AdsConnector connector)
+    parameters:
+    - id: connector
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector
+    content.vb: Sub LoadAndSortOnlineVariablesSymbolListAll(connector As AdsConnector)
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolListAll*
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.SymbolLoaderSession
+  commentId: F:Vortex.Adapters.Connector.Tc3.LiveClient.SymbolLoaderSession
+  id: SymbolLoaderSession
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: SymbolLoaderSession
+  nameWithType: LiveClient.SymbolLoaderSession
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.SymbolLoaderSession
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SymbolLoaderSession
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 42
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: AdsSession SymbolLoaderSession
+    return:
+      type: TwinCAT.Ads.AdsSession
+    content.vb: SymbolLoaderSession As AdsSession
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Connect(System.Int32)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.Connect(System.Int32)
+  id: Connect(System.Int32)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: Connect(Int32)
+  nameWithType: LiveClient.Connect(Int32)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Connect(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Connect
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 44
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public void Connect(int srvPort)
+    parameters:
+    - id: srvPort
+      type: System.Int32
+    content.vb: Public Sub Connect(srvPort As Integer)
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.Connect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Connect(System.String,System.Int32)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.Connect(System.String,System.Int32)
+  id: Connect(System.String,System.Int32)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: Connect(String, Int32)
+  nameWithType: LiveClient.Connect(String, Int32)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Connect(System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Connect
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 54
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public void Connect(string netId, int srvPort)
+    parameters:
+    - id: netId
+      type: System.String
+    - id: srvPort
+      type: System.Int32
+    content.vb: Public Sub Connect(netId As String, srvPort As Integer)
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.Connect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.CreateVariableHandle(System.String)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.CreateVariableHandle(System.String)
+  id: CreateVariableHandle(System.String)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: CreateVariableHandle(String)
+  nameWithType: LiveClient.CreateVariableHandle(String)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.CreateVariableHandle(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateVariableHandle
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 68
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public uint CreateVariableHandle(string varName)
+    parameters:
+    - id: varName
+      type: System.String
+    return:
+      type: System.UInt32
+    content.vb: Public Function CreateVariableHandle(varName As String) As UInteger
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.CreateVariableHandle*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Dispose
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.Dispose
+  id: Dispose
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: LiveClient.Dispose()
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Dispose()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Dispose
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 72
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolList(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolList(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  id: LoadAndSortOnlineVariablesSymbolList(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: LoadAndSortOnlineVariablesSymbolList(AdsConnector)
+  nameWithType: LiveClient.LoadAndSortOnlineVariablesSymbolList(AdsConnector)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolList(Vortex.Adapters.Connector.Tc3.AdsConnector)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: LoadAndSortOnlineVariablesSymbolList
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 76
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public void LoadAndSortOnlineVariablesSymbolList(AdsConnector connector)
+    parameters:
+    - id: connector
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector
+    content.vb: Public Sub LoadAndSortOnlineVariablesSymbolList(connector As AdsConnector)
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32,System.UInt32,System.Memory{System.Byte})
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32,System.UInt32,System.Memory{System.Byte})
+  id: Read(System.UInt32,System.UInt32,System.Memory{System.Byte})
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: Read(UInt32, UInt32, Memory<Byte>)
+  nameWithType: LiveClient.Read(UInt32, UInt32, Memory<Byte>)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32, System.UInt32, System.Memory<System.Byte>)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Read
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 80
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public void Read(uint indexGroup, uint indexOffset, Memory<byte> adsStream)
+    parameters:
+    - id: indexGroup
+      type: System.UInt32
+    - id: indexOffset
+      type: System.UInt32
+    - id: adsStream
+      type: System.Memory{System.Byte}
+    content.vb: Public Sub Read(indexGroup As UInteger, indexOffset As UInteger, adsStream As Memory(Of Byte))
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.Read*
+  nameWithType.vb: LiveClient.Read(UInt32, UInt32, Memory(Of Byte))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32, System.UInt32, System.Memory(Of System.Byte))
+  name.vb: Read(UInt32, UInt32, Memory(Of Byte))
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny(System.UInt32,System.UInt32,System.Type)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny(System.UInt32,System.UInt32,System.Type)
+  id: ReadAny(System.UInt32,System.UInt32,System.Type)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: ReadAny(UInt32, UInt32, Type)
+  nameWithType: LiveClient.ReadAny(UInt32, UInt32, Type)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny(System.UInt32, System.UInt32, System.Type)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReadAny
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 85
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public object ReadAny(uint indexGroup, uint indexOffset, Type type)
+    parameters:
+    - id: indexGroup
+      type: System.UInt32
+    - id: indexOffset
+      type: System.UInt32
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: Public Function ReadAny(indexGroup As UInteger, indexOffset As UInteger, type As Type) As Object
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  id: ReadAnyString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: ReadAnyString(OnlineVariableInfo)
+  nameWithType: LiveClient.ReadAnyString(OnlineVariableInfo)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReadAnyString
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 90
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public string ReadAnyString(OnlineVariableInfo varInfo)
+    parameters:
+    - id: varInfo
+      type: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+    return:
+      type: System.String
+    content.vb: Public Function ReadAnyString(varInfo As OnlineVariableInfo) As String
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyWString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyWString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  id: ReadAnyWString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: ReadAnyWString(OnlineVariableInfo)
+  nameWithType: LiveClient.ReadAnyWString(OnlineVariableInfo)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyWString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReadAnyWString
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 99
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public string ReadAnyWString(OnlineVariableInfo varInfo)
+    parameters:
+    - id: varInfo
+      type: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+    return:
+      type: System.String
+    content.vb: Public Function ReadAnyWString(varInfo As OnlineVariableInfo) As String
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyWString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny``1(System.UInt32,System.UInt32,System.Int32[])
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny``1(System.UInt32,System.UInt32,System.Int32[])
+  id: ReadAny``1(System.UInt32,System.UInt32,System.Int32[])
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: ReadAny<T>(UInt32, UInt32, Int32[])
+  nameWithType: LiveClient.ReadAny<T>(UInt32, UInt32, Int32[])
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny<T>(System.UInt32, System.UInt32, System.Int32[])
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReadAny
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 108
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public T ReadAny<T>(uint indexGroup, uint indexOffset, int[] args)
+    parameters:
+    - id: indexGroup
+      type: System.UInt32
+    - id: indexOffset
+      type: System.UInt32
+    - id: args
+      type: System.Int32[]
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function ReadAny(Of T)(indexGroup As UInteger, indexOffset As UInteger, args As Integer()) As T
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny*
+  nameWithType.vb: LiveClient.ReadAny(Of T)(UInt32, UInt32, Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny(Of T)(System.UInt32, System.UInt32, System.Int32())
+  name.vb: ReadAny(Of T)(UInt32, UInt32, Int32())
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ReadSymbolInfo(System.String)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.ReadSymbolInfo(System.String)
+  id: ReadSymbolInfo(System.String)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: ReadSymbolInfo(String)
+  nameWithType: LiveClient.ReadSymbolInfo(String)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ReadSymbolInfo(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReadSymbolInfo
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 113
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public IAdsSymbol ReadSymbolInfo(string symbol)
+    parameters:
+    - id: symbol
+      type: System.String
+    return:
+      type: TwinCAT.Ads.TypeSystem.IAdsSymbol
+    content.vb: Public Function ReadSymbolInfo(symbol As String) As IAdsSymbol
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.ReadSymbolInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32,System.UInt32,System.Memory{System.Byte},System.ReadOnlyMemory{System.Byte})
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32,System.UInt32,System.Memory{System.Byte},System.ReadOnlyMemory{System.Byte})
+  id: ReadWrite(System.UInt32,System.UInt32,System.Memory{System.Byte},System.ReadOnlyMemory{System.Byte})
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: ReadWrite(UInt32, UInt32, Memory<Byte>, ReadOnlyMemory<Byte>)
+  nameWithType: LiveClient.ReadWrite(UInt32, UInt32, Memory<Byte>, ReadOnlyMemory<Byte>)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32, System.UInt32, System.Memory<System.Byte>, System.ReadOnlyMemory<System.Byte>)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReadWrite
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 117
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public void ReadWrite(uint indexGroup, uint indexOffset, Memory<byte> rdDataStream, ReadOnlyMemory<byte> wrDataStream)
+    parameters:
+    - id: indexGroup
+      type: System.UInt32
+    - id: indexOffset
+      type: System.UInt32
+    - id: rdDataStream
+      type: System.Memory{System.Byte}
+    - id: wrDataStream
+      type: System.ReadOnlyMemory{System.Byte}
+    content.vb: Public Sub ReadWrite(indexGroup As UInteger, indexOffset As UInteger, rdDataStream As Memory(Of Byte), wrDataStream As ReadOnlyMemory(Of Byte))
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite*
+  nameWithType.vb: LiveClient.ReadWrite(UInt32, UInt32, Memory(Of Byte), ReadOnlyMemory(Of Byte))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32, System.UInt32, System.Memory(Of System.Byte), System.ReadOnlyMemory(Of System.Byte))
+  name.vb: ReadWrite(UInt32, UInt32, Memory(Of Byte), ReadOnlyMemory(Of Byte))
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect(System.Int32,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect(System.Int32,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  id: TryConnect(System.Int32,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: TryConnect(Int32, AdsConnector)
+  nameWithType: LiveClient.TryConnect(Int32, AdsConnector)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect(System.Int32, Vortex.Adapters.Connector.Tc3.AdsConnector)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: TryConnect
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 122
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public void TryConnect(int srvPort, AdsConnector connector)
+    parameters:
+    - id: srvPort
+      type: System.Int32
+    - id: connector
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector
+    content.vb: Public Sub TryConnect(srvPort As Integer, connector As AdsConnector)
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect(System.String,System.Int32,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect(System.String,System.Int32,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  id: TryConnect(System.String,System.Int32,Vortex.Adapters.Connector.Tc3.AdsConnector)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: TryConnect(String, Int32, AdsConnector)
+  nameWithType: LiveClient.TryConnect(String, Int32, AdsConnector)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect(System.String, System.Int32, Vortex.Adapters.Connector.Tc3.AdsConnector)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: TryConnect
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 127
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public void TryConnect(string netId, int srvPort, AdsConnector connector)
+    parameters:
+    - id: netId
+      type: System.String
+    - id: srvPort
+      type: System.Int32
+    - id: connector
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector
+    content.vb: Public Sub TryConnect(netId As String, srvPort As Integer, connector As AdsConnector)
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.TryReadState(TwinCAT.Ads.StateInfo@)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.TryReadState(TwinCAT.Ads.StateInfo@)
+  id: TryReadState(TwinCAT.Ads.StateInfo@)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: TryReadState(out StateInfo)
+  nameWithType: LiveClient.TryReadState(out StateInfo)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.TryReadState(out TwinCAT.Ads.StateInfo)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: TryReadState
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 183
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public AdsErrorCode TryReadState(out StateInfo stateInfo)
+    parameters:
+    - id: stateInfo
+      type: TwinCAT.Ads.StateInfo
+    return:
+      type: TwinCAT.Ads.AdsErrorCode
+    content.vb: Public Function TryReadState(ByRef stateInfo As StateInfo) As AdsErrorCode
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.TryReadState*
+  nameWithType.vb: LiveClient.TryReadState(ByRef StateInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Adapters.Connector.Tc3.LiveClient.TryReadState(ByRef TwinCAT.Ads.StateInfo)
+  name.vb: TryReadState(ByRef StateInfo)
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32,System.UInt32,System.ReadOnlyMemory{System.Byte})
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32,System.UInt32,System.ReadOnlyMemory{System.Byte})
+  id: Write(System.UInt32,System.UInt32,System.ReadOnlyMemory{System.Byte})
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: Write(UInt32, UInt32, ReadOnlyMemory<Byte>)
+  nameWithType: LiveClient.Write(UInt32, UInt32, ReadOnlyMemory<Byte>)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32, System.UInt32, System.ReadOnlyMemory<System.Byte>)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Write
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 189
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public void Write(uint indexGroup, uint indexOffset, ReadOnlyMemory<byte> adsStream)
+    parameters:
+    - id: indexGroup
+      type: System.UInt32
+    - id: indexOffset
+      type: System.UInt32
+    - id: adsStream
+      type: System.ReadOnlyMemory{System.Byte}
+    content.vb: Public Sub Write(indexGroup As UInteger, indexOffset As UInteger, adsStream As ReadOnlyMemory(Of Byte))
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.Write*
+  nameWithType.vb: LiveClient.Write(UInt32, UInt32, ReadOnlyMemory(Of Byte))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32, System.UInt32, System.ReadOnlyMemory(Of System.Byte))
+  name.vb: Write(UInt32, UInt32, ReadOnlyMemory(Of Byte))
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny``1(System.UInt32,System.UInt32,``0)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny``1(System.UInt32,System.UInt32,``0)
+  id: WriteAny``1(System.UInt32,System.UInt32,``0)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: WriteAny<T>(UInt32, UInt32, T)
+  nameWithType: LiveClient.WriteAny<T>(UInt32, UInt32, T)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny<T>(System.UInt32, System.UInt32, T)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: WriteAny
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 194
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public void WriteAny<T>(uint indexGroup, uint indexOffset, T value)
+    parameters:
+    - id: indexGroup
+      type: System.UInt32
+    - id: indexOffset
+      type: System.UInt32
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub WriteAny(Of T)(indexGroup As UInteger, indexOffset As UInteger, value As T)
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny*
+  nameWithType.vb: LiveClient.WriteAny(Of T)(UInt32, UInt32, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny(Of T)(System.UInt32, System.UInt32, T)
+  name.vb: WriteAny(Of T)(UInt32, UInt32, T)
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny``1(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,``0)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny``1(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,``0)
+  id: WriteAny``1(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,``0)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: WriteAny<T>(OnlineVariableInfo, T)
+  nameWithType: LiveClient.WriteAny<T>(OnlineVariableInfo, T)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny<T>(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo, T)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: WriteAny
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 200
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public void WriteAny<T>(OnlineVariableInfo varInfo, T value)
+    parameters:
+    - id: varInfo
+      type: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub WriteAny(Of T)(varInfo As OnlineVariableInfo, value As T)
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny*
+  nameWithType.vb: LiveClient.WriteAny(Of T)(OnlineVariableInfo, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny(Of T)(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo, T)
+  name.vb: WriteAny(Of T)(OnlineVariableInfo, T)
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,System.String)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,System.String)
+  id: WriteAnyString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,System.String)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: WriteAnyString(OnlineVariableInfo, String)
+  nameWithType: LiveClient.WriteAnyString(OnlineVariableInfo, String)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: WriteAnyString
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 205
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public void WriteAnyString(OnlineVariableInfo varInfo, string value)
+    parameters:
+    - id: varInfo
+      type: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+    - id: value
+      type: System.String
+    content.vb: Public Sub WriteAnyString(varInfo As OnlineVariableInfo, value As String)
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyWString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,System.String)
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyWString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,System.String)
+  id: WriteAnyWString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,System.String)
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: WriteAnyWString(OnlineVariableInfo, String)
+  nameWithType: LiveClient.WriteAnyWString(OnlineVariableInfo, String)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyWString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: WriteAnyWString
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 219
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public void WriteAnyWString(OnlineVariableInfo varInfo, string value)
+    parameters:
+    - id: varInfo
+      type: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+    - id: value
+      type: System.String
+    content.vb: Public Sub WriteAnyWString(varInfo As OnlineVariableInfo, value As String)
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyWString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.InternalAdsClient
+  commentId: P:Vortex.Adapters.Connector.Tc3.LiveClient.InternalAdsClient
+  id: InternalAdsClient
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: InternalAdsClient
+  nameWithType: LiveClient.InternalAdsClient
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.InternalAdsClient
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: InternalAdsClient
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 233
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public AdsClient InternalAdsClient { get; }
+    parameters: []
+    return:
+      type: TwinCAT.Ads.AdsClient
+    content.vb: Public ReadOnly Property InternalAdsClient As AdsClient
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.InternalAdsClient*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.AmsNetId
+  commentId: P:Vortex.Adapters.Connector.Tc3.LiveClient.AmsNetId
+  id: AmsNetId
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: AmsNetId
+  nameWithType: LiveClient.AmsNetId
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.AmsNetId
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AmsNetId
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 238
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public AmsNetId AmsNetId { get; }
+    parameters: []
+    return:
+      type: TwinCAT.Ads.AmsNetId
+    content.vb: Public ReadOnly Property AmsNetId As AmsNetId
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.AmsNetId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.IsConnected
+  commentId: P:Vortex.Adapters.Connector.Tc3.LiveClient.IsConnected
+  id: IsConnected
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: IsConnected
+  nameWithType: LiveClient.IsConnected
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.IsConnected
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IsConnected
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 246
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public bool IsConnected { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsConnected As Boolean
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.IsConnected*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.OnAdsStateChangeEvent
+  commentId: P:Vortex.Adapters.Connector.Tc3.LiveClient.OnAdsStateChangeEvent
+  id: OnAdsStateChangeEvent
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: OnAdsStateChangeEvent
+  nameWithType: LiveClient.OnAdsStateChangeEvent
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.OnAdsStateChangeEvent
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: OnAdsStateChangeEvent
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 254
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public AdsConnector.OnAdsStateChangeDelegate OnAdsStateChangeEvent { get; set; }
+    parameters: []
+    return:
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector.OnAdsStateChangeDelegate
+    content.vb: Public Property OnAdsStateChangeEvent As AdsConnector.OnAdsStateChangeDelegate
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.OnAdsStateChangeEvent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.OnlineSymbolRetriever
+  commentId: P:Vortex.Adapters.Connector.Tc3.LiveClient.OnlineSymbolRetriever
+  id: OnlineSymbolRetriever
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: OnlineSymbolRetriever
+  nameWithType: LiveClient.OnlineSymbolRetriever
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.OnlineSymbolRetriever
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: OnlineSymbolRetriever
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 260
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public OnlineSymbolRetriever OnlineSymbolRetriever { get; }
+    parameters: []
+    return:
+      type: Vortex.Adapters.Connector.Tc3.OnlineSymbolRetriever
+    content.vb: Public ReadOnly Property OnlineSymbolRetriever As OnlineSymbolRetriever
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.OnlineSymbolRetriever*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Timeout
+  commentId: P:Vortex.Adapters.Connector.Tc3.LiveClient.Timeout
+  id: Timeout
+  parent: Vortex.Adapters.Connector.Tc3.LiveClient
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: LiveClient.Timeout
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Timeout
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Timeout
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
+    startLine: 268
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: public int Timeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Timeout As Integer
+  overload: Vortex.Adapters.Connector.Tc3.LiveClient.Timeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Vortex.Adapters.Connector.Tc3
+  commentId: N:Vortex.Adapters.Connector.Tc3
+  name: Vortex.Adapters.Connector.Tc3
+  nameWithType: Vortex.Adapters.Connector.Tc3
+  fullName: Vortex.Adapters.Connector.Tc3
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<LiveClient>(Object)
+  nameWithType: IValueTagExtensions.Cast<LiveClient>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.LiveClient>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of LiveClient)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.LiveClient)(System.Object)
+  name.vb: Cast(Of LiveClient)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<LiveClient>
+    nameWithType: IValueTagExtensions.Cast<LiveClient>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.LiveClient>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of LiveClient)
+    nameWithType: IValueTagExtensions.Cast(Of LiveClient)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.LiveClient)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Adapters.Connector.Tc3.OnlineSymbolRetriever
+  commentId: T:Vortex.Adapters.Connector.Tc3.OnlineSymbolRetriever
+  parent: Vortex.Adapters.Connector.Tc3
+  name: OnlineSymbolRetriever
+  nameWithType: OnlineSymbolRetriever
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineSymbolRetriever
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ClientAdsStateChanged*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.ClientAdsStateChanged
+  name: ClientAdsStateChanged
+  nameWithType: LiveClient.ClientAdsStateChanged
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ClientAdsStateChanged
+- uid: TwinCAT.Ads.AdsStateChangedEventArgs
+  commentId: T:TwinCAT.Ads.AdsStateChangedEventArgs
+  parent: TwinCAT.Ads
+  isExternal: true
+  name: AdsStateChangedEventArgs
+  nameWithType: AdsStateChangedEventArgs
+  fullName: TwinCAT.Ads.AdsStateChangedEventArgs
+- uid: TwinCAT.Ads
+  commentId: N:TwinCAT.Ads
+  isExternal: true
+  name: TwinCAT.Ads
+  nameWithType: TwinCAT.Ads
+  fullName: TwinCAT.Ads
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolListAll*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolListAll
+  name: LoadAndSortOnlineVariablesSymbolListAll
+  nameWithType: LiveClient.LoadAndSortOnlineVariablesSymbolListAll
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolListAll
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsConnector
+  parent: Vortex.Adapters.Connector.Tc3
+  name: AdsConnector
+  nameWithType: AdsConnector
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector
+- uid: TwinCAT.Ads.AdsSession
+  commentId: T:TwinCAT.Ads.AdsSession
+  parent: TwinCAT.Ads
+  isExternal: true
+  name: AdsSession
+  nameWithType: AdsSession
+  fullName: TwinCAT.Ads.AdsSession
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Connect*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.Connect
+  name: Connect
+  nameWithType: LiveClient.Connect
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Connect
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.CreateVariableHandle*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.CreateVariableHandle
+  name: CreateVariableHandle
+  nameWithType: LiveClient.CreateVariableHandle
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.CreateVariableHandle
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Dispose*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.Dispose
+  name: Dispose
+  nameWithType: LiveClient.Dispose
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Dispose
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolList*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolList
+  name: LoadAndSortOnlineVariablesSymbolList
+  nameWithType: LiveClient.LoadAndSortOnlineVariablesSymbolList
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.LoadAndSortOnlineVariablesSymbolList
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Read*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.Read
+  name: Read
+  nameWithType: LiveClient.Read
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Read
+- uid: System.Memory{System.Byte}
+  commentId: T:System.Memory{System.Byte}
+  parent: System
+  definition: System.Memory`1
+  name: Memory<Byte>
+  nameWithType: Memory<Byte>
+  fullName: System.Memory<System.Byte>
+  nameWithType.vb: Memory(Of Byte)
+  fullName.vb: System.Memory(Of System.Byte)
+  name.vb: Memory(Of Byte)
+  spec.csharp:
+  - uid: System.Memory`1
+    name: Memory
+    nameWithType: Memory
+    fullName: System.Memory
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Memory`1
+    name: Memory
+    nameWithType: Memory
+    fullName: System.Memory
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Memory`1
+  commentId: T:System.Memory`1
+  isExternal: true
+  name: Memory<T>
+  nameWithType: Memory<T>
+  fullName: System.Memory<T>
+  nameWithType.vb: Memory(Of T)
+  fullName.vb: System.Memory(Of T)
+  name.vb: Memory(Of T)
+  spec.csharp:
+  - uid: System.Memory`1
+    name: Memory
+    nameWithType: Memory
+    fullName: System.Memory
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Memory`1
+    name: Memory
+    nameWithType: Memory
+    fullName: System.Memory
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny
+  name: ReadAny
+  nameWithType: LiveClient.ReadAny
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyString*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyString
+  name: ReadAnyString
+  nameWithType: LiveClient.ReadAnyString
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyString
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  commentId: T:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  parent: Vortex.Adapters.Connector.Tc3
+  name: OnlineVariableInfo
+  nameWithType: OnlineVariableInfo
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyWString*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyWString
+  name: ReadAnyWString
+  nameWithType: LiveClient.ReadAnyWString
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyWString
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ReadSymbolInfo*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.ReadSymbolInfo
+  name: ReadSymbolInfo
+  nameWithType: LiveClient.ReadSymbolInfo
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ReadSymbolInfo
+- uid: TwinCAT.Ads.TypeSystem.IAdsSymbol
+  commentId: T:TwinCAT.Ads.TypeSystem.IAdsSymbol
+  parent: TwinCAT.Ads.TypeSystem
+  isExternal: true
+  name: IAdsSymbol
+  nameWithType: IAdsSymbol
+  fullName: TwinCAT.Ads.TypeSystem.IAdsSymbol
+- uid: TwinCAT.Ads.TypeSystem
+  commentId: N:TwinCAT.Ads.TypeSystem
+  isExternal: true
+  name: TwinCAT.Ads.TypeSystem
+  nameWithType: TwinCAT.Ads.TypeSystem
+  fullName: TwinCAT.Ads.TypeSystem
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite
+  name: ReadWrite
+  nameWithType: LiveClient.ReadWrite
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite
+- uid: System.ReadOnlyMemory{System.Byte}
+  commentId: T:System.ReadOnlyMemory{System.Byte}
+  parent: System
+  definition: System.ReadOnlyMemory`1
+  name: ReadOnlyMemory<Byte>
+  nameWithType: ReadOnlyMemory<Byte>
+  fullName: System.ReadOnlyMemory<System.Byte>
+  nameWithType.vb: ReadOnlyMemory(Of Byte)
+  fullName.vb: System.ReadOnlyMemory(Of System.Byte)
+  name.vb: ReadOnlyMemory(Of Byte)
+  spec.csharp:
+  - uid: System.ReadOnlyMemory`1
+    name: ReadOnlyMemory
+    nameWithType: ReadOnlyMemory
+    fullName: System.ReadOnlyMemory
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ReadOnlyMemory`1
+    name: ReadOnlyMemory
+    nameWithType: ReadOnlyMemory
+    fullName: System.ReadOnlyMemory
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ReadOnlyMemory`1
+  commentId: T:System.ReadOnlyMemory`1
+  isExternal: true
+  name: ReadOnlyMemory<T>
+  nameWithType: ReadOnlyMemory<T>
+  fullName: System.ReadOnlyMemory<T>
+  nameWithType.vb: ReadOnlyMemory(Of T)
+  fullName.vb: System.ReadOnlyMemory(Of T)
+  name.vb: ReadOnlyMemory(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlyMemory`1
+    name: ReadOnlyMemory
+    nameWithType: ReadOnlyMemory
+    fullName: System.ReadOnlyMemory
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ReadOnlyMemory`1
+    name: ReadOnlyMemory
+    nameWithType: ReadOnlyMemory
+    fullName: System.ReadOnlyMemory
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect
+  name: TryConnect
+  nameWithType: LiveClient.TryConnect
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.TryReadState*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.TryReadState
+  name: TryReadState
+  nameWithType: LiveClient.TryReadState
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.TryReadState
+- uid: TwinCAT.Ads.StateInfo
+  commentId: T:TwinCAT.Ads.StateInfo
+  parent: TwinCAT.Ads
+  isExternal: true
+  name: StateInfo
+  nameWithType: StateInfo
+  fullName: TwinCAT.Ads.StateInfo
+- uid: TwinCAT.Ads.AdsErrorCode
+  commentId: T:TwinCAT.Ads.AdsErrorCode
+  parent: TwinCAT.Ads
+  isExternal: true
+  name: AdsErrorCode
+  nameWithType: AdsErrorCode
+  fullName: TwinCAT.Ads.AdsErrorCode
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Write*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.Write
+  name: Write
+  nameWithType: LiveClient.Write
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Write
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny
+  name: WriteAny
+  nameWithType: LiveClient.WriteAny
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyString*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyString
+  name: WriteAnyString
+  nameWithType: LiveClient.WriteAnyString
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyString
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyWString*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyWString
+  name: WriteAnyWString
+  nameWithType: LiveClient.WriteAnyWString
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyWString
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.InternalAdsClient*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.InternalAdsClient
+  name: InternalAdsClient
+  nameWithType: LiveClient.InternalAdsClient
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.InternalAdsClient
+- uid: TwinCAT.Ads.AdsClient
+  commentId: T:TwinCAT.Ads.AdsClient
+  parent: TwinCAT.Ads
+  isExternal: true
+  name: AdsClient
+  nameWithType: AdsClient
+  fullName: TwinCAT.Ads.AdsClient
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.AmsNetId*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.AmsNetId
+  name: AmsNetId
+  nameWithType: LiveClient.AmsNetId
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.AmsNetId
+- uid: TwinCAT.Ads.AmsNetId
+  commentId: T:TwinCAT.Ads.AmsNetId
+  parent: TwinCAT.Ads
+  isExternal: true
+  name: AmsNetId
+  nameWithType: AmsNetId
+  fullName: TwinCAT.Ads.AmsNetId
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.IsConnected*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.IsConnected
+  name: IsConnected
+  nameWithType: LiveClient.IsConnected
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.IsConnected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.OnAdsStateChangeEvent*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.OnAdsStateChangeEvent
+  name: OnAdsStateChangeEvent
+  nameWithType: LiveClient.OnAdsStateChangeEvent
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.OnAdsStateChangeEvent
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.OnAdsStateChangeDelegate
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsConnector.OnAdsStateChangeDelegate
+  parent: Vortex.Adapters.Connector.Tc3
+  name: AdsConnector.OnAdsStateChangeDelegate
+  nameWithType: AdsConnector.OnAdsStateChangeDelegate
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.OnAdsStateChangeDelegate
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.OnlineSymbolRetriever*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.OnlineSymbolRetriever
+  name: OnlineSymbolRetriever
+  nameWithType: LiveClient.OnlineSymbolRetriever
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.OnlineSymbolRetriever
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Timeout*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.LiveClient.Timeout
+  name: Timeout
+  nameWithType: LiveClient.Timeout
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Timeout

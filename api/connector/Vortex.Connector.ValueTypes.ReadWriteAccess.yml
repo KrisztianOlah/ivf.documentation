@@ -1,0 +1,226 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.ValueTypes.ReadWriteAccess
+  commentId: T:Vortex.Connector.ValueTypes.ReadWriteAccess
+  id: ReadWriteAccess
+  parent: Vortex.Connector.ValueTypes
+  children:
+  - Vortex.Connector.ValueTypes.ReadWriteAccess.Read
+  - Vortex.Connector.ValueTypes.ReadWriteAccess.ReadWrite
+  langs:
+  - csharp
+  - vb
+  name: ReadWriteAccess
+  nameWithType: ReadWriteAccess
+  fullName: Vortex.Connector.ValueTypes.ReadWriteAccess
+  type: Enum
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/AccessMode.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReadWriteAccess
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/AccessMode.cs
+    startLine: 5
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.ValueTypes
+  summary: "\nEnumerates permitted access to a tag member.\n"
+  example: []
+  syntax:
+    content: public enum ReadWriteAccess
+    content.vb: Public Enum ReadWriteAccess
+  extensionMethods:
+  - Vortex.Connector.ValueTypes.ReadWriteAccess.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vortex.Connector.ValueTypes.ReadWriteAccess.Read
+  commentId: F:Vortex.Connector.ValueTypes.ReadWriteAccess.Read
+  id: Read
+  parent: Vortex.Connector.ValueTypes.ReadWriteAccess
+  langs:
+  - csharp
+  - vb
+  name: Read
+  nameWithType: ReadWriteAccess.Read
+  fullName: Vortex.Connector.ValueTypes.ReadWriteAccess.Read
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/AccessMode.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Read
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/AccessMode.cs
+    startLine: 10
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.ValueTypes
+  summary: "\nRead only.\n"
+  example: []
+  syntax:
+    content: Read = 0
+    return:
+      type: Vortex.Connector.ValueTypes.ReadWriteAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.ValueTypes.ReadWriteAccess.ReadWrite
+  commentId: F:Vortex.Connector.ValueTypes.ReadWriteAccess.ReadWrite
+  id: ReadWrite
+  parent: Vortex.Connector.ValueTypes.ReadWriteAccess
+  langs:
+  - csharp
+  - vb
+  name: ReadWrite
+  nameWithType: ReadWriteAccess.ReadWrite
+  fullName: Vortex.Connector.ValueTypes.ReadWriteAccess.ReadWrite
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/AccessMode.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReadWrite
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/AccessMode.cs
+    startLine: 15
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.ValueTypes
+  summary: "\nRead Write.\n"
+  example: []
+  syntax:
+    content: ReadWrite = 1
+    return:
+      type: Vortex.Connector.ValueTypes.ReadWriteAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vortex.Connector.ValueTypes
+  commentId: N:Vortex.Connector.ValueTypes
+  name: Vortex.Connector.ValueTypes
+  nameWithType: Vortex.Connector.ValueTypes
+  fullName: Vortex.Connector.ValueTypes
+- uid: Vortex.Connector.ValueTypes.ReadWriteAccess.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<ReadWriteAccess>(Object)
+  nameWithType: IValueTagExtensions.Cast<ReadWriteAccess>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.ValueTypes.ReadWriteAccess>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of ReadWriteAccess)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.ValueTypes.ReadWriteAccess)(System.Object)
+  name.vb: Cast(Of ReadWriteAccess)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<ReadWriteAccess>
+    nameWithType: IValueTagExtensions.Cast<ReadWriteAccess>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.ValueTypes.ReadWriteAccess>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of ReadWriteAccess)
+    nameWithType: IValueTagExtensions.Cast(Of ReadWriteAccess)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.ValueTypes.ReadWriteAccess)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.ValueTypes.ReadWriteAccess
+  commentId: T:Vortex.Connector.ValueTypes.ReadWriteAccess
+  parent: Vortex.Connector.ValueTypes
+  name: ReadWriteAccess
+  nameWithType: ReadWriteAccess
+  fullName: Vortex.Connector.ValueTypes.ReadWriteAccess

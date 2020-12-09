@@ -1,0 +1,4174 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.DummyConnectorFactory
+  commentId: T:Vortex.Connector.DummyConnectorFactory
+  id: DummyConnectorFactory
+  parent: Vortex.Connector
+  children:
+  - Vortex.Connector.DummyConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateBYTE(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateConnector(System.Object[])
+  - Vortex.Connector.DummyConnectorFactory.CreateDATE(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateDATE_TIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateDWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateLINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateLREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateLTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateLWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateTIME_OF_DAY(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateUDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateUINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateULINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateUSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.DummyConnectorFactory.CreateWSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: DummyConnectorFactory
+  nameWithType: DummyConnectorFactory
+  fullName: Vortex.Connector.DummyConnectorFactory
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: DummyConnectorFactory
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 8
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nDummy connector factory class. Serves as offline connector with no connection to a controller.\n"
+  example: []
+  syntax:
+    content: 'public class DummyConnectorFactory : IConnectorFactory'
+    content.vb: >-
+      Public Class DummyConnectorFactory
+          Inherits IConnectorFactory
+  inheritance:
+  - System.Object
+  - Vortex.Connector.IConnectorFactory
+  derivedClasses:
+  - Vortex.Connector.InvalidLicenseConnectorFactory
+  inheritedMembers:
+  - Vortex.Connector.IConnectorFactory.CreateBOOL
+  - Vortex.Connector.IConnectorFactory.CreateBYTE
+  - Vortex.Connector.IConnectorFactory.CreateWORD
+  - Vortex.Connector.IConnectorFactory.CreateDWORD
+  - Vortex.Connector.IConnectorFactory.CreateLWORD
+  - Vortex.Connector.IConnectorFactory.CreateSINT
+  - Vortex.Connector.IConnectorFactory.CreateUSINT
+  - Vortex.Connector.IConnectorFactory.CreateINT
+  - Vortex.Connector.IConnectorFactory.CreateUINT
+  - Vortex.Connector.IConnectorFactory.CreateDINT
+  - Vortex.Connector.IConnectorFactory.CreateUDINT
+  - Vortex.Connector.IConnectorFactory.CreateLINT
+  - Vortex.Connector.IConnectorFactory.CreateULINT
+  - Vortex.Connector.IConnectorFactory.CreateREAL
+  - Vortex.Connector.IConnectorFactory.CreateLREAL
+  - Vortex.Connector.IConnectorFactory.CreateSTRING
+  - Vortex.Connector.IConnectorFactory.CreateWSTRING
+  - Vortex.Connector.IConnectorFactory.CreateTIME
+  - Vortex.Connector.IConnectorFactory.CreateDATE_TIME
+  - Vortex.Connector.IConnectorFactory.CreateDATE
+  - Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY
+  - Vortex.Connector.IConnectorFactory.CreateLTIME
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Vortex.Connector.DummyConnectorFactory.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vortex.Connector.DummyConnectorFactory.CreateConnector(System.Object[])
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateConnector(System.Object[])
+  id: CreateConnector(System.Object[])
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateConnector(Object[])
+  nameWithType: DummyConnectorFactory.CreateConnector(Object[])
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateConnector(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateConnector
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 15
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates dummy connector.\n"
+  example: []
+  syntax:
+    content: public override IConnector CreateConnector(object[] parameters)
+    parameters:
+    - id: parameters
+      type: System.Object[]
+      description: Connection parameters.
+    return:
+      type: Vortex.Connector.IConnector
+      description: ''
+    content.vb: Public Overrides Function CreateConnector(parameters As Object()) As IConnector
+  overridden: Vortex.Connector.IConnectorFactory.CreateConnector(System.Object[])
+  overload: Vortex.Connector.DummyConnectorFactory.CreateConnector*
+  nameWithType.vb: DummyConnectorFactory.CreateConnector(Object())
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Vortex.Connector.DummyConnectorFactory.CreateConnector(System.Object())
+  name.vb: CreateConnector(Object())
+- uid: Vortex.Connector.DummyConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateBOOL(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateBOOL(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateBOOL(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateBOOL
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 27
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.Boolean\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type BOOL\n"
+  example: []
+  syntax:
+    content: public override OnlinerBool CreateBOOL(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerBool
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerBool" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateBOOL(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerBool
+  overridden: Vortex.Connector.IConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateBOOL*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateBYTE(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateBYTE(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateBYTE(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateBYTE(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateBYTE(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateBYTE(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateBYTE
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 39
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.Byte\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type BYTE\n"
+  example: []
+  syntax:
+    content: public override OnlinerByte CreateBYTE(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerByte
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerByte" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateBYTE(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerByte
+  overridden: Vortex.Connector.IConnectorFactory.CreateBYTE(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateBYTE*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateDINT(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateDINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateDINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateDINT
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 51
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type DINT\n"
+  example: []
+  syntax:
+    content: public override OnlinerDInt CreateDINT(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerDInt
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerDInt" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateDINT(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerDInt
+  overridden: Vortex.Connector.IConnectorFactory.CreateDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateDINT*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateDWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateDWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateDWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateDWORD(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateDWORD(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateDWORD(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateDWORD
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 63
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type DWORD\n"
+  example: []
+  syntax:
+    content: public override OnlinerDWord CreateDWORD(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerDWord
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerDWord" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateDWORD(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerDWord
+  overridden: Vortex.Connector.IConnectorFactory.CreateDWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateDWORD*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateINT(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateINT
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 75
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type INT\n"
+  example: []
+  syntax:
+    content: public override OnlinerInt CreateINT(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerInt
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerInt" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateINT(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerInt
+  overridden: Vortex.Connector.IConnectorFactory.CreateINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateINT*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateLINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateLINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateLINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateLINT(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateLINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateLINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateLINT
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 87
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.Int64\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type LINT\n"
+  example: []
+  syntax:
+    content: public override OnlinerLInt CreateLINT(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerLInt
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerLInt" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateLINT(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerLInt
+  overridden: Vortex.Connector.IConnectorFactory.CreateLINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateLINT*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateLREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateLREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateLREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateLREAL(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateLREAL(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateLREAL(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateLREAL
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 99
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type LREAL\n"
+  example: []
+  syntax:
+    content: public override OnlinerLReal CreateLREAL(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerLReal
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerLReal" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateLREAL(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerLReal
+  overridden: Vortex.Connector.IConnectorFactory.CreateLREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateLREAL*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateLTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateLTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateLTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateLTIME(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateLTIME(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateLTIME(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateLTIME
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 111
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type LTIME\n"
+  example: []
+  syntax:
+    content: public override OnlinerLTime CreateLTIME(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerLTime
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerLTime" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateLTIME(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerLTime
+  overridden: Vortex.Connector.IConnectorFactory.CreateLTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateLTIME*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateLWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateLWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateLWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateLWORD(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateLWORD(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateLWORD(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateLWORD
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 123
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.UInt64\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type LWORD\n"
+  example: []
+  syntax:
+    content: public override OnlinerLWord CreateLWORD(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerLWord
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerLWord" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateLWORD(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerLWord
+  overridden: Vortex.Connector.IConnectorFactory.CreateLWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateLWORD*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateREAL(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateREAL(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateREAL(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateREAL
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 135
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.Single\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type REAL\n"
+  example: []
+  syntax:
+    content: public override OnlinerReal CreateREAL(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerReal
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerReal" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateREAL(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerReal
+  overridden: Vortex.Connector.IConnectorFactory.CreateREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateREAL*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateSINT(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateSINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateSINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateSINT
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 147
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.SByte\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type SINT\n"
+  example: []
+  syntax:
+    content: public override OnlinerSInt CreateSINT(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerSInt
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerSInt" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateSINT(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerSInt
+  overridden: Vortex.Connector.IConnectorFactory.CreateSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateSINT*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateSTRING(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateSTRING(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateSTRING(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateSTRING
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 159
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type STRING\n"
+  example: []
+  syntax:
+    content: public override OnlinerString CreateSTRING(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerString
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerString" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateSTRING(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerString
+  overridden: Vortex.Connector.IConnectorFactory.CreateSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateSTRING*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateTIME(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateTIME(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateTIME(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateTIME
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 171
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type TIME\n"
+  example: []
+  syntax:
+    content: public override OnlinerTime CreateTIME(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerTime
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerTime" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateTIME(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerTime
+  overridden: Vortex.Connector.IConnectorFactory.CreateTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateTIME*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateDATE_TIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateDATE_TIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateDATE_TIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateDATE_TIME(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateDATE_TIME(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateDATE_TIME(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateDATE_TIME
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 183
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type DATE_TIME (DT)\n"
+  example: []
+  syntax:
+    content: public override OnlinerDateTime CreateDATE_TIME(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerDateTime
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerDateTime" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateDATE_TIME(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerDateTime
+  overridden: Vortex.Connector.IConnectorFactory.CreateDATE_TIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateDATE_TIME*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateDATE(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateDATE(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateDATE(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateDATE(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateDATE(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateDATE(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateDATE
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 195
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type DATE\n"
+  example: []
+  syntax:
+    content: public override OnlinerDate CreateDATE(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerDate
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerDate" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateDATE(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerDate
+  overridden: Vortex.Connector.IConnectorFactory.CreateDATE(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateDATE*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateTIME_OF_DAY(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateTIME_OF_DAY(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateTIME_OF_DAY(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateTIME_OF_DAY(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateTIME_OF_DAY(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateTIME_OF_DAY(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateTIME_OF_DAY
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 207
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type TIME_OF_DAY (TOD)\n"
+  example: []
+  syntax:
+    content: public override OnlinerTimeOfDay CreateTIME_OF_DAY(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerTimeOfDay
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerTimeOfDay" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateTIME_OF_DAY(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerTimeOfDay
+  overridden: Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateTIME_OF_DAY*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateUDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateUDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateUDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateUDINT(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateUDINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateUDINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateUDINT
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 219
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.UInt32\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type UDINT\n"
+  example: []
+  syntax:
+    content: public override OnlinerUDInt CreateUDINT(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerUDInt
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerUDInt" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateUDINT(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerUDInt
+  overridden: Vortex.Connector.IConnectorFactory.CreateUDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateUDINT*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateUINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateUINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateUINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateUINT(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateUINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateUINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateUINT
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 231
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.UInt16\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type UINT\n"
+  example: []
+  syntax:
+    content: public override OnlinerUInt CreateUINT(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerUInt
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerUInt" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateUINT(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerUInt
+  overridden: Vortex.Connector.IConnectorFactory.CreateUINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateUINT*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateULINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateULINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateULINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateULINT(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateULINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateULINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateULINT
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 243
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.UInt64\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type ULINT\n"
+  example: []
+  syntax:
+    content: public override OnlinerULInt CreateULINT(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerULInt
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerULInt" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateULINT(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerULInt
+  overridden: Vortex.Connector.IConnectorFactory.CreateULINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateULINT*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateUSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateUSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateUSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateUSINT(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateUSINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateUSINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateUSINT
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 255
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.Byte\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type USINT\n"
+  example: []
+  syntax:
+    content: public override OnlinerUSInt CreateUSINT(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerUSInt
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerUSInt" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateUSINT(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerUSInt
+  overridden: Vortex.Connector.IConnectorFactory.CreateUSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateUSINT*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateWORD(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateWORD(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateWORD(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateWORD
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 267
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.UInt16\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type WORD\n"
+  example: []
+  syntax:
+    content: public override OnlinerWord CreateWORD(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerWord
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerWord" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateWORD(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerWord
+  overridden: Vortex.Connector.IConnectorFactory.CreateWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateWORD*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Connector.DummyConnectorFactory.CreateWSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateWSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: CreateWSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateWSTRING(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateWSTRING(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateWSTRING(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateWSTRING
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
+    startLine: 279
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nCreates <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> dummy tag of PLC value type WSTRING\n"
+  example: []
+  syntax:
+    content: public override OnlinerWString CreateWSTRING(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> type.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this value tag.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this value tag.
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerWString
+      description: New instance of <xref href="Vortex.Connector.ValueTypes.OnlinerWString" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Overrides Function CreateWSTRING(parent As IVortexObject, readableTail As String, symbolTail As String) As OnlinerWString
+  overridden: Vortex.Connector.IConnectorFactory.CreateWSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  overload: Vortex.Connector.DummyConnectorFactory.CreateWSTRING*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vortex.Connector.IConnectorFactory
+  commentId: T:Vortex.Connector.IConnectorFactory
+  parent: Vortex.Connector
+  name: IConnectorFactory
+  nameWithType: IConnectorFactory
+  fullName: Vortex.Connector.IConnectorFactory
+- uid: Vortex.Connector.IConnectorFactory.CreateBOOL
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateBOOL
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateBOOL()
+  nameWithType: IConnectorFactory.CreateBOOL()
+  fullName: Vortex.Connector.IConnectorFactory.CreateBOOL()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateBOOL
+    name: CreateBOOL
+    nameWithType: IConnectorFactory.CreateBOOL
+    fullName: Vortex.Connector.IConnectorFactory.CreateBOOL
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateBOOL
+    name: CreateBOOL
+    nameWithType: IConnectorFactory.CreateBOOL
+    fullName: Vortex.Connector.IConnectorFactory.CreateBOOL
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateBYTE
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateBYTE
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateBYTE()
+  nameWithType: IConnectorFactory.CreateBYTE()
+  fullName: Vortex.Connector.IConnectorFactory.CreateBYTE()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateBYTE
+    name: CreateBYTE
+    nameWithType: IConnectorFactory.CreateBYTE
+    fullName: Vortex.Connector.IConnectorFactory.CreateBYTE
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateBYTE
+    name: CreateBYTE
+    nameWithType: IConnectorFactory.CreateBYTE
+    fullName: Vortex.Connector.IConnectorFactory.CreateBYTE
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateWORD
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateWORD
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateWORD()
+  nameWithType: IConnectorFactory.CreateWORD()
+  fullName: Vortex.Connector.IConnectorFactory.CreateWORD()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateWORD
+    name: CreateWORD
+    nameWithType: IConnectorFactory.CreateWORD
+    fullName: Vortex.Connector.IConnectorFactory.CreateWORD
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateWORD
+    name: CreateWORD
+    nameWithType: IConnectorFactory.CreateWORD
+    fullName: Vortex.Connector.IConnectorFactory.CreateWORD
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateDWORD
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateDWORD
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateDWORD()
+  nameWithType: IConnectorFactory.CreateDWORD()
+  fullName: Vortex.Connector.IConnectorFactory.CreateDWORD()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDWORD
+    name: CreateDWORD
+    nameWithType: IConnectorFactory.CreateDWORD
+    fullName: Vortex.Connector.IConnectorFactory.CreateDWORD
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDWORD
+    name: CreateDWORD
+    nameWithType: IConnectorFactory.CreateDWORD
+    fullName: Vortex.Connector.IConnectorFactory.CreateDWORD
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateLWORD
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateLWORD
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateLWORD()
+  nameWithType: IConnectorFactory.CreateLWORD()
+  fullName: Vortex.Connector.IConnectorFactory.CreateLWORD()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLWORD
+    name: CreateLWORD
+    nameWithType: IConnectorFactory.CreateLWORD
+    fullName: Vortex.Connector.IConnectorFactory.CreateLWORD
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLWORD
+    name: CreateLWORD
+    nameWithType: IConnectorFactory.CreateLWORD
+    fullName: Vortex.Connector.IConnectorFactory.CreateLWORD
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateSINT
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateSINT
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateSINT()
+  nameWithType: IConnectorFactory.CreateSINT()
+  fullName: Vortex.Connector.IConnectorFactory.CreateSINT()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateSINT
+    name: CreateSINT
+    nameWithType: IConnectorFactory.CreateSINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateSINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateSINT
+    name: CreateSINT
+    nameWithType: IConnectorFactory.CreateSINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateSINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateUSINT
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateUSINT
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateUSINT()
+  nameWithType: IConnectorFactory.CreateUSINT()
+  fullName: Vortex.Connector.IConnectorFactory.CreateUSINT()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateUSINT
+    name: CreateUSINT
+    nameWithType: IConnectorFactory.CreateUSINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateUSINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateUSINT
+    name: CreateUSINT
+    nameWithType: IConnectorFactory.CreateUSINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateUSINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateINT
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateINT
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateINT()
+  nameWithType: IConnectorFactory.CreateINT()
+  fullName: Vortex.Connector.IConnectorFactory.CreateINT()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateINT
+    name: CreateINT
+    nameWithType: IConnectorFactory.CreateINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateINT
+    name: CreateINT
+    nameWithType: IConnectorFactory.CreateINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateUINT
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateUINT
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateUINT()
+  nameWithType: IConnectorFactory.CreateUINT()
+  fullName: Vortex.Connector.IConnectorFactory.CreateUINT()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateUINT
+    name: CreateUINT
+    nameWithType: IConnectorFactory.CreateUINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateUINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateUINT
+    name: CreateUINT
+    nameWithType: IConnectorFactory.CreateUINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateUINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateDINT
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateDINT
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateDINT()
+  nameWithType: IConnectorFactory.CreateDINT()
+  fullName: Vortex.Connector.IConnectorFactory.CreateDINT()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDINT
+    name: CreateDINT
+    nameWithType: IConnectorFactory.CreateDINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateDINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDINT
+    name: CreateDINT
+    nameWithType: IConnectorFactory.CreateDINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateDINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateUDINT
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateUDINT
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateUDINT()
+  nameWithType: IConnectorFactory.CreateUDINT()
+  fullName: Vortex.Connector.IConnectorFactory.CreateUDINT()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateUDINT
+    name: CreateUDINT
+    nameWithType: IConnectorFactory.CreateUDINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateUDINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateUDINT
+    name: CreateUDINT
+    nameWithType: IConnectorFactory.CreateUDINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateUDINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateLINT
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateLINT
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateLINT()
+  nameWithType: IConnectorFactory.CreateLINT()
+  fullName: Vortex.Connector.IConnectorFactory.CreateLINT()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLINT
+    name: CreateLINT
+    nameWithType: IConnectorFactory.CreateLINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateLINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLINT
+    name: CreateLINT
+    nameWithType: IConnectorFactory.CreateLINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateLINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateULINT
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateULINT
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateULINT()
+  nameWithType: IConnectorFactory.CreateULINT()
+  fullName: Vortex.Connector.IConnectorFactory.CreateULINT()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateULINT
+    name: CreateULINT
+    nameWithType: IConnectorFactory.CreateULINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateULINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateULINT
+    name: CreateULINT
+    nameWithType: IConnectorFactory.CreateULINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateULINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateREAL
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateREAL
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateREAL()
+  nameWithType: IConnectorFactory.CreateREAL()
+  fullName: Vortex.Connector.IConnectorFactory.CreateREAL()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateREAL
+    name: CreateREAL
+    nameWithType: IConnectorFactory.CreateREAL
+    fullName: Vortex.Connector.IConnectorFactory.CreateREAL
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateREAL
+    name: CreateREAL
+    nameWithType: IConnectorFactory.CreateREAL
+    fullName: Vortex.Connector.IConnectorFactory.CreateREAL
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateLREAL
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateLREAL
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateLREAL()
+  nameWithType: IConnectorFactory.CreateLREAL()
+  fullName: Vortex.Connector.IConnectorFactory.CreateLREAL()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLREAL
+    name: CreateLREAL
+    nameWithType: IConnectorFactory.CreateLREAL
+    fullName: Vortex.Connector.IConnectorFactory.CreateLREAL
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLREAL
+    name: CreateLREAL
+    nameWithType: IConnectorFactory.CreateLREAL
+    fullName: Vortex.Connector.IConnectorFactory.CreateLREAL
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateSTRING
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateSTRING
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateSTRING()
+  nameWithType: IConnectorFactory.CreateSTRING()
+  fullName: Vortex.Connector.IConnectorFactory.CreateSTRING()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateSTRING
+    name: CreateSTRING
+    nameWithType: IConnectorFactory.CreateSTRING
+    fullName: Vortex.Connector.IConnectorFactory.CreateSTRING
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateSTRING
+    name: CreateSTRING
+    nameWithType: IConnectorFactory.CreateSTRING
+    fullName: Vortex.Connector.IConnectorFactory.CreateSTRING
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateWSTRING
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateWSTRING
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateWSTRING()
+  nameWithType: IConnectorFactory.CreateWSTRING()
+  fullName: Vortex.Connector.IConnectorFactory.CreateWSTRING()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateWSTRING
+    name: CreateWSTRING
+    nameWithType: IConnectorFactory.CreateWSTRING
+    fullName: Vortex.Connector.IConnectorFactory.CreateWSTRING
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateWSTRING
+    name: CreateWSTRING
+    nameWithType: IConnectorFactory.CreateWSTRING
+    fullName: Vortex.Connector.IConnectorFactory.CreateWSTRING
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateTIME
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateTIME
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateTIME()
+  nameWithType: IConnectorFactory.CreateTIME()
+  fullName: Vortex.Connector.IConnectorFactory.CreateTIME()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateTIME
+    name: CreateTIME
+    nameWithType: IConnectorFactory.CreateTIME
+    fullName: Vortex.Connector.IConnectorFactory.CreateTIME
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateTIME
+    name: CreateTIME
+    nameWithType: IConnectorFactory.CreateTIME
+    fullName: Vortex.Connector.IConnectorFactory.CreateTIME
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateDATE_TIME
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateDATE_TIME
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateDATE_TIME()
+  nameWithType: IConnectorFactory.CreateDATE_TIME()
+  fullName: Vortex.Connector.IConnectorFactory.CreateDATE_TIME()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDATE_TIME
+    name: CreateDATE_TIME
+    nameWithType: IConnectorFactory.CreateDATE_TIME
+    fullName: Vortex.Connector.IConnectorFactory.CreateDATE_TIME
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDATE_TIME
+    name: CreateDATE_TIME
+    nameWithType: IConnectorFactory.CreateDATE_TIME
+    fullName: Vortex.Connector.IConnectorFactory.CreateDATE_TIME
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateDATE
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateDATE
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateDATE()
+  nameWithType: IConnectorFactory.CreateDATE()
+  fullName: Vortex.Connector.IConnectorFactory.CreateDATE()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDATE
+    name: CreateDATE
+    nameWithType: IConnectorFactory.CreateDATE
+    fullName: Vortex.Connector.IConnectorFactory.CreateDATE
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDATE
+    name: CreateDATE
+    nameWithType: IConnectorFactory.CreateDATE
+    fullName: Vortex.Connector.IConnectorFactory.CreateDATE
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateTIME_OF_DAY()
+  nameWithType: IConnectorFactory.CreateTIME_OF_DAY()
+  fullName: Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY
+    name: CreateTIME_OF_DAY
+    nameWithType: IConnectorFactory.CreateTIME_OF_DAY
+    fullName: Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY
+    name: CreateTIME_OF_DAY
+    nameWithType: IConnectorFactory.CreateTIME_OF_DAY
+    fullName: Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateLTIME
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateLTIME
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateLTIME()
+  nameWithType: IConnectorFactory.CreateLTIME()
+  fullName: Vortex.Connector.IConnectorFactory.CreateLTIME()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLTIME
+    name: CreateLTIME
+    nameWithType: IConnectorFactory.CreateLTIME
+    fullName: Vortex.Connector.IConnectorFactory.CreateLTIME
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLTIME
+    name: CreateLTIME
+    nameWithType: IConnectorFactory.CreateLTIME
+    fullName: Vortex.Connector.IConnectorFactory.CreateLTIME
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<DummyConnectorFactory>(Object)
+  nameWithType: IValueTagExtensions.Cast<DummyConnectorFactory>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.DummyConnectorFactory>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of DummyConnectorFactory)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.DummyConnectorFactory)(System.Object)
+  name.vb: Cast(Of DummyConnectorFactory)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<DummyConnectorFactory>
+    nameWithType: IValueTagExtensions.Cast<DummyConnectorFactory>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.DummyConnectorFactory>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of DummyConnectorFactory)
+    nameWithType: IValueTagExtensions.Cast(Of DummyConnectorFactory)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.DummyConnectorFactory)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector.IConnectorFactory.CreateConnector(System.Object[])
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateConnector(System.Object[])
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateConnector(Object[])
+  nameWithType: IConnectorFactory.CreateConnector(Object[])
+  fullName: Vortex.Connector.IConnectorFactory.CreateConnector(System.Object[])
+  nameWithType.vb: IConnectorFactory.CreateConnector(Object())
+  fullName.vb: Vortex.Connector.IConnectorFactory.CreateConnector(System.Object())
+  name.vb: CreateConnector(Object())
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateConnector(System.Object[])
+    name: CreateConnector
+    nameWithType: IConnectorFactory.CreateConnector
+    fullName: Vortex.Connector.IConnectorFactory.CreateConnector
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateConnector(System.Object[])
+    name: CreateConnector
+    nameWithType: IConnectorFactory.CreateConnector
+    fullName: Vortex.Connector.IConnectorFactory.CreateConnector
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateConnector*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateConnector
+  name: CreateConnector
+  nameWithType: DummyConnectorFactory.CreateConnector
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateConnector
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Vortex.Connector.IConnector
+  commentId: T:Vortex.Connector.IConnector
+  parent: Vortex.Connector
+  name: IConnector
+  nameWithType: IConnector
+  fullName: Vortex.Connector.IConnector
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vortex.Connector.IVortexObject
+  commentId: T:Vortex.Connector.IVortexObject
+  parent: Vortex.Connector
+  name: IVortexObject
+  nameWithType: IVortexObject
+  fullName: Vortex.Connector.IVortexObject
+- uid: Vortex.Connector.ValueTypes.OnlinerBool
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerBool
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerBool
+  nameWithType: OnlinerBool
+  fullName: Vortex.Connector.ValueTypes.OnlinerBool
+- uid: Vortex.Connector.IConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateBOOL(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateBOOL(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateBOOL
+    nameWithType: IConnectorFactory.CreateBOOL
+    fullName: Vortex.Connector.IConnectorFactory.CreateBOOL
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateBOOL
+    nameWithType: IConnectorFactory.CreateBOOL
+    fullName: Vortex.Connector.IConnectorFactory.CreateBOOL
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateBOOL*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateBOOL
+  name: CreateBOOL
+  nameWithType: DummyConnectorFactory.CreateBOOL
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateBOOL
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vortex.Connector.ValueTypes
+  commentId: N:Vortex.Connector.ValueTypes
+  name: Vortex.Connector.ValueTypes
+  nameWithType: Vortex.Connector.ValueTypes
+  fullName: Vortex.Connector.ValueTypes
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Vortex.Connector.ValueTypes.OnlinerByte
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerByte
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerByte
+  nameWithType: OnlinerByte
+  fullName: Vortex.Connector.ValueTypes.OnlinerByte
+- uid: Vortex.Connector.IConnectorFactory.CreateBYTE(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateBYTE(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateBYTE(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateBYTE(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateBYTE(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateBYTE(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateBYTE
+    nameWithType: IConnectorFactory.CreateBYTE
+    fullName: Vortex.Connector.IConnectorFactory.CreateBYTE
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateBYTE(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateBYTE
+    nameWithType: IConnectorFactory.CreateBYTE
+    fullName: Vortex.Connector.IConnectorFactory.CreateBYTE
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateBYTE*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateBYTE
+  name: CreateBYTE
+  nameWithType: DummyConnectorFactory.CreateBYTE
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateBYTE
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vortex.Connector.ValueTypes.OnlinerDInt
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerDInt
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerDInt
+  nameWithType: OnlinerDInt
+  fullName: Vortex.Connector.ValueTypes.OnlinerDInt
+- uid: Vortex.Connector.IConnectorFactory.CreateDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateDINT(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateDINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateDINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateDINT
+    nameWithType: IConnectorFactory.CreateDINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateDINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateDINT
+    nameWithType: IConnectorFactory.CreateDINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateDINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateDINT*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateDINT
+  name: CreateDINT
+  nameWithType: DummyConnectorFactory.CreateDINT
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateDINT
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Vortex.Connector.ValueTypes.OnlinerDWord
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerDWord
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerDWord
+  nameWithType: OnlinerDWord
+  fullName: Vortex.Connector.ValueTypes.OnlinerDWord
+- uid: Vortex.Connector.IConnectorFactory.CreateDWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateDWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateDWORD(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateDWORD(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateDWORD(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateDWORD
+    nameWithType: IConnectorFactory.CreateDWORD
+    fullName: Vortex.Connector.IConnectorFactory.CreateDWORD
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateDWORD
+    nameWithType: IConnectorFactory.CreateDWORD
+    fullName: Vortex.Connector.IConnectorFactory.CreateDWORD
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateDWORD*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateDWORD
+  name: CreateDWORD
+  nameWithType: DummyConnectorFactory.CreateDWORD
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateDWORD
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: Vortex.Connector.ValueTypes.OnlinerInt
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerInt
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerInt
+  nameWithType: OnlinerInt
+  fullName: Vortex.Connector.ValueTypes.OnlinerInt
+- uid: Vortex.Connector.IConnectorFactory.CreateINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateINT(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateINT
+    nameWithType: IConnectorFactory.CreateINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateINT
+    nameWithType: IConnectorFactory.CreateINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateINT*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateINT
+  name: CreateINT
+  nameWithType: DummyConnectorFactory.CreateINT
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateINT
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Vortex.Connector.ValueTypes.OnlinerLInt
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerLInt
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerLInt
+  nameWithType: OnlinerLInt
+  fullName: Vortex.Connector.ValueTypes.OnlinerLInt
+- uid: Vortex.Connector.IConnectorFactory.CreateLINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateLINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateLINT(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateLINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateLINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateLINT
+    nameWithType: IConnectorFactory.CreateLINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateLINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateLINT
+    nameWithType: IConnectorFactory.CreateLINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateLINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateLINT*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateLINT
+  name: CreateLINT
+  nameWithType: DummyConnectorFactory.CreateLINT
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateLINT
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Vortex.Connector.ValueTypes.OnlinerLReal
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerLReal
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerLReal
+  nameWithType: OnlinerLReal
+  fullName: Vortex.Connector.ValueTypes.OnlinerLReal
+- uid: Vortex.Connector.IConnectorFactory.CreateLREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateLREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateLREAL(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateLREAL(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateLREAL(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateLREAL
+    nameWithType: IConnectorFactory.CreateLREAL
+    fullName: Vortex.Connector.IConnectorFactory.CreateLREAL
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateLREAL
+    nameWithType: IConnectorFactory.CreateLREAL
+    fullName: Vortex.Connector.IConnectorFactory.CreateLREAL
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateLREAL*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateLREAL
+  name: CreateLREAL
+  nameWithType: DummyConnectorFactory.CreateLREAL
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateLREAL
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: Vortex.Connector.ValueTypes.OnlinerLTime
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerLTime
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerLTime
+  nameWithType: OnlinerLTime
+  fullName: Vortex.Connector.ValueTypes.OnlinerLTime
+- uid: Vortex.Connector.IConnectorFactory.CreateLTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateLTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateLTIME(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateLTIME(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateLTIME(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateLTIME
+    nameWithType: IConnectorFactory.CreateLTIME
+    fullName: Vortex.Connector.IConnectorFactory.CreateLTIME
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateLTIME
+    nameWithType: IConnectorFactory.CreateLTIME
+    fullName: Vortex.Connector.IConnectorFactory.CreateLTIME
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateLTIME*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateLTIME
+  name: CreateLTIME
+  nameWithType: DummyConnectorFactory.CreateLTIME
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateLTIME
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: System.UInt64
+- uid: Vortex.Connector.ValueTypes.OnlinerLWord
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerLWord
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerLWord
+  nameWithType: OnlinerLWord
+  fullName: Vortex.Connector.ValueTypes.OnlinerLWord
+- uid: Vortex.Connector.IConnectorFactory.CreateLWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateLWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateLWORD(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateLWORD(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateLWORD(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateLWORD
+    nameWithType: IConnectorFactory.CreateLWORD
+    fullName: Vortex.Connector.IConnectorFactory.CreateLWORD
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateLWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateLWORD
+    nameWithType: IConnectorFactory.CreateLWORD
+    fullName: Vortex.Connector.IConnectorFactory.CreateLWORD
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateLWORD*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateLWORD
+  name: CreateLWORD
+  nameWithType: DummyConnectorFactory.CreateLWORD
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateLWORD
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Vortex.Connector.ValueTypes.OnlinerReal
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerReal
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerReal
+  nameWithType: OnlinerReal
+  fullName: Vortex.Connector.ValueTypes.OnlinerReal
+- uid: Vortex.Connector.IConnectorFactory.CreateREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateREAL(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateREAL(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateREAL(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateREAL
+    nameWithType: IConnectorFactory.CreateREAL
+    fullName: Vortex.Connector.IConnectorFactory.CreateREAL
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateREAL(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateREAL
+    nameWithType: IConnectorFactory.CreateREAL
+    fullName: Vortex.Connector.IConnectorFactory.CreateREAL
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateREAL*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateREAL
+  name: CreateREAL
+  nameWithType: DummyConnectorFactory.CreateREAL
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateREAL
+- uid: System.SByte
+  commentId: T:System.SByte
+  parent: System
+  isExternal: true
+  name: SByte
+  nameWithType: SByte
+  fullName: System.SByte
+- uid: Vortex.Connector.ValueTypes.OnlinerSInt
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerSInt
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerSInt
+  nameWithType: OnlinerSInt
+  fullName: Vortex.Connector.ValueTypes.OnlinerSInt
+- uid: Vortex.Connector.IConnectorFactory.CreateSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateSINT(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateSINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateSINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateSINT
+    nameWithType: IConnectorFactory.CreateSINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateSINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateSINT
+    nameWithType: IConnectorFactory.CreateSINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateSINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateSINT*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateSINT
+  name: CreateSINT
+  nameWithType: DummyConnectorFactory.CreateSINT
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateSINT
+- uid: Vortex.Connector.ValueTypes.OnlinerString
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerString
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerString
+  nameWithType: OnlinerString
+  fullName: Vortex.Connector.ValueTypes.OnlinerString
+- uid: Vortex.Connector.IConnectorFactory.CreateSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateSTRING(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateSTRING(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateSTRING(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateSTRING
+    nameWithType: IConnectorFactory.CreateSTRING
+    fullName: Vortex.Connector.IConnectorFactory.CreateSTRING
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateSTRING
+    nameWithType: IConnectorFactory.CreateSTRING
+    fullName: Vortex.Connector.IConnectorFactory.CreateSTRING
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateSTRING*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateSTRING
+  name: CreateSTRING
+  nameWithType: DummyConnectorFactory.CreateSTRING
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateSTRING
+- uid: Vortex.Connector.ValueTypes.OnlinerTime
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerTime
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerTime
+  nameWithType: OnlinerTime
+  fullName: Vortex.Connector.ValueTypes.OnlinerTime
+- uid: Vortex.Connector.IConnectorFactory.CreateTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateTIME(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateTIME(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateTIME(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateTIME
+    nameWithType: IConnectorFactory.CreateTIME
+    fullName: Vortex.Connector.IConnectorFactory.CreateTIME
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateTIME(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateTIME
+    nameWithType: IConnectorFactory.CreateTIME
+    fullName: Vortex.Connector.IConnectorFactory.CreateTIME
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateTIME*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateTIME
+  name: CreateTIME
+  nameWithType: DummyConnectorFactory.CreateTIME
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateTIME
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Vortex.Connector.ValueTypes.OnlinerDateTime
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerDateTime
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerDateTime
+  nameWithType: OnlinerDateTime
+  fullName: Vortex.Connector.ValueTypes.OnlinerDateTime
+- uid: Vortex.Connector.IConnectorFactory.CreateDATE_TIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateDATE_TIME(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateDATE_TIME(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateDATE_TIME(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateDATE_TIME(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDATE_TIME(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateDATE_TIME
+    nameWithType: IConnectorFactory.CreateDATE_TIME
+    fullName: Vortex.Connector.IConnectorFactory.CreateDATE_TIME
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDATE_TIME(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateDATE_TIME
+    nameWithType: IConnectorFactory.CreateDATE_TIME
+    fullName: Vortex.Connector.IConnectorFactory.CreateDATE_TIME
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateDATE_TIME*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateDATE_TIME
+  name: CreateDATE_TIME
+  nameWithType: DummyConnectorFactory.CreateDATE_TIME
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateDATE_TIME
+- uid: Vortex.Connector.ValueTypes.OnlinerDate
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerDate
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerDate
+  nameWithType: OnlinerDate
+  fullName: Vortex.Connector.ValueTypes.OnlinerDate
+- uid: Vortex.Connector.IConnectorFactory.CreateDATE(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateDATE(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateDATE(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateDATE(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateDATE(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDATE(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateDATE
+    nameWithType: IConnectorFactory.CreateDATE
+    fullName: Vortex.Connector.IConnectorFactory.CreateDATE
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateDATE(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateDATE
+    nameWithType: IConnectorFactory.CreateDATE
+    fullName: Vortex.Connector.IConnectorFactory.CreateDATE
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateDATE*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateDATE
+  name: CreateDATE
+  nameWithType: DummyConnectorFactory.CreateDATE
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateDATE
+- uid: Vortex.Connector.ValueTypes.OnlinerTimeOfDay
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerTimeOfDay
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerTimeOfDay
+  nameWithType: OnlinerTimeOfDay
+  fullName: Vortex.Connector.ValueTypes.OnlinerTimeOfDay
+- uid: Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateTIME_OF_DAY(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateTIME_OF_DAY(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateTIME_OF_DAY
+    nameWithType: IConnectorFactory.CreateTIME_OF_DAY
+    fullName: Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateTIME_OF_DAY
+    nameWithType: IConnectorFactory.CreateTIME_OF_DAY
+    fullName: Vortex.Connector.IConnectorFactory.CreateTIME_OF_DAY
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateTIME_OF_DAY*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateTIME_OF_DAY
+  name: CreateTIME_OF_DAY
+  nameWithType: DummyConnectorFactory.CreateTIME_OF_DAY
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateTIME_OF_DAY
+- uid: Vortex.Connector.ValueTypes.OnlinerUDInt
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerUDInt
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerUDInt
+  nameWithType: OnlinerUDInt
+  fullName: Vortex.Connector.ValueTypes.OnlinerUDInt
+- uid: Vortex.Connector.IConnectorFactory.CreateUDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateUDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateUDINT(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateUDINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateUDINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateUDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateUDINT
+    nameWithType: IConnectorFactory.CreateUDINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateUDINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateUDINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateUDINT
+    nameWithType: IConnectorFactory.CreateUDINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateUDINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateUDINT*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateUDINT
+  name: CreateUDINT
+  nameWithType: DummyConnectorFactory.CreateUDINT
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateUDINT
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Vortex.Connector.ValueTypes.OnlinerUInt
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerUInt
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerUInt
+  nameWithType: OnlinerUInt
+  fullName: Vortex.Connector.ValueTypes.OnlinerUInt
+- uid: Vortex.Connector.IConnectorFactory.CreateUINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateUINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateUINT(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateUINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateUINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateUINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateUINT
+    nameWithType: IConnectorFactory.CreateUINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateUINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateUINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateUINT
+    nameWithType: IConnectorFactory.CreateUINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateUINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateUINT*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateUINT
+  name: CreateUINT
+  nameWithType: DummyConnectorFactory.CreateUINT
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateUINT
+- uid: Vortex.Connector.ValueTypes.OnlinerULInt
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerULInt
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerULInt
+  nameWithType: OnlinerULInt
+  fullName: Vortex.Connector.ValueTypes.OnlinerULInt
+- uid: Vortex.Connector.IConnectorFactory.CreateULINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateULINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateULINT(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateULINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateULINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateULINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateULINT
+    nameWithType: IConnectorFactory.CreateULINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateULINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateULINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateULINT
+    nameWithType: IConnectorFactory.CreateULINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateULINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateULINT*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateULINT
+  name: CreateULINT
+  nameWithType: DummyConnectorFactory.CreateULINT
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateULINT
+- uid: Vortex.Connector.ValueTypes.OnlinerUSInt
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerUSInt
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerUSInt
+  nameWithType: OnlinerUSInt
+  fullName: Vortex.Connector.ValueTypes.OnlinerUSInt
+- uid: Vortex.Connector.IConnectorFactory.CreateUSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateUSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateUSINT(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateUSINT(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateUSINT(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateUSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateUSINT
+    nameWithType: IConnectorFactory.CreateUSINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateUSINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateUSINT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateUSINT
+    nameWithType: IConnectorFactory.CreateUSINT
+    fullName: Vortex.Connector.IConnectorFactory.CreateUSINT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateUSINT*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateUSINT
+  name: CreateUSINT
+  nameWithType: DummyConnectorFactory.CreateUSINT
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateUSINT
+- uid: Vortex.Connector.ValueTypes.OnlinerWord
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerWord
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerWord
+  nameWithType: OnlinerWord
+  fullName: Vortex.Connector.ValueTypes.OnlinerWord
+- uid: Vortex.Connector.IConnectorFactory.CreateWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateWORD(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateWORD(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateWORD(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateWORD
+    nameWithType: IConnectorFactory.CreateWORD
+    fullName: Vortex.Connector.IConnectorFactory.CreateWORD
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateWORD(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateWORD
+    nameWithType: IConnectorFactory.CreateWORD
+    fullName: Vortex.Connector.IConnectorFactory.CreateWORD
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateWORD*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateWORD
+  name: CreateWORD
+  nameWithType: DummyConnectorFactory.CreateWORD
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateWORD
+- uid: Vortex.Connector.ValueTypes.OnlinerWString
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerWString
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerWString
+  nameWithType: OnlinerWString
+  fullName: Vortex.Connector.ValueTypes.OnlinerWString
+- uid: Vortex.Connector.IConnectorFactory.CreateWSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateWSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.IConnectorFactory
+  isExternal: true
+  name: CreateWSTRING(IVortexObject, String, String)
+  nameWithType: IConnectorFactory.CreateWSTRING(IVortexObject, String, String)
+  fullName: Vortex.Connector.IConnectorFactory.CreateWSTRING(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateWSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateWSTRING
+    nameWithType: IConnectorFactory.CreateWSTRING
+    fullName: Vortex.Connector.IConnectorFactory.CreateWSTRING
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateWSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateWSTRING
+    nameWithType: IConnectorFactory.CreateWSTRING
+    fullName: Vortex.Connector.IConnectorFactory.CreateWSTRING
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.DummyConnectorFactory.CreateWSTRING*
+  commentId: Overload:Vortex.Connector.DummyConnectorFactory.CreateWSTRING
+  name: CreateWSTRING
+  nameWithType: DummyConnectorFactory.CreateWSTRING
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateWSTRING

@@ -1,0 +1,496 @@
+### YamlMime:ManagedReference
+items:
+- uid: vortex.compiler.console.runner.ExtensionRunner
+  commentId: T:vortex.compiler.console.runner.ExtensionRunner
+  id: ExtensionRunner
+  parent: vortex.compiler.console.runner
+  children:
+  - vortex.compiler.console.runner.ExtensionRunner.CompileAndBuildSolution
+  - vortex.compiler.console.runner.ExtensionRunner.CompileControllerLibraries
+  - vortex.compiler.console.runner.ExtensionRunner.ControllerLibrariesVersionInfo
+  - vortex.compiler.console.runner.ExtensionRunner.Run(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ExtensionRunner
+  nameWithType: ExtensionRunner
+  fullName: vortex.compiler.console.runner.ExtensionRunner
+  type: Class
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/ExtensionRunner.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ExtensionRunner
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/ExtensionRunner.cs
+    startLine: 8
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console.runner
+  syntax:
+    content: public class ExtensionRunner
+    content.vb: Public Class ExtensionRunner
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: vortex.compiler.console.runner.ExtensionRunner.CompileAndBuildSolution
+  commentId: M:vortex.compiler.console.runner.ExtensionRunner.CompileAndBuildSolution
+  id: CompileAndBuildSolution
+  parent: vortex.compiler.console.runner.ExtensionRunner
+  langs:
+  - csharp
+  - vb
+  name: CompileAndBuildSolution()
+  nameWithType: ExtensionRunner.CompileAndBuildSolution()
+  fullName: vortex.compiler.console.runner.ExtensionRunner.CompileAndBuildSolution()
+  type: Method
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/ExtensionRunner.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CompileAndBuildSolution
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/ExtensionRunner.cs
+    startLine: 10
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console.runner
+  syntax:
+    content: public void CompileAndBuildSolution()
+    content.vb: Public Sub CompileAndBuildSolution
+  overload: vortex.compiler.console.runner.ExtensionRunner.CompileAndBuildSolution*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: vortex.compiler.console.runner.ExtensionRunner.CompileControllerLibraries
+  commentId: M:vortex.compiler.console.runner.ExtensionRunner.CompileControllerLibraries
+  id: CompileControllerLibraries
+  parent: vortex.compiler.console.runner.ExtensionRunner
+  langs:
+  - csharp
+  - vb
+  name: CompileControllerLibraries()
+  nameWithType: ExtensionRunner.CompileControllerLibraries()
+  fullName: vortex.compiler.console.runner.ExtensionRunner.CompileControllerLibraries()
+  type: Method
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/ExtensionRunner.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CompileControllerLibraries
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/ExtensionRunner.cs
+    startLine: 15
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console.runner
+  syntax:
+    content: public void CompileControllerLibraries()
+    content.vb: Public Sub CompileControllerLibraries
+  overload: vortex.compiler.console.runner.ExtensionRunner.CompileControllerLibraries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: vortex.compiler.console.runner.ExtensionRunner.ControllerLibrariesVersionInfo
+  commentId: M:vortex.compiler.console.runner.ExtensionRunner.ControllerLibrariesVersionInfo
+  id: ControllerLibrariesVersionInfo
+  parent: vortex.compiler.console.runner.ExtensionRunner
+  langs:
+  - csharp
+  - vb
+  name: ControllerLibrariesVersionInfo()
+  nameWithType: ExtensionRunner.ControllerLibrariesVersionInfo()
+  fullName: vortex.compiler.console.runner.ExtensionRunner.ControllerLibrariesVersionInfo()
+  type: Method
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/ExtensionRunner.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ControllerLibrariesVersionInfo
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/ExtensionRunner.cs
+    startLine: 20
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console.runner
+  syntax:
+    content: public void ControllerLibrariesVersionInfo()
+    content.vb: Public Sub ControllerLibrariesVersionInfo
+  overload: vortex.compiler.console.runner.ExtensionRunner.ControllerLibrariesVersionInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: vortex.compiler.console.runner.ExtensionRunner.Run(System.String)
+  commentId: M:vortex.compiler.console.runner.ExtensionRunner.Run(System.String)
+  id: Run(System.String)
+  parent: vortex.compiler.console.runner.ExtensionRunner
+  langs:
+  - csharp
+  - vb
+  name: Run(String)
+  nameWithType: ExtensionRunner.Run(String)
+  fullName: vortex.compiler.console.runner.ExtensionRunner.Run(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.builder/src/compiler/vortex.compiler.console/ExtensionRunner.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Run
+    path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/ExtensionRunner.cs
+    startLine: 25
+  assemblies:
+  - vortex.compiler.console
+  namespace: vortex.compiler.console.runner
+  syntax:
+    content: public void Run(string vortexDirectory)
+    parameters:
+    - id: vortexDirectory
+      type: System.String
+    content.vb: Public Sub Run(vortexDirectory As String)
+  overload: vortex.compiler.console.runner.ExtensionRunner.Run*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: vortex.compiler.console.runner
+  commentId: N:vortex.compiler.console.runner
+  name: vortex.compiler.console.runner
+  nameWithType: vortex.compiler.console.runner
+  fullName: vortex.compiler.console.runner
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: vortex.compiler.console.runner.ExtensionRunner.CompileAndBuildSolution*
+  commentId: Overload:vortex.compiler.console.runner.ExtensionRunner.CompileAndBuildSolution
+  name: CompileAndBuildSolution
+  nameWithType: ExtensionRunner.CompileAndBuildSolution
+  fullName: vortex.compiler.console.runner.ExtensionRunner.CompileAndBuildSolution
+- uid: vortex.compiler.console.runner.ExtensionRunner.CompileControllerLibraries*
+  commentId: Overload:vortex.compiler.console.runner.ExtensionRunner.CompileControllerLibraries
+  name: CompileControllerLibraries
+  nameWithType: ExtensionRunner.CompileControllerLibraries
+  fullName: vortex.compiler.console.runner.ExtensionRunner.CompileControllerLibraries
+- uid: vortex.compiler.console.runner.ExtensionRunner.ControllerLibrariesVersionInfo*
+  commentId: Overload:vortex.compiler.console.runner.ExtensionRunner.ControllerLibrariesVersionInfo
+  name: ControllerLibrariesVersionInfo
+  nameWithType: ExtensionRunner.ControllerLibrariesVersionInfo
+  fullName: vortex.compiler.console.runner.ExtensionRunner.ControllerLibrariesVersionInfo
+- uid: vortex.compiler.console.runner.ExtensionRunner.Run*
+  commentId: Overload:vortex.compiler.console.runner.ExtensionRunner.Run
+  name: Run
+  nameWithType: ExtensionRunner.Run
+  fullName: vortex.compiler.console.runner.ExtensionRunner.Run
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

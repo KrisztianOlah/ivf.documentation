@@ -1,0 +1,3888 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  id: AdsWString
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  children:
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.#ctor
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Client
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueLength(System.String)
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.GetSynchron
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Read(System.IO.BinaryReader)
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ReadFromBinaryReader(System.IO.BinaryReader)
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.SetSynchron(System.String)
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ValueToWrite
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Write(System.IO.BinaryWriter)
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.WriteViaBinaryWriter(System.IO.BinaryWriter)
+  langs:
+  - csharp
+  - vb
+  name: AdsWString
+  nameWithType: AdsWString
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  type: Class
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AdsWString
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+    startLine: 14
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  summary: "\nClass providing access to the WSTRING type online variable.\n"
+  example: []
+  syntax:
+    content: 'sealed class AdsWString : OnlinerWString, INotifyPropertyChanged, IValueBoundaries<string>, IOnlineWString, IOnline<string>, IShadowWString, IShadow<string>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
+    content.vb: >-
+      NotInheritable Class AdsWString
+          Inherits OnlinerWString
+          Implements INotifyPropertyChanged, IValueBoundaries(Of String), IOnlineWString, IOnline(Of String), IShadowWString, IShadow(Of String), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
+  inheritance:
+  - System.Object
+  - Vortex.Connector.ValueTypes.OnlinerBaseType
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  - Vortex.Connector.ValueTypes.OnlinerWString
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - Vortex.Connector.ValueValidation.IValueBoundaries{System.String}
+  - Vortex.Connector.ValueTypes.Online.IOnlineWString
+  - Vortex.Connector.ValueTypes.Online.IOnline{System.String}
+  - Vortex.Connector.ValueTypes.Shadows.IShadowWString
+  - Vortex.Connector.ValueTypes.Shadows.IShadow{System.String}
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  - Vortex.Connector.IValueTag
+  - Vortex.Connector.ITwinPrimitive
+  - Vortex.Connector.IVortexElement
+  inheritedMembers:
+  - Vortex.Connector.ValueTypes.OnlinerWString.Cyclic
+  - Vortex.Connector.ValueTypes.OnlinerWString.Synchron
+  - Vortex.Connector.ValueTypes.OnlinerWString.InstanceMaxValue
+  - Vortex.Connector.ValueTypes.OnlinerWString.InstanceMinValue
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.EditValueChange
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ShadowValueChange
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.validator
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Validator
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.UpdateRead(System.String)
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.SetLastValue
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.LastValue
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.CwCycle
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.cyclic
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.cyclicToWrite
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetLastAvailableValue
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Edit
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.InitializeDefaults
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}._shadow
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Shadow
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.raw
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Raw
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetSymbolTail
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.SymbolTail
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Parent
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetParent
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#ValueChanged
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#ValueChanged
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}._humanReadable
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.HumanReadable
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.PropertyChanged
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ValueChangeEvent
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ShadowValueChangeEvent
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetValueChangeEventSubscribers
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}._attributeName
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeName
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeUnits
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.attributeToolTip
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeToolTip
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.CyclicReading
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.VariableInfo
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Symbol
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.HasBeenWritten
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.IsToBeRead
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.IsToBeWritten
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.WriteToPlcIsRequested
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ReadFromPlcIsRequested
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeMaxSet
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.attributeMax
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeMaximum
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeMinSet
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.attributeMin
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeMinimum
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.HasWriteAccess
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.NotifyPropertyChanged(System.String)
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.OnValueChangeEvent(System.String)
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.OnShadowValueChangeEvent(System.String)
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ReadFromItem
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.WriteItem
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.CreateSymbol(System.String,System.String)
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.EditValue(System.String,System.String)
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ChangeShadowValue(System.String,System.String)
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetDeclaringAssembly
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}._translator
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Translator
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Symbol
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#AttributeName
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#AttributeUnits
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Cyclic
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Edit
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Synchron
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Value
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Value
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Symbol
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#AttributeName
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#AttributeUnits
+  - Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Shadow
+  - Vortex.Connector.ValueTypes.OnlinerBaseType.ReadWriteAccess
+  - Vortex.Connector.ValueTypes.OnlinerBaseType.MakeReadOnly
+  - Vortex.Connector.ValueTypes.OnlinerBaseType.AttributeFormatString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - sealed
+  - class
+  modifiers.vb:
+  - NotInheritable
+  - Class
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Client
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Client
+  id: Client
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  langs:
+  - csharp
+  - vb
+  name: Client
+  nameWithType: AdsWString.Client
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Client
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Client
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+    startLine: 17
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: public ClientSymbol Client { get; }
+    parameters: []
+    return:
+      type: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol
+    content.vb: Public ReadOnly Property Client As ClientSymbol
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Client*
+  implements:
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Client
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.#ctor
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.#ctor
+  id: '#ctor'
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  langs:
+  - csharp
+  - vb
+  name: AdsWString()
+  nameWithType: AdsWString.AdsWString()
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.AdsWString()
+  type: Constructor
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+    startLine: 28
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  summary: "\nInitializes a new instance of the <xref href=\"Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public AdsWString()
+    content.vb: Public Sub New
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
+  id: '#ctor(Vortex.Connector.IVortexObject,System.String,System.String)'
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  langs:
+  - csharp
+  - vb
+  name: AdsWString(IVortexObject, String, String)
+  nameWithType: AdsWString.AdsWString(IVortexObject, String, String)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.AdsWString(Vortex.Connector.IVortexObject, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+    startLine: 38
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  summary: "\nInitializes a new instance of the <xref href=\"Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public AdsWString(IVortexObject parent, string readableTail, string symbolTail)
+    parameters:
+    - id: parent
+      type: Vortex.Connector.IVortexObject
+      description: Parent object of this instance.
+    - id: readableTail
+      type: System.String
+      description: Human readable tail of this instance.
+    - id: symbolTail
+      type: System.String
+      description: Symbol tail of this instance.
+    content.vb: Public Sub New(parent As IVortexObject, readableTail As String, symbolTail As String)
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.GetSynchron
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.GetSynchron
+  id: GetSynchron
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  langs:
+  - csharp
+  - vb
+  name: GetSynchron()
+  nameWithType: AdsWString.GetSynchron()
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.GetSynchron()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetSynchron
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+    startLine: 49
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: protected override string GetSynchron()
+    return:
+      type: System.String
+    content.vb: Protected Overrides Function GetSynchron As String
+  overridden: Vortex.Connector.ValueTypes.OnlinerWString.GetSynchron
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.GetSynchron*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.SetSynchron(System.String)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.SetSynchron(System.String)
+  id: SetSynchron(System.String)
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  langs:
+  - csharp
+  - vb
+  name: SetSynchron(String)
+  nameWithType: AdsWString.SetSynchron(String)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.SetSynchron(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SetSynchron
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+    startLine: 68
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: protected override void SetSynchron(string value)
+    parameters:
+    - id: value
+      type: System.String
+    content.vb: Protected Overrides Sub SetSynchron(value As String)
+  overridden: Vortex.Connector.ValueTypes.OnlinerWString.SetSynchron(System.String)
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.SetSynchron*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueLength(System.String)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueLength(System.String)
+  id: FixValueLength(System.String)
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  langs:
+  - csharp
+  - vb
+  name: FixValueLength(String)
+  nameWithType: AdsWString.FixValueLength(String)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueLength(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: FixValueLength
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+    startLine: 88
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: string FixValueLength(string val)
+    parameters:
+    - id: val
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Function FixValueLength(val As String) As String
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueLength*
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ValueToWrite
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ValueToWrite
+  id: ValueToWrite
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  langs:
+  - csharp
+  - vb
+  name: ValueToWrite
+  nameWithType: AdsWString.ValueToWrite
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ValueToWrite
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ValueToWrite
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+    startLine: 108
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: public object ValueToWrite { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly Property ValueToWrite As Object
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ValueToWrite*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Read(System.IO.BinaryReader)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Read(System.IO.BinaryReader)
+  id: Read(System.IO.BinaryReader)
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  langs:
+  - csharp
+  - vb
+  name: Read(BinaryReader)
+  nameWithType: AdsWString.Read(BinaryReader)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Read(System.IO.BinaryReader)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Read
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+    startLine: 131
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: public void Read(BinaryReader reader)
+    parameters:
+    - id: reader
+      type: System.IO.BinaryReader
+    content.vb: Public Sub Read(reader As BinaryReader)
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Read*
+  implements:
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Read(System.IO.BinaryReader)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Write(System.IO.BinaryWriter)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Write(System.IO.BinaryWriter)
+  id: Write(System.IO.BinaryWriter)
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  langs:
+  - csharp
+  - vb
+  name: Write(BinaryWriter)
+  nameWithType: AdsWString.Write(BinaryWriter)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Write(System.IO.BinaryWriter)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Write
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+    startLine: 136
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: public void Write(BinaryWriter binaryWriter)
+    parameters:
+    - id: binaryWriter
+      type: System.IO.BinaryWriter
+    content.vb: Public Sub Write(binaryWriter As BinaryWriter)
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Write*
+  implements:
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Write(System.IO.BinaryWriter)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ReadFromBinaryReader(System.IO.BinaryReader)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ReadFromBinaryReader(System.IO.BinaryReader)
+  id: ReadFromBinaryReader(System.IO.BinaryReader)
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  langs:
+  - csharp
+  - vb
+  name: ReadFromBinaryReader(BinaryReader)
+  nameWithType: AdsWString.ReadFromBinaryReader(BinaryReader)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ReadFromBinaryReader(System.IO.BinaryReader)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReadFromBinaryReader
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+    startLine: 147
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  summary: "\nTODO The read from binary reader.\n"
+  example: []
+  syntax:
+    content: void ReadFromBinaryReader(BinaryReader reader)
+    parameters:
+    - id: reader
+      type: System.IO.BinaryReader
+      description: "\nTODO The reader.\n"
+    content.vb: Sub ReadFromBinaryReader(reader As BinaryReader)
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ReadFromBinaryReader*
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.WriteViaBinaryWriter(System.IO.BinaryWriter)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.WriteViaBinaryWriter(System.IO.BinaryWriter)
+  id: WriteViaBinaryWriter(System.IO.BinaryWriter)
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  langs:
+  - csharp
+  - vb
+  name: WriteViaBinaryWriter(BinaryWriter)
+  nameWithType: AdsWString.WriteViaBinaryWriter(BinaryWriter)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.WriteViaBinaryWriter(System.IO.BinaryWriter)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: WriteViaBinaryWriter
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsWString.cs
+    startLine: 155
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  syntax:
+    content: void WriteViaBinaryWriter(BinaryWriter binaryWriter)
+    parameters:
+    - id: binaryWriter
+      type: System.IO.BinaryWriter
+    content.vb: Sub WriteViaBinaryWriter(binaryWriter As BinaryWriter)
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.WriteViaBinaryWriter*
+references:
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  commentId: N:Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  name: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  nameWithType: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerBaseType
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerBaseType
+  nameWithType: OnlinerBaseType
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  parent: Vortex.Connector.ValueTypes
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1
+  name: OnlinerBaseType<String>
+  nameWithType: OnlinerBaseType<String>
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>
+  nameWithType.vb: OnlinerBaseType(Of String)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String)
+  name.vb: OnlinerBaseType(Of String)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1
+    name: OnlinerBaseType
+    nameWithType: OnlinerBaseType
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1
+    name: OnlinerBaseType
+    nameWithType: OnlinerBaseType
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerWString
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerWString
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerWString
+  nameWithType: OnlinerWString
+  fullName: Vortex.Connector.ValueTypes.OnlinerWString
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Vortex.Connector.ValueValidation.IValueBoundaries{System.String}
+  commentId: T:Vortex.Connector.ValueValidation.IValueBoundaries{System.String}
+  parent: Vortex.Connector.ValueValidation
+  definition: Vortex.Connector.ValueValidation.IValueBoundaries`1
+  name: IValueBoundaries<String>
+  nameWithType: IValueBoundaries<String>
+  fullName: Vortex.Connector.ValueValidation.IValueBoundaries<System.String>
+  nameWithType.vb: IValueBoundaries(Of String)
+  fullName.vb: Vortex.Connector.ValueValidation.IValueBoundaries(Of System.String)
+  name.vb: IValueBoundaries(Of String)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueValidation.IValueBoundaries`1
+    name: IValueBoundaries
+    nameWithType: IValueBoundaries
+    fullName: Vortex.Connector.ValueValidation.IValueBoundaries
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueValidation.IValueBoundaries`1
+    name: IValueBoundaries
+    nameWithType: IValueBoundaries
+    fullName: Vortex.Connector.ValueValidation.IValueBoundaries
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineWString
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineWString
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineWString
+  nameWithType: IOnlineWString
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineWString
+- uid: Vortex.Connector.ValueTypes.Online.IOnline{System.String}
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnline{System.String}
+  parent: Vortex.Connector.ValueTypes.Online
+  definition: Vortex.Connector.ValueTypes.Online.IOnline`1
+  name: IOnline<String>
+  nameWithType: IOnline<String>
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<System.String>
+  nameWithType.vb: IOnline(Of String)
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of System.String)
+  name.vb: IOnline(Of String)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.Online.IOnline`1
+    name: IOnline
+    nameWithType: IOnline
+    fullName: Vortex.Connector.ValueTypes.Online.IOnline
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.Online.IOnline`1
+    name: IOnline
+    nameWithType: IOnline
+    fullName: Vortex.Connector.ValueTypes.Online.IOnline
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowWString
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowWString
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowWString
+  nameWithType: IShadowWString
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowWString
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow{System.String}
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadow{System.String}
+  parent: Vortex.Connector.ValueTypes.Shadows
+  definition: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+  name: IShadow<String>
+  nameWithType: IShadow<String>
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<System.String>
+  nameWithType.vb: IShadow(Of String)
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of System.String)
+  name.vb: IShadow(Of String)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+    name: IShadow
+    nameWithType: IShadow
+    fullName: Vortex.Connector.ValueTypes.Shadows.IShadow
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+    name: IShadow
+    nameWithType: IShadow
+    fullName: Vortex.Connector.ValueTypes.Shadows.IShadow
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  name: IAdsBaseType
+  nameWithType: IAdsBaseType
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+- uid: Vortex.Connector.IValueTag
+  commentId: T:Vortex.Connector.IValueTag
+  parent: Vortex.Connector
+  name: IValueTag
+  nameWithType: IValueTag
+  fullName: Vortex.Connector.IValueTag
+- uid: Vortex.Connector.ITwinPrimitive
+  commentId: T:Vortex.Connector.ITwinPrimitive
+  parent: Vortex.Connector
+  name: ITwinPrimitive
+  nameWithType: ITwinPrimitive
+  fullName: Vortex.Connector.ITwinPrimitive
+- uid: Vortex.Connector.IVortexElement
+  commentId: T:Vortex.Connector.IVortexElement
+  parent: Vortex.Connector
+  name: IVortexElement
+  nameWithType: IVortexElement
+  fullName: Vortex.Connector.IVortexElement
+- uid: Vortex.Connector.ValueTypes.OnlinerWString.Cyclic
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerWString.Cyclic
+  parent: Vortex.Connector.ValueTypes.OnlinerWString
+  name: Cyclic
+  nameWithType: OnlinerWString.Cyclic
+  fullName: Vortex.Connector.ValueTypes.OnlinerWString.Cyclic
+- uid: Vortex.Connector.ValueTypes.OnlinerWString.Synchron
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerWString.Synchron
+  parent: Vortex.Connector.ValueTypes.OnlinerWString
+  name: Synchron
+  nameWithType: OnlinerWString.Synchron
+  fullName: Vortex.Connector.ValueTypes.OnlinerWString.Synchron
+- uid: Vortex.Connector.ValueTypes.OnlinerWString.InstanceMaxValue
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerWString.InstanceMaxValue
+  parent: Vortex.Connector.ValueTypes.OnlinerWString
+  name: InstanceMaxValue
+  nameWithType: OnlinerWString.InstanceMaxValue
+  fullName: Vortex.Connector.ValueTypes.OnlinerWString.InstanceMaxValue
+- uid: Vortex.Connector.ValueTypes.OnlinerWString.InstanceMinValue
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerWString.InstanceMinValue
+  parent: Vortex.Connector.ValueTypes.OnlinerWString
+  name: InstanceMinValue
+  nameWithType: OnlinerWString.InstanceMinValue
+  fullName: Vortex.Connector.ValueTypes.OnlinerWString.InstanceMinValue
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.EditValueChange
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.EditValueChange
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValueChange
+  name: EditValueChange
+  nameWithType: OnlinerBaseType<String>.EditValueChange
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.EditValueChange
+  nameWithType.vb: OnlinerBaseType(Of String).EditValueChange
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).EditValueChange
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ShadowValueChange
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ShadowValueChange
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ShadowValueChange
+  name: ShadowValueChange
+  nameWithType: OnlinerBaseType<String>.ShadowValueChange
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.ShadowValueChange
+  nameWithType.vb: OnlinerBaseType(Of String).ShadowValueChange
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).ShadowValueChange
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.validator
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.validator
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.validator
+  name: validator
+  nameWithType: OnlinerBaseType<String>.validator
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.validator
+  nameWithType.vb: OnlinerBaseType(Of String).validator
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).validator
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Validator
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Validator
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Validator
+  name: Validator
+  nameWithType: OnlinerBaseType<String>.Validator
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Validator
+  nameWithType.vb: OnlinerBaseType(Of String).Validator
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Validator
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.UpdateRead(System.String)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.UpdateRead(System.String)
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.UpdateRead(`0)
+  name: UpdateRead(String)
+  nameWithType: OnlinerBaseType<String>.UpdateRead(String)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.UpdateRead(System.String)
+  nameWithType.vb: OnlinerBaseType(Of String).UpdateRead(String)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).UpdateRead(System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.UpdateRead(`0)
+    name: UpdateRead
+    nameWithType: OnlinerBaseType<String>.UpdateRead
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.UpdateRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.UpdateRead(`0)
+    name: UpdateRead
+    nameWithType: OnlinerBaseType(Of String).UpdateRead
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).UpdateRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.SetLastValue
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.SetLastValue
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.SetLastValue
+  name: SetLastValue
+  nameWithType: OnlinerBaseType<String>.SetLastValue
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.SetLastValue
+  nameWithType.vb: OnlinerBaseType(Of String).SetLastValue
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).SetLastValue
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.LastValue
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.LastValue
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.LastValue
+  name: LastValue
+  nameWithType: OnlinerBaseType<String>.LastValue
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.LastValue
+  nameWithType.vb: OnlinerBaseType(Of String).LastValue
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).LastValue
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.CwCycle
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.CwCycle
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.CwCycle
+  name: CwCycle
+  nameWithType: OnlinerBaseType<String>.CwCycle
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.CwCycle
+  nameWithType.vb: OnlinerBaseType(Of String).CwCycle
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).CwCycle
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.cyclic
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.cyclic
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.cyclic
+  name: cyclic
+  nameWithType: OnlinerBaseType<String>.cyclic
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.cyclic
+  nameWithType.vb: OnlinerBaseType(Of String).cyclic
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).cyclic
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.cyclicToWrite
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.cyclicToWrite
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.cyclicToWrite
+  name: cyclicToWrite
+  nameWithType: OnlinerBaseType<String>.cyclicToWrite
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.cyclicToWrite
+  nameWithType.vb: OnlinerBaseType(Of String).cyclicToWrite
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).cyclicToWrite
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetLastAvailableValue
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetLastAvailableValue
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetLastAvailableValue
+  name: GetLastAvailableValue()
+  nameWithType: OnlinerBaseType<String>.GetLastAvailableValue()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.GetLastAvailableValue()
+  nameWithType.vb: OnlinerBaseType(Of String).GetLastAvailableValue()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).GetLastAvailableValue()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetLastAvailableValue
+    name: GetLastAvailableValue
+    nameWithType: OnlinerBaseType<String>.GetLastAvailableValue
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.GetLastAvailableValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetLastAvailableValue
+    name: GetLastAvailableValue
+    nameWithType: OnlinerBaseType(Of String).GetLastAvailableValue
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).GetLastAvailableValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Edit
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Edit
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Edit
+  name: Edit
+  nameWithType: OnlinerBaseType<String>.Edit
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Edit
+  nameWithType.vb: OnlinerBaseType(Of String).Edit
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Edit
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.InitializeDefaults
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.InitializeDefaults
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.InitializeDefaults
+  name: InitializeDefaults()
+  nameWithType: OnlinerBaseType<String>.InitializeDefaults()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.InitializeDefaults()
+  nameWithType.vb: OnlinerBaseType(Of String).InitializeDefaults()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).InitializeDefaults()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.InitializeDefaults
+    name: InitializeDefaults
+    nameWithType: OnlinerBaseType<String>.InitializeDefaults
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.InitializeDefaults
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.InitializeDefaults
+    name: InitializeDefaults
+    nameWithType: OnlinerBaseType(Of String).InitializeDefaults
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).InitializeDefaults
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}._shadow
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}._shadow
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1._shadow
+  name: _shadow
+  nameWithType: OnlinerBaseType<String>._shadow
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>._shadow
+  nameWithType.vb: OnlinerBaseType(Of String)._shadow
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String)._shadow
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Shadow
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Shadow
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Shadow
+  name: Shadow
+  nameWithType: OnlinerBaseType<String>.Shadow
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Shadow
+  nameWithType.vb: OnlinerBaseType(Of String).Shadow
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Shadow
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.raw
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.raw
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.raw
+  name: raw
+  nameWithType: OnlinerBaseType<String>.raw
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.raw
+  nameWithType.vb: OnlinerBaseType(Of String).raw
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).raw
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Raw
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Raw
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Raw
+  name: Raw
+  nameWithType: OnlinerBaseType<String>.Raw
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Raw
+  nameWithType.vb: OnlinerBaseType(Of String).Raw
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Raw
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetSymbolTail
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetSymbolTail
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetSymbolTail
+  name: GetSymbolTail()
+  nameWithType: OnlinerBaseType<String>.GetSymbolTail()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.GetSymbolTail()
+  nameWithType.vb: OnlinerBaseType(Of String).GetSymbolTail()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).GetSymbolTail()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetSymbolTail
+    name: GetSymbolTail
+    nameWithType: OnlinerBaseType<String>.GetSymbolTail
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.GetSymbolTail
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetSymbolTail
+    name: GetSymbolTail
+    nameWithType: OnlinerBaseType(Of String).GetSymbolTail
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).GetSymbolTail
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.SymbolTail
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.SymbolTail
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.SymbolTail
+  name: SymbolTail
+  nameWithType: OnlinerBaseType<String>.SymbolTail
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.SymbolTail
+  nameWithType.vb: OnlinerBaseType(Of String).SymbolTail
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).SymbolTail
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Parent
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Parent
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Parent
+  name: Parent
+  nameWithType: OnlinerBaseType<String>.Parent
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Parent
+  nameWithType.vb: OnlinerBaseType(Of String).Parent
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Parent
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetParent
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetParent
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetParent
+  name: GetParent()
+  nameWithType: OnlinerBaseType<String>.GetParent()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.GetParent()
+  nameWithType.vb: OnlinerBaseType(Of String).GetParent()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).GetParent()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetParent
+    name: GetParent
+    nameWithType: OnlinerBaseType<String>.GetParent
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.GetParent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetParent
+    name: GetParent
+    nameWithType: OnlinerBaseType(Of String).GetParent
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).GetParent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#ValueChanged
+  commentId: E:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#ValueChanged
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#ValueChanged
+  name: IOnline<String>.ValueChanged
+  nameWithType: OnlinerBaseType<String>.IOnline<String>.ValueChanged
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Vortex.Connector.ValueTypes.Online.IOnline<System.String>.ValueChanged
+  nameWithType.vb: OnlinerBaseType(Of String).Vortex.Connector.ValueTypes.Online.IOnline<T>.ValueChanged
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Vortex.Connector.ValueTypes.Online.IOnline<T>.ValueChanged
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.ValueChanged
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#ValueChanged
+  commentId: E:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#ValueChanged
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#ValueChanged
+  name: IShadow<String>.ValueChanged
+  nameWithType: OnlinerBaseType<String>.IShadow<String>.ValueChanged
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Vortex.Connector.ValueTypes.Shadows.IShadow<System.String>.ValueChanged
+  nameWithType.vb: OnlinerBaseType(Of String).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.ValueChanged
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.ValueChanged
+  name.vb: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.ValueChanged
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}._humanReadable
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}._humanReadable
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1._humanReadable
+  name: _humanReadable
+  nameWithType: OnlinerBaseType<String>._humanReadable
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>._humanReadable
+  nameWithType.vb: OnlinerBaseType(Of String)._humanReadable
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String)._humanReadable
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.HumanReadable
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.HumanReadable
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.HumanReadable
+  name: HumanReadable
+  nameWithType: OnlinerBaseType<String>.HumanReadable
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.HumanReadable
+  nameWithType.vb: OnlinerBaseType(Of String).HumanReadable
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).HumanReadable
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  name: Subscribe(ValueChangedEventHandlerDelegate)
+  nameWithType: OnlinerBaseType<String>.Subscribe(ValueChangedEventHandlerDelegate)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  nameWithType.vb: OnlinerBaseType(Of String).Subscribe(ValueChangedEventHandlerDelegate)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+    name: Subscribe
+    nameWithType: OnlinerBaseType<String>.Subscribe
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Subscribe
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+    name: ValueChangedEventHandlerDelegate
+    nameWithType: ValueChangedEventHandlerDelegate
+    fullName: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+    name: Subscribe
+    nameWithType: OnlinerBaseType(Of String).Subscribe
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Subscribe
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+    name: ValueChangedEventHandlerDelegate
+    nameWithType: ValueChangedEventHandlerDelegate
+    fullName: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  name: UnSubscribe(ValueChangedEventHandlerDelegate)
+  nameWithType: OnlinerBaseType<String>.UnSubscribe(ValueChangedEventHandlerDelegate)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  nameWithType.vb: OnlinerBaseType(Of String).UnSubscribe(ValueChangedEventHandlerDelegate)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+    name: UnSubscribe
+    nameWithType: OnlinerBaseType<String>.UnSubscribe
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.UnSubscribe
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+    name: ValueChangedEventHandlerDelegate
+    nameWithType: ValueChangedEventHandlerDelegate
+    fullName: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+    name: UnSubscribe
+    nameWithType: OnlinerBaseType(Of String).UnSubscribe
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).UnSubscribe
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+    name: ValueChangedEventHandlerDelegate
+    nameWithType: ValueChangedEventHandlerDelegate
+    fullName: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.PropertyChanged
+  commentId: E:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.PropertyChanged
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.PropertyChanged
+  name: PropertyChanged
+  nameWithType: OnlinerBaseType<String>.PropertyChanged
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.PropertyChanged
+  nameWithType.vb: OnlinerBaseType(Of String).PropertyChanged
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).PropertyChanged
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ValueChangeEvent
+  commentId: E:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ValueChangeEvent
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ValueChangeEvent
+  name: ValueChangeEvent
+  nameWithType: OnlinerBaseType<String>.ValueChangeEvent
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.ValueChangeEvent
+  nameWithType.vb: OnlinerBaseType(Of String).ValueChangeEvent
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).ValueChangeEvent
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ShadowValueChangeEvent
+  commentId: E:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ShadowValueChangeEvent
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ShadowValueChangeEvent
+  name: ShadowValueChangeEvent
+  nameWithType: OnlinerBaseType<String>.ShadowValueChangeEvent
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.ShadowValueChangeEvent
+  nameWithType.vb: OnlinerBaseType(Of String).ShadowValueChangeEvent
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).ShadowValueChangeEvent
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetValueChangeEventSubscribers
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetValueChangeEventSubscribers
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetValueChangeEventSubscribers
+  name: GetValueChangeEventSubscribers()
+  nameWithType: OnlinerBaseType<String>.GetValueChangeEventSubscribers()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.GetValueChangeEventSubscribers()
+  nameWithType.vb: OnlinerBaseType(Of String).GetValueChangeEventSubscribers()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).GetValueChangeEventSubscribers()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetValueChangeEventSubscribers
+    name: GetValueChangeEventSubscribers
+    nameWithType: OnlinerBaseType<String>.GetValueChangeEventSubscribers
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.GetValueChangeEventSubscribers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetValueChangeEventSubscribers
+    name: GetValueChangeEventSubscribers
+    nameWithType: OnlinerBaseType(Of String).GetValueChangeEventSubscribers
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).GetValueChangeEventSubscribers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}._attributeName
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}._attributeName
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1._attributeName
+  name: _attributeName
+  nameWithType: OnlinerBaseType<String>._attributeName
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>._attributeName
+  nameWithType.vb: OnlinerBaseType(Of String)._attributeName
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String)._attributeName
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeName
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeName
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeName
+  name: AttributeName
+  nameWithType: OnlinerBaseType<String>.AttributeName
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.AttributeName
+  nameWithType.vb: OnlinerBaseType(Of String).AttributeName
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).AttributeName
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeUnits
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeUnits
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeUnits
+  name: AttributeUnits
+  nameWithType: OnlinerBaseType<String>.AttributeUnits
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.AttributeUnits
+  nameWithType.vb: OnlinerBaseType(Of String).AttributeUnits
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).AttributeUnits
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.attributeToolTip
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.attributeToolTip
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.attributeToolTip
+  name: attributeToolTip
+  nameWithType: OnlinerBaseType<String>.attributeToolTip
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.attributeToolTip
+  nameWithType.vb: OnlinerBaseType(Of String).attributeToolTip
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).attributeToolTip
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeToolTip
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeToolTip
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeToolTip
+  name: AttributeToolTip
+  nameWithType: OnlinerBaseType<String>.AttributeToolTip
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.AttributeToolTip
+  nameWithType.vb: OnlinerBaseType(Of String).AttributeToolTip
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).AttributeToolTip
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.CyclicReading
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.CyclicReading
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.CyclicReading
+  name: CyclicReading
+  nameWithType: OnlinerBaseType<String>.CyclicReading
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.CyclicReading
+  nameWithType.vb: OnlinerBaseType(Of String).CyclicReading
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).CyclicReading
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.VariableInfo
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.VariableInfo
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.VariableInfo
+  name: VariableInfo
+  nameWithType: OnlinerBaseType<String>.VariableInfo
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.VariableInfo
+  nameWithType.vb: OnlinerBaseType(Of String).VariableInfo
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).VariableInfo
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Symbol
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Symbol
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Symbol
+  name: Symbol
+  nameWithType: OnlinerBaseType<String>.Symbol
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Symbol
+  nameWithType.vb: OnlinerBaseType(Of String).Symbol
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Symbol
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.HasBeenWritten
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.HasBeenWritten
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.HasBeenWritten
+  name: HasBeenWritten
+  nameWithType: OnlinerBaseType<String>.HasBeenWritten
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.HasBeenWritten
+  nameWithType.vb: OnlinerBaseType(Of String).HasBeenWritten
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).HasBeenWritten
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.IsToBeRead
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.IsToBeRead
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.IsToBeRead
+  name: IsToBeRead
+  nameWithType: OnlinerBaseType<String>.IsToBeRead
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.IsToBeRead
+  nameWithType.vb: OnlinerBaseType(Of String).IsToBeRead
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).IsToBeRead
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.IsToBeWritten
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.IsToBeWritten
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.IsToBeWritten
+  name: IsToBeWritten
+  nameWithType: OnlinerBaseType<String>.IsToBeWritten
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.IsToBeWritten
+  nameWithType.vb: OnlinerBaseType(Of String).IsToBeWritten
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).IsToBeWritten
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.WriteToPlcIsRequested
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.WriteToPlcIsRequested
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.WriteToPlcIsRequested
+  name: WriteToPlcIsRequested
+  nameWithType: OnlinerBaseType<String>.WriteToPlcIsRequested
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.WriteToPlcIsRequested
+  nameWithType.vb: OnlinerBaseType(Of String).WriteToPlcIsRequested
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).WriteToPlcIsRequested
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ReadFromPlcIsRequested
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ReadFromPlcIsRequested
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ReadFromPlcIsRequested
+  name: ReadFromPlcIsRequested
+  nameWithType: OnlinerBaseType<String>.ReadFromPlcIsRequested
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.ReadFromPlcIsRequested
+  nameWithType.vb: OnlinerBaseType(Of String).ReadFromPlcIsRequested
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).ReadFromPlcIsRequested
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeMaxSet
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeMaxSet
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeMaxSet
+  name: AttributeMaxSet
+  nameWithType: OnlinerBaseType<String>.AttributeMaxSet
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.AttributeMaxSet
+  nameWithType.vb: OnlinerBaseType(Of String).AttributeMaxSet
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).AttributeMaxSet
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.attributeMax
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.attributeMax
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.attributeMax
+  name: attributeMax
+  nameWithType: OnlinerBaseType<String>.attributeMax
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.attributeMax
+  nameWithType.vb: OnlinerBaseType(Of String).attributeMax
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).attributeMax
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeMaximum
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeMaximum
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeMaximum
+  name: AttributeMaximum
+  nameWithType: OnlinerBaseType<String>.AttributeMaximum
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.AttributeMaximum
+  nameWithType.vb: OnlinerBaseType(Of String).AttributeMaximum
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).AttributeMaximum
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeMinSet
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeMinSet
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeMinSet
+  name: AttributeMinSet
+  nameWithType: OnlinerBaseType<String>.AttributeMinSet
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.AttributeMinSet
+  nameWithType.vb: OnlinerBaseType(Of String).AttributeMinSet
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).AttributeMinSet
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.attributeMin
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.attributeMin
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.attributeMin
+  name: attributeMin
+  nameWithType: OnlinerBaseType<String>.attributeMin
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.attributeMin
+  nameWithType.vb: OnlinerBaseType(Of String).attributeMin
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).attributeMin
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeMinimum
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.AttributeMinimum
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeMinimum
+  name: AttributeMinimum
+  nameWithType: OnlinerBaseType<String>.AttributeMinimum
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.AttributeMinimum
+  nameWithType.vb: OnlinerBaseType(Of String).AttributeMinimum
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).AttributeMinimum
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.HasWriteAccess
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.HasWriteAccess
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.HasWriteAccess
+  name: HasWriteAccess()
+  nameWithType: OnlinerBaseType<String>.HasWriteAccess()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.HasWriteAccess()
+  nameWithType.vb: OnlinerBaseType(Of String).HasWriteAccess()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).HasWriteAccess()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.HasWriteAccess
+    name: HasWriteAccess
+    nameWithType: OnlinerBaseType<String>.HasWriteAccess
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.HasWriteAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.HasWriteAccess
+    name: HasWriteAccess
+    nameWithType: OnlinerBaseType(Of String).HasWriteAccess
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).HasWriteAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.NotifyPropertyChanged(System.String)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.NotifyPropertyChanged(System.String)
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.NotifyPropertyChanged(System.String)
+  name: NotifyPropertyChanged(String)
+  nameWithType: OnlinerBaseType<String>.NotifyPropertyChanged(String)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.NotifyPropertyChanged(System.String)
+  nameWithType.vb: OnlinerBaseType(Of String).NotifyPropertyChanged(String)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).NotifyPropertyChanged(System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    nameWithType: OnlinerBaseType<String>.NotifyPropertyChanged
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.NotifyPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    nameWithType: OnlinerBaseType(Of String).NotifyPropertyChanged
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).NotifyPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.OnValueChangeEvent(System.String)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.OnValueChangeEvent(System.String)
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.OnValueChangeEvent(`0)
+  name: OnValueChangeEvent(String)
+  nameWithType: OnlinerBaseType<String>.OnValueChangeEvent(String)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.OnValueChangeEvent(System.String)
+  nameWithType.vb: OnlinerBaseType(Of String).OnValueChangeEvent(String)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).OnValueChangeEvent(System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.OnValueChangeEvent(`0)
+    name: OnValueChangeEvent
+    nameWithType: OnlinerBaseType<String>.OnValueChangeEvent
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.OnValueChangeEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.OnValueChangeEvent(`0)
+    name: OnValueChangeEvent
+    nameWithType: OnlinerBaseType(Of String).OnValueChangeEvent
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).OnValueChangeEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.OnShadowValueChangeEvent(System.String)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.OnShadowValueChangeEvent(System.String)
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.OnShadowValueChangeEvent(`0)
+  name: OnShadowValueChangeEvent(String)
+  nameWithType: OnlinerBaseType<String>.OnShadowValueChangeEvent(String)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.OnShadowValueChangeEvent(System.String)
+  nameWithType.vb: OnlinerBaseType(Of String).OnShadowValueChangeEvent(String)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).OnShadowValueChangeEvent(System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.OnShadowValueChangeEvent(`0)
+    name: OnShadowValueChangeEvent
+    nameWithType: OnlinerBaseType<String>.OnShadowValueChangeEvent
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.OnShadowValueChangeEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.OnShadowValueChangeEvent(`0)
+    name: OnShadowValueChangeEvent
+    nameWithType: OnlinerBaseType(Of String).OnShadowValueChangeEvent
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).OnShadowValueChangeEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ReadFromItem
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ReadFromItem
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ReadFromItem
+  name: ReadFromItem()
+  nameWithType: OnlinerBaseType<String>.ReadFromItem()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.ReadFromItem()
+  nameWithType.vb: OnlinerBaseType(Of String).ReadFromItem()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).ReadFromItem()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ReadFromItem
+    name: ReadFromItem
+    nameWithType: OnlinerBaseType<String>.ReadFromItem
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.ReadFromItem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ReadFromItem
+    name: ReadFromItem
+    nameWithType: OnlinerBaseType(Of String).ReadFromItem
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).ReadFromItem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.WriteItem
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.WriteItem
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.WriteItem
+  name: WriteItem()
+  nameWithType: OnlinerBaseType<String>.WriteItem()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.WriteItem()
+  nameWithType.vb: OnlinerBaseType(Of String).WriteItem()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).WriteItem()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.WriteItem
+    name: WriteItem
+    nameWithType: OnlinerBaseType<String>.WriteItem
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.WriteItem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.WriteItem
+    name: WriteItem
+    nameWithType: OnlinerBaseType(Of String).WriteItem
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).WriteItem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.CreateSymbol(System.String,System.String)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.CreateSymbol(System.String,System.String)
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.CreateSymbol(System.String,System.String)
+  name: CreateSymbol(String, String)
+  nameWithType: OnlinerBaseType<String>.CreateSymbol(String, String)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.CreateSymbol(System.String, System.String)
+  nameWithType.vb: OnlinerBaseType(Of String).CreateSymbol(String, String)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).CreateSymbol(System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.CreateSymbol(System.String,System.String)
+    name: CreateSymbol
+    nameWithType: OnlinerBaseType<String>.CreateSymbol
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.CreateSymbol
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.CreateSymbol(System.String,System.String)
+    name: CreateSymbol
+    nameWithType: OnlinerBaseType(Of String).CreateSymbol
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).CreateSymbol
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.EditValue(System.String,System.String)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.EditValue(System.String,System.String)
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)
+  name: EditValue(String, String)
+  nameWithType: OnlinerBaseType<String>.EditValue(String, String)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.EditValue(System.String, System.String)
+  nameWithType.vb: OnlinerBaseType(Of String).EditValue(String, String)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).EditValue(System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)
+    name: EditValue
+    nameWithType: OnlinerBaseType<String>.EditValue
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.EditValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)
+    name: EditValue
+    nameWithType: OnlinerBaseType(Of String).EditValue
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).EditValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ChangeShadowValue(System.String,System.String)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.ChangeShadowValue(System.String,System.String)
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ChangeShadowValue(`0,`0)
+  name: ChangeShadowValue(String, String)
+  nameWithType: OnlinerBaseType<String>.ChangeShadowValue(String, String)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.ChangeShadowValue(System.String, System.String)
+  nameWithType.vb: OnlinerBaseType(Of String).ChangeShadowValue(String, String)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).ChangeShadowValue(System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ChangeShadowValue(`0,`0)
+    name: ChangeShadowValue
+    nameWithType: OnlinerBaseType<String>.ChangeShadowValue
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.ChangeShadowValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ChangeShadowValue(`0,`0)
+    name: ChangeShadowValue
+    nameWithType: OnlinerBaseType(Of String).ChangeShadowValue
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).ChangeShadowValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetDeclaringAssembly
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.GetDeclaringAssembly
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetDeclaringAssembly
+  name: GetDeclaringAssembly()
+  nameWithType: OnlinerBaseType<String>.GetDeclaringAssembly()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.GetDeclaringAssembly()
+  nameWithType.vb: OnlinerBaseType(Of String).GetDeclaringAssembly()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).GetDeclaringAssembly()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetDeclaringAssembly
+    name: GetDeclaringAssembly
+    nameWithType: OnlinerBaseType<String>.GetDeclaringAssembly
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.GetDeclaringAssembly
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetDeclaringAssembly
+    name: GetDeclaringAssembly
+    nameWithType: OnlinerBaseType(Of String).GetDeclaringAssembly
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).GetDeclaringAssembly
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}._translator
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}._translator
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1._translator
+  name: _translator
+  nameWithType: OnlinerBaseType<String>._translator
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>._translator
+  nameWithType.vb: OnlinerBaseType(Of String)._translator
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String)._translator
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Translator
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Translator
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Translator
+  name: Translator
+  nameWithType: OnlinerBaseType<String>.Translator
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Translator
+  nameWithType.vb: OnlinerBaseType(Of String).Translator
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Translator
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Symbol
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Symbol
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Symbol
+  name: IOnline<String>.Symbol
+  nameWithType: OnlinerBaseType<String>.IOnline<String>.Symbol
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Vortex.Connector.ValueTypes.Online.IOnline<System.String>.Symbol
+  nameWithType.vb: OnlinerBaseType(Of String).Vortex.Connector.ValueTypes.Online.IOnline<T>.Symbol
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Vortex.Connector.ValueTypes.Online.IOnline<T>.Symbol
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.Symbol
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#AttributeName
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#AttributeName
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#AttributeName
+  name: IOnline<String>.AttributeName
+  nameWithType: OnlinerBaseType<String>.IOnline<String>.AttributeName
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Vortex.Connector.ValueTypes.Online.IOnline<System.String>.AttributeName
+  nameWithType.vb: OnlinerBaseType(Of String).Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeName
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeName
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeName
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#AttributeUnits
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#AttributeUnits
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#AttributeUnits
+  name: IOnline<String>.AttributeUnits
+  nameWithType: OnlinerBaseType<String>.IOnline<String>.AttributeUnits
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Vortex.Connector.ValueTypes.Online.IOnline<System.String>.AttributeUnits
+  nameWithType.vb: OnlinerBaseType(Of String).Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeUnits
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeUnits
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeUnits
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Cyclic
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Cyclic
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Cyclic
+  name: IOnline<String>.Cyclic
+  nameWithType: OnlinerBaseType<String>.IOnline<String>.Cyclic
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Vortex.Connector.ValueTypes.Online.IOnline<System.String>.Cyclic
+  nameWithType.vb: OnlinerBaseType(Of String).Vortex.Connector.ValueTypes.Online.IOnline<T>.Cyclic
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Vortex.Connector.ValueTypes.Online.IOnline<T>.Cyclic
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.Cyclic
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Edit
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Edit
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Edit
+  name: IOnline<String>.Edit
+  nameWithType: OnlinerBaseType<String>.IOnline<String>.Edit
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Vortex.Connector.ValueTypes.Online.IOnline<System.String>.Edit
+  nameWithType.vb: OnlinerBaseType(Of String).Vortex.Connector.ValueTypes.Online.IOnline<T>.Edit
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Vortex.Connector.ValueTypes.Online.IOnline<T>.Edit
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.Edit
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Synchron
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Synchron
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Synchron
+  name: IOnline<String>.Synchron
+  nameWithType: OnlinerBaseType<String>.IOnline<String>.Synchron
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Vortex.Connector.ValueTypes.Online.IOnline<System.String>.Synchron
+  nameWithType.vb: OnlinerBaseType(Of String).Vortex.Connector.ValueTypes.Online.IOnline<T>.Synchron
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Vortex.Connector.ValueTypes.Online.IOnline<T>.Synchron
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.Synchron
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Value
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Online#IOnline{T}#Value
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Value
+  name: IOnline<String>.Value
+  nameWithType: OnlinerBaseType<String>.IOnline<String>.Value
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Vortex.Connector.ValueTypes.Online.IOnline<System.String>.Value
+  nameWithType.vb: OnlinerBaseType(Of String).Vortex.Connector.ValueTypes.Online.IOnline<T>.Value
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Vortex.Connector.ValueTypes.Online.IOnline<T>.Value
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.Value
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Value
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Value
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Value
+  name: IShadow<String>.Value
+  nameWithType: OnlinerBaseType<String>.IShadow<String>.Value
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Vortex.Connector.ValueTypes.Shadows.IShadow<System.String>.Value
+  nameWithType.vb: OnlinerBaseType(Of String).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Value
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Value
+  name.vb: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Value
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Symbol
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Symbol
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Symbol
+  name: IShadow<String>.Symbol
+  nameWithType: OnlinerBaseType<String>.IShadow<String>.Symbol
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Vortex.Connector.ValueTypes.Shadows.IShadow<System.String>.Symbol
+  nameWithType.vb: OnlinerBaseType(Of String).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Symbol
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Symbol
+  name.vb: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Symbol
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#AttributeName
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#AttributeName
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#AttributeName
+  name: IShadow<String>.AttributeName
+  nameWithType: OnlinerBaseType<String>.IShadow<String>.AttributeName
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Vortex.Connector.ValueTypes.Shadows.IShadow<System.String>.AttributeName
+  nameWithType.vb: OnlinerBaseType(Of String).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeName
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeName
+  name.vb: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeName
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#AttributeUnits
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#AttributeUnits
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#AttributeUnits
+  name: IShadow<String>.AttributeUnits
+  nameWithType: OnlinerBaseType<String>.IShadow<String>.AttributeUnits
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Vortex.Connector.ValueTypes.Shadows.IShadow<System.String>.AttributeUnits
+  nameWithType.vb: OnlinerBaseType(Of String).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeUnits
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeUnits
+  name.vb: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeUnits
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Shadow
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Shadow
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType{System.String}
+  definition: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Shadow
+  name: IShadow<String>.Shadow
+  nameWithType: OnlinerBaseType<String>.IShadow<String>.Shadow
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<System.String>.Vortex.Connector.ValueTypes.Shadows.IShadow<System.String>.Shadow
+  nameWithType.vb: OnlinerBaseType(Of String).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Shadow
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of System.String).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Shadow
+  name.vb: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Shadow
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType.ReadWriteAccess
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType.ReadWriteAccess
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType
+  name: ReadWriteAccess
+  nameWithType: OnlinerBaseType.ReadWriteAccess
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.ReadWriteAccess
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType.MakeReadOnly
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType.MakeReadOnly
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType
+  name: MakeReadOnly()
+  nameWithType: OnlinerBaseType.MakeReadOnly()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.MakeReadOnly()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType.MakeReadOnly
+    name: MakeReadOnly
+    nameWithType: OnlinerBaseType.MakeReadOnly
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.MakeReadOnly
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType.MakeReadOnly
+    name: MakeReadOnly
+    nameWithType: OnlinerBaseType.MakeReadOnly
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.MakeReadOnly
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType.AttributeFormatString
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType.AttributeFormatString
+  parent: Vortex.Connector.ValueTypes.OnlinerBaseType
+  name: AttributeFormatString
+  nameWithType: OnlinerBaseType.AttributeFormatString
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.AttributeFormatString
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<AdsWString>(Object)
+  nameWithType: IValueTagExtensions.Cast<AdsWString>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of AdsWString)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString)(System.Object)
+  name.vb: Cast(Of AdsWString)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<AdsWString>
+    nameWithType: IValueTagExtensions.Cast<AdsWString>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of AdsWString)
+    nameWithType: IValueTagExtensions.Cast(Of AdsWString)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.ValueTypes
+  commentId: N:Vortex.Connector.ValueTypes
+  name: Vortex.Connector.ValueTypes
+  nameWithType: Vortex.Connector.ValueTypes
+  fullName: Vortex.Connector.ValueTypes
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerBaseType`1
+  name: OnlinerBaseType<T>
+  nameWithType: OnlinerBaseType<T>
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>
+  nameWithType.vb: OnlinerBaseType(Of T)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T)
+  name.vb: OnlinerBaseType(Of T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1
+    name: OnlinerBaseType
+    nameWithType: OnlinerBaseType
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1
+    name: OnlinerBaseType
+    nameWithType: OnlinerBaseType
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: Vortex.Connector.ValueValidation.IValueBoundaries`1
+  commentId: T:Vortex.Connector.ValueValidation.IValueBoundaries`1
+  name: IValueBoundaries<T>
+  nameWithType: IValueBoundaries<T>
+  fullName: Vortex.Connector.ValueValidation.IValueBoundaries<T>
+  nameWithType.vb: IValueBoundaries(Of T)
+  fullName.vb: Vortex.Connector.ValueValidation.IValueBoundaries(Of T)
+  name.vb: IValueBoundaries(Of T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueValidation.IValueBoundaries`1
+    name: IValueBoundaries
+    nameWithType: IValueBoundaries
+    fullName: Vortex.Connector.ValueValidation.IValueBoundaries
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueValidation.IValueBoundaries`1
+    name: IValueBoundaries
+    nameWithType: IValueBoundaries
+    fullName: Vortex.Connector.ValueValidation.IValueBoundaries
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueValidation
+  commentId: N:Vortex.Connector.ValueValidation
+  name: Vortex.Connector.ValueValidation
+  nameWithType: Vortex.Connector.ValueValidation
+  fullName: Vortex.Connector.ValueValidation
+- uid: Vortex.Connector.ValueTypes.Online
+  commentId: N:Vortex.Connector.ValueTypes.Online
+  name: Vortex.Connector.ValueTypes.Online
+  nameWithType: Vortex.Connector.ValueTypes.Online
+  fullName: Vortex.Connector.ValueTypes.Online
+- uid: Vortex.Connector.ValueTypes.Online.IOnline`1
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnline`1
+  name: IOnline<T>
+  nameWithType: IOnline<T>
+  fullName: Vortex.Connector.ValueTypes.Online.IOnline<T>
+  nameWithType.vb: IOnline(Of T)
+  fullName.vb: Vortex.Connector.ValueTypes.Online.IOnline(Of T)
+  name.vb: IOnline(Of T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.Online.IOnline`1
+    name: IOnline
+    nameWithType: IOnline
+    fullName: Vortex.Connector.ValueTypes.Online.IOnline
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.Online.IOnline`1
+    name: IOnline
+    nameWithType: IOnline
+    fullName: Vortex.Connector.ValueTypes.Online.IOnline
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.Shadows
+  commentId: N:Vortex.Connector.ValueTypes.Shadows
+  name: Vortex.Connector.ValueTypes.Shadows
+  nameWithType: Vortex.Connector.ValueTypes.Shadows
+  fullName: Vortex.Connector.ValueTypes.Shadows
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadow`1
+  name: IShadow<T>
+  nameWithType: IShadow<T>
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<T>
+  nameWithType.vb: IShadow(Of T)
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of T)
+  name.vb: IShadow(Of T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+    name: IShadow
+    nameWithType: IShadow
+    fullName: Vortex.Connector.ValueTypes.Shadows.IShadow
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+    name: IShadow
+    nameWithType: IShadow
+    fullName: Vortex.Connector.ValueTypes.Shadows.IShadow
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValueChange
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValueChange
+  name: EditValueChange
+  nameWithType: OnlinerBaseType<T>.EditValueChange
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.EditValueChange
+  nameWithType.vb: OnlinerBaseType(Of T).EditValueChange
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).EditValueChange
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ShadowValueChange
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.ShadowValueChange
+  name: ShadowValueChange
+  nameWithType: OnlinerBaseType<T>.ShadowValueChange
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.ShadowValueChange
+  nameWithType.vb: OnlinerBaseType(Of T).ShadowValueChange
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).ShadowValueChange
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.validator
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType`1.validator
+  name: validator
+  nameWithType: OnlinerBaseType<T>.validator
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.validator
+  nameWithType.vb: OnlinerBaseType(Of T).validator
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).validator
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Validator
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Validator
+  name: Validator
+  nameWithType: OnlinerBaseType<T>.Validator
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Validator
+  nameWithType.vb: OnlinerBaseType(Of T).Validator
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Validator
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.UpdateRead(`0)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.UpdateRead(`0)
+  name: UpdateRead(T)
+  nameWithType: OnlinerBaseType<T>.UpdateRead(T)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.UpdateRead(T)
+  nameWithType.vb: OnlinerBaseType(Of T).UpdateRead(T)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).UpdateRead(T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.UpdateRead(`0)
+    name: UpdateRead
+    nameWithType: OnlinerBaseType<T>.UpdateRead
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.UpdateRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.UpdateRead(`0)
+    name: UpdateRead
+    nameWithType: OnlinerBaseType(Of T).UpdateRead
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).UpdateRead
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.SetLastValue
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.SetLastValue
+  name: SetLastValue
+  nameWithType: OnlinerBaseType<T>.SetLastValue
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.SetLastValue
+  nameWithType.vb: OnlinerBaseType(Of T).SetLastValue
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).SetLastValue
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.LastValue
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.LastValue
+  name: LastValue
+  nameWithType: OnlinerBaseType<T>.LastValue
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.LastValue
+  nameWithType.vb: OnlinerBaseType(Of T).LastValue
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).LastValue
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.CwCycle
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.CwCycle
+  name: CwCycle
+  nameWithType: OnlinerBaseType<T>.CwCycle
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.CwCycle
+  nameWithType.vb: OnlinerBaseType(Of T).CwCycle
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).CwCycle
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.cyclic
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType`1.cyclic
+  name: cyclic
+  nameWithType: OnlinerBaseType<T>.cyclic
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.cyclic
+  nameWithType.vb: OnlinerBaseType(Of T).cyclic
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).cyclic
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.cyclicToWrite
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.cyclicToWrite
+  name: cyclicToWrite
+  nameWithType: OnlinerBaseType<T>.cyclicToWrite
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.cyclicToWrite
+  nameWithType.vb: OnlinerBaseType(Of T).cyclicToWrite
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).cyclicToWrite
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetLastAvailableValue
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetLastAvailableValue
+  name: GetLastAvailableValue()
+  nameWithType: OnlinerBaseType<T>.GetLastAvailableValue()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.GetLastAvailableValue()
+  nameWithType.vb: OnlinerBaseType(Of T).GetLastAvailableValue()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).GetLastAvailableValue()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetLastAvailableValue
+    name: GetLastAvailableValue
+    nameWithType: OnlinerBaseType<T>.GetLastAvailableValue
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.GetLastAvailableValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetLastAvailableValue
+    name: GetLastAvailableValue
+    nameWithType: OnlinerBaseType(Of T).GetLastAvailableValue
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).GetLastAvailableValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Edit
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Edit
+  name: Edit
+  nameWithType: OnlinerBaseType<T>.Edit
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Edit
+  nameWithType.vb: OnlinerBaseType(Of T).Edit
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Edit
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.InitializeDefaults
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.InitializeDefaults
+  name: InitializeDefaults()
+  nameWithType: OnlinerBaseType<T>.InitializeDefaults()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.InitializeDefaults()
+  nameWithType.vb: OnlinerBaseType(Of T).InitializeDefaults()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).InitializeDefaults()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.InitializeDefaults
+    name: InitializeDefaults
+    nameWithType: OnlinerBaseType<T>.InitializeDefaults
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.InitializeDefaults
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.InitializeDefaults
+    name: InitializeDefaults
+    nameWithType: OnlinerBaseType(Of T).InitializeDefaults
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).InitializeDefaults
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1._shadow
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType`1._shadow
+  name: _shadow
+  nameWithType: OnlinerBaseType<T>._shadow
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>._shadow
+  nameWithType.vb: OnlinerBaseType(Of T)._shadow
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T)._shadow
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Shadow
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Shadow
+  name: Shadow
+  nameWithType: OnlinerBaseType<T>.Shadow
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Shadow
+  nameWithType.vb: OnlinerBaseType(Of T).Shadow
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Shadow
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.raw
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType`1.raw
+  name: raw
+  nameWithType: OnlinerBaseType<T>.raw
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.raw
+  nameWithType.vb: OnlinerBaseType(Of T).raw
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).raw
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Raw
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Raw
+  name: Raw
+  nameWithType: OnlinerBaseType<T>.Raw
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Raw
+  nameWithType.vb: OnlinerBaseType(Of T).Raw
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Raw
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetSymbolTail
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetSymbolTail
+  name: GetSymbolTail()
+  nameWithType: OnlinerBaseType<T>.GetSymbolTail()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.GetSymbolTail()
+  nameWithType.vb: OnlinerBaseType(Of T).GetSymbolTail()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).GetSymbolTail()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetSymbolTail
+    name: GetSymbolTail
+    nameWithType: OnlinerBaseType<T>.GetSymbolTail
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.GetSymbolTail
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetSymbolTail
+    name: GetSymbolTail
+    nameWithType: OnlinerBaseType(Of T).GetSymbolTail
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).GetSymbolTail
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.SymbolTail
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.SymbolTail
+  name: SymbolTail
+  nameWithType: OnlinerBaseType<T>.SymbolTail
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.SymbolTail
+  nameWithType.vb: OnlinerBaseType(Of T).SymbolTail
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).SymbolTail
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Parent
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Parent
+  name: Parent
+  nameWithType: OnlinerBaseType<T>.Parent
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Parent
+  nameWithType.vb: OnlinerBaseType(Of T).Parent
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Parent
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetParent
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetParent
+  name: GetParent()
+  nameWithType: OnlinerBaseType<T>.GetParent()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.GetParent()
+  nameWithType.vb: OnlinerBaseType(Of T).GetParent()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).GetParent()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetParent
+    name: GetParent
+    nameWithType: OnlinerBaseType<T>.GetParent
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.GetParent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetParent
+    name: GetParent
+    nameWithType: OnlinerBaseType(Of T).GetParent
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).GetParent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#ValueChanged
+  commentId: E:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#ValueChanged
+  name: IOnline<T>.ValueChanged
+  nameWithType: OnlinerBaseType<T>.IOnline<T>.ValueChanged
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Vortex.Connector.ValueTypes.Online.IOnline<T>.ValueChanged
+  nameWithType.vb: OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.ValueChanged
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.ValueChanged
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.ValueChanged
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#ValueChanged
+  commentId: E:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#ValueChanged
+  name: IShadow<T>.ValueChanged
+  nameWithType: OnlinerBaseType<T>.IShadow<T>.ValueChanged
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Vortex.Connector.ValueTypes.Shadows.IShadow<T>.ValueChanged
+  nameWithType.vb: OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.ValueChanged
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.ValueChanged
+  name.vb: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.ValueChanged
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1._humanReadable
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType`1._humanReadable
+  name: _humanReadable
+  nameWithType: OnlinerBaseType<T>._humanReadable
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>._humanReadable
+  nameWithType.vb: OnlinerBaseType(Of T)._humanReadable
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T)._humanReadable
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.HumanReadable
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.HumanReadable
+  name: HumanReadable
+  nameWithType: OnlinerBaseType<T>.HumanReadable
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.HumanReadable
+  nameWithType.vb: OnlinerBaseType(Of T).HumanReadable
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).HumanReadable
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  name: Subscribe(ValueChangedEventHandlerDelegate)
+  nameWithType: OnlinerBaseType<T>.Subscribe(ValueChangedEventHandlerDelegate)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  nameWithType.vb: OnlinerBaseType(Of T).Subscribe(ValueChangedEventHandlerDelegate)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+    name: Subscribe
+    nameWithType: OnlinerBaseType<T>.Subscribe
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Subscribe
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+    name: ValueChangedEventHandlerDelegate
+    nameWithType: ValueChangedEventHandlerDelegate
+    fullName: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+    name: Subscribe
+    nameWithType: OnlinerBaseType(Of T).Subscribe
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Subscribe
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+    name: ValueChangedEventHandlerDelegate
+    nameWithType: ValueChangedEventHandlerDelegate
+    fullName: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  name: UnSubscribe(ValueChangedEventHandlerDelegate)
+  nameWithType: OnlinerBaseType<T>.UnSubscribe(ValueChangedEventHandlerDelegate)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  nameWithType.vb: OnlinerBaseType(Of T).UnSubscribe(ValueChangedEventHandlerDelegate)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+    name: UnSubscribe
+    nameWithType: OnlinerBaseType<T>.UnSubscribe
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.UnSubscribe
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+    name: ValueChangedEventHandlerDelegate
+    nameWithType: ValueChangedEventHandlerDelegate
+    fullName: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+    name: UnSubscribe
+    nameWithType: OnlinerBaseType(Of T).UnSubscribe
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).UnSubscribe
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+    name: ValueChangedEventHandlerDelegate
+    nameWithType: ValueChangedEventHandlerDelegate
+    fullName: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.PropertyChanged
+  commentId: E:Vortex.Connector.ValueTypes.OnlinerBaseType`1.PropertyChanged
+  name: PropertyChanged
+  nameWithType: OnlinerBaseType<T>.PropertyChanged
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.PropertyChanged
+  nameWithType.vb: OnlinerBaseType(Of T).PropertyChanged
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).PropertyChanged
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ValueChangeEvent
+  commentId: E:Vortex.Connector.ValueTypes.OnlinerBaseType`1.ValueChangeEvent
+  name: ValueChangeEvent
+  nameWithType: OnlinerBaseType<T>.ValueChangeEvent
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.ValueChangeEvent
+  nameWithType.vb: OnlinerBaseType(Of T).ValueChangeEvent
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).ValueChangeEvent
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ShadowValueChangeEvent
+  commentId: E:Vortex.Connector.ValueTypes.OnlinerBaseType`1.ShadowValueChangeEvent
+  name: ShadowValueChangeEvent
+  nameWithType: OnlinerBaseType<T>.ShadowValueChangeEvent
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.ShadowValueChangeEvent
+  nameWithType.vb: OnlinerBaseType(Of T).ShadowValueChangeEvent
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).ShadowValueChangeEvent
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetValueChangeEventSubscribers
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetValueChangeEventSubscribers
+  name: GetValueChangeEventSubscribers()
+  nameWithType: OnlinerBaseType<T>.GetValueChangeEventSubscribers()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.GetValueChangeEventSubscribers()
+  nameWithType.vb: OnlinerBaseType(Of T).GetValueChangeEventSubscribers()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).GetValueChangeEventSubscribers()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetValueChangeEventSubscribers
+    name: GetValueChangeEventSubscribers
+    nameWithType: OnlinerBaseType<T>.GetValueChangeEventSubscribers
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.GetValueChangeEventSubscribers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetValueChangeEventSubscribers
+    name: GetValueChangeEventSubscribers
+    nameWithType: OnlinerBaseType(Of T).GetValueChangeEventSubscribers
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).GetValueChangeEventSubscribers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1._attributeName
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType`1._attributeName
+  name: _attributeName
+  nameWithType: OnlinerBaseType<T>._attributeName
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>._attributeName
+  nameWithType.vb: OnlinerBaseType(Of T)._attributeName
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T)._attributeName
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeName
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeName
+  name: AttributeName
+  nameWithType: OnlinerBaseType<T>.AttributeName
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.AttributeName
+  nameWithType.vb: OnlinerBaseType(Of T).AttributeName
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).AttributeName
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeUnits
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeUnits
+  name: AttributeUnits
+  nameWithType: OnlinerBaseType<T>.AttributeUnits
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.AttributeUnits
+  nameWithType.vb: OnlinerBaseType(Of T).AttributeUnits
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).AttributeUnits
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.attributeToolTip
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType`1.attributeToolTip
+  name: attributeToolTip
+  nameWithType: OnlinerBaseType<T>.attributeToolTip
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.attributeToolTip
+  nameWithType.vb: OnlinerBaseType(Of T).attributeToolTip
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).attributeToolTip
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeToolTip
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeToolTip
+  name: AttributeToolTip
+  nameWithType: OnlinerBaseType<T>.AttributeToolTip
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.AttributeToolTip
+  nameWithType.vb: OnlinerBaseType(Of T).AttributeToolTip
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).AttributeToolTip
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.CyclicReading
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.CyclicReading
+  name: CyclicReading
+  nameWithType: OnlinerBaseType<T>.CyclicReading
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.CyclicReading
+  nameWithType.vb: OnlinerBaseType(Of T).CyclicReading
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).CyclicReading
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.VariableInfo
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.VariableInfo
+  name: VariableInfo
+  nameWithType: OnlinerBaseType<T>.VariableInfo
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.VariableInfo
+  nameWithType.vb: OnlinerBaseType(Of T).VariableInfo
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).VariableInfo
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Symbol
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Symbol
+  name: Symbol
+  nameWithType: OnlinerBaseType<T>.Symbol
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Symbol
+  nameWithType.vb: OnlinerBaseType(Of T).Symbol
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Symbol
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.HasBeenWritten
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.HasBeenWritten
+  name: HasBeenWritten
+  nameWithType: OnlinerBaseType<T>.HasBeenWritten
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.HasBeenWritten
+  nameWithType.vb: OnlinerBaseType(Of T).HasBeenWritten
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).HasBeenWritten
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.IsToBeRead
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.IsToBeRead
+  name: IsToBeRead
+  nameWithType: OnlinerBaseType<T>.IsToBeRead
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.IsToBeRead
+  nameWithType.vb: OnlinerBaseType(Of T).IsToBeRead
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).IsToBeRead
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.IsToBeWritten
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.IsToBeWritten
+  name: IsToBeWritten
+  nameWithType: OnlinerBaseType<T>.IsToBeWritten
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.IsToBeWritten
+  nameWithType.vb: OnlinerBaseType(Of T).IsToBeWritten
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).IsToBeWritten
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.WriteToPlcIsRequested
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.WriteToPlcIsRequested
+  name: WriteToPlcIsRequested
+  nameWithType: OnlinerBaseType<T>.WriteToPlcIsRequested
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.WriteToPlcIsRequested
+  nameWithType.vb: OnlinerBaseType(Of T).WriteToPlcIsRequested
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).WriteToPlcIsRequested
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ReadFromPlcIsRequested
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.ReadFromPlcIsRequested
+  name: ReadFromPlcIsRequested
+  nameWithType: OnlinerBaseType<T>.ReadFromPlcIsRequested
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.ReadFromPlcIsRequested
+  nameWithType.vb: OnlinerBaseType(Of T).ReadFromPlcIsRequested
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).ReadFromPlcIsRequested
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeMaxSet
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeMaxSet
+  name: AttributeMaxSet
+  nameWithType: OnlinerBaseType<T>.AttributeMaxSet
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.AttributeMaxSet
+  nameWithType.vb: OnlinerBaseType(Of T).AttributeMaxSet
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).AttributeMaxSet
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.attributeMax
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType`1.attributeMax
+  name: attributeMax
+  nameWithType: OnlinerBaseType<T>.attributeMax
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.attributeMax
+  nameWithType.vb: OnlinerBaseType(Of T).attributeMax
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).attributeMax
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeMaximum
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeMaximum
+  name: AttributeMaximum
+  nameWithType: OnlinerBaseType<T>.AttributeMaximum
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.AttributeMaximum
+  nameWithType.vb: OnlinerBaseType(Of T).AttributeMaximum
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).AttributeMaximum
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeMinSet
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeMinSet
+  name: AttributeMinSet
+  nameWithType: OnlinerBaseType<T>.AttributeMinSet
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.AttributeMinSet
+  nameWithType.vb: OnlinerBaseType(Of T).AttributeMinSet
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).AttributeMinSet
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.attributeMin
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType`1.attributeMin
+  name: attributeMin
+  nameWithType: OnlinerBaseType<T>.attributeMin
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.attributeMin
+  nameWithType.vb: OnlinerBaseType(Of T).attributeMin
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).attributeMin
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeMinimum
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.AttributeMinimum
+  name: AttributeMinimum
+  nameWithType: OnlinerBaseType<T>.AttributeMinimum
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.AttributeMinimum
+  nameWithType.vb: OnlinerBaseType(Of T).AttributeMinimum
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).AttributeMinimum
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.HasWriteAccess
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.HasWriteAccess
+  name: HasWriteAccess()
+  nameWithType: OnlinerBaseType<T>.HasWriteAccess()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.HasWriteAccess()
+  nameWithType.vb: OnlinerBaseType(Of T).HasWriteAccess()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).HasWriteAccess()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.HasWriteAccess
+    name: HasWriteAccess
+    nameWithType: OnlinerBaseType<T>.HasWriteAccess
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.HasWriteAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.HasWriteAccess
+    name: HasWriteAccess
+    nameWithType: OnlinerBaseType(Of T).HasWriteAccess
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).HasWriteAccess
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.NotifyPropertyChanged(System.String)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.NotifyPropertyChanged(System.String)
+  isExternal: true
+  name: NotifyPropertyChanged(String)
+  nameWithType: OnlinerBaseType<T>.NotifyPropertyChanged(String)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.NotifyPropertyChanged(System.String)
+  nameWithType.vb: OnlinerBaseType(Of T).NotifyPropertyChanged(String)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).NotifyPropertyChanged(System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    nameWithType: OnlinerBaseType<T>.NotifyPropertyChanged
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.NotifyPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.NotifyPropertyChanged(System.String)
+    name: NotifyPropertyChanged
+    nameWithType: OnlinerBaseType(Of T).NotifyPropertyChanged
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).NotifyPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.OnValueChangeEvent(`0)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.OnValueChangeEvent(`0)
+  name: OnValueChangeEvent(T)
+  nameWithType: OnlinerBaseType<T>.OnValueChangeEvent(T)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.OnValueChangeEvent(T)
+  nameWithType.vb: OnlinerBaseType(Of T).OnValueChangeEvent(T)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).OnValueChangeEvent(T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.OnValueChangeEvent(`0)
+    name: OnValueChangeEvent
+    nameWithType: OnlinerBaseType<T>.OnValueChangeEvent
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.OnValueChangeEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.OnValueChangeEvent(`0)
+    name: OnValueChangeEvent
+    nameWithType: OnlinerBaseType(Of T).OnValueChangeEvent
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).OnValueChangeEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.OnShadowValueChangeEvent(`0)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.OnShadowValueChangeEvent(`0)
+  name: OnShadowValueChangeEvent(T)
+  nameWithType: OnlinerBaseType<T>.OnShadowValueChangeEvent(T)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.OnShadowValueChangeEvent(T)
+  nameWithType.vb: OnlinerBaseType(Of T).OnShadowValueChangeEvent(T)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).OnShadowValueChangeEvent(T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.OnShadowValueChangeEvent(`0)
+    name: OnShadowValueChangeEvent
+    nameWithType: OnlinerBaseType<T>.OnShadowValueChangeEvent
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.OnShadowValueChangeEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.OnShadowValueChangeEvent(`0)
+    name: OnShadowValueChangeEvent
+    nameWithType: OnlinerBaseType(Of T).OnShadowValueChangeEvent
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).OnShadowValueChangeEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ReadFromItem
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.ReadFromItem
+  name: ReadFromItem()
+  nameWithType: OnlinerBaseType<T>.ReadFromItem()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.ReadFromItem()
+  nameWithType.vb: OnlinerBaseType(Of T).ReadFromItem()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).ReadFromItem()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ReadFromItem
+    name: ReadFromItem
+    nameWithType: OnlinerBaseType<T>.ReadFromItem
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.ReadFromItem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ReadFromItem
+    name: ReadFromItem
+    nameWithType: OnlinerBaseType(Of T).ReadFromItem
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).ReadFromItem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.WriteItem
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.WriteItem
+  name: WriteItem()
+  nameWithType: OnlinerBaseType<T>.WriteItem()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.WriteItem()
+  nameWithType.vb: OnlinerBaseType(Of T).WriteItem()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).WriteItem()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.WriteItem
+    name: WriteItem
+    nameWithType: OnlinerBaseType<T>.WriteItem
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.WriteItem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.WriteItem
+    name: WriteItem
+    nameWithType: OnlinerBaseType(Of T).WriteItem
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).WriteItem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.CreateSymbol(System.String,System.String)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.CreateSymbol(System.String,System.String)
+  isExternal: true
+  name: CreateSymbol(String, String)
+  nameWithType: OnlinerBaseType<T>.CreateSymbol(String, String)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.CreateSymbol(System.String, System.String)
+  nameWithType.vb: OnlinerBaseType(Of T).CreateSymbol(String, String)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).CreateSymbol(System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.CreateSymbol(System.String,System.String)
+    name: CreateSymbol
+    nameWithType: OnlinerBaseType<T>.CreateSymbol
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.CreateSymbol
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.CreateSymbol(System.String,System.String)
+    name: CreateSymbol
+    nameWithType: OnlinerBaseType(Of T).CreateSymbol
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).CreateSymbol
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)
+  name: EditValue(T, T)
+  nameWithType: OnlinerBaseType<T>.EditValue(T, T)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.EditValue(T, T)
+  nameWithType.vb: OnlinerBaseType(Of T).EditValue(T, T)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).EditValue(T, T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)
+    name: EditValue
+    nameWithType: OnlinerBaseType<T>.EditValue
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.EditValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.EditValue(`0,`0)
+    name: EditValue
+    nameWithType: OnlinerBaseType(Of T).EditValue
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).EditValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ChangeShadowValue(`0,`0)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.ChangeShadowValue(`0,`0)
+  name: ChangeShadowValue(T, T)
+  nameWithType: OnlinerBaseType<T>.ChangeShadowValue(T, T)
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.ChangeShadowValue(T, T)
+  nameWithType.vb: OnlinerBaseType(Of T).ChangeShadowValue(T, T)
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).ChangeShadowValue(T, T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ChangeShadowValue(`0,`0)
+    name: ChangeShadowValue
+    nameWithType: OnlinerBaseType<T>.ChangeShadowValue
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.ChangeShadowValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.ChangeShadowValue(`0,`0)
+    name: ChangeShadowValue
+    nameWithType: OnlinerBaseType(Of T).ChangeShadowValue
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).ChangeShadowValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetDeclaringAssembly
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetDeclaringAssembly
+  name: GetDeclaringAssembly()
+  nameWithType: OnlinerBaseType<T>.GetDeclaringAssembly()
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.GetDeclaringAssembly()
+  nameWithType.vb: OnlinerBaseType(Of T).GetDeclaringAssembly()
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).GetDeclaringAssembly()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetDeclaringAssembly
+    name: GetDeclaringAssembly
+    nameWithType: OnlinerBaseType<T>.GetDeclaringAssembly
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.GetDeclaringAssembly
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.GetDeclaringAssembly
+    name: GetDeclaringAssembly
+    nameWithType: OnlinerBaseType(Of T).GetDeclaringAssembly
+    fullName: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).GetDeclaringAssembly
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1._translator
+  commentId: F:Vortex.Connector.ValueTypes.OnlinerBaseType`1._translator
+  name: _translator
+  nameWithType: OnlinerBaseType<T>._translator
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>._translator
+  nameWithType.vb: OnlinerBaseType(Of T)._translator
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T)._translator
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Translator
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Translator
+  name: Translator
+  nameWithType: OnlinerBaseType<T>.Translator
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Translator
+  nameWithType.vb: OnlinerBaseType(Of T).Translator
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Translator
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Symbol
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Symbol
+  name: IOnline<T>.Symbol
+  nameWithType: OnlinerBaseType<T>.IOnline<T>.Symbol
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Vortex.Connector.ValueTypes.Online.IOnline<T>.Symbol
+  nameWithType.vb: OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.Symbol
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.Symbol
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.Symbol
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#AttributeName
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#AttributeName
+  name: IOnline<T>.AttributeName
+  nameWithType: OnlinerBaseType<T>.IOnline<T>.AttributeName
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeName
+  nameWithType.vb: OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeName
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeName
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeName
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#AttributeUnits
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#AttributeUnits
+  name: IOnline<T>.AttributeUnits
+  nameWithType: OnlinerBaseType<T>.IOnline<T>.AttributeUnits
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeUnits
+  nameWithType.vb: OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeUnits
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeUnits
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeUnits
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Cyclic
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Cyclic
+  name: IOnline<T>.Cyclic
+  nameWithType: OnlinerBaseType<T>.IOnline<T>.Cyclic
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Vortex.Connector.ValueTypes.Online.IOnline<T>.Cyclic
+  nameWithType.vb: OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.Cyclic
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.Cyclic
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.Cyclic
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Edit
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Edit
+  name: IOnline<T>.Edit
+  nameWithType: OnlinerBaseType<T>.IOnline<T>.Edit
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Vortex.Connector.ValueTypes.Online.IOnline<T>.Edit
+  nameWithType.vb: OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.Edit
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.Edit
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.Edit
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Synchron
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Synchron
+  name: IOnline<T>.Synchron
+  nameWithType: OnlinerBaseType<T>.IOnline<T>.Synchron
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Vortex.Connector.ValueTypes.Online.IOnline<T>.Synchron
+  nameWithType.vb: OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.Synchron
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.Synchron
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.Synchron
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Value
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Value
+  name: IOnline<T>.Value
+  nameWithType: OnlinerBaseType<T>.IOnline<T>.Value
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Vortex.Connector.ValueTypes.Online.IOnline<T>.Value
+  nameWithType.vb: OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.Value
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Online.IOnline<T>.Value
+  name.vb: Vortex.Connector.ValueTypes.Online.IOnline<T>.Value
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Value
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Value
+  name: IShadow<T>.Value
+  nameWithType: OnlinerBaseType<T>.IShadow<T>.Value
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Value
+  nameWithType.vb: OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Value
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Value
+  name.vb: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Value
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Symbol
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Symbol
+  name: IShadow<T>.Symbol
+  nameWithType: OnlinerBaseType<T>.IShadow<T>.Symbol
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Symbol
+  nameWithType.vb: OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Symbol
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Symbol
+  name.vb: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Symbol
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#AttributeName
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#AttributeName
+  name: IShadow<T>.AttributeName
+  nameWithType: OnlinerBaseType<T>.IShadow<T>.AttributeName
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeName
+  nameWithType.vb: OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeName
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeName
+  name.vb: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeName
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#AttributeUnits
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#AttributeUnits
+  name: IShadow<T>.AttributeUnits
+  nameWithType: OnlinerBaseType<T>.IShadow<T>.AttributeUnits
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeUnits
+  nameWithType.vb: OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeUnits
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeUnits
+  name.vb: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeUnits
+- uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Shadow
+  commentId: P:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Shadows#IShadow{T}#Shadow
+  name: IShadow<T>.Shadow
+  nameWithType: OnlinerBaseType<T>.IShadow<T>.Shadow
+  fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Shadow
+  nameWithType.vb: OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Shadow
+  fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Shadow
+  name.vb: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Shadow
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Client*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Client
+  name: Client
+  nameWithType: AdsWString.Client
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Client
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Client
+  commentId: P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Client
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  name: Client
+  nameWithType: IAdsBaseType.Client
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Client
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  name: ClientSymbol
+  nameWithType: ClientSymbol
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+  name: AdsWString
+  nameWithType: AdsWString
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.#ctor*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.#ctor
+  name: AdsWString
+  nameWithType: AdsWString.AdsWString
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.AdsWString
+- uid: Vortex.Connector.IVortexObject
+  commentId: T:Vortex.Connector.IVortexObject
+  parent: Vortex.Connector
+  name: IVortexObject
+  nameWithType: IVortexObject
+  fullName: Vortex.Connector.IVortexObject
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vortex.Connector.ValueTypes.OnlinerWString.GetSynchron
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerWString.GetSynchron
+  parent: Vortex.Connector.ValueTypes.OnlinerWString
+  name: GetSynchron()
+  nameWithType: OnlinerWString.GetSynchron()
+  fullName: Vortex.Connector.ValueTypes.OnlinerWString.GetSynchron()
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerWString.GetSynchron
+    name: GetSynchron
+    nameWithType: OnlinerWString.GetSynchron
+    fullName: Vortex.Connector.ValueTypes.OnlinerWString.GetSynchron
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerWString.GetSynchron
+    name: GetSynchron
+    nameWithType: OnlinerWString.GetSynchron
+    fullName: Vortex.Connector.ValueTypes.OnlinerWString.GetSynchron
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.GetSynchron*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.GetSynchron
+  name: GetSynchron
+  nameWithType: AdsWString.GetSynchron
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.GetSynchron
+- uid: Vortex.Connector.ValueTypes.OnlinerWString.SetSynchron(System.String)
+  commentId: M:Vortex.Connector.ValueTypes.OnlinerWString.SetSynchron(System.String)
+  parent: Vortex.Connector.ValueTypes.OnlinerWString
+  isExternal: true
+  name: SetSynchron(String)
+  nameWithType: OnlinerWString.SetSynchron(String)
+  fullName: Vortex.Connector.ValueTypes.OnlinerWString.SetSynchron(System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.OnlinerWString.SetSynchron(System.String)
+    name: SetSynchron
+    nameWithType: OnlinerWString.SetSynchron
+    fullName: Vortex.Connector.ValueTypes.OnlinerWString.SetSynchron
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.OnlinerWString.SetSynchron(System.String)
+    name: SetSynchron
+    nameWithType: OnlinerWString.SetSynchron
+    fullName: Vortex.Connector.ValueTypes.OnlinerWString.SetSynchron
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.SetSynchron*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.SetSynchron
+  name: SetSynchron
+  nameWithType: AdsWString.SetSynchron
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.SetSynchron
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueLength*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueLength
+  name: FixValueLength
+  nameWithType: AdsWString.FixValueLength
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueLength
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ValueToWrite*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ValueToWrite
+  name: ValueToWrite
+  nameWithType: AdsWString.ValueToWrite
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ValueToWrite
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Read*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Read
+  name: Read
+  nameWithType: AdsWString.Read
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Read
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Read(System.IO.BinaryReader)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Read(System.IO.BinaryReader)
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  isExternal: true
+  name: Read(BinaryReader)
+  nameWithType: IAdsBaseType.Read(BinaryReader)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Read(System.IO.BinaryReader)
+  spec.csharp:
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Read(System.IO.BinaryReader)
+    name: Read
+    nameWithType: IAdsBaseType.Read
+    fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Read
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.BinaryReader
+    name: BinaryReader
+    nameWithType: BinaryReader
+    fullName: System.IO.BinaryReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Read(System.IO.BinaryReader)
+    name: Read
+    nameWithType: IAdsBaseType.Read
+    fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Read
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.BinaryReader
+    name: BinaryReader
+    nameWithType: BinaryReader
+    fullName: System.IO.BinaryReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader
+  commentId: T:System.IO.BinaryReader
+  parent: System.IO
+  isExternal: true
+  name: BinaryReader
+  nameWithType: BinaryReader
+  fullName: System.IO.BinaryReader
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Write*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Write
+  name: Write
+  nameWithType: AdsWString.Write
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Write
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Write(System.IO.BinaryWriter)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Write(System.IO.BinaryWriter)
+  parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+  isExternal: true
+  name: Write(BinaryWriter)
+  nameWithType: IAdsBaseType.Write(BinaryWriter)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Write(System.IO.BinaryWriter)
+  spec.csharp:
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Write(System.IO.BinaryWriter)
+    name: Write
+    nameWithType: IAdsBaseType.Write
+    fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.BinaryWriter
+    name: BinaryWriter
+    nameWithType: BinaryWriter
+    fullName: System.IO.BinaryWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Write(System.IO.BinaryWriter)
+    name: Write
+    nameWithType: IAdsBaseType.Write
+    fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.Write
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.BinaryWriter
+    name: BinaryWriter
+    nameWithType: BinaryWriter
+    fullName: System.IO.BinaryWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter
+  commentId: T:System.IO.BinaryWriter
+  parent: System.IO
+  isExternal: true
+  name: BinaryWriter
+  nameWithType: BinaryWriter
+  fullName: System.IO.BinaryWriter
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ReadFromBinaryReader*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ReadFromBinaryReader
+  name: ReadFromBinaryReader
+  nameWithType: AdsWString.ReadFromBinaryReader
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ReadFromBinaryReader
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.WriteViaBinaryWriter*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.WriteViaBinaryWriter
+  name: WriteViaBinaryWriter
+  nameWithType: AdsWString.WriteViaBinaryWriter
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.WriteViaBinaryWriter

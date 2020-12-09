@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.ValueTypes.Shadows
+  commentId: N:Vortex.Connector.ValueTypes.Shadows
+  id: Vortex.Connector.ValueTypes.Shadows
+  children:
+  - Vortex.Connector.ValueTypes.Shadows.IShadow`1
+  - Vortex.Connector.ValueTypes.Shadows.IShadowBool
+  - Vortex.Connector.ValueTypes.Shadows.IShadowByte
+  - Vortex.Connector.ValueTypes.Shadows.IShadowDate
+  - Vortex.Connector.ValueTypes.Shadows.IShadowDateTime
+  - Vortex.Connector.ValueTypes.Shadows.IShadowDInt
+  - Vortex.Connector.ValueTypes.Shadows.IShadowDWord
+  - Vortex.Connector.ValueTypes.Shadows.IShadowInt
+  - Vortex.Connector.ValueTypes.Shadows.IShadowLInt
+  - Vortex.Connector.ValueTypes.Shadows.IShadowLReal
+  - Vortex.Connector.ValueTypes.Shadows.IShadowLTime
+  - Vortex.Connector.ValueTypes.Shadows.IShadowLWord
+  - Vortex.Connector.ValueTypes.Shadows.IShadowReal
+  - Vortex.Connector.ValueTypes.Shadows.IShadowSInt
+  - Vortex.Connector.ValueTypes.Shadows.IShadowString
+  - Vortex.Connector.ValueTypes.Shadows.IShadowTime
+  - Vortex.Connector.ValueTypes.Shadows.IShadowTimeOfDay
+  - Vortex.Connector.ValueTypes.Shadows.IShadowUDInt
+  - Vortex.Connector.ValueTypes.Shadows.IShadowUInt
+  - Vortex.Connector.ValueTypes.Shadows.IShadowULInt
+  - Vortex.Connector.ValueTypes.Shadows.IShadowUSInt
+  - Vortex.Connector.ValueTypes.Shadows.IShadowWord
+  - Vortex.Connector.ValueTypes.Shadows.IShadowWString
+  - Vortex.Connector.ValueTypes.Shadows.NamespaceDoc
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Connector.ValueTypes.Shadows
+  nameWithType: Vortex.Connector.ValueTypes.Shadows
+  fullName: Vortex.Connector.ValueTypes.Shadows
+  type: Namespace
+  assemblies:
+  - Vortex.Connector
+references:
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadow`1
+  name: IShadow<T>
+  nameWithType: IShadow<T>
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadow<T>
+  nameWithType.vb: IShadow(Of T)
+  fullName.vb: Vortex.Connector.ValueTypes.Shadows.IShadow(Of T)
+  name.vb: IShadow(Of T)
+  spec.csharp:
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+    name: IShadow
+    nameWithType: IShadow
+    fullName: Vortex.Connector.ValueTypes.Shadows.IShadow
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+    name: IShadow
+    nameWithType: IShadow
+    fullName: Vortex.Connector.ValueTypes.Shadows.IShadow
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowBool
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowBool
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowBool
+  nameWithType: IShadowBool
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowBool
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowByte
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowByte
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowByte
+  nameWithType: IShadowByte
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowByte
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowDate
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowDate
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowDate
+  nameWithType: IShadowDate
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowDate
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowDateTime
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowDateTime
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowDateTime
+  nameWithType: IShadowDateTime
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowDateTime
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowDInt
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowDInt
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowDInt
+  nameWithType: IShadowDInt
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowDInt
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowDWord
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowDWord
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowDWord
+  nameWithType: IShadowDWord
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowDWord
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowInt
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowInt
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowInt
+  nameWithType: IShadowInt
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowInt
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowLInt
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowLInt
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowLInt
+  nameWithType: IShadowLInt
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowLInt
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowLReal
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowLReal
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowLReal
+  nameWithType: IShadowLReal
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowLReal
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowLTime
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowLTime
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowLTime
+  nameWithType: IShadowLTime
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowLTime
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowLWord
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowLWord
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowLWord
+  nameWithType: IShadowLWord
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowLWord
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowReal
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowReal
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowReal
+  nameWithType: IShadowReal
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowReal
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowSInt
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowSInt
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowSInt
+  nameWithType: IShadowSInt
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowSInt
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowString
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowString
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowString
+  nameWithType: IShadowString
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowString
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowTime
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowTime
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowTime
+  nameWithType: IShadowTime
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowTime
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowTimeOfDay
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowTimeOfDay
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowTimeOfDay
+  nameWithType: IShadowTimeOfDay
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowTimeOfDay
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowUDInt
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowUDInt
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowUDInt
+  nameWithType: IShadowUDInt
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowUDInt
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowUInt
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowUInt
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowUInt
+  nameWithType: IShadowUInt
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowUInt
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowULInt
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowULInt
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowULInt
+  nameWithType: IShadowULInt
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowULInt
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowUSInt
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowUSInt
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowUSInt
+  nameWithType: IShadowUSInt
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowUSInt
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowWord
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowWord
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowWord
+  nameWithType: IShadowWord
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowWord
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowWString
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowWString
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowWString
+  nameWithType: IShadowWString
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowWString
+- uid: Vortex.Connector.ValueTypes.Shadows.NamespaceDoc
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.NamespaceDoc
+  name: NamespaceDoc
+  nameWithType: NamespaceDoc
+  fullName: Vortex.Connector.ValueTypes.Shadows.NamespaceDoc
+- uid: Vortex.Connector.ValueTypes.Shadows
+  commentId: N:Vortex.Connector.ValueTypes.Shadows
+  name: Vortex.Connector.ValueTypes.Shadows
+  nameWithType: Vortex.Connector.ValueTypes.Shadows
+  fullName: Vortex.Connector.ValueTypes.Shadows

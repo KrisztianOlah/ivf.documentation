@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: vortex.compiler.console.runner
+  commentId: N:vortex.compiler.console.runner
+  id: vortex.compiler.console.runner
+  children:
+  - vortex.compiler.console.runner.ExtensionRunner
+  langs:
+  - csharp
+  - vb
+  name: vortex.compiler.console.runner
+  nameWithType: vortex.compiler.console.runner
+  fullName: vortex.compiler.console.runner
+  type: Namespace
+  assemblies:
+  - vortex.compiler.console
+references:
+- uid: vortex.compiler.console.runner.ExtensionRunner
+  commentId: T:vortex.compiler.console.runner.ExtensionRunner
+  name: ExtensionRunner
+  nameWithType: ExtensionRunner
+  fullName: vortex.compiler.console.runner.ExtensionRunner

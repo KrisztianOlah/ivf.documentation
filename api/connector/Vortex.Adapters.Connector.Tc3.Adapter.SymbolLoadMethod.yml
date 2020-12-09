@@ -1,0 +1,226 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+  commentId: T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+  id: SymbolLoadMethod
+  parent: Vortex.Adapters.Connector.Tc3.Adapter
+  children:
+  - Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.SymbolInfoLoader
+  - Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.SymbolInfoReader
+  langs:
+  - csharp
+  - vb
+  name: SymbolLoadMethod
+  nameWithType: SymbolLoadMethod
+  fullName: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+  type: Enum
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/SymbolLoadMethod.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SymbolLoadMethod
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/SymbolLoadMethod.cs
+    startLine: 6
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.Adapter
+  summary: "\nEnumerates symbol loading methods.\n"
+  example: []
+  syntax:
+    content: public enum SymbolLoadMethod
+    content.vb: Public Enum SymbolLoadMethod
+  extensionMethods:
+  - Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.SymbolInfoReader
+  commentId: F:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.SymbolInfoReader
+  id: SymbolInfoReader
+  parent: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+  langs:
+  - csharp
+  - vb
+  name: SymbolInfoReader
+  nameWithType: SymbolLoadMethod.SymbolInfoReader
+  fullName: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.SymbolInfoReader
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/SymbolLoadMethod.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SymbolInfoReader
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/SymbolLoadMethod.cs
+    startLine: 12
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.Adapter
+  summary: "\nUsing symbol info loader.\n<div class=\"NOTE\"><h5>note</h5><p>Generally faster method for on the fly loading of the symbols.</p></div>\n"
+  example: []
+  syntax:
+    content: SymbolInfoReader = 0
+    return:
+      type: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.SymbolInfoLoader
+  commentId: F:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.SymbolInfoLoader
+  id: SymbolInfoLoader
+  parent: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+  langs:
+  - csharp
+  - vb
+  name: SymbolInfoLoader
+  nameWithType: SymbolLoadMethod.SymbolInfoLoader
+  fullName: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.SymbolInfoLoader
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/SymbolLoadMethod.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SymbolInfoLoader
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/SymbolLoadMethod.cs
+    startLine: 17
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3.Adapter
+  summary: "\nUsing symbol info reader.\n<div class=\"NOTE\"><h5>note</h5><p>Generally slower method suitable for small-mid size applications.</p></div>\n"
+  example: []
+  syntax:
+    content: SymbolInfoLoader = 1
+    return:
+      type: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vortex.Adapters.Connector.Tc3.Adapter
+  commentId: N:Vortex.Adapters.Connector.Tc3.Adapter
+  name: Vortex.Adapters.Connector.Tc3.Adapter
+  nameWithType: Vortex.Adapters.Connector.Tc3.Adapter
+  fullName: Vortex.Adapters.Connector.Tc3.Adapter
+- uid: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<SymbolLoadMethod>(Object)
+  nameWithType: IValueTagExtensions.Cast<SymbolLoadMethod>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of SymbolLoadMethod)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)(System.Object)
+  name.vb: Cast(Of SymbolLoadMethod)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<SymbolLoadMethod>
+    nameWithType: IValueTagExtensions.Cast<SymbolLoadMethod>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of SymbolLoadMethod)
+    nameWithType: IValueTagExtensions.Cast(Of SymbolLoadMethod)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+  commentId: T:Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+  parent: Vortex.Adapters.Connector.Tc3.Adapter
+  name: SymbolLoadMethod
+  nameWithType: SymbolLoadMethod
+  fullName: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod

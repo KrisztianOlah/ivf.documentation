@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+  commentId: T:Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+  id: ValueChangedEventHandlerDelegate
+  parent: Vortex.Connector.ValueTypes
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ValueChangedEventHandlerDelegate
+  nameWithType: ValueChangedEventHandlerDelegate
+  fullName: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+  type: Delegate
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/ValueChangedEventHandler.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ValueChangedEventHandlerDelegate
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/ValueChangedEventHandler.cs
+    startLine: 9
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.ValueTypes
+  summary: "\nProvides delegate for notification of tags value change.\n"
+  example: []
+  syntax:
+    content: public delegate void ValueChangedEventHandlerDelegate(IValueTag sender, ValueChangedEventArgs args);
+    parameters:
+    - id: sender
+      type: Vortex.Connector.IValueTag
+      description: Value tag where the change occurred.
+    - id: args
+      type: Vortex.Connector.ValueTypes.ValueChangedEventArgs
+      description: Value change arguments.
+    content.vb: Public Delegate Sub ValueChangedEventHandlerDelegate(sender As IValueTag, args As ValueChangedEventArgs)
+  extensionMethods:
+  - Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Vortex.Connector.ValueTypes
+  commentId: N:Vortex.Connector.ValueTypes
+  name: Vortex.Connector.ValueTypes
+  nameWithType: Vortex.Connector.ValueTypes
+  fullName: Vortex.Connector.ValueTypes
+- uid: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<ValueChangedEventHandlerDelegate>(Object)
+  nameWithType: IValueTagExtensions.Cast<ValueChangedEventHandlerDelegate>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of ValueChangedEventHandlerDelegate)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)(System.Object)
+  name.vb: Cast(Of ValueChangedEventHandlerDelegate)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<ValueChangedEventHandlerDelegate>
+    nameWithType: IValueTagExtensions.Cast<ValueChangedEventHandlerDelegate>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of ValueChangedEventHandlerDelegate)
+    nameWithType: IValueTagExtensions.Cast(Of ValueChangedEventHandlerDelegate)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTag
+  commentId: T:Vortex.Connector.IValueTag
+  parent: Vortex.Connector
+  name: IValueTag
+  nameWithType: IValueTag
+  fullName: Vortex.Connector.IValueTag
+- uid: Vortex.Connector.ValueTypes.ValueChangedEventArgs
+  commentId: T:Vortex.Connector.ValueTypes.ValueChangedEventArgs
+  parent: Vortex.Connector.ValueTypes
+  name: ValueChangedEventArgs
+  nameWithType: ValueChangedEventArgs
+  fullName: Vortex.Connector.ValueTypes.ValueChangedEventArgs
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector

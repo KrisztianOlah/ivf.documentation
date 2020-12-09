@@ -1,0 +1,401 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.IVortexElement
+  commentId: T:Vortex.Connector.IVortexElement
+  id: IVortexElement
+  parent: Vortex.Connector
+  children:
+  - Vortex.Connector.IVortexElement.AttributeName
+  - Vortex.Connector.IVortexElement.GetParent
+  - Vortex.Connector.IVortexElement.GetSymbolTail
+  - Vortex.Connector.IVortexElement.HumanReadable
+  - Vortex.Connector.IVortexElement.Symbol
+  langs:
+  - csharp
+  - vb
+  name: IVortexElement
+  nameWithType: IVortexElement
+  fullName: Vortex.Connector.IVortexElement
+  type: Interface
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IVortexElement.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IVortexElement
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexElement.cs
+    startLine: 5
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nBasic contract for any type that is product of building process.\n"
+  example: []
+  syntax:
+    content: public interface IVortexElement
+    content.vb: Public Interface IVortexElement
+  extensionMethods:
+  - Vortex.Connector.IVortexElement.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Vortex.Connector.IVortexElement.Symbol
+  commentId: P:Vortex.Connector.IVortexElement.Symbol
+  id: Symbol
+  parent: Vortex.Connector.IVortexElement
+  langs:
+  - csharp
+  - vb
+  name: Symbol
+  nameWithType: IVortexElement.Symbol
+  fullName: Vortex.Connector.IVortexElement.Symbol
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IVortexElement.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Symbol
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexElement.cs
+    startLine: 10
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nGet symbol of this instance.\n"
+  example: []
+  syntax:
+    content: string Symbol { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Symbol As String
+  overload: Vortex.Connector.IVortexElement.Symbol*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Connector.IVortexElement.AttributeName
+  commentId: P:Vortex.Connector.IVortexElement.AttributeName
+  id: AttributeName
+  parent: Vortex.Connector.IVortexElement
+  langs:
+  - csharp
+  - vb
+  name: AttributeName
+  nameWithType: IVortexElement.AttributeName
+  fullName: Vortex.Connector.IVortexElement.AttributeName
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IVortexElement.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AttributeName
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexElement.cs
+    startLine: 14
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nGets Name of this instance.\n"
+  example: []
+  syntax:
+    content: string AttributeName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property AttributeName As String
+  overload: Vortex.Connector.IVortexElement.AttributeName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Connector.IVortexElement.HumanReadable
+  commentId: P:Vortex.Connector.IVortexElement.HumanReadable
+  id: HumanReadable
+  parent: Vortex.Connector.IVortexElement
+  langs:
+  - csharp
+  - vb
+  name: HumanReadable
+  nameWithType: IVortexElement.HumanReadable
+  fullName: Vortex.Connector.IVortexElement.HumanReadable
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IVortexElement.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: HumanReadable
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexElement.cs
+    startLine: 19
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nProvides a string combined from <xref href=\"Vortex.Connector.IVortexElement.AttributeName\" data-throw-if-not-resolved=\"false\"></xref> of ancestors (<xref href=\"Vortex.Connector.IVortexElement.GetParent\" data-throw-if-not-resolved=\"false\"></xref>) of this instance and the tail of this instance.\n"
+  example: []
+  syntax:
+    content: string HumanReadable { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property HumanReadable As String
+  overload: Vortex.Connector.IVortexElement.HumanReadable*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Connector.IVortexElement.GetParent
+  commentId: M:Vortex.Connector.IVortexElement.GetParent
+  id: GetParent
+  parent: Vortex.Connector.IVortexElement
+  langs:
+  - csharp
+  - vb
+  name: GetParent()
+  nameWithType: IVortexElement.GetParent()
+  fullName: Vortex.Connector.IVortexElement.GetParent()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IVortexElement.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetParent
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexElement.cs
+    startLine: 26
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nGets the parent object of this instance.\nParent object is the object that created this instance.\n"
+  example: []
+  syntax:
+    content: IVortexObject GetParent()
+    return:
+      type: Vortex.Connector.IVortexObject
+      description: Parent object.
+    content.vb: Function GetParent As IVortexObject
+  overload: Vortex.Connector.IVortexElement.GetParent*
+- uid: Vortex.Connector.IVortexElement.GetSymbolTail
+  commentId: M:Vortex.Connector.IVortexElement.GetSymbolTail
+  id: GetSymbolTail
+  parent: Vortex.Connector.IVortexElement
+  langs:
+  - csharp
+  - vb
+  name: GetSymbolTail()
+  nameWithType: IVortexElement.GetSymbolTail()
+  fullName: Vortex.Connector.IVortexElement.GetSymbolTail()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IVortexElement.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetSymbolTail
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexElement.cs
+    startLine: 32
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nGet symbol tail of this instance.\n"
+  example: []
+  syntax:
+    content: string GetSymbolTail()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetSymbolTail As String
+  overload: Vortex.Connector.IVortexElement.GetSymbolTail*
+references:
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.IVortexElement.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<IVortexElement>(Object)
+  nameWithType: IValueTagExtensions.Cast<IVortexElement>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.IVortexElement>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of IVortexElement)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.IVortexElement)(System.Object)
+  name.vb: Cast(Of IVortexElement)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<IVortexElement>
+    nameWithType: IValueTagExtensions.Cast<IVortexElement>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.IVortexElement>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of IVortexElement)
+    nameWithType: IValueTagExtensions.Cast(Of IVortexElement)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.IVortexElement)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector.IVortexElement.Symbol*
+  commentId: Overload:Vortex.Connector.IVortexElement.Symbol
+  name: Symbol
+  nameWithType: IVortexElement.Symbol
+  fullName: Vortex.Connector.IVortexElement.Symbol
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.IVortexElement.AttributeName*
+  commentId: Overload:Vortex.Connector.IVortexElement.AttributeName
+  name: AttributeName
+  nameWithType: IVortexElement.AttributeName
+  fullName: Vortex.Connector.IVortexElement.AttributeName
+- uid: Vortex.Connector.IVortexElement.AttributeName
+  commentId: P:Vortex.Connector.IVortexElement.AttributeName
+  parent: Vortex.Connector.IVortexElement
+  name: AttributeName
+  nameWithType: IVortexElement.AttributeName
+  fullName: Vortex.Connector.IVortexElement.AttributeName
+- uid: Vortex.Connector.IVortexElement.GetParent
+  commentId: M:Vortex.Connector.IVortexElement.GetParent
+  parent: Vortex.Connector.IVortexElement
+  name: GetParent()
+  nameWithType: IVortexElement.GetParent()
+  fullName: Vortex.Connector.IVortexElement.GetParent()
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexElement.GetParent
+    name: GetParent
+    nameWithType: IVortexElement.GetParent
+    fullName: Vortex.Connector.IVortexElement.GetParent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexElement.GetParent
+    name: GetParent
+    nameWithType: IVortexElement.GetParent
+    fullName: Vortex.Connector.IVortexElement.GetParent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IVortexElement.HumanReadable*
+  commentId: Overload:Vortex.Connector.IVortexElement.HumanReadable
+  name: HumanReadable
+  nameWithType: IVortexElement.HumanReadable
+  fullName: Vortex.Connector.IVortexElement.HumanReadable
+- uid: Vortex.Connector.IVortexElement
+  commentId: T:Vortex.Connector.IVortexElement
+  parent: Vortex.Connector
+  name: IVortexElement
+  nameWithType: IVortexElement
+  fullName: Vortex.Connector.IVortexElement
+- uid: Vortex.Connector.IVortexElement.GetParent*
+  commentId: Overload:Vortex.Connector.IVortexElement.GetParent
+  name: GetParent
+  nameWithType: IVortexElement.GetParent
+  fullName: Vortex.Connector.IVortexElement.GetParent
+- uid: Vortex.Connector.IVortexObject
+  commentId: T:Vortex.Connector.IVortexObject
+  parent: Vortex.Connector
+  name: IVortexObject
+  nameWithType: IVortexObject
+  fullName: Vortex.Connector.IVortexObject
+- uid: Vortex.Connector.IVortexElement.GetSymbolTail*
+  commentId: Overload:Vortex.Connector.IVortexElement.GetSymbolTail
+  name: GetSymbolTail
+  nameWithType: IVortexElement.GetSymbolTail
+  fullName: Vortex.Connector.IVortexElement.GetSymbolTail

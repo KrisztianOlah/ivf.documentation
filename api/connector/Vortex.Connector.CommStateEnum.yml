@@ -1,0 +1,851 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.CommStateEnum
+  commentId: T:Vortex.Connector.CommStateEnum
+  id: CommStateEnum
+  parent: Vortex.Connector
+  children:
+  - Vortex.Connector.CommStateEnum.Config
+  - Vortex.Connector.CommStateEnum.Error
+  - Vortex.Connector.CommStateEnum.Exception
+  - Vortex.Connector.CommStateEnum.Idle
+  - Vortex.Connector.CommStateEnum.Incompatible
+  - Vortex.Connector.CommStateEnum.Init
+  - Vortex.Connector.CommStateEnum.Invalid
+  - Vortex.Connector.CommStateEnum.LoadConfig
+  - Vortex.Connector.CommStateEnum.PowerFailure
+  - Vortex.Connector.CommStateEnum.PowerGood
+  - Vortex.Connector.CommStateEnum.Reconfig
+  - Vortex.Connector.CommStateEnum.Reset
+  - Vortex.Connector.CommStateEnum.Resume
+  - Vortex.Connector.CommStateEnum.Run
+  - Vortex.Connector.CommStateEnum.SaveConfig
+  - Vortex.Connector.CommStateEnum.Shutdown
+  - Vortex.Connector.CommStateEnum.Start
+  - Vortex.Connector.CommStateEnum.Stop
+  - Vortex.Connector.CommStateEnum.Stopping
+  - Vortex.Connector.CommStateEnum.Suspend
+  langs:
+  - csharp
+  - vb
+  name: CommStateEnum
+  nameWithType: CommStateEnum
+  fullName: Vortex.Connector.CommStateEnum
+  type: Enum
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CommStateEnum
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 5
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nEnumeration of possible states of target system.\n"
+  example: []
+  syntax:
+    content: 'public enum CommStateEnum : short'
+    content.vb: Public Enum CommStateEnum As Short
+  extensionMethods:
+  - Vortex.Connector.CommStateEnum.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vortex.Connector.CommStateEnum.Invalid
+  commentId: F:Vortex.Connector.CommStateEnum.Invalid
+  id: Invalid
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: CommStateEnum.Invalid
+  fullName: Vortex.Connector.CommStateEnum.Invalid
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Invalid
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 10
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is in invalid state.\n"
+  example: []
+  syntax:
+    content: Invalid = 0
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Idle
+  commentId: F:Vortex.Connector.CommStateEnum.Idle
+  id: Idle
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Idle
+  nameWithType: CommStateEnum.Idle
+  fullName: Vortex.Connector.CommStateEnum.Idle
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Idle
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 14
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is in idle state.\n"
+  example: []
+  syntax:
+    content: Idle = 1
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Reset
+  commentId: F:Vortex.Connector.CommStateEnum.Reset
+  id: Reset
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Reset
+  nameWithType: CommStateEnum.Reset
+  fullName: Vortex.Connector.CommStateEnum.Reset
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Reset
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 18
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is being reset.\n"
+  example: []
+  syntax:
+    content: Reset = 2
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Init
+  commentId: F:Vortex.Connector.CommStateEnum.Init
+  id: Init
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Init
+  nameWithType: CommStateEnum.Init
+  fullName: Vortex.Connector.CommStateEnum.Init
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Init
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 22
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is being initialized | initialized.\n"
+  example: []
+  syntax:
+    content: Init = 3
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Start
+  commentId: F:Vortex.Connector.CommStateEnum.Start
+  id: Start
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Start
+  nameWithType: CommStateEnum.Start
+  fullName: Vortex.Connector.CommStateEnum.Start
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Start
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 26
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system has stared.\n"
+  example: []
+  syntax:
+    content: Start = 4
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Run
+  commentId: F:Vortex.Connector.CommStateEnum.Run
+  id: Run
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Run
+  nameWithType: CommStateEnum.Run
+  fullName: Vortex.Connector.CommStateEnum.Run
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Run
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 30
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is running.\n"
+  example: []
+  syntax:
+    content: Run = 5
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Stop
+  commentId: F:Vortex.Connector.CommStateEnum.Stop
+  id: Stop
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Stop
+  nameWithType: CommStateEnum.Stop
+  fullName: Vortex.Connector.CommStateEnum.Stop
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Stop
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 34
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is stopped.\n"
+  example: []
+  syntax:
+    content: Stop = 6
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.SaveConfig
+  commentId: F:Vortex.Connector.CommStateEnum.SaveConfig
+  id: SaveConfig
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: SaveConfig
+  nameWithType: CommStateEnum.SaveConfig
+  fullName: Vortex.Connector.CommStateEnum.SaveConfig
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SaveConfig
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 38
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is saving configuration\n"
+  example: []
+  syntax:
+    content: SaveConfig = 7
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.LoadConfig
+  commentId: F:Vortex.Connector.CommStateEnum.LoadConfig
+  id: LoadConfig
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: LoadConfig
+  nameWithType: CommStateEnum.LoadConfig
+  fullName: Vortex.Connector.CommStateEnum.LoadConfig
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: LoadConfig
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 42
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is loading config.\n"
+  example: []
+  syntax:
+    content: LoadConfig = 8
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.PowerFailure
+  commentId: F:Vortex.Connector.CommStateEnum.PowerFailure
+  id: PowerFailure
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: PowerFailure
+  nameWithType: CommStateEnum.PowerFailure
+  fullName: Vortex.Connector.CommStateEnum.PowerFailure
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: PowerFailure
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 46
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system has lost power.\n"
+  example: []
+  syntax:
+    content: PowerFailure = 9
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.PowerGood
+  commentId: F:Vortex.Connector.CommStateEnum.PowerGood
+  id: PowerGood
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: PowerGood
+  nameWithType: CommStateEnum.PowerGood
+  fullName: Vortex.Connector.CommStateEnum.PowerGood
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: PowerGood
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 50
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is powered.\n"
+  example: []
+  syntax:
+    content: PowerGood = 10
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Error
+  commentId: F:Vortex.Connector.CommStateEnum.Error
+  id: Error
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: CommStateEnum.Error
+  fullName: Vortex.Connector.CommStateEnum.Error
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Error
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 54
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is in error state.\n"
+  example: []
+  syntax:
+    content: Error = 11
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Shutdown
+  commentId: F:Vortex.Connector.CommStateEnum.Shutdown
+  id: Shutdown
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Shutdown
+  nameWithType: CommStateEnum.Shutdown
+  fullName: Vortex.Connector.CommStateEnum.Shutdown
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Shutdown
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 58
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is shutdown.\n"
+  example: []
+  syntax:
+    content: Shutdown = 12
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Suspend
+  commentId: F:Vortex.Connector.CommStateEnum.Suspend
+  id: Suspend
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Suspend
+  nameWithType: CommStateEnum.Suspend
+  fullName: Vortex.Connector.CommStateEnum.Suspend
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Suspend
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 62
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is suspended.\n"
+  example: []
+  syntax:
+    content: Suspend = 13
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Resume
+  commentId: F:Vortex.Connector.CommStateEnum.Resume
+  id: Resume
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Resume
+  nameWithType: CommStateEnum.Resume
+  fullName: Vortex.Connector.CommStateEnum.Resume
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Resume
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 66
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system has resumed operations.\n"
+  example: []
+  syntax:
+    content: Resume = 14
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Config
+  commentId: F:Vortex.Connector.CommStateEnum.Config
+  id: Config
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Config
+  nameWithType: CommStateEnum.Config
+  fullName: Vortex.Connector.CommStateEnum.Config
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Config
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 70
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTartget system is in config mode.\n"
+  example: []
+  syntax:
+    content: Config = 15
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Reconfig
+  commentId: F:Vortex.Connector.CommStateEnum.Reconfig
+  id: Reconfig
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Reconfig
+  nameWithType: CommStateEnum.Reconfig
+  fullName: Vortex.Connector.CommStateEnum.Reconfig
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Reconfig
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 74
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is reconfiguring.\n"
+  example: []
+  syntax:
+    content: Reconfig = 16
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Stopping
+  commentId: F:Vortex.Connector.CommStateEnum.Stopping
+  id: Stopping
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Stopping
+  nameWithType: CommStateEnum.Stopping
+  fullName: Vortex.Connector.CommStateEnum.Stopping
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Stopping
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 78
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is stopping | Max states.\n"
+  example: []
+  syntax:
+    content: Stopping = 17
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Incompatible
+  commentId: F:Vortex.Connector.CommStateEnum.Incompatible
+  id: Incompatible
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Incompatible
+  nameWithType: CommStateEnum.Incompatible
+  fullName: Vortex.Connector.CommStateEnum.Incompatible
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Incompatible
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 82
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system is not compatible.\n"
+  example: []
+  syntax:
+    content: Incompatible = 18
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Connector.CommStateEnum.Exception
+  commentId: F:Vortex.Connector.CommStateEnum.Exception
+  id: Exception
+  parent: Vortex.Connector.CommStateEnum
+  langs:
+  - csharp
+  - vb
+  name: Exception
+  nameWithType: CommStateEnum.Exception
+  fullName: Vortex.Connector.CommStateEnum.Exception
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Exception
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/CommStateEnum.cs
+    startLine: 86
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nTarget system had thrown an exception.\n"
+  example: []
+  syntax:
+    content: Exception = 19
+    return:
+      type: Vortex.Connector.CommStateEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.CommStateEnum.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<CommStateEnum>(Object)
+  nameWithType: IValueTagExtensions.Cast<CommStateEnum>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.CommStateEnum>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of CommStateEnum)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.CommStateEnum)(System.Object)
+  name.vb: Cast(Of CommStateEnum)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<CommStateEnum>
+    nameWithType: IValueTagExtensions.Cast<CommStateEnum>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.CommStateEnum>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of CommStateEnum)
+    nameWithType: IValueTagExtensions.Cast(Of CommStateEnum)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.CommStateEnum)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector.CommStateEnum
+  commentId: T:Vortex.Connector.CommStateEnum
+  parent: Vortex.Connector
+  name: CommStateEnum
+  nameWithType: CommStateEnum
+  fullName: Vortex.Connector.CommStateEnum

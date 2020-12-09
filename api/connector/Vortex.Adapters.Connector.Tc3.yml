@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Adapters.Connector.Tc3
+  commentId: N:Vortex.Adapters.Connector.Tc3
+  id: Vortex.Adapters.Connector.Tc3
+  children:
+  - Vortex.Adapters.Connector.Tc3.AdsConnector
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.OnAdsStateChangeDelegate
+  - Vortex.Adapters.Connector.Tc3.LiveClient
+  - Vortex.Adapters.Connector.Tc3.OnlineSymbolRetriever
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolLoaderSettings
+  - Vortex.Adapters.Connector.Tc3.ReportingConsole
+  - Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpDelegate
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Adapters.Connector.Tc3
+  nameWithType: Vortex.Adapters.Connector.Tc3
+  fullName: Vortex.Adapters.Connector.Tc3
+  type: Namespace
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+references:
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsConnector
+  parent: Vortex.Adapters.Connector.Tc3
+  name: AdsConnector
+  nameWithType: AdsConnector
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.OnAdsStateChangeDelegate
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsConnector.OnAdsStateChangeDelegate
+  parent: Vortex.Adapters.Connector.Tc3
+  name: AdsConnector.OnAdsStateChangeDelegate
+  nameWithType: AdsConnector.OnAdsStateChangeDelegate
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.OnAdsStateChangeDelegate
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient
+  commentId: T:Vortex.Adapters.Connector.Tc3.LiveClient
+  parent: Vortex.Adapters.Connector.Tc3
+  name: LiveClient
+  nameWithType: LiveClient
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole
+  commentId: T:Vortex.Adapters.Connector.Tc3.ReportingConsole
+  name: ReportingConsole
+  nameWithType: ReportingConsole
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole
+- uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpDelegate
+  commentId: T:Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpDelegate
+  parent: Vortex.Adapters.Connector.Tc3
+  name: ReportingConsole.UpdateStartUpDelegate
+  nameWithType: ReportingConsole.UpdateStartUpDelegate
+  fullName: Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpDelegate
+- uid: Vortex.Adapters.Connector.Tc3.OnlineSymbolRetriever
+  commentId: T:Vortex.Adapters.Connector.Tc3.OnlineSymbolRetriever
+  parent: Vortex.Adapters.Connector.Tc3
+  name: OnlineSymbolRetriever
+  nameWithType: OnlineSymbolRetriever
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineSymbolRetriever
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  commentId: T:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+  parent: Vortex.Adapters.Connector.Tc3
+  name: OnlineVariableInfo
+  nameWithType: OnlineVariableInfo
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolLoaderSettings
+  commentId: T:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolLoaderSettings
+  name: OnlineVariableInfo.SymbolLoaderSettings
+  nameWithType: OnlineVariableInfo.SymbolLoaderSettings
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolLoaderSettings
+- uid: Vortex.Adapters.Connector.Tc3
+  commentId: N:Vortex.Adapters.Connector.Tc3
+  name: Vortex.Adapters.Connector.Tc3
+  nameWithType: Vortex.Adapters.Connector.Tc3
+  fullName: Vortex.Adapters.Connector.Tc3

@@ -1,0 +1,338 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Connector.Identity.IVortexIdentity
+  commentId: T:Vortex.Connector.Identity.IVortexIdentity
+  id: IVortexIdentity
+  parent: Vortex.Connector.Identity
+  children:
+  - Vortex.Connector.Identity.IVortexIdentity.AttributeName
+  - Vortex.Connector.Identity.IVortexIdentity.HumanReadable
+  - Vortex.Connector.Identity.IVortexIdentity.Identity
+  - Vortex.Connector.Identity.IVortexIdentity.Symbol
+  langs:
+  - csharp
+  - vb
+  name: IVortexIdentity
+  nameWithType: IVortexIdentity
+  fullName: Vortex.Connector.Identity.IVortexIdentity
+  type: Interface
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/IVortexIdentity.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IVortexIdentity
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/IVortexIdentity.cs
+    startLine: 8
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nDefines identity object contract.\n"
+  example: []
+  syntax:
+    content: public interface IVortexIdentity
+    content.vb: Public Interface IVortexIdentity
+  extensionMethods:
+  - Vortex.Connector.Identity.IVortexIdentity.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Vortex.Connector.Identity.IVortexIdentity.Identity
+  commentId: P:Vortex.Connector.Identity.IVortexIdentity.Identity
+  id: Identity
+  parent: Vortex.Connector.Identity.IVortexIdentity
+  langs:
+  - csharp
+  - vb
+  name: Identity
+  nameWithType: IVortexIdentity.Identity
+  fullName: Vortex.Connector.Identity.IVortexIdentity.Identity
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/IVortexIdentity.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Identity
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/IVortexIdentity.cs
+    startLine: 13
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nGets the online identity.\n"
+  example: []
+  syntax:
+    content: OnlinerULInt Identity { get; }
+    parameters: []
+    return:
+      type: Vortex.Connector.ValueTypes.OnlinerULInt
+    content.vb: ReadOnly Property Identity As OnlinerULInt
+  overload: Vortex.Connector.Identity.IVortexIdentity.Identity*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Connector.Identity.IVortexIdentity.AttributeName
+  commentId: P:Vortex.Connector.Identity.IVortexIdentity.AttributeName
+  id: AttributeName
+  parent: Vortex.Connector.Identity.IVortexIdentity
+  langs:
+  - csharp
+  - vb
+  name: AttributeName
+  nameWithType: IVortexIdentity.AttributeName
+  fullName: Vortex.Connector.Identity.IVortexIdentity.AttributeName
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/IVortexIdentity.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AttributeName
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/IVortexIdentity.cs
+    startLine: 18
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nGets name of a named vortex object.\n"
+  example: []
+  syntax:
+    content: string AttributeName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property AttributeName As String
+  overload: Vortex.Connector.Identity.IVortexIdentity.AttributeName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Connector.Identity.IVortexIdentity.Symbol
+  commentId: P:Vortex.Connector.Identity.IVortexIdentity.Symbol
+  id: Symbol
+  parent: Vortex.Connector.Identity.IVortexIdentity
+  langs:
+  - csharp
+  - vb
+  name: Symbol
+  nameWithType: IVortexIdentity.Symbol
+  fullName: Vortex.Connector.Identity.IVortexIdentity.Symbol
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/IVortexIdentity.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Symbol
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/IVortexIdentity.cs
+    startLine: 23
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nGets full symbol path of a vortex object.\n"
+  example: []
+  syntax:
+    content: string Symbol { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Symbol As String
+  overload: Vortex.Connector.Identity.IVortexIdentity.Symbol*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Connector.Identity.IVortexIdentity.HumanReadable
+  commentId: P:Vortex.Connector.Identity.IVortexIdentity.HumanReadable
+  id: HumanReadable
+  parent: Vortex.Connector.Identity.IVortexIdentity
+  langs:
+  - csharp
+  - vb
+  name: HumanReadable
+  nameWithType: IVortexIdentity.HumanReadable
+  fullName: Vortex.Connector.Identity.IVortexIdentity.HumanReadable
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/Identity/IVortexIdentity.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: HumanReadable
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/IVortexIdentity.cs
+    startLine: 28
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector.Identity
+  summary: "\nGets full path of this vortex object in human readable format.\n"
+  example: []
+  syntax:
+    content: string HumanReadable { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property HumanReadable As String
+  overload: Vortex.Connector.Identity.IVortexIdentity.HumanReadable*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Vortex.Connector.Identity
+  commentId: N:Vortex.Connector.Identity
+  name: Vortex.Connector.Identity
+  nameWithType: Vortex.Connector.Identity
+  fullName: Vortex.Connector.Identity
+- uid: Vortex.Connector.Identity.IVortexIdentity.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<IVortexIdentity>(Object)
+  nameWithType: IValueTagExtensions.Cast<IVortexIdentity>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.Identity.IVortexIdentity>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of IVortexIdentity)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.Identity.IVortexIdentity)(System.Object)
+  name.vb: Cast(Of IVortexIdentity)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<IVortexIdentity>
+    nameWithType: IValueTagExtensions.Cast<IVortexIdentity>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Connector.Identity.IVortexIdentity>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of IVortexIdentity)
+    nameWithType: IValueTagExtensions.Cast(Of IVortexIdentity)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Connector.Identity.IVortexIdentity)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Connector.Identity.IVortexIdentity.Identity*
+  commentId: Overload:Vortex.Connector.Identity.IVortexIdentity.Identity
+  name: Identity
+  nameWithType: IVortexIdentity.Identity
+  fullName: Vortex.Connector.Identity.IVortexIdentity.Identity
+- uid: Vortex.Connector.ValueTypes.OnlinerULInt
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerULInt
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerULInt
+  nameWithType: OnlinerULInt
+  fullName: Vortex.Connector.ValueTypes.OnlinerULInt
+- uid: Vortex.Connector.ValueTypes
+  commentId: N:Vortex.Connector.ValueTypes
+  name: Vortex.Connector.ValueTypes
+  nameWithType: Vortex.Connector.ValueTypes
+  fullName: Vortex.Connector.ValueTypes
+- uid: Vortex.Connector.Identity.IVortexIdentity.AttributeName*
+  commentId: Overload:Vortex.Connector.Identity.IVortexIdentity.AttributeName
+  name: AttributeName
+  nameWithType: IVortexIdentity.AttributeName
+  fullName: Vortex.Connector.Identity.IVortexIdentity.AttributeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Connector.Identity.IVortexIdentity.Symbol*
+  commentId: Overload:Vortex.Connector.Identity.IVortexIdentity.Symbol
+  name: Symbol
+  nameWithType: IVortexIdentity.Symbol
+  fullName: Vortex.Connector.Identity.IVortexIdentity.Symbol
+- uid: Vortex.Connector.Identity.IVortexIdentity.HumanReadable*
+  commentId: Overload:Vortex.Connector.Identity.IVortexIdentity.HumanReadable
+  name: HumanReadable
+  nameWithType: IVortexIdentity.HumanReadable
+  fullName: Vortex.Connector.Identity.IVortexIdentity.HumanReadable

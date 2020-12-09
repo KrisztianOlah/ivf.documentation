@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: vortex.compiler.console
+  commentId: N:vortex.compiler.console
+  id: vortex.compiler.console
+  children:
+  - vortex.compiler.console.BuilderAdapter
+  - vortex.compiler.console.CommandLineConfig
+  - vortex.compiler.console.Program
+  - vortex.compiler.console.Program.Options
+  langs:
+  - csharp
+  - vb
+  name: vortex.compiler.console
+  nameWithType: vortex.compiler.console
+  fullName: vortex.compiler.console
+  type: Namespace
+  assemblies:
+  - vortex.compiler.console
+references:
+- uid: vortex.compiler.console.BuilderAdapter
+  commentId: T:vortex.compiler.console.BuilderAdapter
+  name: BuilderAdapter
+  nameWithType: BuilderAdapter
+  fullName: vortex.compiler.console.BuilderAdapter
+- uid: vortex.compiler.console.CommandLineConfig
+  commentId: T:vortex.compiler.console.CommandLineConfig
+  name: CommandLineConfig
+  nameWithType: CommandLineConfig
+  fullName: vortex.compiler.console.CommandLineConfig
+- uid: vortex.compiler.console.Program
+  commentId: T:vortex.compiler.console.Program
+  name: Program
+  nameWithType: Program
+  fullName: vortex.compiler.console.Program
+- uid: vortex.compiler.console.Program.Options
+  commentId: T:vortex.compiler.console.Program.Options
+  parent: vortex.compiler.console
+  name: Program.Options
+  nameWithType: Program.Options
+  fullName: vortex.compiler.console.Program.Options
+- uid: vortex.compiler.console
+  commentId: N:vortex.compiler.console
+  name: vortex.compiler.console
+  nameWithType: vortex.compiler.console
+  fullName: vortex.compiler.console

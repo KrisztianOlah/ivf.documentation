@@ -1,0 +1,418 @@
+### YamlMime:TableOfContent
+- uid: Vortex.Adapters.Connector.Tc3
+  name: Vortex.Adapters.Connector.Tc3
+  items:
+  - uid: Vortex.Adapters.Connector.Tc3.AdsConnector
+    name: AdsConnector
+  - uid: Vortex.Adapters.Connector.Tc3.AdsConnector.OnAdsStateChangeDelegate
+    name: AdsConnector.OnAdsStateChangeDelegate
+  - uid: Vortex.Adapters.Connector.Tc3.LiveClient
+    name: LiveClient
+  - uid: Vortex.Adapters.Connector.Tc3.OnlineSymbolRetriever
+    name: OnlineSymbolRetriever
+  - uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
+    name: OnlineVariableInfo
+  - uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolLoaderSettings
+    name: OnlineVariableInfo.SymbolLoaderSettings
+  - uid: Vortex.Adapters.Connector.Tc3.ReportingConsole
+    name: ReportingConsole
+  - uid: Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpDelegate
+    name: ReportingConsole.UpdateStartUpDelegate
+- uid: Vortex.Adapters.Connector.Tc3.Adapter
+  name: Vortex.Adapters.Connector.Tc3.Adapter
+  items:
+  - uid: Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory
+    name: ConnectorFactory
+  - uid: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode
+    name: SymbolLoadingMode
+  - uid: Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod
+    name: SymbolLoadMethod
+  - uid: Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter
+    name: Tc3ConnectorAdapter
+- uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  name: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
+  items:
+  - uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler
+    name: ExceptionHandler
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  name: Vortex.Adapters.Connector.Tc3.AdsValueTypes
+  items:
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBool
+    name: AdsBool
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsByte
+    name: AdsByte
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDate
+    name: AdsDate
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDateTime
+    name: AdsDateTime
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDInt
+    name: AdsDInt
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDWord
+    name: AdsDWord
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsInt
+    name: AdsInt
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLInt
+    name: AdsLInt
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLReal
+    name: AdsLReal
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLTime
+    name: AdsLTime
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLWord
+    name: AdsLWord
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsReal
+    name: AdsReal
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsSInt
+    name: AdsSInt
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString
+    name: AdsString
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTime
+    name: AdsTime
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTimeOfDay
+    name: AdsTimeOfDay
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUDInt
+    name: AdsUDInt
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUInt
+    name: AdsUInt
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsULInt
+    name: AdsULInt
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUSInt
+    name: AdsUSInt
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWord
+    name: AdsWord
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString
+    name: AdsWString
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol
+    name: ClientSymbol
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType
+    name: IAdsBaseType
+- uid: Vortex.Adapters.Connector.Tc3Adapter.Adapter
+  name: Vortex.Adapters.Connector.Tc3Adapter.Adapter
+  items:
+  - uid: Vortex.Adapters.Connector.Tc3Adapter.Adapter.NamespaceDoc
+    name: NamespaceDoc
+- uid: Vortex.Connector
+  name: Vortex.Connector
+  items:
+  - uid: Vortex.Connector.CommStateEnum
+    name: CommStateEnum
+  - uid: Vortex.Connector.ConnectorAdapter
+    name: ConnectorAdapter
+  - uid: Vortex.Connector.DataExchangeStatusEnum
+    name: DataExchangeStatusEnum
+  - uid: Vortex.Connector.DummyConnector
+    name: DummyConnector
+  - uid: Vortex.Connector.DummyConnectorFactory
+    name: DummyConnectorFactory
+  - uid: Vortex.Connector.EnumeratorDiscriminatorAttribute
+    name: EnumeratorDiscriminatorAttribute
+  - uid: Vortex.Connector.IConnector
+    name: IConnector
+  - uid: Vortex.Connector.IConnectorFactory
+    name: IConnectorFactory
+  - uid: Vortex.Connector.IgnoreReflectionAttribute
+    name: IgnoreReflectionAttribute
+  - uid: Vortex.Connector.InterpolatedAncestor
+    name: InterpolatedAncestor
+  - uid: Vortex.Connector.InvalidLicenseConnector
+    name: InvalidLicenseConnector
+  - uid: Vortex.Connector.InvalidLicenseConnectorAdapter
+    name: InvalidLicenseConnectorAdapter
+  - uid: Vortex.Connector.InvalidLicenseConnectorFactory
+    name: InvalidLicenseConnectorFactory
+  - uid: Vortex.Connector.IPlain
+    name: IPlain
+  - uid: Vortex.Connector.ITwinController
+    name: ITwinController
+  - uid: Vortex.Connector.ITwinObject
+    name: ITwinObject
+  - uid: Vortex.Connector.ITwinPrimitive
+    name: ITwinPrimitive
+  - uid: Vortex.Connector.IValueTag
+    name: IValueTag
+  - uid: Vortex.Connector.IValueTagExtensions
+    name: IValueTagExtensions
+  - uid: Vortex.Connector.IValueTagInfo
+    name: IValueTagInfo
+  - uid: Vortex.Connector.IVortexElement
+    name: IVortexElement
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+  - uid: Vortex.Connector.IVortexObjectExtensions
+    name: IVortexObjectExtensions
+  - uid: Vortex.Connector.IVortexOnlineObject
+    name: IVortexOnlineObject
+  - uid: Vortex.Connector.IVortexShadowObject
+    name: IVortexShadowObject
+  - uid: Vortex.Connector.NamespaceDoc
+    name: NamespaceDoc
+  - uid: Vortex.Connector.RootVortexerObject
+    name: RootVortexerObject
+  - uid: Vortex.Connector.StringInterpolator
+    name: StringInterpolator
+  - uid: Vortex.Connector.TypeComplexityEnum
+    name: TypeComplexityEnum
+- uid: Vortex.Connector.Attributes
+  name: Vortex.Connector.Attributes
+  items:
+  - uid: Vortex.Connector.Attributes.AssemblyPlcCounterPart
+    name: AssemblyPlcCounterPart
+  - uid: Vortex.Connector.Attributes.CompilerOmissionGroups
+    name: CompilerOmissionGroups
+  - uid: Vortex.Connector.Attributes.CompilerOmitsAttribute
+    name: CompilerOmitsAttribute
+  - uid: Vortex.Connector.Attributes.ReadOnlyAttribute
+    name: ReadOnlyAttribute
+  - uid: Vortex.Connector.Attributes.TypeMetaDescriptorAttribute
+    name: TypeMetaDescriptorAttribute
+- uid: Vortex.Connector.Identity
+  name: Vortex.Connector.Identity
+  items:
+  - uid: Vortex.Connector.Identity.IVortexIdentity
+    name: IVortexIdentity
+  - uid: Vortex.Connector.Identity.MemberByIdentityAttribute
+    name: MemberByIdentityAttribute
+  - uid: Vortex.Connector.Identity.NullVortexIdentity
+    name: NullVortexIdentity
+  - uid: Vortex.Connector.Identity.VortexIdentityProvider
+    name: VortexIdentityProvider
+- uid: Vortex.Connector.LibraryDescriptors
+  name: Vortex.Connector.LibraryDescriptors
+  items:
+  - uid: Vortex.Connector.LibraryDescriptors.TypeMetaData
+    name: TypeMetaData
+- uid: Vortex.Connector.ValueTypes
+  name: Vortex.Connector.ValueTypes
+  items:
+  - uid: Vortex.Connector.ValueTypes.NamespaceDoc
+    name: NamespaceDoc
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType
+    name: OnlinerBaseType
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
+    name: OnlinerBaseType.ValueChangeDelegate
+  - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1
+    name: OnlinerBaseType<T>
+    name.vb: OnlinerBaseType(Of T)
+  - uid: Vortex.Connector.ValueTypes.OnlinerBool
+    name: OnlinerBool
+  - uid: Vortex.Connector.ValueTypes.OnlinerByte
+    name: OnlinerByte
+  - uid: Vortex.Connector.ValueTypes.OnlinerDate
+    name: OnlinerDate
+  - uid: Vortex.Connector.ValueTypes.OnlinerDateTime
+    name: OnlinerDateTime
+  - uid: Vortex.Connector.ValueTypes.OnlinerDInt
+    name: OnlinerDInt
+  - uid: Vortex.Connector.ValueTypes.OnlinerDWord
+    name: OnlinerDWord
+  - uid: Vortex.Connector.ValueTypes.OnlinerInt
+    name: OnlinerInt
+  - uid: Vortex.Connector.ValueTypes.OnlinerLInt
+    name: OnlinerLInt
+  - uid: Vortex.Connector.ValueTypes.OnlinerLReal
+    name: OnlinerLReal
+  - uid: Vortex.Connector.ValueTypes.OnlinerLTime
+    name: OnlinerLTime
+  - uid: Vortex.Connector.ValueTypes.OnlinerLWord
+    name: OnlinerLWord
+  - uid: Vortex.Connector.ValueTypes.OnlinerReal
+    name: OnlinerReal
+  - uid: Vortex.Connector.ValueTypes.OnlinerSInt
+    name: OnlinerSInt
+  - uid: Vortex.Connector.ValueTypes.OnlinerString
+    name: OnlinerString
+  - uid: Vortex.Connector.ValueTypes.OnlinerTime
+    name: OnlinerTime
+  - uid: Vortex.Connector.ValueTypes.OnlinerTimeOfDay
+    name: OnlinerTimeOfDay
+  - uid: Vortex.Connector.ValueTypes.OnlinerUDInt
+    name: OnlinerUDInt
+  - uid: Vortex.Connector.ValueTypes.OnlinerUInt
+    name: OnlinerUInt
+  - uid: Vortex.Connector.ValueTypes.OnlinerULInt
+    name: OnlinerULInt
+  - uid: Vortex.Connector.ValueTypes.OnlinerUSInt
+    name: OnlinerUSInt
+  - uid: Vortex.Connector.ValueTypes.OnlinerWord
+    name: OnlinerWord
+  - uid: Vortex.Connector.ValueTypes.OnlinerWString
+    name: OnlinerWString
+  - uid: Vortex.Connector.ValueTypes.ReadWriteAccess
+    name: ReadWriteAccess
+  - uid: Vortex.Connector.ValueTypes.ValueChangedEventArgs
+    name: ValueChangedEventArgs
+  - uid: Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate
+    name: ValueChangedEventHandlerDelegate
+- uid: Vortex.Connector.ValueTypes.Online
+  name: Vortex.Connector.ValueTypes.Online
+  items:
+  - uid: Vortex.Connector.ValueTypes.Online.IOnline`1
+    name: IOnline<T>
+    name.vb: IOnline(Of T)
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineBool
+    name: IOnlineBool
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineByte
+    name: IOnlineByte
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineDate
+    name: IOnlineDate
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineDateTime
+    name: IOnlineDateTime
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineDInt
+    name: IOnlineDInt
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineDWord
+    name: IOnlineDWord
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineInt
+    name: IOnlineInt
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineLInt
+    name: IOnlineLInt
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineLReal
+    name: IOnlineLReal
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineLTime
+    name: IOnlineLTime
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineLWord
+    name: IOnlineLWord
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineReal
+    name: IOnlineReal
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineSInt
+    name: IOnlineSInt
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineString
+    name: IOnlineString
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineTime
+    name: IOnlineTime
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineTimeOfDay
+    name: IOnlineTimeOfDay
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineUDInt
+    name: IOnlineUDInt
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineUInt
+    name: IOnlineUInt
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineULInt
+    name: IOnlineULInt
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineUSInt
+    name: IOnlineUSInt
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineWord
+    name: IOnlineWord
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineWString
+    name: IOnlineWString
+  - uid: Vortex.Connector.ValueTypes.Online.NamespaceDoc
+    name: NamespaceDoc
+- uid: Vortex.Connector.ValueTypes.Shadows
+  name: Vortex.Connector.ValueTypes.Shadows
+  items:
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
+    name: IShadow<T>
+    name.vb: IShadow(Of T)
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowBool
+    name: IShadowBool
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowByte
+    name: IShadowByte
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowDate
+    name: IShadowDate
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowDateTime
+    name: IShadowDateTime
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowDInt
+    name: IShadowDInt
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowDWord
+    name: IShadowDWord
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowInt
+    name: IShadowInt
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowLInt
+    name: IShadowLInt
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowLReal
+    name: IShadowLReal
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowLTime
+    name: IShadowLTime
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowLWord
+    name: IShadowLWord
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowReal
+    name: IShadowReal
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowSInt
+    name: IShadowSInt
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowString
+    name: IShadowString
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowTime
+    name: IShadowTime
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowTimeOfDay
+    name: IShadowTimeOfDay
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowUDInt
+    name: IShadowUDInt
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowUInt
+    name: IShadowUInt
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowULInt
+    name: IShadowULInt
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowUSInt
+    name: IShadowUSInt
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowWord
+    name: IShadowWord
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowWString
+    name: IShadowWString
+  - uid: Vortex.Connector.ValueTypes.Shadows.NamespaceDoc
+    name: NamespaceDoc
+- uid: Vortex.Connector.ValueValidation
+  name: Vortex.Connector.ValueValidation
+  items:
+  - uid: Vortex.Connector.ValueValidation.BoolValueValidationRule
+    name: BoolValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.ByteValueValidationRule
+    name: ByteValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.DateTimeValueValidationRule
+    name: DateTimeValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.DateValueValidationRule
+    name: DateValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.DintValueValidationRule
+    name: DintValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.DWordValueValidationRule
+    name: DWordValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.IntValueValidationRule
+    name: IntValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.IValueBoundaries`1
+    name: IValueBoundaries<T>
+    name.vb: IValueBoundaries(Of T)
+  - uid: Vortex.Connector.ValueValidation.LIntValueValidationRule
+    name: LIntValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.LRealValueValidationRule
+    name: LRealValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.LTimeValueValidationRule
+    name: LTimeValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.LWordValueValidationRule
+    name: LWordValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.NamespaceDoc
+    name: NamespaceDoc
+  - uid: Vortex.Connector.ValueValidation.OnlinerValidationRule`1
+    name: OnlinerValidationRule<T>
+    name.vb: OnlinerValidationRule(Of T)
+  - uid: Vortex.Connector.ValueValidation.RealValueValidationRule
+    name: RealValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.SIntValueValidationRule
+    name: SIntValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.StringValueValidationRule
+    name: StringValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.TimeOfDayValueValidationRule
+    name: TimeOfDayValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.TimeValueValidationRule
+    name: TimeValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.UDIntValueValidationRule
+    name: UDIntValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.UIntValueValidationRule
+    name: UIntValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.ULIntValueValidationRule
+    name: ULIntValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.USintValueValidationRule
+    name: USintValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.ValidationResult
+    name: ValidationResult
+  - uid: Vortex.Connector.ValueValidation.WordValueValidationRule
+    name: WordValueValidationRule
+  - uid: Vortex.Connector.ValueValidation.WStringValueValidationRule
+    name: WStringValueValidationRule
+- uid: Vortex.Localizations
+  name: Vortex.Localizations
+  items:
+  - uid: Vortex.Localizations.IdentifierValidator
+    name: IdentifierValidator
+  - uid: Vortex.Localizations.LocalizableItem
+    name: LocalizableItem
+  - uid: Vortex.Localizations.Localizables
+    name: Localizables
+  - uid: Vortex.Localizations.LocalizationHelper
+    name: LocalizationHelper
+  - uid: Vortex.Localizations.LocalizerDictionary
+    name: LocalizerDictionary
