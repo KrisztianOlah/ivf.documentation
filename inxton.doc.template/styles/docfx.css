@@ -151,7 +151,7 @@ h6,
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgba(81, 202, 11, 0.609), rgba(81, 202, 11, 0.609));
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0));
   /* Standard syntax */
   height: 5px;
 }
@@ -159,16 +159,16 @@ h6,
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgba(81, 202, 11, 0.609),rgba(81, 202, 11, 0.609));
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
   /* Standard syntax */
   height: 5px;
 }
 .divider {
   margin: 0 5px;
-  color: #e20a0a;
+  color: #cccccc;
 }
 hr {
-  border-color: #e90b0b;
+  border-color: #cccccc;
 }
 header {
   position: fixed;
@@ -184,6 +184,12 @@ header .navbar {
 .navbar-brand {
   font-size: inherit;
   padding: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo{
+  fill:#c4d93f;
 }
 .navbar-collapse {
   margin: 0 -15px;
@@ -235,7 +241,7 @@ article section {
 }
 #autocollapse.collapsed .navbar-collapse {
   border-top: 1px solid transparent;
-  box-shadow: inset 0 1px 0 rgba(57, 211, 10, 0.897);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 #autocollapse.collapsed .navbar-collapse.collapse {
   display: none !important;
@@ -429,7 +435,7 @@ article section {
 }
 
 .sidenav, .fixed_header, .toc  {
-  background-color: #07e019;
+  background-color: #f1f1f1;
 }
 
 .sidetoc {
@@ -439,7 +445,7 @@ article section {
   bottom: 0;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: #13e20c9f;
+  background-color: #f1f1f1;
   border-left: 1px solid #e7e7e7;
   border-right: 1px solid #e7e7e7;
   z-index: 1;

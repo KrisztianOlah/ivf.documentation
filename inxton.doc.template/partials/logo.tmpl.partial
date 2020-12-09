@@ -1,5 +1,5 @@
 {{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
 
 <a class="navbar-brand" href="{{_rel}}index.html">
-  <img id="logo" class="svg" src="{{_rel}}{{{_appLogoPath}}}{{^_appLogoPath}}logo.svg{{/_appLogoPath}}" alt="{{_appName}}" >
+  <svg id="logo" class="svg" width="132px" height="26px" viewBox="0 0 132 26"><path d="M10.8.1L27.3 14V.5h5.9v25.6h-.7L16 11.7v13.9h-5.9v-10L12 13l-1.8-2.5V.1h.6zM50.5 13l8.7 12.9h-6.8l-5.3-8.2 3.4-4.7zM91.7.2c7.5 0 13.5 5.3 13.5 12.9s-6.1 12.8-13.5 12.8c-5.1 0-9.5-2.6-11.8-6.7l4.3-6.2-4.3-6.3c2.3-4 6.7-6.5 11.8-6.5zm17.2-.1L125.4 14V.5h5.9v25.6h-.7l-16.4-14.3v13.9h-5.9v-8.2l3.1-4.4-3.1-4.5V.1h.6zm-31 .6v3.1l-.1-.1V6h-6.2v19.5h-5.9V6h-6.3V.7h18.5zM5.5.1v25H0V.1h5.5zm37.2 0l1.7 2.7v18.9L42.2 25h-6.1l8.3-12.5-8-12.4h6.3zm49 5.6c-4.1 0-7.4 2.9-7.4 7.4s3.3 7.4 7.4 7.4c4 0 7.4-2.9 7.4-7.4-.1-4.4-3.4-7.4-7.4-7.4zM58.3.1l-8 12-3.1-4.6L52 0h6.3v.1z"></path></svg>
 </a>
