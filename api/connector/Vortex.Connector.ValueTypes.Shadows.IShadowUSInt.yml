@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IShadows/IShadowUSInt.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IShadowUSInt
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IShadows/IShadowUSInt.cs
@@ -29,6 +29,7 @@ items:
     content: 'public interface IShadowUSInt : IShadow<byte>'
     content.vb: >-
       Public Interface IShadowUSInt
+
           Inherits IShadow(Of Byte)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Shadows.IShadow{System.Byte}.Symbol

@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IOnlines/IOnlineULInt.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IOnlineULInt
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IOnlines/IOnlineULInt.cs
@@ -29,6 +29,7 @@ items:
     content: 'public interface IOnlineULInt : IOnline<ulong>'
     content.vb: >-
       Public Interface IOnlineULInt
+
           Inherits IOnline(Of ULong)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Online.IOnline{System.UInt64}.Symbol

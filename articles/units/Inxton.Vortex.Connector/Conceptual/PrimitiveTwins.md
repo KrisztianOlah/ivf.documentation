@@ -2,30 +2,31 @@
 
 Each elementary/primitive/base type is represented by a twin wrapper object that are summarily called **Onliners**. Onliners allow for direct access to the PLC variable via __Cyclic__ (variable is read or written cyclically in specific time periods) or __Synchron__ (the variable is read or written synchronously). There is also an off line value holder exposed via __Shadow__ member (allows for manipulation and batch read and write of entire structures).
 
-| PLC Type      | Twin Wrapper Onliner type |
-|---------------|:-------------:|
-| BOOL          |  [OnlinerBool Class](../API/T_Vortex_Connector_ValueTypes_OnlinerBool.md) |  
-| BYTE          |  [OnlinerByte Class](../API/T_Vortex_Connector_ValueTypes_OnlinerByte.md) |  
-| WORD          |  [OnlinerWord Class](../API/T_Vortex_Connector_ValueTypes_OnlinerWord.md)|
-| DWORD         |  [OnlinerDWord Class](../API/T_Vortex_Connector_ValueTypes_OnlinerDWord.md)|
-| LWORD         |  [OnlinerLWord Class](../API/T_Vortex_Connector_ValueTypes_OnlinerLWord.md) |
-| SINT          |  [OnlinerSInt Class](../API/T_Vortex_Connector_ValueTypes_OnlinerSInt.md) |
-| INT          |  [OnlinerInt Class](../API/T_Vortex_Connector_ValueTypes_OnlinerInt.md) |
-| DINT          |  [OnlinerDInt Class](../API/T_Vortex_Connector_ValueTypes_OnlinerDInt.md) |
-| LINT          | [OnlinerLInt Class](../API/T_Vortex_Connector_ValueTypes_OnlinerLInt.md) |
-| USINT          |  [OnlinerUSInt Class](../API/T_Vortex_Connector_ValueTypes_OnlinerUSInt.md) |
-| UINT          |  [OnlinerUInt Class](../API/T_Vortex_Connector_ValueTypes_OnlinerUInt.md) |
-| UDINT          | [OnlinerUDInt Class](../API/T_Vortex_Connector_ValueTypes_OnlinerUDInt.md) |
-| ULINT          |  [OnlinerULInt Class](../API/T_Vortex_Connector_ValueTypes_OnlinerULInt.md) |
-| REAL          |  [OnlinerReal Class](../API/T_Vortex_Connector_ValueTypes_OnlinerReal.md) |
-| LREAL          |  [OnlinerLReal Class](../API/T_Vortex_Connector_ValueTypes_OnlinerLReal.md) |
-| TIME          | [OnlinerTime Class](../API/T_Vortex_Connector_ValueTypes_OnlinerTime.md) |
-| LTIME          |  [OnlinerLTime Class](../API/T_Vortex_Connector_ValueTypes_OnlinerLTime.md) |
-| DATE          |  [OnlinerDate Class](../API/T_Vortex_Connector_ValueTypes_OnlinerDate.md) |
-| TIME_OF_DAY / TOD    |       [OnlinerTimeOfDay Class](../API/T_Vortex_Connector_ValueTypes_OnlinerTimeOfDay.md) |
-| DATE_AND_TIME / DT         | [OnlinerDateTime Class](../API/T_Vortex_Connector_ValueTypes_OnlinerDateTime.md) |
-| STRING          |  [OnlinerString Class](../API/T_Vortex_Connector_ValueTypes_OnlinerString.md) |
-| WSTRING          | [OnlinerWString Class](../API/T_Vortex_Connector_ValueTypes_OnlinerWString.md) |
+
+| PLC Type           | Twin Wrapper Onliner type                                                          |
+|--------------------|---------------------------------------------------------------------------------|
+| BOOL               | [OnlinerBool Class](xref:Vortex.Connector.ValueTypes.OnlinerBool)      |
+| BYTE               | [OnlinerByte Class](xref:Vortex.Connector.ValueTypes.OnlinerByte)      |
+| WORD               | [OnlinerWord Class](xref:Vortex.Connector.ValueTypes.OnlinerWord)      |
+| DWORD              | [OnlinerDWord Class](xref:Vortex.Connector.ValueTypes.OnlinerDWord)     |
+| LWORD              | [OnlinerLWord Class](xref:Vortex.Connector.ValueTypes.OnlinerLWord)     |
+| SINT               | [OnlinerSInt Class](xref:Vortex.Connector.ValueTypes.OnlinerSInt)      |
+| INT                | [OnlinerInt Class](xref:Vortex.Connector.ValueTypes.OnlinerInt)       |
+| DINT               | [OnlinerDInt Class](xref:Vortex.Connector.ValueTypes.OnlinerDInt)      |
+| LINT               | [OnlinerLInt Class](xref:Vortex.Connector.ValueTypes.OnlinerLInt)      |
+| USINT              | [OnlinerUSInt Class](xref:Vortex.Connector.ValueTypes.OnlinerUSInt)     |
+| UINT               | [OnlinerUInt Class](xref:Vortex.Connector.ValueTypes.OnlinerUInt)      |
+| UDINT              | [OnlinerUDInt Class](xref:Vortex.Connector.ValueTypes.OnlinerUDInt)     |
+| ULINT              | [OnlinerULInt Class](xref:Vortex.Connector.ValueTypes.OnlinerULInt)     |
+| REAL               | [OnlinerReal Class](xref:Vortex.Connector.ValueTypes.OnlinerReal)      |
+| LREAL              | [OnlinerLReal Class](xref:Vortex.Connector.ValueTypes.OnlinerLReal)     |
+| TIME               | [OnlinerTime Class](xref:Vortex.Connector.ValueTypes.OnlinerTime)      |
+| LTIME              | [OnlinerLTime Class](xref:Vortex.Connector.ValueTypes.OnlinerLTime)     |
+| DATE               | [OnlinerDate Class](xref:Vortex.Connector.ValueTypes.OnlinerDate)      |
+| TIME_OF_DAY / TOD  | [OnlinerTimeOfDay Class](xref:Vortex.Connector.ValueTypes.OnlinerTimeOfDay) |
+| DATE_AND_TIME / DT | [OnlinerDateTime Class](xref:Vortex.Connector.ValueTypes.OnlinerDateTime)  |
+| STRING             | [OnlinerString Class](xref:Vortex.Connector.ValueTypes.OnlinerString)    |
+| WSTRING            | [OnlinerWString Class](xref:Vortex.Connector.ValueTypes.OnlinerWString)   |
 
 ![primitive twins](../assets/TwinObject.png)
 

@@ -38,7 +38,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DummyConnectorFactory
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -52,6 +52,7 @@ items:
     content: 'public class DummyConnectorFactory : IConnectorFactory'
     content.vb: >-
       Public Class DummyConnectorFactory
+
           Inherits IConnectorFactory
   inheritance:
   - System.Object
@@ -110,7 +111,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -155,7 +156,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateBOOL
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -203,7 +204,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateBYTE
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -251,7 +252,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateDINT
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -299,7 +300,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateDWORD
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -347,7 +348,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateINT
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -395,7 +396,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateLINT
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -443,7 +444,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateLREAL
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -491,7 +492,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateLTIME
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -539,7 +540,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateLWORD
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -587,7 +588,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateREAL
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -635,7 +636,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateSINT
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -683,7 +684,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateSTRING
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -731,7 +732,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateTIME
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -779,7 +780,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateDATE_TIME
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -827,7 +828,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateDATE
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -875,7 +876,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateTIME_OF_DAY
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -923,7 +924,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateUDINT
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -971,7 +972,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateUINT
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -1019,7 +1020,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateULINT
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -1067,7 +1068,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateUSINT
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -1115,7 +1116,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateWORD
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
@@ -1163,7 +1164,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateWSTRING
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Dummy/DummyConnectorFactory.cs

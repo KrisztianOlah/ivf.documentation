@@ -1,4 +1,3 @@
-![Inxton logo](/common/assets/logo.png)
 
 # Inxton.Package.Vortex.Controls.Wpf
 

@@ -30,7 +30,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RootVortexerObject
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -49,6 +49,7 @@ items:
       <Obsolete("This class should not be directly instantiated by framework consumers.")>
 
       Public Class RootVortexerObject
+
           Implements IVortexObject, ITwinObject, IVortexElement
   inheritance:
   - System.Object
@@ -102,7 +103,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolTail
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -139,7 +140,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetSymbolTail
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -176,7 +177,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -215,7 +216,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -254,7 +255,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HumanReadable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -293,7 +294,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetChildren
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -330,7 +331,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Children
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -359,7 +360,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetParent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -396,7 +397,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddChild
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -434,7 +435,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _valueTags
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -461,7 +462,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ValueTags
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -499,7 +500,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Identity
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -536,7 +537,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetValueTags
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -573,7 +574,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddValueTag
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -611,7 +612,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs

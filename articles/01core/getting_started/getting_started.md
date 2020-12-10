@@ -10,22 +10,22 @@ Inxton.Package.Vortex.Core (Core) provides foundational tools and libraries for 
 
 Core package consists of several crucial components, these provide solid foundation for Inxton.Vortex.Framework.
 
-- [Compiler/Builder](/./units/Inxton.vortex.compiler.console/README.md)
-- [Communication libraries](/./units/Inxton.Vortex.Connector/README.md)
+- [Compiler/Builder](../../units/Inxton.vortex.compiler.console/README.md)
+- [Communication libraries](../../units/Inxton.Vortex.Connector/README.md)
 
 In few sentences, Compiler parses your TwinCAT 3 project and converts it into Connector project. Connector will provides you access to your PLC project from Inxton application via Communication libraries.
 
 ## Pre-Requisites
 
-Before you start building your fist app please make sure you meet all pre-requisites [here](/././common/PREREQUISITES.md).
+Before you start building your fist app please make sure you meet all pre-requisites [here](~/articles/common/PREREQUISITES.md).
 
 ## Installing licence
 
-Get your free developer license [here](/././common/LicenseInstallation.md)
+Get your free developer license [here](~/articles/common/LicenseInstallation.md)
 
 ## Installation
 
-Checkout the installation procedure as easy instruction video [here](/././common/INSTALLATION.md)
+Checkout the installation procedure as easy instruction video [here](~/articles/common/INSTALLATION.md)
 
 ## Important note to namespaces
 
@@ -45,11 +45,11 @@ When you are already familiar with the framework you can [clone](https://github.
 
 ### Creating new project
 
-How to get started with new project from the scratch see [here](/apis/Inxton.vortex.compiler.console/README.md#Getting-started)
+How to get started with new project from the scratch see [here](../../units/Inxton.vortex.compiler.console/README.md#Getting-started)
 
 See also
 
-* [Inxton.Vortex.Connector](/units/Inxton.Vortex.Connector/README.md)
-* [Inxton.Vortex.Compiler](/units/Inxton.vortex.compiler.console/README.md)
-* [Inxton.Package.Vortex.Essentials](/02essentials/getting_started/getting_started.md)
+* [Inxton.Vortex.Connector](../../units/Inxton.Vortex.Connector/README.md)
+* [Inxton.Vortex.Compiler](../../units/Inxton.vortex.compiler.console/README.md)
+* [Inxton.Package.Vortex.Essentials](../../02essentials/getting_started/getting_started.md)
 

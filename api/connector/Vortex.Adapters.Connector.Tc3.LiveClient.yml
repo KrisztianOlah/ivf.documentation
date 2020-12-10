@@ -18,19 +18,19 @@ items:
   - Vortex.Adapters.Connector.Tc3.LiveClient.OnAdsStateChangeEvent
   - Vortex.Adapters.Connector.Tc3.LiveClient.onlineSymbolRetriever
   - Vortex.Adapters.Connector.Tc3.LiveClient.OnlineSymbolRetriever
-  - Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32,System.UInt32,Memory{System.Byte})
+  - Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32,System.UInt32,System.Memory{System.Byte})
   - Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny(System.UInt32,System.UInt32,System.Type)
   - Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny``1(System.UInt32,System.UInt32,System.Int32[])
   - Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
   - Vortex.Adapters.Connector.Tc3.LiveClient.ReadAnyWString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo)
   - Vortex.Adapters.Connector.Tc3.LiveClient.ReadSymbolInfo(System.String)
-  - Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32,System.UInt32,Memory{System.Byte},ReadOnlyMemory{System.Byte})
+  - Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32,System.UInt32,System.Memory{System.Byte},System.ReadOnlyMemory{System.Byte})
   - Vortex.Adapters.Connector.Tc3.LiveClient.SymbolLoaderSession
   - Vortex.Adapters.Connector.Tc3.LiveClient.Timeout
   - Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect(System.Int32,Vortex.Adapters.Connector.Tc3.AdsConnector)
   - Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect(System.String,System.Int32,Vortex.Adapters.Connector.Tc3.AdsConnector)
   - Vortex.Adapters.Connector.Tc3.LiveClient.TryReadState(TwinCAT.Ads.StateInfo@)
-  - Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32,System.UInt32,ReadOnlyMemory{System.Byte})
+  - Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32,System.UInt32,System.ReadOnlyMemory{System.Byte})
   - Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny``1(System.UInt32,System.UInt32,``0)
   - Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny``1(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,``0)
   - Vortex.Adapters.Connector.Tc3.LiveClient.WriteAnyString(Vortex.Adapters.Connector.Tc3.OnlineVariableInfo,System.String)
@@ -45,7 +45,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LiveClient
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -86,7 +86,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: onlineSymbolRetriever
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -117,7 +117,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ClientAdsStateChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadAndSortOnlineVariablesSymbolListAll
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -177,7 +177,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolLoaderSession
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -204,7 +204,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Connect
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -237,7 +237,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Connect
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -272,7 +272,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateVariableHandle
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -307,7 +307,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Dispose
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -337,7 +337,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadAndSortOnlineVariablesSymbolList
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -356,21 +356,21 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32,System.UInt32,Memory{System.Byte})
-  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32,System.UInt32,Memory{System.Byte})
-  id: Read(System.UInt32,System.UInt32,Memory{System.Byte})
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32,System.UInt32,System.Memory{System.Byte})
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32,System.UInt32,System.Memory{System.Byte})
+  id: Read(System.UInt32,System.UInt32,System.Memory{System.Byte})
   parent: Vortex.Adapters.Connector.Tc3.LiveClient
   langs:
   - csharp
   - vb
   name: Read(UInt32, UInt32, Memory<Byte>)
   nameWithType: LiveClient.Read(UInt32, UInt32, Memory<Byte>)
-  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32, System.UInt32, Memory<System.Byte>)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32, System.UInt32, System.Memory<System.Byte>)
   type: Method
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Read
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -386,7 +386,7 @@ items:
     - id: indexOffset
       type: System.UInt32
     - id: adsStream
-      type: Memory{System.Byte}
+      type: System.Memory{System.Byte}
     content.vb: Public Sub Read(indexGroup As UInteger, indexOffset As UInteger, adsStream As Memory(Of Byte))
   overload: Vortex.Adapters.Connector.Tc3.LiveClient.Read*
   nameWithType.vb: LiveClient.Read(UInt32, UInt32, Memory(Of Byte))
@@ -394,7 +394,7 @@ items:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32, System.UInt32, Memory(Of System.Byte))
+  fullName.vb: Vortex.Adapters.Connector.Tc3.LiveClient.Read(System.UInt32, System.UInt32, System.Memory(Of System.Byte))
   name.vb: Read(UInt32, UInt32, Memory(Of Byte))
 - uid: Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny(System.UInt32,System.UInt32,System.Type)
   commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.ReadAny(System.UInt32,System.UInt32,System.Type)
@@ -410,7 +410,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadAny
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -449,7 +449,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadAnyString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -484,7 +484,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadAnyWString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -519,7 +519,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadAny
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -563,7 +563,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadSymbolInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -584,21 +584,21 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32,System.UInt32,Memory{System.Byte},ReadOnlyMemory{System.Byte})
-  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32,System.UInt32,Memory{System.Byte},ReadOnlyMemory{System.Byte})
-  id: ReadWrite(System.UInt32,System.UInt32,Memory{System.Byte},ReadOnlyMemory{System.Byte})
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32,System.UInt32,System.Memory{System.Byte},System.ReadOnlyMemory{System.Byte})
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32,System.UInt32,System.Memory{System.Byte},System.ReadOnlyMemory{System.Byte})
+  id: ReadWrite(System.UInt32,System.UInt32,System.Memory{System.Byte},System.ReadOnlyMemory{System.Byte})
   parent: Vortex.Adapters.Connector.Tc3.LiveClient
   langs:
   - csharp
   - vb
   name: ReadWrite(UInt32, UInt32, Memory<Byte>, ReadOnlyMemory<Byte>)
   nameWithType: LiveClient.ReadWrite(UInt32, UInt32, Memory<Byte>, ReadOnlyMemory<Byte>)
-  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32, System.UInt32, Memory<System.Byte>, ReadOnlyMemory<System.Byte>)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32, System.UInt32, System.Memory<System.Byte>, System.ReadOnlyMemory<System.Byte>)
   type: Method
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadWrite
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -614,9 +614,9 @@ items:
     - id: indexOffset
       type: System.UInt32
     - id: rdDataStream
-      type: Memory{System.Byte}
+      type: System.Memory{System.Byte}
     - id: wrDataStream
-      type: ReadOnlyMemory{System.Byte}
+      type: System.ReadOnlyMemory{System.Byte}
     content.vb: Public Sub ReadWrite(indexGroup As UInteger, indexOffset As UInteger, rdDataStream As Memory(Of Byte), wrDataStream As ReadOnlyMemory(Of Byte))
   overload: Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite*
   nameWithType.vb: LiveClient.ReadWrite(UInt32, UInt32, Memory(Of Byte), ReadOnlyMemory(Of Byte))
@@ -624,7 +624,7 @@ items:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32, System.UInt32, Memory(Of System.Byte), ReadOnlyMemory(Of System.Byte))
+  fullName.vb: Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite(System.UInt32, System.UInt32, System.Memory(Of System.Byte), System.ReadOnlyMemory(Of System.Byte))
   name.vb: ReadWrite(UInt32, UInt32, Memory(Of Byte), ReadOnlyMemory(Of Byte))
 - uid: Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect(System.Int32,Vortex.Adapters.Connector.Tc3.AdsConnector)
   commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.TryConnect(System.Int32,Vortex.Adapters.Connector.Tc3.AdsConnector)
@@ -640,7 +640,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TryConnect
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -675,7 +675,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TryConnect
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -712,7 +712,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TryReadState
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -736,21 +736,21 @@ items:
   - Public
   fullName.vb: Vortex.Adapters.Connector.Tc3.LiveClient.TryReadState(ByRef TwinCAT.Ads.StateInfo)
   name.vb: TryReadState(ByRef StateInfo)
-- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32,System.UInt32,ReadOnlyMemory{System.Byte})
-  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32,System.UInt32,ReadOnlyMemory{System.Byte})
-  id: Write(System.UInt32,System.UInt32,ReadOnlyMemory{System.Byte})
+- uid: Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32,System.UInt32,System.ReadOnlyMemory{System.Byte})
+  commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32,System.UInt32,System.ReadOnlyMemory{System.Byte})
+  id: Write(System.UInt32,System.UInt32,System.ReadOnlyMemory{System.Byte})
   parent: Vortex.Adapters.Connector.Tc3.LiveClient
   langs:
   - csharp
   - vb
   name: Write(UInt32, UInt32, ReadOnlyMemory<Byte>)
   nameWithType: LiveClient.Write(UInt32, UInt32, ReadOnlyMemory<Byte>)
-  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32, System.UInt32, ReadOnlyMemory<System.Byte>)
+  fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32, System.UInt32, System.ReadOnlyMemory<System.Byte>)
   type: Method
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Write
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -766,7 +766,7 @@ items:
     - id: indexOffset
       type: System.UInt32
     - id: adsStream
-      type: ReadOnlyMemory{System.Byte}
+      type: System.ReadOnlyMemory{System.Byte}
     content.vb: Public Sub Write(indexGroup As UInteger, indexOffset As UInteger, adsStream As ReadOnlyMemory(Of Byte))
   overload: Vortex.Adapters.Connector.Tc3.LiveClient.Write*
   nameWithType.vb: LiveClient.Write(UInt32, UInt32, ReadOnlyMemory(Of Byte))
@@ -774,7 +774,7 @@ items:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32, System.UInt32, ReadOnlyMemory(Of System.Byte))
+  fullName.vb: Vortex.Adapters.Connector.Tc3.LiveClient.Write(System.UInt32, System.UInt32, System.ReadOnlyMemory(Of System.Byte))
   name.vb: Write(UInt32, UInt32, ReadOnlyMemory(Of Byte))
 - uid: Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny``1(System.UInt32,System.UInt32,``0)
   commentId: M:Vortex.Adapters.Connector.Tc3.LiveClient.WriteAny``1(System.UInt32,System.UInt32,``0)
@@ -790,7 +790,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteAny
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -832,7 +832,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteAny
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -872,7 +872,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteAnyString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -907,7 +907,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteAnyWString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -942,7 +942,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InternalAdsClient
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -977,7 +977,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AmsNetId
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -1012,7 +1012,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsConnected
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -1047,7 +1047,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnAdsStateChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -1082,7 +1082,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlineSymbolRetriever
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -1117,7 +1117,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Timeout
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -1630,20 +1630,21 @@ references:
   name: Read
   nameWithType: LiveClient.Read
   fullName: Vortex.Adapters.Connector.Tc3.LiveClient.Read
-- uid: Memory{System.Byte}
-  commentId: '!:Memory{System.Byte}'
-  definition: Memory`1
+- uid: System.Memory{System.Byte}
+  commentId: T:System.Memory{System.Byte}
+  parent: System
+  definition: System.Memory`1
   name: Memory<Byte>
   nameWithType: Memory<Byte>
-  fullName: Memory<System.Byte>
+  fullName: System.Memory<System.Byte>
   nameWithType.vb: Memory(Of Byte)
-  fullName.vb: Memory(Of System.Byte)
+  fullName.vb: System.Memory(Of System.Byte)
   name.vb: Memory(Of Byte)
   spec.csharp:
-  - uid: Memory`1
+  - uid: System.Memory`1
     name: Memory
     nameWithType: Memory
-    fullName: Memory
+    fullName: System.Memory
     isExternal: true
   - name: <
     nameWithType: <
@@ -1657,10 +1658,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Memory`1
+  - uid: System.Memory`1
     name: Memory
     nameWithType: Memory
-    fullName: Memory
+    fullName: System.Memory
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1673,41 +1674,42 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Memory`1
+- uid: System.Memory`1
+  commentId: T:System.Memory`1
   isExternal: true
-  name: Memory<>
-  nameWithType: Memory<>
-  fullName: Memory<>
-  nameWithType.vb: Memory(Of )
-  fullName.vb: Memory(Of )
-  name.vb: Memory(Of )
+  name: Memory<T>
+  nameWithType: Memory<T>
+  fullName: System.Memory<T>
+  nameWithType.vb: Memory(Of T)
+  fullName.vb: System.Memory(Of T)
+  name.vb: Memory(Of T)
   spec.csharp:
-  - uid: Memory`1
+  - uid: System.Memory`1
     name: Memory
     nameWithType: Memory
-    fullName: Memory
+    fullName: System.Memory
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Memory`1
+  - uid: System.Memory`1
     name: Memory
     nameWithType: Memory
-    fullName: Memory
+    fullName: System.Memory
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
@@ -1798,20 +1800,21 @@ references:
   name: ReadWrite
   nameWithType: LiveClient.ReadWrite
   fullName: Vortex.Adapters.Connector.Tc3.LiveClient.ReadWrite
-- uid: ReadOnlyMemory{System.Byte}
-  commentId: '!:ReadOnlyMemory{System.Byte}'
-  definition: ReadOnlyMemory`1
+- uid: System.ReadOnlyMemory{System.Byte}
+  commentId: T:System.ReadOnlyMemory{System.Byte}
+  parent: System
+  definition: System.ReadOnlyMemory`1
   name: ReadOnlyMemory<Byte>
   nameWithType: ReadOnlyMemory<Byte>
-  fullName: ReadOnlyMemory<System.Byte>
+  fullName: System.ReadOnlyMemory<System.Byte>
   nameWithType.vb: ReadOnlyMemory(Of Byte)
-  fullName.vb: ReadOnlyMemory(Of System.Byte)
+  fullName.vb: System.ReadOnlyMemory(Of System.Byte)
   name.vb: ReadOnlyMemory(Of Byte)
   spec.csharp:
-  - uid: ReadOnlyMemory`1
+  - uid: System.ReadOnlyMemory`1
     name: ReadOnlyMemory
     nameWithType: ReadOnlyMemory
-    fullName: ReadOnlyMemory
+    fullName: System.ReadOnlyMemory
     isExternal: true
   - name: <
     nameWithType: <
@@ -1825,10 +1828,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: ReadOnlyMemory`1
+  - uid: System.ReadOnlyMemory`1
     name: ReadOnlyMemory
     nameWithType: ReadOnlyMemory
-    fullName: ReadOnlyMemory
+    fullName: System.ReadOnlyMemory
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1841,41 +1844,42 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: ReadOnlyMemory`1
+- uid: System.ReadOnlyMemory`1
+  commentId: T:System.ReadOnlyMemory`1
   isExternal: true
-  name: ReadOnlyMemory<>
-  nameWithType: ReadOnlyMemory<>
-  fullName: ReadOnlyMemory<>
-  nameWithType.vb: ReadOnlyMemory(Of )
-  fullName.vb: ReadOnlyMemory(Of )
-  name.vb: ReadOnlyMemory(Of )
+  name: ReadOnlyMemory<T>
+  nameWithType: ReadOnlyMemory<T>
+  fullName: System.ReadOnlyMemory<T>
+  nameWithType.vb: ReadOnlyMemory(Of T)
+  fullName.vb: System.ReadOnlyMemory(Of T)
+  name.vb: ReadOnlyMemory(Of T)
   spec.csharp:
-  - uid: ReadOnlyMemory`1
+  - uid: System.ReadOnlyMemory`1
     name: ReadOnlyMemory
     nameWithType: ReadOnlyMemory
-    fullName: ReadOnlyMemory
+    fullName: System.ReadOnlyMemory
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: ReadOnlyMemory`1
+  - uid: System.ReadOnlyMemory`1
     name: ReadOnlyMemory
     nameWithType: ReadOnlyMemory
-    fullName: ReadOnlyMemory
+    fullName: System.ReadOnlyMemory
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )

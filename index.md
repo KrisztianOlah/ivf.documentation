@@ -22,8 +22,8 @@ The packages will be first released as preview versions. These versions are clos
 
 ## Available and upcoming packages
 
-- **[Inxton.Package.Vortex.Core](./Inxton.Package.Vortex.Core/README.md)** (compiler, connectivity)
-- **[Inxton.Package.Vortex.Essentials](./Inxton.Package.Vortex.Essentials/README.md)** (Core + automated UI generation)
+- **[Inxton.Package.Vortex.Core](articles/01core/getting_started/getting_started.md)** (compiler, connectivity)
+- **[Inxton.Package.Vortex.Essentials](articles/02essentials/getting_started/getting_started.md)** (Core + automated UI generation)
 - [Inxton.Package.Vortex.Advanced](https://www.inxton.com) (coming soon) (Essentials + user security, PLC to .net RPC, etc)
 - [Inxton.Package.Vortex.Ultimate](https://www.inxton.com) (coming soon) (Advanced + coordination libraries for effective PLC task handling, CRUD PLC to Data Repositories, extensive user action logging, etc.)
 

@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IShadows/IShadowLReal.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IShadowLReal
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IShadows/IShadowLReal.cs
@@ -29,6 +29,7 @@ items:
     content: 'public interface IShadowLReal : IShadow<double>'
     content.vb: >-
       Public Interface IShadowLReal
+
           Inherits IShadow(Of Double)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Shadows.IShadow{System.Double}.Symbol

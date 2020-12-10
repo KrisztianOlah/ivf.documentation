@@ -62,7 +62,7 @@ Install-Package Inxton.Package.Vortex.Advanced.Wpf
 
 ## Installing the license
 
-Get your free developer license [here](/common/LicenseInstallation.md).
+Get your free developer license [here](~/articles/common/LicenseInstallation.md)
 
 ## How to invoke C# code from PLC
 

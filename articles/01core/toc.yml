@@ -1,2 +1,6 @@
 - name : Introduction
   href : getting_started/getting_started.md
+- name : Compiler
+  href : ../units/Inxton.vortex.compiler.console/toc.yml
+- name : Connector
+  href : ../units/Inxton.Vortex.Connector/toc.yml

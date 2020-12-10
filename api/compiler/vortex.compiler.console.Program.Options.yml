@@ -27,7 +27,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Options
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -66,7 +66,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: currentDirectory
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SolutionFile
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -157,7 +157,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ConfigFile
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -216,7 +216,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeDirectives
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -275,7 +275,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OutputDirectory
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -334,7 +334,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreatePlcLibraries
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -393,7 +393,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CloseVisualStudionOnDone
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -452,7 +452,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UpdateControllerVersionInfo
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -511,7 +511,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InstallProjectLibraries
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -570,7 +570,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Verbosity
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -629,7 +629,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: BuildConnectorProjects
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -688,7 +688,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DoInferUnknownTypes
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs

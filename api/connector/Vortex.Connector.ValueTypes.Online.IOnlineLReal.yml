@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IOnlines/IOnlineLReal.cs
-      branch: feature/separate_parser_from_compiler
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IOnlineLReal
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IOnlines/IOnlineLReal.cs
@@ -29,6 +29,7 @@ items:
     content: 'public interface IOnlineLReal : IOnline<double>'
     content.vb: >-
       Public Interface IOnlineLReal
+
           Inherits IOnline(Of Double)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Online.IOnline{System.Double}.Symbol

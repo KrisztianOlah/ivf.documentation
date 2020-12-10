@@ -57,9 +57,9 @@ The types external to the project must be declared with their respective namespa
 
 ## Getting started
 
-The best way to get started with the compiler is to use examples form [Inxton.Package.Vortex.Core](../Inxton.Package.Vortex.Core/README.MD).
+The best way to get started with the compiler is to use examples form [Inxton.Package.Vortex.Core](~/articles/01core/getting_started/getting_started.MD).
 
-### Pre-requisites check [here](/common/PREREQUISITES.md) please
+### Pre-requisites check [here](../../common/PREREQUISITES.md) please
 
 ### First project
 
@@ -67,10 +67,10 @@ The best way to get started with the compiler is to use examples form [Inxton.Pa
 1. Create new **TwinCAT Project** (name it e.g. XAE)
 1. Create new **TwinCAT PLC project** in TwinCAT project under **PLC** branch (name it e.g MainPlc)
 1. Create new C# library project (.net framework 4.8) and name it {PlcProjectName}Connector (e.g. MainPlcConnector).
-1. Add NuGet package Inxton.Vortex.Core to newly created C# library project. (this package contains the compiler and supporting libraries) [nuget](https://www.nuget.org/packages/Inxton.Packages.Vortex.Core).
+1. Add NuGet package Inxton.Vortex.Core to newly created C# library project. (this package contains the compiler and supporting libraries) [nuget](https://www.nuget.org/packages/Inxton.Package.Vortex.Core).
 
    ~~~ PowerShell
-       PM> Install-Package Inxton.Packages.Vortex.Core
+       PM> Install-Package Inxton.Package.Vortex.Core
    ~~~
 
 The solution is ready at this point.
@@ -84,7 +84,7 @@ You can download Visual Studio Extension directly from [Visual Studio marketplac
 ##### To install extension follow easy step by step video turorial below. 
 [![Video instruction here](https://img.youtube.com/vi/seL77D0eykI/0.jpg)](https://www.youtube.com/watch?v=seL77D0eykI&feature=youtu.be "Run builder.")
 
-Or follow few easy installation steps [here](../ExtensionInstalation.md).
+Or follow few easy installation steps [here](../../common/ExtensionInstalation.md).
 
 
 #### Command line interface (CLI)

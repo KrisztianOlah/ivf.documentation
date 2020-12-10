@@ -1,2 +1,8 @@
-- name : Introduction to Vortex Essentials
+- name : Introduction
   href : getting_started/getting_started.md
+- name : Rendering engine
+  href : ../units/Inxton.Vortex.Presentation.Wpf/toc.yml
+- name : Controls
+  href : ../units/Inxton.Vortex.Presentation.Controls.Wpf/toc.yml
+- name : Styling your app
+  href : ../units/Inxton.Vortex.Presentation.Styling.Wpf/toc.yml

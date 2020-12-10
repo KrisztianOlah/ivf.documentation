@@ -1,0 +1,7 @@
+- name: Generating user interface
+  href: README.md
+  
+- name: How it works
+  href : how_it_works.md
+- name: Presentation types
+  href : presentation_types.md
