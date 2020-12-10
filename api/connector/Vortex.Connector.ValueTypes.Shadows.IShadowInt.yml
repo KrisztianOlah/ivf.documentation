@@ -29,7 +29,6 @@ items:
     content: 'public interface IShadowInt : IShadow<short>'
     content.vb: >-
       Public Interface IShadowInt
-
           Inherits IShadow(Of Short)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int16}.Symbol

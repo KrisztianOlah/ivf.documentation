@@ -8,6 +8,6 @@ Watch the tutorial on YouTube!
 
 To install your developer license, just register and grab it at [inxton.com](https://www.inxton.com/getting-started).
 
-The developer license does not limit the functionality but limits the run of the application to about 2 hours. After this period, the application can be restarted and will run again for 30mins to 2 hours period. You can have multiple developer licenses to run your applications simultaneously on various hardware devices. You can retrieve your additional developer licenses at [inxton.com](inxton.com).
+The developer license does not limit the functionality but limits the run of the application to about 2 hours. After this period, the application can be restarted and will run again for 30mins to 2 hours period. You can have multiple developer licenses to run your applications simultaneously on various hardware devices. You can retrieve your additional developer licenses at [inxton.com](https://www.inxton.com).
 
 We will ask you to purchase the license when you decide to deploy your application to your customer. This paid license does not contain any limitations of the developer's license.

@@ -33,7 +33,6 @@ items:
     content: 'public class Tc3ConnectorAdapter : ConnectorAdapter'
     content.vb: >-
       Public Class Tc3ConnectorAdapter
-
           Inherits ConnectorAdapter
   inheritance:
   - System.Object

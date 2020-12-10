@@ -33,9 +33,7 @@ items:
     content: 'public class OnlinerBool : OnlinerBaseType<bool>, IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries<bool>, IOnlineBool, IOnline<bool>, IShadowBool, IShadow<bool>'
     content.vb: >-
       Public Class OnlinerBool
-
           Inherits OnlinerBaseType(Of Boolean)
-
           Implements IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of Boolean), IOnlineBool, IOnline(Of Boolean), IShadowBool, IShadow(Of Boolean)
   inheritance:
   - System.Object

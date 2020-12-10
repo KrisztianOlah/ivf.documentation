@@ -37,9 +37,7 @@ items:
     content: 'public class DummyConnector : IConnector, IVortexObject, ITwinObject, IVortexElement, INotifyPropertyChanged'
     content.vb: >-
       Public Class DummyConnector
-
           Inherits IConnector
-
           Implements IVortexObject, ITwinObject, IVortexElement, INotifyPropertyChanged
   inheritance:
   - System.Object

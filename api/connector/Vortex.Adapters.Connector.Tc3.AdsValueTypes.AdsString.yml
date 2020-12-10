@@ -40,9 +40,7 @@ items:
     content: 'sealed class AdsString : OnlinerString, INotifyPropertyChanged, IValueBoundaries<string>, IOnlineString, IOnline<string>, IShadowString, IShadow<string>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsString
-
           Inherits OnlinerString
-
           Implements INotifyPropertyChanged, IValueBoundaries(Of String), IOnlineString, IOnline(Of String), IShadowString, IShadow(Of String), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object

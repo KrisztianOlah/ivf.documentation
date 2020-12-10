@@ -20,7 +20,7 @@ This project is part of Inxton.Vortex.Framework.
 
 ## Check the prerequisites
 
-Make sure you have everything you need to start using examples in this repository [here](https://github.com/Inxton/documentation/blob/master/PREREQUISITES.MD).
+Make sure you have everything you need to start using examples in this repository [here](../../common/PREREQUISITES.MD).
 
 If you are not familiar with INXTON, make sure you understand the basics [Inxton.Package.Vortex.Core](https://github.com/Inxton/Examples-Inxton.Package.Vortex.Core/).
 
@@ -216,11 +216,6 @@ In C# XAML code
 
 When you are already familiar with the framework you can [clone](https://github.com/Inxton/template.advanced.git) or [download](https://github.com/Inxton/template.advanced/archive/master.zip) the [template.advanced](https://github.com/Inxton/template.advanced) project.
 
-## What to do next?
-
-Checkout documentation  [Inxton.Package.Vortex.Core](/Inxton.Package.Vortex.Advanced/README.md).
-
-Install the extension from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Inxton.InxtonVortexBuilderExtensionPre).
 
 # Need help?
 

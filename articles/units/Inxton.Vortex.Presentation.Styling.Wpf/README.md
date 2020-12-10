@@ -12,7 +12,7 @@ Build something amazing with INXTON!
 
 Checkout documentation  [Inxton.Package.Vortex.Core](https://github.com/Inxton/documentation)
 
-Learn more about [how it works](Inxton.Vortex.Presentation.Wpf/README.md)
+Learn more about [how it works](../Inxton.Vortex.Presentation.Wpf/README.md)
 
 Install the extension from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Inxton.InxtonVortexBuilderExtensionPre)
 

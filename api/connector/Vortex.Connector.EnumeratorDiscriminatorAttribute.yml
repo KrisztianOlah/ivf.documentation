@@ -31,7 +31,6 @@ items:
     content: 'public class EnumeratorDiscriminatorAttribute : Attribute'
     content.vb: >-
       Public Class EnumeratorDiscriminatorAttribute
-
           Inherits Attribute
   inheritance:
   - System.Object

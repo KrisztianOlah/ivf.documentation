@@ -52,7 +52,6 @@ items:
     content: 'public class DummyConnectorFactory : IConnectorFactory'
     content.vb: >-
       Public Class DummyConnectorFactory
-
           Inherits IConnectorFactory
   inheritance:
   - System.Object

@@ -29,7 +29,6 @@ items:
     content: 'public interface IShadowTimeOfDay : IShadow<TimeSpan>'
     content.vb: >-
       Public Interface IShadowTimeOfDay
-
           Inherits IShadow(Of TimeSpan)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Shadows.IShadow{System.TimeSpan}.Symbol

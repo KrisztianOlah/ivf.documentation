@@ -29,9 +29,7 @@ items:
     content: 'public class InvalidLicenseConnector : DummyConnector, IVortexObject, ITwinObject, IVortexElement, INotifyPropertyChanged'
     content.vb: >-
       Public Class InvalidLicenseConnector
-
           Inherits DummyConnector
-
           Implements IVortexObject, ITwinObject, IVortexElement, INotifyPropertyChanged
   inheritance:
   - System.Object
