@@ -115,7 +115,7 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "inxton.doc.template"
+      "_inxton.doc.template"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
