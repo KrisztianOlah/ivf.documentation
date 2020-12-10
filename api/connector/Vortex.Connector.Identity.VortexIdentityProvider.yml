@@ -32,7 +32,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: VortexIdentityProvider
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -77,7 +77,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _null_vortex
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _connector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _identitiesTags
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -162,7 +162,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _identities
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -189,7 +189,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _sortedIdentities
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -220,7 +220,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -255,7 +255,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetReferencedVortexerByIdentity
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -286,7 +286,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HasMemberByIdentityAttribute
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -317,7 +317,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddIdentity
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -353,7 +353,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetVortexerByIdentity
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -392,7 +392,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetVortexerByIdentity
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -431,7 +431,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetVortexerByIdentity
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -470,7 +470,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadIdentities
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -502,7 +502,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RefreshIdentities
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -534,7 +534,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SortIdentities
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -566,7 +566,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Identities
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
@@ -603,7 +603,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IdentitiesCount
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/VortexIdentityProvider.cs

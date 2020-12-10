@@ -10,8 +10,8 @@ Inxton.Package.Vortex.Core (Core) provides foundational tools and libraries for 
 
 Core package consists of several crucial components, these provide solid foundation for Inxton.Vortex.Framework.
 
-- [Compiler/Builder](/./apis/Inxton.vortex.compiler.console/README.md)
-- [Communication libraries](/./apis/Inxton.Vortex.Connector/README.md)
+- [Compiler/Builder](/./units/Inxton.vortex.compiler.console/README.md)
+- [Communication libraries](/./units/Inxton.Vortex.Connector/README.md)
 
 In few sentences, Compiler parses your TwinCAT 3 project and converts it into Connector project. Connector will provides you access to your PLC project from Inxton application via Communication libraries.
 
@@ -49,7 +49,7 @@ How to get started with new project from the scratch see [here](/apis/Inxton.vor
 
 See also
 
-* [Inxton.Vortex.Connector](/apis/Inxton.Vortex.Connector/README.md)
-* [Inxton.Vortex.Compiler](/apis/Inxton.vortex.compiler.console/README.md)
-* [Inxton.Package.Vortex.Essentials](/Inxton.Package.Vortex.Essentials/README.md)
+* [Inxton.Vortex.Connector](/units/Inxton.Vortex.Connector/README.md)
+* [Inxton.Vortex.Compiler](/units/Inxton.vortex.compiler.console/README.md)
+* [Inxton.Package.Vortex.Essentials](/02essentials/getting_started/getting_started.md)
 

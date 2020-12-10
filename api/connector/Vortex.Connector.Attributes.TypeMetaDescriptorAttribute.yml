@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Attributes/TypeMetaDescriptorAttribute.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TypeMetaDescriptorAttribute
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Attributes/TypeMetaDescriptorAttribute.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Attributes/TypeMetaDescriptorAttribute.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Attributes/TypeMetaDescriptorAttribute.cs
@@ -145,7 +145,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Attributes/TypeMetaDescriptorAttribute.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Data
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Attributes/TypeMetaDescriptorAttribute.cs

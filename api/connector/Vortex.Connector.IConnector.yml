@@ -47,7 +47,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -134,7 +134,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _logger
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -161,7 +161,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Logger
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -198,7 +198,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _commState
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -225,7 +225,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _cyclicRwDuration
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -252,7 +252,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _DataExchangeStatus
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -279,7 +279,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _loadingSymbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -306,7 +306,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _rwCycleCount
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -333,7 +333,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _startUpTime
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -360,7 +360,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: readWriteCycleDealy
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -387,7 +387,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -427,7 +427,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -459,7 +459,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Online
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -496,7 +496,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ErrorCount
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -535,7 +535,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IdentityProvider
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -572,7 +572,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RwCycleCount
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -611,7 +611,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CyclicRwDuration
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -650,7 +650,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: StartUpTime
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -689,7 +689,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MonitorConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -726,7 +726,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CommState
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -763,7 +763,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadingSymbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -800,7 +800,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadWriteCycleDelay
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -837,7 +837,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DataExchangeStatus
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -876,7 +876,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: PropertyChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -911,7 +911,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: BuildAndStart
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -947,7 +947,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadBatch
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -988,7 +988,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteBatch
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -1029,7 +1029,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateSymbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -1073,7 +1073,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NotifyPropertyChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -1102,7 +1102,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReloadConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -1136,7 +1136,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InvokeRpc
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -1186,7 +1186,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlineTags
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
@@ -1225,7 +1225,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SubscribeAllEditValueObserver
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/IConnector.cs

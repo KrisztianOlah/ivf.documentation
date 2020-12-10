@@ -95,7 +95,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlinerBaseType
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -190,7 +190,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EditValueChange
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -234,7 +234,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShadowValueChange
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -278,7 +278,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: validator
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -313,7 +313,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Validator
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -352,7 +352,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UpdateRead
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -390,7 +390,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SetLastValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -443,7 +443,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LastValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -482,7 +482,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CwCycle
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -521,7 +521,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: cyclic
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -552,7 +552,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: cyclicToWrite
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -591,7 +591,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Cyclic
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -632,7 +632,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetLastAvailableValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -671,7 +671,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Edit
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -710,7 +710,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InitializeDefaults
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -749,7 +749,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _shadow
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -778,7 +778,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Shadow
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -817,7 +817,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Synchron
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -858,7 +858,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: raw
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -887,7 +887,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Raw
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -928,7 +928,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetSymbolTail
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -967,7 +967,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolTail
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1006,7 +1006,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InstanceMinValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1049,7 +1049,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InstanceMaxValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1092,7 +1092,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1126,7 +1126,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Parent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1165,7 +1165,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetParent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1204,7 +1204,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1249,7 +1249,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.ValueChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1282,7 +1282,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.ValueChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1314,7 +1314,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _humanReadable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1343,7 +1343,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HumanReadable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1386,7 +1386,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Subscribe
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1426,7 +1426,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UnSubscribe
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1466,7 +1466,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: PropertyChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1503,7 +1503,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ValueChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1538,7 +1538,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShadowValueChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1573,7 +1573,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetValueChangeEventSubscribers
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1610,7 +1610,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _attributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1639,7 +1639,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1680,7 +1680,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeUnits
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1719,7 +1719,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: attributeToolTip
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1748,7 +1748,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeToolTip
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1787,7 +1787,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CyclicReading
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1828,7 +1828,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: VariableInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1869,7 +1869,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1910,7 +1910,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HasBeenWritten
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1949,7 +1949,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsToBeRead
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1988,7 +1988,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsToBeWritten
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2027,7 +2027,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteToPlcIsRequested
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2066,7 +2066,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadFromPlcIsRequested
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2107,7 +2107,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeMaxSet
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2146,7 +2146,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: attributeMax
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2175,7 +2175,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeMaximum
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2214,7 +2214,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeMinSet
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2253,7 +2253,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: attributeMin
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2282,7 +2282,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeMinimum
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2321,7 +2321,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HasWriteAccess
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2358,7 +2358,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NotifyPropertyChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2396,7 +2396,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnValueChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2434,7 +2434,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnShadowValueChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2465,7 +2465,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadFromItem
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2501,7 +2501,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteItem
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2537,7 +2537,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateSymbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2576,7 +2576,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EditValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2609,7 +2609,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ChangeShadowValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2642,7 +2642,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetDeclaringAssembly
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2679,7 +2679,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _translator
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2708,7 +2708,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Translator
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2748,7 +2748,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2787,7 +2787,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2825,7 +2825,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeUnits
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2863,7 +2863,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Cyclic
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2901,7 +2901,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Edit
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2939,7 +2939,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Synchron
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2977,7 +2977,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Value
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -3015,7 +3015,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Value
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -3053,7 +3053,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -3092,7 +3092,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -3130,7 +3130,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeUnits
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -3168,7 +3168,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: feature/separate_parser_from_compiler
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Shadow
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
