@@ -29,6 +29,7 @@ items:
     content: 'public interface IShadowLInt : IShadow<long>'
     content.vb: >-
       Public Interface IShadowLInt
+
           Inherits IShadow(Of Long)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Shadows.IShadow{System.Int64}.Symbol

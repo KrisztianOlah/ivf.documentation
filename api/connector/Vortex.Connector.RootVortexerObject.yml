@@ -49,6 +49,7 @@ items:
       <Obsolete("This class should not be directly instantiated by framework consumers.")>
 
       Public Class RootVortexerObject
+
           Implements IVortexObject, ITwinObject, IVortexElement
   inheritance:
   - System.Object

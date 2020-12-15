@@ -27,6 +27,7 @@ items:
     content: 'class SymbolLoaderSettings : ISymbolLoaderSettings'
     content.vb: >-
       Class SymbolLoaderSettings
+
           Implements ISymbolLoaderSettings
   inheritance:
   - System.Object

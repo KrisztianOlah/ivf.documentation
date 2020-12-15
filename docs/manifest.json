@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/MTS/Develop/azure-vtr/ivf.documentation",
+  "source_base_path": "E:/inxton_docu/mono/ivf.documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsConnector.html",
-          "hash": "Qf4RTEjIawpMQpxjlszIDg=="
+          "hash": "q8vyLqxuufpRQLjoIU5G4Q=="
         }
       },
       "is_incremental": true,
@@ -3741,7 +3741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/presentation_wpf/Vortex.Presentation.Wpf.ContentOpeningMode.html",
-          "hash": "thpD2x61aSWkJvpsY3tlNg=="
+          "hash": "y8S6vaAr90oMNmxqv148Hw=="
         }
       },
       "is_incremental": true,
@@ -4149,7 +4149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/presentation_wpf/Vortex.Presentation.Wpf.ReportingLevel.html",
-          "hash": "W4+RVk/i2WlVFSRPGAK1Cg=="
+          "hash": "basrLyEmCShFLYL2e/xYRg=="
         }
       },
       "is_incremental": true,

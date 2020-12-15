@@ -35,7 +35,9 @@ items:
     content: 'public class OnlinerByte : OnlinerBaseType<byte>, IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries<byte>, IOnlineByte, IOnline<byte>, IShadowByte, IShadow<byte>'
     content.vb: >-
       Public Class OnlinerByte
+
           Inherits OnlinerBaseType(Of Byte)
+
           Implements IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of Byte), IOnlineByte, IOnline(Of Byte), IShadowByte, IShadow(Of Byte)
   inheritance:
   - System.Object

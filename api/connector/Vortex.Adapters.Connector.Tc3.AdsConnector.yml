@@ -74,7 +74,9 @@ items:
     content: 'class AdsConnector : IConnector, IVortexObject, ITwinObject, IVortexElement, IDisposable, INotifyPropertyChanged'
     content.vb: >-
       Class AdsConnector
+
           Inherits IConnector
+
           Implements IVortexObject, ITwinObject, IVortexElement, IDisposable, INotifyPropertyChanged
   inheritance:
   - System.Object
@@ -133,8 +135,8 @@ items:
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
   extensionMethods:
-  - Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
   - Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(System.Exception,System.String)
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
   modifiers.csharp:
   - class
   modifiers.vb:
@@ -2538,48 +2540,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
-  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
-  parent: Vortex.Connector.IValueTagExtensions
-  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
-  name: Cast<AdsConnector>(Object)
-  nameWithType: IValueTagExtensions.Cast<AdsConnector>(Object)
-  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.AdsConnector>(System.Object)
-  nameWithType.vb: IValueTagExtensions.Cast(Of AdsConnector)(Object)
-  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.AdsConnector)(System.Object)
-  name.vb: Cast(Of AdsConnector)(Object)
-  spec.csharp:
-  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
-    name: Cast<AdsConnector>
-    nameWithType: IValueTagExtensions.Cast<AdsConnector>
-    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.AdsConnector>
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
-    name: Cast(Of AdsConnector)
-    nameWithType: IValueTagExtensions.Cast(Of AdsConnector)
-    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.AdsConnector)
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(System.Exception,System.String)
   commentId: M:Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(Vortex.Adapters.Connector.Tc3.AdsConnector,System.Exception,System.String)
   parent: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler
@@ -2635,6 +2595,48 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<AdsConnector>(Object)
+  nameWithType: IValueTagExtensions.Cast<AdsConnector>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.AdsConnector>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of AdsConnector)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.AdsConnector)(System.Object)
+  name.vb: Cast(Of AdsConnector)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<AdsConnector>
+    nameWithType: IValueTagExtensions.Cast<AdsConnector>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.AdsConnector>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of AdsConnector)
+    nameWithType: IValueTagExtensions.Cast(Of AdsConnector)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.AdsConnector)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -2652,65 +2654,6 @@ references:
   name: System.ComponentModel
   nameWithType: System.ComponentModel
   fullName: System.ComponentModel
-- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
-  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
-  isExternal: true
-  name: Cast<T>(T, Object)
-  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
-  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
-  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
-  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
-  name.vb: Cast(Of T)(T, Object)
-  spec.csharp:
-  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
-    name: Cast<T>
-    nameWithType: IValueTagExtensions.Cast<T>
-    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
-    name: Cast(Of T)
-    nameWithType: IValueTagExtensions.Cast(Of T)
-    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Vortex.Connector.IValueTagExtensions
-  commentId: T:Vortex.Connector.IValueTagExtensions
-  parent: Vortex.Connector
-  name: IValueTagExtensions
-  nameWithType: IValueTagExtensions
-  fullName: Vortex.Connector.IValueTagExtensions
 - uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(Vortex.Adapters.Connector.Tc3.AdsConnector,System.Exception,System.String)
   commentId: M:Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(Vortex.Adapters.Connector.Tc3.AdsConnector,System.Exception,System.String)
   isExternal: true
@@ -2785,6 +2728,65 @@ references:
   name: ExceptionHandler
   nameWithType: ExceptionHandler
   fullName: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
 - uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
   commentId: N:Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
   name: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling

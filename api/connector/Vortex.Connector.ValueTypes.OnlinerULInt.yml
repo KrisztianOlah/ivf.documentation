@@ -35,7 +35,9 @@ items:
     content: 'public class OnlinerULInt : OnlinerBaseType<ulong>, IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries<ulong>, IOnlineULInt, IOnline<ulong>, IShadowULInt, IShadow<ulong>'
     content.vb: >-
       Public Class OnlinerULInt
+
           Inherits OnlinerBaseType(Of ULong)
+
           Implements IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of ULong), IOnlineULInt, IOnline(Of ULong), IShadowULInt, IShadow(Of ULong)
   inheritance:
   - System.Object
