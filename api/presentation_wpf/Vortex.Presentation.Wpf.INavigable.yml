@@ -1,0 +1,485 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Wpf.INavigable
+  commentId: T:Vortex.Presentation.Wpf.INavigable
+  id: INavigable
+  parent: Vortex.Presentation.Wpf
+  children:
+  - Vortex.Presentation.Wpf.INavigable.AddCommand(System.Type,System.Object,System.Object)
+  - Vortex.Presentation.Wpf.INavigable.ContentPresentationMode
+  - Vortex.Presentation.Wpf.INavigable.CurrentView
+  - Vortex.Presentation.Wpf.INavigable.MenuVisibility
+  - Vortex.Presentation.Wpf.INavigable.OpenCommand(Vortex.Presentation.Wpf.NavCommand)
+  - Vortex.Presentation.Wpf.INavigable.OpenDefault
+  - Vortex.Presentation.Wpf.INavigable.Title
+  - Vortex.Presentation.Wpf.INavigable.ToggleMenuCommand
+  langs:
+  - csharp
+  - vb
+  name: INavigable
+  nameWithType: INavigable
+  fullName: Vortex.Presentation.Wpf.INavigable
+  type: Interface
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: INavigable
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+    startLine: 9
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public interface INavigable
+    content.vb: Public Interface INavigable
+  extensionMethods:
+  - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Vortex.Presentation.Wpf.INavigable.AddCommand(System.Type,System.Object,System.Object)
+  commentId: M:Vortex.Presentation.Wpf.INavigable.AddCommand(System.Type,System.Object,System.Object)
+  id: AddCommand(System.Type,System.Object,System.Object)
+  parent: Vortex.Presentation.Wpf.INavigable
+  langs:
+  - csharp
+  - vb
+  name: AddCommand(Type, Object, Object)
+  nameWithType: INavigable.AddCommand(Type, Object, Object)
+  fullName: Vortex.Presentation.Wpf.INavigable.AddCommand(System.Type, System.Object, System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddCommand
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+    startLine: 11
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: NavCommand AddCommand(Type type, object content = null, object dataConext = null)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: content
+      type: System.Object
+    - id: dataConext
+      type: System.Object
+    return:
+      type: Vortex.Presentation.Wpf.NavCommand
+    content.vb: Function AddCommand(type As Type, content As Object = Nothing, dataConext As Object = Nothing) As NavCommand
+  overload: Vortex.Presentation.Wpf.INavigable.AddCommand*
+- uid: Vortex.Presentation.Wpf.INavigable.CurrentView
+  commentId: P:Vortex.Presentation.Wpf.INavigable.CurrentView
+  id: CurrentView
+  parent: Vortex.Presentation.Wpf.INavigable
+  langs:
+  - csharp
+  - vb
+  name: CurrentView
+  nameWithType: INavigable.CurrentView
+  fullName: Vortex.Presentation.Wpf.INavigable.CurrentView
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CurrentView
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+    startLine: 12
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: FrameworkElement CurrentView { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Property CurrentView As FrameworkElement
+  overload: Vortex.Presentation.Wpf.INavigable.CurrentView*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vortex.Presentation.Wpf.INavigable.MenuVisibility
+  commentId: P:Vortex.Presentation.Wpf.INavigable.MenuVisibility
+  id: MenuVisibility
+  parent: Vortex.Presentation.Wpf.INavigable
+  langs:
+  - csharp
+  - vb
+  name: MenuVisibility
+  nameWithType: INavigable.MenuVisibility
+  fullName: Vortex.Presentation.Wpf.INavigable.MenuVisibility
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: MenuVisibility
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+    startLine: 13
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Visibility MenuVisibility { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Visibility
+    content.vb: Property MenuVisibility As Visibility
+  overload: Vortex.Presentation.Wpf.INavigable.MenuVisibility*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vortex.Presentation.Wpf.INavigable.Title
+  commentId: P:Vortex.Presentation.Wpf.INavigable.Title
+  id: Title
+  parent: Vortex.Presentation.Wpf.INavigable
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: INavigable.Title
+  fullName: Vortex.Presentation.Wpf.INavigable.Title
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Title
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+    startLine: 14
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Title As String
+  overload: Vortex.Presentation.Wpf.INavigable.Title*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vortex.Presentation.Wpf.INavigable.ToggleMenuCommand
+  commentId: P:Vortex.Presentation.Wpf.INavigable.ToggleMenuCommand
+  id: ToggleMenuCommand
+  parent: Vortex.Presentation.Wpf.INavigable
+  langs:
+  - csharp
+  - vb
+  name: ToggleMenuCommand
+  nameWithType: INavigable.ToggleMenuCommand
+  fullName: Vortex.Presentation.Wpf.INavigable.ToggleMenuCommand
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ToggleMenuCommand
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+    startLine: 15
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: RelayCommand ToggleMenuCommand { get; }
+    parameters: []
+    return:
+      type: Vortex.Presentation.Wpf.RelayCommand
+    content.vb: ReadOnly Property ToggleMenuCommand As RelayCommand
+  overload: Vortex.Presentation.Wpf.INavigable.ToggleMenuCommand*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.INavigable.ContentPresentationMode
+  commentId: P:Vortex.Presentation.Wpf.INavigable.ContentPresentationMode
+  id: ContentPresentationMode
+  parent: Vortex.Presentation.Wpf.INavigable
+  langs:
+  - csharp
+  - vb
+  name: ContentPresentationMode
+  nameWithType: INavigable.ContentPresentationMode
+  fullName: Vortex.Presentation.Wpf.INavigable.ContentPresentationMode
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ContentPresentationMode
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+    startLine: 16
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: ContentOpeningMode ContentPresentationMode { get; }
+    parameters: []
+    return:
+      type: Vortex.Presentation.Wpf.ContentOpeningMode
+    content.vb: ReadOnly Property ContentPresentationMode As ContentOpeningMode
+  overload: Vortex.Presentation.Wpf.INavigable.ContentPresentationMode*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.INavigable.OpenDefault
+  commentId: M:Vortex.Presentation.Wpf.INavigable.OpenDefault
+  id: OpenDefault
+  parent: Vortex.Presentation.Wpf.INavigable
+  langs:
+  - csharp
+  - vb
+  name: OpenDefault()
+  nameWithType: INavigable.OpenDefault()
+  fullName: Vortex.Presentation.Wpf.INavigable.OpenDefault()
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: OpenDefault
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+    startLine: 17
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: void OpenDefault()
+    content.vb: Sub OpenDefault
+  overload: Vortex.Presentation.Wpf.INavigable.OpenDefault*
+- uid: Vortex.Presentation.Wpf.INavigable.OpenCommand(Vortex.Presentation.Wpf.NavCommand)
+  commentId: M:Vortex.Presentation.Wpf.INavigable.OpenCommand(Vortex.Presentation.Wpf.NavCommand)
+  id: OpenCommand(Vortex.Presentation.Wpf.NavCommand)
+  parent: Vortex.Presentation.Wpf.INavigable
+  langs:
+  - csharp
+  - vb
+  name: OpenCommand(NavCommand)
+  nameWithType: INavigable.OpenCommand(NavCommand)
+  fullName: Vortex.Presentation.Wpf.INavigable.OpenCommand(Vortex.Presentation.Wpf.NavCommand)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: OpenCommand
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
+    startLine: 18
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: void OpenCommand(NavCommand navCommand)
+    parameters:
+    - id: navCommand
+      type: Vortex.Presentation.Wpf.NavCommand
+    content.vb: Sub OpenCommand(navCommand As NavCommand)
+  overload: Vortex.Presentation.Wpf.INavigable.OpenCommand*
+references:
+- uid: Vortex.Presentation.Wpf
+  commentId: N:Vortex.Presentation.Wpf
+  name: Vortex.Presentation.Wpf
+  nameWithType: Vortex.Presentation.Wpf
+  fullName: Vortex.Presentation.Wpf
+- uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  definition: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  name: AttributeFormatOrNull()
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull()
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull()
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  isExternal: true
+  name: AttributeFormatOrNull(Object)
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull(Object)
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  parent: Vortex.Presentation.Controls.Wpf.Extension
+  name: AttributeStringFormatExtensions
+  nameWithType: AttributeStringFormatExtensions
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+- uid: Vortex.Presentation.Controls.Wpf.Extension
+  commentId: N:Vortex.Presentation.Controls.Wpf.Extension
+  name: Vortex.Presentation.Controls.Wpf.Extension
+  nameWithType: Vortex.Presentation.Controls.Wpf.Extension
+  fullName: Vortex.Presentation.Controls.Wpf.Extension
+- uid: Vortex.Presentation.Wpf.INavigable.AddCommand*
+  commentId: Overload:Vortex.Presentation.Wpf.INavigable.AddCommand
+  name: AddCommand
+  nameWithType: INavigable.AddCommand
+  fullName: Vortex.Presentation.Wpf.INavigable.AddCommand
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vortex.Presentation.Wpf.NavCommand
+  commentId: T:Vortex.Presentation.Wpf.NavCommand
+  parent: Vortex.Presentation.Wpf
+  name: NavCommand
+  nameWithType: NavCommand
+  fullName: Vortex.Presentation.Wpf.NavCommand
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Presentation.Wpf.INavigable.CurrentView*
+  commentId: Overload:Vortex.Presentation.Wpf.INavigable.CurrentView
+  name: CurrentView
+  nameWithType: INavigable.CurrentView
+  fullName: Vortex.Presentation.Wpf.INavigable.CurrentView
+- uid: System.Windows.FrameworkElement
+  commentId: T:System.Windows.FrameworkElement
+  parent: System.Windows
+  isExternal: true
+  name: FrameworkElement
+  nameWithType: FrameworkElement
+  fullName: System.Windows.FrameworkElement
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+- uid: Vortex.Presentation.Wpf.INavigable.MenuVisibility*
+  commentId: Overload:Vortex.Presentation.Wpf.INavigable.MenuVisibility
+  name: MenuVisibility
+  nameWithType: INavigable.MenuVisibility
+  fullName: Vortex.Presentation.Wpf.INavigable.MenuVisibility
+- uid: System.Windows.Visibility
+  commentId: T:System.Windows.Visibility
+  parent: System.Windows
+  isExternal: true
+  name: Visibility
+  nameWithType: Visibility
+  fullName: System.Windows.Visibility
+- uid: Vortex.Presentation.Wpf.INavigable.Title*
+  commentId: Overload:Vortex.Presentation.Wpf.INavigable.Title
+  name: Title
+  nameWithType: INavigable.Title
+  fullName: Vortex.Presentation.Wpf.INavigable.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vortex.Presentation.Wpf.INavigable.ToggleMenuCommand*
+  commentId: Overload:Vortex.Presentation.Wpf.INavigable.ToggleMenuCommand
+  name: ToggleMenuCommand
+  nameWithType: INavigable.ToggleMenuCommand
+  fullName: Vortex.Presentation.Wpf.INavigable.ToggleMenuCommand
+- uid: Vortex.Presentation.Wpf.RelayCommand
+  commentId: T:Vortex.Presentation.Wpf.RelayCommand
+  parent: Vortex.Presentation.Wpf
+  name: RelayCommand
+  nameWithType: RelayCommand
+  fullName: Vortex.Presentation.Wpf.RelayCommand
+- uid: Vortex.Presentation.Wpf.INavigable.ContentPresentationMode*
+  commentId: Overload:Vortex.Presentation.Wpf.INavigable.ContentPresentationMode
+  name: ContentPresentationMode
+  nameWithType: INavigable.ContentPresentationMode
+  fullName: Vortex.Presentation.Wpf.INavigable.ContentPresentationMode
+- uid: Vortex.Presentation.Wpf.ContentOpeningMode
+  commentId: T:Vortex.Presentation.Wpf.ContentOpeningMode
+  parent: Vortex.Presentation.Wpf
+  name: ContentOpeningMode
+  nameWithType: ContentOpeningMode
+  fullName: Vortex.Presentation.Wpf.ContentOpeningMode
+- uid: Vortex.Presentation.Wpf.INavigable.OpenDefault*
+  commentId: Overload:Vortex.Presentation.Wpf.INavigable.OpenDefault
+  name: OpenDefault
+  nameWithType: INavigable.OpenDefault
+  fullName: Vortex.Presentation.Wpf.INavigable.OpenDefault
+- uid: Vortex.Presentation.Wpf.INavigable.OpenCommand*
+  commentId: Overload:Vortex.Presentation.Wpf.INavigable.OpenCommand
+  name: OpenCommand
+  nameWithType: INavigable.OpenCommand
+  fullName: Vortex.Presentation.Wpf.INavigable.OpenCommand

@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Controls.Wpf.OnlineControls
+  commentId: N:Vortex.Presentation.Controls.Wpf.OnlineControls
+  id: Vortex.Presentation.Controls.Wpf.OnlineControls
+  children:
+  - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBox
+  - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBoxValue
+  - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDate
+  - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDateTime
+  - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimLTime
+  - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTextBox
+  - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTextBoxValue
+  - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTime
+  - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTimeOfDay
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Presentation.Controls.Wpf.OnlineControls
+  nameWithType: Vortex.Presentation.Controls.Wpf.OnlineControls
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineControls
+  type: Namespace
+  assemblies:
+  - Vortex.Presentation.Controls.Wpf
+references:
+- uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBox
+  commentId: T:Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBox
+  name: OnlineControlSlimCheckBox
+  nameWithType: OnlineControlSlimCheckBox
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBox
+- uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBoxValue
+  commentId: T:Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBoxValue
+  name: OnlineControlSlimCheckBoxValue
+  nameWithType: OnlineControlSlimCheckBoxValue
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBoxValue
+- uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDate
+  commentId: T:Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDate
+  parent: Vortex.Presentation.Controls.Wpf.OnlineControls
+  name: OnlineControlSlimDate
+  nameWithType: OnlineControlSlimDate
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDate
+- uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDateTime
+  commentId: T:Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDateTime
+  name: OnlineControlSlimDateTime
+  nameWithType: OnlineControlSlimDateTime
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDateTime
+- uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimLTime
+  commentId: T:Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimLTime
+  name: OnlineControlSlimLTime
+  nameWithType: OnlineControlSlimLTime
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimLTime
+- uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTextBox
+  commentId: T:Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTextBox
+  name: OnlineControlSlimTextBox
+  nameWithType: OnlineControlSlimTextBox
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTextBox
+- uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTextBoxValue
+  commentId: T:Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTextBoxValue
+  name: OnlineControlSlimTextBoxValue
+  nameWithType: OnlineControlSlimTextBoxValue
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTextBoxValue
+- uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTime
+  commentId: T:Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTime
+  name: OnlineControlSlimTime
+  nameWithType: OnlineControlSlimTime
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTime
+- uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTimeOfDay
+  commentId: T:Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTimeOfDay
+  name: OnlineControlSlimTimeOfDay
+  nameWithType: OnlineControlSlimTimeOfDay
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTimeOfDay
+- uid: Vortex.Presentation.Controls.Wpf.OnlineControls
+  commentId: N:Vortex.Presentation.Controls.Wpf.OnlineControls
+  name: Vortex.Presentation.Controls.Wpf.OnlineControls
+  nameWithType: Vortex.Presentation.Controls.Wpf.OnlineControls
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineControls

@@ -1,0 +1,611 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Wpf.BindableBase
+  commentId: T:Vortex.Presentation.Wpf.BindableBase
+  id: BindableBase
+  parent: Vortex.Presentation.Wpf
+  children:
+  - Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+  - Vortex.Presentation.Wpf.BindableBase.PropertyChanged
+  - Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+  langs:
+  - csharp
+  - vb
+  name: BindableBase
+  nameWithType: BindableBase
+  fullName: Vortex.Presentation.Wpf.BindableBase
+  type: Class
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Base/BindableBase.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: BindableBase
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Base/BindableBase.cs
+    startLine: 10
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nRepresents base class for bindable objects.\n"
+  example: []
+  syntax:
+    content: 'public class BindableBase : INotifyPropertyChanged'
+    content.vb: >-
+      Public Class BindableBase
+          Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Vortex.Presentation.Wpf.NavigableViewModelBase
+  - Vortex.Presentation.Wpf.RenderableViewModel
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+  commentId: M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+  id: SetProperty``1(``0@,``0,System.String)
+  parent: Vortex.Presentation.Wpf.BindableBase
+  langs:
+  - csharp
+  - vb
+  name: SetProperty<T>(ref T, T, String)
+  nameWithType: BindableBase.SetProperty<T>(ref T, T, String)
+  fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty<T>(ref T, T, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Base/BindableBase.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SetProperty
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Base/BindableBase.cs
+    startLine: 19
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nSets the property and raises <xref href=\"System.ComponentModel.INotifyPropertyChanged.PropertyChanged\" data-throw-if-not-resolved=\"false\"></xref> event.\n"
+  example: []
+  syntax:
+    content: protected virtual void SetProperty<T>(ref T member, T val, string propertyName = null)
+    parameters:
+    - id: member
+      type: '{T}'
+      description: Member
+    - id: val
+      type: '{T}'
+      description: New value
+    - id: propertyName
+      type: System.String
+      description: Property name
+    typeParameters:
+    - id: T
+      description: Property type.
+    content.vb: Protected Overridable Sub SetProperty(Of T)(ByRef member As T, val As T, propertyName As String = Nothing)
+  overload: Vortex.Presentation.Wpf.BindableBase.SetProperty*
+  nameWithType.vb: BindableBase.SetProperty(Of T)(ByRef T, T, String)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: Vortex.Presentation.Wpf.BindableBase.SetProperty(Of T)(ByRef T, T, System.String)
+  name.vb: SetProperty(Of T)(ByRef T, T, String)
+- uid: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+  commentId: M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+  id: OnPropertyChanged(System.String)
+  parent: Vortex.Presentation.Wpf.BindableBase
+  langs:
+  - csharp
+  - vb
+  name: OnPropertyChanged(String)
+  nameWithType: BindableBase.OnPropertyChanged(String)
+  fullName: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Base/BindableBase.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: OnPropertyChanged
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Base/BindableBase.cs
+    startLine: 32
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nRaises <xref href=\"System.ComponentModel.INotifyPropertyChanged.PropertyChanged\" data-throw-if-not-resolved=\"false\"></xref> event.\n"
+  example: []
+  syntax:
+    content: protected virtual void OnPropertyChanged(string propertyName)
+    parameters:
+    - id: propertyName
+      type: System.String
+      description: ''
+    content.vb: Protected Overridable Sub OnPropertyChanged(propertyName As String)
+  overload: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Vortex.Presentation.Wpf.BindableBase.PropertyChanged
+  commentId: E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged
+  id: PropertyChanged
+  parent: Vortex.Presentation.Wpf.BindableBase
+  langs:
+  - csharp
+  - vb
+  name: PropertyChanged
+  nameWithType: BindableBase.PropertyChanged
+  fullName: Vortex.Presentation.Wpf.BindableBase.PropertyChanged
+  type: Event
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Base/BindableBase.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: PropertyChanged
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Base/BindableBase.cs
+    startLine: 40
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nImplementation of <xref href=\"System.ComponentModel.INotifyPropertyChanged.PropertyChanged\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public event PropertyChangedEventHandler PropertyChanged
+    return:
+      type: System.ComponentModel.PropertyChangedEventHandler
+    content.vb: Public Event PropertyChanged As PropertyChangedEventHandler
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Vortex.Presentation.Wpf
+  commentId: N:Vortex.Presentation.Wpf
+  name: Vortex.Presentation.Wpf
+  nameWithType: Vortex.Presentation.Wpf
+  fullName: Vortex.Presentation.Wpf
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  definition: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  name: AttributeFormatOrNull()
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull()
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull()
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  isExternal: true
+  name: AttributeFormatOrNull(Object)
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull(Object)
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  parent: Vortex.Presentation.Controls.Wpf.Extension
+  name: AttributeStringFormatExtensions
+  nameWithType: AttributeStringFormatExtensions
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+- uid: Vortex.Presentation.Controls.Wpf.Extension
+  commentId: N:Vortex.Presentation.Controls.Wpf.Extension
+  name: Vortex.Presentation.Controls.Wpf.Extension
+  nameWithType: Vortex.Presentation.Controls.Wpf.Extension
+  fullName: Vortex.Presentation.Controls.Wpf.Extension
+- uid: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  commentId: E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  parent: System.ComponentModel.INotifyPropertyChanged
+  isExternal: true
+  name: PropertyChanged
+  nameWithType: INotifyPropertyChanged.PropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+- uid: Vortex.Presentation.Wpf.BindableBase.SetProperty*
+  commentId: Overload:Vortex.Presentation.Wpf.BindableBase.SetProperty
+  name: SetProperty
+  nameWithType: BindableBase.SetProperty
+  fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged*
+  commentId: Overload:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged
+  name: OnPropertyChanged
+  nameWithType: BindableBase.OnPropertyChanged
+  fullName: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged
+- uid: System.ComponentModel.PropertyChangedEventHandler
+  commentId: T:System.ComponentModel.PropertyChangedEventHandler
+  parent: System.ComponentModel
+  isExternal: true
+  name: PropertyChangedEventHandler
+  nameWithType: PropertyChangedEventHandler
+  fullName: System.ComponentModel.PropertyChangedEventHandler

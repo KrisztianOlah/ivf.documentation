@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim
+  commentId: N:Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim
+  id: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim
+  children:
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimCheckBox
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTextBox
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTextBoxValue
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTimeTextBox
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim
+  nameWithType: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim
+  type: Namespace
+  assemblies:
+  - Vortex.Presentation.Controls.Wpf
+references:
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimCheckBox
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimCheckBox
+  name: ShadowDisplaySlimCheckBox
+  nameWithType: ShadowDisplaySlimCheckBox
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimCheckBox
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTextBox
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTextBox
+  name: ShadowDisplaySlimTextBox
+  nameWithType: ShadowDisplaySlimTextBox
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTextBox
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTextBoxValue
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTextBoxValue
+  name: ShadowDisplaySlimTextBoxValue
+  nameWithType: ShadowDisplaySlimTextBoxValue
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTextBoxValue
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTimeTextBox
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTimeTextBox
+  name: ShadowDisplaySlimTimeTextBox
+  nameWithType: ShadowDisplaySlimTimeTextBox
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTimeTextBox

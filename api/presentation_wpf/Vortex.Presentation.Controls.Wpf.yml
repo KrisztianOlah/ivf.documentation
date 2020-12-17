@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Controls.Wpf
+  commentId: N:Vortex.Presentation.Controls.Wpf
+  id: Vortex.Presentation.Controls.Wpf
+  children:
+  - Vortex.Presentation.Controls.Wpf.DateTimePickerBox
+  - Vortex.Presentation.Controls.Wpf.MaterialPickerUtils
+  - Vortex.Presentation.Controls.Wpf.MultiConverter
+  - Vortex.Presentation.Controls.Wpf.TimePickerBaseBox
+  - Vortex.Presentation.Controls.Wpf.TimeTextBoxBaseBox
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Presentation.Controls.Wpf
+  nameWithType: Vortex.Presentation.Controls.Wpf
+  fullName: Vortex.Presentation.Controls.Wpf
+  type: Namespace
+  assemblies:
+  - Vortex.Presentation.Controls.Wpf
+references:
+- uid: Vortex.Presentation.Controls.Wpf.DateTimePickerBox
+  commentId: T:Vortex.Presentation.Controls.Wpf.DateTimePickerBox
+  parent: Vortex.Presentation.Controls.Wpf
+  name: DateTimePickerBox
+  nameWithType: DateTimePickerBox
+  fullName: Vortex.Presentation.Controls.Wpf.DateTimePickerBox
+- uid: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils
+  commentId: T:Vortex.Presentation.Controls.Wpf.MaterialPickerUtils
+  name: MaterialPickerUtils
+  nameWithType: MaterialPickerUtils
+  fullName: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils
+- uid: Vortex.Presentation.Controls.Wpf.MultiConverter
+  commentId: T:Vortex.Presentation.Controls.Wpf.MultiConverter
+  name: MultiConverter
+  nameWithType: MultiConverter
+  fullName: Vortex.Presentation.Controls.Wpf.MultiConverter
+- uid: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox
+  commentId: T:Vortex.Presentation.Controls.Wpf.TimePickerBaseBox
+  parent: Vortex.Presentation.Controls.Wpf
+  name: TimePickerBaseBox
+  nameWithType: TimePickerBaseBox
+  fullName: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox
+- uid: Vortex.Presentation.Controls.Wpf.TimeTextBoxBaseBox
+  commentId: T:Vortex.Presentation.Controls.Wpf.TimeTextBoxBaseBox
+  parent: Vortex.Presentation.Controls.Wpf
+  name: TimeTextBoxBaseBox
+  nameWithType: TimeTextBoxBaseBox
+  fullName: Vortex.Presentation.Controls.Wpf.TimeTextBoxBaseBox
+- uid: Vortex.Presentation.Controls.Wpf
+  commentId: N:Vortex.Presentation.Controls.Wpf
+  name: Vortex.Presentation.Controls.Wpf
+  nameWithType: Vortex.Presentation.Controls.Wpf
+  fullName: Vortex.Presentation.Controls.Wpf

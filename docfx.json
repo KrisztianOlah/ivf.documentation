@@ -40,6 +40,29 @@
       "filter": "filters/filterConfig.yml",
       "disableGitFeatures": false,
       "disableDefaultFilter": true
+    },
+
+    {
+      "src": [
+        {
+          "files": [
+            "vortex.framework.presentation//src//wpf//Vortex.Presentation.Wpf//Vortex.Presentation.Wpf.csproj",
+            "vortex.framework.presentation//src//wpf//Vortex.Presentation.Styling.Wpf//Vortex.Presentation.Styling.Wpf.csproj",
+            "vortex.framework.presentation//src//wpf//Vortex.Presentation.Controls.Wpf//Vortex.Presentation.Controls.Wpf.csproj"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "*.Properties",
+            "*.Resx"
+          ],
+          "src": "..//ivf//"
+        }
+      ],
+      "dest": "api/presentation_wpf",
+      "filter": "filters/presentation_filter.yml",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": true
     }
   ],
   "build": {

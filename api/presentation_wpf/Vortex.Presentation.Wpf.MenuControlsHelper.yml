@@ -1,0 +1,433 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Wpf.MenuControlsHelper
+  commentId: T:Vortex.Presentation.Wpf.MenuControlsHelper
+  id: MenuControlsHelper
+  parent: Vortex.Presentation.Wpf
+  children:
+  - Vortex.Presentation.Wpf.MenuControlsHelper.MenuRoot
+  - Vortex.Presentation.Wpf.MenuControlsHelper.SetRoot(Vortex.Presentation.Wpf.INavigable)
+  langs:
+  - csharp
+  - vb
+  name: MenuControlsHelper
+  nameWithType: MenuControlsHelper
+  fullName: Vortex.Presentation.Wpf.MenuControlsHelper
+  type: Class
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: MenuControlsHelper
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
+    startLine: 3
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public static class MenuControlsHelper
+    content.vb: Public Module MenuControlsHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Vortex.Presentation.Wpf.MenuControlsHelper.MenuRoot
+  commentId: P:Vortex.Presentation.Wpf.MenuControlsHelper.MenuRoot
+  id: MenuRoot
+  parent: Vortex.Presentation.Wpf.MenuControlsHelper
+  langs:
+  - csharp
+  - vb
+  name: MenuRoot
+  nameWithType: MenuControlsHelper.MenuRoot
+  fullName: Vortex.Presentation.Wpf.MenuControlsHelper.MenuRoot
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: MenuRoot
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
+    startLine: 5
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public static INavigable MenuRoot { get; }
+    parameters: []
+    return:
+      type: Vortex.Presentation.Wpf.INavigable
+    content.vb: Public Shared ReadOnly Property MenuRoot As INavigable
+  overload: Vortex.Presentation.Wpf.MenuControlsHelper.MenuRoot*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.MenuControlsHelper.SetRoot(Vortex.Presentation.Wpf.INavigable)
+  commentId: M:Vortex.Presentation.Wpf.MenuControlsHelper.SetRoot(Vortex.Presentation.Wpf.INavigable)
+  id: SetRoot(Vortex.Presentation.Wpf.INavigable)
+  parent: Vortex.Presentation.Wpf.MenuControlsHelper
+  langs:
+  - csharp
+  - vb
+  name: SetRoot(INavigable)
+  nameWithType: MenuControlsHelper.SetRoot(INavigable)
+  fullName: Vortex.Presentation.Wpf.MenuControlsHelper.SetRoot(Vortex.Presentation.Wpf.INavigable)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SetRoot
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
+    startLine: 7
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public static void SetRoot(INavigable navigable)
+    parameters:
+    - id: navigable
+      type: Vortex.Presentation.Wpf.INavigable
+    content.vb: Public Shared Sub SetRoot(navigable As INavigable)
+  overload: Vortex.Presentation.Wpf.MenuControlsHelper.SetRoot*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Vortex.Presentation.Wpf
+  commentId: N:Vortex.Presentation.Wpf
+  name: Vortex.Presentation.Wpf
+  nameWithType: Vortex.Presentation.Wpf
+  fullName: Vortex.Presentation.Wpf
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Presentation.Wpf.MenuControlsHelper.MenuRoot*
+  commentId: Overload:Vortex.Presentation.Wpf.MenuControlsHelper.MenuRoot
+  name: MenuRoot
+  nameWithType: MenuControlsHelper.MenuRoot
+  fullName: Vortex.Presentation.Wpf.MenuControlsHelper.MenuRoot
+- uid: Vortex.Presentation.Wpf.INavigable
+  commentId: T:Vortex.Presentation.Wpf.INavigable
+  parent: Vortex.Presentation.Wpf
+  name: INavigable
+  nameWithType: INavigable
+  fullName: Vortex.Presentation.Wpf.INavigable
+- uid: Vortex.Presentation.Wpf.MenuControlsHelper.SetRoot*
+  commentId: Overload:Vortex.Presentation.Wpf.MenuControlsHelper.SetRoot
+  name: SetRoot
+  nameWithType: MenuControlsHelper.SetRoot
+  fullName: Vortex.Presentation.Wpf.MenuControlsHelper.SetRoot

@@ -1,0 +1,888 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Wpf.DateTimeFormatConverter
+  commentId: T:Vortex.Presentation.Wpf.DateTimeFormatConverter
+  id: DateTimeFormatConverter
+  parent: Vortex.Presentation.Wpf
+  children:
+  - Vortex.Presentation.Wpf.DateTimeFormatConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  - Vortex.Presentation.Wpf.DateTimeFormatConverter.ToConvert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  langs:
+  - csharp
+  - vb
+  name: DateTimeFormatConverter
+  nameWithType: DateTimeFormatConverter
+  fullName: Vortex.Presentation.Wpf.DateTimeFormatConverter
+  type: Class
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Converters/DateTimeFormatConverter.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: DateTimeFormatConverter
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Converters/DateTimeFormatConverter.cs
+    startLine: 7
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: 'public class DateTimeFormatConverter : BaseConverter, IValueConverter'
+    content.vb: >-
+      Public Class DateTimeFormatConverter
+          Inherits BaseConverter
+          Implements IValueConverter
+  inheritance:
+  - System.Object
+  - System.Windows.Markup.MarkupExtension
+  - Vortex.Presentation.Wpf.Converters.BaseConverter
+  implements:
+  - System.Windows.Data.IValueConverter
+  inheritedMembers:
+  - Vortex.Presentation.Wpf.Converters.BaseConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  - Vortex.Presentation.Wpf.Converters.BaseConverter.ProvideValue(System.IServiceProvider)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vortex.Presentation.Wpf.DateTimeFormatConverter.ToConvert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:Vortex.Presentation.Wpf.DateTimeFormatConverter.ToConvert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  id: ToConvert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: Vortex.Presentation.Wpf.DateTimeFormatConverter
+  langs:
+  - csharp
+  - vb
+  name: ToConvert(Object, Type, Object, CultureInfo)
+  nameWithType: DateTimeFormatConverter.ToConvert(Object, Type, Object, CultureInfo)
+  fullName: Vortex.Presentation.Wpf.DateTimeFormatConverter.ToConvert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Converters/DateTimeFormatConverter.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ToConvert
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Converters/DateTimeFormatConverter.cs
+    startLine: 9
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public override object ToConvert(object value, Type targetType, object parameter, CultureInfo culture)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: targetType
+      type: System.Type
+    - id: parameter
+      type: System.Object
+    - id: culture
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function ToConvert(value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object
+  overridden: Vortex.Presentation.Wpf.Converters.BaseConverter.ToConvert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  overload: Vortex.Presentation.Wpf.DateTimeFormatConverter.ToConvert*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Presentation.Wpf.DateTimeFormatConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:Vortex.Presentation.Wpf.DateTimeFormatConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  id: ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: Vortex.Presentation.Wpf.DateTimeFormatConverter
+  langs:
+  - csharp
+  - vb
+  name: ConvertBack(Object, Type, Object, CultureInfo)
+  nameWithType: DateTimeFormatConverter.ConvertBack(Object, Type, Object, CultureInfo)
+  fullName: Vortex.Presentation.Wpf.DateTimeFormatConverter.ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Converters/DateTimeFormatConverter.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ConvertBack
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Converters/DateTimeFormatConverter.cs
+    startLine: 13
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public override object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: targetType
+      type: System.Type
+    - id: parameter
+      type: System.Object
+    - id: culture
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function ConvertBack(value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object
+  overridden: Vortex.Presentation.Wpf.Converters.BaseConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  overload: Vortex.Presentation.Wpf.DateTimeFormatConverter.ConvertBack*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Vortex.Presentation.Wpf
+  commentId: N:Vortex.Presentation.Wpf
+  name: Vortex.Presentation.Wpf
+  nameWithType: Vortex.Presentation.Wpf
+  fullName: Vortex.Presentation.Wpf
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Windows.Markup.MarkupExtension
+  commentId: T:System.Windows.Markup.MarkupExtension
+  parent: System.Windows.Markup
+  isExternal: true
+  name: MarkupExtension
+  nameWithType: MarkupExtension
+  fullName: System.Windows.Markup.MarkupExtension
+- uid: Vortex.Presentation.Wpf.Converters.BaseConverter
+  commentId: T:Vortex.Presentation.Wpf.Converters.BaseConverter
+  parent: Vortex.Presentation.Wpf.Converters
+  name: BaseConverter
+  nameWithType: BaseConverter
+  fullName: Vortex.Presentation.Wpf.Converters.BaseConverter
+- uid: System.Windows.Data.IValueConverter
+  commentId: T:System.Windows.Data.IValueConverter
+  parent: System.Windows.Data
+  isExternal: true
+  name: IValueConverter
+  nameWithType: IValueConverter
+  fullName: System.Windows.Data.IValueConverter
+- uid: Vortex.Presentation.Wpf.Converters.BaseConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:Vortex.Presentation.Wpf.Converters.BaseConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: Vortex.Presentation.Wpf.Converters.BaseConverter
+  isExternal: true
+  name: Convert(Object, Type, Object, CultureInfo)
+  nameWithType: BaseConverter.Convert(Object, Type, Object, CultureInfo)
+  fullName: Vortex.Presentation.Wpf.Converters.BaseConverter.Convert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.Converters.BaseConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: Convert
+    nameWithType: BaseConverter.Convert
+    fullName: Vortex.Presentation.Wpf.Converters.BaseConverter.Convert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.Converters.BaseConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: Convert
+    nameWithType: BaseConverter.Convert
+    fullName: Vortex.Presentation.Wpf.Converters.BaseConverter.Convert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.Converters.BaseConverter.ProvideValue(System.IServiceProvider)
+  commentId: M:Vortex.Presentation.Wpf.Converters.BaseConverter.ProvideValue(System.IServiceProvider)
+  parent: Vortex.Presentation.Wpf.Converters.BaseConverter
+  isExternal: true
+  name: ProvideValue(IServiceProvider)
+  nameWithType: BaseConverter.ProvideValue(IServiceProvider)
+  fullName: Vortex.Presentation.Wpf.Converters.BaseConverter.ProvideValue(System.IServiceProvider)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.Converters.BaseConverter.ProvideValue(System.IServiceProvider)
+    name: ProvideValue
+    nameWithType: BaseConverter.ProvideValue
+    fullName: Vortex.Presentation.Wpf.Converters.BaseConverter.ProvideValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.Converters.BaseConverter.ProvideValue(System.IServiceProvider)
+    name: ProvideValue
+    nameWithType: BaseConverter.ProvideValue
+    fullName: Vortex.Presentation.Wpf.Converters.BaseConverter.ProvideValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  definition: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  name: AttributeFormatOrNull()
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull()
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull()
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Markup
+  commentId: N:System.Windows.Markup
+  isExternal: true
+  name: System.Windows.Markup
+  nameWithType: System.Windows.Markup
+  fullName: System.Windows.Markup
+- uid: Vortex.Presentation.Wpf.Converters
+  commentId: N:Vortex.Presentation.Wpf.Converters
+  name: Vortex.Presentation.Wpf.Converters
+  nameWithType: Vortex.Presentation.Wpf.Converters
+  fullName: Vortex.Presentation.Wpf.Converters
+- uid: System.Windows.Data
+  commentId: N:System.Windows.Data
+  isExternal: true
+  name: System.Windows.Data
+  nameWithType: System.Windows.Data
+  fullName: System.Windows.Data
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  isExternal: true
+  name: AttributeFormatOrNull(Object)
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull(Object)
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  parent: Vortex.Presentation.Controls.Wpf.Extension
+  name: AttributeStringFormatExtensions
+  nameWithType: AttributeStringFormatExtensions
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+- uid: Vortex.Presentation.Controls.Wpf.Extension
+  commentId: N:Vortex.Presentation.Controls.Wpf.Extension
+  name: Vortex.Presentation.Controls.Wpf.Extension
+  nameWithType: Vortex.Presentation.Controls.Wpf.Extension
+  fullName: Vortex.Presentation.Controls.Wpf.Extension
+- uid: Vortex.Presentation.Wpf.Converters.BaseConverter.ToConvert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:Vortex.Presentation.Wpf.Converters.BaseConverter.ToConvert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: Vortex.Presentation.Wpf.Converters.BaseConverter
+  isExternal: true
+  name: ToConvert(Object, Type, Object, CultureInfo)
+  nameWithType: BaseConverter.ToConvert(Object, Type, Object, CultureInfo)
+  fullName: Vortex.Presentation.Wpf.Converters.BaseConverter.ToConvert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.Converters.BaseConverter.ToConvert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: ToConvert
+    nameWithType: BaseConverter.ToConvert
+    fullName: Vortex.Presentation.Wpf.Converters.BaseConverter.ToConvert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.Converters.BaseConverter.ToConvert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: ToConvert
+    nameWithType: BaseConverter.ToConvert
+    fullName: Vortex.Presentation.Wpf.Converters.BaseConverter.ToConvert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.DateTimeFormatConverter.ToConvert*
+  commentId: Overload:Vortex.Presentation.Wpf.DateTimeFormatConverter.ToConvert
+  name: ToConvert
+  nameWithType: DateTimeFormatConverter.ToConvert
+  fullName: Vortex.Presentation.Wpf.DateTimeFormatConverter.ToConvert
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+- uid: Vortex.Presentation.Wpf.Converters.BaseConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:Vortex.Presentation.Wpf.Converters.BaseConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: Vortex.Presentation.Wpf.Converters.BaseConverter
+  isExternal: true
+  name: ConvertBack(Object, Type, Object, CultureInfo)
+  nameWithType: BaseConverter.ConvertBack(Object, Type, Object, CultureInfo)
+  fullName: Vortex.Presentation.Wpf.Converters.BaseConverter.ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.Converters.BaseConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: ConvertBack
+    nameWithType: BaseConverter.ConvertBack
+    fullName: Vortex.Presentation.Wpf.Converters.BaseConverter.ConvertBack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.Converters.BaseConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: ConvertBack
+    nameWithType: BaseConverter.ConvertBack
+    fullName: Vortex.Presentation.Wpf.Converters.BaseConverter.ConvertBack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.DateTimeFormatConverter.ConvertBack*
+  commentId: Overload:Vortex.Presentation.Wpf.DateTimeFormatConverter.ConvertBack
+  name: ConvertBack
+  nameWithType: DateTimeFormatConverter.ConvertBack
+  fullName: Vortex.Presentation.Wpf.DateTimeFormatConverter.ConvertBack

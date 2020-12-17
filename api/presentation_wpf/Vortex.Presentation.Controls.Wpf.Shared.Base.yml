@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Controls.Wpf.Shared.Base
+  commentId: N:Vortex.Presentation.Controls.Wpf.Shared.Base
+  id: Vortex.Presentation.Controls.Wpf.Shared.Base
+  children:
+  - Vortex.Presentation.Controls.Wpf.Shared.Base.TimeAndDateConverterFactory
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Presentation.Controls.Wpf.Shared.Base
+  nameWithType: Vortex.Presentation.Controls.Wpf.Shared.Base
+  fullName: Vortex.Presentation.Controls.Wpf.Shared.Base
+  type: Namespace
+  assemblies:
+  - Vortex.Presentation.Controls.Wpf
+references:
+- uid: Vortex.Presentation.Controls.Wpf.Shared.Base.TimeAndDateConverterFactory
+  commentId: T:Vortex.Presentation.Controls.Wpf.Shared.Base.TimeAndDateConverterFactory
+  name: TimeAndDateConverterFactory
+  nameWithType: TimeAndDateConverterFactory
+  fullName: Vortex.Presentation.Controls.Wpf.Shared.Base.TimeAndDateConverterFactory

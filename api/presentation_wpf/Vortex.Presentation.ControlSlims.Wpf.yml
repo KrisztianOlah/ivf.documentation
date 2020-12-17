@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.ControlSlims.Wpf
+  commentId: N:Vortex.Presentation.ControlSlims.Wpf
+  id: Vortex.Presentation.ControlSlims.Wpf
+  children:
+  - Vortex.Presentation.ControlSlims.Wpf.MultiConverter
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Presentation.ControlSlims.Wpf
+  nameWithType: Vortex.Presentation.ControlSlims.Wpf
+  fullName: Vortex.Presentation.ControlSlims.Wpf
+  type: Namespace
+  assemblies:
+  - Vortex.Presentation.Controls.Wpf
+references:
+- uid: Vortex.Presentation.ControlSlims.Wpf.MultiConverter
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.MultiConverter
+  name: MultiConverter
+  nameWithType: MultiConverter
+  fullName: Vortex.Presentation.ControlSlims.Wpf.MultiConverter

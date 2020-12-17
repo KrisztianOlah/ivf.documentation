@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Controls.Wpf.Extension
+  commentId: N:Vortex.Presentation.Controls.Wpf.Extension
+  id: Vortex.Presentation.Controls.Wpf.Extension
+  children:
+  - Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  - Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Presentation.Controls.Wpf.Extension
+  nameWithType: Vortex.Presentation.Controls.Wpf.Extension
+  fullName: Vortex.Presentation.Controls.Wpf.Extension
+  type: Namespace
+  assemblies:
+  - Vortex.Presentation.Controls.Wpf
+references:
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  parent: Vortex.Presentation.Controls.Wpf.Extension
+  name: AttributeStringFormatExtensions
+  nameWithType: AttributeStringFormatExtensions
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+- uid: Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker
+  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker
+  name: DateTimePicker
+  nameWithType: DateTimePicker
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker
+- uid: Vortex.Presentation.Controls.Wpf.Extension
+  commentId: N:Vortex.Presentation.Controls.Wpf.Extension
+  name: Vortex.Presentation.Controls.Wpf.Extension
+  nameWithType: Vortex.Presentation.Controls.Wpf.Extension
+  fullName: Vortex.Presentation.Controls.Wpf.Extension

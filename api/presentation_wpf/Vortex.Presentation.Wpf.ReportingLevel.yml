@@ -1,0 +1,348 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Wpf.ReportingLevel
+  commentId: T:Vortex.Presentation.Wpf.ReportingLevel
+  id: ReportingLevel
+  parent: Vortex.Presentation.Wpf
+  children:
+  - Vortex.Presentation.Wpf.ReportingLevel.Errors
+  - Vortex.Presentation.Wpf.ReportingLevel.Info
+  - Vortex.Presentation.Wpf.ReportingLevel.None
+  - Vortex.Presentation.Wpf.ReportingLevel.Warnings
+  langs:
+  - csharp
+  - vb
+  name: ReportingLevel
+  nameWithType: ReportingLevel
+  fullName: Vortex.Presentation.Wpf.ReportingLevel
+  type: Enum
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/ReportingLevel.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReportingLevel
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/ReportingLevel.cs
+    startLine: 8
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nEnumerates level of reporting from <xref href=\"Vortex.Presentation.Wpf.Renderer\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public enum ReportingLevel
+    content.vb: Public Enum ReportingLevel
+  extensionMethods:
+  - System.Enum.Vortex.Presentation.Wpf.EnumHelper.Description
+  - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Vortex.Presentation.Wpf.ReportingLevel.None
+  commentId: F:Vortex.Presentation.Wpf.ReportingLevel.None
+  id: None
+  parent: Vortex.Presentation.Wpf.ReportingLevel
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ReportingLevel.None
+  fullName: Vortex.Presentation.Wpf.ReportingLevel.None
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/ReportingLevel.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: None
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/ReportingLevel.cs
+    startLine: 14
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nNo reporting. Rendered objects will not display messages related to rendering process.\nThis is default option for production environment.\n"
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Vortex.Presentation.Wpf.ReportingLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Presentation.Wpf.ReportingLevel.Info
+  commentId: F:Vortex.Presentation.Wpf.ReportingLevel.Info
+  id: Info
+  parent: Vortex.Presentation.Wpf.ReportingLevel
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: ReportingLevel.Info
+  fullName: Vortex.Presentation.Wpf.ReportingLevel.Info
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/ReportingLevel.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Info
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/ReportingLevel.cs
+    startLine: 18
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nRendered objects will display information messages related to rendering process. Not to be used in production only for debugging.\n"
+  example: []
+  syntax:
+    content: Info = 1
+    return:
+      type: Vortex.Presentation.Wpf.ReportingLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Presentation.Wpf.ReportingLevel.Warnings
+  commentId: F:Vortex.Presentation.Wpf.ReportingLevel.Warnings
+  id: Warnings
+  parent: Vortex.Presentation.Wpf.ReportingLevel
+  langs:
+  - csharp
+  - vb
+  name: Warnings
+  nameWithType: ReportingLevel.Warnings
+  fullName: Vortex.Presentation.Wpf.ReportingLevel.Warnings
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/ReportingLevel.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Warnings
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/ReportingLevel.cs
+    startLine: 22
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nRendered objects will display information warnings related to rendering process. Not to be used in production only for debugging.\n"
+  example: []
+  syntax:
+    content: Warnings = 2
+    return:
+      type: Vortex.Presentation.Wpf.ReportingLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Vortex.Presentation.Wpf.ReportingLevel.Errors
+  commentId: F:Vortex.Presentation.Wpf.ReportingLevel.Errors
+  id: Errors
+  parent: Vortex.Presentation.Wpf.ReportingLevel
+  langs:
+  - csharp
+  - vb
+  name: Errors
+  nameWithType: ReportingLevel.Errors
+  fullName: Vortex.Presentation.Wpf.ReportingLevel.Errors
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/ReportingLevel.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Errors
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/ReportingLevel.cs
+    startLine: 26
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nRendered objects will display information errors related to rendering process. Not to be used in production only for debugging.\n"
+  example: []
+  syntax:
+    content: Errors = 3
+    return:
+      type: Vortex.Presentation.Wpf.ReportingLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Vortex.Presentation.Wpf.Renderer
+  commentId: T:Vortex.Presentation.Wpf.Renderer
+  parent: Vortex.Presentation.Wpf
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Vortex.Presentation.Wpf.Renderer
+- uid: Vortex.Presentation.Wpf
+  commentId: N:Vortex.Presentation.Wpf
+  name: Vortex.Presentation.Wpf
+  nameWithType: Vortex.Presentation.Wpf
+  fullName: Vortex.Presentation.Wpf
+- uid: System.Enum.Vortex.Presentation.Wpf.EnumHelper.Description
+  commentId: M:Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+  parent: Vortex.Presentation.Wpf.EnumHelper
+  definition: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+  name: Description()
+  nameWithType: EnumHelper.Description()
+  fullName: Vortex.Presentation.Wpf.EnumHelper.Description()
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.EnumHelper.Description
+    name: Description
+    nameWithType: EnumHelper.Description
+    fullName: Vortex.Presentation.Wpf.EnumHelper.Description
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.EnumHelper.Description
+    name: Description
+    nameWithType: EnumHelper.Description
+    fullName: Vortex.Presentation.Wpf.EnumHelper.Description
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  definition: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  name: AttributeFormatOrNull()
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull()
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull()
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+  commentId: M:Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+  isExternal: true
+  name: Description(Enum)
+  nameWithType: EnumHelper.Description(Enum)
+  fullName: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+    name: Description
+    nameWithType: EnumHelper.Description
+    fullName: Vortex.Presentation.Wpf.EnumHelper.Description
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+    name: Description
+    nameWithType: EnumHelper.Description
+    fullName: Vortex.Presentation.Wpf.EnumHelper.Description
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.EnumHelper
+  commentId: T:Vortex.Presentation.Wpf.EnumHelper
+  parent: Vortex.Presentation.Wpf
+  name: EnumHelper
+  nameWithType: EnumHelper
+  fullName: Vortex.Presentation.Wpf.EnumHelper
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  isExternal: true
+  name: AttributeFormatOrNull(Object)
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull(Object)
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  parent: Vortex.Presentation.Controls.Wpf.Extension
+  name: AttributeStringFormatExtensions
+  nameWithType: AttributeStringFormatExtensions
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+- uid: Vortex.Presentation.Controls.Wpf.Extension
+  commentId: N:Vortex.Presentation.Controls.Wpf.Extension
+  name: Vortex.Presentation.Controls.Wpf.Extension
+  nameWithType: Vortex.Presentation.Controls.Wpf.Extension
+  fullName: Vortex.Presentation.Controls.Wpf.Extension
+- uid: Vortex.Presentation.Wpf.ReportingLevel
+  commentId: T:Vortex.Presentation.Wpf.ReportingLevel
+  parent: Vortex.Presentation.Wpf
+  name: ReportingLevel
+  nameWithType: ReportingLevel
+  fullName: Vortex.Presentation.Wpf.ReportingLevel

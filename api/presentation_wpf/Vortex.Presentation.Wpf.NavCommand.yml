@@ -1,0 +1,1497 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Wpf.NavCommand
+  commentId: T:Vortex.Presentation.Wpf.NavCommand
+  id: NavCommand
+  parent: Vortex.Presentation.Wpf
+  children:
+  - Vortex.Presentation.Wpf.NavCommand.#ctor(System.Type,Vortex.Presentation.Wpf.INavigable,System.Object,System.Object,System.Boolean)
+  - Vortex.Presentation.Wpf.NavCommand._element
+  - Vortex.Presentation.Wpf.NavCommand._instanceCount
+  - Vortex.Presentation.Wpf.NavCommand._tag
+  - Vortex.Presentation.Wpf.NavCommand.ButtonContent
+  - Vortex.Presentation.Wpf.NavCommand.CanExecute(System.Object)
+  - Vortex.Presentation.Wpf.NavCommand.CanExecuteChanged
+  - Vortex.Presentation.Wpf.NavCommand.CreateElement
+  - Vortex.Presentation.Wpf.NavCommand.CreateElement(System.Windows.FrameworkElement)
+  - Vortex.Presentation.Wpf.NavCommand.CreateNewInstanceAtEachNavigation
+  - Vortex.Presentation.Wpf.NavCommand.DataContext
+  - Vortex.Presentation.Wpf.NavCommand.EraseCachedElements
+  - Vortex.Presentation.Wpf.NavCommand.Execute(System.Object)
+  - Vortex.Presentation.Wpf.NavCommand.MenuIcon(System.String)
+  - Vortex.Presentation.Wpf.NavCommand.NavCommandsList
+  - Vortex.Presentation.Wpf.NavCommand.OpenView(System.Windows.FrameworkElement)
+  - Vortex.Presentation.Wpf.NavCommand.Presenter
+  - Vortex.Presentation.Wpf.NavCommand.PreviewElement
+  - Vortex.Presentation.Wpf.NavCommand.SecurityProvider_OnAnyAuthenticationEvent(System.String)
+  - Vortex.Presentation.Wpf.NavCommand.ShowDialogueInWindow(System.Object)
+  - Vortex.Presentation.Wpf.NavCommand.ShowInWindow(System.Object)
+  - Vortex.Presentation.Wpf.NavCommand.Tag
+  - Vortex.Presentation.Wpf.NavCommand.ViewType
+  langs:
+  - csharp
+  - vb
+  name: NavCommand
+  nameWithType: NavCommand
+  fullName: Vortex.Presentation.Wpf.NavCommand
+  type: Class
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: NavCommand
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 11
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: 'public class NavCommand : ICommand'
+    content.vb: >-
+      Public Class NavCommand
+          Implements ICommand
+  inheritance:
+  - System.Object
+  implements:
+  - System.Windows.Input.ICommand
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vortex.Presentation.Wpf.NavCommand.#ctor(System.Type,Vortex.Presentation.Wpf.INavigable,System.Object,System.Object,System.Boolean)
+  commentId: M:Vortex.Presentation.Wpf.NavCommand.#ctor(System.Type,Vortex.Presentation.Wpf.INavigable,System.Object,System.Object,System.Boolean)
+  id: '#ctor(System.Type,Vortex.Presentation.Wpf.INavigable,System.Object,System.Object,System.Boolean)'
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: NavCommand(Type, INavigable, Object, Object, Boolean)
+  nameWithType: NavCommand.NavCommand(Type, INavigable, Object, Object, Boolean)
+  fullName: Vortex.Presentation.Wpf.NavCommand.NavCommand(System.Type, Vortex.Presentation.Wpf.INavigable, System.Object, System.Object, System.Boolean)
+  type: Constructor
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 13
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public NavCommand(Type viewType, INavigable presenter, object buttonContent = null, object dataContext = null, bool createNewInstanceAtEachNavigation = false)
+    parameters:
+    - id: viewType
+      type: System.Type
+    - id: presenter
+      type: Vortex.Presentation.Wpf.INavigable
+    - id: buttonContent
+      type: System.Object
+    - id: dataContext
+      type: System.Object
+    - id: createNewInstanceAtEachNavigation
+      type: System.Boolean
+    content.vb: Public Sub New(viewType As Type, presenter As INavigable, buttonContent As Object = Nothing, dataContext As Object = Nothing, createNewInstanceAtEachNavigation As Boolean = False)
+  overload: Vortex.Presentation.Wpf.NavCommand.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.NavCommand.MenuIcon(System.String)
+  commentId: M:Vortex.Presentation.Wpf.NavCommand.MenuIcon(System.String)
+  id: MenuIcon(System.String)
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: MenuIcon(String)
+  nameWithType: NavCommand.MenuIcon(String)
+  fullName: Vortex.Presentation.Wpf.NavCommand.MenuIcon(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: MenuIcon
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 34
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: FrameworkElement MenuIcon(string menuTitle)
+    parameters:
+    - id: menuTitle
+      type: System.String
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Function MenuIcon(menuTitle As String) As FrameworkElement
+  overload: Vortex.Presentation.Wpf.NavCommand.MenuIcon*
+- uid: Vortex.Presentation.Wpf.NavCommand.Tag
+  commentId: P:Vortex.Presentation.Wpf.NavCommand.Tag
+  id: Tag
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: NavCommand.Tag
+  fullName: Vortex.Presentation.Wpf.NavCommand.Tag
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Tag
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 53
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public object Tag { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Tag As Object
+  overload: Vortex.Presentation.Wpf.NavCommand.Tag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.NavCommand.SecurityProvider_OnAnyAuthenticationEvent(System.String)
+  commentId: M:Vortex.Presentation.Wpf.NavCommand.SecurityProvider_OnAnyAuthenticationEvent(System.String)
+  id: SecurityProvider_OnAnyAuthenticationEvent(System.String)
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: SecurityProvider_OnAnyAuthenticationEvent(String)
+  nameWithType: NavCommand.SecurityProvider_OnAnyAuthenticationEvent(String)
+  fullName: Vortex.Presentation.Wpf.NavCommand.SecurityProvider_OnAnyAuthenticationEvent(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SecurityProvider_OnAnyAuthenticationEvent
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 71
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: void SecurityProvider_OnAnyAuthenticationEvent(string username)
+    parameters:
+    - id: username
+      type: System.String
+    content.vb: Sub SecurityProvider_OnAnyAuthenticationEvent(username As String)
+  overload: Vortex.Presentation.Wpf.NavCommand.SecurityProvider_OnAnyAuthenticationEvent*
+- uid: Vortex.Presentation.Wpf.NavCommand._instanceCount
+  commentId: F:Vortex.Presentation.Wpf.NavCommand._instanceCount
+  id: _instanceCount
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: _instanceCount
+  nameWithType: NavCommand._instanceCount
+  fullName: Vortex.Presentation.Wpf.NavCommand._instanceCount
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _instanceCount
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 76
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: readonly int _instanceCount
+    return:
+      type: System.Int32
+    content.vb: ReadOnly _instanceCount As Integer
+  modifiers.csharp:
+  - readonly
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.NavCommand.EraseCachedElements
+  commentId: M:Vortex.Presentation.Wpf.NavCommand.EraseCachedElements
+  id: EraseCachedElements
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: EraseCachedElements()
+  nameWithType: NavCommand.EraseCachedElements()
+  fullName: Vortex.Presentation.Wpf.NavCommand.EraseCachedElements()
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: EraseCachedElements
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 77
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: static void EraseCachedElements()
+    content.vb: Shared Sub EraseCachedElements
+  overload: Vortex.Presentation.Wpf.NavCommand.EraseCachedElements*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Presentation.Wpf.NavCommand.NavCommandsList
+  commentId: F:Vortex.Presentation.Wpf.NavCommand.NavCommandsList
+  id: NavCommandsList
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: NavCommandsList
+  nameWithType: NavCommand.NavCommandsList
+  fullName: Vortex.Presentation.Wpf.NavCommand.NavCommandsList
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: NavCommandsList
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 85
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: static List<NavCommand> NavCommandsList
+    return:
+      type: System.Collections.Generic.List{Vortex.Presentation.Wpf.NavCommand}
+    content.vb: Shared NavCommandsList As List(Of NavCommand)
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Presentation.Wpf.NavCommand.ButtonContent
+  commentId: P:Vortex.Presentation.Wpf.NavCommand.ButtonContent
+  id: ButtonContent
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: ButtonContent
+  nameWithType: NavCommand.ButtonContent
+  fullName: Vortex.Presentation.Wpf.NavCommand.ButtonContent
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ButtonContent
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 87
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public object ButtonContent { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly Property ButtonContent As Object
+  overload: Vortex.Presentation.Wpf.NavCommand.ButtonContent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.NavCommand.ViewType
+  commentId: P:Vortex.Presentation.Wpf.NavCommand.ViewType
+  id: ViewType
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: ViewType
+  nameWithType: NavCommand.ViewType
+  fullName: Vortex.Presentation.Wpf.NavCommand.ViewType
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ViewType
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 89
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public Type ViewType { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: Public ReadOnly Property ViewType As Type
+  overload: Vortex.Presentation.Wpf.NavCommand.ViewType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.NavCommand.Presenter
+  commentId: F:Vortex.Presentation.Wpf.NavCommand.Presenter
+  id: Presenter
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: Presenter
+  nameWithType: NavCommand.Presenter
+  fullName: Vortex.Presentation.Wpf.NavCommand.Presenter
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Presenter
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 90
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: INavigable Presenter
+    return:
+      type: Vortex.Presentation.Wpf.INavigable
+    content.vb: Presenter As INavigable
+- uid: Vortex.Presentation.Wpf.NavCommand.DataContext
+  commentId: F:Vortex.Presentation.Wpf.NavCommand.DataContext
+  id: DataContext
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: DataContext
+  nameWithType: NavCommand.DataContext
+  fullName: Vortex.Presentation.Wpf.NavCommand.DataContext
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: DataContext
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 91
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: readonly object DataContext
+    return:
+      type: System.Object
+    content.vb: ReadOnly DataContext As Object
+  modifiers.csharp:
+  - readonly
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.NavCommand.CanExecuteChanged
+  commentId: E:Vortex.Presentation.Wpf.NavCommand.CanExecuteChanged
+  id: CanExecuteChanged
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: CanExecuteChanged
+  nameWithType: NavCommand.CanExecuteChanged
+  fullName: Vortex.Presentation.Wpf.NavCommand.CanExecuteChanged
+  type: Event
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CanExecuteChanged
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 93
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public event EventHandler CanExecuteChanged
+    return:
+      type: System.EventHandler
+    content.vb: Public Event CanExecuteChanged As EventHandler
+  implements:
+  - System.Windows.Input.ICommand.CanExecuteChanged
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.NavCommand.CanExecute(System.Object)
+  commentId: M:Vortex.Presentation.Wpf.NavCommand.CanExecute(System.Object)
+  id: CanExecute(System.Object)
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: CanExecute(Object)
+  nameWithType: NavCommand.CanExecute(Object)
+  fullName: Vortex.Presentation.Wpf.NavCommand.CanExecute(System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CanExecute
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 95
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public bool CanExecute(object parameter)
+    parameters:
+    - id: parameter
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Function CanExecute(parameter As Object) As Boolean
+  overload: Vortex.Presentation.Wpf.NavCommand.CanExecute*
+  implements:
+  - System.Windows.Input.ICommand.CanExecute(System.Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.NavCommand._element
+  commentId: F:Vortex.Presentation.Wpf.NavCommand._element
+  id: _element
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: _element
+  nameWithType: NavCommand._element
+  fullName: Vortex.Presentation.Wpf.NavCommand._element
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _element
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 100
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: FrameworkElement _element
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: _element As FrameworkElement
+- uid: Vortex.Presentation.Wpf.NavCommand.CreateNewInstanceAtEachNavigation
+  commentId: F:Vortex.Presentation.Wpf.NavCommand.CreateNewInstanceAtEachNavigation
+  id: CreateNewInstanceAtEachNavigation
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: CreateNewInstanceAtEachNavigation
+  nameWithType: NavCommand.CreateNewInstanceAtEachNavigation
+  fullName: Vortex.Presentation.Wpf.NavCommand.CreateNewInstanceAtEachNavigation
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateNewInstanceAtEachNavigation
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 101
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: readonly bool CreateNewInstanceAtEachNavigation
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly CreateNewInstanceAtEachNavigation As Boolean
+  modifiers.csharp:
+  - readonly
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.NavCommand._tag
+  commentId: F:Vortex.Presentation.Wpf.NavCommand._tag
+  id: _tag
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: _tag
+  nameWithType: NavCommand._tag
+  fullName: Vortex.Presentation.Wpf.NavCommand._tag
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _tag
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 102
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: object _tag
+    return:
+      type: System.Object
+    content.vb: _tag As Object
+- uid: Vortex.Presentation.Wpf.NavCommand.CreateElement
+  commentId: M:Vortex.Presentation.Wpf.NavCommand.CreateElement
+  id: CreateElement
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: CreateElement()
+  nameWithType: NavCommand.CreateElement()
+  fullName: Vortex.Presentation.Wpf.NavCommand.CreateElement()
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateElement
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 104
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: FrameworkElement CreateElement()
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Function CreateElement As FrameworkElement
+  overload: Vortex.Presentation.Wpf.NavCommand.CreateElement*
+- uid: Vortex.Presentation.Wpf.NavCommand.PreviewElement
+  commentId: P:Vortex.Presentation.Wpf.NavCommand.PreviewElement
+  id: PreviewElement
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: PreviewElement
+  nameWithType: NavCommand.PreviewElement
+  fullName: Vortex.Presentation.Wpf.NavCommand.PreviewElement
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: PreviewElement
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 123
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public FrameworkElement PreviewElement { get; }
+    parameters: []
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Public ReadOnly Property PreviewElement As FrameworkElement
+  overload: Vortex.Presentation.Wpf.NavCommand.PreviewElement*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.NavCommand.Execute(System.Object)
+  commentId: M:Vortex.Presentation.Wpf.NavCommand.Execute(System.Object)
+  id: Execute(System.Object)
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: Execute(Object)
+  nameWithType: NavCommand.Execute(Object)
+  fullName: Vortex.Presentation.Wpf.NavCommand.Execute(System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Execute
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 125
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public void Execute(object parameter)
+    parameters:
+    - id: parameter
+      type: System.Object
+    content.vb: Public Sub Execute(parameter As Object)
+  overload: Vortex.Presentation.Wpf.NavCommand.Execute*
+  implements:
+  - System.Windows.Input.ICommand.Execute(System.Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.NavCommand.ShowInWindow(System.Object)
+  commentId: M:Vortex.Presentation.Wpf.NavCommand.ShowInWindow(System.Object)
+  id: ShowInWindow(System.Object)
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: ShowInWindow(Object)
+  nameWithType: NavCommand.ShowInWindow(Object)
+  fullName: Vortex.Presentation.Wpf.NavCommand.ShowInWindow(System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ShowInWindow
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 148
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nShows content in separate window.\n"
+  example: []
+  syntax:
+    content: void ShowInWindow(object dataContext)
+    parameters:
+    - id: dataContext
+      type: System.Object
+    content.vb: Sub ShowInWindow(dataContext As Object)
+  overload: Vortex.Presentation.Wpf.NavCommand.ShowInWindow*
+- uid: Vortex.Presentation.Wpf.NavCommand.ShowDialogueInWindow(System.Object)
+  commentId: M:Vortex.Presentation.Wpf.NavCommand.ShowDialogueInWindow(System.Object)
+  id: ShowDialogueInWindow(System.Object)
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: ShowDialogueInWindow(Object)
+  nameWithType: NavCommand.ShowDialogueInWindow(Object)
+  fullName: Vortex.Presentation.Wpf.NavCommand.ShowDialogueInWindow(System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ShowDialogueInWindow
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 162
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nShows content in separate dialogue window.\n"
+  example: []
+  syntax:
+    content: void ShowDialogueInWindow(object dataContext)
+    parameters:
+    - id: dataContext
+      type: System.Object
+    content.vb: Sub ShowDialogueInWindow(dataContext As Object)
+  overload: Vortex.Presentation.Wpf.NavCommand.ShowDialogueInWindow*
+- uid: Vortex.Presentation.Wpf.NavCommand.OpenView(System.Windows.FrameworkElement)
+  commentId: M:Vortex.Presentation.Wpf.NavCommand.OpenView(System.Windows.FrameworkElement)
+  id: OpenView(System.Windows.FrameworkElement)
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: OpenView(FrameworkElement)
+  nameWithType: NavCommand.OpenView(FrameworkElement)
+  fullName: Vortex.Presentation.Wpf.NavCommand.OpenView(System.Windows.FrameworkElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: OpenView
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 172
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public void OpenView(FrameworkElement view)
+    parameters:
+    - id: view
+      type: System.Windows.FrameworkElement
+    content.vb: Public Sub OpenView(view As FrameworkElement)
+  overload: Vortex.Presentation.Wpf.NavCommand.OpenView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.NavCommand.CreateElement(System.Windows.FrameworkElement)
+  commentId: M:Vortex.Presentation.Wpf.NavCommand.CreateElement(System.Windows.FrameworkElement)
+  id: CreateElement(System.Windows.FrameworkElement)
+  parent: Vortex.Presentation.Wpf.NavCommand
+  langs:
+  - csharp
+  - vb
+  name: CreateElement(FrameworkElement)
+  nameWithType: NavCommand.CreateElement(FrameworkElement)
+  fullName: Vortex.Presentation.Wpf.NavCommand.CreateElement(System.Windows.FrameworkElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateElement
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
+    startLine: 177
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: FrameworkElement CreateElement(FrameworkElement view)
+    parameters:
+    - id: view
+      type: System.Windows.FrameworkElement
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Function CreateElement(view As FrameworkElement) As FrameworkElement
+  overload: Vortex.Presentation.Wpf.NavCommand.CreateElement*
+references:
+- uid: Vortex.Presentation.Wpf
+  commentId: N:Vortex.Presentation.Wpf
+  name: Vortex.Presentation.Wpf
+  nameWithType: Vortex.Presentation.Wpf
+  fullName: Vortex.Presentation.Wpf
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Windows.Input.ICommand
+  commentId: T:System.Windows.Input.ICommand
+  parent: System.Windows.Input
+  isExternal: true
+  name: ICommand
+  nameWithType: ICommand
+  fullName: System.Windows.Input.ICommand
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  definition: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  name: AttributeFormatOrNull()
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull()
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull()
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  isExternal: true
+  name: AttributeFormatOrNull(Object)
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull(Object)
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  parent: Vortex.Presentation.Controls.Wpf.Extension
+  name: AttributeStringFormatExtensions
+  nameWithType: AttributeStringFormatExtensions
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+- uid: Vortex.Presentation.Controls.Wpf.Extension
+  commentId: N:Vortex.Presentation.Controls.Wpf.Extension
+  name: Vortex.Presentation.Controls.Wpf.Extension
+  nameWithType: Vortex.Presentation.Controls.Wpf.Extension
+  fullName: Vortex.Presentation.Controls.Wpf.Extension
+- uid: Vortex.Presentation.Wpf.NavCommand.#ctor*
+  commentId: Overload:Vortex.Presentation.Wpf.NavCommand.#ctor
+  name: NavCommand
+  nameWithType: NavCommand.NavCommand
+  fullName: Vortex.Presentation.Wpf.NavCommand.NavCommand
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Vortex.Presentation.Wpf.INavigable
+  commentId: T:Vortex.Presentation.Wpf.INavigable
+  parent: Vortex.Presentation.Wpf
+  name: INavigable
+  nameWithType: INavigable
+  fullName: Vortex.Presentation.Wpf.INavigable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vortex.Presentation.Wpf.NavCommand.MenuIcon*
+  commentId: Overload:Vortex.Presentation.Wpf.NavCommand.MenuIcon
+  name: MenuIcon
+  nameWithType: NavCommand.MenuIcon
+  fullName: Vortex.Presentation.Wpf.NavCommand.MenuIcon
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Windows.FrameworkElement
+  commentId: T:System.Windows.FrameworkElement
+  parent: System.Windows
+  isExternal: true
+  name: FrameworkElement
+  nameWithType: FrameworkElement
+  fullName: System.Windows.FrameworkElement
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+- uid: Vortex.Presentation.Wpf.NavCommand.Tag*
+  commentId: Overload:Vortex.Presentation.Wpf.NavCommand.Tag
+  name: Tag
+  nameWithType: NavCommand.Tag
+  fullName: Vortex.Presentation.Wpf.NavCommand.Tag
+- uid: Vortex.Presentation.Wpf.NavCommand.SecurityProvider_OnAnyAuthenticationEvent*
+  commentId: Overload:Vortex.Presentation.Wpf.NavCommand.SecurityProvider_OnAnyAuthenticationEvent
+  name: SecurityProvider_OnAnyAuthenticationEvent
+  nameWithType: NavCommand.SecurityProvider_OnAnyAuthenticationEvent
+  fullName: Vortex.Presentation.Wpf.NavCommand.SecurityProvider_OnAnyAuthenticationEvent
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vortex.Presentation.Wpf.NavCommand.EraseCachedElements*
+  commentId: Overload:Vortex.Presentation.Wpf.NavCommand.EraseCachedElements
+  name: EraseCachedElements
+  nameWithType: NavCommand.EraseCachedElements
+  fullName: Vortex.Presentation.Wpf.NavCommand.EraseCachedElements
+- uid: System.Collections.Generic.List{Vortex.Presentation.Wpf.NavCommand}
+  commentId: T:System.Collections.Generic.List{Vortex.Presentation.Wpf.NavCommand}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<NavCommand>
+  nameWithType: List<NavCommand>
+  fullName: System.Collections.Generic.List<Vortex.Presentation.Wpf.NavCommand>
+  nameWithType.vb: List(Of NavCommand)
+  fullName.vb: System.Collections.Generic.List(Of Vortex.Presentation.Wpf.NavCommand)
+  name.vb: List(Of NavCommand)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Presentation.Wpf.NavCommand
+    name: NavCommand
+    nameWithType: NavCommand
+    fullName: Vortex.Presentation.Wpf.NavCommand
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Presentation.Wpf.NavCommand
+    name: NavCommand
+    nameWithType: NavCommand
+    fullName: Vortex.Presentation.Wpf.NavCommand
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Vortex.Presentation.Wpf.NavCommand.ButtonContent*
+  commentId: Overload:Vortex.Presentation.Wpf.NavCommand.ButtonContent
+  name: ButtonContent
+  nameWithType: NavCommand.ButtonContent
+  fullName: Vortex.Presentation.Wpf.NavCommand.ButtonContent
+- uid: Vortex.Presentation.Wpf.NavCommand.ViewType*
+  commentId: Overload:Vortex.Presentation.Wpf.NavCommand.ViewType
+  name: ViewType
+  nameWithType: NavCommand.ViewType
+  fullName: Vortex.Presentation.Wpf.NavCommand.ViewType
+- uid: System.Windows.Input.ICommand.CanExecuteChanged
+  commentId: E:System.Windows.Input.ICommand.CanExecuteChanged
+  parent: System.Windows.Input.ICommand
+  isExternal: true
+  name: CanExecuteChanged
+  nameWithType: ICommand.CanExecuteChanged
+  fullName: System.Windows.Input.ICommand.CanExecuteChanged
+- uid: System.EventHandler
+  commentId: T:System.EventHandler
+  parent: System
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: System.EventHandler
+- uid: Vortex.Presentation.Wpf.NavCommand.CanExecute*
+  commentId: Overload:Vortex.Presentation.Wpf.NavCommand.CanExecute
+  name: CanExecute
+  nameWithType: NavCommand.CanExecute
+  fullName: Vortex.Presentation.Wpf.NavCommand.CanExecute
+- uid: System.Windows.Input.ICommand.CanExecute(System.Object)
+  commentId: M:System.Windows.Input.ICommand.CanExecute(System.Object)
+  parent: System.Windows.Input.ICommand
+  isExternal: true
+  name: CanExecute(Object)
+  nameWithType: ICommand.CanExecute(Object)
+  fullName: System.Windows.Input.ICommand.CanExecute(System.Object)
+  spec.csharp:
+  - uid: System.Windows.Input.ICommand.CanExecute(System.Object)
+    name: CanExecute
+    nameWithType: ICommand.CanExecute
+    fullName: System.Windows.Input.ICommand.CanExecute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Input.ICommand.CanExecute(System.Object)
+    name: CanExecute
+    nameWithType: ICommand.CanExecute
+    fullName: System.Windows.Input.ICommand.CanExecute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.NavCommand.CreateElement*
+  commentId: Overload:Vortex.Presentation.Wpf.NavCommand.CreateElement
+  name: CreateElement
+  nameWithType: NavCommand.CreateElement
+  fullName: Vortex.Presentation.Wpf.NavCommand.CreateElement
+- uid: Vortex.Presentation.Wpf.NavCommand.PreviewElement*
+  commentId: Overload:Vortex.Presentation.Wpf.NavCommand.PreviewElement
+  name: PreviewElement
+  nameWithType: NavCommand.PreviewElement
+  fullName: Vortex.Presentation.Wpf.NavCommand.PreviewElement
+- uid: Vortex.Presentation.Wpf.NavCommand.Execute*
+  commentId: Overload:Vortex.Presentation.Wpf.NavCommand.Execute
+  name: Execute
+  nameWithType: NavCommand.Execute
+  fullName: Vortex.Presentation.Wpf.NavCommand.Execute
+- uid: System.Windows.Input.ICommand.Execute(System.Object)
+  commentId: M:System.Windows.Input.ICommand.Execute(System.Object)
+  parent: System.Windows.Input.ICommand
+  isExternal: true
+  name: Execute(Object)
+  nameWithType: ICommand.Execute(Object)
+  fullName: System.Windows.Input.ICommand.Execute(System.Object)
+  spec.csharp:
+  - uid: System.Windows.Input.ICommand.Execute(System.Object)
+    name: Execute
+    nameWithType: ICommand.Execute
+    fullName: System.Windows.Input.ICommand.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Input.ICommand.Execute(System.Object)
+    name: Execute
+    nameWithType: ICommand.Execute
+    fullName: System.Windows.Input.ICommand.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.NavCommand.ShowInWindow*
+  commentId: Overload:Vortex.Presentation.Wpf.NavCommand.ShowInWindow
+  name: ShowInWindow
+  nameWithType: NavCommand.ShowInWindow
+  fullName: Vortex.Presentation.Wpf.NavCommand.ShowInWindow
+- uid: Vortex.Presentation.Wpf.NavCommand.ShowDialogueInWindow*
+  commentId: Overload:Vortex.Presentation.Wpf.NavCommand.ShowDialogueInWindow
+  name: ShowDialogueInWindow
+  nameWithType: NavCommand.ShowDialogueInWindow
+  fullName: Vortex.Presentation.Wpf.NavCommand.ShowDialogueInWindow
+- uid: Vortex.Presentation.Wpf.NavCommand.OpenView*
+  commentId: Overload:Vortex.Presentation.Wpf.NavCommand.OpenView
+  name: OpenView
+  nameWithType: NavCommand.OpenView
+  fullName: Vortex.Presentation.Wpf.NavCommand.OpenView

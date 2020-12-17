@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim
+  commentId: N:Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim
+  id: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim
+  children:
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBox
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBoxValue
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDate
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDateTime
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimLTime
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTextBox
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTextBoxValue
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTime
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTimeOfDay
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim
+  nameWithType: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim
+  type: Namespace
+  assemblies:
+  - Vortex.Presentation.Controls.Wpf
+references:
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBox
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBox
+  name: ShadowControlSlimCheckBox
+  nameWithType: ShadowControlSlimCheckBox
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBox
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBoxValue
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBoxValue
+  name: ShadowControlSlimCheckBoxValue
+  nameWithType: ShadowControlSlimCheckBoxValue
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBoxValue
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDate
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDate
+  name: ShadowControlSlimDate
+  nameWithType: ShadowControlSlimDate
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDate
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDateTime
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDateTime
+  name: ShadowControlSlimDateTime
+  nameWithType: ShadowControlSlimDateTime
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDateTime
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimLTime
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimLTime
+  name: ShadowControlSlimLTime
+  nameWithType: ShadowControlSlimLTime
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimLTime
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTextBox
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTextBox
+  name: ShadowControlSlimTextBox
+  nameWithType: ShadowControlSlimTextBox
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTextBox
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTextBoxValue
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTextBoxValue
+  name: ShadowControlSlimTextBoxValue
+  nameWithType: ShadowControlSlimTextBoxValue
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTextBoxValue
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTime
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTime
+  name: ShadowControlSlimTime
+  nameWithType: ShadowControlSlimTime
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTime
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTimeOfDay
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTimeOfDay
+  name: ShadowControlSlimTimeOfDay
+  nameWithType: ShadowControlSlimTimeOfDay
+  fullName: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTimeOfDay

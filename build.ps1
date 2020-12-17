@@ -1,12 +1,12 @@
 # Get the latest tag from IVF
 Push-Location ..\ivf
-$version = (git describe)+"-debug2"
+$version = (git describe)
 Pop-Location
 
 # Clean build
-rm -r bin/ -erroraction silentlycontinue 
-rm -r obj/ -erroraction silentlycontinue 
-rm -r docs/ -erroraction silentlycontinue 
+# rm -r bin/ -erroraction silentlycontinue 
+# rm -r obj/ -erroraction silentlycontinue 
+# rm -r docs/ -erroraction silentlycontinue 
 
 # Build docu
 dotnet build -v q

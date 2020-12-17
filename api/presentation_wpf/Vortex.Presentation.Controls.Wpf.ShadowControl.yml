@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Controls.Wpf.ShadowControl
+  commentId: N:Vortex.Presentation.Controls.Wpf.ShadowControl
+  id: Vortex.Presentation.Controls.Wpf.ShadowControl
+  children:
+  - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBox
+  - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBoxValue
+  - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlDate
+  - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlDateTime
+  - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlLTime
+  - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTextBox
+  - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTextBoxValue
+  - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTime
+  - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTimeOfDay
+  - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTimeTextBox
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Presentation.Controls.Wpf.ShadowControl
+  nameWithType: Vortex.Presentation.Controls.Wpf.ShadowControl
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowControl
+  type: Namespace
+  assemblies:
+  - Vortex.Presentation.Controls.Wpf
+references:
+- uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBox
+  commentId: T:Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBox
+  name: ShadowControlCheckBox
+  nameWithType: ShadowControlCheckBox
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBox
+- uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBoxValue
+  commentId: T:Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBoxValue
+  name: ShadowControlCheckBoxValue
+  nameWithType: ShadowControlCheckBoxValue
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBoxValue
+- uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlDate
+  commentId: T:Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlDate
+  name: ShadowControlDate
+  nameWithType: ShadowControlDate
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlDate
+- uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlDateTime
+  commentId: T:Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlDateTime
+  name: ShadowControlDateTime
+  nameWithType: ShadowControlDateTime
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlDateTime
+- uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlLTime
+  commentId: T:Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlLTime
+  name: ShadowControlLTime
+  nameWithType: ShadowControlLTime
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlLTime
+- uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTextBox
+  commentId: T:Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTextBox
+  name: ShadowControlTextBox
+  nameWithType: ShadowControlTextBox
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTextBox
+- uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTextBoxValue
+  commentId: T:Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTextBoxValue
+  name: ShadowControlTextBoxValue
+  nameWithType: ShadowControlTextBoxValue
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTextBoxValue
+- uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTime
+  commentId: T:Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTime
+  name: ShadowControlTime
+  nameWithType: ShadowControlTime
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTime
+- uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTimeOfDay
+  commentId: T:Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTimeOfDay
+  name: ShadowControlTimeOfDay
+  nameWithType: ShadowControlTimeOfDay
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTimeOfDay
+- uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTimeTextBox
+  commentId: T:Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTimeTextBox
+  name: ShadowControlTimeTextBox
+  nameWithType: ShadowControlTimeTextBox
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTimeTextBox

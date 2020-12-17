@@ -1,0 +1,1089 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Wpf.MenuControlViewModel
+  commentId: T:Vortex.Presentation.Wpf.MenuControlViewModel
+  id: MenuControlViewModel
+  parent: Vortex.Presentation.Wpf
+  children:
+  - Vortex.Presentation.Wpf.MenuControlViewModel.#ctor
+  langs:
+  - csharp
+  - vb
+  name: MenuControlViewModel
+  nameWithType: MenuControlViewModel
+  fullName: Vortex.Presentation.Wpf.MenuControlViewModel
+  type: Class
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: MenuControlViewModel
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
+    startLine: 18
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: 'public class MenuControlViewModel : NavigableViewModelBase, INotifyPropertyChanged, INavigable'
+    content.vb: >-
+      Public Class MenuControlViewModel
+          Inherits NavigableViewModelBase
+          Implements INotifyPropertyChanged, INavigable
+  inheritance:
+  - System.Object
+  - Vortex.Presentation.Wpf.BindableBase
+  - Vortex.Presentation.Wpf.NavigableViewModelBase
+  derivedClasses:
+  - Vortex.Presentation.Wpf.MenuControlViewTestViewModel
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - Vortex.Presentation.Wpf.INavigable
+  inheritedMembers:
+  - Vortex.Presentation.Wpf.NavigableViewModelBase._CurrentView
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.CurrentView
+  - Vortex.Presentation.Wpf.NavigableViewModelBase._NavCommands
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.NavCommands
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.ToggleMenu
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.AddCommand(System.Type,System.Object,System.Object)
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.OpenCommand(Vortex.Presentation.Wpf.NavCommand)
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.title
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.Title
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.menuVisibility
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.MenuVisibility
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.ToggleMenuCommand
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.openInWindow
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.ContentPresentationMode
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.OpenView(System.Windows.FrameworkElement)
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.CreateElement(System.Windows.FrameworkElement)
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.Current
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.ShowInWindow(System.Windows.FrameworkElement)
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.ShowDialogueInWindow(System.Windows.FrameworkElement)
+  - Vortex.Presentation.Wpf.NavigableViewModelBase.OpenDefault
+  - Vortex.Presentation.Wpf.BindableBase.SetProperty``1({T}@,{T},System.String)
+  - Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+  - Vortex.Presentation.Wpf.BindableBase.PropertyChanged
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vortex.Presentation.Wpf.MenuControlViewModel.#ctor
+  commentId: M:Vortex.Presentation.Wpf.MenuControlViewModel.#ctor
+  id: '#ctor'
+  parent: Vortex.Presentation.Wpf.MenuControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: MenuControlViewModel()
+  nameWithType: MenuControlViewModel.MenuControlViewModel()
+  fullName: Vortex.Presentation.Wpf.MenuControlViewModel.MenuControlViewModel()
+  type: Constructor
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
+    startLine: 20
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public MenuControlViewModel()
+    content.vb: Public Sub New
+  overload: Vortex.Presentation.Wpf.MenuControlViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Vortex.Presentation.Wpf
+  commentId: N:Vortex.Presentation.Wpf
+  name: Vortex.Presentation.Wpf
+  nameWithType: Vortex.Presentation.Wpf
+  fullName: Vortex.Presentation.Wpf
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vortex.Presentation.Wpf.BindableBase
+  commentId: T:Vortex.Presentation.Wpf.BindableBase
+  parent: Vortex.Presentation.Wpf
+  name: BindableBase
+  nameWithType: BindableBase
+  fullName: Vortex.Presentation.Wpf.BindableBase
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase
+  commentId: T:Vortex.Presentation.Wpf.NavigableViewModelBase
+  parent: Vortex.Presentation.Wpf
+  name: NavigableViewModelBase
+  nameWithType: NavigableViewModelBase
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Vortex.Presentation.Wpf.INavigable
+  commentId: T:Vortex.Presentation.Wpf.INavigable
+  parent: Vortex.Presentation.Wpf
+  name: INavigable
+  nameWithType: INavigable
+  fullName: Vortex.Presentation.Wpf.INavigable
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase._CurrentView
+  commentId: F:Vortex.Presentation.Wpf.NavigableViewModelBase._CurrentView
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: _CurrentView
+  nameWithType: NavigableViewModelBase._CurrentView
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase._CurrentView
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.CurrentView
+  commentId: P:Vortex.Presentation.Wpf.NavigableViewModelBase.CurrentView
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: CurrentView
+  nameWithType: NavigableViewModelBase.CurrentView
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.CurrentView
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase._NavCommands
+  commentId: F:Vortex.Presentation.Wpf.NavigableViewModelBase._NavCommands
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: _NavCommands
+  nameWithType: NavigableViewModelBase._NavCommands
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase._NavCommands
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.NavCommands
+  commentId: P:Vortex.Presentation.Wpf.NavigableViewModelBase.NavCommands
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: NavCommands
+  nameWithType: NavigableViewModelBase.NavCommands
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.NavCommands
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.ToggleMenu
+  commentId: M:Vortex.Presentation.Wpf.NavigableViewModelBase.ToggleMenu
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: ToggleMenu()
+  nameWithType: NavigableViewModelBase.ToggleMenu()
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.ToggleMenu()
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.ToggleMenu
+    name: ToggleMenu
+    nameWithType: NavigableViewModelBase.ToggleMenu
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.ToggleMenu
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.ToggleMenu
+    name: ToggleMenu
+    nameWithType: NavigableViewModelBase.ToggleMenu
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.ToggleMenu
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.AddCommand(System.Type,System.Object,System.Object)
+  commentId: M:Vortex.Presentation.Wpf.NavigableViewModelBase.AddCommand(System.Type,System.Object,System.Object)
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  isExternal: true
+  name: AddCommand(Type, Object, Object)
+  nameWithType: NavigableViewModelBase.AddCommand(Type, Object, Object)
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.AddCommand(System.Type, System.Object, System.Object)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.AddCommand(System.Type,System.Object,System.Object)
+    name: AddCommand
+    nameWithType: NavigableViewModelBase.AddCommand
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.AddCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.AddCommand(System.Type,System.Object,System.Object)
+    name: AddCommand
+    nameWithType: NavigableViewModelBase.AddCommand
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.AddCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenCommand(Vortex.Presentation.Wpf.NavCommand)
+  commentId: M:Vortex.Presentation.Wpf.NavigableViewModelBase.OpenCommand(Vortex.Presentation.Wpf.NavCommand)
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: OpenCommand(NavCommand)
+  nameWithType: NavigableViewModelBase.OpenCommand(NavCommand)
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenCommand(Vortex.Presentation.Wpf.NavCommand)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenCommand(Vortex.Presentation.Wpf.NavCommand)
+    name: OpenCommand
+    nameWithType: NavigableViewModelBase.OpenCommand
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Presentation.Wpf.NavCommand
+    name: NavCommand
+    nameWithType: NavCommand
+    fullName: Vortex.Presentation.Wpf.NavCommand
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenCommand(Vortex.Presentation.Wpf.NavCommand)
+    name: OpenCommand
+    nameWithType: NavigableViewModelBase.OpenCommand
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Presentation.Wpf.NavCommand
+    name: NavCommand
+    nameWithType: NavCommand
+    fullName: Vortex.Presentation.Wpf.NavCommand
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.title
+  commentId: F:Vortex.Presentation.Wpf.NavigableViewModelBase.title
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: title
+  nameWithType: NavigableViewModelBase.title
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.title
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.Title
+  commentId: P:Vortex.Presentation.Wpf.NavigableViewModelBase.Title
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: Title
+  nameWithType: NavigableViewModelBase.Title
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.Title
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.menuVisibility
+  commentId: F:Vortex.Presentation.Wpf.NavigableViewModelBase.menuVisibility
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: menuVisibility
+  nameWithType: NavigableViewModelBase.menuVisibility
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.menuVisibility
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.MenuVisibility
+  commentId: P:Vortex.Presentation.Wpf.NavigableViewModelBase.MenuVisibility
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: MenuVisibility
+  nameWithType: NavigableViewModelBase.MenuVisibility
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.MenuVisibility
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.ToggleMenuCommand
+  commentId: P:Vortex.Presentation.Wpf.NavigableViewModelBase.ToggleMenuCommand
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: ToggleMenuCommand
+  nameWithType: NavigableViewModelBase.ToggleMenuCommand
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.ToggleMenuCommand
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.openInWindow
+  commentId: F:Vortex.Presentation.Wpf.NavigableViewModelBase.openInWindow
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: openInWindow
+  nameWithType: NavigableViewModelBase.openInWindow
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.openInWindow
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.ContentPresentationMode
+  commentId: P:Vortex.Presentation.Wpf.NavigableViewModelBase.ContentPresentationMode
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: ContentPresentationMode
+  nameWithType: NavigableViewModelBase.ContentPresentationMode
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.ContentPresentationMode
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenView(System.Windows.FrameworkElement)
+  commentId: M:Vortex.Presentation.Wpf.NavigableViewModelBase.OpenView(System.Windows.FrameworkElement)
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  isExternal: true
+  name: OpenView(FrameworkElement)
+  nameWithType: NavigableViewModelBase.OpenView(FrameworkElement)
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenView(System.Windows.FrameworkElement)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenView(System.Windows.FrameworkElement)
+    name: OpenView
+    nameWithType: NavigableViewModelBase.OpenView
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenView
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Windows.FrameworkElement
+    name: FrameworkElement
+    nameWithType: FrameworkElement
+    fullName: System.Windows.FrameworkElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenView(System.Windows.FrameworkElement)
+    name: OpenView
+    nameWithType: NavigableViewModelBase.OpenView
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenView
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Windows.FrameworkElement
+    name: FrameworkElement
+    nameWithType: FrameworkElement
+    fullName: System.Windows.FrameworkElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.CreateElement(System.Windows.FrameworkElement)
+  commentId: M:Vortex.Presentation.Wpf.NavigableViewModelBase.CreateElement(System.Windows.FrameworkElement)
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  isExternal: true
+  name: CreateElement(FrameworkElement)
+  nameWithType: NavigableViewModelBase.CreateElement(FrameworkElement)
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.CreateElement(System.Windows.FrameworkElement)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.CreateElement(System.Windows.FrameworkElement)
+    name: CreateElement
+    nameWithType: NavigableViewModelBase.CreateElement
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.CreateElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Windows.FrameworkElement
+    name: FrameworkElement
+    nameWithType: FrameworkElement
+    fullName: System.Windows.FrameworkElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.CreateElement(System.Windows.FrameworkElement)
+    name: CreateElement
+    nameWithType: NavigableViewModelBase.CreateElement
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.CreateElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Windows.FrameworkElement
+    name: FrameworkElement
+    nameWithType: FrameworkElement
+    fullName: System.Windows.FrameworkElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.Current
+  commentId: P:Vortex.Presentation.Wpf.NavigableViewModelBase.Current
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: Current
+  nameWithType: NavigableViewModelBase.Current
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.Current
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.ShowInWindow(System.Windows.FrameworkElement)
+  commentId: M:Vortex.Presentation.Wpf.NavigableViewModelBase.ShowInWindow(System.Windows.FrameworkElement)
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  isExternal: true
+  name: ShowInWindow(FrameworkElement)
+  nameWithType: NavigableViewModelBase.ShowInWindow(FrameworkElement)
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.ShowInWindow(System.Windows.FrameworkElement)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.ShowInWindow(System.Windows.FrameworkElement)
+    name: ShowInWindow
+    nameWithType: NavigableViewModelBase.ShowInWindow
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.ShowInWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Windows.FrameworkElement
+    name: FrameworkElement
+    nameWithType: FrameworkElement
+    fullName: System.Windows.FrameworkElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.ShowInWindow(System.Windows.FrameworkElement)
+    name: ShowInWindow
+    nameWithType: NavigableViewModelBase.ShowInWindow
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.ShowInWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Windows.FrameworkElement
+    name: FrameworkElement
+    nameWithType: FrameworkElement
+    fullName: System.Windows.FrameworkElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.ShowDialogueInWindow(System.Windows.FrameworkElement)
+  commentId: M:Vortex.Presentation.Wpf.NavigableViewModelBase.ShowDialogueInWindow(System.Windows.FrameworkElement)
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  isExternal: true
+  name: ShowDialogueInWindow(FrameworkElement)
+  nameWithType: NavigableViewModelBase.ShowDialogueInWindow(FrameworkElement)
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.ShowDialogueInWindow(System.Windows.FrameworkElement)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.ShowDialogueInWindow(System.Windows.FrameworkElement)
+    name: ShowDialogueInWindow
+    nameWithType: NavigableViewModelBase.ShowDialogueInWindow
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.ShowDialogueInWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Windows.FrameworkElement
+    name: FrameworkElement
+    nameWithType: FrameworkElement
+    fullName: System.Windows.FrameworkElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.ShowDialogueInWindow(System.Windows.FrameworkElement)
+    name: ShowDialogueInWindow
+    nameWithType: NavigableViewModelBase.ShowDialogueInWindow
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.ShowDialogueInWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Windows.FrameworkElement
+    name: FrameworkElement
+    nameWithType: FrameworkElement
+    fullName: System.Windows.FrameworkElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenDefault
+  commentId: M:Vortex.Presentation.Wpf.NavigableViewModelBase.OpenDefault
+  parent: Vortex.Presentation.Wpf.NavigableViewModelBase
+  name: OpenDefault()
+  nameWithType: NavigableViewModelBase.OpenDefault()
+  fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenDefault()
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenDefault
+    name: OpenDefault
+    nameWithType: NavigableViewModelBase.OpenDefault
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenDefault
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenDefault
+    name: OpenDefault
+    nameWithType: NavigableViewModelBase.OpenDefault
+    fullName: Vortex.Presentation.Wpf.NavigableViewModelBase.OpenDefault
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.BindableBase.SetProperty``1({T}@,{T},System.String)
+  commentId: M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+  parent: Vortex.Presentation.Wpf.BindableBase
+  definition: Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+  name: SetProperty<T>(T, T, String)
+  nameWithType: BindableBase.SetProperty<T>(T, T, String)
+  fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty<T>(T, T, System.String)
+  nameWithType.vb: BindableBase.SetProperty(Of T)(T, T, String)
+  fullName.vb: Vortex.Presentation.Wpf.BindableBase.SetProperty(Of T)(T, T, System.String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty<T>
+    nameWithType: BindableBase.SetProperty<T>
+    fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty(Of T)
+    nameWithType: BindableBase.SetProperty(Of T)
+    fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+  commentId: M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+  parent: Vortex.Presentation.Wpf.BindableBase
+  isExternal: true
+  name: OnPropertyChanged(String)
+  nameWithType: BindableBase.OnPropertyChanged(String)
+  fullName: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: BindableBase.OnPropertyChanged
+    fullName: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: BindableBase.OnPropertyChanged
+    fullName: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.BindableBase.PropertyChanged
+  commentId: E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged
+  parent: Vortex.Presentation.Wpf.BindableBase
+  name: PropertyChanged
+  nameWithType: BindableBase.PropertyChanged
+  fullName: Vortex.Presentation.Wpf.BindableBase.PropertyChanged
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  definition: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  name: AttributeFormatOrNull()
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull()
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull()
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+  commentId: M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+  isExternal: true
+  name: SetProperty<T>(T, T, String)
+  nameWithType: BindableBase.SetProperty<T>(T, T, String)
+  fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty<T>(T, T, System.String)
+  nameWithType.vb: BindableBase.SetProperty(Of T)(T, T, String)
+  fullName.vb: Vortex.Presentation.Wpf.BindableBase.SetProperty(Of T)(T, T, System.String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty<T>
+    nameWithType: BindableBase.SetProperty<T>
+    fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty(Of T)
+    nameWithType: BindableBase.SetProperty(Of T)
+    fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  isExternal: true
+  name: AttributeFormatOrNull(Object)
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull(Object)
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  parent: Vortex.Presentation.Controls.Wpf.Extension
+  name: AttributeStringFormatExtensions
+  nameWithType: AttributeStringFormatExtensions
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+- uid: Vortex.Presentation.Controls.Wpf.Extension
+  commentId: N:Vortex.Presentation.Controls.Wpf.Extension
+  name: Vortex.Presentation.Controls.Wpf.Extension
+  nameWithType: Vortex.Presentation.Controls.Wpf.Extension
+  fullName: Vortex.Presentation.Controls.Wpf.Extension
+- uid: Vortex.Presentation.Wpf.MenuControlViewModel.#ctor*
+  commentId: Overload:Vortex.Presentation.Wpf.MenuControlViewModel.#ctor
+  name: MenuControlViewModel
+  nameWithType: MenuControlViewModel.MenuControlViewModel
+  fullName: Vortex.Presentation.Wpf.MenuControlViewModel.MenuControlViewModel

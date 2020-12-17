@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Styling.Wpf
+  commentId: N:Vortex.Presentation.Styling.Wpf
+  id: Vortex.Presentation.Styling.Wpf
+  children:
+  - Vortex.Presentation.Styling.Wpf.VortexResources
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Presentation.Styling.Wpf
+  nameWithType: Vortex.Presentation.Styling.Wpf
+  fullName: Vortex.Presentation.Styling.Wpf
+  type: Namespace
+  assemblies:
+  - Vortex.Presentation.Styling.Wpf
+references:
+- uid: Vortex.Presentation.Styling.Wpf.VortexResources
+  commentId: T:Vortex.Presentation.Styling.Wpf.VortexResources
+  name: VortexResources
+  nameWithType: VortexResources
+  fullName: Vortex.Presentation.Styling.Wpf.VortexResources

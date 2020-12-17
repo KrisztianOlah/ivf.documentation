@@ -1,0 +1,736 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Wpf.ActionRunner
+  commentId: T:Vortex.Presentation.Wpf.ActionRunner
+  id: ActionRunner
+  parent: Vortex.Presentation.Wpf
+  children:
+  - Vortex.Presentation.Wpf.ActionRunner.#ctor
+  - Vortex.Presentation.Wpf.ActionRunner._actionRunner
+  - Vortex.Presentation.Wpf.ActionRunner.DefaulApprove(System.Object)
+  - Vortex.Presentation.Wpf.ActionRunner.Execute(System.Action,System.String,Vortex.Presentation.Wpf.ActionRunner.UserApprovedActionDelegate)
+  - Vortex.Presentation.Wpf.ActionRunner.GetCaller(System.Int32)
+  - Vortex.Presentation.Wpf.ActionRunner.ReportException(System.Exception)
+  - Vortex.Presentation.Wpf.ActionRunner.Runner
+  langs:
+  - csharp
+  - vb
+  name: ActionRunner
+  nameWithType: ActionRunner
+  fullName: Vortex.Presentation.Wpf.ActionRunner
+  type: Class
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ActionRunner
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+    startLine: 12
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public class ActionRunner
+    content.vb: Public Class ActionRunner
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vortex.Presentation.Wpf.ActionRunner._actionRunner
+  commentId: F:Vortex.Presentation.Wpf.ActionRunner._actionRunner
+  id: _actionRunner
+  parent: Vortex.Presentation.Wpf.ActionRunner
+  langs:
+  - csharp
+  - vb
+  name: _actionRunner
+  nameWithType: ActionRunner._actionRunner
+  fullName: Vortex.Presentation.Wpf.ActionRunner._actionRunner
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _actionRunner
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+    startLine: 15
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: static ActionRunner _actionRunner
+    return:
+      type: Vortex.Presentation.Wpf.ActionRunner
+    content.vb: Shared _actionRunner As ActionRunner
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Presentation.Wpf.ActionRunner.Runner
+  commentId: P:Vortex.Presentation.Wpf.ActionRunner.Runner
+  id: Runner
+  parent: Vortex.Presentation.Wpf.ActionRunner
+  langs:
+  - csharp
+  - vb
+  name: Runner
+  nameWithType: ActionRunner.Runner
+  fullName: Vortex.Presentation.Wpf.ActionRunner.Runner
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Runner
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+    startLine: 17
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public static ActionRunner Runner { get; }
+    parameters: []
+    return:
+      type: Vortex.Presentation.Wpf.ActionRunner
+    content.vb: Public Shared ReadOnly Property Runner As ActionRunner
+  overload: Vortex.Presentation.Wpf.ActionRunner.Runner*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.ActionRunner.#ctor
+  commentId: M:Vortex.Presentation.Wpf.ActionRunner.#ctor
+  id: '#ctor'
+  parent: Vortex.Presentation.Wpf.ActionRunner
+  langs:
+  - csharp
+  - vb
+  name: ActionRunner()
+  nameWithType: ActionRunner.ActionRunner()
+  fullName: Vortex.Presentation.Wpf.ActionRunner.ActionRunner()
+  type: Constructor
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+    startLine: 31
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: ActionRunner()
+    content.vb: Sub New
+  overload: Vortex.Presentation.Wpf.ActionRunner.#ctor*
+- uid: Vortex.Presentation.Wpf.ActionRunner.ReportException(System.Exception)
+  commentId: M:Vortex.Presentation.Wpf.ActionRunner.ReportException(System.Exception)
+  id: ReportException(System.Exception)
+  parent: Vortex.Presentation.Wpf.ActionRunner
+  langs:
+  - csharp
+  - vb
+  name: ReportException(Exception)
+  nameWithType: ActionRunner.ReportException(Exception)
+  fullName: Vortex.Presentation.Wpf.ActionRunner.ReportException(System.Exception)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReportException
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+    startLine: 33
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public void ReportException(Exception exception)
+    parameters:
+    - id: exception
+      type: System.Exception
+    content.vb: Public Sub ReportException(exception As Exception)
+  overload: Vortex.Presentation.Wpf.ActionRunner.ReportException*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.ActionRunner.DefaulApprove(System.Object)
+  commentId: M:Vortex.Presentation.Wpf.ActionRunner.DefaulApprove(System.Object)
+  id: DefaulApprove(System.Object)
+  parent: Vortex.Presentation.Wpf.ActionRunner
+  langs:
+  - csharp
+  - vb
+  name: DefaulApprove(Object)
+  nameWithType: ActionRunner.DefaulApprove(Object)
+  fullName: Vortex.Presentation.Wpf.ActionRunner.DefaulApprove(System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: DefaulApprove
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+    startLine: 39
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: bool DefaulApprove(object parameter = null)
+    parameters:
+    - id: parameter
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Function DefaulApprove(parameter As Object = Nothing) As Boolean
+  overload: Vortex.Presentation.Wpf.ActionRunner.DefaulApprove*
+- uid: Vortex.Presentation.Wpf.ActionRunner.Execute(System.Action,System.String,Vortex.Presentation.Wpf.ActionRunner.UserApprovedActionDelegate)
+  commentId: M:Vortex.Presentation.Wpf.ActionRunner.Execute(System.Action,System.String,Vortex.Presentation.Wpf.ActionRunner.UserApprovedActionDelegate)
+  id: Execute(System.Action,System.String,Vortex.Presentation.Wpf.ActionRunner.UserApprovedActionDelegate)
+  parent: Vortex.Presentation.Wpf.ActionRunner
+  langs:
+  - csharp
+  - vb
+  name: Execute(Action, String, ActionRunner.UserApprovedActionDelegate)
+  nameWithType: ActionRunner.Execute(Action, String, ActionRunner.UserApprovedActionDelegate)
+  fullName: Vortex.Presentation.Wpf.ActionRunner.Execute(System.Action, System.String, Vortex.Presentation.Wpf.ActionRunner.UserApprovedActionDelegate)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Execute
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+    startLine: 46
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public void Execute(Action action, string info = "", ActionRunner.UserApprovedActionDelegate userApproval = null)
+    parameters:
+    - id: action
+      type: System.Action
+    - id: info
+      type: System.String
+    - id: userApproval
+      type: Vortex.Presentation.Wpf.ActionRunner.UserApprovedActionDelegate
+    content.vb: Public Sub Execute(action As Action, info As String = "", userApproval As ActionRunner.UserApprovedActionDelegate = Nothing)
+  overload: Vortex.Presentation.Wpf.ActionRunner.Execute*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.ActionRunner.GetCaller(System.Int32)
+  commentId: M:Vortex.Presentation.Wpf.ActionRunner.GetCaller(System.Int32)
+  id: GetCaller(System.Int32)
+  parent: Vortex.Presentation.Wpf.ActionRunner
+  langs:
+  - csharp
+  - vb
+  name: GetCaller(Int32)
+  nameWithType: ActionRunner.GetCaller(Int32)
+  fullName: Vortex.Presentation.Wpf.ActionRunner.GetCaller(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetCaller
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
+    startLine: 76
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: static string GetCaller(int level = 2)
+    parameters:
+    - id: level
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Shared Function GetCaller(level As Integer = 2) As String
+  overload: Vortex.Presentation.Wpf.ActionRunner.GetCaller*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+references:
+- uid: Vortex.Presentation.Wpf
+  commentId: N:Vortex.Presentation.Wpf
+  name: Vortex.Presentation.Wpf
+  nameWithType: Vortex.Presentation.Wpf
+  fullName: Vortex.Presentation.Wpf
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  definition: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  name: AttributeFormatOrNull()
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull()
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull()
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  isExternal: true
+  name: AttributeFormatOrNull(Object)
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull(Object)
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  parent: Vortex.Presentation.Controls.Wpf.Extension
+  name: AttributeStringFormatExtensions
+  nameWithType: AttributeStringFormatExtensions
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+- uid: Vortex.Presentation.Controls.Wpf.Extension
+  commentId: N:Vortex.Presentation.Controls.Wpf.Extension
+  name: Vortex.Presentation.Controls.Wpf.Extension
+  nameWithType: Vortex.Presentation.Controls.Wpf.Extension
+  fullName: Vortex.Presentation.Controls.Wpf.Extension
+- uid: Vortex.Presentation.Wpf.ActionRunner
+  commentId: T:Vortex.Presentation.Wpf.ActionRunner
+  parent: Vortex.Presentation.Wpf
+  name: ActionRunner
+  nameWithType: ActionRunner
+  fullName: Vortex.Presentation.Wpf.ActionRunner
+- uid: Vortex.Presentation.Wpf.ActionRunner.Runner*
+  commentId: Overload:Vortex.Presentation.Wpf.ActionRunner.Runner
+  name: Runner
+  nameWithType: ActionRunner.Runner
+  fullName: Vortex.Presentation.Wpf.ActionRunner.Runner
+- uid: Vortex.Presentation.Wpf.ActionRunner.#ctor*
+  commentId: Overload:Vortex.Presentation.Wpf.ActionRunner.#ctor
+  name: ActionRunner
+  nameWithType: ActionRunner.ActionRunner
+  fullName: Vortex.Presentation.Wpf.ActionRunner.ActionRunner
+- uid: Vortex.Presentation.Wpf.ActionRunner.ReportException*
+  commentId: Overload:Vortex.Presentation.Wpf.ActionRunner.ReportException
+  name: ReportException
+  nameWithType: ActionRunner.ReportException
+  fullName: Vortex.Presentation.Wpf.ActionRunner.ReportException
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Vortex.Presentation.Wpf.ActionRunner.DefaulApprove*
+  commentId: Overload:Vortex.Presentation.Wpf.ActionRunner.DefaulApprove
+  name: DefaulApprove
+  nameWithType: ActionRunner.DefaulApprove
+  fullName: Vortex.Presentation.Wpf.ActionRunner.DefaulApprove
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vortex.Presentation.Wpf.ActionRunner.Execute*
+  commentId: Overload:Vortex.Presentation.Wpf.ActionRunner.Execute
+  name: Execute
+  nameWithType: ActionRunner.Execute
+  fullName: Vortex.Presentation.Wpf.ActionRunner.Execute
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vortex.Presentation.Wpf.ActionRunner.UserApprovedActionDelegate
+  commentId: T:Vortex.Presentation.Wpf.ActionRunner.UserApprovedActionDelegate
+  parent: Vortex.Presentation.Wpf
+  name: ActionRunner.UserApprovedActionDelegate
+  nameWithType: ActionRunner.UserApprovedActionDelegate
+  fullName: Vortex.Presentation.Wpf.ActionRunner.UserApprovedActionDelegate
+- uid: Vortex.Presentation.Wpf.ActionRunner.GetCaller*
+  commentId: Overload:Vortex.Presentation.Wpf.ActionRunner.GetCaller
+  name: GetCaller
+  nameWithType: ActionRunner.GetCaller
+  fullName: Vortex.Presentation.Wpf.ActionRunner.GetCaller
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,313 @@
+### YamlMime:TableOfContent
+- uid: Vortex.Presentation.Controls.Wpf
+  name: Vortex.Presentation.Controls.Wpf
+  items:
+  - uid: Vortex.Presentation.Controls.Wpf.DateTimePickerBox
+    name: DateTimePickerBox
+  - uid: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils
+    name: MaterialPickerUtils
+  - uid: Vortex.Presentation.Controls.Wpf.MultiConverter
+    name: MultiConverter
+  - uid: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox
+    name: TimePickerBaseBox
+  - uid: Vortex.Presentation.Controls.Wpf.TimeTextBoxBaseBox
+    name: TimeTextBoxBaseBox
+- uid: Vortex.Presentation.Controls.Wpf.Enumerators
+  name: Vortex.Presentation.Controls.Wpf.Enumerators
+  items:
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainer
+    name: EnumeratorContainer
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlSlimView
+    name: EnumeratorContainerControlSlimView
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlSlimViewModel
+    name: EnumeratorContainerControlSlimViewModel
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlView
+    name: EnumeratorContainerControlView
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerControlViewModel
+    name: EnumeratorContainerControlViewModel
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplaySlimView
+    name: EnumeratorContainerDisplaySlimView
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplaySlimViewModel
+    name: EnumeratorContainerDisplaySlimViewModel
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayView
+    name: EnumeratorContainerDisplayView
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerDisplayViewModel
+    name: EnumeratorContainerDisplayViewModel
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlSlimView
+    name: EnumeratorContainerShadowControlSlimView
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlSlimViewModel
+    name: EnumeratorContainerShadowControlSlimViewModel
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlView
+    name: EnumeratorContainerShadowControlView
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel
+    name: EnumeratorContainerShadowControlViewModel
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplaySlimView
+    name: EnumeratorContainerShadowDisplaySlimView
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplaySlimViewModel
+    name: EnumeratorContainerShadowDisplaySlimViewModel
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayView
+    name: EnumeratorContainerShadowDisplayView
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowDisplayViewModel
+    name: EnumeratorContainerShadowDisplayViewModel
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel
+    name: EnumeratorContainerViewModel
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumToIntConverter
+    name: EnumToIntConverter
+- uid: Vortex.Presentation.Controls.Wpf.Extension
+  name: Vortex.Presentation.Controls.Wpf.Extension
+  items:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+    name: AttributeStringFormatExtensions
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker
+    name: DateTimePicker
+- uid: Vortex.Presentation.Controls.Wpf.OnlineControl
+  name: Vortex.Presentation.Controls.Wpf.OnlineControl
+  items:
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlCheckBox
+    name: OnlineControlCheckBox
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlCheckBoxValue
+    name: OnlineControlCheckBoxValue
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate
+    name: OnlineControlDate
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime
+    name: OnlineControlDateTime
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlLTime
+    name: OnlineControlLTime
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTextBox
+    name: OnlineControlTextBox
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTextBoxValue
+    name: OnlineControlTextBoxValue
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTime
+    name: OnlineControlTime
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay
+    name: OnlineControlTimeOfDay
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeTextBox
+    name: OnlineControlTimeTextBox
+- uid: Vortex.Presentation.Controls.Wpf.OnlineControls
+  name: Vortex.Presentation.Controls.Wpf.OnlineControls
+  items:
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBox
+    name: OnlineControlSlimCheckBox
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBoxValue
+    name: OnlineControlSlimCheckBoxValue
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDate
+    name: OnlineControlSlimDate
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDateTime
+    name: OnlineControlSlimDateTime
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimLTime
+    name: OnlineControlSlimLTime
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTextBox
+    name: OnlineControlSlimTextBox
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTextBoxValue
+    name: OnlineControlSlimTextBoxValue
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTime
+    name: OnlineControlSlimTime
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTimeOfDay
+    name: OnlineControlSlimTimeOfDay
+- uid: Vortex.Presentation.Controls.Wpf.OnlineDisplay
+  name: Vortex.Presentation.Controls.Wpf.OnlineDisplay
+  items:
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayCheckBox
+    name: OnlineDisplayCheckBox
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTextBox
+    name: OnlineDisplayTextBox
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTextBoxValue
+    name: OnlineDisplayTextBoxValue
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTimeTextBox
+    name: OnlineDisplayTimeTextBox
+- uid: Vortex.Presentation.Controls.Wpf.ShadowControl
+  name: Vortex.Presentation.Controls.Wpf.ShadowControl
+  items:
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBox
+    name: ShadowControlCheckBox
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBoxValue
+    name: ShadowControlCheckBoxValue
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlDate
+    name: ShadowControlDate
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlDateTime
+    name: ShadowControlDateTime
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlLTime
+    name: ShadowControlLTime
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTextBox
+    name: ShadowControlTextBox
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTextBoxValue
+    name: ShadowControlTextBoxValue
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTime
+    name: ShadowControlTime
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTimeOfDay
+    name: ShadowControlTimeOfDay
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTimeTextBox
+    name: ShadowControlTimeTextBox
+- uid: Vortex.Presentation.Controls.Wpf.ShadowDisplay
+  name: Vortex.Presentation.Controls.Wpf.ShadowDisplay
+  items:
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayCheckBox
+    name: ShadowDisplayCheckBox
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTextBox
+    name: ShadowDisplayTextBox
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTextBoxValue
+    name: ShadowDisplayTextBoxValue
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTimeTextBox
+    name: ShadowDisplayTimeTextBox
+- uid: Vortex.Presentation.Controls.Wpf.Shared.Base
+  name: Vortex.Presentation.Controls.Wpf.Shared.Base
+  items:
+  - uid: Vortex.Presentation.Controls.Wpf.Shared.Base.TimeAndDateConverterFactory
+    name: TimeAndDateConverterFactory
+- uid: Vortex.Presentation.ControlSlims.Wpf
+  name: Vortex.Presentation.ControlSlims.Wpf
+  items:
+  - uid: Vortex.Presentation.ControlSlims.Wpf.MultiConverter
+    name: MultiConverter
+- uid: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim
+  name: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim
+  items:
+  - uid: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimCheckBox
+    name: OnlineDisplaySlimCheckBox
+  - uid: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTextBox
+    name: OnlineDisplaySlimTextBox
+  - uid: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTextBoxValue
+    name: OnlineDisplaySlimTextBoxValue
+  - uid: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTimeTextBox
+    name: OnlineDisplaySlimTimeTextBox
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim
+  name: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim
+  items:
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBox
+    name: ShadowControlSlimCheckBox
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBoxValue
+    name: ShadowControlSlimCheckBoxValue
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDate
+    name: ShadowControlSlimDate
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDateTime
+    name: ShadowControlSlimDateTime
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimLTime
+    name: ShadowControlSlimLTime
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTextBox
+    name: ShadowControlSlimTextBox
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTextBoxValue
+    name: ShadowControlSlimTextBoxValue
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTime
+    name: ShadowControlSlimTime
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTimeOfDay
+    name: ShadowControlSlimTimeOfDay
+- uid: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim
+  name: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim
+  items:
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimCheckBox
+    name: ShadowDisplaySlimCheckBox
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTextBox
+    name: ShadowDisplaySlimTextBox
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTextBoxValue
+    name: ShadowDisplaySlimTextBoxValue
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowDisplaySlim.ShadowDisplaySlimTimeTextBox
+    name: ShadowDisplaySlimTimeTextBox
+- uid: Vortex.Presentation.Styling.Wpf
+  name: Vortex.Presentation.Styling.Wpf
+  items:
+  - uid: Vortex.Presentation.Styling.Wpf.VortexResources
+    name: VortexResources
+- uid: Vortex.Presentation.Styling.Wpf.Assist
+  name: Vortex.Presentation.Styling.Wpf.Assist
+  items:
+  - uid: Vortex.Presentation.Styling.Wpf.Assist.DataGridAssist
+    name: DataGridAssist
+- uid: Vortex.Presentation.Wpf
+  name: Vortex.Presentation.Wpf
+  items:
+  - uid: Vortex.Presentation.Wpf.ActionRunner
+    name: ActionRunner
+  - uid: Vortex.Presentation.Wpf.ActionRunner.UserApprovedActionDelegate
+    name: ActionRunner.UserApprovedActionDelegate
+  - uid: Vortex.Presentation.Wpf.BindableBase
+    name: BindableBase
+  - uid: Vortex.Presentation.Wpf.ConsoleWriter
+    name: ConsoleWriter
+  - uid: Vortex.Presentation.Wpf.ConsoleWriterEventArgs
+    name: ConsoleWriterEventArgs
+  - uid: Vortex.Presentation.Wpf.ContentOpeningMode
+    name: ContentOpeningMode
+  - uid: Vortex.Presentation.Wpf.CreatorFailureDisplayBox
+    name: CreatorFailureDisplayBox
+  - uid: Vortex.Presentation.Wpf.DateFormatConverter
+    name: DateFormatConverter
+  - uid: Vortex.Presentation.Wpf.DateTimeFormatConverter
+    name: DateTimeFormatConverter
+  - uid: Vortex.Presentation.Wpf.EnumeratorHelper
+    name: EnumeratorHelper
+  - uid: Vortex.Presentation.Wpf.EnumHelper
+    name: EnumHelper
+  - uid: Vortex.Presentation.Wpf.EnumToCollectionConverter
+    name: EnumToCollectionConverter
+  - uid: Vortex.Presentation.Wpf.INavigable
+    name: INavigable
+  - uid: Vortex.Presentation.Wpf.LazyRenderer
+    name: LazyRenderer
+  - uid: Vortex.Presentation.Wpf.MenuControlsHelper
+    name: MenuControlsHelper
+  - uid: Vortex.Presentation.Wpf.MenuControlView
+    name: MenuControlView
+  - uid: Vortex.Presentation.Wpf.MenuControlViewModel
+    name: MenuControlViewModel
+  - uid: Vortex.Presentation.Wpf.MenuControlViewTestViewModel
+    name: MenuControlViewTestViewModel
+  - uid: Vortex.Presentation.Wpf.MenuRenderableControlViewModel
+    name: MenuRenderableControlViewModel
+  - uid: Vortex.Presentation.Wpf.MvvmVisualState
+    name: MvvmVisualState
+  - uid: Vortex.Presentation.Wpf.NavCommand
+    name: NavCommand
+  - uid: Vortex.Presentation.Wpf.NavigableRenderableViewModelBase
+    name: NavigableRenderableViewModelBase
+  - uid: Vortex.Presentation.Wpf.NavigableViewModelBase
+    name: NavigableViewModelBase
+  - uid: Vortex.Presentation.Wpf.PresentationHelper
+    name: PresentationHelper
+  - uid: Vortex.Presentation.Wpf.RelayCommand
+    name: RelayCommand
+  - uid: Vortex.Presentation.Wpf.RelayCommand`1
+    name: RelayCommand<T>
+    name.vb: RelayCommand(Of T)
+  - uid: Vortex.Presentation.Wpf.RenderableAssemblyAttribute
+    name: RenderableAssemblyAttribute
+  - uid: Vortex.Presentation.Wpf.RenderableContentControl
+    name: RenderableContentControl
+  - uid: Vortex.Presentation.Wpf.RenderableContentDelayedControl
+    name: RenderableContentDelayedControl
+  - uid: Vortex.Presentation.Wpf.RenderableViewModel
+    name: RenderableViewModel
+  - uid: Vortex.Presentation.Wpf.RenderContentConverter
+    name: RenderContentConverter
+  - uid: Vortex.Presentation.Wpf.RenderContentDelayedConverter
+    name: RenderContentDelayedConverter
+  - uid: Vortex.Presentation.Wpf.Renderer
+    name: Renderer
+  - uid: Vortex.Presentation.Wpf.Renderer.BaseTypeProperies
+    name: Renderer.BaseTypeProperies
+  - uid: Vortex.Presentation.Wpf.Renderer.ComponentsCacheItem
+    name: Renderer.ComponentsCacheItem
+  - uid: Vortex.Presentation.Wpf.ReportingLevel
+    name: ReportingLevel
+  - uid: Vortex.Presentation.Wpf.SelectedButtonConverter
+    name: SelectedButtonConverter
+  - uid: Vortex.Presentation.Wpf.StartUpWindow
+    name: StartUpWindow
+  - uid: Vortex.Presentation.Wpf.TestView
+    name: TestView
+  - uid: Vortex.Presentation.Wpf.TimeFormatConverter
+    name: TimeFormatConverter
+  - uid: Vortex.Presentation.Wpf.TooManyObjectsToRenderException
+    name: TooManyObjectsToRenderException
+  - uid: Vortex.Presentation.Wpf.ValueDescription
+    name: ValueDescription
+  - uid: Vortex.Presentation.Wpf.WpfLayoutProvider
+    name: WpfLayoutProvider
+- uid: Vortex.Presentation.Wpf.Converters
+  name: Vortex.Presentation.Wpf.Converters
+  items:
+  - uid: Vortex.Presentation.Wpf.Converters.BaseConverter
+    name: BaseConverter
+  - uid: Vortex.Presentation.Wpf.Converters.BaseMultiConverter
+    name: BaseMultiConverter
+  - uid: Vortex.Presentation.Wpf.Converters.CapitalizeConverter
+    name: CapitalizeConverter

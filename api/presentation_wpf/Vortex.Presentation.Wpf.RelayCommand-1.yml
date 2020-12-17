@@ -1,0 +1,1190 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Wpf.RelayCommand`1
+  commentId: T:Vortex.Presentation.Wpf.RelayCommand`1
+  id: RelayCommand`1
+  parent: Vortex.Presentation.Wpf
+  children:
+  - Vortex.Presentation.Wpf.RelayCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean},System.Object,System.String)
+  - Vortex.Presentation.Wpf.RelayCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean},Vortex.Connector.IVortexObject,System.String)
+  - Vortex.Presentation.Wpf.RelayCommand`1._callerObject
+  - Vortex.Presentation.Wpf.RelayCommand`1._commandName
+  - Vortex.Presentation.Wpf.RelayCommand`1._TargetCanExecuteMethod
+  - Vortex.Presentation.Wpf.RelayCommand`1._TargetExecuteMethod
+  - Vortex.Presentation.Wpf.RelayCommand`1._vortexCallerObject
+  - Vortex.Presentation.Wpf.RelayCommand`1.CanExecute(System.Object)
+  - Vortex.Presentation.Wpf.RelayCommand`1.CanExecuteChanged
+  - Vortex.Presentation.Wpf.RelayCommand`1.Execute(System.Object)
+  - Vortex.Presentation.Wpf.RelayCommand`1.RaiseCanExecuteChanged
+  langs:
+  - csharp
+  - vb
+  name: RelayCommand<T>
+  nameWithType: RelayCommand<T>
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>
+  type: Class
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: RelayCommand
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+    startLine: 11
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nRelay command with logging capabilities.\n"
+  example: []
+  syntax:
+    content: 'public class RelayCommand<T> : ICommand'
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: >-
+      Public Class RelayCommand(Of T)
+          Implements ICommand
+  inheritance:
+  - System.Object
+  implements:
+  - System.Windows.Input.ICommand
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  nameWithType.vb: RelayCommand(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T)
+  name.vb: RelayCommand(Of T)
+- uid: Vortex.Presentation.Wpf.RelayCommand`1._TargetExecuteMethod
+  commentId: F:Vortex.Presentation.Wpf.RelayCommand`1._TargetExecuteMethod
+  id: _TargetExecuteMethod
+  parent: Vortex.Presentation.Wpf.RelayCommand`1
+  langs:
+  - csharp
+  - vb
+  name: _TargetExecuteMethod
+  nameWithType: RelayCommand<T>._TargetExecuteMethod
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>._TargetExecuteMethod
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _TargetExecuteMethod
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+    startLine: 13
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Action<T> _TargetExecuteMethod
+    return:
+      type: System.Action{{T}}
+    content.vb: _TargetExecuteMethod As Action(Of T)
+  nameWithType.vb: RelayCommand(Of T)._TargetExecuteMethod
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T)._TargetExecuteMethod
+- uid: Vortex.Presentation.Wpf.RelayCommand`1._TargetCanExecuteMethod
+  commentId: F:Vortex.Presentation.Wpf.RelayCommand`1._TargetCanExecuteMethod
+  id: _TargetCanExecuteMethod
+  parent: Vortex.Presentation.Wpf.RelayCommand`1
+  langs:
+  - csharp
+  - vb
+  name: _TargetCanExecuteMethod
+  nameWithType: RelayCommand<T>._TargetCanExecuteMethod
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>._TargetCanExecuteMethod
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _TargetCanExecuteMethod
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+    startLine: 14
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Func<T, bool> _TargetCanExecuteMethod
+    return:
+      type: System.Func{{T},System.Boolean}
+    content.vb: _TargetCanExecuteMethod As Func(Of T, Boolean)
+  nameWithType.vb: RelayCommand(Of T)._TargetCanExecuteMethod
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T)._TargetCanExecuteMethod
+- uid: Vortex.Presentation.Wpf.RelayCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean},Vortex.Connector.IVortexObject,System.String)
+  commentId: M:Vortex.Presentation.Wpf.RelayCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean},Vortex.Connector.IVortexObject,System.String)
+  id: '#ctor(System.Action{`0},System.Func{`0,System.Boolean},Vortex.Connector.IVortexObject,System.String)'
+  parent: Vortex.Presentation.Wpf.RelayCommand`1
+  langs:
+  - csharp
+  - vb
+  name: RelayCommand(Action<T>, Func<T, Boolean>, IVortexObject, String)
+  nameWithType: RelayCommand<T>.RelayCommand(Action<T>, Func<T, Boolean>, IVortexObject, String)
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>.RelayCommand(System.Action<T>, System.Func<T, System.Boolean>, Vortex.Connector.IVortexObject, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+    startLine: 23
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nCreates new instance of <xref href=\"Vortex.Presentation.Wpf.RelayCommand\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public RelayCommand(Action<T> executeMethod, Func<T, bool> canExecuteMethod = null, IVortexObject callerObject = null, string commandName = "")
+    parameters:
+    - id: executeMethod
+      type: System.Action{{T}}
+      description: Method to be executed with this command.
+    - id: canExecuteMethod
+      type: System.Func{{T},System.Boolean}
+      description: Can execute method determined whether this command can be executed.
+    - id: callerObject
+      type: Vortex.Connector.IVortexObject
+      description: Object that invoked this command.
+    - id: commandName
+      type: System.String
+      description: Optional command description of the command to enrich the logged data.
+    content.vb: Public Sub New(executeMethod As Action(Of T), canExecuteMethod As Func(Of T, Boolean) = Nothing, callerObject As IVortexObject = Nothing, commandName As String = "")
+  overload: Vortex.Presentation.Wpf.RelayCommand`1.#ctor*
+  nameWithType.vb: RelayCommand(Of T).RelayCommand(Action(Of T), Func(Of T, Boolean), IVortexObject, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T).RelayCommand(System.Action(Of T), System.Func(Of T, System.Boolean), Vortex.Connector.IVortexObject, System.String)
+  name.vb: RelayCommand(Action(Of T), Func(Of T, Boolean), IVortexObject, String)
+- uid: Vortex.Presentation.Wpf.RelayCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean},System.Object,System.String)
+  commentId: M:Vortex.Presentation.Wpf.RelayCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean},System.Object,System.String)
+  id: '#ctor(System.Action{`0},System.Func{`0,System.Boolean},System.Object,System.String)'
+  parent: Vortex.Presentation.Wpf.RelayCommand`1
+  langs:
+  - csharp
+  - vb
+  name: RelayCommand(Action<T>, Func<T, Boolean>, Object, String)
+  nameWithType: RelayCommand<T>.RelayCommand(Action<T>, Func<T, Boolean>, Object, String)
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>.RelayCommand(System.Action<T>, System.Func<T, System.Boolean>, System.Object, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+    startLine: 39
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nCreates new instance of <xref href=\"Vortex.Presentation.Wpf.RelayCommand\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public RelayCommand(Action<T> executeMethod, Func<T, bool> canExecuteMethod = null, object callerObject = null, string commandName = "")
+    parameters:
+    - id: executeMethod
+      type: System.Action{{T}}
+      description: Method to be executed with this command.
+    - id: canExecuteMethod
+      type: System.Func{{T},System.Boolean}
+      description: Can execute method determined whether this command can be executed.
+    - id: callerObject
+      type: System.Object
+      description: Object that invoked this command.
+    - id: commandName
+      type: System.String
+      description: Optional command description of the command to enrich the logged data.
+    content.vb: Public Sub New(executeMethod As Action(Of T), canExecuteMethod As Func(Of T, Boolean) = Nothing, callerObject As Object = Nothing, commandName As String = "")
+  overload: Vortex.Presentation.Wpf.RelayCommand`1.#ctor*
+  nameWithType.vb: RelayCommand(Of T).RelayCommand(Action(Of T), Func(Of T, Boolean), Object, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T).RelayCommand(System.Action(Of T), System.Func(Of T, System.Boolean), System.Object, System.String)
+  name.vb: RelayCommand(Action(Of T), Func(Of T, Boolean), Object, String)
+- uid: Vortex.Presentation.Wpf.RelayCommand`1._callerObject
+  commentId: F:Vortex.Presentation.Wpf.RelayCommand`1._callerObject
+  id: _callerObject
+  parent: Vortex.Presentation.Wpf.RelayCommand`1
+  langs:
+  - csharp
+  - vb
+  name: _callerObject
+  nameWithType: RelayCommand<T>._callerObject
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>._callerObject
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _callerObject
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+    startLine: 47
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: object _callerObject
+    return:
+      type: System.Object
+    content.vb: _callerObject As Object
+  nameWithType.vb: RelayCommand(Of T)._callerObject
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T)._callerObject
+- uid: Vortex.Presentation.Wpf.RelayCommand`1._vortexCallerObject
+  commentId: F:Vortex.Presentation.Wpf.RelayCommand`1._vortexCallerObject
+  id: _vortexCallerObject
+  parent: Vortex.Presentation.Wpf.RelayCommand`1
+  langs:
+  - csharp
+  - vb
+  name: _vortexCallerObject
+  nameWithType: RelayCommand<T>._vortexCallerObject
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>._vortexCallerObject
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _vortexCallerObject
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+    startLine: 48
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: IVortexObject _vortexCallerObject
+    return:
+      type: Vortex.Connector.IVortexObject
+    content.vb: _vortexCallerObject As IVortexObject
+  nameWithType.vb: RelayCommand(Of T)._vortexCallerObject
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T)._vortexCallerObject
+- uid: Vortex.Presentation.Wpf.RelayCommand`1._commandName
+  commentId: F:Vortex.Presentation.Wpf.RelayCommand`1._commandName
+  id: _commandName
+  parent: Vortex.Presentation.Wpf.RelayCommand`1
+  langs:
+  - csharp
+  - vb
+  name: _commandName
+  nameWithType: RelayCommand<T>._commandName
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>._commandName
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _commandName
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+    startLine: 49
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: string _commandName
+    return:
+      type: System.String
+    content.vb: _commandName As String
+  nameWithType.vb: RelayCommand(Of T)._commandName
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T)._commandName
+- uid: Vortex.Presentation.Wpf.RelayCommand`1.RaiseCanExecuteChanged
+  commentId: M:Vortex.Presentation.Wpf.RelayCommand`1.RaiseCanExecuteChanged
+  id: RaiseCanExecuteChanged
+  parent: Vortex.Presentation.Wpf.RelayCommand`1
+  langs:
+  - csharp
+  - vb
+  name: RaiseCanExecuteChanged()
+  nameWithType: RelayCommand<T>.RaiseCanExecuteChanged()
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>.RaiseCanExecuteChanged()
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: RaiseCanExecuteChanged
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+    startLine: 55
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nForces raising of <xref href=\"Vortex.Presentation.Wpf.RelayCommand%601.CanExecuteChanged\" data-throw-if-not-resolved=\"false\"></xref> can execute event.\n"
+  example: []
+  syntax:
+    content: public void RaiseCanExecuteChanged()
+    content.vb: Public Sub RaiseCanExecuteChanged
+  overload: Vortex.Presentation.Wpf.RelayCommand`1.RaiseCanExecuteChanged*
+  nameWithType.vb: RelayCommand(Of T).RaiseCanExecuteChanged()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T).RaiseCanExecuteChanged()
+- uid: Vortex.Presentation.Wpf.RelayCommand`1.CanExecute(System.Object)
+  commentId: M:Vortex.Presentation.Wpf.RelayCommand`1.CanExecute(System.Object)
+  id: CanExecute(System.Object)
+  parent: Vortex.Presentation.Wpf.RelayCommand`1
+  langs:
+  - csharp
+  - vb
+  name: CanExecute(Object)
+  nameWithType: RelayCommand<T>.CanExecute(Object)
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>.CanExecute(System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CanExecute
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+    startLine: 63
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public bool CanExecute(object parameter)
+    parameters:
+    - id: parameter
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Function CanExecute(parameter As Object) As Boolean
+  overload: Vortex.Presentation.Wpf.RelayCommand`1.CanExecute*
+  implements:
+  - System.Windows.Input.ICommand.CanExecute(System.Object)
+  nameWithType.vb: RelayCommand(Of T).CanExecute(Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T).CanExecute(System.Object)
+- uid: Vortex.Presentation.Wpf.RelayCommand`1.CanExecuteChanged
+  commentId: E:Vortex.Presentation.Wpf.RelayCommand`1.CanExecuteChanged
+  id: CanExecuteChanged
+  parent: Vortex.Presentation.Wpf.RelayCommand`1
+  langs:
+  - csharp
+  - vb
+  name: CanExecuteChanged
+  nameWithType: RelayCommand<T>.CanExecuteChanged
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>.CanExecuteChanged
+  type: Event
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CanExecuteChanged
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+    startLine: 81
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nCan execute handler.\n"
+  example: []
+  syntax:
+    content: public event EventHandler CanExecuteChanged
+    return:
+      type: System.EventHandler
+    content.vb: Public Event CanExecuteChanged As EventHandler
+  implements:
+  - System.Windows.Input.ICommand.CanExecuteChanged
+  nameWithType.vb: RelayCommand(Of T).CanExecuteChanged
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T).CanExecuteChanged
+- uid: Vortex.Presentation.Wpf.RelayCommand`1.Execute(System.Object)
+  commentId: M:Vortex.Presentation.Wpf.RelayCommand`1.Execute(System.Object)
+  id: Execute(System.Object)
+  parent: Vortex.Presentation.Wpf.RelayCommand`1
+  langs:
+  - csharp
+  - vb
+  name: Execute(Object)
+  nameWithType: RelayCommand<T>.Execute(Object)
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>.Execute(System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Execute
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
+    startLine: 84
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: public void Execute(object parameter)
+    parameters:
+    - id: parameter
+      type: System.Object
+    content.vb: Public Sub Execute(parameter As Object)
+  overload: Vortex.Presentation.Wpf.RelayCommand`1.Execute*
+  implements:
+  - System.Windows.Input.ICommand.Execute(System.Object)
+  nameWithType.vb: RelayCommand(Of T).Execute(Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T).Execute(System.Object)
+references:
+- uid: Vortex.Presentation.Wpf
+  commentId: N:Vortex.Presentation.Wpf
+  name: Vortex.Presentation.Wpf
+  nameWithType: Vortex.Presentation.Wpf
+  fullName: Vortex.Presentation.Wpf
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Windows.Input.ICommand
+  commentId: T:System.Windows.Input.ICommand
+  parent: System.Windows.Input
+  isExternal: true
+  name: ICommand
+  nameWithType: ICommand
+  fullName: System.Windows.Input.ICommand
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  definition: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  name: AttributeFormatOrNull()
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull()
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull()
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  isExternal: true
+  name: AttributeFormatOrNull(Object)
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull(Object)
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  parent: Vortex.Presentation.Controls.Wpf.Extension
+  name: AttributeStringFormatExtensions
+  nameWithType: AttributeStringFormatExtensions
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+- uid: Vortex.Presentation.Controls.Wpf.Extension
+  commentId: N:Vortex.Presentation.Controls.Wpf.Extension
+  name: Vortex.Presentation.Controls.Wpf.Extension
+  nameWithType: Vortex.Presentation.Controls.Wpf.Extension
+  fullName: Vortex.Presentation.Controls.Wpf.Extension
+- uid: System.Action{{T}}
+  commentId: T:System.Action{`0}
+  parent: System
+  definition: System.Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func{{T},System.Boolean}
+  commentId: T:System.Func{`0,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  name: Func<T, Boolean>
+  nameWithType: Func<T, Boolean>
+  fullName: System.Func<T, System.Boolean>
+  nameWithType.vb: Func(Of T, Boolean)
+  fullName.vb: System.Func(Of T, System.Boolean)
+  name.vb: Func(Of T, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.RelayCommand
+  commentId: T:Vortex.Presentation.Wpf.RelayCommand
+  parent: Vortex.Presentation.Wpf
+  name: RelayCommand
+  nameWithType: RelayCommand
+  fullName: Vortex.Presentation.Wpf.RelayCommand
+- uid: Vortex.Presentation.Wpf.RelayCommand`1.#ctor*
+  commentId: Overload:Vortex.Presentation.Wpf.RelayCommand`1.#ctor
+  name: RelayCommand
+  nameWithType: RelayCommand<T>.RelayCommand
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>.RelayCommand
+  nameWithType.vb: RelayCommand(Of T).RelayCommand
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T).RelayCommand
+- uid: Vortex.Connector.IVortexObject
+  commentId: T:Vortex.Connector.IVortexObject
+  parent: Vortex.Connector
+  name: IVortexObject
+  nameWithType: IVortexObject
+  fullName: Vortex.Connector.IVortexObject
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: Vortex.Presentation.Wpf.RelayCommand`1.CanExecuteChanged
+  commentId: E:Vortex.Presentation.Wpf.RelayCommand`1.CanExecuteChanged
+  isExternal: true
+- uid: Vortex.Presentation.Wpf.RelayCommand`1.RaiseCanExecuteChanged*
+  commentId: Overload:Vortex.Presentation.Wpf.RelayCommand`1.RaiseCanExecuteChanged
+  name: RaiseCanExecuteChanged
+  nameWithType: RelayCommand<T>.RaiseCanExecuteChanged
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>.RaiseCanExecuteChanged
+  nameWithType.vb: RelayCommand(Of T).RaiseCanExecuteChanged
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T).RaiseCanExecuteChanged
+- uid: Vortex.Presentation.Wpf.RelayCommand`1.CanExecute*
+  commentId: Overload:Vortex.Presentation.Wpf.RelayCommand`1.CanExecute
+  name: CanExecute
+  nameWithType: RelayCommand<T>.CanExecute
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>.CanExecute
+  nameWithType.vb: RelayCommand(Of T).CanExecute
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T).CanExecute
+- uid: System.Windows.Input.ICommand.CanExecute(System.Object)
+  commentId: M:System.Windows.Input.ICommand.CanExecute(System.Object)
+  parent: System.Windows.Input.ICommand
+  isExternal: true
+  name: CanExecute(Object)
+  nameWithType: ICommand.CanExecute(Object)
+  fullName: System.Windows.Input.ICommand.CanExecute(System.Object)
+  spec.csharp:
+  - uid: System.Windows.Input.ICommand.CanExecute(System.Object)
+    name: CanExecute
+    nameWithType: ICommand.CanExecute
+    fullName: System.Windows.Input.ICommand.CanExecute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Input.ICommand.CanExecute(System.Object)
+    name: CanExecute
+    nameWithType: ICommand.CanExecute
+    fullName: System.Windows.Input.ICommand.CanExecute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Windows.Input.ICommand.CanExecuteChanged
+  commentId: E:System.Windows.Input.ICommand.CanExecuteChanged
+  parent: System.Windows.Input.ICommand
+  isExternal: true
+  name: CanExecuteChanged
+  nameWithType: ICommand.CanExecuteChanged
+  fullName: System.Windows.Input.ICommand.CanExecuteChanged
+- uid: System.EventHandler
+  commentId: T:System.EventHandler
+  parent: System
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: System.EventHandler
+- uid: Vortex.Presentation.Wpf.RelayCommand`1.Execute*
+  commentId: Overload:Vortex.Presentation.Wpf.RelayCommand`1.Execute
+  name: Execute
+  nameWithType: RelayCommand<T>.Execute
+  fullName: Vortex.Presentation.Wpf.RelayCommand<T>.Execute
+  nameWithType.vb: RelayCommand(Of T).Execute
+  fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T).Execute
+- uid: System.Windows.Input.ICommand.Execute(System.Object)
+  commentId: M:System.Windows.Input.ICommand.Execute(System.Object)
+  parent: System.Windows.Input.ICommand
+  isExternal: true
+  name: Execute(Object)
+  nameWithType: ICommand.Execute(Object)
+  fullName: System.Windows.Input.ICommand.Execute(System.Object)
+  spec.csharp:
+  - uid: System.Windows.Input.ICommand.Execute(System.Object)
+    name: Execute
+    nameWithType: ICommand.Execute
+    fullName: System.Windows.Input.ICommand.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Input.ICommand.Execute(System.Object)
+    name: Execute
+    nameWithType: ICommand.Execute
+    fullName: System.Windows.Input.ICommand.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,41 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Wpf.Converters
+  commentId: N:Vortex.Presentation.Wpf.Converters
+  id: Vortex.Presentation.Wpf.Converters
+  children:
+  - Vortex.Presentation.Wpf.Converters.BaseConverter
+  - Vortex.Presentation.Wpf.Converters.BaseMultiConverter
+  - Vortex.Presentation.Wpf.Converters.CapitalizeConverter
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Presentation.Wpf.Converters
+  nameWithType: Vortex.Presentation.Wpf.Converters
+  fullName: Vortex.Presentation.Wpf.Converters
+  type: Namespace
+  assemblies:
+  - Vortex.Presentation.Wpf
+references:
+- uid: Vortex.Presentation.Wpf.Converters.BaseConverter
+  commentId: T:Vortex.Presentation.Wpf.Converters.BaseConverter
+  parent: Vortex.Presentation.Wpf.Converters
+  name: BaseConverter
+  nameWithType: BaseConverter
+  fullName: Vortex.Presentation.Wpf.Converters.BaseConverter
+- uid: Vortex.Presentation.Wpf.Converters.BaseMultiConverter
+  commentId: T:Vortex.Presentation.Wpf.Converters.BaseMultiConverter
+  parent: Vortex.Presentation.Wpf.Converters
+  name: BaseMultiConverter
+  nameWithType: BaseMultiConverter
+  fullName: Vortex.Presentation.Wpf.Converters.BaseMultiConverter
+- uid: Vortex.Presentation.Wpf.Converters.CapitalizeConverter
+  commentId: T:Vortex.Presentation.Wpf.Converters.CapitalizeConverter
+  name: CapitalizeConverter
+  nameWithType: CapitalizeConverter
+  fullName: Vortex.Presentation.Wpf.Converters.CapitalizeConverter
+- uid: Vortex.Presentation.Wpf.Converters
+  commentId: N:Vortex.Presentation.Wpf.Converters
+  name: Vortex.Presentation.Wpf.Converters
+  nameWithType: Vortex.Presentation.Wpf.Converters
+  fullName: Vortex.Presentation.Wpf.Converters

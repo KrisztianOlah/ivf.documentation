@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim
+  commentId: N:Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim
+  id: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim
+  children:
+  - Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimCheckBox
+  - Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTextBox
+  - Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTextBoxValue
+  - Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTimeTextBox
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim
+  nameWithType: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim
+  fullName: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim
+  type: Namespace
+  assemblies:
+  - Vortex.Presentation.Controls.Wpf
+references:
+- uid: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimCheckBox
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimCheckBox
+  name: OnlineDisplaySlimCheckBox
+  nameWithType: OnlineDisplaySlimCheckBox
+  fullName: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimCheckBox
+- uid: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTextBox
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTextBox
+  name: OnlineDisplaySlimTextBox
+  nameWithType: OnlineDisplaySlimTextBox
+  fullName: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTextBox
+- uid: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTextBoxValue
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTextBoxValue
+  name: OnlineDisplaySlimTextBoxValue
+  nameWithType: OnlineDisplaySlimTextBoxValue
+  fullName: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTextBoxValue
+- uid: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTimeTextBox
+  commentId: T:Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTimeTextBox
+  name: OnlineDisplaySlimTimeTextBox
+  nameWithType: OnlineDisplaySlimTimeTextBox
+  fullName: Vortex.Presentation.ControlSlims.Wpf.OnlineDisplaySlim.OnlineDisplaySlimTimeTextBox

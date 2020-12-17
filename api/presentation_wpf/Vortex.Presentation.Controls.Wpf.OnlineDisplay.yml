@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Controls.Wpf.OnlineDisplay
+  commentId: N:Vortex.Presentation.Controls.Wpf.OnlineDisplay
+  id: Vortex.Presentation.Controls.Wpf.OnlineDisplay
+  children:
+  - Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayCheckBox
+  - Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTextBox
+  - Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTextBoxValue
+  - Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTimeTextBox
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Presentation.Controls.Wpf.OnlineDisplay
+  nameWithType: Vortex.Presentation.Controls.Wpf.OnlineDisplay
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineDisplay
+  type: Namespace
+  assemblies:
+  - Vortex.Presentation.Controls.Wpf
+references:
+- uid: Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayCheckBox
+  commentId: T:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayCheckBox
+  name: OnlineDisplayCheckBox
+  nameWithType: OnlineDisplayCheckBox
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayCheckBox
+- uid: Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTextBox
+  commentId: T:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTextBox
+  name: OnlineDisplayTextBox
+  nameWithType: OnlineDisplayTextBox
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTextBox
+- uid: Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTextBoxValue
+  commentId: T:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTextBoxValue
+  name: OnlineDisplayTextBoxValue
+  nameWithType: OnlineDisplayTextBoxValue
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTextBoxValue
+- uid: Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTimeTextBox
+  commentId: T:Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTimeTextBox
+  parent: Vortex.Presentation.Controls.Wpf.OnlineDisplay
+  name: OnlineDisplayTimeTextBox
+  nameWithType: OnlineDisplayTimeTextBox
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineDisplay.OnlineDisplayTimeTextBox
+- uid: Vortex.Presentation.Controls.Wpf.OnlineDisplay
+  commentId: N:Vortex.Presentation.Controls.Wpf.OnlineDisplay
+  name: Vortex.Presentation.Controls.Wpf.OnlineDisplay
+  nameWithType: Vortex.Presentation.Controls.Wpf.OnlineDisplay
+  fullName: Vortex.Presentation.Controls.Wpf.OnlineDisplay

@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Controls.Wpf.ShadowDisplay
+  commentId: N:Vortex.Presentation.Controls.Wpf.ShadowDisplay
+  id: Vortex.Presentation.Controls.Wpf.ShadowDisplay
+  children:
+  - Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayCheckBox
+  - Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTextBox
+  - Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTextBoxValue
+  - Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTimeTextBox
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Presentation.Controls.Wpf.ShadowDisplay
+  nameWithType: Vortex.Presentation.Controls.Wpf.ShadowDisplay
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowDisplay
+  type: Namespace
+  assemblies:
+  - Vortex.Presentation.Controls.Wpf
+references:
+- uid: Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayCheckBox
+  commentId: T:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayCheckBox
+  name: ShadowDisplayCheckBox
+  nameWithType: ShadowDisplayCheckBox
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayCheckBox
+- uid: Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTextBox
+  commentId: T:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTextBox
+  name: ShadowDisplayTextBox
+  nameWithType: ShadowDisplayTextBox
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTextBox
+- uid: Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTextBoxValue
+  commentId: T:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTextBoxValue
+  name: ShadowDisplayTextBoxValue
+  nameWithType: ShadowDisplayTextBoxValue
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTextBoxValue
+- uid: Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTimeTextBox
+  commentId: T:Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTimeTextBox
+  name: ShadowDisplayTimeTextBox
+  nameWithType: ShadowDisplayTimeTextBox
+  fullName: Vortex.Presentation.Controls.Wpf.ShadowDisplay.ShadowDisplayTimeTextBox

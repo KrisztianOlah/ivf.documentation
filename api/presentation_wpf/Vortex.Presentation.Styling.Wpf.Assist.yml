@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Styling.Wpf.Assist
+  commentId: N:Vortex.Presentation.Styling.Wpf.Assist
+  id: Vortex.Presentation.Styling.Wpf.Assist
+  children:
+  - Vortex.Presentation.Styling.Wpf.Assist.DataGridAssist
+  langs:
+  - csharp
+  - vb
+  name: Vortex.Presentation.Styling.Wpf.Assist
+  nameWithType: Vortex.Presentation.Styling.Wpf.Assist
+  fullName: Vortex.Presentation.Styling.Wpf.Assist
+  type: Namespace
+  assemblies:
+  - Vortex.Presentation.Styling.Wpf
+references:
+- uid: Vortex.Presentation.Styling.Wpf.Assist.DataGridAssist
+  commentId: T:Vortex.Presentation.Styling.Wpf.Assist.DataGridAssist
+  name: DataGridAssist
+  nameWithType: DataGridAssist
+  fullName: Vortex.Presentation.Styling.Wpf.Assist.DataGridAssist

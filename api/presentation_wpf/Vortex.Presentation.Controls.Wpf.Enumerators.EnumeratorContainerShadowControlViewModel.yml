@@ -1,0 +1,723 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel
+  commentId: T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel
+  id: EnumeratorContainerShadowControlViewModel
+  parent: Vortex.Presentation.Controls.Wpf.Enumerators
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: EnumeratorContainerShadowControlViewModel
+  nameWithType: EnumeratorContainerShadowControlViewModel
+  fullName: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerShadowControlViewModel
+  type: Class
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/Shadow/Control/EnumeratorContainerShadowControlViewModel.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: EnumeratorContainerShadowControlViewModel
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/Shadow/Control/EnumeratorContainerShadowControlViewModel.cs
+    startLine: 9
+  assemblies:
+  - Vortex.Presentation.Controls.Wpf
+  namespace: Vortex.Presentation.Controls.Wpf.Enumerators
+  syntax:
+    content: 'public class EnumeratorContainerShadowControlViewModel : EnumeratorContainerViewModel, INotifyPropertyChanged'
+    content.vb: >-
+      Public Class EnumeratorContainerShadowControlViewModel
+          Inherits EnumeratorContainerViewModel
+          Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - Vortex.Presentation.Wpf.BindableBase
+  - Vortex.Presentation.Wpf.RenderableViewModel
+  - Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.SetUp
+  - Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.isReadonly
+  - Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.IsEnabled
+  - Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.names
+  - Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.Names
+  - Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.EnumDiscriminatorAttribute
+  - Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.EnumeratorContainer
+  - Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.Model
+  - Vortex.Presentation.Wpf.BindableBase.SetProperty``1({T}@,{T},System.String)
+  - Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+  - Vortex.Presentation.Wpf.BindableBase.PropertyChanged
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Vortex.Presentation.Controls.Wpf.Enumerators
+  commentId: N:Vortex.Presentation.Controls.Wpf.Enumerators
+  name: Vortex.Presentation.Controls.Wpf.Enumerators
+  nameWithType: Vortex.Presentation.Controls.Wpf.Enumerators
+  fullName: Vortex.Presentation.Controls.Wpf.Enumerators
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Vortex.Presentation.Wpf.BindableBase
+  commentId: T:Vortex.Presentation.Wpf.BindableBase
+  parent: Vortex.Presentation.Wpf
+  name: BindableBase
+  nameWithType: BindableBase
+  fullName: Vortex.Presentation.Wpf.BindableBase
+- uid: Vortex.Presentation.Wpf.RenderableViewModel
+  commentId: T:Vortex.Presentation.Wpf.RenderableViewModel
+  parent: Vortex.Presentation.Wpf
+  name: RenderableViewModel
+  nameWithType: RenderableViewModel
+  fullName: Vortex.Presentation.Wpf.RenderableViewModel
+- uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel
+  commentId: T:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel
+  parent: Vortex.Presentation.Controls.Wpf.Enumerators
+  name: EnumeratorContainerViewModel
+  nameWithType: EnumeratorContainerViewModel
+  fullName: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.SetUp
+  commentId: M:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.SetUp
+  parent: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel
+  name: SetUp()
+  nameWithType: EnumeratorContainerViewModel.SetUp()
+  fullName: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.SetUp()
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.SetUp
+    name: SetUp
+    nameWithType: EnumeratorContainerViewModel.SetUp
+    fullName: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.SetUp
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.SetUp
+    name: SetUp
+    nameWithType: EnumeratorContainerViewModel.SetUp
+    fullName: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.SetUp
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.isReadonly
+  commentId: F:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.isReadonly
+  parent: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel
+  name: isReadonly
+  nameWithType: EnumeratorContainerViewModel.isReadonly
+  fullName: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.isReadonly
+- uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.IsEnabled
+  commentId: P:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.IsEnabled
+  parent: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel
+  name: IsEnabled
+  nameWithType: EnumeratorContainerViewModel.IsEnabled
+  fullName: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.IsEnabled
+- uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.names
+  commentId: F:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.names
+  parent: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel
+  name: names
+  nameWithType: EnumeratorContainerViewModel.names
+  fullName: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.names
+- uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.Names
+  commentId: P:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.Names
+  parent: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel
+  name: Names
+  nameWithType: EnumeratorContainerViewModel.Names
+  fullName: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.Names
+- uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.EnumDiscriminatorAttribute
+  commentId: P:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.EnumDiscriminatorAttribute
+  parent: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel
+  name: EnumDiscriminatorAttribute
+  nameWithType: EnumeratorContainerViewModel.EnumDiscriminatorAttribute
+  fullName: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.EnumDiscriminatorAttribute
+- uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.EnumeratorContainer
+  commentId: P:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.EnumeratorContainer
+  parent: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel
+  name: EnumeratorContainer
+  nameWithType: EnumeratorContainerViewModel.EnumeratorContainer
+  fullName: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.EnumeratorContainer
+- uid: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.Model
+  commentId: P:Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.Model
+  parent: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel
+  name: Model
+  nameWithType: EnumeratorContainerViewModel.Model
+  fullName: Vortex.Presentation.Controls.Wpf.Enumerators.EnumeratorContainerViewModel.Model
+- uid: Vortex.Presentation.Wpf.BindableBase.SetProperty``1({T}@,{T},System.String)
+  commentId: M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+  parent: Vortex.Presentation.Wpf.BindableBase
+  definition: Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+  name: SetProperty<T>(T, T, String)
+  nameWithType: BindableBase.SetProperty<T>(T, T, String)
+  fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty<T>(T, T, System.String)
+  nameWithType.vb: BindableBase.SetProperty(Of T)(T, T, String)
+  fullName.vb: Vortex.Presentation.Wpf.BindableBase.SetProperty(Of T)(T, T, System.String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty<T>
+    nameWithType: BindableBase.SetProperty<T>
+    fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty(Of T)
+    nameWithType: BindableBase.SetProperty(Of T)
+    fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+  commentId: M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+  parent: Vortex.Presentation.Wpf.BindableBase
+  isExternal: true
+  name: OnPropertyChanged(String)
+  nameWithType: BindableBase.OnPropertyChanged(String)
+  fullName: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: BindableBase.OnPropertyChanged
+    fullName: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: BindableBase.OnPropertyChanged
+    fullName: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.BindableBase.PropertyChanged
+  commentId: E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged
+  parent: Vortex.Presentation.Wpf.BindableBase
+  name: PropertyChanged
+  nameWithType: BindableBase.PropertyChanged
+  fullName: Vortex.Presentation.Wpf.BindableBase.PropertyChanged
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  definition: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  name: AttributeFormatOrNull()
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull()
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull()
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Presentation.Wpf
+  commentId: N:Vortex.Presentation.Wpf
+  name: Vortex.Presentation.Wpf
+  nameWithType: Vortex.Presentation.Wpf
+  fullName: Vortex.Presentation.Wpf
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+  commentId: M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+  isExternal: true
+  name: SetProperty<T>(T, T, String)
+  nameWithType: BindableBase.SetProperty<T>(T, T, String)
+  fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty<T>(T, T, System.String)
+  nameWithType.vb: BindableBase.SetProperty(Of T)(T, T, String)
+  fullName.vb: Vortex.Presentation.Wpf.BindableBase.SetProperty(Of T)(T, T, System.String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty<T>
+    nameWithType: BindableBase.SetProperty<T>
+    fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty(Of T)
+    nameWithType: BindableBase.SetProperty(Of T)
+    fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  isExternal: true
+  name: AttributeFormatOrNull(Object)
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull(Object)
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  parent: Vortex.Presentation.Controls.Wpf.Extension
+  name: AttributeStringFormatExtensions
+  nameWithType: AttributeStringFormatExtensions
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+- uid: Vortex.Presentation.Controls.Wpf.Extension
+  commentId: N:Vortex.Presentation.Controls.Wpf.Extension
+  name: Vortex.Presentation.Controls.Wpf.Extension
+  nameWithType: Vortex.Presentation.Controls.Wpf.Extension
+  fullName: Vortex.Presentation.Controls.Wpf.Extension

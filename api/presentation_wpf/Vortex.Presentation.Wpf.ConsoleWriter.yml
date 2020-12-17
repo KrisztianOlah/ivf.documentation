@@ -1,0 +1,3428 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Wpf.ConsoleWriter
+  commentId: T:Vortex.Presentation.Wpf.ConsoleWriter
+  id: ConsoleWriter
+  parent: Vortex.Presentation.Wpf
+  children:
+  - Vortex.Presentation.Wpf.ConsoleWriter.Encoding
+  - Vortex.Presentation.Wpf.ConsoleWriter.Write(System.String)
+  - Vortex.Presentation.Wpf.ConsoleWriter.WriteEvent
+  - Vortex.Presentation.Wpf.ConsoleWriter.WriteLine(System.String)
+  - Vortex.Presentation.Wpf.ConsoleWriter.WriteLineEvent
+  langs:
+  - csharp
+  - vb
+  name: ConsoleWriter
+  nameWithType: ConsoleWriter
+  fullName: Vortex.Presentation.Wpf.ConsoleWriter
+  type: Class
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/SystemDiag/Console/ConsoleWriter.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ConsoleWriter
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/SystemDiag/Console/ConsoleWriter.cs
+    startLine: 9
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nThe console writer.\n"
+  example: []
+  syntax:
+    content: 'class ConsoleWriter : TextWriter, IDisposable'
+    content.vb: >-
+      Class ConsoleWriter
+          Inherits TextWriter
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - System.MarshalByRefObject
+  - System.IO.TextWriter
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.IO.TextWriter.Null
+  - System.IO.TextWriter.CoreNewLine
+  - System.IO.TextWriter.Close
+  - System.IO.TextWriter.Dispose(System.Boolean)
+  - System.IO.TextWriter.Dispose
+  - System.IO.TextWriter.Flush
+  - System.IO.TextWriter.Synchronized(System.IO.TextWriter)
+  - System.IO.TextWriter.Write(System.Char)
+  - System.IO.TextWriter.Write(System.Char[])
+  - System.IO.TextWriter.Write(System.Char[],System.Int32,System.Int32)
+  - System.IO.TextWriter.Write(System.Boolean)
+  - System.IO.TextWriter.Write(System.Int32)
+  - System.IO.TextWriter.Write(System.UInt32)
+  - System.IO.TextWriter.Write(System.Int64)
+  - System.IO.TextWriter.Write(System.UInt64)
+  - System.IO.TextWriter.Write(System.Single)
+  - System.IO.TextWriter.Write(System.Double)
+  - System.IO.TextWriter.Write(System.Decimal)
+  - System.IO.TextWriter.Write(System.Object)
+  - System.IO.TextWriter.Write(System.String,System.Object)
+  - System.IO.TextWriter.Write(System.String,System.Object,System.Object)
+  - System.IO.TextWriter.Write(System.String,System.Object,System.Object,System.Object)
+  - System.IO.TextWriter.Write(System.String,System.Object[])
+  - System.IO.TextWriter.WriteLine
+  - System.IO.TextWriter.WriteLine(System.Char)
+  - System.IO.TextWriter.WriteLine(System.Char[])
+  - System.IO.TextWriter.WriteLine(System.Char[],System.Int32,System.Int32)
+  - System.IO.TextWriter.WriteLine(System.Boolean)
+  - System.IO.TextWriter.WriteLine(System.Int32)
+  - System.IO.TextWriter.WriteLine(System.UInt32)
+  - System.IO.TextWriter.WriteLine(System.Int64)
+  - System.IO.TextWriter.WriteLine(System.UInt64)
+  - System.IO.TextWriter.WriteLine(System.Single)
+  - System.IO.TextWriter.WriteLine(System.Double)
+  - System.IO.TextWriter.WriteLine(System.Decimal)
+  - System.IO.TextWriter.WriteLine(System.Object)
+  - System.IO.TextWriter.WriteLine(System.String,System.Object)
+  - System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object)
+  - System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object,System.Object)
+  - System.IO.TextWriter.WriteLine(System.String,System.Object[])
+  - System.IO.TextWriter.WriteAsync(System.Char)
+  - System.IO.TextWriter.WriteAsync(System.String)
+  - System.IO.TextWriter.WriteAsync(System.Char[])
+  - System.IO.TextWriter.WriteAsync(System.Char[],System.Int32,System.Int32)
+  - System.IO.TextWriter.WriteLineAsync(System.Char)
+  - System.IO.TextWriter.WriteLineAsync(System.String)
+  - System.IO.TextWriter.WriteLineAsync(System.Char[])
+  - System.IO.TextWriter.WriteLineAsync(System.Char[],System.Int32,System.Int32)
+  - System.IO.TextWriter.WriteLineAsync
+  - System.IO.TextWriter.FlushAsync
+  - System.IO.TextWriter.FormatProvider
+  - System.IO.TextWriter.NewLine
+  - System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  - System.MarshalByRefObject.GetLifetimeService
+  - System.MarshalByRefObject.InitializeLifetimeService
+  - System.MarshalByRefObject.CreateObjRef(System.Type)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  modifiers.csharp:
+  - class
+  modifiers.vb:
+  - Class
+- uid: Vortex.Presentation.Wpf.ConsoleWriter.WriteEvent
+  commentId: E:Vortex.Presentation.Wpf.ConsoleWriter.WriteEvent
+  id: WriteEvent
+  parent: Vortex.Presentation.Wpf.ConsoleWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteEvent
+  nameWithType: ConsoleWriter.WriteEvent
+  fullName: Vortex.Presentation.Wpf.ConsoleWriter.WriteEvent
+  type: Event
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/SystemDiag/Console/ConsoleWriter.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: WriteEvent
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/SystemDiag/Console/ConsoleWriter.cs
+    startLine: 14
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nThe write event.\n"
+  example: []
+  syntax:
+    content: public event EventHandler<ConsoleWriterEventArgs> WriteEvent
+    return:
+      type: System.EventHandler{Vortex.Presentation.Wpf.ConsoleWriterEventArgs}
+    content.vb: Public Event WriteEvent As EventHandler(Of ConsoleWriterEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.ConsoleWriter.WriteLineEvent
+  commentId: E:Vortex.Presentation.Wpf.ConsoleWriter.WriteLineEvent
+  id: WriteLineEvent
+  parent: Vortex.Presentation.Wpf.ConsoleWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteLineEvent
+  nameWithType: ConsoleWriter.WriteLineEvent
+  fullName: Vortex.Presentation.Wpf.ConsoleWriter.WriteLineEvent
+  type: Event
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/SystemDiag/Console/ConsoleWriter.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: WriteLineEvent
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/SystemDiag/Console/ConsoleWriter.cs
+    startLine: 19
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nThe write line event.\n"
+  example: []
+  syntax:
+    content: public event EventHandler<ConsoleWriterEventArgs> WriteLineEvent
+    return:
+      type: System.EventHandler{Vortex.Presentation.Wpf.ConsoleWriterEventArgs}
+    content.vb: Public Event WriteLineEvent As EventHandler(Of ConsoleWriterEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.ConsoleWriter.Write(System.String)
+  commentId: M:Vortex.Presentation.Wpf.ConsoleWriter.Write(System.String)
+  id: Write(System.String)
+  parent: Vortex.Presentation.Wpf.ConsoleWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(String)
+  nameWithType: ConsoleWriter.Write(String)
+  fullName: Vortex.Presentation.Wpf.ConsoleWriter.Write(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/SystemDiag/Console/ConsoleWriter.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Write
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/SystemDiag/Console/ConsoleWriter.cs
+    startLine: 27
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nThe write.\n"
+  example: []
+  syntax:
+    content: public override void Write(string value)
+    parameters:
+    - id: value
+      type: System.String
+      description: "\nThe value.\n"
+    content.vb: Public Overrides Sub Write(value As String)
+  overridden: System.IO.TextWriter.Write(System.String)
+  overload: Vortex.Presentation.Wpf.ConsoleWriter.Write*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Presentation.Wpf.ConsoleWriter.WriteLine(System.String)
+  commentId: M:Vortex.Presentation.Wpf.ConsoleWriter.WriteLine(System.String)
+  id: WriteLine(System.String)
+  parent: Vortex.Presentation.Wpf.ConsoleWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteLine(String)
+  nameWithType: ConsoleWriter.WriteLine(String)
+  fullName: Vortex.Presentation.Wpf.ConsoleWriter.WriteLine(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/SystemDiag/Console/ConsoleWriter.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: WriteLine
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/SystemDiag/Console/ConsoleWriter.cs
+    startLine: 43
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nThe write line.\n"
+  example: []
+  syntax:
+    content: public override void WriteLine(string value)
+    parameters:
+    - id: value
+      type: System.String
+      description: "\nThe value.\n"
+    content.vb: Public Overrides Sub WriteLine(value As String)
+  overridden: System.IO.TextWriter.WriteLine(System.String)
+  overload: Vortex.Presentation.Wpf.ConsoleWriter.WriteLine*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Vortex.Presentation.Wpf.ConsoleWriter.Encoding
+  commentId: P:Vortex.Presentation.Wpf.ConsoleWriter.Encoding
+  id: Encoding
+  parent: Vortex.Presentation.Wpf.ConsoleWriter
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: ConsoleWriter.Encoding
+  fullName: Vortex.Presentation.Wpf.ConsoleWriter.Encoding
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/SystemDiag/Console/ConsoleWriter.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Encoding
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/SystemDiag/Console/ConsoleWriter.cs
+    startLine: 56
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nGets the encoding.\n"
+  example: []
+  syntax:
+    content: public override Encoding Encoding { get; }
+    parameters: []
+    return:
+      type: System.Text.Encoding
+    content.vb: Public Overrides ReadOnly Property Encoding As Encoding
+  overridden: System.IO.TextWriter.Encoding
+  overload: Vortex.Presentation.Wpf.ConsoleWriter.Encoding*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+references:
+- uid: Vortex.Presentation.Wpf
+  commentId: N:Vortex.Presentation.Wpf
+  name: Vortex.Presentation.Wpf
+  nameWithType: Vortex.Presentation.Wpf
+  fullName: Vortex.Presentation.Wpf
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.MarshalByRefObject
+  commentId: T:System.MarshalByRefObject
+  parent: System
+  isExternal: true
+  name: MarshalByRefObject
+  nameWithType: MarshalByRefObject
+  fullName: System.MarshalByRefObject
+- uid: System.IO.TextWriter
+  commentId: T:System.IO.TextWriter
+  parent: System.IO
+  isExternal: true
+  name: TextWriter
+  nameWithType: TextWriter
+  fullName: System.IO.TextWriter
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.IO.TextWriter.Null
+  commentId: F:System.IO.TextWriter.Null
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: "Null"
+  nameWithType: TextWriter.Null
+  fullName: System.IO.TextWriter.Null
+- uid: System.IO.TextWriter.CoreNewLine
+  commentId: F:System.IO.TextWriter.CoreNewLine
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: CoreNewLine
+  nameWithType: TextWriter.CoreNewLine
+  fullName: System.IO.TextWriter.CoreNewLine
+- uid: System.IO.TextWriter.Close
+  commentId: M:System.IO.TextWriter.Close
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Close()
+  nameWithType: TextWriter.Close()
+  fullName: System.IO.TextWriter.Close()
+  spec.csharp:
+  - uid: System.IO.TextWriter.Close
+    name: Close
+    nameWithType: TextWriter.Close
+    fullName: System.IO.TextWriter.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Close
+    name: Close
+    nameWithType: TextWriter.Close
+    fullName: System.IO.TextWriter.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Dispose(System.Boolean)
+  commentId: M:System.IO.TextWriter.Dispose(System.Boolean)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: TextWriter.Dispose(Boolean)
+  fullName: System.IO.TextWriter.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: TextWriter.Dispose
+    fullName: System.IO.TextWriter.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: TextWriter.Dispose
+    fullName: System.IO.TextWriter.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Dispose
+  commentId: M:System.IO.TextWriter.Dispose
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Dispose()
+  nameWithType: TextWriter.Dispose()
+  fullName: System.IO.TextWriter.Dispose()
+  spec.csharp:
+  - uid: System.IO.TextWriter.Dispose
+    name: Dispose
+    nameWithType: TextWriter.Dispose
+    fullName: System.IO.TextWriter.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Dispose
+    name: Dispose
+    nameWithType: TextWriter.Dispose
+    fullName: System.IO.TextWriter.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Flush
+  commentId: M:System.IO.TextWriter.Flush
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Flush()
+  nameWithType: TextWriter.Flush()
+  fullName: System.IO.TextWriter.Flush()
+  spec.csharp:
+  - uid: System.IO.TextWriter.Flush
+    name: Flush
+    nameWithType: TextWriter.Flush
+    fullName: System.IO.TextWriter.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Flush
+    name: Flush
+    nameWithType: TextWriter.Flush
+    fullName: System.IO.TextWriter.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Synchronized(System.IO.TextWriter)
+  commentId: M:System.IO.TextWriter.Synchronized(System.IO.TextWriter)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Synchronized(TextWriter)
+  nameWithType: TextWriter.Synchronized(TextWriter)
+  fullName: System.IO.TextWriter.Synchronized(System.IO.TextWriter)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Synchronized(System.IO.TextWriter)
+    name: Synchronized
+    nameWithType: TextWriter.Synchronized
+    fullName: System.IO.TextWriter.Synchronized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.TextWriter
+    name: TextWriter
+    nameWithType: TextWriter
+    fullName: System.IO.TextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Synchronized(System.IO.TextWriter)
+    name: Synchronized
+    nameWithType: TextWriter.Synchronized
+    fullName: System.IO.TextWriter.Synchronized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.TextWriter
+    name: TextWriter
+    nameWithType: TextWriter
+    fullName: System.IO.TextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.Char)
+  commentId: M:System.IO.TextWriter.Write(System.Char)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(Char)
+  nameWithType: TextWriter.Write(Char)
+  fullName: System.IO.TextWriter.Write(System.Char)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.Char)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.Char)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.Char[])
+  commentId: M:System.IO.TextWriter.Write(System.Char[])
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(Char[])
+  nameWithType: TextWriter.Write(Char[])
+  fullName: System.IO.TextWriter.Write(System.Char[])
+  nameWithType.vb: TextWriter.Write(Char())
+  fullName.vb: System.IO.TextWriter.Write(System.Char())
+  name.vb: Write(Char())
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.Char[])
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.Char[])
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.Char[],System.Int32,System.Int32)
+  commentId: M:System.IO.TextWriter.Write(System.Char[],System.Int32,System.Int32)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(Char[], Int32, Int32)
+  nameWithType: TextWriter.Write(Char[], Int32, Int32)
+  fullName: System.IO.TextWriter.Write(System.Char[], System.Int32, System.Int32)
+  nameWithType.vb: TextWriter.Write(Char(), Int32, Int32)
+  fullName.vb: System.IO.TextWriter.Write(System.Char(), System.Int32, System.Int32)
+  name.vb: Write(Char(), Int32, Int32)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.Char[],System.Int32,System.Int32)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.Char[],System.Int32,System.Int32)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.Boolean)
+  commentId: M:System.IO.TextWriter.Write(System.Boolean)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(Boolean)
+  nameWithType: TextWriter.Write(Boolean)
+  fullName: System.IO.TextWriter.Write(System.Boolean)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.Boolean)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.Boolean)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.Int32)
+  commentId: M:System.IO.TextWriter.Write(System.Int32)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(Int32)
+  nameWithType: TextWriter.Write(Int32)
+  fullName: System.IO.TextWriter.Write(System.Int32)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.Int32)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.Int32)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.UInt32)
+  commentId: M:System.IO.TextWriter.Write(System.UInt32)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(UInt32)
+  nameWithType: TextWriter.Write(UInt32)
+  fullName: System.IO.TextWriter.Write(System.UInt32)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.UInt32)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.UInt32)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.Int64)
+  commentId: M:System.IO.TextWriter.Write(System.Int64)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(Int64)
+  nameWithType: TextWriter.Write(Int64)
+  fullName: System.IO.TextWriter.Write(System.Int64)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.Int64)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.Int64)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.UInt64)
+  commentId: M:System.IO.TextWriter.Write(System.UInt64)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(UInt64)
+  nameWithType: TextWriter.Write(UInt64)
+  fullName: System.IO.TextWriter.Write(System.UInt64)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.UInt64)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.UInt64)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.Single)
+  commentId: M:System.IO.TextWriter.Write(System.Single)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(Single)
+  nameWithType: TextWriter.Write(Single)
+  fullName: System.IO.TextWriter.Write(System.Single)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.Single)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.Single)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.Double)
+  commentId: M:System.IO.TextWriter.Write(System.Double)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(Double)
+  nameWithType: TextWriter.Write(Double)
+  fullName: System.IO.TextWriter.Write(System.Double)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.Double)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.Double)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.Decimal)
+  commentId: M:System.IO.TextWriter.Write(System.Decimal)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(Decimal)
+  nameWithType: TextWriter.Write(Decimal)
+  fullName: System.IO.TextWriter.Write(System.Decimal)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.Decimal)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: System.Decimal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.Decimal)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: System.Decimal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.Object)
+  commentId: M:System.IO.TextWriter.Write(System.Object)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(Object)
+  nameWithType: TextWriter.Write(Object)
+  fullName: System.IO.TextWriter.Write(System.Object)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.Object)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.Object)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.String,System.Object)
+  commentId: M:System.IO.TextWriter.Write(System.String,System.Object)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(String, Object)
+  nameWithType: TextWriter.Write(String, Object)
+  fullName: System.IO.TextWriter.Write(System.String, System.Object)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.String,System.Object)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.String,System.Object)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.String,System.Object,System.Object)
+  commentId: M:System.IO.TextWriter.Write(System.String,System.Object,System.Object)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(String, Object, Object)
+  nameWithType: TextWriter.Write(String, Object, Object)
+  fullName: System.IO.TextWriter.Write(System.String, System.Object, System.Object)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.String,System.Object,System.Object)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.String,System.Object,System.Object)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.String,System.Object,System.Object,System.Object)
+  commentId: M:System.IO.TextWriter.Write(System.String,System.Object,System.Object,System.Object)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(String, Object, Object, Object)
+  nameWithType: TextWriter.Write(String, Object, Object, Object)
+  fullName: System.IO.TextWriter.Write(System.String, System.Object, System.Object, System.Object)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.String,System.Object,System.Object,System.Object)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.String,System.Object,System.Object,System.Object)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.String,System.Object[])
+  commentId: M:System.IO.TextWriter.Write(System.String,System.Object[])
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(String, Object[])
+  nameWithType: TextWriter.Write(String, Object[])
+  fullName: System.IO.TextWriter.Write(System.String, System.Object[])
+  nameWithType.vb: TextWriter.Write(String, Object())
+  fullName.vb: System.IO.TextWriter.Write(System.String, System.Object())
+  name.vb: Write(String, Object())
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.String,System.Object[])
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.String,System.Object[])
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine
+  commentId: M:System.IO.TextWriter.WriteLine
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine()
+  nameWithType: TextWriter.WriteLine()
+  fullName: System.IO.TextWriter.WriteLine()
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.Char)
+  commentId: M:System.IO.TextWriter.WriteLine(System.Char)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(Char)
+  nameWithType: TextWriter.WriteLine(Char)
+  fullName: System.IO.TextWriter.WriteLine(System.Char)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.Char)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.Char)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.Char[])
+  commentId: M:System.IO.TextWriter.WriteLine(System.Char[])
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(Char[])
+  nameWithType: TextWriter.WriteLine(Char[])
+  fullName: System.IO.TextWriter.WriteLine(System.Char[])
+  nameWithType.vb: TextWriter.WriteLine(Char())
+  fullName.vb: System.IO.TextWriter.WriteLine(System.Char())
+  name.vb: WriteLine(Char())
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.Char[])
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.Char[])
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.Char[],System.Int32,System.Int32)
+  commentId: M:System.IO.TextWriter.WriteLine(System.Char[],System.Int32,System.Int32)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(Char[], Int32, Int32)
+  nameWithType: TextWriter.WriteLine(Char[], Int32, Int32)
+  fullName: System.IO.TextWriter.WriteLine(System.Char[], System.Int32, System.Int32)
+  nameWithType.vb: TextWriter.WriteLine(Char(), Int32, Int32)
+  fullName.vb: System.IO.TextWriter.WriteLine(System.Char(), System.Int32, System.Int32)
+  name.vb: WriteLine(Char(), Int32, Int32)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.Char[],System.Int32,System.Int32)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.Char[],System.Int32,System.Int32)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.Boolean)
+  commentId: M:System.IO.TextWriter.WriteLine(System.Boolean)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(Boolean)
+  nameWithType: TextWriter.WriteLine(Boolean)
+  fullName: System.IO.TextWriter.WriteLine(System.Boolean)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.Boolean)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.Boolean)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.Int32)
+  commentId: M:System.IO.TextWriter.WriteLine(System.Int32)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(Int32)
+  nameWithType: TextWriter.WriteLine(Int32)
+  fullName: System.IO.TextWriter.WriteLine(System.Int32)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.Int32)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.Int32)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.UInt32)
+  commentId: M:System.IO.TextWriter.WriteLine(System.UInt32)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(UInt32)
+  nameWithType: TextWriter.WriteLine(UInt32)
+  fullName: System.IO.TextWriter.WriteLine(System.UInt32)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.UInt32)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.UInt32)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.Int64)
+  commentId: M:System.IO.TextWriter.WriteLine(System.Int64)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(Int64)
+  nameWithType: TextWriter.WriteLine(Int64)
+  fullName: System.IO.TextWriter.WriteLine(System.Int64)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.Int64)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.Int64)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.UInt64)
+  commentId: M:System.IO.TextWriter.WriteLine(System.UInt64)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(UInt64)
+  nameWithType: TextWriter.WriteLine(UInt64)
+  fullName: System.IO.TextWriter.WriteLine(System.UInt64)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.UInt64)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.UInt64)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.Single)
+  commentId: M:System.IO.TextWriter.WriteLine(System.Single)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(Single)
+  nameWithType: TextWriter.WriteLine(Single)
+  fullName: System.IO.TextWriter.WriteLine(System.Single)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.Single)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.Single)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.Double)
+  commentId: M:System.IO.TextWriter.WriteLine(System.Double)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(Double)
+  nameWithType: TextWriter.WriteLine(Double)
+  fullName: System.IO.TextWriter.WriteLine(System.Double)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.Double)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.Double)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.Decimal)
+  commentId: M:System.IO.TextWriter.WriteLine(System.Decimal)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(Decimal)
+  nameWithType: TextWriter.WriteLine(Decimal)
+  fullName: System.IO.TextWriter.WriteLine(System.Decimal)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.Decimal)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: System.Decimal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.Decimal)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: System.Decimal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.Object)
+  commentId: M:System.IO.TextWriter.WriteLine(System.Object)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(Object)
+  nameWithType: TextWriter.WriteLine(Object)
+  fullName: System.IO.TextWriter.WriteLine(System.Object)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.Object)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.Object)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.String,System.Object)
+  commentId: M:System.IO.TextWriter.WriteLine(System.String,System.Object)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(String, Object)
+  nameWithType: TextWriter.WriteLine(String, Object)
+  fullName: System.IO.TextWriter.WriteLine(System.String, System.Object)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.String,System.Object)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.String,System.Object)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object)
+  commentId: M:System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(String, Object, Object)
+  nameWithType: TextWriter.WriteLine(String, Object, Object)
+  fullName: System.IO.TextWriter.WriteLine(System.String, System.Object, System.Object)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object,System.Object)
+  commentId: M:System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object,System.Object)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(String, Object, Object, Object)
+  nameWithType: TextWriter.WriteLine(String, Object, Object, Object)
+  fullName: System.IO.TextWriter.WriteLine(System.String, System.Object, System.Object, System.Object)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object,System.Object)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object,System.Object)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLine(System.String,System.Object[])
+  commentId: M:System.IO.TextWriter.WriteLine(System.String,System.Object[])
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(String, Object[])
+  nameWithType: TextWriter.WriteLine(String, Object[])
+  fullName: System.IO.TextWriter.WriteLine(System.String, System.Object[])
+  nameWithType.vb: TextWriter.WriteLine(String, Object())
+  fullName.vb: System.IO.TextWriter.WriteLine(System.String, System.Object())
+  name.vb: WriteLine(String, Object())
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.String,System.Object[])
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.String,System.Object[])
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteAsync(System.Char)
+  commentId: M:System.IO.TextWriter.WriteAsync(System.Char)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteAsync(Char)
+  nameWithType: TextWriter.WriteAsync(Char)
+  fullName: System.IO.TextWriter.WriteAsync(System.Char)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteAsync(System.Char)
+    name: WriteAsync
+    nameWithType: TextWriter.WriteAsync
+    fullName: System.IO.TextWriter.WriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteAsync(System.Char)
+    name: WriteAsync
+    nameWithType: TextWriter.WriteAsync
+    fullName: System.IO.TextWriter.WriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteAsync(System.String)
+  commentId: M:System.IO.TextWriter.WriteAsync(System.String)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteAsync(String)
+  nameWithType: TextWriter.WriteAsync(String)
+  fullName: System.IO.TextWriter.WriteAsync(System.String)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteAsync(System.String)
+    name: WriteAsync
+    nameWithType: TextWriter.WriteAsync
+    fullName: System.IO.TextWriter.WriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteAsync(System.String)
+    name: WriteAsync
+    nameWithType: TextWriter.WriteAsync
+    fullName: System.IO.TextWriter.WriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteAsync(System.Char[])
+  commentId: M:System.IO.TextWriter.WriteAsync(System.Char[])
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteAsync(Char[])
+  nameWithType: TextWriter.WriteAsync(Char[])
+  fullName: System.IO.TextWriter.WriteAsync(System.Char[])
+  nameWithType.vb: TextWriter.WriteAsync(Char())
+  fullName.vb: System.IO.TextWriter.WriteAsync(System.Char())
+  name.vb: WriteAsync(Char())
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteAsync(System.Char[])
+    name: WriteAsync
+    nameWithType: TextWriter.WriteAsync
+    fullName: System.IO.TextWriter.WriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteAsync(System.Char[])
+    name: WriteAsync
+    nameWithType: TextWriter.WriteAsync
+    fullName: System.IO.TextWriter.WriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteAsync(System.Char[],System.Int32,System.Int32)
+  commentId: M:System.IO.TextWriter.WriteAsync(System.Char[],System.Int32,System.Int32)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteAsync(Char[], Int32, Int32)
+  nameWithType: TextWriter.WriteAsync(Char[], Int32, Int32)
+  fullName: System.IO.TextWriter.WriteAsync(System.Char[], System.Int32, System.Int32)
+  nameWithType.vb: TextWriter.WriteAsync(Char(), Int32, Int32)
+  fullName.vb: System.IO.TextWriter.WriteAsync(System.Char(), System.Int32, System.Int32)
+  name.vb: WriteAsync(Char(), Int32, Int32)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteAsync(System.Char[],System.Int32,System.Int32)
+    name: WriteAsync
+    nameWithType: TextWriter.WriteAsync
+    fullName: System.IO.TextWriter.WriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteAsync(System.Char[],System.Int32,System.Int32)
+    name: WriteAsync
+    nameWithType: TextWriter.WriteAsync
+    fullName: System.IO.TextWriter.WriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLineAsync(System.Char)
+  commentId: M:System.IO.TextWriter.WriteLineAsync(System.Char)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLineAsync(Char)
+  nameWithType: TextWriter.WriteLineAsync(Char)
+  fullName: System.IO.TextWriter.WriteLineAsync(System.Char)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLineAsync(System.Char)
+    name: WriteLineAsync
+    nameWithType: TextWriter.WriteLineAsync
+    fullName: System.IO.TextWriter.WriteLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLineAsync(System.Char)
+    name: WriteLineAsync
+    nameWithType: TextWriter.WriteLineAsync
+    fullName: System.IO.TextWriter.WriteLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLineAsync(System.String)
+  commentId: M:System.IO.TextWriter.WriteLineAsync(System.String)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLineAsync(String)
+  nameWithType: TextWriter.WriteLineAsync(String)
+  fullName: System.IO.TextWriter.WriteLineAsync(System.String)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLineAsync(System.String)
+    name: WriteLineAsync
+    nameWithType: TextWriter.WriteLineAsync
+    fullName: System.IO.TextWriter.WriteLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLineAsync(System.String)
+    name: WriteLineAsync
+    nameWithType: TextWriter.WriteLineAsync
+    fullName: System.IO.TextWriter.WriteLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLineAsync(System.Char[])
+  commentId: M:System.IO.TextWriter.WriteLineAsync(System.Char[])
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLineAsync(Char[])
+  nameWithType: TextWriter.WriteLineAsync(Char[])
+  fullName: System.IO.TextWriter.WriteLineAsync(System.Char[])
+  nameWithType.vb: TextWriter.WriteLineAsync(Char())
+  fullName.vb: System.IO.TextWriter.WriteLineAsync(System.Char())
+  name.vb: WriteLineAsync(Char())
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLineAsync(System.Char[])
+    name: WriteLineAsync
+    nameWithType: TextWriter.WriteLineAsync
+    fullName: System.IO.TextWriter.WriteLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLineAsync(System.Char[])
+    name: WriteLineAsync
+    nameWithType: TextWriter.WriteLineAsync
+    fullName: System.IO.TextWriter.WriteLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLineAsync(System.Char[],System.Int32,System.Int32)
+  commentId: M:System.IO.TextWriter.WriteLineAsync(System.Char[],System.Int32,System.Int32)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLineAsync(Char[], Int32, Int32)
+  nameWithType: TextWriter.WriteLineAsync(Char[], Int32, Int32)
+  fullName: System.IO.TextWriter.WriteLineAsync(System.Char[], System.Int32, System.Int32)
+  nameWithType.vb: TextWriter.WriteLineAsync(Char(), Int32, Int32)
+  fullName.vb: System.IO.TextWriter.WriteLineAsync(System.Char(), System.Int32, System.Int32)
+  name.vb: WriteLineAsync(Char(), Int32, Int32)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLineAsync(System.Char[],System.Int32,System.Int32)
+    name: WriteLineAsync
+    nameWithType: TextWriter.WriteLineAsync
+    fullName: System.IO.TextWriter.WriteLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLineAsync(System.Char[],System.Int32,System.Int32)
+    name: WriteLineAsync
+    nameWithType: TextWriter.WriteLineAsync
+    fullName: System.IO.TextWriter.WriteLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.WriteLineAsync
+  commentId: M:System.IO.TextWriter.WriteLineAsync
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLineAsync()
+  nameWithType: TextWriter.WriteLineAsync()
+  fullName: System.IO.TextWriter.WriteLineAsync()
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLineAsync
+    name: WriteLineAsync
+    nameWithType: TextWriter.WriteLineAsync
+    fullName: System.IO.TextWriter.WriteLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLineAsync
+    name: WriteLineAsync
+    nameWithType: TextWriter.WriteLineAsync
+    fullName: System.IO.TextWriter.WriteLineAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.FlushAsync
+  commentId: M:System.IO.TextWriter.FlushAsync
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: FlushAsync()
+  nameWithType: TextWriter.FlushAsync()
+  fullName: System.IO.TextWriter.FlushAsync()
+  spec.csharp:
+  - uid: System.IO.TextWriter.FlushAsync
+    name: FlushAsync
+    nameWithType: TextWriter.FlushAsync
+    fullName: System.IO.TextWriter.FlushAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.FlushAsync
+    name: FlushAsync
+    nameWithType: TextWriter.FlushAsync
+    fullName: System.IO.TextWriter.FlushAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.FormatProvider
+  commentId: P:System.IO.TextWriter.FormatProvider
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: FormatProvider
+  nameWithType: TextWriter.FormatProvider
+  fullName: System.IO.TextWriter.FormatProvider
+- uid: System.IO.TextWriter.NewLine
+  commentId: P:System.IO.TextWriter.NewLine
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: NewLine
+  nameWithType: TextWriter.NewLine
+  fullName: System.IO.TextWriter.NewLine
+- uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  commentId: M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: MemberwiseClone(Boolean)
+  nameWithType: MarshalByRefObject.MemberwiseClone(Boolean)
+  fullName: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  spec.csharp:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    nameWithType: MarshalByRefObject.MemberwiseClone
+    fullName: System.MarshalByRefObject.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    nameWithType: MarshalByRefObject.MemberwiseClone
+    fullName: System.MarshalByRefObject.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.GetLifetimeService
+  commentId: M:System.MarshalByRefObject.GetLifetimeService
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: GetLifetimeService()
+  nameWithType: MarshalByRefObject.GetLifetimeService()
+  fullName: System.MarshalByRefObject.GetLifetimeService()
+  spec.csharp:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    nameWithType: MarshalByRefObject.GetLifetimeService
+    fullName: System.MarshalByRefObject.GetLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    nameWithType: MarshalByRefObject.GetLifetimeService
+    fullName: System.MarshalByRefObject.GetLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.InitializeLifetimeService
+  commentId: M:System.MarshalByRefObject.InitializeLifetimeService
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: InitializeLifetimeService()
+  nameWithType: MarshalByRefObject.InitializeLifetimeService()
+  fullName: System.MarshalByRefObject.InitializeLifetimeService()
+  spec.csharp:
+  - uid: System.MarshalByRefObject.InitializeLifetimeService
+    name: InitializeLifetimeService
+    nameWithType: MarshalByRefObject.InitializeLifetimeService
+    fullName: System.MarshalByRefObject.InitializeLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.InitializeLifetimeService
+    name: InitializeLifetimeService
+    nameWithType: MarshalByRefObject.InitializeLifetimeService
+    fullName: System.MarshalByRefObject.InitializeLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+  commentId: M:System.MarshalByRefObject.CreateObjRef(System.Type)
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: CreateObjRef(Type)
+  nameWithType: MarshalByRefObject.CreateObjRef(Type)
+  fullName: System.MarshalByRefObject.CreateObjRef(System.Type)
+  spec.csharp:
+  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+    name: CreateObjRef
+    nameWithType: MarshalByRefObject.CreateObjRef
+    fullName: System.MarshalByRefObject.CreateObjRef
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+    name: CreateObjRef
+    nameWithType: MarshalByRefObject.CreateObjRef
+    fullName: System.MarshalByRefObject.CreateObjRef
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  definition: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  name: AttributeFormatOrNull()
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull()
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull()
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  isExternal: true
+  name: AttributeFormatOrNull(Object)
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull(Object)
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  parent: Vortex.Presentation.Controls.Wpf.Extension
+  name: AttributeStringFormatExtensions
+  nameWithType: AttributeStringFormatExtensions
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+- uid: Vortex.Presentation.Controls.Wpf.Extension
+  commentId: N:Vortex.Presentation.Controls.Wpf.Extension
+  name: Vortex.Presentation.Controls.Wpf.Extension
+  nameWithType: Vortex.Presentation.Controls.Wpf.Extension
+  fullName: Vortex.Presentation.Controls.Wpf.Extension
+- uid: System.EventHandler{Vortex.Presentation.Wpf.ConsoleWriterEventArgs}
+  commentId: T:System.EventHandler{Vortex.Presentation.Wpf.ConsoleWriterEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<ConsoleWriterEventArgs>
+  nameWithType: EventHandler<ConsoleWriterEventArgs>
+  fullName: System.EventHandler<Vortex.Presentation.Wpf.ConsoleWriterEventArgs>
+  nameWithType.vb: EventHandler(Of ConsoleWriterEventArgs)
+  fullName.vb: System.EventHandler(Of Vortex.Presentation.Wpf.ConsoleWriterEventArgs)
+  name.vb: EventHandler(Of ConsoleWriterEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Presentation.Wpf.ConsoleWriterEventArgs
+    name: ConsoleWriterEventArgs
+    nameWithType: ConsoleWriterEventArgs
+    fullName: Vortex.Presentation.Wpf.ConsoleWriterEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Presentation.Wpf.ConsoleWriterEventArgs
+    name: ConsoleWriterEventArgs
+    nameWithType: ConsoleWriterEventArgs
+    fullName: Vortex.Presentation.Wpf.ConsoleWriterEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.TextWriter.Write(System.String)
+  commentId: M:System.IO.TextWriter.Write(System.String)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Write(String)
+  nameWithType: TextWriter.Write(String)
+  fullName: System.IO.TextWriter.Write(System.String)
+  spec.csharp:
+  - uid: System.IO.TextWriter.Write(System.String)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.Write(System.String)
+    name: Write
+    nameWithType: TextWriter.Write
+    fullName: System.IO.TextWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.ConsoleWriter.Write*
+  commentId: Overload:Vortex.Presentation.Wpf.ConsoleWriter.Write
+  name: Write
+  nameWithType: ConsoleWriter.Write
+  fullName: Vortex.Presentation.Wpf.ConsoleWriter.Write
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.IO.TextWriter.WriteLine(System.String)
+  commentId: M:System.IO.TextWriter.WriteLine(System.String)
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: WriteLine(String)
+  nameWithType: TextWriter.WriteLine(String)
+  fullName: System.IO.TextWriter.WriteLine(System.String)
+  spec.csharp:
+  - uid: System.IO.TextWriter.WriteLine(System.String)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.TextWriter.WriteLine(System.String)
+    name: WriteLine
+    nameWithType: TextWriter.WriteLine
+    fullName: System.IO.TextWriter.WriteLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.ConsoleWriter.WriteLine*
+  commentId: Overload:Vortex.Presentation.Wpf.ConsoleWriter.WriteLine
+  name: WriteLine
+  nameWithType: ConsoleWriter.WriteLine
+  fullName: Vortex.Presentation.Wpf.ConsoleWriter.WriteLine
+- uid: System.IO.TextWriter.Encoding
+  commentId: P:System.IO.TextWriter.Encoding
+  parent: System.IO.TextWriter
+  isExternal: true
+  name: Encoding
+  nameWithType: TextWriter.Encoding
+  fullName: System.IO.TextWriter.Encoding
+- uid: Vortex.Presentation.Wpf.ConsoleWriter.Encoding*
+  commentId: Overload:Vortex.Presentation.Wpf.ConsoleWriter.Encoding
+  name: Encoding
+  nameWithType: ConsoleWriter.Encoding
+  fullName: Vortex.Presentation.Wpf.ConsoleWriter.Encoding
+- uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
+  isExternal: true
+  name: Encoding
+  nameWithType: Encoding
+  fullName: System.Text.Encoding
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text

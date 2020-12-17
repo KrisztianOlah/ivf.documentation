@@ -1,0 +1,4126 @@
+### YamlMime:ManagedReference
+items:
+- uid: Vortex.Presentation.Wpf.Renderer
+  commentId: T:Vortex.Presentation.Wpf.Renderer
+  id: Renderer
+  parent: Vortex.Presentation.Wpf
+  children:
+  - Vortex.Presentation.Wpf.Renderer.#ctor
+  - Vortex.Presentation.Wpf.Renderer._cachedTypes
+  - Vortex.Presentation.Wpf.Renderer._componentsCache
+  - Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.Object,System.Object,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
+  - Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement)
+  - Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement)
+  - Vortex.Presentation.Wpf.Renderer._instance
+  - Vortex.Presentation.Wpf.Renderer._viewAsseblyLookupList
+  - Vortex.Presentation.Wpf.Renderer.AddContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.Object)
+  - Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ContentControl,Vortex.Connector.IVortexElement,System.String)
+  - Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Decorator,Vortex.Connector.IVortexElement,System.String)
+  - Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.HeaderedContentControl,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+  - Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ItemsControl,Vortex.Connector.IVortexElement,System.String)
+  - Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Panel,Vortex.Connector.IVortexElement,System.String)
+  - Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Primitives.Selector,Vortex.Connector.IVortexElement,System.String)
+  - Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+  - Vortex.Presentation.Wpf.Renderer.AddViewModelTypeToComponentsCache(System.String,System.Type,System.Type)
+  - Vortex.Presentation.Wpf.Renderer.AddViewTypeToComponentsCache(System.String,System.Type,System.Type)
+  - Vortex.Presentation.Wpf.Renderer.assembliesLoaded
+  - Vortex.Presentation.Wpf.Renderer.AttachAllAssemblieFromApplicationDomain
+  - Vortex.Presentation.Wpf.Renderer.AttachAllAssemblies
+  - Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesApplicationFolder
+  - Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesAtRuntime
+  - Vortex.Presentation.Wpf.Renderer.AttachAssembliesInDesignMode
+  - Vortex.Presentation.Wpf.Renderer.AttachAssemblyToLookUpList(System.String)
+  - Vortex.Presentation.Wpf.Renderer.ComponentsCache
+  - Vortex.Presentation.Wpf.Renderer.CreateContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Boolean)
+  - Vortex.Presentation.Wpf.Renderer.CreateDefaultContainer
+  - Vortex.Presentation.Wpf.Renderer.CreatePresentation(System.Object,System.Object,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32,System.Boolean)
+  - Vortex.Presentation.Wpf.Renderer.DesignModeSettings
+  - Vortex.Presentation.Wpf.Renderer.Diagnostics
+  - Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Object)
+  - Vortex.Presentation.Wpf.Renderer.FindClosestModelViewInPipeline(System.String,System.Type)
+  - Vortex.Presentation.Wpf.Renderer.FindClosestView(System.String,System.Type)
+  - Vortex.Presentation.Wpf.Renderer.FindClosestViewInPipeline(System.String,System.Type)
+  - Vortex.Presentation.Wpf.Renderer.FindClosestViewModel(System.String,System.Type)
+  - Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded(System.Object,System.Windows.RoutedEventArgs)
+  - Vortex.Presentation.Wpf.Renderer.Get
+  - Vortex.Presentation.Wpf.Renderer.GetClosestView(System.String,System.Type)
+  - Vortex.Presentation.Wpf.Renderer.GetClosestViewModel(System.String,System.Type)
+  - Vortex.Presentation.Wpf.Renderer.GetContainerAttribute(Vortex.Connector.IVortexElement,System.Boolean)
+  - Vortex.Presentation.Wpf.Renderer.GetEnumeratorDiscriminatorAttribute(Vortex.Connector.IVortexElement)
+  - Vortex.Presentation.Wpf.Renderer.GetGroupAttribute(Vortex.Connector.IVortexElement,System.Boolean)
+  - Vortex.Presentation.Wpf.Renderer.GetGroupedProperies(System.Type,System.Collections.Generic.List{Vortex.Presentation.Wpf.Renderer.BaseTypeProperies})
+  - Vortex.Presentation.Wpf.Renderer.GetHeader(Vortex.Connector.IVortexElement,System.Object)
+  - Vortex.Presentation.Wpf.Renderer.GetIgnoreRenderingAttribute(Vortex.Connector.IVortexElement)
+  - Vortex.Presentation.Wpf.Renderer.GetPropertyViaSymbol(Vortex.Connector.IVortexElement)
+  - Vortex.Presentation.Wpf.Renderer.GetReferencedAssemblies
+  - Vortex.Presentation.Wpf.Renderer.GetSortedProperties(Vortex.Connector.IVortexElement,System.Collections.Generic.List{System.Reflection.PropertyInfo})
+  - Vortex.Presentation.Wpf.Renderer.GetSortedProperties(Vortex.Connector.IVortexObject,System.Collections.Generic.List{System.Reflection.PropertyInfo})
+  - Vortex.Presentation.Wpf.Renderer.GetTypeToCreate(System.String,System.String)
+  - Vortex.Presentation.Wpf.Renderer.GetView(System.String,System.Type)
+  - Vortex.Presentation.Wpf.Renderer.GetViewFromCache(System.String)
+  - Vortex.Presentation.Wpf.Renderer.GetViewModel(System.String,System.Type,System.Object)
+  - Vortex.Presentation.Wpf.Renderer.GetViewModelFromCache(System.String)
+  - Vortex.Presentation.Wpf.Renderer.HasIgnore(System.String,Vortex.Connector.IVortexElement)
+  - Vortex.Presentation.Wpf.Renderer.InvalidLicenseView(System.String)
+  - Vortex.Presentation.Wpf.Renderer.IsDisplayable(System.Collections.Generic.List{System.Object})
+  - Vortex.Presentation.Wpf.Renderer.IsEnumerator(Vortex.Connector.IVortexElement)
+  - Vortex.Presentation.Wpf.Renderer.IsObjectCountReached(System.Int32@,System.Int32)
+  - Vortex.Presentation.Wpf.Renderer.MaxObjectCountInDesign
+  - Vortex.Presentation.Wpf.Renderer.mutex
+  - Vortex.Presentation.Wpf.Renderer.ProbeViewLocator(System.String,Vortex.Connector.IVortexElement)
+  - Vortex.Presentation.Wpf.Renderer.ProbeViewLocatorCreator(System.String,Vortex.Connector.IVortexElement)
+  - Vortex.Presentation.Wpf.Renderer.RendererBusy
+  - Vortex.Presentation.Wpf.Renderer.RendererDone
+  - Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32,System.Boolean)
+  - Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
+  - Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation(System.Exception,Vortex.Presentation.Wpf.ReportingLevel)
+  - Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation(Vortex.Presentation.Wpf.TooManyObjectsToRenderException,Vortex.Presentation.Wpf.ReportingLevel)
+  - Vortex.Presentation.Wpf.Renderer.ReportingSeverity
+  - Vortex.Presentation.Wpf.Renderer.SecurityProvider_OnAnyAuthenticationEvent(System.String)
+  - Vortex.Presentation.Wpf.Renderer.ViewAssemblyLookupList
+  - Vortex.Presentation.Wpf.Renderer.ViewViewModelLocator(System.String,Vortex.Connector.IVortexElement)
+  - Vortex.Presentation.Wpf.Renderer.ViewViewModelLocatorCreator(System.String,Vortex.Connector.IVortexElement)
+  langs:
+  - csharp
+  - vb
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Vortex.Presentation.Wpf.Renderer
+  type: Class
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Renderer
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 24
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\n<xref href=\"Vortex.Presentation.Wpf.Renderer\" data-throw-if-not-resolved=\"false\"></xref> renders representation for object that derive <xref href=\"Vortex.Connector.IVortexObject\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"Vortex.Connector.IValueTag\" data-throw-if-not-resolved=\"false\"></xref>  \n"
+  example: []
+  syntax:
+    content: public class Renderer
+    content.vb: Public Class Renderer
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Vortex.Presentation.Wpf.Renderer._instance
+  commentId: F:Vortex.Presentation.Wpf.Renderer._instance
+  id: _instance
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: _instance
+  nameWithType: Renderer._instance
+  fullName: Vortex.Presentation.Wpf.Renderer._instance
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _instance
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 27
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: static Renderer _instance
+    return:
+      type: Vortex.Presentation.Wpf.Renderer
+    content.vb: Shared _instance As Renderer
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Presentation.Wpf.Renderer.mutex
+  commentId: F:Vortex.Presentation.Wpf.Renderer.mutex
+  id: mutex
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: mutex
+  nameWithType: Renderer.mutex
+  fullName: Vortex.Presentation.Wpf.Renderer.mutex
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: mutex
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 28
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: static volatile object mutex
+    return:
+      type: System.Object
+    content.vb: Shared mutex As Object
+  modifiers.csharp:
+  - static
+  - volatile
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Presentation.Wpf.Renderer._viewAsseblyLookupList
+  commentId: F:Vortex.Presentation.Wpf.Renderer._viewAsseblyLookupList
+  id: _viewAsseblyLookupList
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: _viewAsseblyLookupList
+  nameWithType: Renderer._viewAsseblyLookupList
+  fullName: Vortex.Presentation.Wpf.Renderer._viewAsseblyLookupList
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _viewAsseblyLookupList
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 30
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: readonly List<string> _viewAsseblyLookupList
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: ReadOnly _viewAsseblyLookupList As List(Of String)
+  modifiers.csharp:
+  - readonly
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.Renderer.assembliesLoaded
+  commentId: F:Vortex.Presentation.Wpf.Renderer.assembliesLoaded
+  id: assembliesLoaded
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: assembliesLoaded
+  nameWithType: Renderer.assembliesLoaded
+  fullName: Vortex.Presentation.Wpf.Renderer.assembliesLoaded
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: assembliesLoaded
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 32
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: bool assembliesLoaded
+    return:
+      type: System.Boolean
+    content.vb: assembliesLoaded As Boolean
+- uid: Vortex.Presentation.Wpf.Renderer.#ctor
+  commentId: M:Vortex.Presentation.Wpf.Renderer.#ctor
+  id: '#ctor'
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: Renderer()
+  nameWithType: Renderer.Renderer()
+  fullName: Vortex.Presentation.Wpf.Renderer.Renderer()
+  type: Constructor
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: .ctor
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 34
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Renderer()
+    content.vb: Sub New
+  overload: Vortex.Presentation.Wpf.Renderer.#ctor*
+- uid: Vortex.Presentation.Wpf.Renderer.AddContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.Object)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.Object)
+  id: AddContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.Object)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AddContainer(FrameworkElement, FrameworkElement, IVortexElement, Object)
+  nameWithType: Renderer.AddContainer(FrameworkElement, FrameworkElement, IVortexElement, Object)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddContainer(System.Windows.FrameworkElement, System.Windows.FrameworkElement, Vortex.Connector.IVortexElement, System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddContainer
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 39
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: FrameworkElement AddContainer(FrameworkElement newContainer, FrameworkElement parentContainer, IVortexElement vortexObject, object parentHeader)
+    parameters:
+    - id: newContainer
+      type: System.Windows.FrameworkElement
+    - id: parentContainer
+      type: System.Windows.FrameworkElement
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+    - id: parentHeader
+      type: System.Object
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Function AddContainer(newContainer As FrameworkElement, parentContainer As FrameworkElement, vortexObject As IVortexElement, parentHeader As Object) As FrameworkElement
+  overload: Vortex.Presentation.Wpf.Renderer.AddContainer*
+- uid: Vortex.Presentation.Wpf.Renderer.AddViewModelTypeToComponentsCache(System.String,System.Type,System.Type)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddViewModelTypeToComponentsCache(System.String,System.Type,System.Type)
+  id: AddViewModelTypeToComponentsCache(System.String,System.Type,System.Type)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AddViewModelTypeToComponentsCache(String, Type, Type)
+  nameWithType: Renderer.AddViewModelTypeToComponentsCache(String, Type, Type)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddViewModelTypeToComponentsCache(System.String, System.Type, System.Type)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddViewModelTypeToComponentsCache
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 88
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: void AddViewModelTypeToComponentsCache(string fullSignature, Type objType, Type viewModelType)
+    parameters:
+    - id: fullSignature
+      type: System.String
+    - id: objType
+      type: System.Type
+    - id: viewModelType
+      type: System.Type
+    content.vb: Sub AddViewModelTypeToComponentsCache(fullSignature As String, objType As Type, viewModelType As Type)
+  overload: Vortex.Presentation.Wpf.Renderer.AddViewModelTypeToComponentsCache*
+- uid: Vortex.Presentation.Wpf.Renderer.AddViewTypeToComponentsCache(System.String,System.Type,System.Type)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddViewTypeToComponentsCache(System.String,System.Type,System.Type)
+  id: AddViewTypeToComponentsCache(System.String,System.Type,System.Type)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AddViewTypeToComponentsCache(String, Type, Type)
+  nameWithType: Renderer.AddViewTypeToComponentsCache(String, Type, Type)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddViewTypeToComponentsCache(System.String, System.Type, System.Type)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddViewTypeToComponentsCache
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 100
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: void AddViewTypeToComponentsCache(string fullSignature, Type objType, Type viewType)
+    parameters:
+    - id: fullSignature
+      type: System.String
+    - id: objType
+      type: System.Type
+    - id: viewType
+      type: System.Type
+    content.vb: Sub AddViewTypeToComponentsCache(fullSignature As String, objType As Type, viewType As Type)
+  overload: Vortex.Presentation.Wpf.Renderer.AddViewTypeToComponentsCache*
+- uid: Vortex.Presentation.Wpf.Renderer.CreateDefaultContainer
+  commentId: M:Vortex.Presentation.Wpf.Renderer.CreateDefaultContainer
+  id: CreateDefaultContainer
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultContainer()
+  nameWithType: Renderer.CreateDefaultContainer()
+  fullName: Vortex.Presentation.Wpf.Renderer.CreateDefaultContainer()
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateDefaultContainer
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 112
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: static FrameworkElement CreateDefaultContainer()
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Shared Function CreateDefaultContainer As FrameworkElement
+  overload: Vortex.Presentation.Wpf.Renderer.CreateDefaultContainer*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Presentation.Wpf.Renderer.DesignModeSettings
+  commentId: M:Vortex.Presentation.Wpf.Renderer.DesignModeSettings
+  id: DesignModeSettings
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: DesignModeSettings()
+  nameWithType: Renderer.DesignModeSettings()
+  fullName: Vortex.Presentation.Wpf.Renderer.DesignModeSettings()
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: DesignModeSettings
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 117
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: void DesignModeSettings()
+    content.vb: Sub DesignModeSettings
+  overload: Vortex.Presentation.Wpf.Renderer.DesignModeSettings*
+- uid: Vortex.Presentation.Wpf.Renderer.FindClosestModelViewInPipeline(System.String,System.Type)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.FindClosestModelViewInPipeline(System.String,System.Type)
+  id: FindClosestModelViewInPipeline(System.String,System.Type)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: FindClosestModelViewInPipeline(String, Type)
+  nameWithType: Renderer.FindClosestModelViewInPipeline(String, Type)
+  fullName: Vortex.Presentation.Wpf.Renderer.FindClosestModelViewInPipeline(System.String, System.Type)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: FindClosestModelViewInPipeline
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 122
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Type FindClosestModelViewInPipeline(string presentationType, Type objType)
+    parameters:
+    - id: presentationType
+      type: System.String
+    - id: objType
+      type: System.Type
+    return:
+      type: System.Type
+    content.vb: Function FindClosestModelViewInPipeline(presentationType As String, objType As Type) As Type
+  overload: Vortex.Presentation.Wpf.Renderer.FindClosestModelViewInPipeline*
+- uid: Vortex.Presentation.Wpf.Renderer.FindClosestViewInPipeline(System.String,System.Type)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.FindClosestViewInPipeline(System.String,System.Type)
+  id: FindClosestViewInPipeline(System.String,System.Type)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: FindClosestViewInPipeline(String, Type)
+  nameWithType: Renderer.FindClosestViewInPipeline(String, Type)
+  fullName: Vortex.Presentation.Wpf.Renderer.FindClosestViewInPipeline(System.String, System.Type)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: FindClosestViewInPipeline
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 171
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Type FindClosestViewInPipeline(string presentationType, Type objType)
+    parameters:
+    - id: presentationType
+      type: System.String
+    - id: objType
+      type: System.Type
+    return:
+      type: System.Type
+    content.vb: Function FindClosestViewInPipeline(presentationType As String, objType As Type) As Type
+  overload: Vortex.Presentation.Wpf.Renderer.FindClosestViewInPipeline*
+- uid: Vortex.Presentation.Wpf.Renderer.FindClosestViewModel(System.String,System.Type)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.FindClosestViewModel(System.String,System.Type)
+  id: FindClosestViewModel(System.String,System.Type)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: FindClosestViewModel(String, Type)
+  nameWithType: Renderer.FindClosestViewModel(String, Type)
+  fullName: Vortex.Presentation.Wpf.Renderer.FindClosestViewModel(System.String, System.Type)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: FindClosestViewModel
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 225
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Type FindClosestViewModel(string presentationType, Type objType)
+    parameters:
+    - id: presentationType
+      type: System.String
+    - id: objType
+      type: System.Type
+    return:
+      type: System.Type
+    content.vb: Function FindClosestViewModel(presentationType As String, objType As Type) As Type
+  overload: Vortex.Presentation.Wpf.Renderer.FindClosestViewModel*
+- uid: Vortex.Presentation.Wpf.Renderer.GetContainerAttribute(Vortex.Connector.IVortexElement,System.Boolean)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetContainerAttribute(Vortex.Connector.IVortexElement,System.Boolean)
+  id: GetContainerAttribute(Vortex.Connector.IVortexElement,System.Boolean)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetContainerAttribute(IVortexElement, Boolean)
+  nameWithType: Renderer.GetContainerAttribute(IVortexElement, Boolean)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetContainerAttribute(Vortex.Connector.IVortexElement, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetContainerAttribute
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 255
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: PresentationContainerAttribute GetContainerAttribute(IVortexElement vortexObject, bool hasCustomizedView)
+    parameters:
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+    - id: hasCustomizedView
+      type: System.Boolean
+    return:
+      type: Vortex.Presentation.Attributes.PresentationContainerAttribute
+    content.vb: Function GetContainerAttribute(vortexObject As IVortexElement, hasCustomizedView As Boolean) As PresentationContainerAttribute
+  overload: Vortex.Presentation.Wpf.Renderer.GetContainerAttribute*
+- uid: Vortex.Presentation.Wpf.Renderer.GetGroupAttribute(Vortex.Connector.IVortexElement,System.Boolean)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetGroupAttribute(Vortex.Connector.IVortexElement,System.Boolean)
+  id: GetGroupAttribute(Vortex.Connector.IVortexElement,System.Boolean)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetGroupAttribute(IVortexElement, Boolean)
+  nameWithType: Renderer.GetGroupAttribute(IVortexElement, Boolean)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetGroupAttribute(Vortex.Connector.IVortexElement, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetGroupAttribute
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 292
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: PresentationGroupAttribute GetGroupAttribute(IVortexElement vortexObject, bool hasCustomizedView)
+    parameters:
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+    - id: hasCustomizedView
+      type: System.Boolean
+    return:
+      type: Vortex.Presentation.Attributes.PresentationGroupAttribute
+    content.vb: Function GetGroupAttribute(vortexObject As IVortexElement, hasCustomizedView As Boolean) As PresentationGroupAttribute
+  overload: Vortex.Presentation.Wpf.Renderer.GetGroupAttribute*
+- uid: Vortex.Presentation.Wpf.Renderer.GetGroupedProperies(System.Type,System.Collections.Generic.List{Vortex.Presentation.Wpf.Renderer.BaseTypeProperies})
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetGroupedProperies(System.Type,System.Collections.Generic.List{Vortex.Presentation.Wpf.Renderer.BaseTypeProperies})
+  id: GetGroupedProperies(System.Type,System.Collections.Generic.List{Vortex.Presentation.Wpf.Renderer.BaseTypeProperies})
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetGroupedProperies(Type, List<Renderer.BaseTypeProperies>)
+  nameWithType: Renderer.GetGroupedProperies(Type, List<Renderer.BaseTypeProperies>)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetGroupedProperies(System.Type, System.Collections.Generic.List<Vortex.Presentation.Wpf.Renderer.BaseTypeProperies>)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetGroupedProperies
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 327
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: IEnumerable<Renderer.BaseTypeProperies> GetGroupedProperies(Type type, List<Renderer.BaseTypeProperies> properties = null)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: properties
+      type: System.Collections.Generic.List{Vortex.Presentation.Wpf.Renderer.BaseTypeProperies}
+    return:
+      type: System.Collections.Generic.IEnumerable{Vortex.Presentation.Wpf.Renderer.BaseTypeProperies}
+    content.vb: Function GetGroupedProperies(type As Type, properties As List(Of Renderer.BaseTypeProperies) = Nothing) As IEnumerable(Of Renderer.BaseTypeProperies)
+  overload: Vortex.Presentation.Wpf.Renderer.GetGroupedProperies*
+  nameWithType.vb: Renderer.GetGroupedProperies(Type, List(Of Renderer.BaseTypeProperies))
+  fullName.vb: Vortex.Presentation.Wpf.Renderer.GetGroupedProperies(System.Type, System.Collections.Generic.List(Of Vortex.Presentation.Wpf.Renderer.BaseTypeProperies))
+  name.vb: GetGroupedProperies(Type, List(Of Renderer.BaseTypeProperies))
+- uid: Vortex.Presentation.Wpf.Renderer.GetIgnoreRenderingAttribute(Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetIgnoreRenderingAttribute(Vortex.Connector.IVortexElement)
+  id: GetIgnoreRenderingAttribute(Vortex.Connector.IVortexElement)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetIgnoreRenderingAttribute(IVortexElement)
+  nameWithType: Renderer.GetIgnoreRenderingAttribute(IVortexElement)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetIgnoreRenderingAttribute(Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetIgnoreRenderingAttribute
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 345
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: RenderIgnoreAttribute GetIgnoreRenderingAttribute(IVortexElement vortexObject)
+    parameters:
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+    return:
+      type: RenderIgnoreAttribute
+    content.vb: Function GetIgnoreRenderingAttribute(vortexObject As IVortexElement) As RenderIgnoreAttribute
+  overload: Vortex.Presentation.Wpf.Renderer.GetIgnoreRenderingAttribute*
+- uid: Vortex.Presentation.Wpf.Renderer.GetViewFromCache(System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetViewFromCache(System.String)
+  id: GetViewFromCache(System.String)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetViewFromCache(String)
+  nameWithType: Renderer.GetViewFromCache(String)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetViewFromCache(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetViewFromCache
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 377
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Type GetViewFromCache(string fullSignature)
+    parameters:
+    - id: fullSignature
+      type: System.String
+    return:
+      type: System.Type
+    content.vb: Function GetViewFromCache(fullSignature As String) As Type
+  overload: Vortex.Presentation.Wpf.Renderer.GetViewFromCache*
+- uid: Vortex.Presentation.Wpf.Renderer.GetViewModelFromCache(System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetViewModelFromCache(System.String)
+  id: GetViewModelFromCache(System.String)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetViewModelFromCache(String)
+  nameWithType: Renderer.GetViewModelFromCache(String)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetViewModelFromCache(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetViewModelFromCache
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 387
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Type GetViewModelFromCache(string fullSignature)
+    parameters:
+    - id: fullSignature
+      type: System.String
+    return:
+      type: System.Type
+    content.vb: Function GetViewModelFromCache(fullSignature As String) As Type
+  overload: Vortex.Presentation.Wpf.Renderer.GetViewModelFromCache*
+- uid: Vortex.Presentation.Wpf.Renderer.IsDisplayable(System.Collections.Generic.List{System.Object})
+  commentId: M:Vortex.Presentation.Wpf.Renderer.IsDisplayable(System.Collections.Generic.List{System.Object})
+  id: IsDisplayable(System.Collections.Generic.List{System.Object})
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: IsDisplayable(List<Object>)
+  nameWithType: Renderer.IsDisplayable(List<Object>)
+  fullName: Vortex.Presentation.Wpf.Renderer.IsDisplayable(System.Collections.Generic.List<System.Object>)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IsDisplayable
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 397
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: bool IsDisplayable(List<object> attribs)
+    parameters:
+    - id: attribs
+      type: System.Collections.Generic.List{System.Object}
+    return:
+      type: System.Boolean
+    content.vb: Function IsDisplayable(attribs As List(Of Object)) As Boolean
+  overload: Vortex.Presentation.Wpf.Renderer.IsDisplayable*
+  nameWithType.vb: Renderer.IsDisplayable(List(Of Object))
+  fullName.vb: Vortex.Presentation.Wpf.Renderer.IsDisplayable(System.Collections.Generic.List(Of System.Object))
+  name.vb: IsDisplayable(List(Of Object))
+- uid: Vortex.Presentation.Wpf.Renderer.IsEnumerator(Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.IsEnumerator(Vortex.Connector.IVortexElement)
+  id: IsEnumerator(Vortex.Connector.IVortexElement)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: IsEnumerator(IVortexElement)
+  nameWithType: Renderer.IsEnumerator(IVortexElement)
+  fullName: Vortex.Presentation.Wpf.Renderer.IsEnumerator(Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IsEnumerator
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 402
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: bool IsEnumerator(IVortexElement obj)
+    parameters:
+    - id: obj
+      type: Vortex.Connector.IVortexElement
+    return:
+      type: System.Boolean
+    content.vb: Function IsEnumerator(obj As IVortexElement) As Boolean
+  overload: Vortex.Presentation.Wpf.Renderer.IsEnumerator*
+- uid: Vortex.Presentation.Wpf.Renderer.ViewViewModelLocatorCreator(System.String,Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.ViewViewModelLocatorCreator(System.String,Vortex.Connector.IVortexElement)
+  id: ViewViewModelLocatorCreator(System.String,Vortex.Connector.IVortexElement)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: ViewViewModelLocatorCreator(String, IVortexElement)
+  nameWithType: Renderer.ViewViewModelLocatorCreator(String, IVortexElement)
+  fullName: Vortex.Presentation.Wpf.Renderer.ViewViewModelLocatorCreator(System.String, Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ViewViewModelLocatorCreator
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 415
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: FrameworkElement ViewViewModelLocatorCreator(string presentationType, IVortexElement element)
+    parameters:
+    - id: presentationType
+      type: System.String
+    - id: element
+      type: Vortex.Connector.IVortexElement
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Function ViewViewModelLocatorCreator(presentationType As String, element As IVortexElement) As FrameworkElement
+  overload: Vortex.Presentation.Wpf.Renderer.ViewViewModelLocatorCreator*
+- uid: Vortex.Presentation.Wpf.Renderer.ProbeViewLocatorCreator(System.String,Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.ProbeViewLocatorCreator(System.String,Vortex.Connector.IVortexElement)
+  id: ProbeViewLocatorCreator(System.String,Vortex.Connector.IVortexElement)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: ProbeViewLocatorCreator(String, IVortexElement)
+  nameWithType: Renderer.ProbeViewLocatorCreator(String, IVortexElement)
+  fullName: Vortex.Presentation.Wpf.Renderer.ProbeViewLocatorCreator(System.String, Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ProbeViewLocatorCreator
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 475
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Type ProbeViewLocatorCreator(string presentationType, IVortexElement element)
+    parameters:
+    - id: presentationType
+      type: System.String
+    - id: element
+      type: Vortex.Connector.IVortexElement
+    return:
+      type: System.Type
+    content.vb: Function ProbeViewLocatorCreator(presentationType As String, element As IVortexElement) As Type
+  overload: Vortex.Presentation.Wpf.Renderer.ProbeViewLocatorCreator*
+- uid: Vortex.Presentation.Wpf.Renderer._componentsCache
+  commentId: F:Vortex.Presentation.Wpf.Renderer._componentsCache
+  id: _componentsCache
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: _componentsCache
+  nameWithType: Renderer._componentsCache
+  fullName: Vortex.Presentation.Wpf.Renderer._componentsCache
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _componentsCache
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 492
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: SortedDictionary<string, Renderer.ComponentsCacheItem> _componentsCache
+    return:
+      type: System.Collections.Generic.SortedDictionary{System.String,Vortex.Presentation.Wpf.Renderer.ComponentsCacheItem}
+    content.vb: _componentsCache As SortedDictionary(Of String, Renderer.ComponentsCacheItem)
+- uid: Vortex.Presentation.Wpf.Renderer.ComponentsCache
+  commentId: P:Vortex.Presentation.Wpf.Renderer.ComponentsCache
+  id: ComponentsCache
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: ComponentsCache
+  nameWithType: Renderer.ComponentsCache
+  fullName: Vortex.Presentation.Wpf.Renderer.ComponentsCache
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ComponentsCache
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 494
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: >-
+      SortedDictionary<string, Renderer.ComponentsCacheItem> ComponentsCache
+
+      {
+
+      }
+    parameters: []
+    return:
+      type: System.Collections.Generic.SortedDictionary{System.String,Vortex.Presentation.Wpf.Renderer.ComponentsCacheItem}
+    content.vb: ReadOnly WriteOnly Property ComponentsCache As SortedDictionary(Of String, Renderer.ComponentsCacheItem)
+  overload: Vortex.Presentation.Wpf.Renderer.ComponentsCache*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.Renderer.Diagnostics
+  commentId: P:Vortex.Presentation.Wpf.Renderer.Diagnostics
+  id: Diagnostics
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: Diagnostics
+  nameWithType: Renderer.Diagnostics
+  fullName: Vortex.Presentation.Wpf.Renderer.Diagnostics
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Diagnostics
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 502
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: >-
+      string Diagnostics
+
+      {
+
+      }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly WriteOnly Property Diagnostics As String
+  overload: Vortex.Presentation.Wpf.Renderer.Diagnostics*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vortex.Presentation.Wpf.Renderer.ViewAssemblyLookupList
+  commentId: P:Vortex.Presentation.Wpf.Renderer.ViewAssemblyLookupList
+  id: ViewAssemblyLookupList
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: ViewAssemblyLookupList
+  nameWithType: Renderer.ViewAssemblyLookupList
+  fullName: Vortex.Presentation.Wpf.Renderer.ViewAssemblyLookupList
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ViewAssemblyLookupList
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 508
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: >-
+      List<string> ViewAssemblyLookupList
+
+      {
+
+      }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: ReadOnly WriteOnly Property ViewAssemblyLookupList As List(Of String)
+  overload: Vortex.Presentation.Wpf.Renderer.ViewAssemblyLookupList*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+  id: AddElement(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AddElement(FrameworkElement, IVortexElement, String)
+  nameWithType: Renderer.AddElement(FrameworkElement, IVortexElement, String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.FrameworkElement, Vortex.Connector.IVortexElement, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddElement
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 516
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: bool AddElement(FrameworkElement container, IVortexElement vortexObject, string presentationType)
+    parameters:
+    - id: container
+      type: System.Windows.FrameworkElement
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+    - id: presentationType
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function AddElement(container As FrameworkElement, vortexObject As IVortexElement, presentationType As String) As Boolean
+  overload: Vortex.Presentation.Wpf.Renderer.AddElement*
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Decorator,Vortex.Connector.IVortexElement,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Decorator,Vortex.Connector.IVortexElement,System.String)
+  id: AddElement(System.Windows.Controls.Decorator,Vortex.Connector.IVortexElement,System.String)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AddElement(Decorator, IVortexElement, String)
+  nameWithType: Renderer.AddElement(Decorator, IVortexElement, String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Decorator, Vortex.Connector.IVortexElement, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddElement
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 555
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: bool AddElement(Decorator container, IVortexElement vortexObject, string presentationType)
+    parameters:
+    - id: container
+      type: System.Windows.Controls.Decorator
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+    - id: presentationType
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function AddElement(container As Decorator, vortexObject As IVortexElement, presentationType As String) As Boolean
+  overload: Vortex.Presentation.Wpf.Renderer.AddElement*
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Panel,Vortex.Connector.IVortexElement,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Panel,Vortex.Connector.IVortexElement,System.String)
+  id: AddElement(System.Windows.Controls.Panel,Vortex.Connector.IVortexElement,System.String)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AddElement(Panel, IVortexElement, String)
+  nameWithType: Renderer.AddElement(Panel, IVortexElement, String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Panel, Vortex.Connector.IVortexElement, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddElement
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 567
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: bool AddElement(Panel container, IVortexElement vortexObject, string presentationType)
+    parameters:
+    - id: container
+      type: System.Windows.Controls.Panel
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+    - id: presentationType
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function AddElement(container As Panel, vortexObject As IVortexElement, presentationType As String) As Boolean
+  overload: Vortex.Presentation.Wpf.Renderer.AddElement*
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ContentControl,Vortex.Connector.IVortexElement,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ContentControl,Vortex.Connector.IVortexElement,System.String)
+  id: AddElement(System.Windows.Controls.ContentControl,Vortex.Connector.IVortexElement,System.String)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AddElement(ContentControl, IVortexElement, String)
+  nameWithType: Renderer.AddElement(ContentControl, IVortexElement, String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ContentControl, Vortex.Connector.IVortexElement, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddElement
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 579
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: bool AddElement(ContentControl container, IVortexElement vortexObject, string presentationType)
+    parameters:
+    - id: container
+      type: System.Windows.Controls.ContentControl
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+    - id: presentationType
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function AddElement(container As ContentControl, vortexObject As IVortexElement, presentationType As String) As Boolean
+  overload: Vortex.Presentation.Wpf.Renderer.AddElement*
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ItemsControl,Vortex.Connector.IVortexElement,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ItemsControl,Vortex.Connector.IVortexElement,System.String)
+  id: AddElement(System.Windows.Controls.ItemsControl,Vortex.Connector.IVortexElement,System.String)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AddElement(ItemsControl, IVortexElement, String)
+  nameWithType: Renderer.AddElement(ItemsControl, IVortexElement, String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ItemsControl, Vortex.Connector.IVortexElement, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddElement
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 591
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: bool AddElement(ItemsControl container, IVortexElement vortexObject, string presentationType)
+    parameters:
+    - id: container
+      type: System.Windows.Controls.ItemsControl
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+    - id: presentationType
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function AddElement(container As ItemsControl, vortexObject As IVortexElement, presentationType As String) As Boolean
+  overload: Vortex.Presentation.Wpf.Renderer.AddElement*
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Primitives.Selector,Vortex.Connector.IVortexElement,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Primitives.Selector,Vortex.Connector.IVortexElement,System.String)
+  id: AddElement(System.Windows.Controls.Primitives.Selector,Vortex.Connector.IVortexElement,System.String)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AddElement(Selector, IVortexElement, String)
+  nameWithType: Renderer.AddElement(Selector, IVortexElement, String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Primitives.Selector, Vortex.Connector.IVortexElement, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddElement
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 603
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: bool AddElement(Selector container, IVortexElement vortexObject, string presentationType)
+    parameters:
+    - id: container
+      type: System.Windows.Controls.Primitives.Selector
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+    - id: presentationType
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function AddElement(container As Selector, vortexObject As IVortexElement, presentationType As String) As Boolean
+  overload: Vortex.Presentation.Wpf.Renderer.AddElement*
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.HeaderedContentControl,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.HeaderedContentControl,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+  id: AddElement(System.Windows.Controls.HeaderedContentControl,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AddElement(HeaderedContentControl, FrameworkElement, IVortexElement, String)
+  nameWithType: Renderer.AddElement(HeaderedContentControl, FrameworkElement, IVortexElement, String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.HeaderedContentControl, System.Windows.FrameworkElement, Vortex.Connector.IVortexElement, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddElement
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 615
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: bool AddElement(HeaderedContentControl container, FrameworkElement parentContainer, IVortexElement vortexObject, string presentationType)
+    parameters:
+    - id: container
+      type: System.Windows.Controls.HeaderedContentControl
+    - id: parentContainer
+      type: System.Windows.FrameworkElement
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+    - id: presentationType
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function AddElement(container As HeaderedContentControl, parentContainer As FrameworkElement, vortexObject As IVortexElement, presentationType As String) As Boolean
+  overload: Vortex.Presentation.Wpf.Renderer.AddElement*
+- uid: Vortex.Presentation.Wpf.Renderer._cachedTypes
+  commentId: F:Vortex.Presentation.Wpf.Renderer._cachedTypes
+  id: _cachedTypes
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: _cachedTypes
+  nameWithType: Renderer._cachedTypes
+  fullName: Vortex.Presentation.Wpf.Renderer._cachedTypes
+  type: Field
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _cachedTypes
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 650
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: readonly Dictionary<string, Type> _cachedTypes
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Type}
+    content.vb: ReadOnly _cachedTypes As Dictionary(Of String, Type)
+  modifiers.csharp:
+  - readonly
+  modifiers.vb:
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.Renderer.GetTypeToCreate(System.String,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetTypeToCreate(System.String,System.String)
+  id: GetTypeToCreate(System.String,System.String)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetTypeToCreate(String, String)
+  nameWithType: Renderer.GetTypeToCreate(String, String)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetTypeToCreate(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetTypeToCreate
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 652
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Type GetTypeToCreate(string assembly, string fullTypeName)
+    parameters:
+    - id: assembly
+      type: System.String
+    - id: fullTypeName
+      type: System.String
+    return:
+      type: System.Type
+    content.vb: Function GetTypeToCreate(assembly As String, fullTypeName As String) As Type
+  overload: Vortex.Presentation.Wpf.Renderer.GetTypeToCreate*
+- uid: Vortex.Presentation.Wpf.Renderer.CreateContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Boolean)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.CreateContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Boolean)
+  id: CreateContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Boolean)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: CreateContainer(FrameworkElement, FrameworkElement, IVortexElement, String, Boolean)
+  nameWithType: Renderer.CreateContainer(FrameworkElement, FrameworkElement, IVortexElement, String, Boolean)
+  fullName: Vortex.Presentation.Wpf.Renderer.CreateContainer(System.Windows.FrameworkElement, System.Windows.FrameworkElement, Vortex.Connector.IVortexElement, System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreateContainer
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 664
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: FrameworkElement CreateContainer(FrameworkElement parentContainer, FrameworkElement previousContainer, IVortexElement vortexObject, string presentationType, bool preferCustomized)
+    parameters:
+    - id: parentContainer
+      type: System.Windows.FrameworkElement
+    - id: previousContainer
+      type: System.Windows.FrameworkElement
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+    - id: presentationType
+      type: System.String
+    - id: preferCustomized
+      type: System.Boolean
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Function CreateContainer(parentContainer As FrameworkElement, previousContainer As FrameworkElement, vortexObject As IVortexElement, presentationType As String, preferCustomized As Boolean) As FrameworkElement
+  overload: Vortex.Presentation.Wpf.Renderer.CreateContainer*
+- uid: Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Object)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Object)
+  id: EnvelopeIfNecessary(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Object)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: EnvelopeIfNecessary(FrameworkElement, FrameworkElement, Object)
+  nameWithType: Renderer.EnvelopeIfNecessary(FrameworkElement, FrameworkElement, Object)
+  fullName: Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary(System.Windows.FrameworkElement, System.Windows.FrameworkElement, System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: EnvelopeIfNecessary
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 755
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: FrameworkElement EnvelopeIfNecessary(FrameworkElement newContainer, FrameworkElement parentContainer, object parentHeader)
+    parameters:
+    - id: newContainer
+      type: System.Windows.FrameworkElement
+    - id: parentContainer
+      type: System.Windows.FrameworkElement
+    - id: parentHeader
+      type: System.Object
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Function EnvelopeIfNecessary(newContainer As FrameworkElement, parentContainer As FrameworkElement, parentHeader As Object) As FrameworkElement
+  overload: Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary*
+- uid: Vortex.Presentation.Wpf.Renderer.FindClosestView(System.String,System.Type)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.FindClosestView(System.String,System.Type)
+  id: FindClosestView(System.String,System.Type)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: FindClosestView(String, Type)
+  nameWithType: Renderer.FindClosestView(String, Type)
+  fullName: Vortex.Presentation.Wpf.Renderer.FindClosestView(System.String, System.Type)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: FindClosestView
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 783
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Type FindClosestView(string presentationType, Type objType)
+    parameters:
+    - id: presentationType
+      type: System.String
+    - id: objType
+      type: System.Type
+    return:
+      type: System.Type
+    content.vb: Function FindClosestView(presentationType As String, objType As Type) As Type
+  overload: Vortex.Presentation.Wpf.Renderer.FindClosestView*
+- uid: Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded(System.Object,System.Windows.RoutedEventArgs)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded(System.Object,System.Windows.RoutedEventArgs)
+  id: FrameworkElementLoaded(System.Object,System.Windows.RoutedEventArgs)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: FrameworkElementLoaded(Object, RoutedEventArgs)
+  nameWithType: Renderer.FrameworkElementLoaded(Object, RoutedEventArgs)
+  fullName: Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded(System.Object, System.Windows.RoutedEventArgs)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: FrameworkElementLoaded
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 809
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: void FrameworkElementLoaded(object sender, RoutedEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: System.Windows.RoutedEventArgs
+    content.vb: Sub FrameworkElementLoaded(sender As Object, e As RoutedEventArgs)
+  overload: Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded*
+- uid: Vortex.Presentation.Wpf.Renderer.GetClosestView(System.String,System.Type)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetClosestView(System.String,System.Type)
+  id: GetClosestView(System.String,System.Type)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetClosestView(String, Type)
+  nameWithType: Renderer.GetClosestView(String, Type)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetClosestView(System.String, System.Type)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetClosestView
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 814
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Type GetClosestView(string presentationType, Type type)
+    parameters:
+    - id: presentationType
+      type: System.String
+    - id: type
+      type: System.Type
+    return:
+      type: System.Type
+    content.vb: Function GetClosestView(presentationType As String, type As Type) As Type
+  overload: Vortex.Presentation.Wpf.Renderer.GetClosestView*
+- uid: Vortex.Presentation.Wpf.Renderer.GetClosestViewModel(System.String,System.Type)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetClosestViewModel(System.String,System.Type)
+  id: GetClosestViewModel(System.String,System.Type)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetClosestViewModel(String, Type)
+  nameWithType: Renderer.GetClosestViewModel(String, Type)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetClosestViewModel(System.String, System.Type)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetClosestViewModel
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 819
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Type GetClosestViewModel(string presentationType, Type objType)
+    parameters:
+    - id: presentationType
+      type: System.String
+    - id: objType
+      type: System.Type
+    return:
+      type: System.Type
+    content.vb: Function GetClosestViewModel(presentationType As String, objType As Type) As Type
+  overload: Vortex.Presentation.Wpf.Renderer.GetClosestViewModel*
+- uid: Vortex.Presentation.Wpf.Renderer.GetHeader(Vortex.Connector.IVortexElement,System.Object)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetHeader(Vortex.Connector.IVortexElement,System.Object)
+  id: GetHeader(Vortex.Connector.IVortexElement,System.Object)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetHeader(IVortexElement, Object)
+  nameWithType: Renderer.GetHeader(IVortexElement, Object)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetHeader(Vortex.Connector.IVortexElement, System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetHeader
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 824
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: static object GetHeader(IVortexElement vortexObject, object parentHeader = null)
+    parameters:
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+    - id: parentHeader
+      type: System.Object
+    return:
+      type: System.Object
+    content.vb: Shared Function GetHeader(vortexObject As IVortexElement, parentHeader As Object = Nothing) As Object
+  overload: Vortex.Presentation.Wpf.Renderer.GetHeader*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Presentation.Wpf.Renderer.GetSortedProperties(Vortex.Connector.IVortexObject,System.Collections.Generic.List{System.Reflection.PropertyInfo})
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetSortedProperties(Vortex.Connector.IVortexObject,System.Collections.Generic.List{System.Reflection.PropertyInfo})
+  id: GetSortedProperties(Vortex.Connector.IVortexObject,System.Collections.Generic.List{System.Reflection.PropertyInfo})
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetSortedProperties(IVortexObject, List<PropertyInfo>)
+  nameWithType: Renderer.GetSortedProperties(IVortexObject, List<PropertyInfo>)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetSortedProperties(Vortex.Connector.IVortexObject, System.Collections.Generic.List<System.Reflection.PropertyInfo>)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetSortedProperties
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 842
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: IEnumerable<PropertyInfo> GetSortedProperties(IVortexObject vortexObject, List<PropertyInfo> properties = null)
+    parameters:
+    - id: vortexObject
+      type: Vortex.Connector.IVortexObject
+    - id: properties
+      type: System.Collections.Generic.List{System.Reflection.PropertyInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo}
+    content.vb: Function GetSortedProperties(vortexObject As IVortexObject, properties As List(Of PropertyInfo) = Nothing) As IEnumerable(Of PropertyInfo)
+  overload: Vortex.Presentation.Wpf.Renderer.GetSortedProperties*
+  nameWithType.vb: Renderer.GetSortedProperties(IVortexObject, List(Of PropertyInfo))
+  fullName.vb: Vortex.Presentation.Wpf.Renderer.GetSortedProperties(Vortex.Connector.IVortexObject, System.Collections.Generic.List(Of System.Reflection.PropertyInfo))
+  name.vb: GetSortedProperties(IVortexObject, List(Of PropertyInfo))
+- uid: Vortex.Presentation.Wpf.Renderer.GetSortedProperties(Vortex.Connector.IVortexElement,System.Collections.Generic.List{System.Reflection.PropertyInfo})
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetSortedProperties(Vortex.Connector.IVortexElement,System.Collections.Generic.List{System.Reflection.PropertyInfo})
+  id: GetSortedProperties(Vortex.Connector.IVortexElement,System.Collections.Generic.List{System.Reflection.PropertyInfo})
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetSortedProperties(IVortexElement, List<PropertyInfo>)
+  nameWithType: Renderer.GetSortedProperties(IVortexElement, List<PropertyInfo>)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetSortedProperties(Vortex.Connector.IVortexElement, System.Collections.Generic.List<System.Reflection.PropertyInfo>)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetSortedProperties
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 869
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: IEnumerable<PropertyInfo> GetSortedProperties(IVortexElement vortexObject, List<PropertyInfo> properties = null)
+    parameters:
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+    - id: properties
+      type: System.Collections.Generic.List{System.Reflection.PropertyInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo}
+    content.vb: Function GetSortedProperties(vortexObject As IVortexElement, properties As List(Of PropertyInfo) = Nothing) As IEnumerable(Of PropertyInfo)
+  overload: Vortex.Presentation.Wpf.Renderer.GetSortedProperties*
+  nameWithType.vb: Renderer.GetSortedProperties(IVortexElement, List(Of PropertyInfo))
+  fullName.vb: Vortex.Presentation.Wpf.Renderer.GetSortedProperties(Vortex.Connector.IVortexElement, System.Collections.Generic.List(Of System.Reflection.PropertyInfo))
+  name.vb: GetSortedProperties(IVortexElement, List(Of PropertyInfo))
+- uid: Vortex.Presentation.Wpf.Renderer.HasIgnore(System.String,Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.HasIgnore(System.String,Vortex.Connector.IVortexElement)
+  id: HasIgnore(System.String,Vortex.Connector.IVortexElement)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: HasIgnore(String, IVortexElement)
+  nameWithType: Renderer.HasIgnore(String, IVortexElement)
+  fullName: Vortex.Presentation.Wpf.Renderer.HasIgnore(System.String, Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: HasIgnore
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 896
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: bool HasIgnore(string presentationType, IVortexElement obj)
+    parameters:
+    - id: presentationType
+      type: System.String
+    - id: obj
+      type: Vortex.Connector.IVortexElement
+    return:
+      type: System.Boolean
+    content.vb: Function HasIgnore(presentationType As String, obj As IVortexElement) As Boolean
+  overload: Vortex.Presentation.Wpf.Renderer.HasIgnore*
+- uid: Vortex.Presentation.Wpf.Renderer.IsObjectCountReached(System.Int32@,System.Int32)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.IsObjectCountReached(System.Int32@,System.Int32)
+  id: IsObjectCountReached(System.Int32@,System.Int32)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: IsObjectCountReached(ref Int32, Int32)
+  nameWithType: Renderer.IsObjectCountReached(ref Int32, Int32)
+  fullName: Vortex.Presentation.Wpf.Renderer.IsObjectCountReached(ref System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: IsObjectCountReached
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 907
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: bool IsObjectCountReached(ref int currentObjectCount, int maxObjectCount)
+    parameters:
+    - id: currentObjectCount
+      type: System.Int32
+    - id: maxObjectCount
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Function IsObjectCountReached(ByRef currentObjectCount As Integer, maxObjectCount As Integer) As Boolean
+  overload: Vortex.Presentation.Wpf.Renderer.IsObjectCountReached*
+  nameWithType.vb: Renderer.IsObjectCountReached(ByRef Int32, Int32)
+  fullName.vb: Vortex.Presentation.Wpf.Renderer.IsObjectCountReached(ByRef System.Int32, System.Int32)
+  name.vb: IsObjectCountReached(ByRef Int32, Int32)
+- uid: Vortex.Presentation.Wpf.Renderer.RendererBusy
+  commentId: M:Vortex.Presentation.Wpf.Renderer.RendererBusy
+  id: RendererBusy
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: RendererBusy()
+  nameWithType: Renderer.RendererBusy()
+  fullName: Vortex.Presentation.Wpf.Renderer.RendererBusy()
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: RendererBusy
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 913
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: void RendererBusy()
+    content.vb: Sub RendererBusy
+  overload: Vortex.Presentation.Wpf.Renderer.RendererBusy*
+- uid: Vortex.Presentation.Wpf.Renderer.RendererDone
+  commentId: M:Vortex.Presentation.Wpf.Renderer.RendererDone
+  id: RendererDone
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: RendererDone()
+  nameWithType: Renderer.RendererDone()
+  fullName: Vortex.Presentation.Wpf.Renderer.RendererDone()
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: RendererDone
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 922
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: void RendererDone()
+    content.vb: Sub RendererDone
+  overload: Vortex.Presentation.Wpf.Renderer.RendererDone*
+- uid: Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32,System.Boolean)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32,System.Boolean)
+  id: RenderPresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32,System.Boolean)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: RenderPresentation(String, IValueTag, FrameworkElement, FrameworkElement, Int32, Int32, Boolean)
+  nameWithType: Renderer.RenderPresentation(String, IValueTag, FrameworkElement, FrameworkElement, Int32, Int32, Boolean)
+  fullName: Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String, Vortex.Connector.IValueTag, System.Windows.FrameworkElement, System.Windows.FrameworkElement, System.Int32, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: RenderPresentation
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 932
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: FrameworkElement RenderPresentation(string presentationType, IValueTag valueTag, FrameworkElement container = null, FrameworkElement parentContainer = null, int objectCount = 0, int maxObjectsCount = 2147483647, bool preferCustomized = false)
+    parameters:
+    - id: presentationType
+      type: System.String
+    - id: valueTag
+      type: Vortex.Connector.IValueTag
+    - id: container
+      type: System.Windows.FrameworkElement
+    - id: parentContainer
+      type: System.Windows.FrameworkElement
+    - id: objectCount
+      type: System.Int32
+    - id: maxObjectsCount
+      type: System.Int32
+    - id: preferCustomized
+      type: System.Boolean
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Function RenderPresentation(presentationType As String, valueTag As IValueTag, container As FrameworkElement = Nothing, parentContainer As FrameworkElement = Nothing, objectCount As Integer = 0, maxObjectsCount As Integer = 2147483647, preferCustomized As Boolean = False) As FrameworkElement
+  overload: Vortex.Presentation.Wpf.Renderer.RenderPresentation*
+- uid: Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
+  id: RenderPresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: RenderPresentation(String, IVortexObject, Boolean, FrameworkElement, FrameworkElement, Int32, Int32)
+  nameWithType: Renderer.RenderPresentation(String, IVortexObject, Boolean, FrameworkElement, FrameworkElement, Int32, Int32)
+  fullName: Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String, Vortex.Connector.IVortexObject, System.Boolean, System.Windows.FrameworkElement, System.Windows.FrameworkElement, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: RenderPresentation
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 970
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: >-
+      [STAThread]
+
+      FrameworkElement RenderPresentation(string presentationType, IVortexObject vortexObject, bool preferCustomized, FrameworkElement container = null, FrameworkElement parentContainer = null, int objectCount = 0, int maxObjectsCount = 2147483647)
+    parameters:
+    - id: presentationType
+      type: System.String
+    - id: vortexObject
+      type: Vortex.Connector.IVortexObject
+    - id: preferCustomized
+      type: System.Boolean
+    - id: container
+      type: System.Windows.FrameworkElement
+    - id: parentContainer
+      type: System.Windows.FrameworkElement
+    - id: objectCount
+      type: System.Int32
+    - id: maxObjectsCount
+      type: System.Int32
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: >-
+      <STAThread>
+
+      Function RenderPresentation(presentationType As String, vortexObject As IVortexObject, preferCustomized As Boolean, container As FrameworkElement = Nothing, parentContainer As FrameworkElement = Nothing, objectCount As Integer = 0, maxObjectsCount As Integer = 2147483647) As FrameworkElement
+  overload: Vortex.Presentation.Wpf.Renderer.RenderPresentation*
+  attributes:
+  - type: System.STAThreadAttribute
+    ctor: System.STAThreadAttribute.#ctor
+    arguments: []
+- uid: Vortex.Presentation.Wpf.Renderer.InvalidLicenseView(System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.InvalidLicenseView(System.String)
+  id: InvalidLicenseView(System.String)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: InvalidLicenseView(String)
+  nameWithType: Renderer.InvalidLicenseView(String)
+  fullName: Vortex.Presentation.Wpf.Renderer.InvalidLicenseView(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: InvalidLicenseView
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1058
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: static Panel InvalidLicenseView(string message)
+    parameters:
+    - id: message
+      type: System.String
+    return:
+      type: System.Windows.Controls.Panel
+    content.vb: Shared Function InvalidLicenseView(message As String) As Panel
+  overload: Vortex.Presentation.Wpf.Renderer.InvalidLicenseView*
+  modifiers.csharp:
+  - static
+  modifiers.vb:
+  - Shared
+- uid: Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation(System.Exception,Vortex.Presentation.Wpf.ReportingLevel)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation(System.Exception,Vortex.Presentation.Wpf.ReportingLevel)
+  id: ReportErrorOnElementCreation(System.Exception,Vortex.Presentation.Wpf.ReportingLevel)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: ReportErrorOnElementCreation(Exception, ReportingLevel)
+  nameWithType: Renderer.ReportErrorOnElementCreation(Exception, ReportingLevel)
+  fullName: Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation(System.Exception, Vortex.Presentation.Wpf.ReportingLevel)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReportErrorOnElementCreation
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1069
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: FrameworkElement ReportErrorOnElementCreation(Exception description, ReportingLevel messageSeverity)
+    parameters:
+    - id: description
+      type: System.Exception
+    - id: messageSeverity
+      type: Vortex.Presentation.Wpf.ReportingLevel
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Function ReportErrorOnElementCreation(description As Exception, messageSeverity As ReportingLevel) As FrameworkElement
+  overload: Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation*
+- uid: Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation(Vortex.Presentation.Wpf.TooManyObjectsToRenderException,Vortex.Presentation.Wpf.ReportingLevel)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation(Vortex.Presentation.Wpf.TooManyObjectsToRenderException,Vortex.Presentation.Wpf.ReportingLevel)
+  id: ReportErrorOnElementCreation(Vortex.Presentation.Wpf.TooManyObjectsToRenderException,Vortex.Presentation.Wpf.ReportingLevel)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: ReportErrorOnElementCreation(TooManyObjectsToRenderException, ReportingLevel)
+  nameWithType: Renderer.ReportErrorOnElementCreation(TooManyObjectsToRenderException, ReportingLevel)
+  fullName: Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation(Vortex.Presentation.Wpf.TooManyObjectsToRenderException, Vortex.Presentation.Wpf.ReportingLevel)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReportErrorOnElementCreation
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1083
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: FrameworkElement ReportErrorOnElementCreation(TooManyObjectsToRenderException exception, ReportingLevel messageSeverity)
+    parameters:
+    - id: exception
+      type: Vortex.Presentation.Wpf.TooManyObjectsToRenderException
+    - id: messageSeverity
+      type: Vortex.Presentation.Wpf.ReportingLevel
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Function ReportErrorOnElementCreation(exception As TooManyObjectsToRenderException, messageSeverity As ReportingLevel) As FrameworkElement
+  overload: Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation*
+- uid: Vortex.Presentation.Wpf.Renderer.ViewViewModelLocator(System.String,Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.ViewViewModelLocator(System.String,Vortex.Connector.IVortexElement)
+  id: ViewViewModelLocator(System.String,Vortex.Connector.IVortexElement)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: ViewViewModelLocator(String, IVortexElement)
+  nameWithType: Renderer.ViewViewModelLocator(String, IVortexElement)
+  fullName: Vortex.Presentation.Wpf.Renderer.ViewViewModelLocator(System.String, Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ViewViewModelLocator
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1109
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: FrameworkElement ViewViewModelLocator(string presentationType, IVortexElement obj)
+    parameters:
+    - id: presentationType
+      type: System.String
+    - id: obj
+      type: Vortex.Connector.IVortexElement
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Function ViewViewModelLocator(presentationType As String, obj As IVortexElement) As FrameworkElement
+  overload: Vortex.Presentation.Wpf.Renderer.ViewViewModelLocator*
+- uid: Vortex.Presentation.Wpf.Renderer.ProbeViewLocator(System.String,Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.ProbeViewLocator(System.String,Vortex.Connector.IVortexElement)
+  id: ProbeViewLocator(System.String,Vortex.Connector.IVortexElement)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: ProbeViewLocator(String, IVortexElement)
+  nameWithType: Renderer.ProbeViewLocator(String, IVortexElement)
+  fullName: Vortex.Presentation.Wpf.Renderer.ProbeViewLocator(System.String, Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ProbeViewLocator
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1125
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: Type ProbeViewLocator(string presentationType, IVortexElement obj)
+    parameters:
+    - id: presentationType
+      type: System.String
+    - id: obj
+      type: Vortex.Connector.IVortexElement
+    return:
+      type: System.Type
+    content.vb: Function ProbeViewLocator(presentationType As String, obj As IVortexElement) As Type
+  overload: Vortex.Presentation.Wpf.Renderer.ProbeViewLocator*
+- uid: Vortex.Presentation.Wpf.Renderer.MaxObjectCountInDesign
+  commentId: P:Vortex.Presentation.Wpf.Renderer.MaxObjectCountInDesign
+  id: MaxObjectCountInDesign
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: MaxObjectCountInDesign
+  nameWithType: Renderer.MaxObjectCountInDesign
+  fullName: Vortex.Presentation.Wpf.Renderer.MaxObjectCountInDesign
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: MaxObjectCountInDesign
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1140
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: >-
+      int MaxObjectCountInDesign
+
+      {
+
+      }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly WriteOnly Property MaxObjectCountInDesign As Integer
+  overload: Vortex.Presentation.Wpf.Renderer.MaxObjectCountInDesign*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Vortex.Presentation.Wpf.Renderer.AttachAssembliesInDesignMode
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AttachAssembliesInDesignMode
+  id: AttachAssembliesInDesignMode
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AttachAssembliesInDesignMode()
+  nameWithType: Renderer.AttachAssembliesInDesignMode()
+  fullName: Vortex.Presentation.Wpf.Renderer.AttachAssembliesInDesignMode()
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AttachAssembliesInDesignMode
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1145
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nLoads assemblies in design mode.\n"
+  example: []
+  syntax:
+    content: void AttachAssembliesInDesignMode()
+    content.vb: Sub AttachAssembliesInDesignMode
+  overload: Vortex.Presentation.Wpf.Renderer.AttachAssembliesInDesignMode*
+- uid: Vortex.Presentation.Wpf.Renderer.AttachAllAssemblieFromApplicationDomain
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AttachAllAssemblieFromApplicationDomain
+  id: AttachAllAssemblieFromApplicationDomain
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AttachAllAssemblieFromApplicationDomain()
+  nameWithType: Renderer.AttachAllAssemblieFromApplicationDomain()
+  fullName: Vortex.Presentation.Wpf.Renderer.AttachAllAssemblieFromApplicationDomain()
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AttachAllAssemblieFromApplicationDomain
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1153
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nLoads all assemblies from the application domain of currently running application.\n"
+  example: []
+  syntax:
+    content: void AttachAllAssemblieFromApplicationDomain()
+    content.vb: Sub AttachAllAssemblieFromApplicationDomain
+  overload: Vortex.Presentation.Wpf.Renderer.AttachAllAssemblieFromApplicationDomain*
+- uid: Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesAtRuntime
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesAtRuntime
+  id: AttachAllAssembliesAtRuntime
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AttachAllAssembliesAtRuntime()
+  nameWithType: Renderer.AttachAllAssembliesAtRuntime()
+  fullName: Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesAtRuntime()
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AttachAllAssembliesAtRuntime
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1175
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nLoads all assemblies from current application directory that have defined <xref href=\"Vortex.Presentation.Wpf.RenderableAssemblyAttribute\" data-throw-if-not-resolved=\"false\"></xref>.\nThese assemblies are then search for corresponding Views and ViewModel.\n"
+  example: []
+  syntax:
+    content: void AttachAllAssembliesAtRuntime()
+    content.vb: Sub AttachAllAssembliesAtRuntime
+  overload: Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesAtRuntime*
+- uid: Vortex.Presentation.Wpf.Renderer.AttachAllAssemblies
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AttachAllAssemblies
+  id: AttachAllAssemblies
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AttachAllAssemblies()
+  nameWithType: Renderer.AttachAllAssemblies()
+  fullName: Vortex.Presentation.Wpf.Renderer.AttachAllAssemblies()
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AttachAllAssemblies
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1185
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: void AttachAllAssemblies()
+    content.vb: Sub AttachAllAssemblies
+  overload: Vortex.Presentation.Wpf.Renderer.AttachAllAssemblies*
+- uid: Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesApplicationFolder
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesApplicationFolder
+  id: AttachAllAssembliesApplicationFolder
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AttachAllAssembliesApplicationFolder()
+  nameWithType: Renderer.AttachAllAssembliesApplicationFolder()
+  fullName: Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesApplicationFolder()
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AttachAllAssembliesApplicationFolder
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1192
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: void AttachAllAssembliesApplicationFolder()
+    content.vb: Sub AttachAllAssembliesApplicationFolder
+  overload: Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesApplicationFolder*
+- uid: Vortex.Presentation.Wpf.Renderer.AttachAssemblyToLookUpList(System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AttachAssemblyToLookUpList(System.String)
+  id: AttachAssemblyToLookUpList(System.String)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: AttachAssemblyToLookUpList(String)
+  nameWithType: Renderer.AttachAssemblyToLookUpList(String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AttachAssemblyToLookUpList(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AttachAssemblyToLookUpList
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1245
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nAttaches the assembly with given assembly name to the list of assemblies that are being searched for \nViews and ViewModels.\n"
+  example: []
+  syntax:
+    content: public void AttachAssemblyToLookUpList(string assemblyName)
+    parameters:
+    - id: assemblyName
+      type: System.String
+      description: ''
+    content.vb: Public Sub AttachAssemblyToLookUpList(assemblyName As String)
+  overload: Vortex.Presentation.Wpf.Renderer.AttachAssemblyToLookUpList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement)
+  commentId: M:Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement)
+  id: _CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: _CreatePresentation(String, IVortexObject, Boolean, FrameworkElement)
+  nameWithType: Renderer._CreatePresentation(String, IVortexObject, Boolean, FrameworkElement)
+  fullName: Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String, Vortex.Connector.IVortexObject, System.Boolean, System.Windows.FrameworkElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _CreatePresentation
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1261
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nCreates presentation of <xref href=\"Vortex.Connector.IVortexObject\" data-throw-if-not-resolved=\"false\"></xref> of given presentation type.\n"
+  example: []
+  syntax:
+    content: FrameworkElement _CreatePresentation(string presentationType, IVortexObject vortexObject, bool preferCustomized, FrameworkElement parentContainer = null)
+    parameters:
+    - id: presentationType
+      type: System.String
+      description: Presentation type
+    - id: vortexObject
+      type: Vortex.Connector.IVortexObject
+      description: <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> from which the presentation will be rendered.
+    - id: preferCustomized
+      type: System.Boolean
+    - id: parentContainer
+      type: System.Windows.FrameworkElement
+      description: Optionally can be parent UI container.
+    return:
+      type: System.Windows.FrameworkElement
+      description: ''
+    content.vb: Function _CreatePresentation(presentationType As String, vortexObject As IVortexObject, preferCustomized As Boolean, parentContainer As FrameworkElement = Nothing) As FrameworkElement
+  overload: Vortex.Presentation.Wpf.Renderer._CreatePresentation*
+- uid: Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement)
+  commentId: M:Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement)
+  id: _CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: _CreatePresentation(String, IValueTag, FrameworkElement)
+  nameWithType: Renderer._CreatePresentation(String, IValueTag, FrameworkElement)
+  fullName: Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String, Vortex.Connector.IValueTag, System.Windows.FrameworkElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _CreatePresentation
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1298
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nCreates presentation of <xref href=\"Vortex.Connector.IValueTag\" data-throw-if-not-resolved=\"false\"></xref> of given presentation type.\n"
+  example: []
+  syntax:
+    content: FrameworkElement _CreatePresentation(string presentationType, IValueTag vortexObject, FrameworkElement parentContainer = null)
+    parameters:
+    - id: presentationType
+      type: System.String
+      description: Presentation type
+    - id: vortexObject
+      type: Vortex.Connector.IValueTag
+      description: <xref href="Vortex.Connector.IValueTag" data-throw-if-not-resolved="false"></xref> from which the presentation will be rendered.
+    - id: parentContainer
+      type: System.Windows.FrameworkElement
+      description: Optionally can be parent UI container.
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Function _CreatePresentation(presentationType As String, vortexObject As IValueTag, parentContainer As FrameworkElement = Nothing) As FrameworkElement
+  overload: Vortex.Presentation.Wpf.Renderer._CreatePresentation*
+- uid: Vortex.Presentation.Wpf.Renderer.CreatePresentation(System.Object,System.Object,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32,System.Boolean)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.CreatePresentation(System.Object,System.Object,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32,System.Boolean)
+  id: CreatePresentation(System.Object,System.Object,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32,System.Boolean)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: CreatePresentation(Object, Object, Boolean, ReportingLevel, Int32, Boolean)
+  nameWithType: Renderer.CreatePresentation(Object, Object, Boolean, ReportingLevel, Int32, Boolean)
+  fullName: Vortex.Presentation.Wpf.Renderer.CreatePresentation(System.Object, System.Object, System.Boolean, Vortex.Presentation.Wpf.ReportingLevel, System.Int32, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: CreatePresentation
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1331
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nCreates presentation of <xref href=\"Vortex.Connector.IVortexObject\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"Vortex.Connector.IValueTag\" data-throw-if-not-resolved=\"false\"></xref> of given presentation type.\n"
+  example: []
+  syntax:
+    content: public object CreatePresentation(object presentationType, object vortexObject, bool preferCustomized = false, ReportingLevel reportingLevel = ReportingLevel.None, int maxObjectsInDesignMode = 25, bool cacheVisuals = true)
+    parameters:
+    - id: presentationType
+      type: System.Object
+      description: Presentation type
+    - id: vortexObject
+      type: System.Object
+      description: Object to be represented.
+    - id: preferCustomized
+      type: System.Boolean
+      description: Instructs the renderer to prefer the use of layouting and other paramters from the customized control.
+    - id: reportingLevel
+      type: Vortex.Presentation.Wpf.ReportingLevel
+      description: Reporting level.
+    - id: maxObjectsInDesignMode
+      type: System.Int32
+      description: Max number of object to be displayed in design mode.
+    - id: cacheVisuals
+      type: System.Boolean
+      description: When true indicates that created visuals will be cached when first time created. This value is set to &apos;true&apos; by default.
+    return:
+      type: System.Object
+      description: 'Visual representation of given presentation type for given object '
+    content.vb: Public Function CreatePresentation(presentationType As Object, vortexObject As Object, preferCustomized As Boolean = False, reportingLevel As ReportingLevel = ReportingLevel.None, maxObjectsInDesignMode As Integer = 25, cacheVisuals As Boolean = True) As Object
+  overload: Vortex.Presentation.Wpf.Renderer.CreatePresentation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.Object,System.Object,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
+  commentId: M:Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.Object,System.Object,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
+  id: _CreatePresentation(System.Object,System.Object,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: _CreatePresentation(Object, Object, Boolean, ReportingLevel, Int32)
+  nameWithType: Renderer._CreatePresentation(Object, Object, Boolean, ReportingLevel, Int32)
+  fullName: Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.Object, System.Object, System.Boolean, Vortex.Presentation.Wpf.ReportingLevel, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: _CreatePresentation
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1342
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: object _CreatePresentation(object presentationType, object vortexObject, bool preferCustomized, ReportingLevel reportingLevel, int maxObjectsInDesignMode)
+    parameters:
+    - id: presentationType
+      type: System.Object
+    - id: vortexObject
+      type: System.Object
+    - id: preferCustomized
+      type: System.Boolean
+    - id: reportingLevel
+      type: Vortex.Presentation.Wpf.ReportingLevel
+    - id: maxObjectsInDesignMode
+      type: System.Int32
+    return:
+      type: System.Object
+    content.vb: Function _CreatePresentation(presentationType As Object, vortexObject As Object, preferCustomized As Boolean, reportingLevel As ReportingLevel, maxObjectsInDesignMode As Integer) As Object
+  overload: Vortex.Presentation.Wpf.Renderer._CreatePresentation*
+- uid: Vortex.Presentation.Wpf.Renderer.GetEnumeratorDiscriminatorAttribute(Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetEnumeratorDiscriminatorAttribute(Vortex.Connector.IVortexElement)
+  id: GetEnumeratorDiscriminatorAttribute(Vortex.Connector.IVortexElement)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetEnumeratorDiscriminatorAttribute(IVortexElement)
+  nameWithType: Renderer.GetEnumeratorDiscriminatorAttribute(IVortexElement)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetEnumeratorDiscriminatorAttribute(Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetEnumeratorDiscriminatorAttribute
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1383
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nReturns Enumerator description attribute for given member.\n"
+  example: []
+  syntax:
+    content: public EnumeratorDiscriminatorAttribute GetEnumeratorDiscriminatorAttribute(IVortexElement vortexObject)
+    parameters:
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+      description: Object on which the attribute will be searched.
+    return:
+      type: Vortex.Connector.EnumeratorDiscriminatorAttribute
+      description: ''
+    content.vb: Public Function GetEnumeratorDiscriminatorAttribute(vortexObject As IVortexElement) As EnumeratorDiscriminatorAttribute
+  overload: Vortex.Presentation.Wpf.Renderer.GetEnumeratorDiscriminatorAttribute*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.Renderer.GetPropertyViaSymbol(Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetPropertyViaSymbol(Vortex.Connector.IVortexElement)
+  id: GetPropertyViaSymbol(Vortex.Connector.IVortexElement)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyViaSymbol(IVortexElement)
+  nameWithType: Renderer.GetPropertyViaSymbol(IVortexElement)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetPropertyViaSymbol(Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetPropertyViaSymbol
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1422
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nLocates property of <xref href=\"Vortex.Connector.IVortexObject\" data-throw-if-not-resolved=\"false\"></xref> via its symbol.\n"
+  example: []
+  syntax:
+    content: public PropertyInfo GetPropertyViaSymbol(IVortexElement vortexObject)
+    parameters:
+    - id: vortexObject
+      type: Vortex.Connector.IVortexElement
+      description: <xref href="Vortex.Connector.IVortexObject" data-throw-if-not-resolved="false"></xref> of which property info is to be located via its symbol.
+    return:
+      type: System.Reflection.PropertyInfo
+      description: <xref href="System.Reflection.PropertyInfo" data-throw-if-not-resolved="false"></xref> of the property located via symbol information.
+    content.vb: Public Function GetPropertyViaSymbol(vortexObject As IVortexElement) As PropertyInfo
+  overload: Vortex.Presentation.Wpf.Renderer.GetPropertyViaSymbol*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.Renderer.GetReferencedAssemblies
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetReferencedAssemblies
+  id: GetReferencedAssemblies
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetReferencedAssemblies()
+  nameWithType: Renderer.GetReferencedAssemblies()
+  fullName: Vortex.Presentation.Wpf.Renderer.GetReferencedAssemblies()
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetReferencedAssemblies
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1443
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nReturns lookup assemblies.\n"
+  example: []
+  syntax:
+    content: public string GetReferencedAssemblies()
+    return:
+      type: System.String
+      description: String of lookup assemblies.
+    content.vb: Public Function GetReferencedAssemblies As String
+  overload: Vortex.Presentation.Wpf.Renderer.GetReferencedAssemblies*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.Renderer.Get
+  commentId: P:Vortex.Presentation.Wpf.Renderer.Get
+  id: Get
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: Get
+  nameWithType: Renderer.Get
+  fullName: Vortex.Presentation.Wpf.Renderer.Get
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Get
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1457
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nGets singleton instance of <xref href=\"Vortex.Presentation.Wpf.Renderer\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public static Renderer Get { get; }
+    parameters: []
+    return:
+      type: Vortex.Presentation.Wpf.Renderer
+    content.vb: Public Shared ReadOnly Property Get As Renderer
+  overload: Vortex.Presentation.Wpf.Renderer.Get*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Vortex.Presentation.Wpf.Renderer.ReportingSeverity
+  commentId: P:Vortex.Presentation.Wpf.Renderer.ReportingSeverity
+  id: ReportingSeverity
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: ReportingSeverity
+  nameWithType: Renderer.ReportingSeverity
+  fullName: Vortex.Presentation.Wpf.Renderer.ReportingSeverity
+  type: Property
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: ReportingSeverity
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1481
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nGets or sets <xref href=\"Vortex.Presentation.Wpf.ReportingLevel\" data-throw-if-not-resolved=\"false\"></xref> that displays messages and errors that might occur during the rendering process.\n"
+  example: []
+  syntax:
+    content: public ReportingLevel ReportingSeverity { get; set; }
+    parameters: []
+    return:
+      type: Vortex.Presentation.Wpf.ReportingLevel
+    content.vb: Public Property ReportingSeverity As ReportingLevel
+  overload: Vortex.Presentation.Wpf.Renderer.ReportingSeverity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.Renderer.GetView(System.String,System.Type)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetView(System.String,System.Type)
+  id: GetView(System.String,System.Type)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetView(String, Type)
+  nameWithType: Renderer.GetView(String, Type)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetView(System.String, System.Type)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetView
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1489
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nGets the view of given presentation type for given object type.\n"
+  example: []
+  syntax:
+    content: public Type GetView(string presentationType, Type objType)
+    parameters:
+    - id: presentationType
+      type: System.String
+      description: Presentation type
+    - id: objType
+      type: System.Type
+      description: Object type
+    return:
+      type: System.Type
+      description: ''
+    content.vb: Public Function GetView(presentationType As String, objType As Type) As Type
+  overload: Vortex.Presentation.Wpf.Renderer.GetView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.Renderer.GetViewModel(System.String,System.Type,System.Object)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetViewModel(System.String,System.Type,System.Object)
+  id: GetViewModel(System.String,System.Type,System.Object)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: GetViewModel(String, Type, Object)
+  nameWithType: Renderer.GetViewModel(String, Type, Object)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetViewModel(System.String, System.Type, System.Object)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetViewModel
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1501
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  summary: "\nGets the view model for given object type and given presentation type.\n"
+  example: []
+  syntax:
+    content: public RenderableViewModel GetViewModel(string presentationType, Type objType, object model)
+    parameters:
+    - id: presentationType
+      type: System.String
+      description: Presentation type
+    - id: objType
+      type: System.Type
+      description: Object type
+    - id: model
+      type: System.Object
+      description: Model object
+    return:
+      type: Vortex.Presentation.Wpf.RenderableViewModel
+      description: ''
+    content.vb: Public Function GetViewModel(presentationType As String, objType As Type, model As Object) As RenderableViewModel
+  overload: Vortex.Presentation.Wpf.Renderer.GetViewModel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Presentation.Wpf.Renderer.SecurityProvider_OnAnyAuthenticationEvent(System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.SecurityProvider_OnAnyAuthenticationEvent(System.String)
+  id: SecurityProvider_OnAnyAuthenticationEvent(System.String)
+  parent: Vortex.Presentation.Wpf.Renderer
+  langs:
+  - csharp
+  - vb
+  name: SecurityProvider_OnAnyAuthenticationEvent(String)
+  nameWithType: Renderer.SecurityProvider_OnAnyAuthenticationEvent(String)
+  fullName: Vortex.Presentation.Wpf.Renderer.SecurityProvider_OnAnyAuthenticationEvent(System.String)
+  type: Method
+  source:
+    remote:
+      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: SecurityProvider_OnAnyAuthenticationEvent
+    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
+    startLine: 1523
+  assemblies:
+  - Vortex.Presentation.Wpf
+  namespace: Vortex.Presentation.Wpf
+  syntax:
+    content: void SecurityProvider_OnAnyAuthenticationEvent(string username)
+    parameters:
+    - id: username
+      type: System.String
+    content.vb: Sub SecurityProvider_OnAnyAuthenticationEvent(username As String)
+  overload: Vortex.Presentation.Wpf.Renderer.SecurityProvider_OnAnyAuthenticationEvent*
+references:
+- uid: Vortex.Presentation.Wpf.Renderer
+  commentId: T:Vortex.Presentation.Wpf.Renderer
+  parent: Vortex.Presentation.Wpf
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Vortex.Presentation.Wpf.Renderer
+- uid: Vortex.Connector.IVortexObject
+  commentId: T:Vortex.Connector.IVortexObject
+  parent: Vortex.Connector
+  name: IVortexObject
+  nameWithType: IVortexObject
+  fullName: Vortex.Connector.IVortexObject
+- uid: Vortex.Connector.IValueTag
+  commentId: T:Vortex.Connector.IValueTag
+  parent: Vortex.Connector
+  name: IValueTag
+  nameWithType: IValueTag
+  fullName: Vortex.Connector.IValueTag
+- uid: Vortex.Presentation.Wpf
+  commentId: N:Vortex.Presentation.Wpf
+  name: Vortex.Presentation.Wpf
+  nameWithType: Vortex.Presentation.Wpf
+  fullName: Vortex.Presentation.Wpf
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  definition: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  name: AttributeFormatOrNull()
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull()
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull()
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector
+  commentId: N:Vortex.Connector
+  name: Vortex.Connector
+  nameWithType: Vortex.Connector
+  fullName: Vortex.Connector
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  isExternal: true
+  name: AttributeFormatOrNull(Object)
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull(Object)
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  parent: Vortex.Presentation.Controls.Wpf.Extension
+  name: AttributeStringFormatExtensions
+  nameWithType: AttributeStringFormatExtensions
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+- uid: Vortex.Presentation.Controls.Wpf.Extension
+  commentId: N:Vortex.Presentation.Controls.Wpf.Extension
+  name: Vortex.Presentation.Controls.Wpf.Extension
+  nameWithType: Vortex.Presentation.Controls.Wpf.Extension
+  fullName: Vortex.Presentation.Controls.Wpf.Extension
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Vortex.Presentation.Wpf.Renderer.#ctor*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.#ctor
+  name: Renderer
+  nameWithType: Renderer.Renderer
+  fullName: Vortex.Presentation.Wpf.Renderer.Renderer
+- uid: Vortex.Presentation.Wpf.Renderer.AddContainer*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.AddContainer
+  name: AddContainer
+  nameWithType: Renderer.AddContainer
+  fullName: Vortex.Presentation.Wpf.Renderer.AddContainer
+- uid: System.Windows.FrameworkElement
+  commentId: T:System.Windows.FrameworkElement
+  parent: System.Windows
+  isExternal: true
+  name: FrameworkElement
+  nameWithType: FrameworkElement
+  fullName: System.Windows.FrameworkElement
+- uid: Vortex.Connector.IVortexElement
+  commentId: T:Vortex.Connector.IVortexElement
+  parent: Vortex.Connector
+  name: IVortexElement
+  nameWithType: IVortexElement
+  fullName: Vortex.Connector.IVortexElement
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+- uid: Vortex.Presentation.Wpf.Renderer.AddViewModelTypeToComponentsCache*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.AddViewModelTypeToComponentsCache
+  name: AddViewModelTypeToComponentsCache
+  nameWithType: Renderer.AddViewModelTypeToComponentsCache
+  fullName: Vortex.Presentation.Wpf.Renderer.AddViewModelTypeToComponentsCache
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Vortex.Presentation.Wpf.Renderer.AddViewTypeToComponentsCache*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.AddViewTypeToComponentsCache
+  name: AddViewTypeToComponentsCache
+  nameWithType: Renderer.AddViewTypeToComponentsCache
+  fullName: Vortex.Presentation.Wpf.Renderer.AddViewTypeToComponentsCache
+- uid: Vortex.Presentation.Wpf.Renderer.CreateDefaultContainer*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.CreateDefaultContainer
+  name: CreateDefaultContainer
+  nameWithType: Renderer.CreateDefaultContainer
+  fullName: Vortex.Presentation.Wpf.Renderer.CreateDefaultContainer
+- uid: Vortex.Presentation.Wpf.Renderer.DesignModeSettings*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.DesignModeSettings
+  name: DesignModeSettings
+  nameWithType: Renderer.DesignModeSettings
+  fullName: Vortex.Presentation.Wpf.Renderer.DesignModeSettings
+- uid: Vortex.Presentation.Wpf.Renderer.FindClosestModelViewInPipeline*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.FindClosestModelViewInPipeline
+  name: FindClosestModelViewInPipeline
+  nameWithType: Renderer.FindClosestModelViewInPipeline
+  fullName: Vortex.Presentation.Wpf.Renderer.FindClosestModelViewInPipeline
+- uid: Vortex.Presentation.Wpf.Renderer.FindClosestViewInPipeline*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.FindClosestViewInPipeline
+  name: FindClosestViewInPipeline
+  nameWithType: Renderer.FindClosestViewInPipeline
+  fullName: Vortex.Presentation.Wpf.Renderer.FindClosestViewInPipeline
+- uid: Vortex.Presentation.Wpf.Renderer.FindClosestViewModel*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.FindClosestViewModel
+  name: FindClosestViewModel
+  nameWithType: Renderer.FindClosestViewModel
+  fullName: Vortex.Presentation.Wpf.Renderer.FindClosestViewModel
+- uid: Vortex.Presentation.Wpf.Renderer.GetContainerAttribute*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetContainerAttribute
+  name: GetContainerAttribute
+  nameWithType: Renderer.GetContainerAttribute
+  fullName: Vortex.Presentation.Wpf.Renderer.GetContainerAttribute
+- uid: Vortex.Presentation.Attributes.PresentationContainerAttribute
+  commentId: T:Vortex.Presentation.Attributes.PresentationContainerAttribute
+  parent: Vortex.Presentation.Attributes
+  name: PresentationContainerAttribute
+  nameWithType: PresentationContainerAttribute
+  fullName: Vortex.Presentation.Attributes.PresentationContainerAttribute
+- uid: Vortex.Presentation.Attributes
+  commentId: N:Vortex.Presentation.Attributes
+  name: Vortex.Presentation.Attributes
+  nameWithType: Vortex.Presentation.Attributes
+  fullName: Vortex.Presentation.Attributes
+- uid: Vortex.Presentation.Wpf.Renderer.GetGroupAttribute*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetGroupAttribute
+  name: GetGroupAttribute
+  nameWithType: Renderer.GetGroupAttribute
+  fullName: Vortex.Presentation.Wpf.Renderer.GetGroupAttribute
+- uid: Vortex.Presentation.Attributes.PresentationGroupAttribute
+  commentId: T:Vortex.Presentation.Attributes.PresentationGroupAttribute
+  parent: Vortex.Presentation.Attributes
+  name: PresentationGroupAttribute
+  nameWithType: PresentationGroupAttribute
+  fullName: Vortex.Presentation.Attributes.PresentationGroupAttribute
+- uid: Vortex.Presentation.Wpf.Renderer.GetGroupedProperies*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetGroupedProperies
+  name: GetGroupedProperies
+  nameWithType: Renderer.GetGroupedProperies
+  fullName: Vortex.Presentation.Wpf.Renderer.GetGroupedProperies
+- uid: System.Collections.Generic.List{Vortex.Presentation.Wpf.Renderer.BaseTypeProperies}
+  commentId: T:System.Collections.Generic.List{Vortex.Presentation.Wpf.Renderer.BaseTypeProperies}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Renderer.BaseTypeProperies>
+  nameWithType: List<Renderer.BaseTypeProperies>
+  fullName: System.Collections.Generic.List<Vortex.Presentation.Wpf.Renderer.BaseTypeProperies>
+  nameWithType.vb: List(Of Renderer.BaseTypeProperies)
+  fullName.vb: System.Collections.Generic.List(Of Vortex.Presentation.Wpf.Renderer.BaseTypeProperies)
+  name.vb: List(Of Renderer.BaseTypeProperies)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Presentation.Wpf.Renderer.BaseTypeProperies
+    name: Renderer.BaseTypeProperies
+    nameWithType: Renderer.BaseTypeProperies
+    fullName: Vortex.Presentation.Wpf.Renderer.BaseTypeProperies
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Presentation.Wpf.Renderer.BaseTypeProperies
+    name: Renderer.BaseTypeProperies
+    nameWithType: Renderer.BaseTypeProperies
+    fullName: Vortex.Presentation.Wpf.Renderer.BaseTypeProperies
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{Vortex.Presentation.Wpf.Renderer.BaseTypeProperies}
+  commentId: T:System.Collections.Generic.IEnumerable{Vortex.Presentation.Wpf.Renderer.BaseTypeProperies}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Renderer.BaseTypeProperies>
+  nameWithType: IEnumerable<Renderer.BaseTypeProperies>
+  fullName: System.Collections.Generic.IEnumerable<Vortex.Presentation.Wpf.Renderer.BaseTypeProperies>
+  nameWithType.vb: IEnumerable(Of Renderer.BaseTypeProperies)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Vortex.Presentation.Wpf.Renderer.BaseTypeProperies)
+  name.vb: IEnumerable(Of Renderer.BaseTypeProperies)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Presentation.Wpf.Renderer.BaseTypeProperies
+    name: Renderer.BaseTypeProperies
+    nameWithType: Renderer.BaseTypeProperies
+    fullName: Vortex.Presentation.Wpf.Renderer.BaseTypeProperies
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vortex.Presentation.Wpf.Renderer.BaseTypeProperies
+    name: Renderer.BaseTypeProperies
+    nameWithType: Renderer.BaseTypeProperies
+    fullName: Vortex.Presentation.Wpf.Renderer.BaseTypeProperies
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.Renderer.GetIgnoreRenderingAttribute*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetIgnoreRenderingAttribute
+  name: GetIgnoreRenderingAttribute
+  nameWithType: Renderer.GetIgnoreRenderingAttribute
+  fullName: Vortex.Presentation.Wpf.Renderer.GetIgnoreRenderingAttribute
+- uid: RenderIgnoreAttribute
+  commentId: T:RenderIgnoreAttribute
+  name: RenderIgnoreAttribute
+  nameWithType: RenderIgnoreAttribute
+  fullName: RenderIgnoreAttribute
+- uid: Vortex.Presentation.Wpf.Renderer.GetViewFromCache*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetViewFromCache
+  name: GetViewFromCache
+  nameWithType: Renderer.GetViewFromCache
+  fullName: Vortex.Presentation.Wpf.Renderer.GetViewFromCache
+- uid: Vortex.Presentation.Wpf.Renderer.GetViewModelFromCache*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetViewModelFromCache
+  name: GetViewModelFromCache
+  nameWithType: Renderer.GetViewModelFromCache
+  fullName: Vortex.Presentation.Wpf.Renderer.GetViewModelFromCache
+- uid: Vortex.Presentation.Wpf.Renderer.IsDisplayable*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.IsDisplayable
+  name: IsDisplayable
+  nameWithType: Renderer.IsDisplayable
+  fullName: Vortex.Presentation.Wpf.Renderer.IsDisplayable
+- uid: System.Collections.Generic.List{System.Object}
+  commentId: T:System.Collections.Generic.List{System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Object>
+  nameWithType: List<Object>
+  fullName: System.Collections.Generic.List<System.Object>
+  nameWithType.vb: List(Of Object)
+  fullName.vb: System.Collections.Generic.List(Of System.Object)
+  name.vb: List(Of Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.Renderer.IsEnumerator*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.IsEnumerator
+  name: IsEnumerator
+  nameWithType: Renderer.IsEnumerator
+  fullName: Vortex.Presentation.Wpf.Renderer.IsEnumerator
+- uid: Vortex.Presentation.Wpf.Renderer.ViewViewModelLocatorCreator*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.ViewViewModelLocatorCreator
+  name: ViewViewModelLocatorCreator
+  nameWithType: Renderer.ViewViewModelLocatorCreator
+  fullName: Vortex.Presentation.Wpf.Renderer.ViewViewModelLocatorCreator
+- uid: Vortex.Presentation.Wpf.Renderer.ProbeViewLocatorCreator*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.ProbeViewLocatorCreator
+  name: ProbeViewLocatorCreator
+  nameWithType: Renderer.ProbeViewLocatorCreator
+  fullName: Vortex.Presentation.Wpf.Renderer.ProbeViewLocatorCreator
+- uid: System.Collections.Generic.SortedDictionary{System.String,Vortex.Presentation.Wpf.Renderer.ComponentsCacheItem}
+  commentId: T:System.Collections.Generic.SortedDictionary{System.String,Vortex.Presentation.Wpf.Renderer.ComponentsCacheItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.SortedDictionary`2
+  name: SortedDictionary<String, Renderer.ComponentsCacheItem>
+  nameWithType: SortedDictionary<String, Renderer.ComponentsCacheItem>
+  fullName: System.Collections.Generic.SortedDictionary<System.String, Vortex.Presentation.Wpf.Renderer.ComponentsCacheItem>
+  nameWithType.vb: SortedDictionary(Of String, Renderer.ComponentsCacheItem)
+  fullName.vb: System.Collections.Generic.SortedDictionary(Of System.String, Vortex.Presentation.Wpf.Renderer.ComponentsCacheItem)
+  name.vb: SortedDictionary(Of String, Renderer.ComponentsCacheItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.SortedDictionary`2
+    name: SortedDictionary
+    nameWithType: SortedDictionary
+    fullName: System.Collections.Generic.SortedDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vortex.Presentation.Wpf.Renderer.ComponentsCacheItem
+    name: Renderer.ComponentsCacheItem
+    nameWithType: Renderer.ComponentsCacheItem
+    fullName: Vortex.Presentation.Wpf.Renderer.ComponentsCacheItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.SortedDictionary`2
+    name: SortedDictionary
+    nameWithType: SortedDictionary
+    fullName: System.Collections.Generic.SortedDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vortex.Presentation.Wpf.Renderer.ComponentsCacheItem
+    name: Renderer.ComponentsCacheItem
+    nameWithType: Renderer.ComponentsCacheItem
+    fullName: Vortex.Presentation.Wpf.Renderer.ComponentsCacheItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.SortedDictionary`2
+  commentId: T:System.Collections.Generic.SortedDictionary`2
+  isExternal: true
+  name: SortedDictionary<TKey, TValue>
+  nameWithType: SortedDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.SortedDictionary<TKey, TValue>
+  nameWithType.vb: SortedDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.SortedDictionary(Of TKey, TValue)
+  name.vb: SortedDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.SortedDictionary`2
+    name: SortedDictionary
+    nameWithType: SortedDictionary
+    fullName: System.Collections.Generic.SortedDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.SortedDictionary`2
+    name: SortedDictionary
+    nameWithType: SortedDictionary
+    fullName: System.Collections.Generic.SortedDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.Renderer.ComponentsCache*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.ComponentsCache
+  name: ComponentsCache
+  nameWithType: Renderer.ComponentsCache
+  fullName: Vortex.Presentation.Wpf.Renderer.ComponentsCache
+- uid: Vortex.Presentation.Wpf.Renderer.Diagnostics*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.Diagnostics
+  name: Diagnostics
+  nameWithType: Renderer.Diagnostics
+  fullName: Vortex.Presentation.Wpf.Renderer.Diagnostics
+- uid: Vortex.Presentation.Wpf.Renderer.ViewAssemblyLookupList*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.ViewAssemblyLookupList
+  name: ViewAssemblyLookupList
+  nameWithType: Renderer.ViewAssemblyLookupList
+  fullName: Vortex.Presentation.Wpf.Renderer.ViewAssemblyLookupList
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.AddElement
+  name: AddElement
+  nameWithType: Renderer.AddElement
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement
+- uid: System.Windows.Controls.Decorator
+  commentId: T:System.Windows.Controls.Decorator
+  parent: System.Windows.Controls
+  isExternal: true
+  name: Decorator
+  nameWithType: Decorator
+  fullName: System.Windows.Controls.Decorator
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+- uid: System.Windows.Controls.Panel
+  commentId: T:System.Windows.Controls.Panel
+  parent: System.Windows.Controls
+  isExternal: true
+  name: Panel
+  nameWithType: Panel
+  fullName: System.Windows.Controls.Panel
+- uid: System.Windows.Controls.ContentControl
+  commentId: T:System.Windows.Controls.ContentControl
+  parent: System.Windows.Controls
+  isExternal: true
+  name: ContentControl
+  nameWithType: ContentControl
+  fullName: System.Windows.Controls.ContentControl
+- uid: System.Windows.Controls.ItemsControl
+  commentId: T:System.Windows.Controls.ItemsControl
+  parent: System.Windows.Controls
+  isExternal: true
+  name: ItemsControl
+  nameWithType: ItemsControl
+  fullName: System.Windows.Controls.ItemsControl
+- uid: System.Windows.Controls.Primitives.Selector
+  commentId: T:System.Windows.Controls.Primitives.Selector
+  parent: System.Windows.Controls.Primitives
+  isExternal: true
+  name: Selector
+  nameWithType: Selector
+  fullName: System.Windows.Controls.Primitives.Selector
+- uid: System.Windows.Controls.Primitives
+  commentId: N:System.Windows.Controls.Primitives
+  isExternal: true
+  name: System.Windows.Controls.Primitives
+  nameWithType: System.Windows.Controls.Primitives
+  fullName: System.Windows.Controls.Primitives
+- uid: System.Windows.Controls.HeaderedContentControl
+  commentId: T:System.Windows.Controls.HeaderedContentControl
+  parent: System.Windows.Controls
+  isExternal: true
+  name: HeaderedContentControl
+  nameWithType: HeaderedContentControl
+  fullName: System.Windows.Controls.HeaderedContentControl
+- uid: System.Collections.Generic.Dictionary{System.String,System.Type}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Type}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Type>
+  nameWithType: Dictionary<String, Type>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Type>
+  nameWithType.vb: Dictionary(Of String, Type)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Type)
+  name.vb: Dictionary(Of String, Type)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.Renderer.GetTypeToCreate*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetTypeToCreate
+  name: GetTypeToCreate
+  nameWithType: Renderer.GetTypeToCreate
+  fullName: Vortex.Presentation.Wpf.Renderer.GetTypeToCreate
+- uid: Vortex.Presentation.Wpf.Renderer.CreateContainer*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.CreateContainer
+  name: CreateContainer
+  nameWithType: Renderer.CreateContainer
+  fullName: Vortex.Presentation.Wpf.Renderer.CreateContainer
+- uid: Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary
+  name: EnvelopeIfNecessary
+  nameWithType: Renderer.EnvelopeIfNecessary
+  fullName: Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary
+- uid: Vortex.Presentation.Wpf.Renderer.FindClosestView*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.FindClosestView
+  name: FindClosestView
+  nameWithType: Renderer.FindClosestView
+  fullName: Vortex.Presentation.Wpf.Renderer.FindClosestView
+- uid: Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded
+  name: FrameworkElementLoaded
+  nameWithType: Renderer.FrameworkElementLoaded
+  fullName: Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded
+- uid: System.Windows.RoutedEventArgs
+  commentId: T:System.Windows.RoutedEventArgs
+  parent: System.Windows
+  isExternal: true
+  name: RoutedEventArgs
+  nameWithType: RoutedEventArgs
+  fullName: System.Windows.RoutedEventArgs
+- uid: Vortex.Presentation.Wpf.Renderer.GetClosestView*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetClosestView
+  name: GetClosestView
+  nameWithType: Renderer.GetClosestView
+  fullName: Vortex.Presentation.Wpf.Renderer.GetClosestView
+- uid: Vortex.Presentation.Wpf.Renderer.GetClosestViewModel*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetClosestViewModel
+  name: GetClosestViewModel
+  nameWithType: Renderer.GetClosestViewModel
+  fullName: Vortex.Presentation.Wpf.Renderer.GetClosestViewModel
+- uid: Vortex.Presentation.Wpf.Renderer.GetHeader*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetHeader
+  name: GetHeader
+  nameWithType: Renderer.GetHeader
+  fullName: Vortex.Presentation.Wpf.Renderer.GetHeader
+- uid: Vortex.Presentation.Wpf.Renderer.GetSortedProperties*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetSortedProperties
+  name: GetSortedProperties
+  nameWithType: Renderer.GetSortedProperties
+  fullName: Vortex.Presentation.Wpf.Renderer.GetSortedProperties
+- uid: System.Collections.Generic.List{System.Reflection.PropertyInfo}
+  commentId: T:System.Collections.Generic.List{System.Reflection.PropertyInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<PropertyInfo>
+  nameWithType: List<PropertyInfo>
+  fullName: System.Collections.Generic.List<System.Reflection.PropertyInfo>
+  nameWithType.vb: List(Of PropertyInfo)
+  fullName.vb: System.Collections.Generic.List(Of System.Reflection.PropertyInfo)
+  name.vb: List(Of PropertyInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<PropertyInfo>
+  nameWithType: IEnumerable<PropertyInfo>
+  fullName: System.Collections.Generic.IEnumerable<System.Reflection.PropertyInfo>
+  nameWithType.vb: IEnumerable(Of PropertyInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Reflection.PropertyInfo)
+  name.vb: IEnumerable(Of PropertyInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.Renderer.HasIgnore*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.HasIgnore
+  name: HasIgnore
+  nameWithType: Renderer.HasIgnore
+  fullName: Vortex.Presentation.Wpf.Renderer.HasIgnore
+- uid: Vortex.Presentation.Wpf.Renderer.IsObjectCountReached*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.IsObjectCountReached
+  name: IsObjectCountReached
+  nameWithType: Renderer.IsObjectCountReached
+  fullName: Vortex.Presentation.Wpf.Renderer.IsObjectCountReached
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vortex.Presentation.Wpf.Renderer.RendererBusy*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.RendererBusy
+  name: RendererBusy
+  nameWithType: Renderer.RendererBusy
+  fullName: Vortex.Presentation.Wpf.Renderer.RendererBusy
+- uid: Vortex.Presentation.Wpf.Renderer.RendererDone*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.RendererDone
+  name: RendererDone
+  nameWithType: Renderer.RendererDone
+  fullName: Vortex.Presentation.Wpf.Renderer.RendererDone
+- uid: Vortex.Presentation.Wpf.Renderer.RenderPresentation*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.RenderPresentation
+  name: RenderPresentation
+  nameWithType: Renderer.RenderPresentation
+  fullName: Vortex.Presentation.Wpf.Renderer.RenderPresentation
+- uid: Vortex.Presentation.Wpf.Renderer.InvalidLicenseView*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.InvalidLicenseView
+  name: InvalidLicenseView
+  nameWithType: Renderer.InvalidLicenseView
+  fullName: Vortex.Presentation.Wpf.Renderer.InvalidLicenseView
+- uid: Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation
+  name: ReportErrorOnElementCreation
+  nameWithType: Renderer.ReportErrorOnElementCreation
+  fullName: Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Vortex.Presentation.Wpf.ReportingLevel
+  commentId: T:Vortex.Presentation.Wpf.ReportingLevel
+  parent: Vortex.Presentation.Wpf
+  name: ReportingLevel
+  nameWithType: ReportingLevel
+  fullName: Vortex.Presentation.Wpf.ReportingLevel
+- uid: Vortex.Presentation.Wpf.TooManyObjectsToRenderException
+  commentId: T:Vortex.Presentation.Wpf.TooManyObjectsToRenderException
+  parent: Vortex.Presentation.Wpf
+  name: TooManyObjectsToRenderException
+  nameWithType: TooManyObjectsToRenderException
+  fullName: Vortex.Presentation.Wpf.TooManyObjectsToRenderException
+- uid: Vortex.Presentation.Wpf.Renderer.ViewViewModelLocator*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.ViewViewModelLocator
+  name: ViewViewModelLocator
+  nameWithType: Renderer.ViewViewModelLocator
+  fullName: Vortex.Presentation.Wpf.Renderer.ViewViewModelLocator
+- uid: Vortex.Presentation.Wpf.Renderer.ProbeViewLocator*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.ProbeViewLocator
+  name: ProbeViewLocator
+  nameWithType: Renderer.ProbeViewLocator
+  fullName: Vortex.Presentation.Wpf.Renderer.ProbeViewLocator
+- uid: Vortex.Presentation.Wpf.Renderer.MaxObjectCountInDesign*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.MaxObjectCountInDesign
+  name: MaxObjectCountInDesign
+  nameWithType: Renderer.MaxObjectCountInDesign
+  fullName: Vortex.Presentation.Wpf.Renderer.MaxObjectCountInDesign
+- uid: Vortex.Presentation.Wpf.Renderer.AttachAssembliesInDesignMode*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.AttachAssembliesInDesignMode
+  name: AttachAssembliesInDesignMode
+  nameWithType: Renderer.AttachAssembliesInDesignMode
+  fullName: Vortex.Presentation.Wpf.Renderer.AttachAssembliesInDesignMode
+- uid: Vortex.Presentation.Wpf.Renderer.AttachAllAssemblieFromApplicationDomain*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.AttachAllAssemblieFromApplicationDomain
+  name: AttachAllAssemblieFromApplicationDomain
+  nameWithType: Renderer.AttachAllAssemblieFromApplicationDomain
+  fullName: Vortex.Presentation.Wpf.Renderer.AttachAllAssemblieFromApplicationDomain
+- uid: Vortex.Presentation.Wpf.RenderableAssemblyAttribute
+  commentId: T:Vortex.Presentation.Wpf.RenderableAssemblyAttribute
+  name: RenderableAssemblyAttribute
+  nameWithType: RenderableAssemblyAttribute
+  fullName: Vortex.Presentation.Wpf.RenderableAssemblyAttribute
+- uid: Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesAtRuntime*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesAtRuntime
+  name: AttachAllAssembliesAtRuntime
+  nameWithType: Renderer.AttachAllAssembliesAtRuntime
+  fullName: Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesAtRuntime
+- uid: Vortex.Presentation.Wpf.Renderer.AttachAllAssemblies*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.AttachAllAssemblies
+  name: AttachAllAssemblies
+  nameWithType: Renderer.AttachAllAssemblies
+  fullName: Vortex.Presentation.Wpf.Renderer.AttachAllAssemblies
+- uid: Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesApplicationFolder*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesApplicationFolder
+  name: AttachAllAssembliesApplicationFolder
+  nameWithType: Renderer.AttachAllAssembliesApplicationFolder
+  fullName: Vortex.Presentation.Wpf.Renderer.AttachAllAssembliesApplicationFolder
+- uid: Vortex.Presentation.Wpf.Renderer.AttachAssemblyToLookUpList*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.AttachAssemblyToLookUpList
+  name: AttachAssemblyToLookUpList
+  nameWithType: Renderer.AttachAssemblyToLookUpList
+  fullName: Vortex.Presentation.Wpf.Renderer.AttachAssemblyToLookUpList
+- uid: Vortex.Presentation.Wpf.Renderer._CreatePresentation*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer._CreatePresentation
+  name: _CreatePresentation
+  nameWithType: Renderer._CreatePresentation
+  fullName: Vortex.Presentation.Wpf.Renderer._CreatePresentation
+- uid: Vortex.Presentation.Wpf.Renderer.CreatePresentation*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.CreatePresentation
+  name: CreatePresentation
+  nameWithType: Renderer.CreatePresentation
+  fullName: Vortex.Presentation.Wpf.Renderer.CreatePresentation
+- uid: Vortex.Presentation.Wpf.Renderer.GetEnumeratorDiscriminatorAttribute*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetEnumeratorDiscriminatorAttribute
+  name: GetEnumeratorDiscriminatorAttribute
+  nameWithType: Renderer.GetEnumeratorDiscriminatorAttribute
+  fullName: Vortex.Presentation.Wpf.Renderer.GetEnumeratorDiscriminatorAttribute
+- uid: Vortex.Connector.EnumeratorDiscriminatorAttribute
+  commentId: T:Vortex.Connector.EnumeratorDiscriminatorAttribute
+  parent: Vortex.Connector
+  name: EnumeratorDiscriminatorAttribute
+  nameWithType: EnumeratorDiscriminatorAttribute
+  fullName: Vortex.Connector.EnumeratorDiscriminatorAttribute
+- uid: System.Reflection.PropertyInfo
+  commentId: T:System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: true
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+- uid: Vortex.Presentation.Wpf.Renderer.GetPropertyViaSymbol*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetPropertyViaSymbol
+  name: GetPropertyViaSymbol
+  nameWithType: Renderer.GetPropertyViaSymbol
+  fullName: Vortex.Presentation.Wpf.Renderer.GetPropertyViaSymbol
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+- uid: Vortex.Presentation.Wpf.Renderer.GetReferencedAssemblies*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetReferencedAssemblies
+  name: GetReferencedAssemblies
+  nameWithType: Renderer.GetReferencedAssemblies
+  fullName: Vortex.Presentation.Wpf.Renderer.GetReferencedAssemblies
+- uid: Vortex.Presentation.Wpf.Renderer.Get*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.Get
+  name: Get
+  nameWithType: Renderer.Get
+  fullName: Vortex.Presentation.Wpf.Renderer.Get
+- uid: Vortex.Presentation.Wpf.Renderer.ReportingSeverity*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.ReportingSeverity
+  name: ReportingSeverity
+  nameWithType: Renderer.ReportingSeverity
+  fullName: Vortex.Presentation.Wpf.Renderer.ReportingSeverity
+- uid: Vortex.Presentation.Wpf.Renderer.GetView*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetView
+  name: GetView
+  nameWithType: Renderer.GetView
+  fullName: Vortex.Presentation.Wpf.Renderer.GetView
+- uid: Vortex.Presentation.Wpf.Renderer.GetViewModel*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetViewModel
+  name: GetViewModel
+  nameWithType: Renderer.GetViewModel
+  fullName: Vortex.Presentation.Wpf.Renderer.GetViewModel
+- uid: Vortex.Presentation.Wpf.RenderableViewModel
+  commentId: T:Vortex.Presentation.Wpf.RenderableViewModel
+  parent: Vortex.Presentation.Wpf
+  name: RenderableViewModel
+  nameWithType: RenderableViewModel
+  fullName: Vortex.Presentation.Wpf.RenderableViewModel
+- uid: Vortex.Presentation.Wpf.Renderer.SecurityProvider_OnAnyAuthenticationEvent*
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.SecurityProvider_OnAnyAuthenticationEvent
+  name: SecurityProvider_OnAnyAuthenticationEvent
+  nameWithType: Renderer.SecurityProvider_OnAnyAuthenticationEvent
+  fullName: Vortex.Presentation.Wpf.Renderer.SecurityProvider_OnAnyAuthenticationEvent
