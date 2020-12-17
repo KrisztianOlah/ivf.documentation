@@ -20,7 +20,6 @@
       "disableGitFeatures": false,
       "disableDefaultFilter": true
     },
-
     {
       "src": [
         {
@@ -41,51 +40,28 @@
       "filter": "filters/filterConfig.yml",
       "disableGitFeatures": false,
       "disableDefaultFilter": true
-    },
-
-    {
-      "src": [
-        {
-          "files": [
-            "vortex.framework.presentation//src//wpf//Vortex.Presentation.Wpf//Vortex.Presentation.Wpf.csproj",
-            "vortex.framework.presentation//src//wpf//Vortex.Presentation.Styling.Wpf//Vortex.Presentation.Styling.Wpf.csproj",
-            "vortex.framework.presentation//src//wpf//Vortex.Presentation.Controls.Wpf//Vortex.Presentation.Controls.Wpf.csproj"
-          ],
-          "exclude": [
-            "**/bin/**",
-            "**/obj/**",
-            "*.Properties",
-            "*.Resx"
-          ],
-          "src": "..//ivf//"
-        }
-      ],
-      "dest": "api/presentation_wpf",
-      "filter": "filters/presentation_filter.yml",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": true
     }
-
   ],
   "build": {
     "content": [
       {
         "files": [
-          "api/**.yml",
-          "api/index.md",
-          "api/compiler/**",
-          "api/connector/**"
+          "index.md",
+          "toc.yml"
         ]
       },
       {
         "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
-          "articles/units/**/**.md",
-
+          "api/**/*.yml",
+          "api/**/*.md",
+          "articles/**",
+          "images/**",
+          "index.md",
           "toc.yml",
-          "*.md"
-        ]
+          "previous_versions/index.md",
+          "previous_versions/toc.yml"
+        ],
+        "dest": "docu"
       }
     ],
     "resource": [
@@ -97,6 +73,12 @@
           "articles/**/*.gif",
           "articles/**/*.jpg",
           "articles/**/*.jpeg"
+        ],
+        "dest": "assets"
+      },
+      {
+        "files": [
+          "history/**/**"
         ]
       }
     ],

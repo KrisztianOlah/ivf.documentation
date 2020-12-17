@@ -29,7 +29,7 @@ The packages will be first released as preview versions. These versions are clos
 
 We recommend to subscribe to some of our channels where we will be announcing news that might be useful to you. See the links below.
 
-# Least but not last
+# Last but not least
 
 Our gratitude goes to a number of projects that made Inxton.Framework possible. The list of those great project is [here](https://github.com/Inxton/Legal/blob/master/notices.md).
 

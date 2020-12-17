@@ -1,0 +1,4139 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/MTS/Develop/azure-vtr/ivf.documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/compiler/vortex.compiler.console.BuilderAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/compiler/vortex.compiler.console.BuilderAdapter.html",
+          "hash": "hctMvtC94x9wSG+rSHDRZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/compiler/vortex.compiler.console.CommandLineConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/compiler/vortex.compiler.console.CommandLineConfig.html",
+          "hash": "umPZlvPLF/yTD/8NQBNOQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/compiler/vortex.compiler.console.Program.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/compiler/vortex.compiler.console.Program.Options.html",
+          "hash": "CFKg5W1tBBw8Jy6pe8Bm/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/compiler/vortex.compiler.console.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/compiler/vortex.compiler.console.Program.html",
+          "hash": "Yu1cd+6Pu/6uBufqQ57SKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/compiler/vortex.compiler.console.runner.ExtensionRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/compiler/vortex.compiler.console.runner.ExtensionRunner.html",
+          "hash": "e5NHmP2L23Tlpbzu3d0W6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/compiler/vortex.compiler.console.runner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/compiler/vortex.compiler.console.runner.html",
+          "hash": "gU7ScQ+SHK2VdWlNvbo+pA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/compiler/vortex.compiler.console.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/compiler/vortex.compiler.console.html",
+          "hash": "NwDURBaGKcidx+7i9Yf91g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.Adapter.ConnectorFactory.html",
+          "hash": "kSO37f/Yu9hGNNW8tByC2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadMethod.html",
+          "hash": "cLZmjVHltYtJ6l57gl7Wgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.Adapter.SymbolLoadingMode.html",
+          "hash": "aW+TPiXHtknoTAntt7mCiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.html",
+          "hash": "2x+qTm3d0DcR0LgH8L+C1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.Adapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.Adapter.html",
+          "hash": "IYWKZFKbwdiJAHMWz1bV+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsConnector.OnAdsStateChangeDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsConnector.OnAdsStateChangeDelegate.html",
+          "hash": "sS/m0YoESALQ1kMn4Fq5Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsConnector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsConnector.html",
+          "hash": "+Rd2kS/kjSWt7fvpmYQwVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.html",
+          "hash": "5CrnEVTugLN2vhF8DIBmog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.html",
+          "hash": "MCvX/Y0n8fqxZLMl8iBQgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBool.html",
+          "hash": "+UFVyqRsTzt27K1ebjshwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsByte.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsByte.html",
+          "hash": "3axwK6Own3aFddTTJ4fOww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDInt.html",
+          "hash": "JxAWWPKKvbeEyzDupFniPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDWord.html",
+          "hash": "RrdmRUYix2AHSL6fKfNR1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDate.html",
+          "hash": "sgGbgCMZ4QnUa1I/yf3wKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDateTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDateTime.html",
+          "hash": "lcytAtgD+reRuAkxwyRy+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsInt.html",
+          "hash": "8TxM0pQ3LP3Wa+Pg9FBACQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLInt.html",
+          "hash": "nVH4siZqG3rJklxmC+/Ohw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLReal.html",
+          "hash": "JS3wdPvEnkfLV13N+W2IxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLTime.html",
+          "hash": "MM3iDFvwl1RIRdnt8nKnNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsLWord.html",
+          "hash": "r2OBfvvrJjJu+jqejTXp0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsReal.html",
+          "hash": "qau0z7fK1Y5Q2y9PGHmL/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsSInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsSInt.html",
+          "hash": "G4pmdWhNH2DQzmrqnEKo3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.html",
+          "hash": "4axYAuYDtgvlv9R3Gmpm3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTime.html",
+          "hash": "ef1Exf5RzMN1JKzxdrlfYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTimeOfDay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsTimeOfDay.html",
+          "hash": "+g8PmjJWCKFwi7ZKj0ahJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUDInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUDInt.html",
+          "hash": "Rb1N62p1V0IOmLxojrD29Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUInt.html",
+          "hash": "t6TULxwiAYeptp0uswPxkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsULInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsULInt.html",
+          "hash": "KNZHIU/j4nJJPfd28C/Iqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUSInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsUSInt.html",
+          "hash": "B6vNE4vSLAH7HuoyHkYLcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.html",
+          "hash": "Kv84v68zUipOKy16M3NDYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWord.html",
+          "hash": "4iTPlXXqGjatk/Q3hsD7IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.ClientSymbol.html",
+          "hash": "0cn4H+sQaL/aAolyfYzLjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType.html",
+          "hash": "Q5MElCAMcaA60HNYqJ2vqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.html",
+          "hash": "PtEVL2WWdblm7bHMlT5I0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.LiveClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.LiveClient.html",
+          "hash": "e4bne+lbZUNuOPWqjQRgXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.OnlineSymbolRetriever.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.OnlineSymbolRetriever.html",
+          "hash": "7ZygCpAwYW59bxOZcATFAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolLoaderSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.SymbolLoaderSettings.html",
+          "hash": "DytaTjlHLpgMp8UDMMoVzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.html",
+          "hash": "3CPe+QY/M6M7ayTb1HO5ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.ReportingConsole.UpdateStartUpDelegate.html",
+          "hash": "fS9LzSeGwxOi/RnAm2/VvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.ReportingConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.ReportingConsole.html",
+          "hash": "/DweIJ6Jud5OmXR9OMJZsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3.html",
+          "hash": "Lqhfi8aCjS3iMsDpGfMGQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3Adapter.Adapter.NamespaceDoc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3Adapter.Adapter.NamespaceDoc.html",
+          "hash": "k8OuCgR2FL4Fa0YPvXrxRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Adapters.Connector.Tc3Adapter.Adapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Adapters.Connector.Tc3Adapter.Adapter.html",
+          "hash": "F1Z9Bgsid6idWOxVFRzGEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.Attributes.AssemblyPlcCounterPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.Attributes.AssemblyPlcCounterPart.html",
+          "hash": "6mrfhm+4vEe0bv/ZylwbSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.Attributes.CompilerOmissionGroups.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.Attributes.CompilerOmissionGroups.html",
+          "hash": "NdcOsyjd1vCb8ZCk/vyX9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.Attributes.CompilerOmitsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.Attributes.CompilerOmitsAttribute.html",
+          "hash": "1869MQZXbmFc7yaOC3G2KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.Attributes.ReadOnlyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.Attributes.ReadOnlyAttribute.html",
+          "hash": "WrjUoJ2gcYEGoylVVZUvJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.Attributes.TypeMetaDescriptorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.Attributes.TypeMetaDescriptorAttribute.html",
+          "hash": "it4tOQ469RKo+cBy2zX+wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.Attributes.html",
+          "hash": "dZSxsGnC6QXBEGycSGT87A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.CommStateEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.CommStateEnum.html",
+          "hash": "9vWuAvE3NWu2AYlX70/ZIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ConnectorAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ConnectorAdapter.html",
+          "hash": "tXho7sYgJlBYVlkKWjNX1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.DataExchangeStatusEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.DataExchangeStatusEnum.html",
+          "hash": "9wHWvVncdZfzXnr60UARYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.DummyConnector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.DummyConnector.html",
+          "hash": "4SuYXCA0mbJ3v5vPRMBf0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.DummyConnectorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.DummyConnectorFactory.html",
+          "hash": "k25EJrqMV5FSE/fJizYObA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.EnumeratorDiscriminatorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.EnumeratorDiscriminatorAttribute.html",
+          "hash": "Wa4J54nmig4q0mO6sx7ZGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.IConnector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.IConnector.html",
+          "hash": "+XWSTBcs4kyH4O4N+F4H/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.IConnectorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.IConnectorFactory.html",
+          "hash": "2jdtnilaStItf4CwLzDYCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.IPlain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.IPlain.html",
+          "hash": "YVG0VMNODV9NUUPZIX2l8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ITwinController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ITwinController.html",
+          "hash": "zTlF+b1PRW/VtY9QXZVhaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ITwinObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ITwinObject.html",
+          "hash": "Trxs0BbFRXsDjWxtFH1VJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ITwinPrimitive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ITwinPrimitive.html",
+          "hash": "ZgD5pVPWMwlKhe/KE/4ARw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.IValueTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.IValueTag.html",
+          "hash": "PyjJ1txbs5dumeq96IsG1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.IValueTagExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.IValueTagExtensions.html",
+          "hash": "qiV66euS0UvYwZU5cwhU1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.IValueTagInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.IValueTagInfo.html",
+          "hash": "/ccoi0CQvJ4OItn7R3aKmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.IVortexElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.IVortexElement.html",
+          "hash": "ldz0cv9+a/U9YJSUjY6X4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.IVortexObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.IVortexObject.html",
+          "hash": "8OBmnQckOsPX2LJNP4ltCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.IVortexObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.IVortexObjectExtensions.html",
+          "hash": "/EngKBXWnOYMXGAUTxAf+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.IVortexOnlineObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.IVortexOnlineObject.html",
+          "hash": "lFAQINDISiop3O67RVkpgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.IVortexShadowObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.IVortexShadowObject.html",
+          "hash": "LMifDkOG/Ln45euIwLDa1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.Identity.IVortexIdentity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.Identity.IVortexIdentity.html",
+          "hash": "cLykXFGKWsa7Gu8RmPOeow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.Identity.MemberByIdentityAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.Identity.MemberByIdentityAttribute.html",
+          "hash": "FNt4ejYFxXEdN3cAobl3EA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.Identity.NullVortexIdentity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.Identity.NullVortexIdentity.html",
+          "hash": "QiUrfVMX4xKrHi3R/+D6/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.Identity.VortexIdentityProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.Identity.VortexIdentityProvider.html",
+          "hash": "22CcyuoXs1QiaEc0d42c1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.Identity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.Identity.html",
+          "hash": "BhdCdDs96aJFhS3ozFTPYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.IgnoreReflectionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.IgnoreReflectionAttribute.html",
+          "hash": "qykb+ALWfLWcgpc+A0j1hQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.InterpolatedAncestor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.InterpolatedAncestor.html",
+          "hash": "4InzIGhvy5T8mXyRF7qtYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.InvalidLicenseConnector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.InvalidLicenseConnector.html",
+          "hash": "BtAhYpJdetz41+trf5nxfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.InvalidLicenseConnectorAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.InvalidLicenseConnectorAdapter.html",
+          "hash": "hf+7eyqZ2x6NSafbetN22A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.InvalidLicenseConnectorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.InvalidLicenseConnectorFactory.html",
+          "hash": "BgouGTld55vcaesdFQTKEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.LibraryDescriptors.TypeMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.LibraryDescriptors.TypeMetaData.html",
+          "hash": "yOYYHDICHQp4vJqhGG1dAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.LibraryDescriptors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.LibraryDescriptors.html",
+          "hash": "Mz9+SnW4jpGAQJQ4qJHIkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.NamespaceDoc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.NamespaceDoc.html",
+          "hash": "MGln9IMXNIrSqwtOMQf6fQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.RootVortexerObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.RootVortexerObject.html",
+          "hash": "eTbQA3ILxe142o3noRGFkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.StringInterpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.StringInterpolator.html",
+          "hash": "JNB1R12lx85R8AS5eO6Njw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.TypeComplexityEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.TypeComplexityEnum.html",
+          "hash": "SJTDudhMoGtG9rf8QdrMdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.NamespaceDoc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.NamespaceDoc.html",
+          "hash": "xLhSRcR5F6zIr4DMpdUQPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnline-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnline-1.html",
+          "hash": "NZ5NrreUII3WfZOwOmxpcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineBool.html",
+          "hash": "/SSmUKEKpuVSEUV/2WKGHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineByte.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineByte.html",
+          "hash": "AmgwbohvOOO4eOu4PQlu+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineDInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineDInt.html",
+          "hash": "0NRkiB42SsPHEA706qjOtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineDWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineDWord.html",
+          "hash": "ZKPgUptn584mom1wEhopGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineDate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineDate.html",
+          "hash": "kvUeYQjyoveMwTZxxtsXIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineDateTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineDateTime.html",
+          "hash": "X51ZDG5Y9Up3FEw0oXimlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineInt.html",
+          "hash": "j2Rp77RfIexPn5okmxR/Og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineLInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineLInt.html",
+          "hash": "I+1+tk0geWyDqB+AOed0tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineLReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineLReal.html",
+          "hash": "qGipKrOeruz5Dy1Nt259Lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineLTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineLTime.html",
+          "hash": "Eso/FDltZhr3VZhpvxd0+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineLWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineLWord.html",
+          "hash": "Zr3hkbPQENu178PYAom28A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineReal.html",
+          "hash": "h5KpRjA1GU0cTQY8nr6iQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineSInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineSInt.html",
+          "hash": "oHc8GKVB9d0cL+mwrFPHxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineString.html",
+          "hash": "QpsFQrpWg3W5vg4YeRK3SQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineTime.html",
+          "hash": "uZuks/eDWKODamGeCA8jFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineTimeOfDay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineTimeOfDay.html",
+          "hash": "SnNEWAzxV5N1pPtMtPAQbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineUDInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineUDInt.html",
+          "hash": "DaUD+5bOhUXqfX9vJWyjvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineUInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineUInt.html",
+          "hash": "k2FA14LA99nAuv5/J5PXQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineULInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineULInt.html",
+          "hash": "j24KVsgE1L3hrqCtIosxGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineUSInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineUSInt.html",
+          "hash": "Ji0N3th7HZDriBw24+z5Qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineWString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineWString.html",
+          "hash": "hsTRuWsFkORVCSD5RUghUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.IOnlineWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.IOnlineWord.html",
+          "hash": "HLrD/hXzsRv+WML6Sf0gLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.NamespaceDoc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.NamespaceDoc.html",
+          "hash": "uAMmbMGqVCZlY2gajY6m/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Online.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Online.html",
+          "hash": "Cg2wX4pkUnLC8P53NLaTQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerBaseType-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerBaseType-1.html",
+          "hash": "p1r6yzOF5qsUTY9YZOkPcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate.html",
+          "hash": "/kYr3Z47Aj1buzQSGYzNGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerBaseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerBaseType.html",
+          "hash": "WJAA7iNLQsVcda5gbAY8qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerBool.html",
+          "hash": "OTU9DQjG4cL9kdtVdOhs9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerByte.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerByte.html",
+          "hash": "gGQUdGLqSLPJf2NeZxhWbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerDInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerDInt.html",
+          "hash": "dAsFHk43poS0gDgxMXLGbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerDWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerDWord.html",
+          "hash": "hsnNXVo8PcZAX8xgoA70Dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerDate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerDate.html",
+          "hash": "LLHqZngy2yjIkWoJznhaww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerDateTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerDateTime.html",
+          "hash": "oSyzjrc/HFuJHa6pZ/OKPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerInt.html",
+          "hash": "lb4zJ+bd+g3kX0y4LnDmOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerLInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerLInt.html",
+          "hash": "v+GeHbAEqotQJVHDJEjGDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerLReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerLReal.html",
+          "hash": "VWMOjnrFqd9FizletCOCyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerLTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerLTime.html",
+          "hash": "zHl5G8pbyxsjpw4Wk6bv9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerLWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerLWord.html",
+          "hash": "nlpTGP+R+Cia/y8jYH6PZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerReal.html",
+          "hash": "qF6NZLnEgtxyIRPFQrlsOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerSInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerSInt.html",
+          "hash": "Q4K7a30UFt14tx6T5z9G0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerString.html",
+          "hash": "zm7zJkm2nDSHUA00uvDX4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerTime.html",
+          "hash": "j5CKG+DaIPXL8X1N6Rt/rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerTimeOfDay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerTimeOfDay.html",
+          "hash": "SHMDSMdaSeo5eGyjN4/7TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerUDInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerUDInt.html",
+          "hash": "x0L2/ep8ks22aCThAlemLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerUInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerUInt.html",
+          "hash": "Ad+a633jzkMPc3pry7kaQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerULInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerULInt.html",
+          "hash": "eEt2TPDJZIfUMPUoJAAA/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerUSInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerUSInt.html",
+          "hash": "FLrXrkU/0C5wSOjw9hHfsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerWString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerWString.html",
+          "hash": "iBQzNKQvcOqTQU9tRDvE5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.OnlinerWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.OnlinerWord.html",
+          "hash": "yWN1NN9gYbHq9M9fHRF+GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.ReadWriteAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.ReadWriteAccess.html",
+          "hash": "mSfUAtVPLiw+z8aYnG3RYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadow-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadow-1.html",
+          "hash": "MOMDuDSQPWv9X4c3C1Thwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowBool.html",
+          "hash": "bg6srZxmBalb4w8r5za37g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowByte.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowByte.html",
+          "hash": "WQMhBh4wT3i45c7oSVF73w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowDInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowDInt.html",
+          "hash": "75cMws+iR1jxp1llD1zfTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowDWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowDWord.html",
+          "hash": "jV+RBJYSvU6sMHMzr9YMZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowDate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowDate.html",
+          "hash": "gSpHhjwXiSSDm+3FrFJ7pQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowDateTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowDateTime.html",
+          "hash": "s2rLkM8yNVIL1m5E/6UsZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowInt.html",
+          "hash": "RwYhkgHXHLyKBr/qhivssw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowLInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowLInt.html",
+          "hash": "m4vj7QEM0BcZRpNnobVayQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowLReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowLReal.html",
+          "hash": "5uK2J/ONHUxNI17Xk4YYgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowLTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowLTime.html",
+          "hash": "Wa+JTpoOdMNhm/rvX15Zpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowLWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowLWord.html",
+          "hash": "4NrCRetdUTXiLgO1uAS+og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowReal.html",
+          "hash": "OK1xGClJ0uWydWJM6S9Dqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowSInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowSInt.html",
+          "hash": "5GgnZslhgLzdESAx1rJ07Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowString.html",
+          "hash": "kzjksE3s1gEJvNBIBrE9HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowTime.html",
+          "hash": "GZsdEl+mtw0xEK02nqvszQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowTimeOfDay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowTimeOfDay.html",
+          "hash": "gvOKKeKXHE4Ir8P9G5ZimA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowUDInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowUDInt.html",
+          "hash": "KRmPXGdWvFsuQMU0gTkt9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowUInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowUInt.html",
+          "hash": "J2dQxHJi8OIP6FJSSEARsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowULInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowULInt.html",
+          "hash": "mzSLKg6PzNcUmM8AYgUxkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowUSInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowUSInt.html",
+          "hash": "SVPwEDSlcZQJNVihWATniw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowWString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowWString.html",
+          "hash": "cNg5JkdokJWmWUsFF+LGtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.IShadowWord.html",
+          "hash": "pvTlSqQwgMmmlVCjvSGUvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.NamespaceDoc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.NamespaceDoc.html",
+          "hash": "CofiN8pkhdX/FDelkOStOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.Shadows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.Shadows.html",
+          "hash": "GzDTFxWWEg4erjRaX8HDGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.ValueChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.ValueChangedEventArgs.html",
+          "hash": "YMohOQL6/tTmELdq9N9DyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate.html",
+          "hash": "tRwus12B9ovAwMBiKKvyDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueTypes.html",
+          "hash": "gORKF/fFtmsw4pLLpbdS2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.BoolValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.BoolValueValidationRule.html",
+          "hash": "LBL4hwYLqzlvLmAT9pk4Tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.ByteValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.ByteValueValidationRule.html",
+          "hash": "vQekoSmj7jUhzJiy2snhTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.DWordValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.DWordValueValidationRule.html",
+          "hash": "VAzGRrAIM+g8rJzwYKO77A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.DateTimeValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.DateTimeValueValidationRule.html",
+          "hash": "0gIFV/R/jdQjD5PCPYZqYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.DateValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.DateValueValidationRule.html",
+          "hash": "2f0rfsEco78kV1AlXxSzPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.DintValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.DintValueValidationRule.html",
+          "hash": "3MeDVeGLW9jgoAtu8W8cNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.IValueBoundaries-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.IValueBoundaries-1.html",
+          "hash": "61KubiGfem7aJWGiihMhjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.IntValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.IntValueValidationRule.html",
+          "hash": "o708qTf6e8agmZKTPzfUPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.LIntValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.LIntValueValidationRule.html",
+          "hash": "XRpmvj1CgpPh7yW+hgj9AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.LRealValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.LRealValueValidationRule.html",
+          "hash": "4XXSoYL3sCAwiY8zEiLqqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.LTimeValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.LTimeValueValidationRule.html",
+          "hash": "gWM4ppCVx2Bco8kWQbNhDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.LWordValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.LWordValueValidationRule.html",
+          "hash": "nlBy0rBiBLWJ4DlZTXhrlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.NamespaceDoc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.NamespaceDoc.html",
+          "hash": "Qr/Xl/DPB8Wxg6rWl4Z3OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.OnlinerValidationRule-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.OnlinerValidationRule-1.html",
+          "hash": "PEZoR5t8WjrAp3/FeLUOXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.RealValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.RealValueValidationRule.html",
+          "hash": "rzQTKrI7LZu7h0DYO+xrVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.SIntValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.SIntValueValidationRule.html",
+          "hash": "a+YcVMTuuwhD/+mktBjzzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.StringValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.StringValueValidationRule.html",
+          "hash": "UCTxK2PvSCtvik/oaAxn5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.TimeOfDayValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.TimeOfDayValueValidationRule.html",
+          "hash": "5cm7t4MaUMpPgLaqZiF9Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.TimeValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.TimeValueValidationRule.html",
+          "hash": "+Ydy1NxgIUJ4DWSD0ZztVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.UDIntValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.UDIntValueValidationRule.html",
+          "hash": "rXa8AdAob05ZB+GjXTu39g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.UIntValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.UIntValueValidationRule.html",
+          "hash": "rxgVnofOdFdPMDEN64/esA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.ULIntValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.ULIntValueValidationRule.html",
+          "hash": "fqlvCXzuMizHRKl28qRJNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.USintValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.USintValueValidationRule.html",
+          "hash": "Q/KBmx0eUF6KOvooPUxB9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.ValidationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.ValidationResult.html",
+          "hash": "BOZcj7NiON2ERLB3es0dBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.WStringValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.WStringValueValidationRule.html",
+          "hash": "eTEPnwJeOl+v4xifodFPAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.WordValueValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.WordValueValidationRule.html",
+          "hash": "+MgSqBtQH1aWyiUiJELS6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.ValueValidation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.ValueValidation.html",
+          "hash": "qRv0ux0alDkRUF0zwHcQAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Connector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Connector.html",
+          "hash": "4JLIoptL0OGiO+8fgUAX4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Localizations.IdentifierValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Localizations.IdentifierValidator.html",
+          "hash": "mCRY84IJFIy3zLkW4EdotQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Localizations.LocalizableItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Localizations.LocalizableItem.html",
+          "hash": "WI6fJnBKH+JCxdoEjJnsOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Localizations.Localizables.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Localizations.Localizables.html",
+          "hash": "PsIVbW7BY/X69a+6ztextA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Localizations.LocalizationHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Localizations.LocalizationHelper.html",
+          "hash": "n1CFP5u3WdiemYHAkpQy9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Localizations.LocalizerDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Localizations.LocalizerDictionary.html",
+          "hash": "USO20ankoPRWkpddi9Bb9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/connector/Vortex.Localizations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/connector/Vortex.Localizations.html",
+          "hash": "jUEWEgUORc1Q2/4x8kOJfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/api/index.html",
+          "hash": "bH5MOuL/zTF4klsVZBR7zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/01core/getting_started/getting_started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/01core/getting_started/getting_started.html",
+          "hash": "8CDqUddYNkITRATwH5enHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/02essentials/getting_started/Autogenerated_ui_with_styles.gif",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/02essentials/getting_started/Autogenerated_ui_with_styles.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/02essentials/getting_started/Smalll_Autogen_UIgif.gif",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/02essentials/getting_started/Smalll_Autogen_UIgif.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/02essentials/getting_started/attribute_name.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/02essentials/getting_started/attribute_name.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/02essentials/getting_started/custom_view.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/02essentials/getting_started/custom_view.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/02essentials/getting_started/getting_started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/02essentials/getting_started/getting_started.html",
+          "hash": "TVvtXshOW+a5h7XTwys4ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/02essentials/getting_started/pipe.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/02essentials/getting_started/pipe.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/02essentials/getting_started/rendered_tabs.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/02essentials/getting_started/rendered_tabs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/02essentials/getting_started/rendered_tabs_wrap.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/02essentials/getting_started/rendered_tabs_wrap.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/02essentials/getting_started/rendered_ui.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/02essentials/getting_started/rendered_ui.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/03advanced/getting_started/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/03advanced/getting_started/README.html",
+          "hash": "Dx5rdAwKBy0Aw3w7JSvezA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/03advanced/getting_started/breakpoint.gif",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/03advanced/getting_started/breakpoint.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/03advanced/getting_started/command_alert.gif",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/03advanced/getting_started/command_alert.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/03advanced/getting_started/diagnostic_one.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/03advanced/getting_started/diagnostic_one.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/03advanced/getting_started/diagnostic_two.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/03advanced/getting_started/diagnostic_two.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/03advanced/getting_started/getting_started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/03advanced/getting_started/getting_started.html",
+          "hash": "bElyTC6weNwrAOtBn+WWAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/03advanced/getting_started/invoked_from_plc.gif",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/03advanced/getting_started/invoked_from_plc.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/03advanced/getting_started/logged_in.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/03advanced/getting_started/logged_in.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/03advanced/getting_started/logged_out.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/03advanced/getting_started/logged_out.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/03advanced/getting_started/user_roles.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/03advanced/getting_started/user_roles.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/common/ExtensionInstalation.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/common/ExtensionInstalation.html",
+          "hash": "9dsYC3M5rP6JOPoXifyrKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/common/INSTALLATION.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/common/INSTALLATION.html",
+          "hash": "28zmPT0+SX56ZJXkhJ0bLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/common/LicenseInstallation.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/common/LicenseInstallation.html",
+          "hash": "gexezGVbh0n6kRzWxzUy+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/common/PREREQUISITES.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/common/PREREQUISITES.html",
+          "hash": "brWwbEkA7MNtL4MFGOlKWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/common/assets/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/common/assets/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/common/assets/package_manager_console_command.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/common/assets/package_manager_console_command.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/common/assets/package_manager_console_view.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/common/assets/package_manager_console_view.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/common_assets/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/common_assets/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/common_assets/tc3-inxton-future.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/common_assets/tc3-inxton-future.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/howtos/diag/diag.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/howtos/diag/diag.html",
+          "hash": "I/+bg5wDlY4i7uiumLlsyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/howtos/diag/diagnostic_one.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/howtos/diag/diagnostic_one.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/howtos/diag/diagnostic_two.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/howtos/diag/diagnostic_two.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/howtos/influxdb/influx_solution_tree.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/howtos/influxdb/influx_solution_tree.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/howtos/influxdb/influxdb.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/howtos/influxdb/influxdb.html",
+          "hash": "GQTn0GyBEqC8bMXUjN3S9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/howtos/influxdb/influxdbconsole.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/howtos/influxdb/influxdbconsole.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/howtos/influxdb/influxdbwpf.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/howtos/influxdb/influxdbwpf.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/howtos/invoke_csharp/breakpoint.gif",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/howtos/invoke_csharp/breakpoint.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/howtos/invoke_csharp/invoke_csharp.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/howtos/invoke_csharp/invoke_csharp.html",
+          "hash": "mKTN7tKKl8iQgzL1N1pz1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/howtos/invoke_csharp/invoked_from_plc.gif",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/howtos/invoke_csharp/invoked_from_plc.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/howtos/recipes/recipe_00.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/howtos/recipes/recipe_00.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/howtos/recipes/recipe_01.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/howtos/recipes/recipe_01.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/howtos/recipes/recipe_mgmt.gif",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/howtos/recipes/recipe_mgmt.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/howtos/recipes/recipes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/howtos/recipes/recipes.html",
+          "hash": "kuPYg/mrhGUZiOYmdKvImg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/intro.html",
+          "hash": "BfeCzE4hX6IvPwcbx7fUbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.Vortex.Connector/Conceptual/PrimitiveTwins.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.Vortex.Connector/Conceptual/PrimitiveTwins.html",
+          "hash": "OZtTulULNQTJwPm2kv3+xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.Vortex.Connector/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.Vortex.Connector/README.html",
+          "hash": "ivXHhabV62wWMVix9ePDeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Connector/assets/PrimitiveTwin.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Connector/assets/PrimitiveTwin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Connector/assets/SimpleCounter.gif",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Connector/assets/SimpleCounter.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Connector/assets/SimpleWinForm.gif",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Connector/assets/SimpleWinForm.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Connector/assets/TwinObject.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Connector/assets/TwinObject.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Connector/assets/addedPropertyUse1.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Connector/assets/addedPropertyUse1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Connector/assets/addedPropertyUse2.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Connector/assets/addedPropertyUse2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Connector/assets/inxton_transpile.gif",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Connector/assets/inxton_transpile.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Connector/assets/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Connector/assets/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Connector/assets/onliner-shadow-plain.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Connector/assets/onliner-shadow-plain.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Connector/assets/tc3-inxton-future.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Connector/assets/tc3-inxton-future.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Connector/assets/update_packages.gif",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Connector/assets/update_packages.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Connector/assets/weather_wpf.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Connector/assets/weather_wpf.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Controls.Wpf/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Controls.Wpf/README.html",
+          "hash": "nkQN5/WFpzNaAlBQXXypRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Styling.Wpf/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/README.html",
+          "hash": "rnBXYjyNowNwnufr9x5I9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Styling.Wpf/assets/inxton_styling.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/assets/inxton_styling.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Styling.Wpf/assets/responsive_design.gif",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/assets/responsive_design.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Styling.Wpf/buttons.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/buttons.html",
+          "hash": "ULpqOdgv8/7VCr4cxAQs/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Styling.Wpf/color_system.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/color_system.html",
+          "hash": "fiTeH2p1Sn2oCdbrMDcL7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Styling.Wpf/how_to_apply_styles.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/how_to_apply_styles.html",
+          "hash": "kUnqkjN3Ya3N6ob5OdXdUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Styling.Wpf/override_color.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/override_color.html",
+          "hash": "FolO4wwpfcBuzAzFT5We0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Wpf/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Wpf/README.html",
+          "hash": "dMzQ+NIWNyPLZJcYmjgH4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Wpf/how_it_works.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Wpf/how_it_works.html",
+          "hash": "KKy2VxK1Z916hXnz2F6d0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Wpf/presentation_types.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Wpf/presentation_types.html",
+          "hash": "cVu6NzvXS5p63r1QkLnL5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.vortex.compiler.console/Conceptual/AddedProperties.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/AddedProperties.html",
+          "hash": "2hdtGVHFdneq4wdwsoUDmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.vortex.compiler.console/Conceptual/Attributes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/Attributes.html",
+          "hash": "dUbs6Zqkql0UTyJlybZaug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.vortex.compiler.console/Conceptual/DocumentationBlock.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/DocumentationBlock.html",
+          "hash": "gZ+uHu+1uTcCbyqfc1G2+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.vortex.compiler.console/Conceptual/FakeComments.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/FakeComments.html",
+          "hash": "40QL6DIY5BFQMG7J0YEkKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.vortex.compiler.console/Conceptual/IgnoringPartsOfCode.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/IgnoringPartsOfCode.html",
+          "hash": "d6dlZU9xl3rJp+AiILr0Cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.vortex.compiler.console/Conceptual/TwinController.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/TwinController.html",
+          "hash": "+SxOzpPtPwgvh4QG0U1kiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.vortex.compiler.console/Conceptual/TwinObjects.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/TwinObjects.html",
+          "hash": "r3p9DPOL5D/T7/ZRSG3n/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.vortex.compiler.console/Conceptual/Twins.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/Twins.html",
+          "hash": "84YoZRgJNZufbfO6UWdI5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.vortex.compiler.console/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/README.html",
+          "hash": "iWI2rKszP0TmCjR4OwM9JA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.vortex.compiler.console/assets/TwinObjectDetail.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.vortex.compiler.console/assets/TwinObjectDetail.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.vortex.compiler.console/assets/onliner-shadow-plain.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.vortex.compiler.console/assets/onliner-shadow-plain.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.vortex.compiler.console/assets/tc3-inxton-app.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.vortex.compiler.console/assets/tc3-inxton-app.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.vortex.compiler.console/assets/tc3-project_to_twin_controller.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.vortex.compiler.console/assets/tc3-project_to_twin_controller.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/Autogenerated_ui_with_styles.gif",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/Autogenerated_ui_with_styles.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/Smalll_Autogen_UIgif.gif",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/Smalll_Autogen_UIgif.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/attribute_name.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/attribute_name.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/custom_view.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/custom_view.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/pipe.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/pipe.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/rendered_tabs.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/rendered_tabs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/rendered_tabs_wrap.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/rendered_tabs_wrap.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/rendered_ui.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/02essentials/getting_started/rendered_ui.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/breakpoint.gif",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/breakpoint.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/command_alert.gif",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/command_alert.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/diagnostic_one.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/diagnostic_one.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/diagnostic_two.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/diagnostic_two.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/invoked_from_plc.gif",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/invoked_from_plc.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/logged_in.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/logged_in.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/logged_out.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/logged_out.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/user_roles.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/03advanced/getting_started/user_roles.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/common/assets/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/common/assets/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/common/assets/package_manager_console_command.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/common/assets/package_manager_console_command.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/common/assets/package_manager_console_view.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/common/assets/package_manager_console_view.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/common_assets/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/common_assets/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/common_assets/tc3-inxton-future.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/common_assets/tc3-inxton-future.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/diag/diagnostic_one.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/diag/diagnostic_one.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/diag/diagnostic_two.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/diag/diagnostic_two.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/influxdb/influx_solution_tree.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/influxdb/influx_solution_tree.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/influxdb/influxdbconsole.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/influxdb/influxdbconsole.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/influxdb/influxdbwpf.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/influxdb/influxdbwpf.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/invoke_csharp/breakpoint.gif",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/invoke_csharp/breakpoint.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/invoke_csharp/invoked_from_plc.gif",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/invoke_csharp/invoked_from_plc.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/recipes/recipe_00.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/recipes/recipe_00.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/recipes/recipe_01.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/recipes/recipe_01.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/recipes/recipe_mgmt.gif",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/howtos/recipes/recipe_mgmt.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/PrimitiveTwin.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/PrimitiveTwin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/SimpleCounter.gif",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/SimpleCounter.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/SimpleWinForm.gif",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/SimpleWinForm.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/TwinObject.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/TwinObject.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/addedPropertyUse1.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/addedPropertyUse1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/addedPropertyUse2.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/addedPropertyUse2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/inxton_transpile.gif",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/inxton_transpile.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/onliner-shadow-plain.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/onliner-shadow-plain.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/tc3-inxton-future.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/tc3-inxton-future.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/update_packages.gif",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/update_packages.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/weather_wpf.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Connector/assets/weather_wpf.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/assets/inxton_styling.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/assets/inxton_styling.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/assets/responsive_design.gif",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/assets/responsive_design.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.vortex.compiler.console/assets/TwinObjectDetail.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.vortex.compiler.console/assets/TwinObjectDetail.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.vortex.compiler.console/assets/onliner-shadow-plain.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.vortex.compiler.console/assets/onliner-shadow-plain.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.vortex.compiler.console/assets/tc3-inxton-app.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.vortex.compiler.console/assets/tc3-inxton-app.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.vortex.compiler.console/assets/tc3-project_to_twin_controller.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/articles/units/Inxton.vortex.compiler.console/assets/tc3-project_to_twin_controller.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/favicon.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/favicon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/images/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/index.html",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/index.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/manifest.json",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/manifest.json"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/search-stopwords.json",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/search-stopwords.json"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "history/v1.9.1-preview.3-debug/xrefmap.yml",
+      "output": {
+        "resource": {
+          "relative_path": "history/v1.9.1-preview.3-debug/xrefmap.yml"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/images/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "GJFyLCnlf3IVWL4vVLnvDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "previous_versions/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/previous_versions/index.html",
+          "hash": "StqEovQ9IxK9Kq03NaSnvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 36,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 206,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

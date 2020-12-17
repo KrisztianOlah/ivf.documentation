@@ -2,5 +2,3 @@
   href: compiler/toc.yml
 - name: Connector
   href: connector/toc.yml
-- name: Presentation
-  href: presentation_wpf/toc.yml
