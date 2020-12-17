@@ -40,7 +40,9 @@ items:
     content: 'public class OnlinerReal : OnlinerBaseType<float>, IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries<float>, IOnlineReal, IOnline<float>, IShadowReal, IShadow<float>'
     content.vb: >-
       Public Class OnlinerReal
+
           Inherits OnlinerBaseType(Of Single)
+
           Implements IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of Single), IOnlineReal, IOnline(Of Single), IShadowReal, IShadow(Of Single)
   inheritance:
   - System.Object

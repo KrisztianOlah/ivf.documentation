@@ -20,7 +20,6 @@
       "disableGitFeatures": false,
       "disableDefaultFilter": true
     },
-
     {
       "src": [
         {
@@ -42,33 +41,27 @@
       "disableGitFeatures": false,
       "disableDefaultFilter": true
     }
-
   ],
   "build": {
     "content": [
       {
         "files": [
-          "api/**/*.yml",
-          "api/**/*.md",
-          "articles/**",
-          "toc.yml",
-          "*.md",
-          "images/**"
-        ],
-        "dest": "v2.0.0",
-        "version": "v2.0.0"
+          "index.md",
+          "toc.yml"
+        ]
       },
       {
         "files": [
           "api/**/*.yml",
           "api/**/*.md",
           "articles/**",
+          "images/**",
+          "index.md",
           "toc.yml",
-          "*.md",
-          "images/**"
+          "previous_versions/index.md",
+          "previous_versions/toc.yml"
         ],
-        "dest": "v1.9.1-preview.3",
-        "version": "v1.9.1-preview.3"
+        "dest": "docu"
       }
     ],
     "resource": [
@@ -81,7 +74,12 @@
           "articles/**/*.jpg",
           "articles/**/*.jpeg"
         ],
-        "dest" : "assets"
+        "dest": "assets"
+      },
+      {
+        "files": [
+          "history/**/**"
+        ]
       }
     ],
     "overwrite": [

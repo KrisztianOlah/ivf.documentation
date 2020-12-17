@@ -1,5 +1,8 @@
 - name: Articles
   href: articles/
 - name: API reference
-  href: api/
+  href: api/compiler/
   homepage: api/index.md
+- name : Previous Versions
+  href : previous_versions/
+

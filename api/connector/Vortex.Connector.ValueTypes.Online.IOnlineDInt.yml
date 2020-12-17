@@ -29,6 +29,7 @@ items:
     content: 'public interface IOnlineDInt : IOnline<int>'
     content.vb: >-
       Public Interface IOnlineDInt
+
           Inherits IOnline(Of Integer)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Online.IOnline{System.Int32}.Symbol

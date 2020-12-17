@@ -35,7 +35,9 @@ items:
     content: 'public class OnlinerInt : OnlinerBaseType<short>, IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries<short>, IOnlineInt, IOnline<short>, IShadowInt, IShadow<short>'
     content.vb: >-
       Public Class OnlinerInt
+
           Inherits OnlinerBaseType(Of Short)
+
           Implements IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of Short), IOnlineInt, IOnline(Of Short), IShadowInt, IShadow(Of Short)
   inheritance:
   - System.Object

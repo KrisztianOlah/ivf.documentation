@@ -61,7 +61,9 @@ items:
     content: 'public abstract class IConnector : RootVortexerObject, IVortexObject, ITwinObject, IVortexElement, INotifyPropertyChanged'
     content.vb: >-
       Public MustInherit Class IConnector
+
           Inherits RootVortexerObject
+
           Implements IVortexObject, ITwinObject, IVortexElement, INotifyPropertyChanged
   seealso:
   - linkId: Vortex.Connector.RootVortexerObject

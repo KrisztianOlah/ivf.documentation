@@ -29,6 +29,7 @@ items:
     content: 'public interface IOnlineReal : IOnline<float>'
     content.vb: >-
       Public Interface IOnlineReal
+
           Inherits IOnline(Of Single)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Online.IOnline{System.Single}.Symbol

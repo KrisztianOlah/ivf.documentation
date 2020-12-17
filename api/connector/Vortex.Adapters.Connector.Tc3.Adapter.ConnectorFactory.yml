@@ -52,6 +52,7 @@ items:
     content: 'class ConnectorFactory : IConnectorFactory'
     content.vb: >-
       Class ConnectorFactory
+
           Inherits IConnectorFactory
   inheritance:
   - System.Object
