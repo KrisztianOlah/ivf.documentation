@@ -2,7 +2,6 @@
 
 # Inxton.Package.Vortex.Core
 
-### [Documentation](https://github.com/Inxton/documentation/blob/master/Inxton.Package.Vortex.Core/README.md)
 ### [Examples](https://github.com/Inxton/Examples-Inxton.Package.Vortex.Core)
 ### [Template](https://github.com/Inxton/template.core)
 
