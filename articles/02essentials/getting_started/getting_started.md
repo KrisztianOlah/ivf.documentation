@@ -1,5 +1,9 @@
 # Inxton.Package.Vortex.Essentials
 
+### [Documentation](https://github.com/Inxton/documentation/blob/master/Inxton.Package.Vortex.Essentials/README.md)
+### [Examples](https://github.com/Inxton/Examples-Inxton.Package.Vortex.Essentials)
+### [Template](https://github.com/Inxton/template.essentials)
+
 *Inxton.Package.Vortex.Essentials* extends [Inxton.Package.Vortex.Core](../../01core/getting_started/getting_started.md) with libraries for **auto-generating user interface** (HMI). Automated UI generation provides you with a fast and highly scalable way of presenting PLC object. Any change of the PLC object reflects automatically in the generated UI. This approach saves a lot of time and lets you focus on core problem solving instead of spending time with adjusting user interface; it reduces the errors that are often introduced by routine linking of PLC to HMI.  
 
 This project is part of Inxton.Vortex.Framework. At this point, it contains libraries for [Windows Presentation Foundation (WPF)](https://docs.microsoft.com/en-us/dotnet/framework/wpf/introduction-to-wpf). Other presentation frameworks are in the making, such as support for ASP.NET and UWP.
