@@ -33,8 +33,8 @@ items:
     content: public enum ReportingLevel
     content.vb: Public Enum ReportingLevel
   extensionMethods:
-  - System.Enum.Vortex.Presentation.Wpf.EnumHelper.Description
   - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - System.Enum.Vortex.Presentation.Wpf.EnumHelper.Description
   modifiers.csharp:
   - public
   - enum
@@ -189,35 +189,6 @@ references:
   name: Vortex.Presentation.Wpf
   nameWithType: Vortex.Presentation.Wpf
   fullName: Vortex.Presentation.Wpf
-- uid: System.Enum.Vortex.Presentation.Wpf.EnumHelper.Description
-  commentId: M:Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
-  parent: Vortex.Presentation.Wpf.EnumHelper
-  definition: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
-  name: Description()
-  nameWithType: EnumHelper.Description()
-  fullName: Vortex.Presentation.Wpf.EnumHelper.Description()
-  spec.csharp:
-  - uid: Vortex.Presentation.Wpf.EnumHelper.Description
-    name: Description
-    nameWithType: EnumHelper.Description
-    fullName: Vortex.Presentation.Wpf.EnumHelper.Description
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Vortex.Presentation.Wpf.EnumHelper.Description
-    name: Description
-    nameWithType: EnumHelper.Description
-    fullName: Vortex.Presentation.Wpf.EnumHelper.Description
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
   commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
   parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
@@ -247,50 +218,35 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+- uid: System.Enum.Vortex.Presentation.Wpf.EnumHelper.Description
   commentId: M:Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
-  isExternal: true
-  name: Description(Enum)
-  nameWithType: EnumHelper.Description(Enum)
-  fullName: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+  parent: Vortex.Presentation.Wpf.EnumHelper
+  definition: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+  name: Description()
+  nameWithType: EnumHelper.Description()
+  fullName: Vortex.Presentation.Wpf.EnumHelper.Description()
   spec.csharp:
-  - uid: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+  - uid: Vortex.Presentation.Wpf.EnumHelper.Description
     name: Description
     nameWithType: EnumHelper.Description
     fullName: Vortex.Presentation.Wpf.EnumHelper.Description
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.Enum
-    name: Enum
-    nameWithType: Enum
-    fullName: System.Enum
-    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+  - uid: Vortex.Presentation.Wpf.EnumHelper.Description
     name: Description
     nameWithType: EnumHelper.Description
     fullName: Vortex.Presentation.Wpf.EnumHelper.Description
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.Enum
-    name: Enum
-    nameWithType: Enum
-    fullName: System.Enum
-    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: Vortex.Presentation.Wpf.EnumHelper
-  commentId: T:Vortex.Presentation.Wpf.EnumHelper
-  parent: Vortex.Presentation.Wpf
-  name: EnumHelper
-  nameWithType: EnumHelper
-  fullName: Vortex.Presentation.Wpf.EnumHelper
 - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
   commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
   isExternal: true
@@ -335,6 +291,50 @@ references:
   name: AttributeStringFormatExtensions
   nameWithType: AttributeStringFormatExtensions
   fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+- uid: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+  commentId: M:Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+  isExternal: true
+  name: Description(Enum)
+  nameWithType: EnumHelper.Description(Enum)
+  fullName: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+  spec.csharp:
+  - uid: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+    name: Description
+    nameWithType: EnumHelper.Description
+    fullName: Vortex.Presentation.Wpf.EnumHelper.Description
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
+    name: Description
+    nameWithType: EnumHelper.Description
+    fullName: Vortex.Presentation.Wpf.EnumHelper.Description
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Enum
+    name: Enum
+    nameWithType: Enum
+    fullName: System.Enum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Wpf.EnumHelper
+  commentId: T:Vortex.Presentation.Wpf.EnumHelper
+  parent: Vortex.Presentation.Wpf
+  name: EnumHelper
+  nameWithType: EnumHelper
+  fullName: Vortex.Presentation.Wpf.EnumHelper
 - uid: Vortex.Presentation.Controls.Wpf.Extension
   commentId: N:Vortex.Presentation.Controls.Wpf.Extension
   name: Vortex.Presentation.Controls.Wpf.Extension
