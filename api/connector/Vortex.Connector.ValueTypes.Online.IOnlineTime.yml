@@ -29,7 +29,6 @@ items:
     content: 'public interface IOnlineTime : IOnline<TimeSpan>'
     content.vb: >-
       Public Interface IOnlineTime
-
           Inherits IOnline(Of TimeSpan)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Online.IOnline{System.TimeSpan}.Symbol

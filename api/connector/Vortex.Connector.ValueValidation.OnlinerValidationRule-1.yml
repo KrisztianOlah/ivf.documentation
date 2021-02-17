@@ -40,6 +40,7 @@ items:
   inheritance:
   - System.Object
   derivedClasses:
+  - Vortex.Connector.ValueValidation.BitValueValidationRule
   - Vortex.Connector.ValueValidation.BoolValueValidationRule
   - Vortex.Connector.ValueValidation.ByteValueValidationRule
   - Vortex.Connector.ValueValidation.DateTimeValueValidationRule

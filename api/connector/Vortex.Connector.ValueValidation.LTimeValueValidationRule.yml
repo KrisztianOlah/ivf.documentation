@@ -31,7 +31,6 @@ items:
     content: 'public class LTimeValueValidationRule : OnlinerValidationRule<TimeSpan>'
     content.vb: >-
       Public Class LTimeValueValidationRule
-
           Inherits OnlinerValidationRule(Of TimeSpan)
   inheritance:
   - System.Object

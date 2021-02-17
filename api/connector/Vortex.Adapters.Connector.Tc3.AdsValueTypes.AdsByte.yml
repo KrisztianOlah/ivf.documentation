@@ -37,9 +37,7 @@ items:
     content: 'sealed class AdsByte : OnlinerByte, INotifyPropertyChanged, IValueBoundaries<byte>, IOnlineByte, IOnline<byte>, IShadowByte, IShadow<byte>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsByte
-
           Inherits OnlinerByte
-
           Implements INotifyPropertyChanged, IValueBoundaries(Of Byte), IOnlineByte, IOnline(Of Byte), IShadowByte, IShadow(Of Byte), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object

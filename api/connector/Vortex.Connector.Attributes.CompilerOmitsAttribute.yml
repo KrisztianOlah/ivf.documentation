@@ -37,7 +37,6 @@ items:
       <AttributeUsage(AttributeTargets.Property)>
 
       Public Class CompilerOmitsAttribute
-
           Inherits Attribute
   inheritance:
   - System.Object

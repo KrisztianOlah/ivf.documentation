@@ -30,7 +30,7 @@ items:
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AdsString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 14
+    startLine: 16
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -40,9 +40,7 @@ items:
     content: 'sealed class AdsString : OnlinerString, INotifyPropertyChanged, IValueBoundaries<string>, IOnlineString, IOnline<string>, IShadowString, IShadow<string>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsString
-
           Inherits OnlinerString
-
           Implements INotifyPropertyChanged, IValueBoundaries(Of String), IOnlineString, IOnline(Of String), IShadowString, IShadow(Of String), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object
@@ -175,7 +173,7 @@ items:
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Client
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 17
+    startLine: 19
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -212,7 +210,7 @@ items:
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 28
+    startLine: 30
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -244,7 +242,7 @@ items:
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 38
+    startLine: 40
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -286,7 +284,7 @@ items:
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetSynchron
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 49
+    startLine: 51
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -321,7 +319,7 @@ items:
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SetSynchron
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 70
+    startLine: 72
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -357,7 +355,7 @@ items:
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: FixValueLength
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 90
+    startLine: 92
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -388,7 +386,7 @@ items:
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ValueToWrite
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 105
+    startLine: 107
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -423,7 +421,7 @@ items:
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Read
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 125
+    startLine: 127
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -458,7 +456,7 @@ items:
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Write
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 130
+    startLine: 132
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -493,7 +491,7 @@ items:
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadFromBinaryReader
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 141
+    startLine: 143
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -525,7 +523,7 @@ items:
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteViaBinaryWriter
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 156
+    startLine: 159
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes

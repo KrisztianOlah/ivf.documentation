@@ -37,9 +37,7 @@ items:
     content: 'sealed class AdsUSInt : OnlinerUSInt, INotifyPropertyChanged, IValueBoundaries<byte>, IOnlineUSInt, IOnline<byte>, IShadowUSInt, IShadow<byte>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsUSInt
-
           Inherits OnlinerUSInt
-
           Implements INotifyPropertyChanged, IValueBoundaries(Of Byte), IOnlineUSInt, IOnline(Of Byte), IShadowUSInt, IShadow(Of Byte), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object

@@ -29,7 +29,6 @@ items:
     content: 'public interface IShadowULInt : IShadow<ulong>'
     content.vb: >-
       Public Interface IShadowULInt
-
           Inherits IShadow(Of ULong)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Shadows.IShadow{System.UInt64}.Symbol

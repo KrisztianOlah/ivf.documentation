@@ -29,7 +29,6 @@ items:
     content: 'public class MemberByIdentityAttribute : Attribute'
     content.vb: >-
       Public Class MemberByIdentityAttribute
-
           Inherits Attribute
   inheritance:
   - System.Object

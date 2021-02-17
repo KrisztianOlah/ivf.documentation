@@ -35,9 +35,7 @@ items:
     content: 'public class OnlinerLWord : OnlinerBaseType<ulong>, IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries<ulong>, IOnlineLWord, IOnline<ulong>, IShadowLWord, IShadow<ulong>'
     content.vb: >-
       Public Class OnlinerLWord
-
           Inherits OnlinerBaseType(Of ULong)
-
           Implements IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of ULong), IOnlineLWord, IOnline(Of ULong), IShadowLWord, IShadow(Of ULong)
   inheritance:
   - System.Object

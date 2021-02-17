@@ -31,7 +31,6 @@ items:
     content: 'public class TimeOfDayValueValidationRule : OnlinerValidationRule<TimeSpan>'
     content.vb: >-
       Public Class TimeOfDayValueValidationRule
-
           Inherits OnlinerValidationRule(Of TimeSpan)
   inheritance:
   - System.Object

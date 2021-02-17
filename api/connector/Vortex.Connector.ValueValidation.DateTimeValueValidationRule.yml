@@ -31,7 +31,6 @@ items:
     content: 'public class DateTimeValueValidationRule : OnlinerValidationRule<DateTime>'
     content.vb: >-
       Public Class DateTimeValueValidationRule
-
           Inherits OnlinerValidationRule(Of Date)
   inheritance:
   - System.Object

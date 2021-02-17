@@ -8,6 +8,7 @@ items:
   - Vortex.Connector.ValueTypes.OnlinerBaseType
   - Vortex.Connector.ValueTypes.OnlinerBaseType.ValueChangeDelegate
   - Vortex.Connector.ValueTypes.OnlinerBaseType`1
+  - Vortex.Connector.ValueTypes.OnlinerBit
   - Vortex.Connector.ValueTypes.OnlinerBool
   - Vortex.Connector.ValueTypes.OnlinerByte
   - Vortex.Connector.ValueTypes.OnlinerDate
@@ -97,6 +98,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Vortex.Connector.ValueTypes.OnlinerBit
+  commentId: T:Vortex.Connector.ValueTypes.OnlinerBit
+  parent: Vortex.Connector.ValueTypes
+  name: OnlinerBit
+  nameWithType: OnlinerBit
+  fullName: Vortex.Connector.ValueTypes.OnlinerBit
 - uid: Vortex.Connector.ValueTypes.OnlinerBool
   commentId: T:Vortex.Connector.ValueTypes.OnlinerBool
   parent: Vortex.Connector.ValueTypes

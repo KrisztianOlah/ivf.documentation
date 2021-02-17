@@ -4,6 +4,7 @@ items:
   commentId: N:Vortex.Connector.ValueValidation
   id: Vortex.Connector.ValueValidation
   children:
+  - Vortex.Connector.ValueValidation.BitValueValidationRule
   - Vortex.Connector.ValueValidation.BoolValueValidationRule
   - Vortex.Connector.ValueValidation.ByteValueValidationRule
   - Vortex.Connector.ValueValidation.DateTimeValueValidationRule
@@ -40,6 +41,11 @@ items:
   assemblies:
   - Vortex.Connector
 references:
+- uid: Vortex.Connector.ValueValidation.BitValueValidationRule
+  commentId: T:Vortex.Connector.ValueValidation.BitValueValidationRule
+  name: BitValueValidationRule
+  nameWithType: BitValueValidationRule
+  fullName: Vortex.Connector.ValueValidation.BitValueValidationRule
 - uid: Vortex.Connector.ValueValidation.BoolValueValidationRule
   commentId: T:Vortex.Connector.ValueValidation.BoolValueValidationRule
   name: BoolValueValidationRule

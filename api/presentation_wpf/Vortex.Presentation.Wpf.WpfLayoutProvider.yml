@@ -152,8 +152,6 @@ items:
       description: ''
     content.vb: Public Function GetControl(layoutType As Layout) As(assembly As String, fullTypeName As String)
   overload: Vortex.Presentation.Wpf.WpfLayoutProvider.GetControl*
-  implements:
-  - Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl(Layout)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -718,42 +716,6 @@ references:
   name: GetControl
   nameWithType: WpfLayoutProvider.GetControl
   fullName: Vortex.Presentation.Wpf.WpfLayoutProvider.GetControl
-- uid: Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl(Layout)
-  commentId: M:Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl(Layout)
-  parent: Vortex.Framework.Abstractions.Presentation.ILayoutProvider
-  name: GetControl(Layout)
-  nameWithType: ILayoutProvider.GetControl(Layout)
-  fullName: Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl(Layout)
-  spec.csharp:
-  - uid: Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl(Layout)
-    name: GetControl
-    nameWithType: ILayoutProvider.GetControl
-    fullName: Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Layout
-    name: Layout
-    nameWithType: Layout
-    fullName: Layout
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl(Layout)
-    name: GetControl
-    nameWithType: ILayoutProvider.GetControl
-    fullName: Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: Layout
-    name: Layout
-    nameWithType: Layout
-    fullName: Layout
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.ValueTuple{System.String,System.String}
   commentId: T:System.ValueTuple{System.String,System.String}
   parent: System
