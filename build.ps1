@@ -13,7 +13,7 @@ dotnet build -v q
 
 # Create a history docu
 mkdir .\history\$version -ErrorAction SilentlyContinue 
-Copy-Item .\docs\* .\history\$version -Recurse -Force 
+Copy-Item .\docs\* .\history\$version\ -Recurse -Force -container -ErrorAction SilentlyContinue 
 
 # Create history linkes
 ## Get the historical versions and create links.
