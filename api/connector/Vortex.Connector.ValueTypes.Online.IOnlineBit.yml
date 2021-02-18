@@ -29,6 +29,7 @@ items:
     content: 'public interface IOnlineBit : IOnline<bool>'
     content.vb: >-
       Public Interface IOnlineBit
+
           Inherits IOnline(Of Boolean)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Online.IOnline{System.Boolean}.Symbol

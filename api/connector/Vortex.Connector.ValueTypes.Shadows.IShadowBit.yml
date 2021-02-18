@@ -29,6 +29,7 @@ items:
     content: 'public interface IShadowBit : IShadow<bool>'
     content.vb: >-
       Public Interface IShadowBit
+
           Inherits IShadow(Of Boolean)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Shadows.IShadow{System.Boolean}.Symbol

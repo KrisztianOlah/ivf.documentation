@@ -111,7 +111,9 @@ items:
     - id: T
     content.vb: >-
       Public MustInherit Class OnlinerBaseType(Of T)
+
           Inherits OnlinerBaseType
+
           Implements IOnline(Of T), IShadow(Of T), IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of T)
   inheritance:
   - System.Object

@@ -33,7 +33,9 @@ items:
     content: 'public class OnlinerBit : OnlinerBaseType<bool>, IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries<bool>, IOnlineBit, IOnline<bool>, IShadowBit, IShadow<bool>'
     content.vb: >-
       Public Class OnlinerBit
+
           Inherits OnlinerBaseType(Of Boolean)
+
           Implements IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of Boolean), IOnlineBit, IOnline(Of Boolean), IShadowBit, IShadow(Of Boolean)
   inheritance:
   - System.Object

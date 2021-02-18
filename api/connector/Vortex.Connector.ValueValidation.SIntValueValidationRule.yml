@@ -31,6 +31,7 @@ items:
     content: 'public class SIntValueValidationRule : OnlinerValidationRule<sbyte>'
     content.vb: >-
       Public Class SIntValueValidationRule
+
           Inherits OnlinerValidationRule(Of SByte)
   inheritance:
   - System.Object

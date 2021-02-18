@@ -37,7 +37,9 @@ items:
     content: 'sealed class AdsDInt : OnlinerDInt, INotifyPropertyChanged, IValueBoundaries<int>, IOnlineDInt, IOnline<int>, IShadowDInt, IShadow<int>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsDInt
+
           Inherits OnlinerDInt
+
           Implements INotifyPropertyChanged, IValueBoundaries(Of Integer), IOnlineDInt, IOnline(Of Integer), IShadowDInt, IShadow(Of Integer), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object

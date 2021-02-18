@@ -35,7 +35,9 @@ items:
     content: 'public class OnlinerUDInt : OnlinerBaseType<uint>, IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries<uint>, IOnlineUDInt, IOnline<uint>, IShadowUDInt, IShadow<uint>'
     content.vb: >-
       Public Class OnlinerUDInt
+
           Inherits OnlinerBaseType(Of UInteger)
+
           Implements IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of UInteger), IOnlineUDInt, IOnline(Of UInteger), IShadowUDInt, IShadow(Of UInteger)
   inheritance:
   - System.Object

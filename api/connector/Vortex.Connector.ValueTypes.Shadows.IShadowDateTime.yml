@@ -29,6 +29,7 @@ items:
     content: 'public interface IShadowDateTime : IShadow<DateTime>'
     content.vb: >-
       Public Interface IShadowDateTime
+
           Inherits IShadow(Of Date)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Shadows.IShadow{System.DateTime}.Symbol

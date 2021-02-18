@@ -37,7 +37,9 @@ items:
     content: 'sealed class AdsBit : OnlinerBit, INotifyPropertyChanged, IValueBoundaries<bool>, IOnlineBit, IOnline<bool>, IShadowBit, IShadow<bool>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsBit
+
           Inherits OnlinerBit
+
           Implements INotifyPropertyChanged, IValueBoundaries(Of Boolean), IOnlineBit, IOnline(Of Boolean), IShadowBit, IShadow(Of Boolean), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object

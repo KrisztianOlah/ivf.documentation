@@ -31,6 +31,7 @@ items:
     content: 'public class BitValueValidationRule : OnlinerValidationRule<bool>'
     content.vb: >-
       Public Class BitValueValidationRule
+
           Inherits OnlinerValidationRule(Of Boolean)
   inheritance:
   - System.Object
