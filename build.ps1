@@ -9,7 +9,7 @@ Pop-Location
 # rm -r docs/ -erroraction silentlycontinue 
 
 # Build docu
-#dotnet build -v q
+dotnet build -v q
 
 # Create a history docu
 mkdir .\history\$version -ErrorAction SilentlyContinue 
