@@ -9,11 +9,20 @@ Pop-Location
 # rm -r docs/ -erroraction silentlycontinue 
 
 # Build docu
-dotnet build -v q
+#dotnet build -v q
 
 # Create a history docu
 mkdir .\history\$version -ErrorAction SilentlyContinue 
-Copy-Item .\docs\* .\history\$version\ -Recurse -Force -container -ErrorAction SilentlyContinue 
+<#
+/NFL : No File List - don't log file names.
+/NDL : No Directory List - don't log directory names.
+/NJH : No Job Header.
+/NJS : No Job Summary.
+/NP  : No Progress - don't display percentage copied.
+/NS  : No Size - don't log file sizes.
+/NC  : No Class - don't log file classes.
+#>
+robocopy  docs history\$version /e /NFL /NDL /NJH  /nc /ns /np
 
 # Create history linkes
 ## Get the historical versions and create links.
