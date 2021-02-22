@@ -4,10 +4,10 @@ items:
   commentId: N:Vortex.Presentation.Controls.Wpf.ShadowControl
   id: Vortex.Presentation.Controls.Wpf.ShadowControl
   children:
-  - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBox
-  - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBoxValue
   - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlDate
   - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlDateTime
+  - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBox
+  - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBoxValue
   - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlLTime
   - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTextBox
   - Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTextBoxValue

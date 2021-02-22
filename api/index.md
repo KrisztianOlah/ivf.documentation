@@ -1,2 +1,2 @@
 # API reference
-![inxton_logo](../images/logo.png)
+![inxton_logo](../../assets/images/logo.png)

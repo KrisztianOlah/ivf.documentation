@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MenuControlsHelper
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
@@ -59,7 +59,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MenuRoot
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
@@ -96,7 +96,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SetRoot
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlViewModel.cs

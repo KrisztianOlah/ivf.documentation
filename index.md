@@ -12,6 +12,10 @@ This framework was initially used as an internal tool. It allowed us to develop 
 
 Here we are coming with the results. We will progressively release several packages with tons of useful tools and features.
 
+## Pre-requisites
+
+[Link.](articles/common/PREREQUISITES.md)
+
 ## Licencing
 
 More information about support, licensing and pricing is available [here](https://www.inxton.com/pricing). The bottom line is that you can use a **developer license free of charge**. There are no limits to developer license except that it must not be deployed in the production environment and the run of the application is limited to a period of 30-120 minutes after which the application terminates and must be restarted. The application under development license can be used for testing until deployed to production.

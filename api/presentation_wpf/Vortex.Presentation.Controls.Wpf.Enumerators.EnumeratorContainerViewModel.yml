@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EnumeratorContainerViewModel
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -86,7 +86,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -116,7 +116,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SetUp
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -142,7 +142,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: isReadonly
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -169,7 +169,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsEnabled
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -204,7 +204,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: names
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -231,7 +231,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Names
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -266,7 +266,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EnumDiscriminatorAttribute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -301,7 +301,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EnumeratorContainer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -336,7 +336,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Model
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs

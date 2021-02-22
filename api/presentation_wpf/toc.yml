@@ -63,14 +63,14 @@
 - uid: Vortex.Presentation.Controls.Wpf.OnlineControl
   name: Vortex.Presentation.Controls.Wpf.OnlineControl
   items:
-  - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlCheckBox
-    name: OnlineControlCheckBox
-  - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlCheckBoxValue
-    name: OnlineControlCheckBoxValue
   - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate
     name: OnlineControlDate
   - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime
     name: OnlineControlDateTime
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlCheckBox
+    name: OnlineControlCheckBox
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlCheckBoxValue
+    name: OnlineControlCheckBoxValue
   - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlLTime
     name: OnlineControlLTime
   - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTextBox
@@ -86,14 +86,14 @@
 - uid: Vortex.Presentation.Controls.Wpf.OnlineControls
   name: Vortex.Presentation.Controls.Wpf.OnlineControls
   items:
-  - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBox
-    name: OnlineControlSlimCheckBox
-  - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBoxValue
-    name: OnlineControlSlimCheckBoxValue
   - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDate
     name: OnlineControlSlimDate
   - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDateTime
     name: OnlineControlSlimDateTime
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBox
+    name: OnlineControlSlimCheckBox
+  - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBoxValue
+    name: OnlineControlSlimCheckBoxValue
   - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimLTime
     name: OnlineControlSlimLTime
   - uid: Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTextBox
@@ -118,14 +118,14 @@
 - uid: Vortex.Presentation.Controls.Wpf.ShadowControl
   name: Vortex.Presentation.Controls.Wpf.ShadowControl
   items:
-  - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBox
-    name: ShadowControlCheckBox
-  - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBoxValue
-    name: ShadowControlCheckBoxValue
   - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlDate
     name: ShadowControlDate
   - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlDateTime
     name: ShadowControlDateTime
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBox
+    name: ShadowControlCheckBox
+  - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlCheckBoxValue
+    name: ShadowControlCheckBoxValue
   - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlLTime
     name: ShadowControlLTime
   - uid: Vortex.Presentation.Controls.Wpf.ShadowControl.ShadowControlTextBox
@@ -173,14 +173,14 @@
 - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim
   name: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim
   items:
-  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBox
-    name: ShadowControlSlimCheckBox
-  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBoxValue
-    name: ShadowControlSlimCheckBoxValue
   - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDate
     name: ShadowControlSlimDate
   - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDateTime
     name: ShadowControlSlimDateTime
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBox
+    name: ShadowControlSlimCheckBox
+  - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBoxValue
+    name: ShadowControlSlimCheckBoxValue
   - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimLTime
     name: ShadowControlSlimLTime
   - uid: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTextBox

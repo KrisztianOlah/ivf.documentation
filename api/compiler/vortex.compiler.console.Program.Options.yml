@@ -27,11 +27,11 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Options
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-    startLine: 49
+    startLine: 50
   assemblies:
   - vortex.compiler.console
   namespace: vortex.compiler.console
@@ -66,11 +66,11 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: currentDirectory
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-    startLine: 51
+    startLine: 52
   assemblies:
   - vortex.compiler.console
   namespace: vortex.compiler.console
@@ -99,11 +99,11 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SolutionFile
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-    startLine: 53
+    startLine: 54
   assemblies:
   - vortex.compiler.console
   namespace: vortex.compiler.console
@@ -157,11 +157,11 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ConfigFile
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-    startLine: 55
+    startLine: 56
   assemblies:
   - vortex.compiler.console
   namespace: vortex.compiler.console
@@ -216,11 +216,11 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeDirectives
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-    startLine: 58
+    startLine: 59
   assemblies:
   - vortex.compiler.console
   namespace: vortex.compiler.console
@@ -275,11 +275,11 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OutputDirectory
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-    startLine: 61
+    startLine: 62
   assemblies:
   - vortex.compiler.console
   namespace: vortex.compiler.console
@@ -334,11 +334,11 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreatePlcLibraries
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-    startLine: 64
+    startLine: 65
   assemblies:
   - vortex.compiler.console
   namespace: vortex.compiler.console
@@ -393,11 +393,11 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CloseVisualStudionOnDone
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-    startLine: 67
+    startLine: 68
   assemblies:
   - vortex.compiler.console
   namespace: vortex.compiler.console
@@ -452,11 +452,11 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UpdateControllerVersionInfo
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-    startLine: 70
+    startLine: 71
   assemblies:
   - vortex.compiler.console
   namespace: vortex.compiler.console
@@ -511,11 +511,11 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InstallProjectLibraries
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-    startLine: 73
+    startLine: 74
   assemblies:
   - vortex.compiler.console
   namespace: vortex.compiler.console
@@ -570,11 +570,11 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Verbosity
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-    startLine: 76
+    startLine: 77
   assemblies:
   - vortex.compiler.console
   namespace: vortex.compiler.console
@@ -629,11 +629,11 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: BuildConnectorProjects
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-    startLine: 79
+    startLine: 80
   assemblies:
   - vortex.compiler.console
   namespace: vortex.compiler.console
@@ -688,11 +688,11 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DoInferUnknownTypes
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-    startLine: 82
+    startLine: 83
   assemblies:
   - vortex.compiler.console
   namespace: vortex.compiler.console

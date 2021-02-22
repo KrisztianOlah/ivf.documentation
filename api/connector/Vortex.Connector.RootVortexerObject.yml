@@ -10,13 +10,13 @@ items:
   - Vortex.Connector.RootVortexerObject.AddKid(Vortex.Connector.IVortexElement)
   - Vortex.Connector.RootVortexerObject.AddValueTag(Vortex.Connector.IValueTag)
   - Vortex.Connector.RootVortexerObject.AttributeName
-  - Vortex.Connector.RootVortexerObject.Children
-  - Vortex.Connector.RootVortexerObject.GetChildren
   - Vortex.Connector.RootVortexerObject.GetConnector
+  - Vortex.Connector.RootVortexerObject.GetChildren
   - Vortex.Connector.RootVortexerObject.GetParent
   - Vortex.Connector.RootVortexerObject.GetSymbolTail
   - Vortex.Connector.RootVortexerObject.GetValueTags
   - Vortex.Connector.RootVortexerObject.HumanReadable
+  - Vortex.Connector.RootVortexerObject.Children
   - Vortex.Connector.RootVortexerObject.Identity
   - Vortex.Connector.RootVortexerObject.Kids
   - Vortex.Connector.RootVortexerObject.Symbol
@@ -32,7 +32,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RootVortexerObject
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -105,7 +105,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolTail
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -142,7 +142,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetSymbolTail
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -179,7 +179,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -218,7 +218,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -257,7 +257,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HumanReadable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -296,7 +296,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetChildren
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -333,7 +333,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Children
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -362,7 +362,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Kids
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -391,7 +391,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetParent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -428,7 +428,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddChild
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -466,7 +466,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _valueTags
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -493,7 +493,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ValueTags
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -531,7 +531,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Identity
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -568,7 +568,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetValueTags
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -605,7 +605,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddValueTag
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -643,7 +643,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
@@ -680,7 +680,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddKid
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs

@@ -6,5 +6,5 @@
   href : 01core/toc.yml
 - name : Essentials
   href : 02essentials/toc.yml
-- name : Advanced
-  href : 03advanced/toc.yml
+# - name : Advanced
+#   href : 03advanced/toc.yml

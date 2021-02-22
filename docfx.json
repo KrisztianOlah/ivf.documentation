@@ -4,26 +4,6 @@
       "src": [
         {
           "files": [
-            "vortex.builder//src//compiler//vortex.compiler.console//vortex.compiler.console.csproj"
-          ],
-          "exclude": [
-            "**/bin/**",
-            "**/obj/**",
-            "*.Properties",
-            "*.Resx"
-          ],
-          "src": "..//ivf//"
-        }
-      ],
-      "dest": "api/compiler",
-      "filter": "filters/filterConfig.yml",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": true
-    },
-    {
-      "src": [
-        {
-          "files": [
             "vortex.connectors//src//connectors//Vortex.Adapters.Connector.Tc3//Vortex.Adapters.Connector.Tc3.csproj",
             "vortex.connectors//src//connectors//Vortex.Connector//Vortex.Connector.csproj"
           ],
@@ -41,7 +21,6 @@
       "disableGitFeatures": false,
       "disableDefaultFilter": true
     },
-
     {
       "src": [
         {

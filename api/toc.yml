@@ -1,5 +1,5 @@
-- name: Compiler
-  href: compiler/toc.yml
+# - name: Compiler
+#   href: compiler/toc.yml
 - name: Connector
   href: connector/toc.yml
 - name: Presentation

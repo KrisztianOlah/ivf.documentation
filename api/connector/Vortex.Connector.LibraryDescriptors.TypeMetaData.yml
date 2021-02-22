@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TypeMetaData
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TypeAttributes
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TypeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
@@ -138,7 +138,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Namespace
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
@@ -175,7 +175,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
-      branch: develop
+      branch: rls/github_rlss
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TypeMetaInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/LibraryDescriptor/TypeMetaData.cs
