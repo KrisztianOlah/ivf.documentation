@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/InvalidLicense/InvalidLicenseConnectorFactory.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InvalidLicenseConnectorFactory
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/InvalidLicense/InvalidLicenseConnectorFactory.cs
@@ -36,6 +36,7 @@ items:
   - Vortex.Connector.IConnectorFactory
   - Vortex.Connector.DummyConnectorFactory
   inheritedMembers:
+  - Vortex.Connector.DummyConnectorFactory.CreateBIT(Vortex.Connector.IVortexObject,System.String,System.String)
   - Vortex.Connector.DummyConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject,System.String,System.String)
   - Vortex.Connector.DummyConnectorFactory.CreateBYTE(Vortex.Connector.IVortexObject,System.String,System.String)
   - Vortex.Connector.DummyConnectorFactory.CreateDINT(Vortex.Connector.IVortexObject,System.String,System.String)
@@ -58,6 +59,7 @@ items:
   - Vortex.Connector.DummyConnectorFactory.CreateUSINT(Vortex.Connector.IVortexObject,System.String,System.String)
   - Vortex.Connector.DummyConnectorFactory.CreateWORD(Vortex.Connector.IVortexObject,System.String,System.String)
   - Vortex.Connector.DummyConnectorFactory.CreateWSTRING(Vortex.Connector.IVortexObject,System.String,System.String)
+  - Vortex.Connector.IConnectorFactory.CreateBIT
   - Vortex.Connector.IConnectorFactory.CreateBOOL
   - Vortex.Connector.IConnectorFactory.CreateBYTE
   - Vortex.Connector.IConnectorFactory.CreateWORD
@@ -109,7 +111,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/InvalidLicense/InvalidLicenseConnectorFactory.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/InvalidLicense/InvalidLicenseConnectorFactory.cs
@@ -165,6 +167,75 @@ references:
   name: DummyConnectorFactory
   nameWithType: DummyConnectorFactory
   fullName: Vortex.Connector.DummyConnectorFactory
+- uid: Vortex.Connector.DummyConnectorFactory.CreateBIT(Vortex.Connector.IVortexObject,System.String,System.String)
+  commentId: M:Vortex.Connector.DummyConnectorFactory.CreateBIT(Vortex.Connector.IVortexObject,System.String,System.String)
+  parent: Vortex.Connector.DummyConnectorFactory
+  isExternal: true
+  name: CreateBIT(IVortexObject, String, String)
+  nameWithType: DummyConnectorFactory.CreateBIT(IVortexObject, String, String)
+  fullName: Vortex.Connector.DummyConnectorFactory.CreateBIT(Vortex.Connector.IVortexObject, System.String, System.String)
+  spec.csharp:
+  - uid: Vortex.Connector.DummyConnectorFactory.CreateBIT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateBIT
+    nameWithType: DummyConnectorFactory.CreateBIT
+    fullName: Vortex.Connector.DummyConnectorFactory.CreateBIT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.DummyConnectorFactory.CreateBIT(Vortex.Connector.IVortexObject,System.String,System.String)
+    name: CreateBIT
+    nameWithType: DummyConnectorFactory.CreateBIT
+    fullName: Vortex.Connector.DummyConnectorFactory.CreateBIT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Vortex.Connector.IVortexObject
+    name: IVortexObject
+    nameWithType: IVortexObject
+    fullName: Vortex.Connector.IVortexObject
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Vortex.Connector.DummyConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject,System.String,System.String)
   commentId: M:Vortex.Connector.DummyConnectorFactory.CreateBOOL(Vortex.Connector.IVortexObject,System.String,System.String)
   parent: Vortex.Connector.DummyConnectorFactory
@@ -1680,6 +1751,34 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IConnectorFactory.CreateBIT
+  commentId: M:Vortex.Connector.IConnectorFactory.CreateBIT
+  parent: Vortex.Connector.IConnectorFactory
+  name: CreateBIT()
+  nameWithType: IConnectorFactory.CreateBIT()
+  fullName: Vortex.Connector.IConnectorFactory.CreateBIT()
+  spec.csharp:
+  - uid: Vortex.Connector.IConnectorFactory.CreateBIT
+    name: CreateBIT
+    nameWithType: IConnectorFactory.CreateBIT
+    fullName: Vortex.Connector.IConnectorFactory.CreateBIT
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IConnectorFactory.CreateBIT
+    name: CreateBIT
+    nameWithType: IConnectorFactory.CreateBIT
+    fullName: Vortex.Connector.IConnectorFactory.CreateBIT
+  - name: (
+    nameWithType: (
+    fullName: (
   - name: )
     nameWithType: )
     fullName: )

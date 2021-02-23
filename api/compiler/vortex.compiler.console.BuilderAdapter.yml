@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/BuilderAdapter.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: BuilderAdapter
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/BuilderAdapter.cs
@@ -58,7 +58,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/BuilderAdapter.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetSolutionGenerateCode
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/BuilderAdapter.cs

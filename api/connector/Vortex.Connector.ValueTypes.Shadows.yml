@@ -5,6 +5,7 @@ items:
   id: Vortex.Connector.ValueTypes.Shadows
   children:
   - Vortex.Connector.ValueTypes.Shadows.IShadow`1
+  - Vortex.Connector.ValueTypes.Shadows.IShadowBit
   - Vortex.Connector.ValueTypes.Shadows.IShadowBool
   - Vortex.Connector.ValueTypes.Shadows.IShadowByte
   - Vortex.Connector.ValueTypes.Shadows.IShadowDate
@@ -74,6 +75,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Vortex.Connector.ValueTypes.Shadows.IShadowBit
+  commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowBit
+  parent: Vortex.Connector.ValueTypes.Shadows
+  name: IShadowBit
+  nameWithType: IShadowBit
+  fullName: Vortex.Connector.ValueTypes.Shadows.IShadowBit
 - uid: Vortex.Connector.ValueTypes.Shadows.IShadowBool
   commentId: T:Vortex.Connector.ValueTypes.Shadows.IShadowBool
   parent: Vortex.Connector.ValueTypes.Shadows

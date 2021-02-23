@@ -4,6 +4,7 @@ items:
   commentId: N:Vortex.Adapters.Connector.Tc3.AdsValueTypes
   id: Vortex.Adapters.Connector.Tc3.AdsValueTypes
   children:
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBit
   - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBool
   - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsByte
   - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsDate
@@ -38,6 +39,11 @@ items:
   assemblies:
   - Vortex.Adapters.Connector.Tc3
 references:
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBit
+  commentId: T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBit
+  name: AdsBit
+  nameWithType: AdsBit
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBit
 - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBool
   commentId: T:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBool
   name: AdsBool

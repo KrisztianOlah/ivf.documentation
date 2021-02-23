@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Program
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Main
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -106,7 +106,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Direct
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -142,7 +142,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RunOptions
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -175,7 +175,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InferSolutionFile
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -207,7 +207,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HandleParseError
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs
@@ -243,7 +243,7 @@ items:
   source:
     remote:
       path: vortex.builder/src/compiler/vortex.compiler.console/Program.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Previous
     path: ../ivf/vortex.builder/src/compiler/vortex.compiler.console/Program.cs

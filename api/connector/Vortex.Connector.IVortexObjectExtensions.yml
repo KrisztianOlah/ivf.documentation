@@ -25,7 +25,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IVortexObjectExtensions
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MakeReadOnly
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
@@ -113,7 +113,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadStructure
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
@@ -156,7 +156,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteStructure
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
@@ -199,7 +199,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Read
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
@@ -242,7 +242,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Write
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
@@ -285,7 +285,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RetrieveValueTags
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
@@ -337,7 +337,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SubscribeShadowValueChange
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
@@ -383,7 +383,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UnSubscribeShadowValueChange
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
@@ -425,7 +425,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SubscribeEditValueChange
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
@@ -471,7 +471,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UnSubscribeEditValueChange
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObjectExtensions.cs

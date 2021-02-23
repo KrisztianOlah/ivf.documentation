@@ -37,6 +37,8 @@
 - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes
   name: Vortex.Adapters.Connector.Tc3.AdsValueTypes
   items:
+  - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBit
+    name: AdsBit
   - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsBool
     name: AdsBool
   - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsByte
@@ -192,6 +194,8 @@
   - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1
     name: OnlinerBaseType<T>
     name.vb: OnlinerBaseType(Of T)
+  - uid: Vortex.Connector.ValueTypes.OnlinerBit
+    name: OnlinerBit
   - uid: Vortex.Connector.ValueTypes.OnlinerBool
     name: OnlinerBool
   - uid: Vortex.Connector.ValueTypes.OnlinerByte
@@ -248,6 +252,8 @@
   - uid: Vortex.Connector.ValueTypes.Online.IOnline`1
     name: IOnline<T>
     name.vb: IOnline(Of T)
+  - uid: Vortex.Connector.ValueTypes.Online.IOnlineBit
+    name: IOnlineBit
   - uid: Vortex.Connector.ValueTypes.Online.IOnlineBool
     name: IOnlineBool
   - uid: Vortex.Connector.ValueTypes.Online.IOnlineByte
@@ -300,6 +306,8 @@
   - uid: Vortex.Connector.ValueTypes.Shadows.IShadow`1
     name: IShadow<T>
     name.vb: IShadow(Of T)
+  - uid: Vortex.Connector.ValueTypes.Shadows.IShadowBit
+    name: IShadowBit
   - uid: Vortex.Connector.ValueTypes.Shadows.IShadowBool
     name: IShadowBool
   - uid: Vortex.Connector.ValueTypes.Shadows.IShadowByte
@@ -349,6 +357,8 @@
 - uid: Vortex.Connector.ValueValidation
   name: Vortex.Connector.ValueValidation
   items:
+  - uid: Vortex.Connector.ValueValidation.BitValueValidationRule
+    name: BitValueValidationRule
   - uid: Vortex.Connector.ValueValidation.BoolValueValidationRule
     name: BoolValueValidationRule
   - uid: Vortex.Connector.ValueValidation.ByteValueValidationRule

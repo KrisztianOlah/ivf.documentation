@@ -95,7 +95,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlinerBaseType
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -117,6 +117,7 @@ items:
   - System.Object
   - Vortex.Connector.ValueTypes.OnlinerBaseType
   derivedClasses:
+  - Vortex.Connector.ValueTypes.OnlinerBit
   - Vortex.Connector.ValueTypes.OnlinerBool
   - Vortex.Connector.ValueTypes.OnlinerByte
   - Vortex.Connector.ValueTypes.OnlinerDate
@@ -190,7 +191,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EditValueChange
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -234,7 +235,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShadowValueChange
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -278,7 +279,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: validator
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -313,7 +314,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Validator
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -352,7 +353,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UpdateRead
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -390,7 +391,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SetLastValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -443,7 +444,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LastValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -482,7 +483,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CwCycle
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -521,7 +522,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: cyclic
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -552,7 +553,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: cyclicToWrite
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -591,7 +592,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Cyclic
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -632,7 +633,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetLastAvailableValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -671,7 +672,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Edit
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -710,7 +711,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InitializeDefaults
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -749,7 +750,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _shadow
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -778,7 +779,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Shadow
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -817,7 +818,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Synchron
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -858,7 +859,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: raw
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -887,7 +888,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Raw
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -928,7 +929,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetSymbolTail
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -967,7 +968,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolTail
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1006,7 +1007,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InstanceMinValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1049,7 +1050,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InstanceMaxValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1092,7 +1093,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1126,7 +1127,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Parent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1165,7 +1166,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetParent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1204,7 +1205,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1249,11 +1250,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.ValueChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 400
+    startLine: 401
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1282,11 +1283,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.ValueChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 413
+    startLine: 414
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1314,11 +1315,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _humanReadable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 426
+    startLine: 427
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1343,11 +1344,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HumanReadable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 431
+    startLine: 432
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1386,11 +1387,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Subscribe
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 445
+    startLine: 446
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1426,11 +1427,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UnSubscribe
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 457
+    startLine: 458
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1466,11 +1467,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: PropertyChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 466
+    startLine: 467
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1503,11 +1504,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ValueChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 472
+    startLine: 473
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1538,11 +1539,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShadowValueChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 477
+    startLine: 478
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1573,11 +1574,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetValueChangeEventSubscribers
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 484
+    startLine: 485
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1610,11 +1611,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _attributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 494
+    startLine: 495
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1639,11 +1640,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 499
+    startLine: 500
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1680,11 +1681,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeUnits
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 515
+    startLine: 516
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1719,11 +1720,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: attributeToolTip
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 522
+    startLine: 523
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1748,11 +1749,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeToolTip
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 527
+    startLine: 528
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1787,11 +1788,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CyclicReading
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 542
+    startLine: 543
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1828,11 +1829,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: VariableInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 551
+    startLine: 552
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1869,11 +1870,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 560
+    startLine: 561
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1910,11 +1911,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HasBeenWritten
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 570
+    startLine: 571
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1949,11 +1950,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsToBeRead
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 579
+    startLine: 580
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -1988,11 +1989,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsToBeWritten
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 590
+    startLine: 591
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2027,11 +2028,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteToPlcIsRequested
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 601
+    startLine: 602
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2066,11 +2067,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadFromPlcIsRequested
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 610
+    startLine: 611
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2107,11 +2108,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeMaxSet
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 616
+    startLine: 617
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2146,11 +2147,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: attributeMax
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 618
+    startLine: 619
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2175,11 +2176,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeMaximum
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 638
+    startLine: 639
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2214,11 +2215,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeMinSet
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 651
+    startLine: 652
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2253,11 +2254,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: attributeMin
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 653
+    startLine: 654
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2282,11 +2283,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeMinimum
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 673
+    startLine: 674
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2321,11 +2322,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HasWriteAccess
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 692
+    startLine: 693
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2358,11 +2359,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NotifyPropertyChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 704
+    startLine: 705
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2396,11 +2397,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnValueChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 717
+    startLine: 718
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2434,11 +2435,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnShadowValueChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 728
+    startLine: 729
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2465,11 +2466,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadFromItem
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 741
+    startLine: 742
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2501,11 +2502,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteItem
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 751
+    startLine: 752
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2537,11 +2538,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateSymbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 759
+    startLine: 760
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2576,11 +2577,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EditValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 765
+    startLine: 766
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2609,11 +2610,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ChangeShadowValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 775
+    startLine: 776
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2642,11 +2643,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetDeclaringAssembly
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 794
+    startLine: 795
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2679,11 +2680,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _translator
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 799
+    startLine: 800
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2708,11 +2709,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Translator
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 804
+    startLine: 805
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2748,11 +2749,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 835
+    startLine: 836
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2787,11 +2788,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 837
+    startLine: 838
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2825,11 +2826,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeUnits
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 839
+    startLine: 840
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2863,11 +2864,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Cyclic
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 841
+    startLine: 842
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2901,11 +2902,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Edit
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 843
+    startLine: 844
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2939,11 +2940,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Synchron
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 845
+    startLine: 846
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2977,11 +2978,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Value
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 847
+    startLine: 848
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -3015,11 +3016,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Value
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 849
+    startLine: 850
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -3053,11 +3054,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 851
+    startLine: 852
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -3092,11 +3093,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 853
+    startLine: 854
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -3130,11 +3131,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeUnits
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 855
+    startLine: 856
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -3168,11 +3169,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Shadow
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 857
+    startLine: 858
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes

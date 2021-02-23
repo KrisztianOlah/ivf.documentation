@@ -45,7 +45,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LiveClient
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -86,7 +86,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: onlineSymbolRetriever
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -117,7 +117,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ClientAdsStateChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -148,7 +148,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadAndSortOnlineVariablesSymbolListAll
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -177,7 +177,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolLoaderSession
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -204,7 +204,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Connect
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -237,7 +237,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Connect
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -272,7 +272,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateVariableHandle
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -307,7 +307,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Dispose
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -337,7 +337,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadAndSortOnlineVariablesSymbolList
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -370,7 +370,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Read
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -410,7 +410,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadAny
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -449,7 +449,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadAnyString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -484,7 +484,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadAnyWString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -519,7 +519,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadAny
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -563,7 +563,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadSymbolInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -598,7 +598,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadWrite
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -640,7 +640,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TryConnect
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -675,7 +675,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TryConnect
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -712,7 +712,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TryReadState
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -750,7 +750,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Write
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -790,7 +790,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteAny
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -832,7 +832,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteAny
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -872,7 +872,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteAnyString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -907,7 +907,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteAnyWString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -942,7 +942,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InternalAdsClient
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -977,7 +977,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AmsNetId
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -1012,7 +1012,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsConnected
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -1047,7 +1047,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnAdsStateChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -1082,7 +1082,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlineSymbolRetriever
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -1117,7 +1117,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Timeout
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs

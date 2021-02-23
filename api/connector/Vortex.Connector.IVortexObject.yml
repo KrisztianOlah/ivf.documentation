@@ -6,6 +6,7 @@ items:
   parent: Vortex.Connector
   children:
   - Vortex.Connector.IVortexObject.AddChild(Vortex.Connector.IVortexObject)
+  - Vortex.Connector.IVortexObject.AddKid(Vortex.Connector.IVortexElement)
   - Vortex.Connector.IVortexObject.AddValueTag(Vortex.Connector.IValueTag)
   - Vortex.Connector.IVortexObject.GetChildren
   - Vortex.Connector.IVortexObject.GetConnector
@@ -20,7 +21,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IVortexObject
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
@@ -71,7 +72,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetChildren
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
@@ -102,7 +103,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetValueTags
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
@@ -133,7 +134,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddChild
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
@@ -165,7 +166,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddValueTag
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
@@ -183,6 +184,38 @@ items:
       description: Child <xref href="Vortex.Connector.IValueTag" data-throw-if-not-resolved="false"></xref>
     content.vb: Sub AddValueTag(valueTag As IValueTag)
   overload: Vortex.Connector.IVortexObject.AddValueTag*
+- uid: Vortex.Connector.IVortexObject.AddKid(Vortex.Connector.IVortexElement)
+  commentId: M:Vortex.Connector.IVortexObject.AddKid(Vortex.Connector.IVortexElement)
+  id: AddKid(Vortex.Connector.IVortexElement)
+  parent: Vortex.Connector.IVortexObject
+  langs:
+  - csharp
+  - vb
+  name: AddKid(IVortexElement)
+  nameWithType: IVortexObject.AddKid(IVortexElement)
+  fullName: Vortex.Connector.IVortexObject.AddKid(Vortex.Connector.IVortexElement)
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
+      branch: master
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: AddKid
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
+    startLine: 40
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nAdds kid object to the list of kids of this object. \n<div class=\"NOTE\"><h5>note</h5><p>This method is used by the objects built in building process. Not to be used by framework consumers.</p></div>\n"
+  example: []
+  syntax:
+    content: void AddKid(IVortexElement kid)
+    parameters:
+    - id: kid
+      type: Vortex.Connector.IVortexElement
+      description: Child <xref href="Vortex.Connector.IVortexElement" data-throw-if-not-resolved="false"></xref>
+    content.vb: Sub AddKid(kid As IVortexElement)
+  overload: Vortex.Connector.IVortexObject.AddKid*
 - uid: Vortex.Connector.IVortexObject.GetConnector
   commentId: M:Vortex.Connector.IVortexObject.GetConnector
   id: GetConnector
@@ -197,11 +230,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
-      branch: develop
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
-    startLine: 39
+    startLine: 46
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector
@@ -1253,6 +1286,11 @@ references:
   name: AddValueTag
   nameWithType: IVortexObject.AddValueTag
   fullName: Vortex.Connector.IVortexObject.AddValueTag
+- uid: Vortex.Connector.IVortexObject.AddKid*
+  commentId: Overload:Vortex.Connector.IVortexObject.AddKid
+  name: AddKid
+  nameWithType: IVortexObject.AddKid
+  fullName: Vortex.Connector.IVortexObject.AddKid
 - uid: Vortex.Connector.IConnector
   commentId: T:Vortex.Connector.IConnector
   parent: Vortex.Connector

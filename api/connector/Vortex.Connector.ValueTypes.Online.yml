@@ -5,6 +5,7 @@ items:
   id: Vortex.Connector.ValueTypes.Online
   children:
   - Vortex.Connector.ValueTypes.Online.IOnline`1
+  - Vortex.Connector.ValueTypes.Online.IOnlineBit
   - Vortex.Connector.ValueTypes.Online.IOnlineBool
   - Vortex.Connector.ValueTypes.Online.IOnlineByte
   - Vortex.Connector.ValueTypes.Online.IOnlineDate
@@ -74,6 +75,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Vortex.Connector.ValueTypes.Online.IOnlineBit
+  commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineBit
+  parent: Vortex.Connector.ValueTypes.Online
+  name: IOnlineBit
+  nameWithType: IOnlineBit
+  fullName: Vortex.Connector.ValueTypes.Online.IOnlineBit
 - uid: Vortex.Connector.ValueTypes.Online.IOnlineBool
   commentId: T:Vortex.Connector.ValueTypes.Online.IOnlineBool
   parent: Vortex.Connector.ValueTypes.Online
