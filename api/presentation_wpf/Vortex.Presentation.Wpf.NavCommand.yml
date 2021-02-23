@@ -13,14 +13,14 @@ items:
   - Vortex.Presentation.Wpf.NavCommand.CanExecute(System.Object)
   - Vortex.Presentation.Wpf.NavCommand.CanExecuteChanged
   - Vortex.Presentation.Wpf.NavCommand.CreateElement
-  - Vortex.Presentation.Wpf.NavCommand.CreateElement(System.Windows.FrameworkElement)
+  - Vortex.Presentation.Wpf.NavCommand.CreateElement(FrameworkElement)
   - Vortex.Presentation.Wpf.NavCommand.CreateNewInstanceAtEachNavigation
   - Vortex.Presentation.Wpf.NavCommand.DataContext
   - Vortex.Presentation.Wpf.NavCommand.EraseCachedElements
   - Vortex.Presentation.Wpf.NavCommand.Execute(System.Object)
   - Vortex.Presentation.Wpf.NavCommand.MenuIcon(System.String)
   - Vortex.Presentation.Wpf.NavCommand.NavCommandsList
-  - Vortex.Presentation.Wpf.NavCommand.OpenView(System.Windows.FrameworkElement)
+  - Vortex.Presentation.Wpf.NavCommand.OpenView(FrameworkElement)
   - Vortex.Presentation.Wpf.NavCommand.Presenter
   - Vortex.Presentation.Wpf.NavCommand.PreviewElement
   - Vortex.Presentation.Wpf.NavCommand.SecurityProvider_OnAnyAuthenticationEvent(System.String)
@@ -38,7 +38,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NavCommand
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -85,7 +85,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -126,7 +126,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MenuIcon
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -140,7 +140,7 @@ items:
     - id: menuTitle
       type: System.String
     return:
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     content.vb: Function MenuIcon(menuTitle As String) As FrameworkElement
   overload: Vortex.Presentation.Wpf.NavCommand.MenuIcon*
 - uid: Vortex.Presentation.Wpf.NavCommand.Tag
@@ -157,7 +157,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Tag
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -192,7 +192,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SecurityProvider_OnAnyAuthenticationEvent
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -221,7 +221,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _instanceCount
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -252,7 +252,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EraseCachedElements
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -282,7 +282,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NavCommandsList
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -313,7 +313,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ButtonContent
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -348,7 +348,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ViewType
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -383,7 +383,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Presenter
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -410,7 +410,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DataContext
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -441,7 +441,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CanExecuteChanged
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -474,7 +474,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CanExecute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -511,7 +511,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _element
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -522,7 +522,7 @@ items:
   syntax:
     content: FrameworkElement _element
     return:
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     content.vb: _element As FrameworkElement
 - uid: Vortex.Presentation.Wpf.NavCommand.CreateNewInstanceAtEachNavigation
   commentId: F:Vortex.Presentation.Wpf.NavCommand.CreateNewInstanceAtEachNavigation
@@ -538,7 +538,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateNewInstanceAtEachNavigation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -569,7 +569,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _tag
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -596,7 +596,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -607,7 +607,7 @@ items:
   syntax:
     content: FrameworkElement CreateElement()
     return:
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     content.vb: Function CreateElement As FrameworkElement
   overload: Vortex.Presentation.Wpf.NavCommand.CreateElement*
 - uid: Vortex.Presentation.Wpf.NavCommand.PreviewElement
@@ -624,7 +624,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: PreviewElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -636,7 +636,7 @@ items:
     content: public FrameworkElement PreviewElement { get; }
     parameters: []
     return:
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     content.vb: Public ReadOnly Property PreviewElement As FrameworkElement
   overload: Vortex.Presentation.Wpf.NavCommand.PreviewElement*
   modifiers.csharp:
@@ -659,7 +659,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Execute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -694,7 +694,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShowInWindow
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -725,7 +725,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShowDialogueInWindow
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -742,21 +742,21 @@ items:
       type: System.Object
     content.vb: Sub ShowDialogueInWindow(dataContext As Object)
   overload: Vortex.Presentation.Wpf.NavCommand.ShowDialogueInWindow*
-- uid: Vortex.Presentation.Wpf.NavCommand.OpenView(System.Windows.FrameworkElement)
-  commentId: M:Vortex.Presentation.Wpf.NavCommand.OpenView(System.Windows.FrameworkElement)
-  id: OpenView(System.Windows.FrameworkElement)
+- uid: Vortex.Presentation.Wpf.NavCommand.OpenView(FrameworkElement)
+  commentId: M:Vortex.Presentation.Wpf.NavCommand.OpenView(FrameworkElement)
+  id: OpenView(FrameworkElement)
   parent: Vortex.Presentation.Wpf.NavCommand
   langs:
   - csharp
   - vb
   name: OpenView(FrameworkElement)
   nameWithType: NavCommand.OpenView(FrameworkElement)
-  fullName: Vortex.Presentation.Wpf.NavCommand.OpenView(System.Windows.FrameworkElement)
+  fullName: Vortex.Presentation.Wpf.NavCommand.OpenView(FrameworkElement)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OpenView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -768,28 +768,28 @@ items:
     content: public void OpenView(FrameworkElement view)
     parameters:
     - id: view
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     content.vb: Public Sub OpenView(view As FrameworkElement)
   overload: Vortex.Presentation.Wpf.NavCommand.OpenView*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Vortex.Presentation.Wpf.NavCommand.CreateElement(System.Windows.FrameworkElement)
-  commentId: M:Vortex.Presentation.Wpf.NavCommand.CreateElement(System.Windows.FrameworkElement)
-  id: CreateElement(System.Windows.FrameworkElement)
+- uid: Vortex.Presentation.Wpf.NavCommand.CreateElement(FrameworkElement)
+  commentId: M:Vortex.Presentation.Wpf.NavCommand.CreateElement(FrameworkElement)
+  id: CreateElement(FrameworkElement)
   parent: Vortex.Presentation.Wpf.NavCommand
   langs:
   - csharp
   - vb
   name: CreateElement(FrameworkElement)
   nameWithType: NavCommand.CreateElement(FrameworkElement)
-  fullName: Vortex.Presentation.Wpf.NavCommand.CreateElement(System.Windows.FrameworkElement)
+  fullName: Vortex.Presentation.Wpf.NavCommand.CreateElement(FrameworkElement)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -801,9 +801,9 @@ items:
     content: FrameworkElement CreateElement(FrameworkElement view)
     parameters:
     - id: view
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     return:
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     content.vb: Function CreateElement(view As FrameworkElement) As FrameworkElement
   overload: Vortex.Presentation.Wpf.NavCommand.CreateElement*
 references:
@@ -1232,19 +1232,11 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Windows.FrameworkElement
-  commentId: T:System.Windows.FrameworkElement
-  parent: System.Windows
+- uid: FrameworkElement
   isExternal: true
   name: FrameworkElement
   nameWithType: FrameworkElement
-  fullName: System.Windows.FrameworkElement
-- uid: System.Windows
-  commentId: N:System.Windows
-  isExternal: true
-  name: System.Windows
-  nameWithType: System.Windows
-  fullName: System.Windows
+  fullName: FrameworkElement
 - uid: Vortex.Presentation.Wpf.NavCommand.Tag*
   commentId: Overload:Vortex.Presentation.Wpf.NavCommand.Tag
   name: Tag

@@ -4,10 +4,10 @@ items:
   commentId: N:Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim
   id: Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim
   children:
-  - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDate
-  - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDateTime
   - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBox
   - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimCheckBoxValue
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDate
+  - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimDateTime
   - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimLTime
   - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTextBox
   - Vortex.Presentation.ControlSlims.Wpf.ShadowControlSlim.ShadowControlSlimTextBoxValue

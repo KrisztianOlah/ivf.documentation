@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/ValidationRule.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ValidationResult
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/ValidationRule.cs
@@ -63,7 +63,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/ValidationRule.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ValidationErrorTip
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/ValidationRule.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/ValidationRule.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/ValidationRule.cs
@@ -139,7 +139,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/ValidationRule.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsValid
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/ValidationRule.cs

@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/PresentationHelper.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: PresentationHelper
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/PresentationHelper.cs
@@ -61,7 +61,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/PresentationHelper.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsDesignMode
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/PresentationHelper.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/PresentationHelper.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Dispatcher
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/PresentationHelper.cs
@@ -112,7 +112,7 @@ items:
     content: public static Dispatcher Dispatcher { get; }
     parameters: []
     return:
-      type: System.Windows.Threading.Dispatcher
+      type: Dispatcher
     content.vb: Public Shared ReadOnly Property Dispatcher As Dispatcher
   overload: Vortex.Presentation.Wpf.PresentationHelper.Dispatcher*
   modifiers.csharp:
@@ -441,16 +441,9 @@ references:
   name: Dispatcher
   nameWithType: PresentationHelper.Dispatcher
   fullName: Vortex.Presentation.Wpf.PresentationHelper.Dispatcher
-- uid: System.Windows.Threading.Dispatcher
-  commentId: T:System.Windows.Threading.Dispatcher
-  parent: System.Windows.Threading
+- uid: Dispatcher
+  commentId: '!:Dispatcher'
   isExternal: true
   name: Dispatcher
   nameWithType: Dispatcher
-  fullName: System.Windows.Threading.Dispatcher
-- uid: System.Windows.Threading
-  commentId: N:System.Windows.Threading
-  isExternal: true
-  name: System.Windows.Threading
-  nameWithType: System.Windows.Threading
-  fullName: System.Windows.Threading
+  fullName: Dispatcher

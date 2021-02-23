@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IAdsBaseType
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
@@ -69,7 +69,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Read
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
@@ -101,7 +101,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Write
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
@@ -133,7 +133,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CyclicReading
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
@@ -165,7 +165,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Client
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
@@ -198,7 +198,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsToBeRead
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
@@ -231,7 +231,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteToPlcIsRequested
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
@@ -263,7 +263,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HasBeenWritten
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
@@ -295,7 +295,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsToBeWritten
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
@@ -328,7 +328,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HasWriteAccess
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/IAdsBaseType.cs

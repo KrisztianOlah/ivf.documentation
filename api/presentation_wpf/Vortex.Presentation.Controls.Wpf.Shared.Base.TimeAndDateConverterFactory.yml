@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/TimeAndDateFormatFactory.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TimeAndDateConverterFactory
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/TimeAndDateFormatFactory.cs
@@ -61,7 +61,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/TimeAndDateFormatFactory.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Context
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/TimeAndDateFormatFactory.cs
@@ -92,7 +92,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/TimeAndDateFormatFactory.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/TimeAndDateFormatFactory.cs
@@ -125,7 +125,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/TimeAndDateFormatFactory.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Converter
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/TimeAndDateFormatFactory.cs
@@ -137,7 +137,7 @@ items:
     content: public IValueConverter Converter { get; }
     parameters: []
     return:
-      type: System.Windows.Data.IValueConverter
+      type: IValueConverter
     content.vb: Public ReadOnly Property Converter As IValueConverter
   overload: Vortex.Presentation.Controls.Wpf.Shared.Base.TimeAndDateConverterFactory.Converter*
   modifiers.csharp:
@@ -160,7 +160,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/TimeAndDateFormatFactory.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetTimeFormatAttribute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/TimeAndDateFormatFactory.cs
@@ -191,7 +191,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/TimeAndDateFormatFactory.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsOnlinerTimeObject
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/TimeAndDateFormatFactory.cs
@@ -598,19 +598,11 @@ references:
   name: Converter
   nameWithType: TimeAndDateConverterFactory.Converter
   fullName: Vortex.Presentation.Controls.Wpf.Shared.Base.TimeAndDateConverterFactory.Converter
-- uid: System.Windows.Data.IValueConverter
-  commentId: T:System.Windows.Data.IValueConverter
-  parent: System.Windows.Data
+- uid: IValueConverter
   isExternal: true
   name: IValueConverter
   nameWithType: IValueConverter
-  fullName: System.Windows.Data.IValueConverter
-- uid: System.Windows.Data
-  commentId: N:System.Windows.Data
-  isExternal: true
-  name: System.Windows.Data
-  nameWithType: System.Windows.Data
-  fullName: System.Windows.Data
+  fullName: IValueConverter
 - uid: Vortex.Presentation.Controls.Wpf.Shared.Base.TimeAndDateConverterFactory.GetTimeFormatAttribute*
   commentId: Overload:Vortex.Presentation.Controls.Wpf.Shared.Base.TimeAndDateConverterFactory.GetTimeFormatAttribute
   name: GetTimeFormatAttribute

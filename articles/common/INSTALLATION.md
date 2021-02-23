@@ -2,7 +2,9 @@
 
 ## Video installation guide ## 
 
-Guides you through download of all pre-requisites as well as the installation process.  
+Guides you through download of all pre-requisites as well as the installation process.
+
+[Link](https://www.youtube.com/watch?v=watwXhlMYuk&feature=youtu.be)  
 
 [![Video instruction here](https://img.youtube.com/vi/watwXhlMYuk/0.jpg)](https://www.youtube.com/watch?v=watwXhlMYuk&feature=youtu.be "Update packages")
 

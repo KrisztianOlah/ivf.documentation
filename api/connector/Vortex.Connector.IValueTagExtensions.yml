@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IValueTagExtensions
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
@@ -64,7 +64,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SetCyclicValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
@@ -110,7 +110,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SetShadowValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
@@ -151,7 +151,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Cast
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
@@ -197,7 +197,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetCyclicValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
@@ -238,7 +238,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetLastValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
@@ -279,7 +279,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetShadowValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagExtensions.cs

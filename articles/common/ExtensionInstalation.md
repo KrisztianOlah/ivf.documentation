@@ -18,3 +18,5 @@ If you do not have any of the pre-requisites installed please follow enlisted or
 Guides you through download as well as installation process.  
 
 [![Video instruction here](https://img.youtube.com/vi/seL77D0eykI/0.jpg)](https://www.youtube.com/watch?v=seL77D0eykI&feature=youtu.be "Run builder.")
+
+[Link](https://www.youtube.com/watch?v=seL77D0eykI&feature=youtu.be)

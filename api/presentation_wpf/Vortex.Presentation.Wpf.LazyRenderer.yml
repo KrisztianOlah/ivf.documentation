@@ -8,16 +8,16 @@ items:
   - Vortex.Presentation.Wpf.LazyRenderer.#ctor
   - Vortex.Presentation.Wpf.LazyRenderer._instance
   - Vortex.Presentation.Wpf.LazyRenderer.CreateDefaultContainer
-  - Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.Object,System.Object,System.Windows.FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
-  - Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
-  - Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
+  - Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.Object,System.Object,FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
+  - Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
+  - Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
   - Vortex.Presentation.Wpf.LazyRenderer.DefaultContainer
   - Vortex.Presentation.Wpf.LazyRenderer.Get
   - Vortex.Presentation.Wpf.LazyRenderer.mutex
-  - Vortex.Presentation.Wpf.LazyRenderer.Render(System.String,System.Object,System.Windows.FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
-  - Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement,System.Int32,System.Int32)
-  - Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String,Vortex.Connector.IVortexElement,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
-  - Vortex.Presentation.Wpf.LazyRenderer.SetRenderableContainer(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Object)
+  - Vortex.Presentation.Wpf.LazyRenderer.Render(System.String,System.Object,FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
+  - Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,FrameworkElement,System.Int32,System.Int32)
+  - Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String,Vortex.Connector.IVortexElement,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
+  - Vortex.Presentation.Wpf.LazyRenderer.SetRenderableContainer(FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Object)
   - Vortex.Presentation.Wpf.LazyRenderer.ValidationResult
   langs:
   - csharp
@@ -29,7 +29,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LazyRenderer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -76,7 +76,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -102,7 +102,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _instance
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -133,7 +133,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: mutex
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ValidationResult
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -197,7 +197,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Get
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -236,7 +236,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DefaultContainer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -248,7 +248,7 @@ items:
     content: public FrameworkElement DefaultContainer { get; set; }
     parameters: []
     return:
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     content.vb: Public Property DefaultContainer As FrameworkElement
   overload: Vortex.Presentation.Wpf.LazyRenderer.DefaultContainer*
   modifiers.csharp:
@@ -271,7 +271,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateDefaultContainer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -282,24 +282,24 @@ items:
   syntax:
     content: FrameworkElement CreateDefaultContainer()
     return:
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     content.vb: Function CreateDefaultContainer As FrameworkElement
   overload: Vortex.Presentation.Wpf.LazyRenderer.CreateDefaultContainer*
-- uid: Vortex.Presentation.Wpf.LazyRenderer.SetRenderableContainer(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Object)
-  commentId: M:Vortex.Presentation.Wpf.LazyRenderer.SetRenderableContainer(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Object)
-  id: SetRenderableContainer(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Object)
+- uid: Vortex.Presentation.Wpf.LazyRenderer.SetRenderableContainer(FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Object)
+  commentId: M:Vortex.Presentation.Wpf.LazyRenderer.SetRenderableContainer(FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Object)
+  id: SetRenderableContainer(FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Object)
   parent: Vortex.Presentation.Wpf.LazyRenderer
   langs:
   - csharp
   - vb
   name: SetRenderableContainer(FrameworkElement, IVortexElement, String, Object)
   nameWithType: LazyRenderer.SetRenderableContainer(FrameworkElement, IVortexElement, String, Object)
-  fullName: Vortex.Presentation.Wpf.LazyRenderer.SetRenderableContainer(System.Windows.FrameworkElement, Vortex.Connector.IVortexElement, System.String, System.Object)
+  fullName: Vortex.Presentation.Wpf.LazyRenderer.SetRenderableContainer(FrameworkElement, Vortex.Connector.IVortexElement, System.String, System.Object)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SetRenderableContainer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -311,7 +311,7 @@ items:
     content: bool SetRenderableContainer(FrameworkElement container, IVortexElement vortexObject, string presentationType, object parentHeader = null)
     parameters:
     - id: container
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     - id: vortexObject
       type: Vortex.Connector.IVortexElement
     - id: presentationType
@@ -322,21 +322,21 @@ items:
       type: System.Boolean
     content.vb: Function SetRenderableContainer(container As FrameworkElement, vortexObject As IVortexElement, presentationType As String, parentHeader As Object = Nothing) As Boolean
   overload: Vortex.Presentation.Wpf.LazyRenderer.SetRenderableContainer*
-- uid: Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.Object,System.Object,System.Windows.FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
-  commentId: M:Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.Object,System.Object,System.Windows.FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
-  id: CreatePresentation(System.Object,System.Object,System.Windows.FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
+- uid: Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.Object,System.Object,FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
+  commentId: M:Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.Object,System.Object,FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
+  id: CreatePresentation(System.Object,System.Object,FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
   parent: Vortex.Presentation.Wpf.LazyRenderer
   langs:
   - csharp
   - vb
   name: CreatePresentation(Object, Object, FrameworkElement, Boolean, ReportingLevel, Int32)
   nameWithType: LazyRenderer.CreatePresentation(Object, Object, FrameworkElement, Boolean, ReportingLevel, Int32)
-  fullName: Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.Object, System.Object, System.Windows.FrameworkElement, System.Boolean, Vortex.Presentation.Wpf.ReportingLevel, System.Int32)
+  fullName: Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.Object, System.Object, FrameworkElement, System.Boolean, Vortex.Presentation.Wpf.ReportingLevel, System.Int32)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreatePresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -356,7 +356,7 @@ items:
       type: System.Object
       description: Object which should be visually represented.
     - id: rootContainer
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
       description: Optionaly provides root container when the default option is not desirable.
     - id: preferCustomized
       type: System.Boolean
@@ -376,21 +376,21 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
-  commentId: M:Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
-  id: CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
+- uid: Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
+  commentId: M:Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
+  id: CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
   parent: Vortex.Presentation.Wpf.LazyRenderer
   langs:
   - csharp
   - vb
   name: CreatePresentation(String, IVortexObject, Boolean, FrameworkElement, FrameworkElement, Int32, Int32)
   nameWithType: LazyRenderer.CreatePresentation(String, IVortexObject, Boolean, FrameworkElement, FrameworkElement, Int32, Int32)
-  fullName: Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String, Vortex.Connector.IVortexObject, System.Boolean, System.Windows.FrameworkElement, System.Windows.FrameworkElement, System.Int32, System.Int32)
+  fullName: Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String, Vortex.Connector.IVortexObject, System.Boolean, FrameworkElement, FrameworkElement, System.Int32, System.Int32)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreatePresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -408,32 +408,32 @@ items:
     - id: preferCustomized
       type: System.Boolean
     - id: container
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     - id: parentContainer
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     - id: objectCount
       type: System.Int32
     - id: maxObjectsCount
       type: System.Int32
     return:
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     content.vb: Function CreatePresentation(presentationType As String, vortexObject As IVortexObject, preferCustomized As Boolean, container As FrameworkElement = Nothing, parentContainer As FrameworkElement = Nothing, objectCount As Integer = 0, maxObjectsCount As Integer = 2147483647) As FrameworkElement
   overload: Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation*
-- uid: Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
-  commentId: M:Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
-  id: CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
+- uid: Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
+  commentId: M:Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
+  id: CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
   parent: Vortex.Presentation.Wpf.LazyRenderer
   langs:
   - csharp
   - vb
   name: CreatePresentation(String, IValueTag, Boolean, FrameworkElement, FrameworkElement, Int32, Int32)
   nameWithType: LazyRenderer.CreatePresentation(String, IValueTag, Boolean, FrameworkElement, FrameworkElement, Int32, Int32)
-  fullName: Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String, Vortex.Connector.IValueTag, System.Boolean, System.Windows.FrameworkElement, System.Windows.FrameworkElement, System.Int32, System.Int32)
+  fullName: Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation(System.String, Vortex.Connector.IValueTag, System.Boolean, FrameworkElement, FrameworkElement, System.Int32, System.Int32)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreatePresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -451,32 +451,32 @@ items:
     - id: preferCustomized
       type: System.Boolean
     - id: container
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     - id: parentContainer
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     - id: objectCount
       type: System.Int32
     - id: maxObjectsCount
       type: System.Int32
     return:
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     content.vb: Function CreatePresentation(presentationType As String, valueTag As IValueTag, preferCustomized As Boolean, container As FrameworkElement = Nothing, parentContainer As FrameworkElement = Nothing, objectCount As Integer = 0, maxObjectsCount As Integer = 2147483647) As FrameworkElement
   overload: Vortex.Presentation.Wpf.LazyRenderer.CreatePresentation*
-- uid: Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String,Vortex.Connector.IVortexElement,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
-  commentId: M:Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String,Vortex.Connector.IVortexElement,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
-  id: RenderPresentation(System.String,Vortex.Connector.IVortexElement,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
+- uid: Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String,Vortex.Connector.IVortexElement,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
+  commentId: M:Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String,Vortex.Connector.IVortexElement,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
+  id: RenderPresentation(System.String,Vortex.Connector.IVortexElement,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
   parent: Vortex.Presentation.Wpf.LazyRenderer
   langs:
   - csharp
   - vb
   name: RenderPresentation(String, IVortexElement, Boolean, FrameworkElement, FrameworkElement, Int32, Int32)
   nameWithType: LazyRenderer.RenderPresentation(String, IVortexElement, Boolean, FrameworkElement, FrameworkElement, Int32, Int32)
-  fullName: Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String, Vortex.Connector.IVortexElement, System.Boolean, System.Windows.FrameworkElement, System.Windows.FrameworkElement, System.Int32, System.Int32)
+  fullName: Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String, Vortex.Connector.IVortexElement, System.Boolean, FrameworkElement, FrameworkElement, System.Int32, System.Int32)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RenderPresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -497,15 +497,15 @@ items:
     - id: preferCustomized
       type: System.Boolean
     - id: parentContainer
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     - id: container
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     - id: objectCount
       type: System.Int32
     - id: maxObjectsCount
       type: System.Int32
     return:
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     content.vb: >-
       <STAThread>
 
@@ -515,21 +515,21 @@ items:
   - type: System.STAThreadAttribute
     ctor: System.STAThreadAttribute.#ctor
     arguments: []
-- uid: Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement,System.Int32,System.Int32)
-  commentId: M:Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement,System.Int32,System.Int32)
-  id: RenderPresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement,System.Int32,System.Int32)
+- uid: Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,FrameworkElement,System.Int32,System.Int32)
+  commentId: M:Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,FrameworkElement,System.Int32,System.Int32)
+  id: RenderPresentation(System.String,Vortex.Connector.IValueTag,FrameworkElement,System.Int32,System.Int32)
   parent: Vortex.Presentation.Wpf.LazyRenderer
   langs:
   - csharp
   - vb
   name: RenderPresentation(String, IValueTag, FrameworkElement, Int32, Int32)
   nameWithType: LazyRenderer.RenderPresentation(String, IValueTag, FrameworkElement, Int32, Int32)
-  fullName: Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String, Vortex.Connector.IValueTag, System.Windows.FrameworkElement, System.Int32, System.Int32)
+  fullName: Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String, Vortex.Connector.IValueTag, FrameworkElement, System.Int32, System.Int32)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RenderPresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -548,13 +548,13 @@ items:
     - id: valueTag
       type: Vortex.Connector.IValueTag
     - id: parentContainer
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     - id: objectCount
       type: System.Int32
     - id: maxObjectsCount
       type: System.Int32
     return:
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     content.vb: >-
       <STAThread>
 
@@ -564,21 +564,21 @@ items:
   - type: System.STAThreadAttribute
     ctor: System.STAThreadAttribute.#ctor
     arguments: []
-- uid: Vortex.Presentation.Wpf.LazyRenderer.Render(System.String,System.Object,System.Windows.FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
-  commentId: M:Vortex.Presentation.Wpf.LazyRenderer.Render(System.String,System.Object,System.Windows.FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
-  id: Render(System.String,System.Object,System.Windows.FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
+- uid: Vortex.Presentation.Wpf.LazyRenderer.Render(System.String,System.Object,FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
+  commentId: M:Vortex.Presentation.Wpf.LazyRenderer.Render(System.String,System.Object,FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
+  id: Render(System.String,System.Object,FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
   parent: Vortex.Presentation.Wpf.LazyRenderer
   langs:
   - csharp
   - vb
   name: Render(String, Object, FrameworkElement, Boolean, ReportingLevel, Int32)
   nameWithType: LazyRenderer.Render(String, Object, FrameworkElement, Boolean, ReportingLevel, Int32)
-  fullName: Vortex.Presentation.Wpf.LazyRenderer.Render(System.String, System.Object, System.Windows.FrameworkElement, System.Boolean, Vortex.Presentation.Wpf.ReportingLevel, System.Int32)
+  fullName: Vortex.Presentation.Wpf.LazyRenderer.Render(System.String, System.Object, FrameworkElement, System.Boolean, Vortex.Presentation.Wpf.ReportingLevel, System.Int32)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Render
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -594,7 +594,7 @@ items:
     - id: vortexObject
       type: System.Object
     - id: parentContainer
-      type: System.Windows.FrameworkElement
+      type: FrameworkElement
     - id: preferCustomized
       type: System.Boolean
     - id: reportingLevel
@@ -1115,19 +1115,11 @@ references:
   name: DefaultContainer
   nameWithType: LazyRenderer.DefaultContainer
   fullName: Vortex.Presentation.Wpf.LazyRenderer.DefaultContainer
-- uid: System.Windows.FrameworkElement
-  commentId: T:System.Windows.FrameworkElement
-  parent: System.Windows
+- uid: FrameworkElement
   isExternal: true
   name: FrameworkElement
   nameWithType: FrameworkElement
-  fullName: System.Windows.FrameworkElement
-- uid: System.Windows
-  commentId: N:System.Windows
-  isExternal: true
-  name: System.Windows
-  nameWithType: System.Windows
-  fullName: System.Windows
+  fullName: FrameworkElement
 - uid: Vortex.Presentation.Wpf.LazyRenderer.CreateDefaultContainer*
   commentId: Overload:Vortex.Presentation.Wpf.LazyRenderer.CreateDefaultContainer
   name: CreateDefaultContainer

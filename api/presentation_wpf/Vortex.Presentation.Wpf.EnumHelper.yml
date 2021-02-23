@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlView.xaml.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EnumHelper
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlView.xaml.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlView.xaml.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Description
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlView.xaml.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlView.xaml.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetAllValuesAndDescriptions
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlView.xaml.cs

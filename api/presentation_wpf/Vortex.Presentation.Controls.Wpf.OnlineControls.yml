@@ -4,10 +4,10 @@ items:
   commentId: N:Vortex.Presentation.Controls.Wpf.OnlineControls
   id: Vortex.Presentation.Controls.Wpf.OnlineControls
   children:
-  - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDate
-  - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDateTime
   - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBox
   - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimCheckBoxValue
+  - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDate
+  - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimDateTime
   - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimLTime
   - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTextBox
   - Vortex.Presentation.Controls.Wpf.OnlineControls.OnlineControlSlimTextBoxValue

@@ -8,8 +8,8 @@ items:
   - Vortex.Connector.IVortexObject.AddChild(Vortex.Connector.IVortexObject)
   - Vortex.Connector.IVortexObject.AddKid(Vortex.Connector.IVortexElement)
   - Vortex.Connector.IVortexObject.AddValueTag(Vortex.Connector.IValueTag)
-  - Vortex.Connector.IVortexObject.GetConnector
   - Vortex.Connector.IVortexObject.GetChildren
+  - Vortex.Connector.IVortexObject.GetConnector
   - Vortex.Connector.IVortexObject.GetValueTags
   langs:
   - csharp
@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IVortexObject
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
@@ -73,7 +73,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetChildren
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetValueTags
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddChild
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
@@ -167,7 +167,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddValueTag
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
@@ -199,7 +199,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddKid
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
@@ -231,7 +231,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IVortexObject.cs

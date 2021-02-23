@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Provider/WpfLayoutProvider.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WpfLayoutProvider
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Provider/WpfLayoutProvider.cs
@@ -68,7 +68,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Provider/WpfLayoutProvider.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Provider/WpfLayoutProvider.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Provider/WpfLayoutProvider.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _layoutDictionary
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Provider/WpfLayoutProvider.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Provider/WpfLayoutProvider.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetControl
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Provider/WpfLayoutProvider.cs
@@ -152,6 +152,8 @@ items:
       description: ''
     content.vb: Public Function GetControl(layoutType As Layout) As(assembly As String, fullTypeName As String)
   overload: Vortex.Presentation.Wpf.WpfLayoutProvider.GetControl*
+  implements:
+  - Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl(Layout)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -716,6 +718,42 @@ references:
   name: GetControl
   nameWithType: WpfLayoutProvider.GetControl
   fullName: Vortex.Presentation.Wpf.WpfLayoutProvider.GetControl
+- uid: Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl(Layout)
+  commentId: M:Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl(Layout)
+  parent: Vortex.Framework.Abstractions.Presentation.ILayoutProvider
+  name: GetControl(Layout)
+  nameWithType: ILayoutProvider.GetControl(Layout)
+  fullName: Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl(Layout)
+  spec.csharp:
+  - uid: Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl(Layout)
+    name: GetControl
+    nameWithType: ILayoutProvider.GetControl
+    fullName: Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Layout
+    name: Layout
+    nameWithType: Layout
+    fullName: Layout
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl(Layout)
+    name: GetControl
+    nameWithType: ILayoutProvider.GetControl
+    fullName: Vortex.Framework.Abstractions.Presentation.ILayoutProvider.GetControl
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Layout
+    name: Layout
+    nameWithType: Layout
+    fullName: Layout
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.ValueTuple{System.String,System.String}
   commentId: T:System.ValueTuple{System.String,System.String}
   parent: System

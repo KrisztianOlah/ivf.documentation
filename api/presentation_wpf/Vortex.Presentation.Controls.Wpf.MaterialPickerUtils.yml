@@ -5,7 +5,7 @@ items:
   id: MaterialPickerUtils
   parent: Vortex.Presentation.Controls.Wpf
   children:
-  - Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors(System.Windows.Controls.ContentControl)
+  - Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors(ContentControl)
   langs:
   - csharp
   - vb
@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/MaterialPickerUtils.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MaterialPickerUtils
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/MaterialPickerUtils.cs
@@ -42,21 +42,21 @@ items:
   - class
   modifiers.vb:
   - Module
-- uid: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors(System.Windows.Controls.ContentControl)
-  commentId: M:Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors(System.Windows.Controls.ContentControl)
-  id: UpdateStyleColors(System.Windows.Controls.ContentControl)
+- uid: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors(ContentControl)
+  commentId: M:Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors(ContentControl)
+  id: UpdateStyleColors(ContentControl)
   parent: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils
   langs:
   - csharp
   - vb
   name: UpdateStyleColors(ContentControl)
   nameWithType: MaterialPickerUtils.UpdateStyleColors(ContentControl)
-  fullName: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors(System.Windows.Controls.ContentControl)
+  fullName: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors(ContentControl)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/MaterialPickerUtils.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UpdateStyleColors
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/MaterialPickerUtils.cs
@@ -68,7 +68,7 @@ items:
     content: static void UpdateStyleColors(ContentControl uc)
     parameters:
     - id: uc
-      type: System.Windows.Controls.ContentControl
+      type: ContentControl
     content.vb: Shared Sub UpdateStyleColors(uc As ContentControl)
   overload: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors*
   modifiers.csharp:
@@ -378,16 +378,8 @@ references:
   name: UpdateStyleColors
   nameWithType: MaterialPickerUtils.UpdateStyleColors
   fullName: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors
-- uid: System.Windows.Controls.ContentControl
-  commentId: T:System.Windows.Controls.ContentControl
-  parent: System.Windows.Controls
+- uid: ContentControl
   isExternal: true
   name: ContentControl
   nameWithType: ContentControl
-  fullName: System.Windows.Controls.ContentControl
-- uid: System.Windows.Controls
-  commentId: N:System.Windows.Controls
-  isExternal: true
-  name: System.Windows.Controls
-  nameWithType: System.Windows.Controls
-  fullName: System.Windows.Controls
+  fullName: ContentControl

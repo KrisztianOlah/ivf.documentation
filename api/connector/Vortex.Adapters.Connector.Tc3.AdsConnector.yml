@@ -14,6 +14,7 @@ items:
   - Vortex.Adapters.Connector.Tc3.AdsConnector.AdsClient_AdsSymbolVersionChanged(System.Object,System.EventArgs)
   - Vortex.Adapters.Connector.Tc3.AdsConnector.AMSID
   - Vortex.Adapters.Connector.Tc3.AdsConnector.BuildAndStart
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.chunk_size
   - Vortex.Adapters.Connector.Tc3.AdsConnector.Client
   - Vortex.Adapters.Connector.Tc3.AdsConnector.ConnectToController(System.String,System.Int32)
   - Vortex.Adapters.Connector.Tc3.AdsConnector.CyclicRead
@@ -23,7 +24,6 @@ items:
   - Vortex.Adapters.Connector.Tc3.AdsConnector.DoNotStartReportingConsole
   - Vortex.Adapters.Connector.Tc3.AdsConnector.ErrorCount
   - Vortex.Adapters.Connector.Tc3.AdsConnector.HasAdsSymbolVersionChanged
-  - Vortex.Adapters.Connector.Tc3.AdsConnector.chunk_size
   - Vortex.Adapters.Connector.Tc3.AdsConnector.InitializeConnector
   - Vortex.Adapters.Connector.Tc3.AdsConnector.InvalidateSymbols
   - Vortex.Adapters.Connector.Tc3.AdsConnector.InvokeRpc(System.String,System.String,System.Object[])
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AdsConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -71,13 +71,13 @@ items:
   summary: "\nAds connector.\n"
   example: []
   syntax:
-    content: 'class AdsConnector : IConnector, IVortexObject, ITwinObject, IVortexElement, IDisposable, INotifyPropertyChanged'
+    content: 'class AdsConnector : IConnector, IVortexObject, ITwinObject, IVortexElement, INotifyPropertyChanged, IDisposable, INotifyPropertyChanged'
     content.vb: >-
       Class AdsConnector
 
           Inherits IConnector
 
-          Implements IVortexObject, ITwinObject, IVortexElement, IDisposable, INotifyPropertyChanged
+          Implements IVortexObject, ITwinObject, IVortexElement, INotifyPropertyChanged, IDisposable, INotifyPropertyChanged
   inheritance:
   - System.Object
   - Vortex.Connector.RootVortexerObject
@@ -86,6 +86,7 @@ items:
   - Vortex.Connector.IVortexObject
   - Vortex.Connector.ITwinObject
   - Vortex.Connector.IVortexElement
+  - System.ComponentModel.INotifyPropertyChanged
   - System.IDisposable
   - System.ComponentModel.INotifyPropertyChanged
   inheritedMembers:
@@ -131,16 +132,9 @@ items:
   - Vortex.Connector.RootVortexerObject.AddValueTag(Vortex.Connector.IValueTag)
   - Vortex.Connector.RootVortexerObject.GetConnector
   - Vortex.Connector.RootVortexerObject.AddKid(Vortex.Connector.IVortexElement)
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   extensionMethods:
-  - Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
   - Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(System.Exception,System.String)
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
   modifiers.csharp:
   - class
   modifiers.vb:
@@ -159,7 +153,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _onlineVariables
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -186,7 +180,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: liveClient
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -217,7 +211,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: onlineTagToObjectLinks
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -244,7 +238,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: rwopsAction
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -271,7 +265,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -303,7 +297,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -342,7 +336,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SplitIntoChunks
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -384,7 +378,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadFully
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -421,7 +415,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadSum
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -456,7 +450,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: chunk_size
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -487,7 +481,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteSum
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -522,7 +516,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ConnectToController
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -561,7 +555,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HasAdsSymbolVersionChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -588,7 +582,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InvalidateSymbols
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -614,7 +608,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AdsClient_AdsSymbolVersionChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -645,7 +639,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReloadConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -678,7 +672,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AdsClient_AdsStateChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -709,7 +703,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: qr
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -736,7 +730,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CyclicRead
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -768,7 +762,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CyclicWrite
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -800,7 +794,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CyclicWriteRead
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -832,7 +826,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: StartReadWriteOps
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -864,7 +858,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddTagLink
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -893,7 +887,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InitializeConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -921,7 +915,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Client
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -961,7 +955,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlineVariables
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -999,7 +993,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: PreventSynchronousAccess
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1036,7 +1030,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _justBuilt
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1063,7 +1057,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: BuildAndStart
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1098,7 +1092,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Dispose
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1132,7 +1126,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadBatch
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1146,7 +1140,6 @@ items:
     - id: valueTags
       type: System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag}
     content.vb: Public Overrides Sub ReadBatch(valueTags As IEnumerable(Of IValueTag))
-  overridden: Vortex.Connector.IConnector.ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
   overload: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadBatch*
   nameWithType.vb: AdsConnector.ReadBatch(IEnumerable(Of IValueTag))
   modifiers.csharp:
@@ -1171,7 +1164,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SetAllToCyclicReading
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1213,7 +1206,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteBatch
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1227,7 +1220,6 @@ items:
     - id: valueTags
       type: System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag}
     content.vb: Public Overrides Sub WriteBatch(valueTags As IEnumerable(Of IValueTag))
-  overridden: Vortex.Connector.IConnector.WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
   overload: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteBatch*
   nameWithType.vb: AdsConnector.WriteBatch(IEnumerable(Of IValueTag))
   modifiers.csharp:
@@ -1252,7 +1244,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AMSID
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1287,7 +1279,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DoNotStartReportingConsole
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1325,7 +1317,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ErrorCount
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1363,7 +1355,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadingStatus
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1403,7 +1395,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Name
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1441,7 +1433,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NetId
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1479,7 +1471,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SrvPort
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1517,7 +1509,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Timeout
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1555,7 +1547,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InvokeRpc
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1575,7 +1567,6 @@ items:
     return:
       type: System.Object
     content.vb: Public Overrides Function InvokeRpc(symbolPath As String, methodName As String, params As Object()) As Object
-  overridden: Vortex.Connector.IConnector.InvokeRpc(System.String,System.String,System.Object[])
   overload: Vortex.Adapters.Connector.Tc3.AdsConnector.InvokeRpc*
   nameWithType.vb: AdsConnector.InvokeRpc(String, String, Object())
   modifiers.csharp:
@@ -1600,7 +1591,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlineTags
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1638,7 +1629,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolLoadMethod
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1675,7 +1666,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: rls/github_rlss
+      branch: fix/issue_with_fbDateTime_from_mh
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolLoadingMode
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -1741,13 +1732,6 @@ references:
   name: IVortexElement
   nameWithType: IVortexElement
   fullName: Vortex.Connector.IVortexElement
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
 - uid: System.ComponentModel.INotifyPropertyChanged
   commentId: T:System.ComponentModel.INotifyPropertyChanged
   parent: System.ComponentModel
@@ -1755,6 +1739,13 @@ references:
   name: INotifyPropertyChanged
   nameWithType: INotifyPropertyChanged
   fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
 - uid: Vortex.Connector.IConnector._logger
   commentId: F:Vortex.Connector.IConnector._logger
   parent: Vortex.Connector.IConnector
@@ -2319,327 +2310,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
-  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
-  parent: Vortex.Connector.IValueTagExtensions
-  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
-  name: Cast<AdsConnector>(Object)
-  nameWithType: IValueTagExtensions.Cast<AdsConnector>(Object)
-  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.AdsConnector>(System.Object)
-  nameWithType.vb: IValueTagExtensions.Cast(Of AdsConnector)(Object)
-  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.AdsConnector)(System.Object)
-  name.vb: Cast(Of AdsConnector)(Object)
-  spec.csharp:
-  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
-    name: Cast<AdsConnector>
-    nameWithType: IValueTagExtensions.Cast<AdsConnector>
-    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.AdsConnector>
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
-    name: Cast(Of AdsConnector)
-    nameWithType: IValueTagExtensions.Cast(Of AdsConnector)
-    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.AdsConnector)
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(System.Exception,System.String)
   commentId: M:Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(Vortex.Adapters.Connector.Tc3.AdsConnector,System.Exception,System.String)
   parent: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler
@@ -2695,6 +2365,48 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  parent: Vortex.Connector.IValueTagExtensions
+  definition: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  name: Cast<AdsConnector>(Object)
+  nameWithType: IValueTagExtensions.Cast<AdsConnector>(Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.AdsConnector>(System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of AdsConnector)(Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.AdsConnector)(System.Object)
+  name.vb: Cast(Of AdsConnector)(Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast<AdsConnector>
+    nameWithType: IValueTagExtensions.Cast<AdsConnector>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<Vortex.Adapters.Connector.Tc3.AdsConnector>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
+    name: Cast(Of AdsConnector)
+    nameWithType: IValueTagExtensions.Cast(Of AdsConnector)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of Vortex.Adapters.Connector.Tc3.AdsConnector)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -2712,65 +2424,6 @@ references:
   name: System.ComponentModel
   nameWithType: System.ComponentModel
   fullName: System.ComponentModel
-- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
-  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
-  isExternal: true
-  name: Cast<T>(T, Object)
-  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
-  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
-  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
-  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
-  name.vb: Cast(Of T)(T, Object)
-  spec.csharp:
-  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
-    name: Cast<T>
-    nameWithType: IValueTagExtensions.Cast<T>
-    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
-    name: Cast(Of T)
-    nameWithType: IValueTagExtensions.Cast(Of T)
-    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Vortex.Connector.IValueTagExtensions
-  commentId: T:Vortex.Connector.IValueTagExtensions
-  parent: Vortex.Connector
-  name: IValueTagExtensions
-  nameWithType: IValueTagExtensions
-  fullName: Vortex.Connector.IValueTagExtensions
 - uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(Vortex.Adapters.Connector.Tc3.AdsConnector,System.Exception,System.String)
   commentId: M:Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler.Post(Vortex.Adapters.Connector.Tc3.AdsConnector,System.Exception,System.String)
   isExternal: true
@@ -2845,6 +2498,65 @@ references:
   name: ExceptionHandler
   nameWithType: ExceptionHandler
   fullName: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.ExceptionHandler
+- uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+  isExternal: true
+  name: Cast<T>(T, Object)
+  nameWithType: IValueTagExtensions.Cast<T>(T, Object)
+  fullName: Vortex.Connector.IValueTagExtensions.Cast<T>(T, System.Object)
+  nameWithType.vb: IValueTagExtensions.Cast(Of T)(T, Object)
+  fullName.vb: Vortex.Connector.IValueTagExtensions.Cast(Of T)(T, System.Object)
+  name.vb: Cast(Of T)(T, Object)
+  spec.csharp:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast<T>
+    nameWithType: IValueTagExtensions.Cast<T>
+    fullName: Vortex.Connector.IValueTagExtensions.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
+    name: Cast(Of T)
+    nameWithType: IValueTagExtensions.Cast(Of T)
+    fullName: Vortex.Connector.IValueTagExtensions.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.IValueTagExtensions
+  commentId: T:Vortex.Connector.IValueTagExtensions
+  parent: Vortex.Connector
+  name: IValueTagExtensions
+  nameWithType: IValueTagExtensions
+  fullName: Vortex.Connector.IValueTagExtensions
 - uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
   commentId: N:Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
   name: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
@@ -3559,68 +3271,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Vortex.Connector.IConnector.ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
-  commentId: M:Vortex.Connector.IConnector.ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
-  parent: Vortex.Connector.IConnector
-  isExternal: true
-  name: ReadBatch(IEnumerable<IValueTag>)
-  nameWithType: IConnector.ReadBatch(IEnumerable<IValueTag>)
-  fullName: Vortex.Connector.IConnector.ReadBatch(System.Collections.Generic.IEnumerable<Vortex.Connector.IValueTag>)
-  nameWithType.vb: IConnector.ReadBatch(IEnumerable(Of IValueTag))
-  fullName.vb: Vortex.Connector.IConnector.ReadBatch(System.Collections.Generic.IEnumerable(Of Vortex.Connector.IValueTag))
-  name.vb: ReadBatch(IEnumerable(Of IValueTag))
-  spec.csharp:
-  - uid: Vortex.Connector.IConnector.ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
-    name: ReadBatch
-    nameWithType: IConnector.ReadBatch
-    fullName: Vortex.Connector.IConnector.ReadBatch
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Vortex.Connector.IValueTag
-    name: IValueTag
-    nameWithType: IValueTag
-    fullName: Vortex.Connector.IValueTag
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Vortex.Connector.IConnector.ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
-    name: ReadBatch
-    nameWithType: IConnector.ReadBatch
-    fullName: Vortex.Connector.IConnector.ReadBatch
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Vortex.Connector.IValueTag
-    name: IValueTag
-    nameWithType: IValueTag
-    fullName: Vortex.Connector.IValueTag
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadBatch*
   commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.ReadBatch
   name: ReadBatch
@@ -3673,68 +3323,6 @@ references:
   name: SetAllToCyclicReading
   nameWithType: AdsConnector.SetAllToCyclicReading
   fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.SetAllToCyclicReading
-- uid: Vortex.Connector.IConnector.WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
-  commentId: M:Vortex.Connector.IConnector.WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
-  parent: Vortex.Connector.IConnector
-  isExternal: true
-  name: WriteBatch(IEnumerable<IValueTag>)
-  nameWithType: IConnector.WriteBatch(IEnumerable<IValueTag>)
-  fullName: Vortex.Connector.IConnector.WriteBatch(System.Collections.Generic.IEnumerable<Vortex.Connector.IValueTag>)
-  nameWithType.vb: IConnector.WriteBatch(IEnumerable(Of IValueTag))
-  fullName.vb: Vortex.Connector.IConnector.WriteBatch(System.Collections.Generic.IEnumerable(Of Vortex.Connector.IValueTag))
-  name.vb: WriteBatch(IEnumerable(Of IValueTag))
-  spec.csharp:
-  - uid: Vortex.Connector.IConnector.WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
-    name: WriteBatch
-    nameWithType: IConnector.WriteBatch
-    fullName: Vortex.Connector.IConnector.WriteBatch
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Vortex.Connector.IValueTag
-    name: IValueTag
-    nameWithType: IValueTag
-    fullName: Vortex.Connector.IValueTag
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Vortex.Connector.IConnector.WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
-    name: WriteBatch
-    nameWithType: IConnector.WriteBatch
-    fullName: Vortex.Connector.IConnector.WriteBatch
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Vortex.Connector.IValueTag
-    name: IValueTag
-    nameWithType: IValueTag
-    fullName: Vortex.Connector.IValueTag
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteBatch*
   commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.WriteBatch
   name: WriteBatch
@@ -3786,86 +3374,6 @@ references:
   name: Timeout
   nameWithType: AdsConnector.Timeout
   fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.Timeout
-- uid: Vortex.Connector.IConnector.InvokeRpc(System.String,System.String,System.Object[])
-  commentId: M:Vortex.Connector.IConnector.InvokeRpc(System.String,System.String,System.Object[])
-  parent: Vortex.Connector.IConnector
-  isExternal: true
-  name: InvokeRpc(String, String, Object[])
-  nameWithType: IConnector.InvokeRpc(String, String, Object[])
-  fullName: Vortex.Connector.IConnector.InvokeRpc(System.String, System.String, System.Object[])
-  nameWithType.vb: IConnector.InvokeRpc(String, String, Object())
-  fullName.vb: Vortex.Connector.IConnector.InvokeRpc(System.String, System.String, System.Object())
-  name.vb: InvokeRpc(String, String, Object())
-  spec.csharp:
-  - uid: Vortex.Connector.IConnector.InvokeRpc(System.String,System.String,System.Object[])
-    name: InvokeRpc
-    nameWithType: IConnector.InvokeRpc
-    fullName: Vortex.Connector.IConnector.InvokeRpc
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Vortex.Connector.IConnector.InvokeRpc(System.String,System.String,System.Object[])
-    name: InvokeRpc
-    nameWithType: IConnector.InvokeRpc
-    fullName: Vortex.Connector.IConnector.InvokeRpc
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Vortex.Adapters.Connector.Tc3.AdsConnector.InvokeRpc*
   commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsConnector.InvokeRpc
   name: InvokeRpc
