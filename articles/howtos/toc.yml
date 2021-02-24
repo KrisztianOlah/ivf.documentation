@@ -4,5 +4,5 @@
   href : influxdb/influxdb.md
 - name : Invoke C# from PLC
   href : invoke_csharp/invoke_csharp.md
-- name : Use diagnostics tools
-  href : diag/diag.md
+#- name : Use diagnostics tools
+#   href : diag/diag.md
