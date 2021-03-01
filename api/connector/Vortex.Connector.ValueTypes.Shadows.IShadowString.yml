@@ -29,6 +29,7 @@ items:
     content: 'public interface IShadowString : IShadow<string>'
     content.vb: >-
       Public Interface IShadowString
+
           Inherits IShadow(Of String)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Shadows.IShadow{System.String}.Symbol

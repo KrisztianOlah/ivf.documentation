@@ -35,6 +35,7 @@ items:
     content: 'public interface IVortexObject : ITwinObject, IVortexElement'
     content.vb: >-
       Public Interface IVortexObject
+
           Inherits ITwinObject, IVortexElement
   inheritedMembers:
   - Vortex.Connector.IVortexElement.Symbol

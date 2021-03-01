@@ -29,6 +29,7 @@ items:
     content: 'public interface IShadowDWord : IShadow<uint>'
     content.vb: >-
       Public Interface IShadowDWord
+
           Inherits IShadow(Of UInteger)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Shadows.IShadow{System.UInt32}.Symbol

@@ -35,6 +35,7 @@ items:
       <AttributeUsage(AttributeTargets.Property)>
 
       Public Class ReadOnlyAttribute
+
           Inherits Attribute
   inheritance:
   - System.Object

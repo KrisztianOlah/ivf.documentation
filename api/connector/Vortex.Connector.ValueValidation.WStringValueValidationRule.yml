@@ -31,6 +31,7 @@ items:
     content: 'public class WStringValueValidationRule : OnlinerValidationRule<string>'
     content.vb: >-
       Public Class WStringValueValidationRule
+
           Inherits OnlinerValidationRule(Of String)
   inheritance:
   - System.Object

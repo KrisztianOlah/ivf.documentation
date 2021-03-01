@@ -31,6 +31,7 @@ items:
     content: 'public class UDIntValueValidationRule : OnlinerValidationRule<uint>'
     content.vb: >-
       Public Class UDIntValueValidationRule
+
           Inherits OnlinerValidationRule(Of UInteger)
   inheritance:
   - System.Object

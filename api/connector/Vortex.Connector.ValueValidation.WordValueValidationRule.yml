@@ -31,6 +31,7 @@ items:
     content: 'public class WordValueValidationRule : OnlinerValidationRule<ushort>'
     content.vb: >-
       Public Class WordValueValidationRule
+
           Inherits OnlinerValidationRule(Of UShort)
   inheritance:
   - System.Object

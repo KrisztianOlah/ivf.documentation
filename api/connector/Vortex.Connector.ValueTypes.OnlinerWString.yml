@@ -37,7 +37,9 @@ items:
     content: 'public class OnlinerWString : OnlinerBaseType<string>, IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries<string>, IOnlineWString, IOnline<string>, IShadowWString, IShadow<string>'
     content.vb: >-
       Public Class OnlinerWString
+
           Inherits OnlinerBaseType(Of String)
+
           Implements IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of String), IOnlineWString, IOnline(Of String), IShadowWString, IShadow(Of String)
   inheritance:
   - System.Object

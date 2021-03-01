@@ -35,7 +35,9 @@ items:
     content: 'public class OnlinerSInt : OnlinerBaseType<sbyte>, IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries<sbyte>, IOnlineSInt, IOnline<sbyte>, IShadowSInt, IShadow<sbyte>'
     content.vb: >-
       Public Class OnlinerSInt
+
           Inherits OnlinerBaseType(Of SByte)
+
           Implements IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of SByte), IOnlineSInt, IOnline(Of SByte), IShadowSInt, IShadow(Of SByte)
   inheritance:
   - System.Object

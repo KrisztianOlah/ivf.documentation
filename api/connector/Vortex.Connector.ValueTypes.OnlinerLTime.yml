@@ -37,7 +37,9 @@ items:
     content: 'public class OnlinerLTime : OnlinerBaseType<TimeSpan>, IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries<TimeSpan>, IOnlineLTime, IOnline<TimeSpan>, IShadowLTime, IShadow<TimeSpan>'
     content.vb: >-
       Public Class OnlinerLTime
+
           Inherits OnlinerBaseType(Of TimeSpan)
+
           Implements IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of TimeSpan), IOnlineLTime, IOnline(Of TimeSpan), IShadowLTime, IShadow(Of TimeSpan)
   inheritance:
   - System.Object

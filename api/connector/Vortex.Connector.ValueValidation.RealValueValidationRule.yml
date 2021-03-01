@@ -31,6 +31,7 @@ items:
     content: 'public class RealValueValidationRule : OnlinerValidationRule<float>'
     content.vb: >-
       Public Class RealValueValidationRule
+
           Inherits OnlinerValidationRule(Of Single)
   inheritance:
   - System.Object

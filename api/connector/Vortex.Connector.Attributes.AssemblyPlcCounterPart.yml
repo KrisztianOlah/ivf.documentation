@@ -36,6 +36,7 @@ items:
       <AttributeUsage(AttributeTargets.Assembly)>
 
       Public Class AssemblyPlcCounterPart
+
           Inherits Attribute
   inheritance:
   - System.Object

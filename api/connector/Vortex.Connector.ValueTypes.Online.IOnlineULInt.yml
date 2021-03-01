@@ -29,6 +29,7 @@ items:
     content: 'public interface IOnlineULInt : IOnline<ulong>'
     content.vb: >-
       Public Interface IOnlineULInt
+
           Inherits IOnline(Of ULong)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Online.IOnline{System.UInt64}.Symbol
