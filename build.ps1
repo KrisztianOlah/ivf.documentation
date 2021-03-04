@@ -1,7 +1,6 @@
-# Get the latest tag from IVF
-Push-Location ..\ivf
-$version = (git describe --abbrev=0)
-Pop-Location
+param($buildNumber) 
+
+$version = $buildNumber
 
 # Clean build
 rm -r bin/ -erroraction silentlycontinue 
