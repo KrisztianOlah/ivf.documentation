@@ -5,7 +5,7 @@ items:
   id: TooManyObjectsToRenderException
   parent: Vortex.Presentation.Wpf
   children:
-  - Vortex.Presentation.Wpf.TooManyObjectsToRenderException.#ctor(System.String,FrameworkElement)
+  - Vortex.Presentation.Wpf.TooManyObjectsToRenderException.#ctor(System.String,System.Windows.FrameworkElement)
   - Vortex.Presentation.Wpf.TooManyObjectsToRenderException.PartiallyRendered
   langs:
   - csharp
@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/TooManyObjectsToRenderException.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TooManyObjectsToRenderException
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/TooManyObjectsToRenderException.cs
@@ -65,21 +65,21 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Vortex.Presentation.Wpf.TooManyObjectsToRenderException.#ctor(System.String,FrameworkElement)
-  commentId: M:Vortex.Presentation.Wpf.TooManyObjectsToRenderException.#ctor(System.String,FrameworkElement)
-  id: '#ctor(System.String,FrameworkElement)'
+- uid: Vortex.Presentation.Wpf.TooManyObjectsToRenderException.#ctor(System.String,System.Windows.FrameworkElement)
+  commentId: M:Vortex.Presentation.Wpf.TooManyObjectsToRenderException.#ctor(System.String,System.Windows.FrameworkElement)
+  id: '#ctor(System.String,System.Windows.FrameworkElement)'
   parent: Vortex.Presentation.Wpf.TooManyObjectsToRenderException
   langs:
   - csharp
   - vb
   name: TooManyObjectsToRenderException(String, FrameworkElement)
   nameWithType: TooManyObjectsToRenderException.TooManyObjectsToRenderException(String, FrameworkElement)
-  fullName: Vortex.Presentation.Wpf.TooManyObjectsToRenderException.TooManyObjectsToRenderException(System.String, FrameworkElement)
+  fullName: Vortex.Presentation.Wpf.TooManyObjectsToRenderException.TooManyObjectsToRenderException(System.String, System.Windows.FrameworkElement)
   type: Constructor
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/TooManyObjectsToRenderException.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/TooManyObjectsToRenderException.cs
@@ -93,7 +93,7 @@ items:
     - id: message
       type: System.String
     - id: partiallyRendered
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: Public Sub New(message As String, partiallyRendered As FrameworkElement)
   overload: Vortex.Presentation.Wpf.TooManyObjectsToRenderException.#ctor*
   modifiers.csharp:
@@ -114,7 +114,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/TooManyObjectsToRenderException.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: PartiallyRendered
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/TooManyObjectsToRenderException.cs
@@ -126,7 +126,7 @@ items:
     content: public FrameworkElement PartiallyRendered { get; }
     parameters: []
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: Public ReadOnly Property PartiallyRendered As FrameworkElement
   overload: Vortex.Presentation.Wpf.TooManyObjectsToRenderException.PartiallyRendered*
   modifiers.csharp:
@@ -738,11 +738,19 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: FrameworkElement
+- uid: System.Windows.FrameworkElement
+  commentId: T:System.Windows.FrameworkElement
+  parent: System.Windows
   isExternal: true
   name: FrameworkElement
   nameWithType: FrameworkElement
-  fullName: FrameworkElement
+  fullName: System.Windows.FrameworkElement
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
 - uid: Vortex.Presentation.Wpf.TooManyObjectsToRenderException.PartiallyRendered*
   commentId: Overload:Vortex.Presentation.Wpf.TooManyObjectsToRenderException.PartiallyRendered
   name: PartiallyRendered

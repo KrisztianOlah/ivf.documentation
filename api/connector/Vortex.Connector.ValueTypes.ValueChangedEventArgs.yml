@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/ValueChangedEventArgs.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ValueChangedEventArgs
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/ValueChangedEventArgs.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/ValueChangedEventArgs.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/ValueChangedEventArgs.cs
@@ -102,7 +102,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/ValueChangedEventArgs.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NewValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/ValueChangedEventArgs.cs

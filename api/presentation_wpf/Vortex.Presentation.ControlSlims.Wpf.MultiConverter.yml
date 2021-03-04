@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/ControlSlim/MultiConverter.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MultiConverter
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/ControlSlim/MultiConverter.cs
@@ -34,8 +34,17 @@ items:
           Implements IMultiValueConverter
   inheritance:
   - System.Object
+  - System.Windows.Markup.MarkupExtension
   implements:
-  - IMultiValueConverter
+  - System.Windows.Data.IMultiValueConverter
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
   modifiers.csharp:
@@ -56,7 +65,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/ControlSlim/MultiConverter.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Convert
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/ControlSlim/MultiConverter.cs
@@ -79,6 +88,8 @@ items:
       type: System.Object
     content.vb: Public Function Convert(values As Object(), targetType As Type, parameter As Object, culture As CultureInfo) As Object
   overload: Vortex.Presentation.ControlSlims.Wpf.MultiConverter.Convert*
+  implements:
+  - System.Windows.Data.IMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)
   nameWithType.vb: MultiConverter.Convert(Object(), Type, Object, CultureInfo)
   modifiers.csharp:
   - public
@@ -100,7 +111,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/ControlSlim/MultiConverter.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ConvertBack
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/ControlSlim/MultiConverter.cs
@@ -123,6 +134,8 @@ items:
       type: System.Object[]
     content.vb: Public Function ConvertBack(value As Object, targetTypes As Type(), parameter As Object, culture As CultureInfo) As Object()
   overload: Vortex.Presentation.ControlSlims.Wpf.MultiConverter.ConvertBack*
+  implements:
+  - System.Windows.Data.IMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)
   nameWithType.vb: MultiConverter.ConvertBack(Object, Type(), Object, CultureInfo)
   modifiers.csharp:
   - public
@@ -144,7 +157,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/ControlSlim/MultiConverter.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ProvideValue
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/ControlSlim/MultiConverter.cs
@@ -160,6 +173,7 @@ items:
     return:
       type: System.Object
     content.vb: Public Overrides Function ProvideValue(serviceProvider As IServiceProvider) As Object
+  overridden: System.Windows.Markup.MarkupExtension.ProvideValue(System.IServiceProvider)
   overload: Vortex.Presentation.ControlSlims.Wpf.MultiConverter.ProvideValue*
   modifiers.csharp:
   - public
@@ -180,11 +194,299 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: IMultiValueConverter
+- uid: System.Windows.Markup.MarkupExtension
+  commentId: T:System.Windows.Markup.MarkupExtension
+  parent: System.Windows.Markup
+  isExternal: true
+  name: MarkupExtension
+  nameWithType: MarkupExtension
+  fullName: System.Windows.Markup.MarkupExtension
+- uid: System.Windows.Data.IMultiValueConverter
+  commentId: T:System.Windows.Data.IMultiValueConverter
+  parent: System.Windows.Data
   isExternal: true
   name: IMultiValueConverter
   nameWithType: IMultiValueConverter
-  fullName: IMultiValueConverter
+  fullName: System.Windows.Data.IMultiValueConverter
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
   commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
   parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
@@ -220,6 +522,18 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Windows.Markup
+  commentId: N:System.Windows.Markup
+  isExternal: true
+  name: System.Windows.Markup
+  nameWithType: System.Windows.Markup
+  fullName: System.Windows.Markup
+- uid: System.Windows.Data
+  commentId: N:System.Windows.Data
+  isExternal: true
+  name: System.Windows.Data
+  nameWithType: System.Windows.Data
+  fullName: System.Windows.Data
 - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
   commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
   isExternal: true
@@ -274,6 +588,104 @@ references:
   name: Convert
   nameWithType: MultiConverter.Convert
   fullName: Vortex.Presentation.ControlSlims.Wpf.MultiConverter.Convert
+- uid: System.Windows.Data.IMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:System.Windows.Data.IMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: System.Windows.Data.IMultiValueConverter
+  isExternal: true
+  name: Convert(Object[], Type, Object, CultureInfo)
+  nameWithType: IMultiValueConverter.Convert(Object[], Type, Object, CultureInfo)
+  fullName: System.Windows.Data.IMultiValueConverter.Convert(System.Object[], System.Type, System.Object, System.Globalization.CultureInfo)
+  nameWithType.vb: IMultiValueConverter.Convert(Object(), Type, Object, CultureInfo)
+  fullName.vb: System.Windows.Data.IMultiValueConverter.Convert(System.Object(), System.Type, System.Object, System.Globalization.CultureInfo)
+  name.vb: Convert(Object(), Type, Object, CultureInfo)
+  spec.csharp:
+  - uid: System.Windows.Data.IMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)
+    name: Convert
+    nameWithType: IMultiValueConverter.Convert
+    fullName: System.Windows.Data.IMultiValueConverter.Convert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Data.IMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)
+    name: Convert
+    nameWithType: IMultiValueConverter.Convert
+    fullName: System.Windows.Data.IMultiValueConverter.Convert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Object[]
   isExternal: true
   name: Object[]
@@ -325,6 +737,104 @@ references:
   name: ConvertBack
   nameWithType: MultiConverter.ConvertBack
   fullName: Vortex.Presentation.ControlSlims.Wpf.MultiConverter.ConvertBack
+- uid: System.Windows.Data.IMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)
+  commentId: M:System.Windows.Data.IMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)
+  parent: System.Windows.Data.IMultiValueConverter
+  isExternal: true
+  name: ConvertBack(Object, Type[], Object, CultureInfo)
+  nameWithType: IMultiValueConverter.ConvertBack(Object, Type[], Object, CultureInfo)
+  fullName: System.Windows.Data.IMultiValueConverter.ConvertBack(System.Object, System.Type[], System.Object, System.Globalization.CultureInfo)
+  nameWithType.vb: IMultiValueConverter.ConvertBack(Object, Type(), Object, CultureInfo)
+  fullName.vb: System.Windows.Data.IMultiValueConverter.ConvertBack(System.Object, System.Type(), System.Object, System.Globalization.CultureInfo)
+  name.vb: ConvertBack(Object, Type(), Object, CultureInfo)
+  spec.csharp:
+  - uid: System.Windows.Data.IMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)
+    name: ConvertBack
+    nameWithType: IMultiValueConverter.ConvertBack
+    fullName: System.Windows.Data.IMultiValueConverter.ConvertBack
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Data.IMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)
+    name: ConvertBack
+    nameWithType: IMultiValueConverter.ConvertBack
+    fullName: System.Windows.Data.IMultiValueConverter.ConvertBack
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Type[]
   isExternal: true
   name: Type[]
@@ -351,6 +861,47 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: System.Windows.Markup.MarkupExtension.ProvideValue(System.IServiceProvider)
+  commentId: M:System.Windows.Markup.MarkupExtension.ProvideValue(System.IServiceProvider)
+  parent: System.Windows.Markup.MarkupExtension
+  isExternal: true
+  name: ProvideValue(IServiceProvider)
+  nameWithType: MarkupExtension.ProvideValue(IServiceProvider)
+  fullName: System.Windows.Markup.MarkupExtension.ProvideValue(System.IServiceProvider)
+  spec.csharp:
+  - uid: System.Windows.Markup.MarkupExtension.ProvideValue(System.IServiceProvider)
+    name: ProvideValue
+    nameWithType: MarkupExtension.ProvideValue
+    fullName: System.Windows.Markup.MarkupExtension.ProvideValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Markup.MarkupExtension.ProvideValue(System.IServiceProvider)
+    name: ProvideValue
+    nameWithType: MarkupExtension.ProvideValue
+    fullName: System.Windows.Markup.MarkupExtension.ProvideValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Vortex.Presentation.ControlSlims.Wpf.MultiConverter.ProvideValue*
   commentId: Overload:Vortex.Presentation.ControlSlims.Wpf.MultiConverter.ProvideValue
   name: ProvideValue

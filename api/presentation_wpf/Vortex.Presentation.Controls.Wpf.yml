@@ -21,6 +21,7 @@ items:
 references:
 - uid: Vortex.Presentation.Controls.Wpf.DateTimePickerBox
   commentId: T:Vortex.Presentation.Controls.Wpf.DateTimePickerBox
+  parent: Vortex.Presentation.Controls.Wpf
   name: DateTimePickerBox
   nameWithType: DateTimePickerBox
   fullName: Vortex.Presentation.Controls.Wpf.DateTimePickerBox
@@ -36,6 +37,7 @@ references:
   fullName: Vortex.Presentation.Controls.Wpf.MultiConverter
 - uid: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox
   commentId: T:Vortex.Presentation.Controls.Wpf.TimePickerBaseBox
+  parent: Vortex.Presentation.Controls.Wpf
   name: TimePickerBaseBox
   nameWithType: TimePickerBaseBox
   fullName: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox

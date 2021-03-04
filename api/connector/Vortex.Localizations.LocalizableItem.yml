@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizableItem.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LocalizableItem
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizableItem.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizableItem.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Location
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizableItem.cs
@@ -95,7 +95,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizableItem.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Key
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizableItem.cs

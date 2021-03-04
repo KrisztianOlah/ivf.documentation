@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: INavigable
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
@@ -56,7 +56,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddCommand
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
@@ -91,7 +91,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CurrentView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
@@ -103,7 +103,7 @@ items:
     content: FrameworkElement CurrentView { get; set; }
     parameters: []
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: Property CurrentView As FrameworkElement
   overload: Vortex.Presentation.Wpf.INavigable.CurrentView*
   modifiers.csharp:
@@ -123,7 +123,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MenuVisibility
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
@@ -135,7 +135,7 @@ items:
     content: Visibility MenuVisibility { get; set; }
     parameters: []
     return:
-      type: Visibility
+      type: System.Windows.Visibility
     content.vb: Property MenuVisibility As Visibility
   overload: Vortex.Presentation.Wpf.INavigable.MenuVisibility*
   modifiers.csharp:
@@ -155,7 +155,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Title
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
@@ -187,7 +187,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ToggleMenuCommand
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
@@ -220,7 +220,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ContentPresentationMode
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
@@ -253,7 +253,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OpenDefault
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
@@ -279,7 +279,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OpenCommand
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
@@ -414,21 +414,31 @@ references:
   name: CurrentView
   nameWithType: INavigable.CurrentView
   fullName: Vortex.Presentation.Wpf.INavigable.CurrentView
-- uid: FrameworkElement
+- uid: System.Windows.FrameworkElement
+  commentId: T:System.Windows.FrameworkElement
+  parent: System.Windows
   isExternal: true
   name: FrameworkElement
   nameWithType: FrameworkElement
-  fullName: FrameworkElement
+  fullName: System.Windows.FrameworkElement
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
 - uid: Vortex.Presentation.Wpf.INavigable.MenuVisibility*
   commentId: Overload:Vortex.Presentation.Wpf.INavigable.MenuVisibility
   name: MenuVisibility
   nameWithType: INavigable.MenuVisibility
   fullName: Vortex.Presentation.Wpf.INavigable.MenuVisibility
-- uid: Visibility
+- uid: System.Windows.Visibility
+  commentId: T:System.Windows.Visibility
+  parent: System.Windows
   isExternal: true
   name: Visibility
   nameWithType: Visibility
-  fullName: Visibility
+  fullName: System.Windows.Visibility
 - uid: Vortex.Presentation.Wpf.INavigable.Title*
   commentId: Overload:Vortex.Presentation.Wpf.INavigable.Title
   name: Title

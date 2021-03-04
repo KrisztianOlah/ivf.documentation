@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RenderContentConverter
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
@@ -41,10 +41,19 @@ items:
           Implements IValueConverter
   inheritance:
   - System.Object
+  - System.Windows.Markup.MarkupExtension
   derivedClasses:
   - Vortex.Presentation.Wpf.RenderContentDelayedConverter
   implements:
-  - IValueConverter
+  - System.Windows.Data.IValueConverter
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   extensionMethods:
   - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
   modifiers.csharp:
@@ -67,7 +76,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ParentContainer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
@@ -81,7 +90,7 @@ items:
     content: public FrameworkElement ParentContainer { get; set; }
     parameters: []
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: Public Property ParentContainer As FrameworkElement
   overload: Vortex.Presentation.Wpf.RenderContentConverter.ParentContainer*
   modifiers.csharp:
@@ -104,7 +113,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: PresentationType
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
@@ -141,7 +150,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReportingLevel
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
@@ -178,7 +187,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MaxCountInDesignMode
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
@@ -215,7 +224,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: PreferCustomized
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
@@ -250,7 +259,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Convert
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
@@ -277,9 +286,11 @@ items:
       description: Culture
     return:
       type: System.Object
-      description: <see cref="!:FrameworkElement"></see>
+      description: <xref href="System.Windows.FrameworkElement" data-throw-if-not-resolved="false"></xref>
     content.vb: Public Overridable Function Convert(value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object
   overload: Vortex.Presentation.Wpf.RenderContentConverter.Convert*
+  implements:
+  - System.Windows.Data.IValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
   modifiers.csharp:
   - public
   - virtual
@@ -300,7 +311,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ConvertBack
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
@@ -330,6 +341,8 @@ items:
       description: ''
     content.vb: Public Function ConvertBack(value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object
   overload: Vortex.Presentation.Wpf.RenderContentConverter.ConvertBack*
+  implements:
+  - System.Windows.Data.IValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -348,7 +361,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ProvideValue
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/RenderContentConverter.cs
@@ -368,6 +381,7 @@ items:
       type: System.Object
       description: <xref href="Vortex.Presentation.Wpf.RenderContentConverter" data-throw-if-not-resolved="false"></xref>
     content.vb: Public Overrides Function ProvideValue(serviceProvider As IServiceProvider) As Object
+  overridden: System.Windows.Markup.MarkupExtension.ProvideValue(System.IServiceProvider)
   overload: Vortex.Presentation.Wpf.RenderContentConverter.ProvideValue*
   modifiers.csharp:
   - public
@@ -400,11 +414,299 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: IValueConverter
+- uid: System.Windows.Markup.MarkupExtension
+  commentId: T:System.Windows.Markup.MarkupExtension
+  parent: System.Windows.Markup
+  isExternal: true
+  name: MarkupExtension
+  nameWithType: MarkupExtension
+  fullName: System.Windows.Markup.MarkupExtension
+- uid: System.Windows.Data.IValueConverter
+  commentId: T:System.Windows.Data.IValueConverter
+  parent: System.Windows.Data
   isExternal: true
   name: IValueConverter
   nameWithType: IValueConverter
-  fullName: IValueConverter
+  fullName: System.Windows.Data.IValueConverter
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
   commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
   parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
@@ -445,6 +747,18 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Windows.Markup
+  commentId: N:System.Windows.Markup
+  isExternal: true
+  name: System.Windows.Markup
+  nameWithType: System.Windows.Markup
+  fullName: System.Windows.Markup
+- uid: System.Windows.Data
+  commentId: N:System.Windows.Data
+  isExternal: true
+  name: System.Windows.Data
+  nameWithType: System.Windows.Data
+  fullName: System.Windows.Data
 - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
   commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
   isExternal: true
@@ -499,11 +813,19 @@ references:
   name: ParentContainer
   nameWithType: RenderContentConverter.ParentContainer
   fullName: Vortex.Presentation.Wpf.RenderContentConverter.ParentContainer
-- uid: FrameworkElement
+- uid: System.Windows.FrameworkElement
+  commentId: T:System.Windows.FrameworkElement
+  parent: System.Windows
   isExternal: true
   name: FrameworkElement
   nameWithType: FrameworkElement
-  fullName: FrameworkElement
+  fullName: System.Windows.FrameworkElement
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
 - uid: Vortex.Presentation.Wpf.RenderContentConverter.PresentationType*
   commentId: Overload:Vortex.Presentation.Wpf.RenderContentConverter.PresentationType
   name: PresentationType
@@ -550,6 +872,95 @@ references:
   name: Convert
   nameWithType: RenderContentConverter.Convert
   fullName: Vortex.Presentation.Wpf.RenderContentConverter.Convert
+- uid: System.Windows.Data.IValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:System.Windows.Data.IValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: System.Windows.Data.IValueConverter
+  isExternal: true
+  name: Convert(Object, Type, Object, CultureInfo)
+  nameWithType: IValueConverter.Convert(Object, Type, Object, CultureInfo)
+  fullName: System.Windows.Data.IValueConverter.Convert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: System.Windows.Data.IValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: Convert
+    nameWithType: IValueConverter.Convert
+    fullName: System.Windows.Data.IValueConverter.Convert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Data.IValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: Convert
+    nameWithType: IValueConverter.Convert
+    fullName: System.Windows.Data.IValueConverter.Convert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Type
   commentId: T:System.Type
   parent: System
@@ -581,6 +992,136 @@ references:
   name: ConvertBack
   nameWithType: RenderContentConverter.ConvertBack
   fullName: Vortex.Presentation.Wpf.RenderContentConverter.ConvertBack
+- uid: System.Windows.Data.IValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:System.Windows.Data.IValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: System.Windows.Data.IValueConverter
+  isExternal: true
+  name: ConvertBack(Object, Type, Object, CultureInfo)
+  nameWithType: IValueConverter.ConvertBack(Object, Type, Object, CultureInfo)
+  fullName: System.Windows.Data.IValueConverter.ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: System.Windows.Data.IValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: ConvertBack
+    nameWithType: IValueConverter.ConvertBack
+    fullName: System.Windows.Data.IValueConverter.ConvertBack
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Data.IValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: ConvertBack
+    nameWithType: IValueConverter.ConvertBack
+    fullName: System.Windows.Data.IValueConverter.ConvertBack
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Markup.MarkupExtension.ProvideValue(System.IServiceProvider)
+  commentId: M:System.Windows.Markup.MarkupExtension.ProvideValue(System.IServiceProvider)
+  parent: System.Windows.Markup.MarkupExtension
+  isExternal: true
+  name: ProvideValue(IServiceProvider)
+  nameWithType: MarkupExtension.ProvideValue(IServiceProvider)
+  fullName: System.Windows.Markup.MarkupExtension.ProvideValue(System.IServiceProvider)
+  spec.csharp:
+  - uid: System.Windows.Markup.MarkupExtension.ProvideValue(System.IServiceProvider)
+    name: ProvideValue
+    nameWithType: MarkupExtension.ProvideValue
+    fullName: System.Windows.Markup.MarkupExtension.ProvideValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Markup.MarkupExtension.ProvideValue(System.IServiceProvider)
+    name: ProvideValue
+    nameWithType: MarkupExtension.ProvideValue
+    fullName: System.Windows.Markup.MarkupExtension.ProvideValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Vortex.Presentation.Wpf.RenderContentConverter.ProvideValue*
   commentId: Overload:Vortex.Presentation.Wpf.RenderContentConverter.ProvideValue
   name: ProvideValue

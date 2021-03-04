@@ -9,18 +9,18 @@ items:
   - Vortex.Presentation.Wpf.Renderer._cachedTypes
   - Vortex.Presentation.Wpf.Renderer._componentsCache
   - Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.Object,System.Object,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
-  - Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IValueTag,FrameworkElement)
-  - Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,FrameworkElement)
+  - Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement)
+  - Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement)
   - Vortex.Presentation.Wpf.Renderer._instance
   - Vortex.Presentation.Wpf.Renderer._viewAsseblyLookupList
-  - Vortex.Presentation.Wpf.Renderer.AddContainer(FrameworkElement,FrameworkElement,Vortex.Connector.IVortexElement,System.Object)
-  - Vortex.Presentation.Wpf.Renderer.AddElement(ContentControl,Vortex.Connector.IVortexElement,System.String)
-  - Vortex.Presentation.Wpf.Renderer.AddElement(Decorator,Vortex.Connector.IVortexElement,System.String)
-  - Vortex.Presentation.Wpf.Renderer.AddElement(FrameworkElement,Vortex.Connector.IVortexElement,System.String)
-  - Vortex.Presentation.Wpf.Renderer.AddElement(HeaderedContentControl,FrameworkElement,Vortex.Connector.IVortexElement,System.String)
-  - Vortex.Presentation.Wpf.Renderer.AddElement(ItemsControl,Vortex.Connector.IVortexElement,System.String)
-  - Vortex.Presentation.Wpf.Renderer.AddElement(Panel,Vortex.Connector.IVortexElement,System.String)
-  - Vortex.Presentation.Wpf.Renderer.AddElement(Selector,Vortex.Connector.IVortexElement,System.String)
+  - Vortex.Presentation.Wpf.Renderer.AddContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.Object)
+  - Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ContentControl,Vortex.Connector.IVortexElement,System.String)
+  - Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Decorator,Vortex.Connector.IVortexElement,System.String)
+  - Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.HeaderedContentControl,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+  - Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ItemsControl,Vortex.Connector.IVortexElement,System.String)
+  - Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Panel,Vortex.Connector.IVortexElement,System.String)
+  - Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Primitives.Selector,Vortex.Connector.IVortexElement,System.String)
+  - Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
   - Vortex.Presentation.Wpf.Renderer.AddViewModelTypeToComponentsCache(System.String,System.Type,System.Type)
   - Vortex.Presentation.Wpf.Renderer.AddViewTypeToComponentsCache(System.String,System.Type,System.Type)
   - Vortex.Presentation.Wpf.Renderer.assembliesLoaded
@@ -31,17 +31,17 @@ items:
   - Vortex.Presentation.Wpf.Renderer.AttachAssembliesInDesignMode
   - Vortex.Presentation.Wpf.Renderer.AttachAssemblyToLookUpList(System.String)
   - Vortex.Presentation.Wpf.Renderer.ComponentsCache
-  - Vortex.Presentation.Wpf.Renderer.CreateContainer(FrameworkElement,FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Boolean)
+  - Vortex.Presentation.Wpf.Renderer.CreateContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Boolean)
   - Vortex.Presentation.Wpf.Renderer.CreateDefaultContainer
   - Vortex.Presentation.Wpf.Renderer.CreatePresentation(System.Object,System.Object,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32,System.Boolean)
   - Vortex.Presentation.Wpf.Renderer.DesignModeSettings
   - Vortex.Presentation.Wpf.Renderer.Diagnostics
-  - Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary(FrameworkElement,FrameworkElement,System.Object)
+  - Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Object)
   - Vortex.Presentation.Wpf.Renderer.FindClosestModelViewInPipeline(System.String,System.Type)
   - Vortex.Presentation.Wpf.Renderer.FindClosestView(System.String,System.Type)
   - Vortex.Presentation.Wpf.Renderer.FindClosestViewInPipeline(System.String,System.Type)
   - Vortex.Presentation.Wpf.Renderer.FindClosestViewModel(System.String,System.Type)
-  - Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded(System.Object,RoutedEventArgs)
+  - Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded(System.Object,System.Windows.RoutedEventArgs)
   - Vortex.Presentation.Wpf.Renderer.Get
   - Vortex.Presentation.Wpf.Renderer.GetClosestView(System.String,System.Type)
   - Vortex.Presentation.Wpf.Renderer.GetClosestViewModel(System.String,System.Type)
@@ -71,8 +71,8 @@ items:
   - Vortex.Presentation.Wpf.Renderer.ProbeViewLocatorCreator(System.String,Vortex.Connector.IVortexElement)
   - Vortex.Presentation.Wpf.Renderer.RendererBusy
   - Vortex.Presentation.Wpf.Renderer.RendererDone
-  - Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,FrameworkElement,FrameworkElement,System.Int32,System.Int32,System.Boolean)
-  - Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
+  - Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32,System.Boolean)
+  - Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
   - Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation(System.Exception,Vortex.Presentation.Wpf.ReportingLevel)
   - Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation(Vortex.Presentation.Wpf.TooManyObjectsToRenderException,Vortex.Presentation.Wpf.ReportingLevel)
   - Vortex.Presentation.Wpf.Renderer.ReportingSeverity
@@ -90,7 +90,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Renderer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -135,7 +135,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _instance
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -166,7 +166,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: mutex
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -198,7 +198,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _viewAsseblyLookupList
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -229,7 +229,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: assembliesLoaded
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -256,7 +256,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -268,21 +268,21 @@ items:
     content: Renderer()
     content.vb: Sub New
   overload: Vortex.Presentation.Wpf.Renderer.#ctor*
-- uid: Vortex.Presentation.Wpf.Renderer.AddContainer(FrameworkElement,FrameworkElement,Vortex.Connector.IVortexElement,System.Object)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.AddContainer(FrameworkElement,FrameworkElement,Vortex.Connector.IVortexElement,System.Object)
-  id: AddContainer(FrameworkElement,FrameworkElement,Vortex.Connector.IVortexElement,System.Object)
+- uid: Vortex.Presentation.Wpf.Renderer.AddContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.Object)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.Object)
+  id: AddContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.Object)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: AddContainer(FrameworkElement, FrameworkElement, IVortexElement, Object)
   nameWithType: Renderer.AddContainer(FrameworkElement, FrameworkElement, IVortexElement, Object)
-  fullName: Vortex.Presentation.Wpf.Renderer.AddContainer(FrameworkElement, FrameworkElement, Vortex.Connector.IVortexElement, System.Object)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddContainer(System.Windows.FrameworkElement, System.Windows.FrameworkElement, Vortex.Connector.IVortexElement, System.Object)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddContainer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -294,15 +294,15 @@ items:
     content: FrameworkElement AddContainer(FrameworkElement newContainer, FrameworkElement parentContainer, IVortexElement vortexObject, object parentHeader)
     parameters:
     - id: newContainer
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     - id: parentContainer
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     - id: vortexObject
       type: Vortex.Connector.IVortexElement
     - id: parentHeader
       type: System.Object
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: Function AddContainer(newContainer As FrameworkElement, parentContainer As FrameworkElement, vortexObject As IVortexElement, parentHeader As Object) As FrameworkElement
   overload: Vortex.Presentation.Wpf.Renderer.AddContainer*
 - uid: Vortex.Presentation.Wpf.Renderer.AddViewModelTypeToComponentsCache(System.String,System.Type,System.Type)
@@ -319,7 +319,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddViewModelTypeToComponentsCache
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -352,7 +352,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddViewTypeToComponentsCache
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -385,7 +385,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateDefaultContainer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -396,7 +396,7 @@ items:
   syntax:
     content: static FrameworkElement CreateDefaultContainer()
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: Shared Function CreateDefaultContainer As FrameworkElement
   overload: Vortex.Presentation.Wpf.Renderer.CreateDefaultContainer*
   modifiers.csharp:
@@ -417,7 +417,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DesignModeSettings
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -443,7 +443,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: FindClosestModelViewInPipeline
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -476,7 +476,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: FindClosestViewInPipeline
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -509,7 +509,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: FindClosestViewModel
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -542,7 +542,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetContainerAttribute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -575,7 +575,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetGroupAttribute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -608,7 +608,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetGroupedProperies
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -644,7 +644,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetIgnoreRenderingAttribute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -675,7 +675,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetViewFromCache
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -706,7 +706,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetViewModelFromCache
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -737,7 +737,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsDisplayable
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -771,7 +771,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsEnumerator
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -802,7 +802,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ViewViewModelLocatorCreator
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -818,7 +818,7 @@ items:
     - id: element
       type: Vortex.Connector.IVortexElement
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: Function ViewViewModelLocatorCreator(presentationType As String, element As IVortexElement) As FrameworkElement
   overload: Vortex.Presentation.Wpf.Renderer.ViewViewModelLocatorCreator*
 - uid: Vortex.Presentation.Wpf.Renderer.ProbeViewLocatorCreator(System.String,Vortex.Connector.IVortexElement)
@@ -835,7 +835,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ProbeViewLocatorCreator
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -868,7 +868,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _componentsCache
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -895,7 +895,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ComponentsCache
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -933,7 +933,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Diagnostics
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -970,7 +970,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ViewAssemblyLookupList
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -994,21 +994,21 @@ items:
   - get
   modifiers.vb:
   - ReadOnly
-- uid: Vortex.Presentation.Wpf.Renderer.AddElement(FrameworkElement,Vortex.Connector.IVortexElement,System.String)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(FrameworkElement,Vortex.Connector.IVortexElement,System.String)
-  id: AddElement(FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+  id: AddElement(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: AddElement(FrameworkElement, IVortexElement, String)
   nameWithType: Renderer.AddElement(FrameworkElement, IVortexElement, String)
-  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(FrameworkElement, Vortex.Connector.IVortexElement, System.String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.FrameworkElement, Vortex.Connector.IVortexElement, System.String)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1020,7 +1020,7 @@ items:
     content: bool AddElement(FrameworkElement container, IVortexElement vortexObject, string presentationType)
     parameters:
     - id: container
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     - id: vortexObject
       type: Vortex.Connector.IVortexElement
     - id: presentationType
@@ -1029,21 +1029,21 @@ items:
       type: System.Boolean
     content.vb: Function AddElement(container As FrameworkElement, vortexObject As IVortexElement, presentationType As String) As Boolean
   overload: Vortex.Presentation.Wpf.Renderer.AddElement*
-- uid: Vortex.Presentation.Wpf.Renderer.AddElement(Decorator,Vortex.Connector.IVortexElement,System.String)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(Decorator,Vortex.Connector.IVortexElement,System.String)
-  id: AddElement(Decorator,Vortex.Connector.IVortexElement,System.String)
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Decorator,Vortex.Connector.IVortexElement,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Decorator,Vortex.Connector.IVortexElement,System.String)
+  id: AddElement(System.Windows.Controls.Decorator,Vortex.Connector.IVortexElement,System.String)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: AddElement(Decorator, IVortexElement, String)
   nameWithType: Renderer.AddElement(Decorator, IVortexElement, String)
-  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(Decorator, Vortex.Connector.IVortexElement, System.String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Decorator, Vortex.Connector.IVortexElement, System.String)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1055,7 +1055,7 @@ items:
     content: bool AddElement(Decorator container, IVortexElement vortexObject, string presentationType)
     parameters:
     - id: container
-      type: Decorator
+      type: System.Windows.Controls.Decorator
     - id: vortexObject
       type: Vortex.Connector.IVortexElement
     - id: presentationType
@@ -1064,21 +1064,21 @@ items:
       type: System.Boolean
     content.vb: Function AddElement(container As Decorator, vortexObject As IVortexElement, presentationType As String) As Boolean
   overload: Vortex.Presentation.Wpf.Renderer.AddElement*
-- uid: Vortex.Presentation.Wpf.Renderer.AddElement(Panel,Vortex.Connector.IVortexElement,System.String)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(Panel,Vortex.Connector.IVortexElement,System.String)
-  id: AddElement(Panel,Vortex.Connector.IVortexElement,System.String)
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Panel,Vortex.Connector.IVortexElement,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Panel,Vortex.Connector.IVortexElement,System.String)
+  id: AddElement(System.Windows.Controls.Panel,Vortex.Connector.IVortexElement,System.String)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: AddElement(Panel, IVortexElement, String)
   nameWithType: Renderer.AddElement(Panel, IVortexElement, String)
-  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(Panel, Vortex.Connector.IVortexElement, System.String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Panel, Vortex.Connector.IVortexElement, System.String)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1090,7 +1090,7 @@ items:
     content: bool AddElement(Panel container, IVortexElement vortexObject, string presentationType)
     parameters:
     - id: container
-      type: Panel
+      type: System.Windows.Controls.Panel
     - id: vortexObject
       type: Vortex.Connector.IVortexElement
     - id: presentationType
@@ -1099,21 +1099,21 @@ items:
       type: System.Boolean
     content.vb: Function AddElement(container As Panel, vortexObject As IVortexElement, presentationType As String) As Boolean
   overload: Vortex.Presentation.Wpf.Renderer.AddElement*
-- uid: Vortex.Presentation.Wpf.Renderer.AddElement(ContentControl,Vortex.Connector.IVortexElement,System.String)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(ContentControl,Vortex.Connector.IVortexElement,System.String)
-  id: AddElement(ContentControl,Vortex.Connector.IVortexElement,System.String)
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ContentControl,Vortex.Connector.IVortexElement,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ContentControl,Vortex.Connector.IVortexElement,System.String)
+  id: AddElement(System.Windows.Controls.ContentControl,Vortex.Connector.IVortexElement,System.String)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: AddElement(ContentControl, IVortexElement, String)
   nameWithType: Renderer.AddElement(ContentControl, IVortexElement, String)
-  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(ContentControl, Vortex.Connector.IVortexElement, System.String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ContentControl, Vortex.Connector.IVortexElement, System.String)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1125,7 +1125,7 @@ items:
     content: bool AddElement(ContentControl container, IVortexElement vortexObject, string presentationType)
     parameters:
     - id: container
-      type: ContentControl
+      type: System.Windows.Controls.ContentControl
     - id: vortexObject
       type: Vortex.Connector.IVortexElement
     - id: presentationType
@@ -1134,21 +1134,21 @@ items:
       type: System.Boolean
     content.vb: Function AddElement(container As ContentControl, vortexObject As IVortexElement, presentationType As String) As Boolean
   overload: Vortex.Presentation.Wpf.Renderer.AddElement*
-- uid: Vortex.Presentation.Wpf.Renderer.AddElement(ItemsControl,Vortex.Connector.IVortexElement,System.String)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(ItemsControl,Vortex.Connector.IVortexElement,System.String)
-  id: AddElement(ItemsControl,Vortex.Connector.IVortexElement,System.String)
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ItemsControl,Vortex.Connector.IVortexElement,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ItemsControl,Vortex.Connector.IVortexElement,System.String)
+  id: AddElement(System.Windows.Controls.ItemsControl,Vortex.Connector.IVortexElement,System.String)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: AddElement(ItemsControl, IVortexElement, String)
   nameWithType: Renderer.AddElement(ItemsControl, IVortexElement, String)
-  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(ItemsControl, Vortex.Connector.IVortexElement, System.String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.ItemsControl, Vortex.Connector.IVortexElement, System.String)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1160,7 +1160,7 @@ items:
     content: bool AddElement(ItemsControl container, IVortexElement vortexObject, string presentationType)
     parameters:
     - id: container
-      type: ItemsControl
+      type: System.Windows.Controls.ItemsControl
     - id: vortexObject
       type: Vortex.Connector.IVortexElement
     - id: presentationType
@@ -1169,21 +1169,21 @@ items:
       type: System.Boolean
     content.vb: Function AddElement(container As ItemsControl, vortexObject As IVortexElement, presentationType As String) As Boolean
   overload: Vortex.Presentation.Wpf.Renderer.AddElement*
-- uid: Vortex.Presentation.Wpf.Renderer.AddElement(Selector,Vortex.Connector.IVortexElement,System.String)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(Selector,Vortex.Connector.IVortexElement,System.String)
-  id: AddElement(Selector,Vortex.Connector.IVortexElement,System.String)
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Primitives.Selector,Vortex.Connector.IVortexElement,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Primitives.Selector,Vortex.Connector.IVortexElement,System.String)
+  id: AddElement(System.Windows.Controls.Primitives.Selector,Vortex.Connector.IVortexElement,System.String)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: AddElement(Selector, IVortexElement, String)
   nameWithType: Renderer.AddElement(Selector, IVortexElement, String)
-  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(Selector, Vortex.Connector.IVortexElement, System.String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.Primitives.Selector, Vortex.Connector.IVortexElement, System.String)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1195,7 +1195,7 @@ items:
     content: bool AddElement(Selector container, IVortexElement vortexObject, string presentationType)
     parameters:
     - id: container
-      type: Selector
+      type: System.Windows.Controls.Primitives.Selector
     - id: vortexObject
       type: Vortex.Connector.IVortexElement
     - id: presentationType
@@ -1204,21 +1204,21 @@ items:
       type: System.Boolean
     content.vb: Function AddElement(container As Selector, vortexObject As IVortexElement, presentationType As String) As Boolean
   overload: Vortex.Presentation.Wpf.Renderer.AddElement*
-- uid: Vortex.Presentation.Wpf.Renderer.AddElement(HeaderedContentControl,FrameworkElement,Vortex.Connector.IVortexElement,System.String)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(HeaderedContentControl,FrameworkElement,Vortex.Connector.IVortexElement,System.String)
-  id: AddElement(HeaderedContentControl,FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+- uid: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.HeaderedContentControl,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.HeaderedContentControl,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
+  id: AddElement(System.Windows.Controls.HeaderedContentControl,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: AddElement(HeaderedContentControl, FrameworkElement, IVortexElement, String)
   nameWithType: Renderer.AddElement(HeaderedContentControl, FrameworkElement, IVortexElement, String)
-  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(HeaderedContentControl, FrameworkElement, Vortex.Connector.IVortexElement, System.String)
+  fullName: Vortex.Presentation.Wpf.Renderer.AddElement(System.Windows.Controls.HeaderedContentControl, System.Windows.FrameworkElement, Vortex.Connector.IVortexElement, System.String)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1230,9 +1230,9 @@ items:
     content: bool AddElement(HeaderedContentControl container, FrameworkElement parentContainer, IVortexElement vortexObject, string presentationType)
     parameters:
     - id: container
-      type: HeaderedContentControl
+      type: System.Windows.Controls.HeaderedContentControl
     - id: parentContainer
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     - id: vortexObject
       type: Vortex.Connector.IVortexElement
     - id: presentationType
@@ -1255,7 +1255,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _cachedTypes
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1286,7 +1286,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetTypeToCreate
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1305,21 +1305,21 @@ items:
       type: System.Type
     content.vb: Function GetTypeToCreate(assembly As String, fullTypeName As String) As Type
   overload: Vortex.Presentation.Wpf.Renderer.GetTypeToCreate*
-- uid: Vortex.Presentation.Wpf.Renderer.CreateContainer(FrameworkElement,FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Boolean)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.CreateContainer(FrameworkElement,FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Boolean)
-  id: CreateContainer(FrameworkElement,FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Boolean)
+- uid: Vortex.Presentation.Wpf.Renderer.CreateContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Boolean)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.CreateContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Boolean)
+  id: CreateContainer(System.Windows.FrameworkElement,System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Boolean)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: CreateContainer(FrameworkElement, FrameworkElement, IVortexElement, String, Boolean)
   nameWithType: Renderer.CreateContainer(FrameworkElement, FrameworkElement, IVortexElement, String, Boolean)
-  fullName: Vortex.Presentation.Wpf.Renderer.CreateContainer(FrameworkElement, FrameworkElement, Vortex.Connector.IVortexElement, System.String, System.Boolean)
+  fullName: Vortex.Presentation.Wpf.Renderer.CreateContainer(System.Windows.FrameworkElement, System.Windows.FrameworkElement, Vortex.Connector.IVortexElement, System.String, System.Boolean)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateContainer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1331,9 +1331,9 @@ items:
     content: FrameworkElement CreateContainer(FrameworkElement parentContainer, FrameworkElement previousContainer, IVortexElement vortexObject, string presentationType, bool preferCustomized)
     parameters:
     - id: parentContainer
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     - id: previousContainer
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     - id: vortexObject
       type: Vortex.Connector.IVortexElement
     - id: presentationType
@@ -1341,24 +1341,24 @@ items:
     - id: preferCustomized
       type: System.Boolean
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: Function CreateContainer(parentContainer As FrameworkElement, previousContainer As FrameworkElement, vortexObject As IVortexElement, presentationType As String, preferCustomized As Boolean) As FrameworkElement
   overload: Vortex.Presentation.Wpf.Renderer.CreateContainer*
-- uid: Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary(FrameworkElement,FrameworkElement,System.Object)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary(FrameworkElement,FrameworkElement,System.Object)
-  id: EnvelopeIfNecessary(FrameworkElement,FrameworkElement,System.Object)
+- uid: Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Object)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Object)
+  id: EnvelopeIfNecessary(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Object)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: EnvelopeIfNecessary(FrameworkElement, FrameworkElement, Object)
   nameWithType: Renderer.EnvelopeIfNecessary(FrameworkElement, FrameworkElement, Object)
-  fullName: Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary(FrameworkElement, FrameworkElement, System.Object)
+  fullName: Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary(System.Windows.FrameworkElement, System.Windows.FrameworkElement, System.Object)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EnvelopeIfNecessary
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1370,13 +1370,13 @@ items:
     content: FrameworkElement EnvelopeIfNecessary(FrameworkElement newContainer, FrameworkElement parentContainer, object parentHeader)
     parameters:
     - id: newContainer
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     - id: parentContainer
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     - id: parentHeader
       type: System.Object
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: Function EnvelopeIfNecessary(newContainer As FrameworkElement, parentContainer As FrameworkElement, parentHeader As Object) As FrameworkElement
   overload: Vortex.Presentation.Wpf.Renderer.EnvelopeIfNecessary*
 - uid: Vortex.Presentation.Wpf.Renderer.FindClosestView(System.String,System.Type)
@@ -1393,7 +1393,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: FindClosestView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1412,21 +1412,21 @@ items:
       type: System.Type
     content.vb: Function FindClosestView(presentationType As String, objType As Type) As Type
   overload: Vortex.Presentation.Wpf.Renderer.FindClosestView*
-- uid: Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded(System.Object,RoutedEventArgs)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded(System.Object,RoutedEventArgs)
-  id: FrameworkElementLoaded(System.Object,RoutedEventArgs)
+- uid: Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded(System.Object,System.Windows.RoutedEventArgs)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded(System.Object,System.Windows.RoutedEventArgs)
+  id: FrameworkElementLoaded(System.Object,System.Windows.RoutedEventArgs)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: FrameworkElementLoaded(Object, RoutedEventArgs)
   nameWithType: Renderer.FrameworkElementLoaded(Object, RoutedEventArgs)
-  fullName: Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded(System.Object, RoutedEventArgs)
+  fullName: Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded(System.Object, System.Windows.RoutedEventArgs)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: FrameworkElementLoaded
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1440,7 +1440,7 @@ items:
     - id: sender
       type: System.Object
     - id: e
-      type: RoutedEventArgs
+      type: System.Windows.RoutedEventArgs
     content.vb: Sub FrameworkElementLoaded(sender As Object, e As RoutedEventArgs)
   overload: Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded*
 - uid: Vortex.Presentation.Wpf.Renderer.GetClosestView(System.String,System.Type)
@@ -1457,7 +1457,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetClosestView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1490,7 +1490,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetClosestViewModel
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1523,7 +1523,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetHeader
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1560,7 +1560,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetSortedProperties
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1596,7 +1596,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetSortedProperties
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1632,7 +1632,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HasIgnore
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1665,7 +1665,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsObjectCountReached
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1701,7 +1701,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RendererBusy
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1727,7 +1727,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RendererDone
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1739,21 +1739,21 @@ items:
     content: void RendererDone()
     content.vb: Sub RendererDone
   overload: Vortex.Presentation.Wpf.Renderer.RendererDone*
-- uid: Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,FrameworkElement,FrameworkElement,System.Int32,System.Int32,System.Boolean)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,FrameworkElement,FrameworkElement,System.Int32,System.Int32,System.Boolean)
-  id: RenderPresentation(System.String,Vortex.Connector.IValueTag,FrameworkElement,FrameworkElement,System.Int32,System.Int32,System.Boolean)
+- uid: Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32,System.Boolean)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32,System.Boolean)
+  id: RenderPresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32,System.Boolean)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: RenderPresentation(String, IValueTag, FrameworkElement, FrameworkElement, Int32, Int32, Boolean)
   nameWithType: Renderer.RenderPresentation(String, IValueTag, FrameworkElement, FrameworkElement, Int32, Int32, Boolean)
-  fullName: Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String, Vortex.Connector.IValueTag, FrameworkElement, FrameworkElement, System.Int32, System.Int32, System.Boolean)
+  fullName: Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String, Vortex.Connector.IValueTag, System.Windows.FrameworkElement, System.Windows.FrameworkElement, System.Int32, System.Int32, System.Boolean)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RenderPresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1769,9 +1769,9 @@ items:
     - id: valueTag
       type: Vortex.Connector.IValueTag
     - id: container
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     - id: parentContainer
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     - id: objectCount
       type: System.Int32
     - id: maxObjectsCount
@@ -1779,24 +1779,24 @@ items:
     - id: preferCustomized
       type: System.Boolean
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: Function RenderPresentation(presentationType As String, valueTag As IValueTag, container As FrameworkElement = Nothing, parentContainer As FrameworkElement = Nothing, objectCount As Integer = 0, maxObjectsCount As Integer = 2147483647, preferCustomized As Boolean = False) As FrameworkElement
   overload: Vortex.Presentation.Wpf.Renderer.RenderPresentation*
-- uid: Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
-  id: RenderPresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,FrameworkElement,FrameworkElement,System.Int32,System.Int32)
+- uid: Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
+  commentId: M:Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
+  id: RenderPresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: RenderPresentation(String, IVortexObject, Boolean, FrameworkElement, FrameworkElement, Int32, Int32)
   nameWithType: Renderer.RenderPresentation(String, IVortexObject, Boolean, FrameworkElement, FrameworkElement, Int32, Int32)
-  fullName: Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String, Vortex.Connector.IVortexObject, System.Boolean, FrameworkElement, FrameworkElement, System.Int32, System.Int32)
+  fullName: Vortex.Presentation.Wpf.Renderer.RenderPresentation(System.String, Vortex.Connector.IVortexObject, System.Boolean, System.Windows.FrameworkElement, System.Windows.FrameworkElement, System.Int32, System.Int32)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RenderPresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1817,15 +1817,15 @@ items:
     - id: preferCustomized
       type: System.Boolean
     - id: container
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     - id: parentContainer
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     - id: objectCount
       type: System.Int32
     - id: maxObjectsCount
       type: System.Int32
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: >-
       <STAThread>
 
@@ -1849,7 +1849,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InvalidLicenseView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1863,7 +1863,7 @@ items:
     - id: message
       type: System.String
     return:
-      type: Panel
+      type: System.Windows.Controls.Panel
     content.vb: Shared Function InvalidLicenseView(message As String) As Panel
   overload: Vortex.Presentation.Wpf.Renderer.InvalidLicenseView*
   modifiers.csharp:
@@ -1884,7 +1884,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReportErrorOnElementCreation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1900,7 +1900,7 @@ items:
     - id: messageSeverity
       type: Vortex.Presentation.Wpf.ReportingLevel
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: Function ReportErrorOnElementCreation(description As Exception, messageSeverity As ReportingLevel) As FrameworkElement
   overload: Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation*
 - uid: Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation(Vortex.Presentation.Wpf.TooManyObjectsToRenderException,Vortex.Presentation.Wpf.ReportingLevel)
@@ -1917,7 +1917,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReportErrorOnElementCreation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1933,7 +1933,7 @@ items:
     - id: messageSeverity
       type: Vortex.Presentation.Wpf.ReportingLevel
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: Function ReportErrorOnElementCreation(exception As TooManyObjectsToRenderException, messageSeverity As ReportingLevel) As FrameworkElement
   overload: Vortex.Presentation.Wpf.Renderer.ReportErrorOnElementCreation*
 - uid: Vortex.Presentation.Wpf.Renderer.ViewViewModelLocator(System.String,Vortex.Connector.IVortexElement)
@@ -1950,7 +1950,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ViewViewModelLocator
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -1966,7 +1966,7 @@ items:
     - id: obj
       type: Vortex.Connector.IVortexElement
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: Function ViewViewModelLocator(presentationType As String, obj As IVortexElement) As FrameworkElement
   overload: Vortex.Presentation.Wpf.Renderer.ViewViewModelLocator*
 - uid: Vortex.Presentation.Wpf.Renderer.ProbeViewLocator(System.String,Vortex.Connector.IVortexElement)
@@ -1983,7 +1983,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ProbeViewLocator
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2016,7 +2016,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MaxObjectCountInDesign
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2053,7 +2053,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttachAssembliesInDesignMode
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2081,7 +2081,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttachAllAssemblieFromApplicationDomain
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2109,7 +2109,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttachAllAssembliesAtRuntime
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2137,7 +2137,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttachAllAssemblies
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2163,7 +2163,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttachAllAssembliesApplicationFolder
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2189,7 +2189,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttachAssemblyToLookUpList
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2211,21 +2211,21 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,FrameworkElement)
-  commentId: M:Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,FrameworkElement)
-  id: _CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,FrameworkElement)
+- uid: Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement)
+  commentId: M:Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement)
+  id: _CreatePresentation(System.String,Vortex.Connector.IVortexObject,System.Boolean,System.Windows.FrameworkElement)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: _CreatePresentation(String, IVortexObject, Boolean, FrameworkElement)
   nameWithType: Renderer._CreatePresentation(String, IVortexObject, Boolean, FrameworkElement)
-  fullName: Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String, Vortex.Connector.IVortexObject, System.Boolean, FrameworkElement)
+  fullName: Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String, Vortex.Connector.IVortexObject, System.Boolean, System.Windows.FrameworkElement)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _CreatePresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2247,28 +2247,28 @@ items:
     - id: preferCustomized
       type: System.Boolean
     - id: parentContainer
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
       description: Optionally can be parent UI container.
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
       description: ''
     content.vb: Function _CreatePresentation(presentationType As String, vortexObject As IVortexObject, preferCustomized As Boolean, parentContainer As FrameworkElement = Nothing) As FrameworkElement
   overload: Vortex.Presentation.Wpf.Renderer._CreatePresentation*
-- uid: Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IValueTag,FrameworkElement)
-  commentId: M:Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IValueTag,FrameworkElement)
-  id: _CreatePresentation(System.String,Vortex.Connector.IValueTag,FrameworkElement)
+- uid: Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement)
+  commentId: M:Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement)
+  id: _CreatePresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement)
   parent: Vortex.Presentation.Wpf.Renderer
   langs:
   - csharp
   - vb
   name: _CreatePresentation(String, IValueTag, FrameworkElement)
   nameWithType: Renderer._CreatePresentation(String, IValueTag, FrameworkElement)
-  fullName: Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String, Vortex.Connector.IValueTag, FrameworkElement)
+  fullName: Vortex.Presentation.Wpf.Renderer._CreatePresentation(System.String, Vortex.Connector.IValueTag, System.Windows.FrameworkElement)
   type: Method
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _CreatePresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2288,10 +2288,10 @@ items:
       type: Vortex.Connector.IValueTag
       description: <xref href="Vortex.Connector.IValueTag" data-throw-if-not-resolved="false"></xref> from which the presentation will be rendered.
     - id: parentContainer
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
       description: Optionally can be parent UI container.
     return:
-      type: FrameworkElement
+      type: System.Windows.FrameworkElement
     content.vb: Function _CreatePresentation(presentationType As String, vortexObject As IValueTag, parentContainer As FrameworkElement = Nothing) As FrameworkElement
   overload: Vortex.Presentation.Wpf.Renderer._CreatePresentation*
 - uid: Vortex.Presentation.Wpf.Renderer.CreatePresentation(System.Object,System.Object,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32,System.Boolean)
@@ -2308,7 +2308,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreatePresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2362,7 +2362,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _CreatePresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2401,7 +2401,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetEnumeratorDiscriminatorAttribute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2440,7 +2440,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetPropertyViaSymbol
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2479,7 +2479,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetReferencedAssemblies
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2514,7 +2514,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Get
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2553,7 +2553,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReportingSeverity
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2590,7 +2590,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2632,7 +2632,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetViewModel
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -2677,7 +2677,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SecurityProvider_OnAnyAuthenticationEvent
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -3197,17 +3197,25 @@ references:
   name: AddContainer
   nameWithType: Renderer.AddContainer
   fullName: Vortex.Presentation.Wpf.Renderer.AddContainer
-- uid: FrameworkElement
+- uid: System.Windows.FrameworkElement
+  commentId: T:System.Windows.FrameworkElement
+  parent: System.Windows
   isExternal: true
   name: FrameworkElement
   nameWithType: FrameworkElement
-  fullName: FrameworkElement
+  fullName: System.Windows.FrameworkElement
 - uid: Vortex.Connector.IVortexElement
   commentId: T:Vortex.Connector.IVortexElement
   parent: Vortex.Connector
   name: IVortexElement
   nameWithType: IVortexElement
   fullName: Vortex.Connector.IVortexElement
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
 - uid: Vortex.Presentation.Wpf.Renderer.AddViewModelTypeToComponentsCache*
   commentId: Overload:Vortex.Presentation.Wpf.Renderer.AddViewModelTypeToComponentsCache
   name: AddViewModelTypeToComponentsCache
@@ -3625,40 +3633,60 @@ references:
   name: AddElement
   nameWithType: Renderer.AddElement
   fullName: Vortex.Presentation.Wpf.Renderer.AddElement
-- uid: Decorator
-  commentId: '!:Decorator'
+- uid: System.Windows.Controls.Decorator
+  commentId: T:System.Windows.Controls.Decorator
+  parent: System.Windows.Controls
   isExternal: true
   name: Decorator
   nameWithType: Decorator
-  fullName: Decorator
-- uid: Panel
+  fullName: System.Windows.Controls.Decorator
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+- uid: System.Windows.Controls.Panel
+  commentId: T:System.Windows.Controls.Panel
+  parent: System.Windows.Controls
   isExternal: true
   name: Panel
   nameWithType: Panel
-  fullName: Panel
-- uid: ContentControl
+  fullName: System.Windows.Controls.Panel
+- uid: System.Windows.Controls.ContentControl
+  commentId: T:System.Windows.Controls.ContentControl
+  parent: System.Windows.Controls
   isExternal: true
   name: ContentControl
   nameWithType: ContentControl
-  fullName: ContentControl
-- uid: ItemsControl
-  commentId: '!:ItemsControl'
+  fullName: System.Windows.Controls.ContentControl
+- uid: System.Windows.Controls.ItemsControl
+  commentId: T:System.Windows.Controls.ItemsControl
+  parent: System.Windows.Controls
   isExternal: true
   name: ItemsControl
   nameWithType: ItemsControl
-  fullName: ItemsControl
-- uid: Selector
-  commentId: '!:Selector'
+  fullName: System.Windows.Controls.ItemsControl
+- uid: System.Windows.Controls.Primitives.Selector
+  commentId: T:System.Windows.Controls.Primitives.Selector
+  parent: System.Windows.Controls.Primitives
   isExternal: true
   name: Selector
   nameWithType: Selector
-  fullName: Selector
-- uid: HeaderedContentControl
-  commentId: '!:HeaderedContentControl'
+  fullName: System.Windows.Controls.Primitives.Selector
+- uid: System.Windows.Controls.Primitives
+  commentId: N:System.Windows.Controls.Primitives
+  isExternal: true
+  name: System.Windows.Controls.Primitives
+  nameWithType: System.Windows.Controls.Primitives
+  fullName: System.Windows.Controls.Primitives
+- uid: System.Windows.Controls.HeaderedContentControl
+  commentId: T:System.Windows.Controls.HeaderedContentControl
+  parent: System.Windows.Controls
   isExternal: true
   name: HeaderedContentControl
   nameWithType: HeaderedContentControl
-  fullName: HeaderedContentControl
+  fullName: System.Windows.Controls.HeaderedContentControl
 - uid: System.Collections.Generic.Dictionary{System.String,System.Type}
   commentId: T:System.Collections.Generic.Dictionary{System.String,System.Type}
   parent: System.Collections.Generic
@@ -3795,11 +3823,13 @@ references:
   name: FrameworkElementLoaded
   nameWithType: Renderer.FrameworkElementLoaded
   fullName: Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded
-- uid: RoutedEventArgs
+- uid: System.Windows.RoutedEventArgs
+  commentId: T:System.Windows.RoutedEventArgs
+  parent: System.Windows
   isExternal: true
   name: RoutedEventArgs
   nameWithType: RoutedEventArgs
-  fullName: RoutedEventArgs
+  fullName: System.Windows.RoutedEventArgs
 - uid: Vortex.Presentation.Wpf.Renderer.GetClosestView*
   commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetClosestView
   name: GetClosestView

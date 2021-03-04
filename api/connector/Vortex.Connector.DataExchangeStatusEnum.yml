@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DataExchangeStatusEnum
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
@@ -54,7 +54,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NoComm
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
@@ -88,7 +88,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Init
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
@@ -122,7 +122,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolLoading
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
@@ -156,7 +156,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
-      branch: fix/issue_with_fbDateTime_from_mh
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Live
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Connector/DataExchangeStatus.cs
