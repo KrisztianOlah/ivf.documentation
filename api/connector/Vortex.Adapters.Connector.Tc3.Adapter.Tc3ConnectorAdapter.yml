@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/Tc3Connector.cs
-      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Tc3ConnectorAdapter
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/Tc3Connector.cs
@@ -33,6 +33,7 @@ items:
     content: 'public class Tc3ConnectorAdapter : ConnectorAdapter'
     content.vb: >-
       Public Class Tc3ConnectorAdapter
+
           Inherits ConnectorAdapter
   inheritance:
   - System.Object
@@ -72,7 +73,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/Tc3Connector.cs
-      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/Tc3Connector.cs
@@ -116,7 +117,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/Tc3Connector.cs
-      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/Tc3Connector.cs
@@ -159,7 +160,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/Tc3Connector.cs
-      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Create
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/Tc3Connector.cs
@@ -212,7 +213,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/Tc3Connector.cs
-      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Create
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/Tc3Connector.cs

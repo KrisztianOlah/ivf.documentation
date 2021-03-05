@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/MultiConverter.cs
-      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MultiConverter
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/MultiConverter.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/MultiConverter.cs
-      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Convert
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/MultiConverter.cs
@@ -113,7 +113,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/MultiConverter.cs
-      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ConvertBack
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/MultiConverter.cs
@@ -159,7 +159,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/MultiConverter.cs
-      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ProvideValue
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/MultiConverter.cs

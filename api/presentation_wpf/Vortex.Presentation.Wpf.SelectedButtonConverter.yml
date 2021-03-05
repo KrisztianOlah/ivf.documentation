@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/SelectedButtonConverter.cs
-      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SelectedButtonConverter
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/SelectedButtonConverter.cs
@@ -71,7 +71,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/SelectedButtonConverter.cs
-      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ToConvert
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/SelectedButtonConverter.cs
@@ -118,7 +118,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/SelectedButtonConverter.cs
-      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SelectedTemplate
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/SelectedButtonConverter.cs
@@ -156,7 +156,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/SelectedButtonConverter.cs
-      branch: 70d49ebdc88d95e240baf16f0d6471c1aa0edad4
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NotSelectedTemplate
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/SelectedButtonConverter.cs
