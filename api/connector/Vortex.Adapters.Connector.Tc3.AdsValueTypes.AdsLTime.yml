@@ -39,7 +39,9 @@ items:
     content: 'sealed class AdsLTime : OnlinerLTime, INotifyPropertyChanged, IValueBoundaries<TimeSpan>, IOnlineLTime, IOnline<TimeSpan>, IShadowLTime, IShadow<TimeSpan>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsLTime
+
           Inherits OnlinerLTime
+
           Implements INotifyPropertyChanged, IValueBoundaries(Of TimeSpan), IOnlineLTime, IOnline(Of TimeSpan), IShadowLTime, IShadow(Of TimeSpan), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object

@@ -74,7 +74,9 @@ items:
     content: 'class AdsConnector : IConnector, IVortexObject, ITwinObject, IVortexElement, IDisposable, INotifyPropertyChanged'
     content.vb: >-
       Class AdsConnector
+
           Inherits IConnector
+
           Implements IVortexObject, ITwinObject, IVortexElement, IDisposable, INotifyPropertyChanged
   inheritance:
   - System.Object

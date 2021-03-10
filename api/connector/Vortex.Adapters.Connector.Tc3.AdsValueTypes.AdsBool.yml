@@ -37,7 +37,9 @@ items:
     content: 'sealed class AdsBool : OnlinerBool, INotifyPropertyChanged, IValueBoundaries<bool>, IOnlineBool, IOnline<bool>, IShadowBool, IShadow<bool>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsBool
+
           Inherits OnlinerBool
+
           Implements INotifyPropertyChanged, IValueBoundaries(Of Boolean), IOnlineBool, IOnline(Of Boolean), IShadowBool, IShadow(Of Boolean), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object

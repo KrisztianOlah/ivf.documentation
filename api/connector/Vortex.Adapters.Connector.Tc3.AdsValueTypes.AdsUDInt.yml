@@ -37,7 +37,9 @@ items:
     content: 'sealed class AdsUDInt : OnlinerUDInt, INotifyPropertyChanged, IValueBoundaries<uint>, IOnlineUDInt, IOnline<uint>, IShadowUDInt, IShadow<uint>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsUDInt
+
           Inherits OnlinerUDInt
+
           Implements INotifyPropertyChanged, IValueBoundaries(Of UInteger), IOnlineUDInt, IOnline(Of UInteger), IShadowUDInt, IShadow(Of UInteger), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object

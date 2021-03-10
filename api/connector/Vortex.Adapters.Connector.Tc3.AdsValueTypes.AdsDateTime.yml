@@ -37,7 +37,9 @@ items:
     content: 'sealed class AdsDateTime : OnlinerDateTime, INotifyPropertyChanged, IValueBoundaries<DateTime>, IOnlineDateTime, IOnline<DateTime>, IShadowDateTime, IShadow<DateTime>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsDateTime
+
           Inherits OnlinerDateTime
+
           Implements INotifyPropertyChanged, IValueBoundaries(Of Date), IOnlineDateTime, IOnline(Of Date), IShadowDateTime, IShadow(Of Date), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object

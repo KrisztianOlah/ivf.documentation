@@ -37,7 +37,9 @@ items:
     content: 'sealed class AdsWord : OnlinerWord, INotifyPropertyChanged, IValueBoundaries<ushort>, IOnlineWord, IOnline<ushort>, IShadowWord, IShadow<ushort>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsWord
+
           Inherits OnlinerWord
+
           Implements INotifyPropertyChanged, IValueBoundaries(Of UShort), IOnlineWord, IOnline(Of UShort), IShadowWord, IShadow(Of UShort), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object

@@ -62,6 +62,7 @@ items:
     content: 'sealed class OnlineVariableInfo : IValueTagInfo'
     content.vb: >-
       NotInheritable Class OnlineVariableInfo
+
           Implements IValueTagInfo
   inheritance:
   - System.Object
