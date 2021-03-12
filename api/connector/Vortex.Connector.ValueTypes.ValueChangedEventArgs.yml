@@ -31,7 +31,6 @@ items:
     content: 'public class ValueChangedEventArgs : EventArgs'
     content.vb: >-
       Public Class ValueChangedEventArgs
-
           Inherits EventArgs
   inheritance:
   - System.Object

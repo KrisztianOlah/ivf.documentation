@@ -33,7 +33,6 @@ items:
     content: 'public class NullVortexIdentity : IVortexIdentity'
     content.vb: >-
       Public Class NullVortexIdentity
-
           Implements IVortexIdentity
   inheritance:
   - System.Object

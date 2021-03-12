@@ -31,7 +31,6 @@ items:
     content: 'public class TypeMetaDescriptorAttribute : Attribute'
     content.vb: >-
       Public Class TypeMetaDescriptorAttribute
-
           Inherits Attribute
   inheritance:
   - System.Object

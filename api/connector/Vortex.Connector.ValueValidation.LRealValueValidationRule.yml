@@ -31,7 +31,6 @@ items:
     content: 'public class LRealValueValidationRule : OnlinerValidationRule<double>'
     content.vb: >-
       Public Class LRealValueValidationRule
-
           Inherits OnlinerValidationRule(Of Double)
   inheritance:
   - System.Object

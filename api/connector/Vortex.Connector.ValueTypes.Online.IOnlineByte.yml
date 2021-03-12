@@ -29,7 +29,6 @@ items:
     content: 'public interface IOnlineByte : IOnline<byte>'
     content.vb: >-
       Public Interface IOnlineByte
-
           Inherits IOnline(Of Byte)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Online.IOnline{System.Byte}.Symbol

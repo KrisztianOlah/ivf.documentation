@@ -31,7 +31,6 @@ items:
     content: 'public class LWordValueValidationRule : OnlinerValidationRule<ulong>'
     content.vb: >-
       Public Class LWordValueValidationRule
-
           Inherits OnlinerValidationRule(Of ULong)
   inheritance:
   - System.Object

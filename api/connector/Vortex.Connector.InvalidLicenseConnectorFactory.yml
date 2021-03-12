@@ -30,7 +30,6 @@ items:
     content: 'public class InvalidLicenseConnectorFactory : DummyConnectorFactory'
     content.vb: >-
       Public Class InvalidLicenseConnectorFactory
-
           Inherits DummyConnectorFactory
   inheritance:
   - System.Object

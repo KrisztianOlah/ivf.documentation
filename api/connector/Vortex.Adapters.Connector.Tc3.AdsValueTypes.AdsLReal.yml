@@ -37,9 +37,7 @@ items:
     content: 'sealed class AdsLReal : OnlinerLReal, INotifyPropertyChanged, IValueBoundaries<double>, IOnlineLReal, IOnline<double>, IShadowLReal, IShadow<double>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsLReal
-
           Inherits OnlinerLReal
-
           Implements INotifyPropertyChanged, IValueBoundaries(Of Double), IOnlineLReal, IOnline(Of Double), IShadowLReal, IShadow(Of Double), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object

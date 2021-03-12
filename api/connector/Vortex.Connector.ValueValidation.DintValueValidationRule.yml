@@ -31,7 +31,6 @@ items:
     content: 'public class DintValueValidationRule : OnlinerValidationRule<int>'
     content.vb: >-
       Public Class DintValueValidationRule
-
           Inherits OnlinerValidationRule(Of Integer)
   inheritance:
   - System.Object

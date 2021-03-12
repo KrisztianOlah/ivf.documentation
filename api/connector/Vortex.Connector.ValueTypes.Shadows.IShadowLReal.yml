@@ -29,7 +29,6 @@ items:
     content: 'public interface IShadowLReal : IShadow<double>'
     content.vb: >-
       Public Interface IShadowLReal
-
           Inherits IShadow(Of Double)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Shadows.IShadow{System.Double}.Symbol

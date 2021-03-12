@@ -31,7 +31,6 @@ items:
     content: 'public class ByteValueValidationRule : OnlinerValidationRule<byte>'
     content.vb: >-
       Public Class ByteValueValidationRule
-
           Inherits OnlinerValidationRule(Of Byte)
   inheritance:
   - System.Object

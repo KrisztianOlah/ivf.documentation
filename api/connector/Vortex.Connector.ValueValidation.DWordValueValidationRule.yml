@@ -31,7 +31,6 @@ items:
     content: 'public class DWordValueValidationRule : OnlinerValidationRule<uint>'
     content.vb: >-
       Public Class DWordValueValidationRule
-
           Inherits OnlinerValidationRule(Of UInteger)
   inheritance:
   - System.Object

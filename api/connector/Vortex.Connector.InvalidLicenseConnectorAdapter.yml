@@ -31,7 +31,6 @@ items:
     content: 'public class InvalidLicenseConnectorAdapter : ConnectorAdapter'
     content.vb: >-
       Public Class InvalidLicenseConnectorAdapter
-
           Inherits ConnectorAdapter
   inheritance:
   - System.Object

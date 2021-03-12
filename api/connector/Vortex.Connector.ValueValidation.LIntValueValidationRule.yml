@@ -31,7 +31,6 @@ items:
     content: 'public class LIntValueValidationRule : OnlinerValidationRule<long>'
     content.vb: >-
       Public Class LIntValueValidationRule
-
           Inherits OnlinerValidationRule(Of Long)
   inheritance:
   - System.Object

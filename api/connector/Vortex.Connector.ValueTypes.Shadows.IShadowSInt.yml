@@ -29,7 +29,6 @@ items:
     content: 'public interface IShadowSInt : IShadow<sbyte>'
     content.vb: >-
       Public Interface IShadowSInt
-
           Inherits IShadow(Of SByte)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Shadows.IShadow{System.SByte}.Symbol

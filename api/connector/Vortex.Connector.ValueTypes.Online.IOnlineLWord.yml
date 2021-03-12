@@ -29,7 +29,6 @@ items:
     content: 'public interface IOnlineLWord : IOnline<ulong>'
     content.vb: >-
       Public Interface IOnlineLWord
-
           Inherits IOnline(Of ULong)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Online.IOnline{System.UInt64}.Symbol

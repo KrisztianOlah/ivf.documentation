@@ -63,9 +63,7 @@ items:
     content: 'public abstract class IConnector : RootVortexerObject, IVortexObject, ITwinObject, IVortexElement, INotifyPropertyChanged'
     content.vb: >-
       Public MustInherit Class IConnector
-
           Inherits RootVortexerObject
-
           Implements IVortexObject, ITwinObject, IVortexElement, INotifyPropertyChanged
   seealso:
   - linkId: Vortex.Connector.RootVortexerObject
@@ -101,6 +99,7 @@ items:
   - Vortex.Connector.RootVortexerObject.AddValueTag(Vortex.Connector.IValueTag)
   - Vortex.Connector.RootVortexerObject.GetConnector
   - Vortex.Connector.RootVortexerObject.AddKid(Vortex.Connector.IVortexElement)
+  - Vortex.Connector.RootVortexerObject.GetKids
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetHashCode
@@ -1656,6 +1655,34 @@ references:
     name: IVortexElement
     nameWithType: IVortexElement
     fullName: Vortex.Connector.IVortexElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.RootVortexerObject.GetKids
+  commentId: M:Vortex.Connector.RootVortexerObject.GetKids
+  parent: Vortex.Connector.RootVortexerObject
+  name: GetKids()
+  nameWithType: RootVortexerObject.GetKids()
+  fullName: Vortex.Connector.RootVortexerObject.GetKids()
+  spec.csharp:
+  - uid: Vortex.Connector.RootVortexerObject.GetKids
+    name: GetKids
+    nameWithType: RootVortexerObject.GetKids
+    fullName: Vortex.Connector.RootVortexerObject.GetKids
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.RootVortexerObject.GetKids
+    name: GetKids
+    nameWithType: RootVortexerObject.GetKids
+    fullName: Vortex.Connector.RootVortexerObject.GetKids
+  - name: (
+    nameWithType: (
+    fullName: (
   - name: )
     nameWithType: )
     fullName: )

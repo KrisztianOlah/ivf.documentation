@@ -31,7 +31,6 @@ items:
     content: 'public class BoolValueValidationRule : OnlinerValidationRule<bool>'
     content.vb: >-
       Public Class BoolValueValidationRule
-
           Inherits OnlinerValidationRule(Of Boolean)
   inheritance:
   - System.Object

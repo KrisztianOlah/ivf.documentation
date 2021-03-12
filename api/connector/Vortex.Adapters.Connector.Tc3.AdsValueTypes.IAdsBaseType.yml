@@ -36,7 +36,6 @@ items:
     content: 'interface IAdsBaseType : IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       Interface IAdsBaseType
-
           Inherits IValueTag
   inheritedMembers:
   - Vortex.Connector.IValueTag.EditValueChange

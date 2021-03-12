@@ -40,9 +40,7 @@ items:
     content: 'sealed class AdsWString : OnlinerWString, INotifyPropertyChanged, IValueBoundaries<string>, IOnlineWString, IOnline<string>, IShadowWString, IShadow<string>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsWString
-
           Inherits OnlinerWString
-
           Implements INotifyPropertyChanged, IValueBoundaries(Of String), IOnlineWString, IOnline(Of String), IShadowWString, IShadow(Of String), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object

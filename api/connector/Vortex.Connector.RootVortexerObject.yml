@@ -13,6 +13,7 @@ items:
   - Vortex.Connector.RootVortexerObject.Children
   - Vortex.Connector.RootVortexerObject.GetChildren
   - Vortex.Connector.RootVortexerObject.GetConnector
+  - Vortex.Connector.RootVortexerObject.GetKids
   - Vortex.Connector.RootVortexerObject.GetParent
   - Vortex.Connector.RootVortexerObject.GetSymbolTail
   - Vortex.Connector.RootVortexerObject.GetValueTags
@@ -51,7 +52,6 @@ items:
       <Obsolete("This class should not be directly instantiated by framework consumers.")>
 
       Public Class RootVortexerObject
-
           Implements IVortexObject, ITwinObject, IVortexElement
   inheritance:
   - System.Object
@@ -700,6 +700,43 @@ items:
   overload: Vortex.Connector.RootVortexerObject.AddKid*
   implements:
   - Vortex.Connector.IVortexObject.AddKid(Vortex.Connector.IVortexElement)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Vortex.Connector.RootVortexerObject.GetKids
+  commentId: M:Vortex.Connector.RootVortexerObject.GetKids
+  id: GetKids
+  parent: Vortex.Connector.RootVortexerObject
+  langs:
+  - csharp
+  - vb
+  name: GetKids()
+  nameWithType: RootVortexerObject.GetKids()
+  fullName: Vortex.Connector.RootVortexerObject.GetKids()
+  type: Method
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
+      branch: master
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: GetKids
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/RootVortexerObject.cs
+    startLine: 129
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nGets all kids of this object.\n"
+  example: []
+  syntax:
+    content: public IEnumerable<IVortexElement> GetKids()
+    return:
+      type: System.Collections.Generic.IEnumerable{Vortex.Connector.IVortexElement}
+      description: ''
+    content.vb: Public Function GetKids As IEnumerable(Of IVortexElement)
+  overload: Vortex.Connector.RootVortexerObject.GetKids*
+  implements:
+  - Vortex.Connector.IVortexObject.GetKids
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2409,6 +2446,81 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - uid: Vortex.Connector.IVortexElement
+    name: IVortexElement
+    nameWithType: IVortexElement
+    fullName: Vortex.Connector.IVortexElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.RootVortexerObject.GetKids*
+  commentId: Overload:Vortex.Connector.RootVortexerObject.GetKids
+  name: GetKids
+  nameWithType: RootVortexerObject.GetKids
+  fullName: Vortex.Connector.RootVortexerObject.GetKids
+- uid: Vortex.Connector.IVortexObject.GetKids
+  commentId: M:Vortex.Connector.IVortexObject.GetKids
+  parent: Vortex.Connector.IVortexObject
+  name: GetKids()
+  nameWithType: IVortexObject.GetKids()
+  fullName: Vortex.Connector.IVortexObject.GetKids()
+  spec.csharp:
+  - uid: Vortex.Connector.IVortexObject.GetKids
+    name: GetKids
+    nameWithType: IVortexObject.GetKids
+    fullName: Vortex.Connector.IVortexObject.GetKids
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.IVortexObject.GetKids
+    name: GetKids
+    nameWithType: IVortexObject.GetKids
+    fullName: Vortex.Connector.IVortexObject.GetKids
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{Vortex.Connector.IVortexElement}
+  commentId: T:System.Collections.Generic.IEnumerable{Vortex.Connector.IVortexElement}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<IVortexElement>
+  nameWithType: IEnumerable<IVortexElement>
+  fullName: System.Collections.Generic.IEnumerable<Vortex.Connector.IVortexElement>
+  nameWithType.vb: IEnumerable(Of IVortexElement)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Vortex.Connector.IVortexElement)
+  name.vb: IEnumerable(Of IVortexElement)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vortex.Connector.IVortexElement
+    name: IVortexElement
+    nameWithType: IVortexElement
+    fullName: Vortex.Connector.IVortexElement
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: Vortex.Connector.IVortexElement
     name: IVortexElement
     nameWithType: IVortexElement

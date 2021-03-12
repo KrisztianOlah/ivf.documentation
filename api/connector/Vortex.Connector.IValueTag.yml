@@ -34,7 +34,6 @@ items:
     content: 'public interface IValueTag : ITwinPrimitive, IVortexElement'
     content.vb: >-
       Public Interface IValueTag
-
           Inherits ITwinPrimitive, IVortexElement
   inheritedMembers:
   - Vortex.Connector.IVortexElement.Symbol

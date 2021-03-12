@@ -35,9 +35,7 @@ items:
     content: 'public class OnlinerDateTime : OnlinerBaseType<DateTime>, IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries<DateTime>, IOnlineDateTime, IOnline<DateTime>, IShadowDateTime, IShadow<DateTime>'
     content.vb: >-
       Public Class OnlinerDateTime
-
           Inherits OnlinerBaseType(Of Date)
-
           Implements IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of Date), IOnlineDateTime, IOnline(Of Date), IShadowDateTime, IShadow(Of Date)
   inheritance:
   - System.Object

@@ -29,7 +29,6 @@ items:
     content: 'public interface IOnlineLReal : IOnline<double>'
     content.vb: >-
       Public Interface IOnlineLReal
-
           Inherits IOnline(Of Double)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Online.IOnline{System.Double}.Symbol

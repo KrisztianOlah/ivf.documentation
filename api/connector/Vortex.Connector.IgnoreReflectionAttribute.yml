@@ -31,7 +31,6 @@ items:
     content: 'public class IgnoreReflectionAttribute : Attribute'
     content.vb: >-
       Public Class IgnoreReflectionAttribute
-
           Inherits Attribute
   inheritance:
   - System.Object

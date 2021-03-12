@@ -37,9 +37,7 @@ items:
     content: 'sealed class AdsTimeOfDay : OnlinerTimeOfDay, INotifyPropertyChanged, IValueBoundaries<TimeSpan>, IOnlineTimeOfDay, IOnline<TimeSpan>, IShadowTimeOfDay, IShadow<TimeSpan>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsTimeOfDay
-
           Inherits OnlinerTimeOfDay
-
           Implements INotifyPropertyChanged, IValueBoundaries(Of TimeSpan), IOnlineTimeOfDay, IOnline(Of TimeSpan), IShadowTimeOfDay, IShadow(Of TimeSpan), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object

@@ -37,9 +37,7 @@ items:
     content: 'public class OnlinerString : OnlinerBaseType<string>, IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries<string>, IOnlineString, IOnline<string>, IShadowString, IShadow<string>'
     content.vb: >-
       Public Class OnlinerString
-
           Inherits OnlinerBaseType(Of String)
-
           Implements IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of String), IOnlineString, IOnline(Of String), IShadowString, IShadow(Of String)
   inheritance:
   - System.Object
