@@ -27,7 +27,7 @@ if(!(Test-Path history\$version))
 # Create history linkes
 ## Get the historical versions and create links.
 $historyItems = (Get-ChildItem .\history -n -dir)
-
+[array]::Reverse($historyItems)
 $historyMD = "# Previous versions `n"
 foreach ($item in $historyItems){
     $historyMD+="[$item](../../history/$item/index.html)`n`n" 
@@ -36,4 +36,6 @@ foreach ($item in $historyItems){
 # Write the to a file.
 $historyMD > .\previous_versions\index.md
 
+# Build docu again to get the version in previous versions.
+dotnet build -v q
 # Start-Process .\_site\index.html
