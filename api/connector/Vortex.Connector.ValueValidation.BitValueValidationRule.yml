@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/BitValueValidationRule.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: BitValueValidationRule
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/BitValueValidationRule.cs
@@ -31,7 +31,6 @@ items:
     content: 'public class BitValueValidationRule : OnlinerValidationRule<bool>'
     content.vb: >-
       Public Class BitValueValidationRule
-
           Inherits OnlinerValidationRule(Of Boolean)
   inheritance:
   - System.Object
@@ -70,7 +69,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/BitValueValidationRule.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/BitValueValidationRule.cs
@@ -106,7 +105,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/BitValueValidationRule.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Validate
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/BitValueValidationRule.cs

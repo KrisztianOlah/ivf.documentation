@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/RealValueValidationRule.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RealValueValidationRule
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/RealValueValidationRule.cs
@@ -31,7 +31,6 @@ items:
     content: 'public class RealValueValidationRule : OnlinerValidationRule<float>'
     content.vb: >-
       Public Class RealValueValidationRule
-
           Inherits OnlinerValidationRule(Of Single)
   inheritance:
   - System.Object
@@ -70,7 +69,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/RealValueValidationRule.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/RealValueValidationRule.cs
@@ -106,7 +105,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/RealValueValidationRule.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Validate
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValidationRules/RealValueValidationRule.cs

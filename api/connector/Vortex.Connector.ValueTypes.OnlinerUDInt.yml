@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerUDInt.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlinerUDInt
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerUDInt.cs
@@ -35,9 +35,7 @@ items:
     content: 'public class OnlinerUDInt : OnlinerBaseType<uint>, IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries<uint>, IOnlineUDInt, IOnline<uint>, IShadowUDInt, IShadow<uint>'
     content.vb: >-
       Public Class OnlinerUDInt
-
           Inherits OnlinerBaseType(Of UInteger)
-
           Implements IValueTag, ITwinPrimitive, IVortexElement, INotifyPropertyChanged, IValueBoundaries(Of UInteger), IOnlineUDInt, IOnline(Of UInteger), IShadowUDInt, IShadow(Of UInteger)
   inheritance:
   - System.Object
@@ -169,7 +167,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerUDInt.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerUDInt.cs
@@ -201,7 +199,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerUDInt.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerUDInt.cs
@@ -243,7 +241,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerUDInt.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MinValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerUDInt.cs
@@ -280,7 +278,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerUDInt.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MaxValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerUDInt.cs
@@ -317,7 +315,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerUDInt.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InstanceMaxValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerUDInt.cs
@@ -357,7 +355,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerUDInt.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InstanceMinValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerUDInt.cs

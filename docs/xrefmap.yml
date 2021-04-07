@@ -837,6 +837,12 @@ references:
   isSpec: "True"
   fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadSum
   nameWithType: AdsConnector.ReadSum
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.readSumMutex
+  name: readSumMutex
+  href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsConnector.html#Vortex_Adapters_Connector_Tc3_AdsConnector_readSumMutex
+  commentId: F:Vortex.Adapters.Connector.Tc3.AdsConnector.readSumMutex
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.readSumMutex
+  nameWithType: AdsConnector.readSumMutex
 - uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ReloadConnector
   name: ReloadConnector()
   href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsConnector.html#Vortex_Adapters_Connector_Tc3_AdsConnector_ReloadConnector
@@ -982,6 +988,12 @@ references:
   isSpec: "True"
   fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteSum
   nameWithType: AdsConnector.WriteSum
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.writeSumMutex
+  name: writeSumMutex
+  href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsConnector.html#Vortex_Adapters_Connector_Tc3_AdsConnector_writeSumMutex
+  commentId: F:Vortex.Adapters.Connector.Tc3.AdsConnector.writeSumMutex
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.writeSumMutex
+  nameWithType: AdsConnector.writeSumMutex
 - uid: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
   name: Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling
   href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsExceptionsHandling.html
@@ -2532,6 +2544,19 @@ references:
   isSpec: "True"
   fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueLength
   nameWithType: AdsString.FixValueLength
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueSize(System.String)
+  name: FixValueSize(String)
+  href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.html#Vortex_Adapters_Connector_Tc3_AdsValueTypes_AdsString_FixValueSize_System_String_
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueSize(System.String)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueSize(System.String)
+  nameWithType: AdsString.FixValueSize(String)
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueSize*
+  name: FixValueSize
+  href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.html#Vortex_Adapters_Connector_Tc3_AdsValueTypes_AdsString_FixValueSize_
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueSize
+  isSpec: "True"
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueSize
+  nameWithType: AdsString.FixValueSize
 - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.GetSynchron
   name: GetSynchron()
   href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.html#Vortex_Adapters_Connector_Tc3_AdsValueTypes_AdsString_GetSynchron
@@ -2584,19 +2609,6 @@ references:
   isSpec: "True"
   fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.SetSynchron
   nameWithType: AdsString.SetSynchron
-- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ValueToWrite
-  name: ValueToWrite
-  href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.html#Vortex_Adapters_Connector_Tc3_AdsValueTypes_AdsString_ValueToWrite
-  commentId: P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ValueToWrite
-  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ValueToWrite
-  nameWithType: AdsString.ValueToWrite
-- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ValueToWrite*
-  name: ValueToWrite
-  href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.html#Vortex_Adapters_Connector_Tc3_AdsValueTypes_AdsString_ValueToWrite_
-  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ValueToWrite
-  isSpec: "True"
-  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ValueToWrite
-  nameWithType: AdsString.ValueToWrite
 - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.Write(System.IO.BinaryWriter)
   name: Write(BinaryWriter)
   href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.html#Vortex_Adapters_Connector_Tc3_AdsValueTypes_AdsString_Write_System_IO_BinaryWriter_
@@ -3395,6 +3407,19 @@ references:
   isSpec: "True"
   fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueLength
   nameWithType: AdsWString.FixValueLength
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueSize(System.String)
+  name: FixValueSize(String)
+  href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.html#Vortex_Adapters_Connector_Tc3_AdsValueTypes_AdsWString_FixValueSize_System_String_
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueSize(System.String)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueSize(System.String)
+  nameWithType: AdsWString.FixValueSize(String)
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueSize*
+  name: FixValueSize
+  href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.html#Vortex_Adapters_Connector_Tc3_AdsValueTypes_AdsWString_FixValueSize_
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueSize
+  isSpec: "True"
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.FixValueSize
+  nameWithType: AdsWString.FixValueSize
 - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.GetSynchron
   name: GetSynchron()
   href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.html#Vortex_Adapters_Connector_Tc3_AdsValueTypes_AdsWString_GetSynchron
@@ -3447,19 +3472,6 @@ references:
   isSpec: "True"
   fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.SetSynchron
   nameWithType: AdsWString.SetSynchron
-- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ValueToWrite
-  name: ValueToWrite
-  href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.html#Vortex_Adapters_Connector_Tc3_AdsValueTypes_AdsWString_ValueToWrite
-  commentId: P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ValueToWrite
-  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ValueToWrite
-  nameWithType: AdsWString.ValueToWrite
-- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ValueToWrite*
-  name: ValueToWrite
-  href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.html#Vortex_Adapters_Connector_Tc3_AdsValueTypes_AdsWString_ValueToWrite_
-  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ValueToWrite
-  isSpec: "True"
-  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.ValueToWrite
-  nameWithType: AdsWString.ValueToWrite
 - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.Write(System.IO.BinaryWriter)
   name: Write(BinaryWriter)
   href: docu/api/connector/Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsWString.html#Vortex_Adapters_Connector_Tc3_AdsValueTypes_AdsWString_Write_System_IO_BinaryWriter_
@@ -7583,6 +7595,19 @@ references:
   isSpec: "True"
   fullName: Vortex.Connector.IVortexObject.GetConnector
   nameWithType: IVortexObject.GetConnector
+- uid: Vortex.Connector.IVortexObject.GetKids
+  name: GetKids()
+  href: docu/api/connector/Vortex.Connector.IVortexObject.html#Vortex_Connector_IVortexObject_GetKids
+  commentId: M:Vortex.Connector.IVortexObject.GetKids
+  fullName: Vortex.Connector.IVortexObject.GetKids()
+  nameWithType: IVortexObject.GetKids()
+- uid: Vortex.Connector.IVortexObject.GetKids*
+  name: GetKids
+  href: docu/api/connector/Vortex.Connector.IVortexObject.html#Vortex_Connector_IVortexObject_GetKids_
+  commentId: Overload:Vortex.Connector.IVortexObject.GetKids
+  isSpec: "True"
+  fullName: Vortex.Connector.IVortexObject.GetKids
+  nameWithType: IVortexObject.GetKids
 - uid: Vortex.Connector.IVortexObject.GetValueTags
   name: GetValueTags()
   href: docu/api/connector/Vortex.Connector.IVortexObject.html#Vortex_Connector_IVortexObject_GetValueTags
@@ -7913,6 +7938,19 @@ references:
   isSpec: "True"
   fullName: Vortex.Connector.RootVortexerObject.GetConnector
   nameWithType: RootVortexerObject.GetConnector
+- uid: Vortex.Connector.RootVortexerObject.GetKids
+  name: GetKids()
+  href: docu/api/connector/Vortex.Connector.RootVortexerObject.html#Vortex_Connector_RootVortexerObject_GetKids
+  commentId: M:Vortex.Connector.RootVortexerObject.GetKids
+  fullName: Vortex.Connector.RootVortexerObject.GetKids()
+  nameWithType: RootVortexerObject.GetKids()
+- uid: Vortex.Connector.RootVortexerObject.GetKids*
+  name: GetKids
+  href: docu/api/connector/Vortex.Connector.RootVortexerObject.html#Vortex_Connector_RootVortexerObject_GetKids_
+  commentId: Overload:Vortex.Connector.RootVortexerObject.GetKids
+  isSpec: "True"
+  fullName: Vortex.Connector.RootVortexerObject.GetKids
+  nameWithType: RootVortexerObject.GetKids
 - uid: Vortex.Connector.RootVortexerObject.GetParent
   name: GetParent()
   href: docu/api/connector/Vortex.Connector.RootVortexerObject.html#Vortex_Connector_RootVortexerObject_GetParent
@@ -17824,41 +17862,6 @@ references:
   commentId: T:Vortex.Presentation.Wpf.BindableBase
   fullName: Vortex.Presentation.Wpf.BindableBase
   nameWithType: BindableBase
-- uid: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
-  name: OnPropertyChanged(String)
-  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.BindableBase.html#Vortex_Presentation_Wpf_BindableBase_OnPropertyChanged_System_String_
-  commentId: M:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
-  fullName: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)
-  nameWithType: BindableBase.OnPropertyChanged(String)
-- uid: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged*
-  name: OnPropertyChanged
-  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.BindableBase.html#Vortex_Presentation_Wpf_BindableBase_OnPropertyChanged_
-  commentId: Overload:Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged
-  isSpec: "True"
-  fullName: Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged
-  nameWithType: BindableBase.OnPropertyChanged
-- uid: Vortex.Presentation.Wpf.BindableBase.PropertyChanged
-  name: PropertyChanged
-  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.BindableBase.html#Vortex_Presentation_Wpf_BindableBase_PropertyChanged
-  commentId: E:Vortex.Presentation.Wpf.BindableBase.PropertyChanged
-  fullName: Vortex.Presentation.Wpf.BindableBase.PropertyChanged
-  nameWithType: BindableBase.PropertyChanged
-- uid: Vortex.Presentation.Wpf.BindableBase.SetProperty*
-  name: SetProperty
-  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.BindableBase.html#Vortex_Presentation_Wpf_BindableBase_SetProperty_
-  commentId: Overload:Vortex.Presentation.Wpf.BindableBase.SetProperty
-  isSpec: "True"
-  fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty
-  nameWithType: BindableBase.SetProperty
-- uid: Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
-  name: SetProperty<T>(ref T, T, String)
-  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.BindableBase.html#Vortex_Presentation_Wpf_BindableBase_SetProperty__1___0____0_System_String_
-  commentId: M:Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)
-  name.vb: SetProperty(Of T)(ByRef T, T, String)
-  fullName: Vortex.Presentation.Wpf.BindableBase.SetProperty<T>(ref T, T, System.String)
-  fullName.vb: Vortex.Presentation.Wpf.BindableBase.SetProperty(Of T)(ByRef T, T, System.String)
-  nameWithType: BindableBase.SetProperty<T>(ref T, T, String)
-  nameWithType.vb: BindableBase.SetProperty(Of T)(ByRef T, T, String)
 - uid: Vortex.Presentation.Wpf.ConsoleWriter
   name: ConsoleWriter
   href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.ConsoleWriter.html
@@ -20087,19 +20090,6 @@ references:
   isSpec: "True"
   fullName: Vortex.Presentation.Wpf.RenderableViewModel.RenderableViewModel
   nameWithType: RenderableViewModel.RenderableViewModel
-- uid: Vortex.Presentation.Wpf.RenderableViewModel.Model
-  name: Model
-  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.RenderableViewModel.html#Vortex_Presentation_Wpf_RenderableViewModel_Model
-  commentId: P:Vortex.Presentation.Wpf.RenderableViewModel.Model
-  fullName: Vortex.Presentation.Wpf.RenderableViewModel.Model
-  nameWithType: RenderableViewModel.Model
-- uid: Vortex.Presentation.Wpf.RenderableViewModel.Model*
-  name: Model
-  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.RenderableViewModel.html#Vortex_Presentation_Wpf_RenderableViewModel_Model_
-  commentId: Overload:Vortex.Presentation.Wpf.RenderableViewModel.Model
-  isSpec: "True"
-  fullName: Vortex.Presentation.Wpf.RenderableViewModel.Model
-  nameWithType: RenderableViewModel.Model
 - uid: Vortex.Presentation.Wpf.RenderContentConverter
   name: RenderContentConverter
   href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.RenderContentConverter.html

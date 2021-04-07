@@ -25,7 +25,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlTimeOfDay.g.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlineControlTimeOfDay
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlTimeOfDay.g.cs
@@ -795,7 +795,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlTimeOfDay.xaml.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlTimeOfDay.xaml.cs
@@ -827,7 +827,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlTimeOfDay.xaml.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ValueTextBox
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlTimeOfDay.xaml.cs
@@ -865,7 +865,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlTimeOfDay.xaml.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TimePickerBox
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlTimeOfDay.xaml.cs
@@ -906,7 +906,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlTimeOfDay.xaml.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TimePickerBtn_Click
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlTimeOfDay.xaml.cs
@@ -937,7 +937,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlTimeOfDay.g.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ValueBox
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlTimeOfDay.g.cs
@@ -964,7 +964,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlTimeOfDay.g.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TimePickerBtn
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlTimeOfDay.g.cs
@@ -991,7 +991,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlTimeOfDay.g.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TimePicker
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlTimeOfDay.g.cs
@@ -1018,7 +1018,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlTimeOfDay.g.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _contentLoaded
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlTimeOfDay.g.cs
@@ -1045,7 +1045,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlTimeOfDay.g.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InitializeComponent
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlTimeOfDay.g.cs
@@ -1079,7 +1079,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlTimeOfDay.g.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _CreateDelegate
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlTimeOfDay.g.cs

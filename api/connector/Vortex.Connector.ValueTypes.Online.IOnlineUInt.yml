@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IOnlines/IOnlineUInt.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IOnlineUInt
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IOnlines/IOnlineUInt.cs
@@ -29,7 +29,6 @@ items:
     content: 'public interface IOnlineUInt : IOnline<ushort>'
     content.vb: >-
       Public Interface IOnlineUInt
-
           Inherits IOnline(Of UShort)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Online.IOnline{System.UInt16}.Symbol

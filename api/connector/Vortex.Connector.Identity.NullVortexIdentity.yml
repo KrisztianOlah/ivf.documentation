@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NullVortexIdentity
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
@@ -33,7 +33,6 @@ items:
     content: 'public class NullVortexIdentity : IVortexIdentity'
     content.vb: >-
       Public Class NullVortexIdentity
-
           Implements IVortexIdentity
   inheritance:
   - System.Object
@@ -69,7 +68,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Identity
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
@@ -108,7 +107,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
@@ -147,7 +146,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
@@ -186,7 +185,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HumanReadable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Identity/NullVortexIdentity.cs

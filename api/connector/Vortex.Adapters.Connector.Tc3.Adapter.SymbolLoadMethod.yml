@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/SymbolLoadMethod.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolLoadMethod
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/SymbolLoadMethod.cs
@@ -52,7 +52,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/SymbolLoadMethod.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolInfoReader
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/SymbolLoadMethod.cs
@@ -86,7 +86,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/SymbolLoadMethod.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolInfoLoader
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/SymbolLoadMethod.cs

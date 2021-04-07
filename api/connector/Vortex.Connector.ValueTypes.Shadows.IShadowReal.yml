@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IShadows/IShadowReal.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IShadowReal
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IShadows/IShadowReal.cs
@@ -29,7 +29,6 @@ items:
     content: 'public interface IShadowReal : IShadow<float>'
     content.vb: >-
       Public Interface IShadowReal
-
           Inherits IShadow(Of Single)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Shadows.IShadow{System.Single}.Symbol

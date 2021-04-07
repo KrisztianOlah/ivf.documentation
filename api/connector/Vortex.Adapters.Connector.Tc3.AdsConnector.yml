@@ -39,6 +39,7 @@ items:
   - Vortex.Adapters.Connector.Tc3.AdsConnector.ReadBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
   - Vortex.Adapters.Connector.Tc3.AdsConnector.ReadFully(System.IO.Stream)
   - Vortex.Adapters.Connector.Tc3.AdsConnector.ReadSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.readSumMutex
   - Vortex.Adapters.Connector.Tc3.AdsConnector.ReloadConnector
   - Vortex.Adapters.Connector.Tc3.AdsConnector.rwopsAction
   - Vortex.Adapters.Connector.Tc3.AdsConnector.SetAllToCyclicReading
@@ -50,6 +51,7 @@ items:
   - Vortex.Adapters.Connector.Tc3.AdsConnector.Timeout
   - Vortex.Adapters.Connector.Tc3.AdsConnector.WriteBatch(System.Collections.Generic.IEnumerable{Vortex.Connector.IValueTag})
   - Vortex.Adapters.Connector.Tc3.AdsConnector.WriteSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
+  - Vortex.Adapters.Connector.Tc3.AdsConnector.writeSumMutex
   langs:
   - csharp
   - vb
@@ -60,7 +62,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AdsConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -74,9 +76,7 @@ items:
     content: 'class AdsConnector : IConnector, IVortexObject, ITwinObject, IVortexElement, IDisposable, INotifyPropertyChanged'
     content.vb: >-
       Class AdsConnector
-
           Inherits IConnector
-
           Implements IVortexObject, ITwinObject, IVortexElement, IDisposable, INotifyPropertyChanged
   inheritance:
   - System.Object
@@ -131,6 +131,7 @@ items:
   - Vortex.Connector.RootVortexerObject.AddValueTag(Vortex.Connector.IValueTag)
   - Vortex.Connector.RootVortexerObject.GetConnector
   - Vortex.Connector.RootVortexerObject.AddKid(Vortex.Connector.IVortexElement)
+  - Vortex.Connector.RootVortexerObject.GetKids
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetHashCode
@@ -159,7 +160,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _onlineVariables
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -186,7 +187,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: liveClient
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -217,7 +218,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: onlineTagToObjectLinks
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -244,7 +245,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: rwopsAction
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -271,7 +272,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -303,7 +304,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -342,7 +343,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SplitIntoChunks
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -384,7 +385,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadFully
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
@@ -407,6 +408,35 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.readSumMutex
+  commentId: F:Vortex.Adapters.Connector.Tc3.AdsConnector.readSumMutex
+  id: readSumMutex
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: readSumMutex
+  nameWithType: AdsConnector.readSumMutex
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.readSumMutex
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: readSumMutex
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 101
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: volatile object readSumMutex
+    return:
+      type: System.Object
+    content.vb: readSumMutex As Object
+  modifiers.csharp:
+  - volatile
 - uid: Vortex.Adapters.Connector.Tc3.AdsConnector.ReadSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
   commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.ReadSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
   id: ReadSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
@@ -421,11 +451,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadSum
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 107
+    startLine: 109
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -456,11 +486,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: chunk_size
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 187
+    startLine: 188
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -473,6 +503,35 @@ items:
   - readonly
   modifiers.vb:
   - ReadOnly
+- uid: Vortex.Adapters.Connector.Tc3.AdsConnector.writeSumMutex
+  commentId: F:Vortex.Adapters.Connector.Tc3.AdsConnector.writeSumMutex
+  id: writeSumMutex
+  parent: Vortex.Adapters.Connector.Tc3.AdsConnector
+  langs:
+  - csharp
+  - vb
+  name: writeSumMutex
+  nameWithType: AdsConnector.writeSumMutex
+  fullName: Vortex.Adapters.Connector.Tc3.AdsConnector.writeSumMutex
+  type: Field
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+      branch: develop
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: writeSumMutex
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
+    startLine: 189
+  assemblies:
+  - Vortex.Adapters.Connector.Tc3
+  namespace: Vortex.Adapters.Connector.Tc3
+  syntax:
+    content: volatile object writeSumMutex
+    return:
+      type: System.Object
+    content.vb: writeSumMutex As Object
+  modifiers.csharp:
+  - volatile
 - uid: Vortex.Adapters.Connector.Tc3.AdsConnector.WriteSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
   commentId: M:Vortex.Adapters.Connector.Tc3.AdsConnector.WriteSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
   id: WriteSum(System.Collections.Generic.IEnumerable{Vortex.Adapters.Connector.Tc3.AdsValueTypes.IAdsBaseType})
@@ -487,11 +546,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteSum
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 195
+    startLine: 197
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -522,11 +581,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ConnectToController
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 277
+    startLine: 276
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -561,11 +620,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HasAdsSymbolVersionChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 292
+    startLine: 291
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -588,11 +647,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InvalidateSymbols
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 293
+    startLine: 292
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -614,11 +673,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AdsClient_AdsSymbolVersionChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 311
+    startLine: 310
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -645,11 +704,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReloadConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 322
+    startLine: 321
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -678,11 +737,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AdsClient_AdsStateChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 333
+    startLine: 332
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -709,11 +768,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: qr
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 363
+    startLine: 362
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -736,11 +795,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CyclicRead
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 368
+    startLine: 367
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -768,11 +827,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CyclicWrite
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 381
+    startLine: 380
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -800,11 +859,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CyclicWriteRead
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 394
+    startLine: 393
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -832,11 +891,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: StartReadWriteOps
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 411
+    startLine: 410
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -864,11 +923,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddTagLink
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 458
+    startLine: 457
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -893,11 +952,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InitializeConnector
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 466
+    startLine: 465
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -921,11 +980,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Client
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 511
+    startLine: 510
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -961,11 +1020,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlineVariables
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 530
+    startLine: 529
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -999,11 +1058,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: PreventSynchronousAccess
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 546
+    startLine: 545
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1036,11 +1095,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _justBuilt
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 552
+    startLine: 551
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1063,11 +1122,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: BuildAndStart
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 553
+    startLine: 552
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1098,11 +1157,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Dispose
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 571
+    startLine: 570
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1132,11 +1191,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadBatch
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 578
+    startLine: 577
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1171,11 +1230,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SetAllToCyclicReading
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 586
+    startLine: 585
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1213,11 +1272,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteBatch
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 595
+    startLine: 594
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1252,11 +1311,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AMSID
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 606
+    startLine: 605
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1287,11 +1346,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DoNotStartReportingConsole
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 620
+    startLine: 619
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1325,11 +1384,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ErrorCount
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 625
+    startLine: 624
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1363,11 +1422,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadingStatus
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 633
+    startLine: 632
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1403,11 +1462,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Name
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 643
+    startLine: 642
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1441,11 +1500,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NetId
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 653
+    startLine: 652
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1479,11 +1538,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SrvPort
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 665
+    startLine: 664
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1517,11 +1576,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Timeout
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 688
+    startLine: 687
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1555,11 +1614,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InvokeRpc
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 701
+    startLine: 700
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1600,11 +1659,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlineTags
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 706
+    startLine: 705
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1638,11 +1697,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolLoadMethod
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 711
+    startLine: 710
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1675,11 +1734,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolLoadingMode
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/AdsConnector.cs
-    startLine: 716
+    startLine: 715
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -2316,6 +2375,34 @@ references:
     name: IVortexElement
     nameWithType: IVortexElement
     fullName: Vortex.Connector.IVortexElement
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Connector.RootVortexerObject.GetKids
+  commentId: M:Vortex.Connector.RootVortexerObject.GetKids
+  parent: Vortex.Connector.RootVortexerObject
+  name: GetKids()
+  nameWithType: RootVortexerObject.GetKids()
+  fullName: Vortex.Connector.RootVortexerObject.GetKids()
+  spec.csharp:
+  - uid: Vortex.Connector.RootVortexerObject.GetKids
+    name: GetKids
+    nameWithType: RootVortexerObject.GetKids
+    fullName: Vortex.Connector.RootVortexerObject.GetKids
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Connector.RootVortexerObject.GetKids
+    name: GetKids
+    nameWithType: RootVortexerObject.GetKids
+    fullName: Vortex.Connector.RootVortexerObject.GetKids
+  - name: (
+    nameWithType: (
+    fullName: (
   - name: )
     nameWithType: )
     fullName: )

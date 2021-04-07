@@ -1254,167 +1254,32 @@
   
   <h1 id="Vortex_Presentation_Wpf_BindableBase" data-uid="Vortex.Presentation.Wpf.BindableBase" class="text-break">Class BindableBase
   </h1>
-  <div class="markdown level0 summary"><p>Represents base class for bindable objects.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">BindableBase</span></div>
-      <div class="level2"><a class="xref" href="Vortex.Presentation.Wpf.NavigableViewModelBase.html">NavigableViewModelBase</a></div>
-      <div class="level2"><a class="xref" href="Vortex.Presentation.Wpf.RenderableViewModel.html">RenderableViewModel</a></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div class="level1"><span class="xref">Vortex.Presentation.BindableBase</span></div>
+    <div class="level2"><span class="xref">BindableBase</span></div>
+      <div class="level3"><a class="xref" href="Vortex.Presentation.Wpf.NavigableViewModelBase.html">NavigableViewModelBase</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.ToString()</span>
+      <span class="xref">Vortex.Presentation.BindableBase.SetProperty&lt;T&gt;(T, T, System.String)</span>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
+      <span class="xref">Vortex.Presentation.BindableBase.OnPropertyChanged(System.String)</span>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
+      <span class="xref">Vortex.Presentation.BindableBase.PropertyChanged</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Vortex.Presentation.Wpf.html">Vortex.Presentation.Wpf</a></h6>
   <h6><strong>Assembly</strong>: Vortex.Presentation.Wpf.dll</h6>
   <h5 id="Vortex_Presentation_Wpf_BindableBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BindableBase : INotifyPropertyChanged</code></pre>
-  </div>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Vortex_Presentation_Wpf_BindableBase_OnPropertyChanged_" data-uid="Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged*"></a>
-  <h4 id="Vortex_Presentation_Wpf_BindableBase_OnPropertyChanged_System_String_" data-uid="Vortex.Presentation.Wpf.BindableBase.OnPropertyChanged(System.String)">OnPropertyChanged(String)</h4>
-  <div class="markdown level1 summary"><p>Raises <span class="xref">System.ComponentModel.INotifyPropertyChanged.PropertyChanged</span> event.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string propertyName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">propertyName</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Vortex_Presentation_Wpf_BindableBase_SetProperty_" data-uid="Vortex.Presentation.Wpf.BindableBase.SetProperty*"></a>
-  <h4 id="Vortex_Presentation_Wpf_BindableBase_SetProperty__1___0____0_System_String_" data-uid="Vortex.Presentation.Wpf.BindableBase.SetProperty``1(``0@,``0,System.String)">SetProperty&lt;T&gt;(ref T, T, String)</h4>
-  <div class="markdown level1 summary"><p>Sets the property and raises <span class="xref">System.ComponentModel.INotifyPropertyChanged.PropertyChanged</span> event.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void SetProperty&lt;T&gt;(ref T member, T val, string propertyName = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">member</span></td>
-        <td><p>Member</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">val</span></td>
-        <td><p>New value</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">propertyName</span></td>
-        <td><p>Property name</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Property type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="events">Events
-  </h3>
-  
-  
-  <h4 id="Vortex_Presentation_Wpf_BindableBase_PropertyChanged" data-uid="Vortex.Presentation.Wpf.BindableBase.PropertyChanged">PropertyChanged</h4>
-  <div class="markdown level1 summary"><p>Implementation of <span class="xref">System.ComponentModel.INotifyPropertyChanged.PropertyChanged</span></p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ComponentModel.PropertyChangedEventHandler</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+    <pre><code class="lang-csharp hljs">public class BindableBase : BindableBase</code></pre>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

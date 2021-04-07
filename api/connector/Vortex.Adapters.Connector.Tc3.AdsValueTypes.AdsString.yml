@@ -9,11 +9,11 @@ items:
   - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.#ctor(Vortex.Connector.IVortexObject,System.String,System.String)
   - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.Client
   - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueLength(System.String)
+  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueSize(System.String)
   - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.GetSynchron
   - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.Read(System.IO.BinaryReader)
   - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ReadFromBinaryReader(System.IO.BinaryReader)
   - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.SetSynchron(System.String)
-  - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ValueToWrite
   - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.Write(System.IO.BinaryWriter)
   - Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.WriteViaBinaryWriter(System.IO.BinaryWriter)
   langs:
@@ -26,7 +26,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AdsString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
@@ -40,9 +40,7 @@ items:
     content: 'sealed class AdsString : OnlinerString, INotifyPropertyChanged, IValueBoundaries<string>, IOnlineString, IOnline<string>, IShadowString, IShadow<string>, IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement'
     content.vb: >-
       NotInheritable Class AdsString
-
           Inherits OnlinerString
-
           Implements INotifyPropertyChanged, IValueBoundaries(Of String), IOnlineString, IOnline(Of String), IShadowString, IShadow(Of String), IAdsBaseType, IValueTag, ITwinPrimitive, IVortexElement
   inheritance:
   - System.Object
@@ -171,7 +169,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Client
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
@@ -208,7 +206,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
@@ -240,7 +238,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
@@ -282,7 +280,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetSynchron
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
@@ -317,7 +315,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SetSynchron
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
@@ -353,7 +351,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: FixValueLength
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
@@ -370,41 +368,37 @@ items:
       type: System.String
     content.vb: Function FixValueLength(val As String) As String
   overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueLength*
-- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ValueToWrite
-  commentId: P:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ValueToWrite
-  id: ValueToWrite
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueSize(System.String)
+  commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueSize(System.String)
+  id: FixValueSize(System.String)
   parent: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString
   langs:
   - csharp
   - vb
-  name: ValueToWrite
-  nameWithType: AdsString.ValueToWrite
-  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ValueToWrite
-  type: Property
+  name: FixValueSize(String)
+  nameWithType: AdsString.FixValueSize(String)
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueSize(System.String)
+  type: Method
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
-    id: ValueToWrite
+    id: FixValueSize
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
     startLine: 107
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
   syntax:
-    content: public object ValueToWrite { get; }
-    parameters: []
+    content: string FixValueSize(string val)
+    parameters:
+    - id: val
+      type: System.String
     return:
-      type: System.Object
-    content.vb: Public ReadOnly Property ValueToWrite As Object
-  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ValueToWrite*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
+      type: System.String
+    content.vb: Function FixValueSize(val As String) As String
+  overload: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueSize*
 - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.Read(System.IO.BinaryReader)
   commentId: M:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.Read(System.IO.BinaryReader)
   id: Read(System.IO.BinaryReader)
@@ -419,11 +413,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Read
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 127
+    startLine: 122
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -454,11 +448,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Write
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 132
+    startLine: 127
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -489,11 +483,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadFromBinaryReader
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 143
+    startLine: 138
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -521,11 +515,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteViaBinaryWriter
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsString.cs
-    startLine: 159
+    startLine: 154
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3.AdsValueTypes
@@ -3765,11 +3759,11 @@ references:
   name: FixValueLength
   nameWithType: AdsString.FixValueLength
   fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueLength
-- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ValueToWrite*
-  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ValueToWrite
-  name: ValueToWrite
-  nameWithType: AdsString.ValueToWrite
-  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.ValueToWrite
+- uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueSize*
+  commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueSize
+  name: FixValueSize
+  nameWithType: AdsString.FixValueSize
+  fullName: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.FixValueSize
 - uid: Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.Read*
   commentId: Overload:Vortex.Adapters.Connector.Tc3.AdsValueTypes.AdsString.Read
   name: Read

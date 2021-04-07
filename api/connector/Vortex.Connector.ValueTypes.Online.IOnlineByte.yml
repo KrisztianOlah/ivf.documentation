@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IOnlines/IOnlineByte.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IOnlineByte
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IOnlines/IOnlineByte.cs
@@ -29,7 +29,6 @@ items:
     content: 'public interface IOnlineByte : IOnline<byte>'
     content.vb: >-
       Public Interface IOnlineByte
-
           Inherits IOnline(Of Byte)
   inheritedMembers:
   - Vortex.Connector.ValueTypes.Online.IOnline{System.Byte}.Symbol

@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IValueTag
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
@@ -34,7 +34,6 @@ items:
     content: 'public interface IValueTag : ITwinPrimitive, IVortexElement'
     content.vb: >-
       Public Interface IValueTag
-
           Inherits ITwinPrimitive, IVortexElement
   inheritedMembers:
   - Vortex.Connector.IVortexElement.Symbol
@@ -64,7 +63,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EditValueChange
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
@@ -98,7 +97,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShadowValueChange
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
@@ -132,7 +131,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MakeReadOnly
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
@@ -160,7 +159,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Subscribe
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
@@ -192,7 +191,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UnSubscribe
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs

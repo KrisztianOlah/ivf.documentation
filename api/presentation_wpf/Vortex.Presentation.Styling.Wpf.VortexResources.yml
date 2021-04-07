@@ -33,7 +33,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: VortexResources
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -76,7 +76,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Primary
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -113,7 +113,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Secondary
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -150,7 +150,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Accent
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -187,7 +187,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Alert
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -224,7 +224,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Warning
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -261,7 +261,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Intermediate
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -298,7 +298,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SignalOn
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -335,7 +335,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SignalOff
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -372,7 +372,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnPrimary
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -409,7 +409,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnSecondary
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -446,7 +446,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnAccent
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -483,7 +483,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnAlert
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -520,7 +520,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnWarning
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -557,7 +557,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnIntermediate
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -594,7 +594,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnSignalOn
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -631,7 +631,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnSignalOff
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -668,7 +668,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetColorBrush
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
@@ -703,7 +703,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetOnColorBrush
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Styling.Wpf/VortexResources.cs

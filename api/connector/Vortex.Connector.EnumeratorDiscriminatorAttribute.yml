@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/EnumeratorDiscriminatorAttribute.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EnumeratorDiscriminatorAttribute
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/EnumeratorDiscriminatorAttribute.cs
@@ -31,7 +31,6 @@ items:
     content: 'public class EnumeratorDiscriminatorAttribute : Attribute'
     content.vb: >-
       Public Class EnumeratorDiscriminatorAttribute
-
           Inherits Attribute
   inheritance:
   - System.Object
@@ -101,7 +100,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/EnumeratorDiscriminatorAttribute.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/EnumeratorDiscriminatorAttribute.cs
@@ -137,7 +136,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/EnumeratorDiscriminatorAttribute.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EnumeratorType
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/EnumeratorDiscriminatorAttribute.cs

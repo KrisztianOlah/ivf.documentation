@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: master
+      branch: develop
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolLoaderSettings
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -27,7 +27,6 @@ items:
     content: 'class SymbolLoaderSettings : ISymbolLoaderSettings'
     content.vb: >-
       Class SymbolLoaderSettings
-
           Implements ISymbolLoaderSettings
   inheritance:
   - System.Object
