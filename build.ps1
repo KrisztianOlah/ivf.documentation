@@ -8,7 +8,7 @@ rm -r obj/ -erroraction silentlycontinue
 rm -r docs/ -erroraction silentlycontinue 
 
 # Build docu
-dotnet build -v q
+dotnet build -v n
 
 
 <#

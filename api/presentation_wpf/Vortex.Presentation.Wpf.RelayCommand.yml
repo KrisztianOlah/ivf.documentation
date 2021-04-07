@@ -27,7 +27,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RelayCommand
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
@@ -76,7 +76,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: execute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
@@ -103,7 +103,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: canExecute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
@@ -130,7 +130,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CanExecuteChanged
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
@@ -165,7 +165,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
@@ -213,7 +213,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
@@ -261,7 +261,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
@@ -303,7 +303,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
@@ -342,7 +342,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _callerObject
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
@@ -369,7 +369,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _vortexCallerObject
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
@@ -396,7 +396,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _commandName
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
@@ -423,7 +423,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CanExecute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
@@ -460,7 +460,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Execute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs

@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EnumToIntConverter
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -71,7 +71,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: propertyAttribute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Convert
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -181,7 +181,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ConvertBack
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -231,7 +231,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetEnumValue
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -268,7 +268,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetEnumValueString
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
@@ -305,7 +305,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ProvideValue
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/EnumeratorContainerViewModel.cs

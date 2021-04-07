@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Shadow/DisplaySlim/ShadowDisplaySlimTimeTextBox.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShadowDisplaySlimTimeTextBox
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Shadow/DisplaySlim/ShadowDisplaySlimTimeTextBox.cs
@@ -769,7 +769,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Shadow/DisplaySlim/ShadowDisplaySlimTimeTextBox.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Shadow/DisplaySlim/ShadowDisplaySlimTimeTextBox.cs

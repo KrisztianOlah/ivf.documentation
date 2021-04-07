@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/StateHelper.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MvvmVisualState
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/StateHelper.cs
@@ -61,7 +61,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/StateHelper.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CurrentStateProperty
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/StateHelper.cs
@@ -96,7 +96,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/StateHelper.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetCurrentState
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/StateHelper.cs
@@ -133,7 +133,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/StateHelper.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SetCurrentState
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/StateHelper.cs
@@ -170,7 +170,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/StateHelper.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnCurrentStateChanged
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/StateHelper.cs

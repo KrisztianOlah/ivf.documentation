@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlCheckBox.g.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlineControlCheckBox
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlCheckBox.g.cs
@@ -794,7 +794,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlCheckBox.xaml.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlCheckBox.xaml.cs
@@ -826,7 +826,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlCheckBox.xaml.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: binding
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlCheckBox.xaml.cs
@@ -853,7 +853,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlCheckBox.xaml.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CheckBox_GotFocus
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlCheckBox.xaml.cs
@@ -884,7 +884,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlCheckBox.xaml.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CheckBox_LostFocus
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Online/Control/OnlineControlCheckBox.xaml.cs
@@ -915,7 +915,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlCheckBox.g.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _contentLoaded
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlCheckBox.g.cs
@@ -942,7 +942,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlCheckBox.g.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InitializeComponent
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Online/Control/OnlineControlCheckBox.g.cs

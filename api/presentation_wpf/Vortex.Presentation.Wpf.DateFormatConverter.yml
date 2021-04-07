@@ -17,7 +17,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Converters/DateFormatConverter.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DateFormatConverter
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Converters/DateFormatConverter.cs
@@ -69,7 +69,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Converters/DateFormatConverter.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ToConvert
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Converters/DateFormatConverter.cs
@@ -113,7 +113,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Converters/DateFormatConverter.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ConvertBack
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Converters/DateFormatConverter.cs

@@ -31,7 +31,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NavigableRenderableViewModelBase
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -83,7 +83,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -113,7 +113,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _CurrentView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -140,7 +140,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CurrentView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -177,7 +177,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _NavCommands
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -208,7 +208,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NavCommands
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -243,7 +243,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddCommand
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -284,7 +284,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ToggleMenu
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -314,7 +314,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OpenCommand
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -349,7 +349,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: title
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -376,7 +376,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Title
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -413,7 +413,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: menuVisibility
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -440,7 +440,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MenuVisibility
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -477,7 +477,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ToggleMenuCommand
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -514,7 +514,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: openInWindow
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -541,7 +541,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ContentPresentationMode
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
@@ -578,7 +578,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OpenDefault
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavigableRenderableViewModelBase.cs

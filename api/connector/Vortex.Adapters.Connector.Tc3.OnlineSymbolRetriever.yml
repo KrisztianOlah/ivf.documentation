@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineSymbolRetriever.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlineSymbolRetriever
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineSymbolRetriever.cs
@@ -66,7 +66,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineSymbolRetriever.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: onlineVariableSymbolInfoList
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineSymbolRetriever.cs
@@ -93,7 +93,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineSymbolRetriever.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadAllSymbolsWithSymbolInfoReader
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineSymbolRetriever.cs
@@ -122,7 +122,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineSymbolRetriever.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetOnLineVariableSymbolInformation
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineSymbolRetriever.cs
@@ -153,7 +153,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineSymbolRetriever.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadOnLineSymbolList
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineSymbolRetriever.cs
@@ -189,7 +189,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineSymbolRetriever.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlineVariableSymbolInfoList
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineSymbolRetriever.cs
@@ -227,7 +227,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineSymbolRetriever.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateSymbolInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineSymbolRetriever.cs

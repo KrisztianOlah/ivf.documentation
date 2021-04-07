@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/DesignMode/TestView.g.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TestView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/DesignMode/TestView.g.cs
@@ -763,7 +763,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/DesignMode/TestView.xaml.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/DesignMode/TestView.xaml.cs
@@ -793,7 +793,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/DesignMode/TestView.g.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _contentLoaded
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/DesignMode/TestView.g.cs
@@ -820,7 +820,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/DesignMode/TestView.g.cs
-      branch: develop
+      branch: fix/build_remove_qlik_tests
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InitializeComponent
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/DesignMode/TestView.g.cs
