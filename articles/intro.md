@@ -1,8 +1,14 @@
-# Read the documentation
+# 👋  Welcome
 
-Just pick any topic from the left menu. 
+Welcome to Inxton documentation, a steadily growing collection of guides, documentation and API reference for Inxton. 
 
-# Need help?
+Expand the menu on the left, and pick a topic that you find interesting!
+
+Checkout out **[TcOpen](https://github.com/TcOpenGroup/TcOpen)** Open source for TwinCAT 3 with many contributions from Inxton developers.
+
+TcOpen has its own documentation at [docs.TcOpenGroup.com](https://docs.tcopengroup.org/). This documentation has more focus on programming and less on Inxton.
+
+## Need help?
 
 🧪  Create an issue [here](https://github.com/Inxton/Feedback/issues/new/choose)
 

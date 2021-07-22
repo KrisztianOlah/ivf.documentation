@@ -31,9 +31,9 @@ FUNCTION_BLOCK SomeFunctionBlockWithHiddenMembers
 ## Extended Attributes
 
 Inxton.Vortex.Framework defines several **Extended Attributes** to enhance description and functional abilities. Extended Attributes have following syntax:
-
+```
 {**attribute** *compile_directive* \[AttributeType(optional_parameters)\]}
-
+```
 * Extended attributes are always closed in curly brackets.
 * Attribute definition starts with the 'attribute' keyword.
 * 'compile_directive' is an arbitrary sequence of characters directing the compiler that given attribute should be compiled for a given configuration. Default directives are 'clr' and 'wpf'. (directives are settable in _Vortex/vortex_config.json file).
@@ -80,6 +80,17 @@ _identity : ULINT;
 {attribute clr [CompilerOmits("BuilderPlainer", "BuilderOnliner")]}
 _identity2 : ULINT;
 ~~~
+
+
+### Don't render the property
+`{attribute clr [RenderIgnore()]}` 
+
+### Don't render the property in only in `Control` view
+
+`{attribute clr [RenderIgnore("Control")]}` 
+`{attribute clr [RenderIgnore("Control","ShadowControl")]}` 
+
+
 
 #### MemberByIdentityAttribute
 

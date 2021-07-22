@@ -28,6 +28,7 @@ The packages will be first released as preview versions. These versions are clos
 
 - **[Inxton.Package.Vortex.Core](articles/01core/getting_started/getting_started.md)** (compiler, connectivity)
 - **[Inxton.Package.Vortex.Essentials](articles/02essentials/getting_started/getting_started.md)** (Core + automated UI generation)
+- **[TcOpen](https://github.com/TcOpenGroup/TcOpen)** Open source for TwinCAT 3 with many contributions from Inxton developers
 
 We recommend to subscribe to some of our channels where we will be announcing news that might be useful to you. See the links below.
 
