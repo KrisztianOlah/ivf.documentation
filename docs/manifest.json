@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "J:/MTS/Develop/foxtroth/ivf.documentation",
+  "source_base_path": "C:/MTS/Develop/GitHub/ivf.documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -2544,7 +2544,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/api/index.html",
-          "hash": "BUeUuagxXLiFdsw37pnqxg=="
+          "hash": "kAz04MD1oryEdiqCJFQSKQ=="
         }
       },
       "is_incremental": true,
@@ -4320,7 +4320,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/01core/getting_started/getting_started.html",
-          "hash": "T191s4pqQs1GArubTfTiiQ=="
+          "hash": "PZbFIH3IMUdu1A6AkyY3ug=="
         }
       },
       "is_incremental": true,
@@ -4376,7 +4376,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/02essentials/getting_started/getting_started.html",
-          "hash": "2lpzKqHsNMpt33+ZE1NMoQ=="
+          "hash": "+POueENyF3uUCIMXOkuL8Q=="
         }
       },
       "is_incremental": true,
@@ -4432,7 +4432,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/03advanced/getting_started/README.html",
-          "hash": "9tWpPb5AjX3Aa7mhU10bRw=="
+          "hash": "pWGmFxvHr6OyJ2XKQhcAkQ=="
         }
       },
       "is_incremental": true,
@@ -4488,7 +4488,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/03advanced/getting_started/getting_started.html",
-          "hash": "6dDNfm565NZ/j2ohGyvWog=="
+          "hash": "BpvTPCi2XQKvoDXSIm93AQ=="
         }
       },
       "is_incremental": true,
@@ -4544,7 +4544,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/common/ExtensionInstalation.html",
-          "hash": "xmYpd0iIABkhZgcjk2eo8g=="
+          "hash": "rwIImWOwzuDdDQyRpiiVHA=="
         }
       },
       "is_incremental": true,
@@ -4556,7 +4556,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/common/INSTALLATION.html",
-          "hash": "z95D0rezVyhyUTPBpa4PhQ=="
+          "hash": "IYCPDd1A0o0lAbHAnc8XHg=="
         }
       },
       "is_incremental": true,
@@ -4568,7 +4568,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/common/LicenseInstallation.html",
-          "hash": "YxKX/4L8pobYKHP2RuyuOw=="
+          "hash": "D+21frE+XqlwdNMgf1GIdQ=="
         }
       },
       "is_incremental": true,
@@ -4580,7 +4580,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/common/PREREQUISITES.html",
-          "hash": "MI93KxQU3uQL488q2N+hZw=="
+          "hash": "BCzUtPt7Y5PruX+vyHrvfQ=="
         }
       },
       "is_incremental": true,
@@ -4647,7 +4647,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/howtos/diag/diag.html",
-          "hash": "FeTj/1/5Ls6APEpUiVpnHA=="
+          "hash": "pbumZXaDVAduVVhPccICtg=="
         }
       },
       "is_incremental": true,
@@ -4692,7 +4692,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/howtos/influxdb/influxdb.html",
-          "hash": "Gq/wEDqW3C1bqfkZKDt91A=="
+          "hash": "khSsMplZEjthqwr/GZyhJQ=="
         }
       },
       "is_incremental": true,
@@ -4737,7 +4737,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/howtos/invoke_csharp/invoke_csharp.html",
-          "hash": "s6mHlgyOHRAiFKtpsbabtw=="
+          "hash": "Ur0iYVxiNI4DZU6sC+9wPA=="
         }
       },
       "is_incremental": true,
@@ -4793,7 +4793,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/howtos/recipes/recipes.html",
-          "hash": "cniYaJmw6v4nUvOpooPDVQ=="
+          "hash": "NkD3047NWkFo5igbkYO7bA=="
         }
       },
       "is_incremental": true,
@@ -4805,7 +4805,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/intro.html",
-          "hash": "GNbKD+H4mK74Z7ZHAZI9uQ=="
+          "hash": "EvkK6qSWkLOVotZ83Km+UQ=="
         }
       },
       "is_incremental": true,
@@ -4817,7 +4817,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.Vortex.Connector/Conceptual/PrimitiveTwins.html",
-          "hash": "YgFSSSg0u3RnZTlj37wgcA=="
+          "hash": "27sEiYT/8DE5/HLki2BFiA=="
         }
       },
       "is_incremental": true,
@@ -4829,7 +4829,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.Vortex.Connector/README.html",
-          "hash": "1aLNmMtRIJ4cMImozOIbsw=="
+          "hash": "g79+p08wGRztgJtu1kU90Q=="
         }
       },
       "is_incremental": true,
@@ -4976,7 +4976,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Controls.Wpf/README.html",
-          "hash": "V3kvEcRtdW/+BNagq9o4BA=="
+          "hash": "8r0w2gteJGLYxxmq+rrbfA=="
         }
       },
       "is_incremental": true,
@@ -4988,7 +4988,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/README.html",
-          "hash": "DLaTVJvVuGKssuY2f+H0bQ=="
+          "hash": "wWBq+HuxBW9IJz8N3J5PYg=="
         }
       },
       "is_incremental": true,
@@ -5022,7 +5022,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/buttons.html",
-          "hash": "hBaFe1OxrtX2swzpHkqMsg=="
+          "hash": "hoQ2n/TQ+tNg2m7hYCkMRA=="
         }
       },
       "is_incremental": true,
@@ -5034,7 +5034,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/color_system.html",
-          "hash": "YSqcrez9P3r3nUDiJte+gA=="
+          "hash": "Gr8VfAFvgX6nwr7kQGoP3Q=="
         }
       },
       "is_incremental": true,
@@ -5046,7 +5046,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/how_to_apply_styles.html",
-          "hash": "DDI/g0r9w5YabmDJn2NGKg=="
+          "hash": "xKkWT1srfrarcB2XbrLMTA=="
         }
       },
       "is_incremental": true,
@@ -5058,7 +5058,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Styling.Wpf/override_color.html",
-          "hash": "2AMxOwnn5yOglLF6gtmK9w=="
+          "hash": "St1fuHUEIfbxpAoJrUmt8w=="
         }
       },
       "is_incremental": true,
@@ -5070,10 +5070,43 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Wpf/README.html",
-          "hash": "dUoaMIra2PcFOpb4XT7jFA=="
+          "hash": "CsUMbkkg3acPcaYhTdivTg=="
         }
       },
       "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Wpf/assets/generated-pipeline.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Presentation.Wpf/assets/generated-pipeline.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Wpf/assets/renderable_content_control_diagram.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Presentation.Wpf/assets/renderable_content_control_diagram.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Wpf/assets/simple-generated-ui.png",
+      "output": {
+        "resource": {
+          "relative_path": "assets/articles/units/Inxton.Vortex.Presentation.Wpf/assets/simple-generated-ui.png"
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -5082,7 +5115,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Wpf/how_it_works.html",
-          "hash": "n4JjqFkLzx9z3X408YzG1g=="
+          "hash": "0Gc3pY9MnD7uOIfRUse10w=="
         }
       },
       "is_incremental": true,
@@ -5094,7 +5127,19 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Wpf/presentation_types.html",
-          "hash": "2BFzUadBh+xGn6loslTWIQ=="
+          "hash": "xjuEQglTzZGop6Q2aL4ayA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/units/Inxton.Vortex.Presentation.Wpf/renderable_content_control.md",
+      "output": {
+        ".html": {
+          "relative_path": "docu/articles/units/Inxton.Vortex.Presentation.Wpf/renderable_content_control.html",
+          "hash": "RLJvFEYdV8e8Qe0hh5GiaA=="
         }
       },
       "is_incremental": true,
@@ -5106,7 +5151,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/AddedProperties.html",
-          "hash": "Ir2EAUa3s+mBvqS91jIlsQ=="
+          "hash": "oTNXLVISVy9MLjM6BE7zFA=="
         }
       },
       "is_incremental": true,
@@ -5118,7 +5163,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/Attributes.html",
-          "hash": "+V0DtZvpMoHlRXuc7KgCmg=="
+          "hash": "H2BYDjc3VoFnDmEaEyQzkQ=="
         }
       },
       "is_incremental": true,
@@ -5130,7 +5175,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/DocumentationBlock.html",
-          "hash": "mwOwMkeGok0VZkx2CZTSLA=="
+          "hash": "N28ORvDxsXt1Jy3tiEN3xg=="
         }
       },
       "is_incremental": true,
@@ -5142,7 +5187,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/FakeComments.html",
-          "hash": "WFXa+/HUjvWv2HO3rCMSWA=="
+          "hash": "8OQqOfFrjIvT0oP+0xZrTA=="
         }
       },
       "is_incremental": true,
@@ -5154,7 +5199,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/IgnoringPartsOfCode.html",
-          "hash": "EV3LDtmheFDvKexaLCAlEA=="
+          "hash": "1vmNLpUVNLonJmRZgmTBtw=="
         }
       },
       "is_incremental": true,
@@ -5166,7 +5211,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/TwinController.html",
-          "hash": "VKxuaMmD/gjSyS/xyrbC3Q=="
+          "hash": "dJh7yoVVml/HqavG06zBzA=="
         }
       },
       "is_incremental": true,
@@ -5178,7 +5223,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/TwinObjects.html",
-          "hash": "nOHayjJ5WepCpQIcGUPiPQ=="
+          "hash": "4os37O3KdY3GTYHqsg/zhA=="
         }
       },
       "is_incremental": true,
@@ -5190,7 +5235,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/Conceptual/Twins.html",
-          "hash": "EpwjKDNxoqf12OO0X/vL2w=="
+          "hash": "m5MVhyy9c/OTdgsXRj5ifw=="
         }
       },
       "is_incremental": true,
@@ -5202,7 +5247,7 @@
       "output": {
         ".html": {
           "relative_path": "docu/articles/units/Inxton.vortex.compiler.console/README.html",
-          "hash": "tlMLI47hSvIBhcaoAsemog=="
+          "hash": "mwKwd7MMxkchnIWKMSLo9w=="
         }
       },
       "is_incremental": true,
@@ -71137,7 +71182,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "PnOFPQEraEhA0B1+rcmZRQ=="
+          "hash": "xfRU/aS1KCw87xVmPiNtUQ=="
         }
       },
       "is_incremental": true,
@@ -71152,10 +71197,10 @@
       "output": {
         ".html": {
           "relative_path": "docu/previous_versions/index.html",
-          "hash": "NTcBk93UdoR7eV72QHGiHA=="
+          "hash": "cFAFM4AzeO6YGAbhMf9HOw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     }
   ],
@@ -71171,8 +71216,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 36,
-          "skipped_file_count": 35
+          "total_file_count": 37,
+          "skipped_file_count": 37
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

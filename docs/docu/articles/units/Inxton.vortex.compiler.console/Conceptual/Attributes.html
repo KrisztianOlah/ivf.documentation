@@ -171,6 +171,9 @@
                                   <a href="../../../units/Inxton.Vortex.Presentation.Wpf/README.html" title="Generating user interface" class="">Generating user interface</a>
                                 </li>
                                 <li class="">
+                                  <a href="../../../units/Inxton.Vortex.Presentation.Wpf/renderable_content_control.html" title="Renderable content control" class="">Renderable content control</a>
+                                </li>
+                                <li class="">
                                   <a href="../../../units/Inxton.Vortex.Presentation.Wpf/how_it_works.html" title="How it works" class="">How it works</a>
                                 </li>
                                 <li class="">
@@ -235,7 +238,8 @@ FUNCTION_BLOCK SomeFunctionBlockWithHiddenMembers
 </code></pre>
 <h2 id="extended-attributes">Extended Attributes</h2>
 <p>Inxton.Vortex.Framework defines several <strong>Extended Attributes</strong> to enhance description and functional abilities. Extended Attributes have following syntax:</p>
-<p>{<strong>attribute</strong> <em>compile_directive</em> [AttributeType(optional_parameters)]}</p>
+<pre><code>{**attribute** *compile_directive* \[AttributeType(optional_parameters)\]}
+</code></pre>
 <ul>
 <li>Extended attributes are always closed in curly brackets.</li>
 <li>Attribute definition starts with the 'attribute' keyword.</li>
@@ -294,6 +298,11 @@ _identity : ULINT;
 {attribute clr [CompilerOmits(&quot;BuilderPlainer&quot;, &quot;BuilderOnliner&quot;)]}
 _identity2 : ULINT;
 </code></pre>
+<h3 id="dont-render-the-property">Don't render the property</h3>
+<p><code>{attribute clr [RenderIgnore()]}</code></p>
+<h3 id="dont-render-the-property-in-only-in-control-view">Don't render the property in only in <code>Control</code> view</h3>
+<p><code>{attribute clr [RenderIgnore(&quot;Control&quot;)]}</code>
+<code>{attribute clr [RenderIgnore(&quot;Control&quot;,&quot;ShadowControl&quot;)]}</code></p>
 <h4 id="memberbyidentityattribute">MemberByIdentityAttribute</h4>
 <p>This is an advanced attribute used for the specific feature of the framework in more advanced scenarios.</p>
 <p>MemberByIdentityAttribute allows a property to return a member with a given identity.</p>
@@ -312,7 +321,7 @@ AnyVariable : VortexBase.iBOOL;
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Inxton/ivf.documentation/blob/develop/articles/units/Inxton.vortex.compiler.console/Conceptual/Attributes.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Inxton/ivf.documentation/blob/jchml-july-edit/articles/units/Inxton.vortex.compiler.console/Conceptual/Attributes.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
