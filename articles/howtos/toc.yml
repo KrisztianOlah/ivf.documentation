@@ -4,5 +4,22 @@
   href : influxdb/influxdb.md
 - name : Invoke C# from PLC
   href : invoke_csharp/invoke_csharp.md
+- name : How to access TwinController
+  href : ../units/Inxton.vortex.compiler.console/README.md#how-to-access-twincontroller
+- name : How to write documentation blocks
+  href : ../units/Inxton.vortex.compiler.console/Conceptual/DocumentationBlock.md
+- name : How to make Inxton compiler ignore unknown syntax
+  href : ../units/Inxton.vortex.compiler.console/Conceptual/IgnoringPartsOfCode.md
+- name : Cyclic, Synchronous and Batched access
+  href : ../units/Inxton.Vortex.Connector/Conceptual/PrimitiveTwins.md
+- name : How to generate UI
+  href : ../02essentials/getting_started/getting_started.md#how-to-generate-ui
+- name : How to include TcOpen in your project 🔗
+  href : https://docs.tcopengroup.org/articles/TcOpenFramework/How_to_include_tcopen_in_a_project/article.html
+- name : Video how tos 🔗
+  href : https://youtube.com/playlist?list=PL-0IxLiTmB6LbqE7npKFibLJwiX7pODzm
+  
+
 #- name : Use diagnostics tools
 #   href : diag/diag.md
+

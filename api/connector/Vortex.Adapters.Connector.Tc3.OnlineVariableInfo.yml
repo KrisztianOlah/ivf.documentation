@@ -11,7 +11,7 @@ items:
   - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._symbols
   - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.AdsSymbol
   - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.BitSize
-  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol})
+  - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol},Vortex.Adapters.Connector.Tc3.AdsConnector)
   - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Handle
   - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexGroup
   - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.IndexOffset
@@ -48,7 +48,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlineVariableInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -67,14 +67,6 @@ items:
   - System.Object
   implements:
   - Vortex.Connector.IValueTagInfo
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   extensionMethods:
   - Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
   modifiers.csharp:
@@ -97,7 +89,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InvalidateSymbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -123,7 +115,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsValid
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -160,7 +152,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -191,7 +183,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _client
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -218,7 +210,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _handle
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -245,7 +237,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Handle
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -281,7 +273,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.IValueTagInfo.Group
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -319,7 +311,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.IValueTagInfo.Offset
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -357,7 +349,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.IValueTagInfo.Length
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -395,7 +387,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.IValueTagInfo.Size
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -433,7 +425,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.IValueTagInfo.IsAvailable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -470,7 +462,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IndexGroup
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -507,7 +499,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IndexOffset
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -546,7 +538,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsAvailableInController
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -585,7 +577,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Length
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -622,7 +614,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Size
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -659,7 +651,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: BitSize
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -696,7 +688,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -735,7 +727,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Name
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -772,7 +764,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadSymbolOnTheFly
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -801,7 +793,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AdsSymbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -822,21 +814,21 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol})
-  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol})
-  id: CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol})
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol},Vortex.Adapters.Connector.Tc3.AdsConnector)
+  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol},Vortex.Adapters.Connector.Tc3.AdsConnector)
+  id: CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol},Vortex.Adapters.Connector.Tc3.AdsConnector)
   parent: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo
   langs:
   - csharp
   - vb
-  name: CreateSymbolTable(ISymbolCollection<ISymbol>)
-  nameWithType: OnlineVariableInfo.CreateSymbolTable(ISymbolCollection<ISymbol>)
-  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection<TwinCAT.TypeSystem.ISymbol>)
+  name: CreateSymbolTable(ISymbolCollection<ISymbol>, AdsConnector)
+  nameWithType: OnlineVariableInfo.CreateSymbolTable(ISymbolCollection<ISymbol>, AdsConnector)
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection<TwinCAT.TypeSystem.ISymbol>, Vortex.Adapters.Connector.Tc3.AdsConnector)
   type: Method
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateSymbolTable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -845,19 +837,21 @@ items:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
   syntax:
-    content: static void CreateSymbolTable(ISymbolCollection<ISymbol> symbols)
+    content: static void CreateSymbolTable(ISymbolCollection<ISymbol> symbols, AdsConnector connector)
     parameters:
     - id: symbols
       type: TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol}
-    content.vb: Shared Sub CreateSymbolTable(symbols As ISymbolCollection(Of ISymbol))
+    - id: connector
+      type: Vortex.Adapters.Connector.Tc3.AdsConnector
+    content.vb: Shared Sub CreateSymbolTable(symbols As ISymbolCollection(Of ISymbol), connector As AdsConnector)
   overload: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable*
-  nameWithType.vb: OnlineVariableInfo.CreateSymbolTable(ISymbolCollection(Of ISymbol))
+  nameWithType.vb: OnlineVariableInfo.CreateSymbolTable(ISymbolCollection(Of ISymbol), AdsConnector)
   modifiers.csharp:
   - static
   modifiers.vb:
   - Shared
-  fullName.vb: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection(Of TwinCAT.TypeSystem.ISymbol))
-  name.vb: CreateSymbolTable(ISymbolCollection(Of ISymbol))
+  fullName.vb: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection(Of TwinCAT.TypeSystem.ISymbol), Vortex.Adapters.Connector.Tc3.AdsConnector)
+  name.vb: CreateSymbolTable(ISymbolCollection(Of ISymbol), AdsConnector)
 - uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._symbols
   commentId: F:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo._symbols
   id: _symbols
@@ -872,11 +866,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _symbols
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-    startLine: 192
+    startLine: 197
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -903,11 +897,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadSymbolOnTheFlyUseSymbolLoader
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-    startLine: 194
+    startLine: 199
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -932,11 +926,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadSymbolOnTheFlyUseSymbolReader
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-    startLine: 214
+    startLine: 219
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -961,11 +955,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadSymbolOnTheFlyFromPreLoadedSymbols
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-    startLine: 230
+    startLine: 235
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -990,11 +984,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LinkOnlineVariableSymbolInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-    startLine: 236
+    startLine: 241
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1021,11 +1015,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LinkOnlineVariableSymbolInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-    startLine: 242
+    startLine: 247
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1052,11 +1046,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: reservedGroups
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-    startLine: 262
+    startLine: 267
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1083,11 +1077,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReservedGroups
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-    startLine: 263
+    startLine: 268
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1123,11 +1117,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Link
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-    startLine: 271
+    startLine: 276
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1156,11 +1150,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsSymbolExpectedToBeAvailable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-    startLine: 300
+    startLine: 305
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1195,11 +1189,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolInfoFactory
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-    startLine: 310
+    startLine: 315
   assemblies:
   - Vortex.Adapters.Connector.Tc3
   namespace: Vortex.Adapters.Connector.Tc3
@@ -1241,285 +1235,6 @@ references:
   name: IValueTagInfo
   nameWithType: IValueTagInfo
   fullName: Vortex.Connector.IValueTagInfo
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
   commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
   parent: Vortex.Connector.IValueTagExtensions

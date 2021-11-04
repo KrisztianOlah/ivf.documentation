@@ -95,7 +95,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlinerBaseType
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -152,13 +152,6 @@ items:
   - Vortex.Connector.ValueTypes.OnlinerBaseType.ReadWriteAccess
   - Vortex.Connector.ValueTypes.OnlinerBaseType.MakeReadOnly
   - Vortex.Connector.ValueTypes.OnlinerBaseType.AttributeFormatString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   extensionMethods:
   - Vortex.Connector.ValueTypes.OnlinerBaseType.Vortex.Connector.IValueTagExtensions.SetCyclicValue``1({T})
   - Vortex.Connector.ValueTypes.OnlinerBaseType.Vortex.Connector.IValueTagExtensions.SetShadowValue(System.Object)
@@ -191,7 +184,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EditValueChange
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -235,7 +228,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShadowValueChange
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -279,7 +272,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: validator
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -314,7 +307,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Validator
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -353,7 +346,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UpdateRead
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -391,7 +384,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SetLastValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -444,7 +437,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LastValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -483,7 +476,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CwCycle
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -522,7 +515,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: cyclic
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -553,7 +546,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: cyclicToWrite
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -592,7 +585,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Cyclic
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -633,7 +626,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetLastAvailableValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -672,7 +665,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Edit
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -711,7 +704,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InitializeDefaults
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -750,7 +743,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _shadow
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -779,7 +772,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Shadow
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -818,7 +811,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Synchron
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -859,7 +852,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: raw
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -888,7 +881,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Raw
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -929,7 +922,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetSymbolTail
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -968,7 +961,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolTail
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1007,7 +1000,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InstanceMinValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1050,7 +1043,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InstanceMaxValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1093,7 +1086,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1127,7 +1120,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Parent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1166,7 +1159,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetParent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1205,7 +1198,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1250,7 +1243,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.ValueChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1283,7 +1276,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.ValueChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1315,7 +1308,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _humanReadable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1344,7 +1337,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HumanReadable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1387,7 +1380,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Subscribe
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1427,7 +1420,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UnSubscribe
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1467,7 +1460,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: PropertyChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1504,7 +1497,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ValueChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1539,7 +1532,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShadowValueChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1574,7 +1567,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetValueChangeEventSubscribers
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1611,7 +1604,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _attributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1640,7 +1633,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1681,7 +1674,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeUnits
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1720,7 +1713,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: attributeToolTip
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1749,7 +1742,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeToolTip
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1788,7 +1781,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CyclicReading
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1829,7 +1822,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: VariableInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1870,7 +1863,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1911,7 +1904,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HasBeenWritten
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1950,7 +1943,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsToBeRead
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -1989,7 +1982,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsToBeWritten
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2028,7 +2021,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteToPlcIsRequested
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2067,7 +2060,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadFromPlcIsRequested
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2108,7 +2101,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeMaxSet
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2147,7 +2140,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: attributeMax
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2176,7 +2169,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeMaximum
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2215,7 +2208,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeMinSet
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2254,7 +2247,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: attributeMin
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2283,7 +2276,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttributeMinimum
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2322,7 +2315,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HasWriteAccess
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
@@ -2359,11 +2352,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NotifyPropertyChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 705
+    startLine: 706
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2397,11 +2390,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnValueChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 718
+    startLine: 719
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2435,11 +2428,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnShadowValueChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 729
+    startLine: 730
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2466,11 +2459,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadFromItem
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 742
+    startLine: 743
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2502,11 +2495,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteItem
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 752
+    startLine: 753
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2538,11 +2531,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateSymbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 760
+    startLine: 761
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2577,11 +2570,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EditValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 766
+    startLine: 767
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2610,11 +2603,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ChangeShadowValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 776
+    startLine: 777
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2643,11 +2636,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetDeclaringAssembly
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 795
+    startLine: 796
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2680,11 +2673,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _translator
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 800
+    startLine: 801
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2709,11 +2702,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Translator
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 805
+    startLine: 806
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2726,6 +2719,8 @@ items:
       type: Vortex.Localizations.Abstractions.ITranslator
     content.vb: Public ReadOnly Property Translator As ITranslator
   overload: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Translator*
+  implements:
+  - Vortex.Connector.IValueTag.Translator
   nameWithType.vb: OnlinerBaseType(Of T).Translator
   modifiers.csharp:
   - public
@@ -2749,11 +2744,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 836
+    startLine: 837
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2788,11 +2783,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 838
+    startLine: 839
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2826,11 +2821,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.AttributeUnits
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 840
+    startLine: 841
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2864,11 +2859,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Cyclic
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 842
+    startLine: 843
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2902,11 +2897,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Edit
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 844
+    startLine: 845
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2940,11 +2935,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Synchron
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 846
+    startLine: 847
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -2978,11 +2973,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Online.IOnline<T>.Value
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 848
+    startLine: 849
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -3016,11 +3011,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Value
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 850
+    startLine: 851
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -3054,11 +3049,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 852
+    startLine: 853
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -3093,11 +3088,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 854
+    startLine: 855
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -3131,11 +3126,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.AttributeUnits
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 856
+    startLine: 857
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -3169,11 +3164,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.ValueTypes.Shadows.IShadow<T>.Shadow
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBaseType.cs
-    startLine: 858
+    startLine: 859
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector.ValueTypes
@@ -3426,285 +3421,6 @@ references:
   name: AttributeFormatString
   nameWithType: OnlinerBaseType.AttributeFormatString
   fullName: Vortex.Connector.ValueTypes.OnlinerBaseType.AttributeFormatString
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Vortex.Connector.ValueTypes.OnlinerBaseType.Vortex.Connector.IValueTagExtensions.SetCyclicValue``1({T})
   commentId: M:Vortex.Connector.IValueTagExtensions.SetCyclicValue``1(Vortex.Connector.ValueTypes.OnlinerBaseType,``0)
   parent: Vortex.Connector.IValueTagExtensions
@@ -5359,6 +5075,12 @@ references:
   fullName: Vortex.Connector.ValueTypes.OnlinerBaseType<T>.Translator
   nameWithType.vb: OnlinerBaseType(Of T).Translator
   fullName.vb: Vortex.Connector.ValueTypes.OnlinerBaseType(Of T).Translator
+- uid: Vortex.Connector.IValueTag.Translator
+  commentId: P:Vortex.Connector.IValueTag.Translator
+  parent: Vortex.Connector.IValueTag
+  name: Translator
+  nameWithType: IValueTag.Translator
+  fullName: Vortex.Connector.IValueTag.Translator
 - uid: Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Symbol*
   commentId: Overload:Vortex.Connector.ValueTypes.OnlinerBaseType`1.Vortex#Connector#ValueTypes#Online#IOnline{T}#Symbol
   name: IOnline<T>.Symbol

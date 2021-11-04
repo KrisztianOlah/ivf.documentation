@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ContentOpeningMode
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
@@ -30,8 +30,8 @@ items:
     content: public enum ContentOpeningMode
     content.vb: Public Enum ContentOpeningMode
   extensionMethods:
-  - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
   - System.Enum.Vortex.Presentation.Wpf.EnumHelper.Description
+  - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
   modifiers.csharp:
   - public
   - enum
@@ -52,7 +52,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Spa
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
@@ -84,7 +84,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShowWindow
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
@@ -116,7 +116,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShowDialogWindow
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/INavigable.cs
@@ -140,35 +140,6 @@ references:
   name: Vortex.Presentation.Wpf
   nameWithType: Vortex.Presentation.Wpf
   fullName: Vortex.Presentation.Wpf
-- uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
-  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
-  parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
-  definition: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
-  name: AttributeFormatOrNull()
-  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull()
-  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull()
-  spec.csharp:
-  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
-    name: AttributeFormatOrNull
-    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
-    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
-    name: AttributeFormatOrNull
-    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
-    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Enum.Vortex.Presentation.Wpf.EnumHelper.Description
   commentId: M:Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
   parent: Vortex.Presentation.Wpf.EnumHelper
@@ -198,50 +169,35 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+- uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
   commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
-  isExternal: true
-  name: AttributeFormatOrNull(Object)
-  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull(Object)
-  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  definition: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  name: AttributeFormatOrNull()
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull()
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull()
   spec.csharp:
-  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
     name: AttributeFormatOrNull
     nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
     fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
     name: AttributeFormatOrNull
     nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
     fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
   - name: (
     nameWithType: (
     fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
-  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
-  parent: Vortex.Presentation.Controls.Wpf.Extension
-  name: AttributeStringFormatExtensions
-  nameWithType: AttributeStringFormatExtensions
-  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
 - uid: Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
   commentId: M:Vortex.Presentation.Wpf.EnumHelper.Description(System.Enum)
   isExternal: true
@@ -286,6 +242,50 @@ references:
   name: EnumHelper
   nameWithType: EnumHelper
   fullName: Vortex.Presentation.Wpf.EnumHelper
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  isExternal: true
+  name: AttributeFormatOrNull(Object)
+  nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull(Object)
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+  spec.csharp:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
+    name: AttributeFormatOrNull
+    nameWithType: AttributeStringFormatExtensions.AttributeFormatOrNull
+    fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  commentId: T:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
+  parent: Vortex.Presentation.Controls.Wpf.Extension
+  name: AttributeStringFormatExtensions
+  nameWithType: AttributeStringFormatExtensions
+  fullName: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
 - uid: Vortex.Presentation.Controls.Wpf.Extension
   commentId: N:Vortex.Presentation.Controls.Wpf.Extension
   name: Vortex.Presentation.Controls.Wpf.Extension

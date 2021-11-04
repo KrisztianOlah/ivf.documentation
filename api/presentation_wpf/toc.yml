@@ -4,8 +4,6 @@
   items:
   - uid: Vortex.Presentation.Controls.Wpf.DateTimePickerBox
     name: DateTimePickerBox
-  - uid: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils
-    name: MaterialPickerUtils
   - uid: Vortex.Presentation.Controls.Wpf.MultiConverter
     name: MultiConverter
   - uid: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox

@@ -26,7 +26,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RelayCommand
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
@@ -37,27 +37,28 @@ items:
   summary: "\nRelay command with logging capabilities.\n"
   example: []
   syntax:
-    content: 'public class RelayCommand<T> : ICommand'
+    content: >-
+      [Obsolete("Use TcOpen.Inxton.Input.RelayCommand instead")]
+
+      public class RelayCommand<T> : ICommand
     typeParameters:
     - id: T
       description: ''
     content.vb: >-
+      <Obsolete("Use TcOpen.Inxton.Input.RelayCommand instead")>
+
       Public Class RelayCommand(Of T)
           Implements ICommand
   inheritance:
   - System.Object
-  implements:
-  - System.Windows.Input.ICommand
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use TcOpen.Inxton.Input.RelayCommand instead
   nameWithType.vb: RelayCommand(Of T)
   modifiers.csharp:
   - public
@@ -81,11 +82,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _TargetExecuteMethod
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -110,11 +111,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _TargetCanExecuteMethod
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-    startLine: 14
+    startLine: 15
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -139,11 +140,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-    startLine: 23
+    startLine: 24
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -187,11 +188,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-    startLine: 39
+    startLine: 40
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -235,11 +236,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _callerObject
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-    startLine: 47
+    startLine: 48
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -264,11 +265,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _vortexCallerObject
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-    startLine: 48
+    startLine: 49
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -293,11 +294,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _commandName
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-    startLine: 49
+    startLine: 50
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -322,11 +323,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RaiseCanExecuteChanged
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-    startLine: 55
+    startLine: 56
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -356,11 +357,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CanExecute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-    startLine: 63
+    startLine: 64
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -373,8 +374,6 @@ items:
       type: System.Boolean
     content.vb: Public Function CanExecute(parameter As Object) As Boolean
   overload: Vortex.Presentation.Wpf.RelayCommand`1.CanExecute*
-  implements:
-  - System.Windows.Input.ICommand.CanExecute(System.Object)
   nameWithType.vb: RelayCommand(Of T).CanExecute(Object)
   modifiers.csharp:
   - public
@@ -395,11 +394,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CanExecuteChanged
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-    startLine: 81
+    startLine: 82
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -410,8 +409,6 @@ items:
     return:
       type: System.EventHandler
     content.vb: Public Event CanExecuteChanged As EventHandler
-  implements:
-  - System.Windows.Input.ICommand.CanExecuteChanged
   nameWithType.vb: RelayCommand(Of T).CanExecuteChanged
   modifiers.csharp:
   - public
@@ -432,11 +429,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Execute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Commands/RelayCommand.cs
-    startLine: 84
+    startLine: 85
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -447,8 +444,6 @@ items:
       type: System.Object
     content.vb: Public Sub Execute(parameter As Object)
   overload: Vortex.Presentation.Wpf.RelayCommand`1.Execute*
-  implements:
-  - System.Windows.Input.ICommand.Execute(System.Object)
   nameWithType.vb: RelayCommand(Of T).Execute(Object)
   modifiers.csharp:
   - public
@@ -468,292 +463,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Windows.Input.ICommand
-  commentId: T:System.Windows.Input.ICommand
-  parent: System.Windows.Input
-  isExternal: true
-  name: ICommand
-  nameWithType: ICommand
-  fullName: System.Windows.Input.ICommand
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull
   commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
   parent: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions
@@ -789,12 +498,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Windows.Input
-  commentId: N:System.Windows.Input
-  isExternal: true
-  name: System.Windows.Input
-  nameWithType: System.Windows.Input
-  fullName: System.Windows.Input
 - uid: Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
   commentId: M:Vortex.Presentation.Controls.Wpf.Extension.AttributeStringFormatExtensions.AttributeFormatOrNull(System.Object)
   isExternal: true
@@ -1078,47 +781,6 @@ references:
   fullName: Vortex.Presentation.Wpf.RelayCommand<T>.CanExecute
   nameWithType.vb: RelayCommand(Of T).CanExecute
   fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T).CanExecute
-- uid: System.Windows.Input.ICommand.CanExecute(System.Object)
-  commentId: M:System.Windows.Input.ICommand.CanExecute(System.Object)
-  parent: System.Windows.Input.ICommand
-  isExternal: true
-  name: CanExecute(Object)
-  nameWithType: ICommand.CanExecute(Object)
-  fullName: System.Windows.Input.ICommand.CanExecute(System.Object)
-  spec.csharp:
-  - uid: System.Windows.Input.ICommand.CanExecute(System.Object)
-    name: CanExecute
-    nameWithType: ICommand.CanExecute
-    fullName: System.Windows.Input.ICommand.CanExecute
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Windows.Input.ICommand.CanExecute(System.Object)
-    name: CanExecute
-    nameWithType: ICommand.CanExecute
-    fullName: System.Windows.Input.ICommand.CanExecute
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -1126,13 +788,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Windows.Input.ICommand.CanExecuteChanged
-  commentId: E:System.Windows.Input.ICommand.CanExecuteChanged
-  parent: System.Windows.Input.ICommand
-  isExternal: true
-  name: CanExecuteChanged
-  nameWithType: ICommand.CanExecuteChanged
-  fullName: System.Windows.Input.ICommand.CanExecuteChanged
 - uid: System.EventHandler
   commentId: T:System.EventHandler
   parent: System
@@ -1147,44 +802,3 @@ references:
   fullName: Vortex.Presentation.Wpf.RelayCommand<T>.Execute
   nameWithType.vb: RelayCommand(Of T).Execute
   fullName.vb: Vortex.Presentation.Wpf.RelayCommand(Of T).Execute
-- uid: System.Windows.Input.ICommand.Execute(System.Object)
-  commentId: M:System.Windows.Input.ICommand.Execute(System.Object)
-  parent: System.Windows.Input.ICommand
-  isExternal: true
-  name: Execute(Object)
-  nameWithType: ICommand.Execute(Object)
-  fullName: System.Windows.Input.ICommand.Execute(System.Object)
-  spec.csharp:
-  - uid: System.Windows.Input.ICommand.Execute(System.Object)
-    name: Execute
-    nameWithType: ICommand.Execute
-    fullName: System.Windows.Input.ICommand.Execute
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Windows.Input.ICommand.Execute(System.Object)
-    name: Execute
-    nameWithType: ICommand.Execute
-    fullName: System.Windows.Input.ICommand.Execute
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )

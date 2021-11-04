@@ -45,7 +45,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LiveClient
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -58,14 +58,6 @@ items:
     content.vb: Class LiveClient
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   extensionMethods:
   - Vortex.Adapters.Connector.Tc3.LiveClient.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
   modifiers.csharp:
@@ -86,7 +78,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: onlineSymbolRetriever
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -117,7 +109,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ClientAdsStateChanged
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -148,7 +140,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadAndSortOnlineVariablesSymbolListAll
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -177,7 +169,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolLoaderSession
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -204,7 +196,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Connect
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -237,7 +229,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Connect
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -272,7 +264,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateVariableHandle
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -307,7 +299,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Dispose
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -337,7 +329,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadAndSortOnlineVariablesSymbolList
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -370,7 +362,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Read
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -410,7 +402,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadAny
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -449,7 +441,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadAnyString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -484,7 +476,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadAnyWString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -519,7 +511,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadAny
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -563,7 +555,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadSymbolInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -598,7 +590,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadWrite
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -640,7 +632,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TryConnect
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -675,7 +667,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TryConnect
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -712,7 +704,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TryReadState
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -750,7 +742,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Write
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -790,7 +782,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteAny
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -832,7 +824,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteAny
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -872,7 +864,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteAnyString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -907,7 +899,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteAnyWString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -942,7 +934,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InternalAdsClient
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -977,7 +969,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AmsNetId
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -1012,7 +1004,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsConnected
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -1047,7 +1039,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnAdsStateChangeEvent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -1082,7 +1074,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlineSymbolRetriever
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -1117,7 +1109,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Timeout
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/LiveClient.cs
@@ -1151,285 +1143,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Vortex.Adapters.Connector.Tc3.LiveClient.Vortex.Connector.IValueTagExtensions.Cast``1(System.Object)
   commentId: M:Vortex.Connector.IValueTagExtensions.Cast``1(``0,System.Object)
   parent: Vortex.Connector.IValueTagExtensions

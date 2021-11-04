@@ -5,7 +5,6 @@ items:
   id: Vortex.Presentation.Controls.Wpf
   children:
   - Vortex.Presentation.Controls.Wpf.DateTimePickerBox
-  - Vortex.Presentation.Controls.Wpf.MaterialPickerUtils
   - Vortex.Presentation.Controls.Wpf.MultiConverter
   - Vortex.Presentation.Controls.Wpf.TimePickerBaseBox
   - Vortex.Presentation.Controls.Wpf.TimeTextBoxBaseBox
@@ -25,11 +24,6 @@ references:
   name: DateTimePickerBox
   nameWithType: DateTimePickerBox
   fullName: Vortex.Presentation.Controls.Wpf.DateTimePickerBox
-- uid: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils
-  commentId: T:Vortex.Presentation.Controls.Wpf.MaterialPickerUtils
-  name: MaterialPickerUtils
-  nameWithType: MaterialPickerUtils
-  fullName: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils
 - uid: Vortex.Presentation.Controls.Wpf.MultiConverter
   commentId: T:Vortex.Presentation.Controls.Wpf.MultiConverter
   name: MultiConverter

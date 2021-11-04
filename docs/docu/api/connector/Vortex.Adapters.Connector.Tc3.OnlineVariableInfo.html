@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class OnlineVariableInfo
    ">
-    <meta name="generator" content="docfx 2.56.5.0">
+    <meta name="generator" content="docfx 2.58.4.0">
     
     <link rel="shortcut icon" href="../../../favicon.png">
     <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
@@ -758,9 +758,6 @@
                                   <a href="../presentation_wpf/Vortex.Presentation.Controls.Wpf.DateTimePickerBox.html" title="DateTimePickerBox" class="">DateTimePickerBox</a>
                                 </li>
                                 <li class="">
-                                  <a href="../presentation_wpf/Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.html" title="MaterialPickerUtils" class="">MaterialPickerUtils</a>
-                                </li>
-                                <li class="">
                                   <a href="../presentation_wpf/Vortex.Presentation.Controls.Wpf.MultiConverter.html" title="MultiConverter" class="">MultiConverter</a>
                                 </li>
                                 <li class="">
@@ -1266,30 +1263,6 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Vortex.Connector.IValueTagInfo.html">IValueTagInfo</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Vortex.Adapters.Connector.Tc3.html">Vortex.Adapters.Connector.Tc3</a></h6>
   <h6><strong>Assembly</strong>: Vortex.Adapters.Connector.Tc3.dll</h6>
   <h5 id="Vortex_Adapters_Connector_Tc3_OnlineVariableInfo_syntax">Syntax</h5>
@@ -1752,12 +1725,12 @@
   
   
   <a id="Vortex_Adapters_Connector_Tc3_OnlineVariableInfo_CreateSymbolTable_" data-uid="Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable*"></a>
-  <h4 id="Vortex_Adapters_Connector_Tc3_OnlineVariableInfo_CreateSymbolTable_TwinCAT_TypeSystem_ISymbolCollection_TwinCAT_TypeSystem_ISymbol__" data-uid="Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol})">CreateSymbolTable(ISymbolCollection&lt;ISymbol&gt;)</h4>
+  <h4 id="Vortex_Adapters_Connector_Tc3_OnlineVariableInfo_CreateSymbolTable_TwinCAT_TypeSystem_ISymbolCollection_TwinCAT_TypeSystem_ISymbol__Vortex_Adapters_Connector_Tc3_AdsConnector_" data-uid="Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol},Vortex.Adapters.Connector.Tc3.AdsConnector)">CreateSymbolTable(ISymbolCollection&lt;ISymbol&gt;, AdsConnector)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">static void CreateSymbolTable(ISymbolCollection&lt;ISymbol&gt; symbols)</code></pre>
+    <pre><code class="lang-csharp hljs">static void CreateSymbolTable(ISymbolCollection&lt;ISymbol&gt; symbols, AdsConnector connector)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1772,6 +1745,11 @@
       <tr>
         <td><span class="xref">TwinCAT.TypeSystem.ISymbolCollection</span>&lt;<span class="xref">TwinCAT.TypeSystem.ISymbol</span>&gt;</td>
         <td><span class="parametername">symbols</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Vortex.Adapters.Connector.Tc3.AdsConnector.html">AdsConnector</a></td>
+        <td><span class="parametername">connector</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -4213,15 +4213,15 @@ references:
   isSpec: "True"
   fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.BitSize
   nameWithType: OnlineVariableInfo.BitSize
-- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol})
-  name: CreateSymbolTable(ISymbolCollection<ISymbol>)
-  href: docu/api/connector/Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.html#Vortex_Adapters_Connector_Tc3_OnlineVariableInfo_CreateSymbolTable_TwinCAT_TypeSystem_ISymbolCollection_TwinCAT_TypeSystem_ISymbol__
-  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol})
-  name.vb: CreateSymbolTable(ISymbolCollection(Of ISymbol))
-  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection<TwinCAT.TypeSystem.ISymbol>)
-  fullName.vb: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection(Of TwinCAT.TypeSystem.ISymbol))
-  nameWithType: OnlineVariableInfo.CreateSymbolTable(ISymbolCollection<ISymbol>)
-  nameWithType.vb: OnlineVariableInfo.CreateSymbolTable(ISymbolCollection(Of ISymbol))
+- uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol},Vortex.Adapters.Connector.Tc3.AdsConnector)
+  name: CreateSymbolTable(ISymbolCollection<ISymbol>, AdsConnector)
+  href: docu/api/connector/Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.html#Vortex_Adapters_Connector_Tc3_OnlineVariableInfo_CreateSymbolTable_TwinCAT_TypeSystem_ISymbolCollection_TwinCAT_TypeSystem_ISymbol__Vortex_Adapters_Connector_Tc3_AdsConnector_
+  commentId: M:Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection{TwinCAT.TypeSystem.ISymbol},Vortex.Adapters.Connector.Tc3.AdsConnector)
+  name.vb: CreateSymbolTable(ISymbolCollection(Of ISymbol), AdsConnector)
+  fullName: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection<TwinCAT.TypeSystem.ISymbol>, Vortex.Adapters.Connector.Tc3.AdsConnector)
+  fullName.vb: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable(TwinCAT.TypeSystem.ISymbolCollection(Of TwinCAT.TypeSystem.ISymbol), Vortex.Adapters.Connector.Tc3.AdsConnector)
+  nameWithType: OnlineVariableInfo.CreateSymbolTable(ISymbolCollection<ISymbol>, AdsConnector)
+  nameWithType.vb: OnlineVariableInfo.CreateSymbolTable(ISymbolCollection(Of ISymbol), AdsConnector)
 - uid: Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.CreateSymbolTable*
   name: CreateSymbolTable
   href: docu/api/connector/Vortex.Adapters.Connector.Tc3.OnlineVariableInfo.html#Vortex_Adapters_Connector_Tc3_OnlineVariableInfo_CreateSymbolTable_
@@ -6299,6 +6299,19 @@ references:
   isSpec: "True"
   fullName: Vortex.Connector.IConnector.WriteBatch
   nameWithType: IConnector.WriteBatch
+- uid: Vortex.Connector.IConnector.WriteProtectionSuspended
+  name: WriteProtectionSuspended
+  href: docu/api/connector/Vortex.Connector.IConnector.html#Vortex_Connector_IConnector_WriteProtectionSuspended
+  commentId: P:Vortex.Connector.IConnector.WriteProtectionSuspended
+  fullName: Vortex.Connector.IConnector.WriteProtectionSuspended
+  nameWithType: IConnector.WriteProtectionSuspended
+- uid: Vortex.Connector.IConnector.WriteProtectionSuspended*
+  name: WriteProtectionSuspended
+  href: docu/api/connector/Vortex.Connector.IConnector.html#Vortex_Connector_IConnector_WriteProtectionSuspended_
+  commentId: Overload:Vortex.Connector.IConnector.WriteProtectionSuspended
+  isSpec: "True"
+  fullName: Vortex.Connector.IConnector.WriteProtectionSuspended
+  nameWithType: IConnector.WriteProtectionSuspended
 - uid: Vortex.Connector.IConnectorFactory
   name: IConnectorFactory
   href: docu/api/connector/Vortex.Connector.IConnectorFactory.html
@@ -7266,6 +7279,19 @@ references:
   isSpec: "True"
   fullName: Vortex.Connector.IValueTag.Subscribe
   nameWithType: IValueTag.Subscribe
+- uid: Vortex.Connector.IValueTag.Translator
+  name: Translator
+  href: docu/api/connector/Vortex.Connector.IValueTag.html#Vortex_Connector_IValueTag_Translator
+  commentId: P:Vortex.Connector.IValueTag.Translator
+  fullName: Vortex.Connector.IValueTag.Translator
+  nameWithType: IValueTag.Translator
+- uid: Vortex.Connector.IValueTag.Translator*
+  name: Translator
+  href: docu/api/connector/Vortex.Connector.IValueTag.html#Vortex_Connector_IValueTag_Translator_
+  commentId: Overload:Vortex.Connector.IValueTag.Translator
+  isSpec: "True"
+  fullName: Vortex.Connector.IValueTag.Translator
+  nameWithType: IValueTag.Translator
 - uid: Vortex.Connector.IValueTag.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
   name: UnSubscribe(ValueChangedEventHandlerDelegate)
   href: docu/api/connector/Vortex.Connector.IValueTag.html#Vortex_Connector_IValueTag_UnSubscribe_Vortex_Connector_ValueTypes_ValueChangedEventHandlerDelegate_
@@ -14299,18 +14325,6 @@ references:
   commentId: F:Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker._contentLoaded
   fullName: Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker._contentLoaded
   nameWithType: DateTimePicker._contentLoaded
-- uid: Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker.CombinedCalendar
-  name: CombinedCalendar
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker.html#Vortex_Presentation_Controls_Wpf_Extension_DateTimePicker_CombinedCalendar
-  commentId: F:Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker.CombinedCalendar
-  fullName: Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker.CombinedCalendar
-  nameWithType: DateTimePicker.CombinedCalendar
-- uid: Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker.CombinedClock
-  name: CombinedClock
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker.html#Vortex_Presentation_Controls_Wpf_Extension_DateTimePicker_CombinedClock
-  commentId: F:Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker.CombinedClock
-  fullName: Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker.CombinedClock
-  nameWithType: DateTimePicker.CombinedClock
 - uid: Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker.InitializeComponent
   name: InitializeComponent()
   href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker.html#Vortex_Presentation_Controls_Wpf_Extension_DateTimePicker_InitializeComponent
@@ -14324,25 +14338,6 @@ references:
   isSpec: "True"
   fullName: Vortex.Presentation.Controls.Wpf.Extension.DateTimePicker.InitializeComponent
   nameWithType: DateTimePicker.InitializeComponent
-- uid: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils
-  name: MaterialPickerUtils
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.html
-  commentId: T:Vortex.Presentation.Controls.Wpf.MaterialPickerUtils
-  fullName: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils
-  nameWithType: MaterialPickerUtils
-- uid: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors(System.Windows.Controls.ContentControl)
-  name: UpdateStyleColors(ContentControl)
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.html#Vortex_Presentation_Controls_Wpf_MaterialPickerUtils_UpdateStyleColors_System_Windows_Controls_ContentControl_
-  commentId: M:Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors(System.Windows.Controls.ContentControl)
-  fullName: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors(System.Windows.Controls.ContentControl)
-  nameWithType: MaterialPickerUtils.UpdateStyleColors(ContentControl)
-- uid: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors*
-  name: UpdateStyleColors
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.html#Vortex_Presentation_Controls_Wpf_MaterialPickerUtils_UpdateStyleColors_
-  commentId: Overload:Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors
-  isSpec: "True"
-  fullName: Vortex.Presentation.Controls.Wpf.MaterialPickerUtils.UpdateStyleColors
-  nameWithType: MaterialPickerUtils.UpdateStyleColors
 - uid: Vortex.Presentation.Controls.Wpf.MultiConverter
   name: MultiConverter
   href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.MultiConverter.html
@@ -14578,25 +14573,6 @@ references:
   isSpec: "True"
   fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate._CreateDelegate
   nameWithType: OnlineControlDate._CreateDelegate
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.DatePicker
-  name: DatePicker
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDate_DatePicker
-  commentId: F:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.DatePicker
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.DatePicker
-  nameWithType: OnlineControlDate.DatePicker
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.DateTimePicker
-  name: DateTimePicker
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDate_DateTimePicker
-  commentId: P:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.DateTimePicker
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.DateTimePicker
-  nameWithType: OnlineControlDate.DateTimePicker
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.DateTimePicker*
-  name: DateTimePicker
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDate_DateTimePicker_
-  commentId: Overload:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.DateTimePicker
-  isSpec: "True"
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.DateTimePicker
-  nameWithType: OnlineControlDate.DateTimePicker
 - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.InitializeComponent
   name: InitializeComponent()
   href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDate_InitializeComponent
@@ -14610,12 +14586,6 @@ references:
   isSpec: "True"
   fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.InitializeComponent
   nameWithType: OnlineControlDate.InitializeComponent
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.TimePickerBtn
-  name: TimePickerBtn
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDate_TimePickerBtn
-  commentId: F:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.TimePickerBtn
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.TimePickerBtn
-  nameWithType: OnlineControlDate.TimePickerBtn
 - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.ValueBox
   name: ValueBox
   href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDate.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDate_ValueBox
@@ -14673,44 +14643,6 @@ references:
   isSpec: "True"
   fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime._CreateDelegate
   nameWithType: OnlineControlDateTime._CreateDelegate
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.CombinedCalendar
-  name: CombinedCalendar
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDateTime_CombinedCalendar
-  commentId: F:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.CombinedCalendar
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.CombinedCalendar
-  nameWithType: OnlineControlDateTime.CombinedCalendar
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.CombinedClock
-  name: CombinedClock
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDateTime_CombinedClock
-  commentId: F:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.CombinedClock
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.CombinedClock
-  nameWithType: OnlineControlDateTime.CombinedClock
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.DateTimePickerBox_KeyUp(System.Object,System.Windows.Input.KeyEventArgs)
-  name: DateTimePickerBox_KeyUp(Object, KeyEventArgs)
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDateTime_DateTimePickerBox_KeyUp_System_Object_System_Windows_Input_KeyEventArgs_
-  commentId: M:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.DateTimePickerBox_KeyUp(System.Object,System.Windows.Input.KeyEventArgs)
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.DateTimePickerBox_KeyUp(System.Object, System.Windows.Input.KeyEventArgs)
-  nameWithType: OnlineControlDateTime.DateTimePickerBox_KeyUp(Object, KeyEventArgs)
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.DateTimePickerBox_KeyUp*
-  name: DateTimePickerBox_KeyUp
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDateTime_DateTimePickerBox_KeyUp_
-  commentId: Overload:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.DateTimePickerBox_KeyUp
-  isSpec: "True"
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.DateTimePickerBox_KeyUp
-  nameWithType: OnlineControlDateTime.DateTimePickerBox_KeyUp
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.DateTimePickerBtn_Click(System.Object,System.Windows.RoutedEventArgs)
-  name: DateTimePickerBtn_Click(Object, RoutedEventArgs)
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDateTime_DateTimePickerBtn_Click_System_Object_System_Windows_RoutedEventArgs_
-  commentId: M:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.DateTimePickerBtn_Click(System.Object,System.Windows.RoutedEventArgs)
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.DateTimePickerBtn_Click(System.Object, System.Windows.RoutedEventArgs)
-  nameWithType: OnlineControlDateTime.DateTimePickerBtn_Click(Object, RoutedEventArgs)
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.DateTimePickerBtn_Click*
-  name: DateTimePickerBtn_Click
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDateTime_DateTimePickerBtn_Click_
-  commentId: Overload:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.DateTimePickerBtn_Click
-  isSpec: "True"
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.DateTimePickerBtn_Click
-  nameWithType: OnlineControlDateTime.DateTimePickerBtn_Click
 - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.InitializeComponent
   name: InitializeComponent()
   href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDateTime_InitializeComponent
@@ -14724,44 +14656,6 @@ references:
   isSpec: "True"
   fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.InitializeComponent
   nameWithType: OnlineControlDateTime.InitializeComponent
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.OnCancel(System.Object,System.Windows.RoutedEventArgs)
-  name: OnCancel(Object, RoutedEventArgs)
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDateTime_OnCancel_System_Object_System_Windows_RoutedEventArgs_
-  commentId: M:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.OnCancel(System.Object,System.Windows.RoutedEventArgs)
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.OnCancel(System.Object, System.Windows.RoutedEventArgs)
-  nameWithType: OnlineControlDateTime.OnCancel(Object, RoutedEventArgs)
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.OnCancel*
-  name: OnCancel
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDateTime_OnCancel_
-  commentId: Overload:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.OnCancel
-  isSpec: "True"
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.OnCancel
-  nameWithType: OnlineControlDateTime.OnCancel
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.OnDateConfirmedCommand(System.Object,System.Windows.RoutedEventArgs)
-  name: OnDateConfirmedCommand(Object, RoutedEventArgs)
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDateTime_OnDateConfirmedCommand_System_Object_System_Windows_RoutedEventArgs_
-  commentId: M:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.OnDateConfirmedCommand(System.Object,System.Windows.RoutedEventArgs)
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.OnDateConfirmedCommand(System.Object, System.Windows.RoutedEventArgs)
-  nameWithType: OnlineControlDateTime.OnDateConfirmedCommand(Object, RoutedEventArgs)
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.OnDateConfirmedCommand*
-  name: OnDateConfirmedCommand
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDateTime_OnDateConfirmedCommand_
-  commentId: Overload:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.OnDateConfirmedCommand
-  isSpec: "True"
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.OnDateConfirmedCommand
-  nameWithType: OnlineControlDateTime.OnDateConfirmedCommand
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.PopUp
-  name: PopUp
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDateTime_PopUp
-  commentId: F:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.PopUp
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.PopUp
-  nameWithType: OnlineControlDateTime.PopUp
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.TimePickerBtn
-  name: TimePickerBtn
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDateTime_TimePickerBtn
-  commentId: F:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.TimePickerBtn
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.TimePickerBtn
-  nameWithType: OnlineControlDateTime.TimePickerBtn
 - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.ValueBox
   name: ValueBox
   href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlDateTime.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlDateTime_ValueBox
@@ -15074,44 +14968,6 @@ references:
   isSpec: "True"
   fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.InitializeComponent
   nameWithType: OnlineControlTimeOfDay.InitializeComponent
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePicker
-  name: TimePicker
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlTimeOfDay_TimePicker
-  commentId: F:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePicker
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePicker
-  nameWithType: OnlineControlTimeOfDay.TimePicker
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBox
-  name: TimePickerBox
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlTimeOfDay_TimePickerBox
-  commentId: P:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBox
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBox
-  nameWithType: OnlineControlTimeOfDay.TimePickerBox
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBox*
-  name: TimePickerBox
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlTimeOfDay_TimePickerBox_
-  commentId: Overload:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBox
-  isSpec: "True"
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBox
-  nameWithType: OnlineControlTimeOfDay.TimePickerBox
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBtn
-  name: TimePickerBtn
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlTimeOfDay_TimePickerBtn
-  commentId: F:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBtn
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBtn
-  nameWithType: OnlineControlTimeOfDay.TimePickerBtn
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBtn_Click(System.Object,System.Windows.RoutedEventArgs)
-  name: TimePickerBtn_Click(Object, RoutedEventArgs)
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlTimeOfDay_TimePickerBtn_Click_System_Object_System_Windows_RoutedEventArgs_
-  commentId: M:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBtn_Click(System.Object,System.Windows.RoutedEventArgs)
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBtn_Click(System.Object, System.Windows.RoutedEventArgs)
-  nameWithType: OnlineControlTimeOfDay.TimePickerBtn_Click(Object, RoutedEventArgs)
-- uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBtn_Click*
-  name: TimePickerBtn_Click
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlTimeOfDay_TimePickerBtn_Click_
-  commentId: Overload:Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBtn_Click
-  isSpec: "True"
-  fullName: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.TimePickerBtn_Click
-  nameWithType: OnlineControlTimeOfDay.TimePickerBtn_Click
 - uid: Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.ValueBox
   name: ValueBox
   href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.OnlineControl.OnlineControlTimeOfDay.html#Vortex_Presentation_Controls_Wpf_OnlineControl_OnlineControlTimeOfDay_ValueBox
@@ -16496,32 +16352,6 @@ references:
   isSpec: "True"
   fullName: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.TimePicker_SelectedTimeChanged
   nameWithType: TimePickerBaseBox.TimePicker_SelectedTimeChanged
-- uid: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.TimePickerBox
-  name: TimePickerBox
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.html#Vortex_Presentation_Controls_Wpf_TimePickerBaseBox_TimePickerBox
-  commentId: P:Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.TimePickerBox
-  fullName: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.TimePickerBox
-  nameWithType: TimePickerBaseBox.TimePickerBox
-- uid: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.TimePickerBox*
-  name: TimePickerBox
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.html#Vortex_Presentation_Controls_Wpf_TimePickerBaseBox_TimePickerBox_
-  commentId: Overload:Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.TimePickerBox
-  isSpec: "True"
-  fullName: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.TimePickerBox
-  nameWithType: TimePickerBaseBox.TimePickerBox
-- uid: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.TimePickerBtn_Click(System.Object,System.Windows.RoutedEventArgs)
-  name: TimePickerBtn_Click(Object, RoutedEventArgs)
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.html#Vortex_Presentation_Controls_Wpf_TimePickerBaseBox_TimePickerBtn_Click_System_Object_System_Windows_RoutedEventArgs_
-  commentId: M:Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.TimePickerBtn_Click(System.Object,System.Windows.RoutedEventArgs)
-  fullName: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.TimePickerBtn_Click(System.Object, System.Windows.RoutedEventArgs)
-  nameWithType: TimePickerBaseBox.TimePickerBtn_Click(Object, RoutedEventArgs)
-- uid: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.TimePickerBtn_Click*
-  name: TimePickerBtn_Click
-  href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.html#Vortex_Presentation_Controls_Wpf_TimePickerBaseBox_TimePickerBtn_Click_
-  commentId: Overload:Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.TimePickerBtn_Click
-  isSpec: "True"
-  fullName: Vortex.Presentation.Controls.Wpf.TimePickerBaseBox.TimePickerBtn_Click
-  nameWithType: TimePickerBaseBox.TimePickerBtn_Click
 - uid: Vortex.Presentation.Controls.Wpf.TimeTextBoxBaseBox
   name: TimeTextBoxBaseBox
   href: docu/api/presentation_wpf/Vortex.Presentation.Controls.Wpf.TimeTextBoxBaseBox.html
@@ -18575,6 +18405,19 @@ references:
   isSpec: "True"
   fullName: Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation
   nameWithType: LazyRenderer.RenderPresentation
+- uid: Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
+  name: SecureContainerCreator
+  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.LazyRenderer.html#Vortex_Presentation_Wpf_LazyRenderer_SecureContainerCreator
+  commentId: P:Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
+  fullName: Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
+  nameWithType: LazyRenderer.SecureContainerCreator
+- uid: Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator*
+  name: SecureContainerCreator
+  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.LazyRenderer.html#Vortex_Presentation_Wpf_LazyRenderer_SecureContainerCreator_
+  commentId: Overload:Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
+  isSpec: "True"
+  fullName: Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
+  nameWithType: LazyRenderer.SecureContainerCreator
 - uid: Vortex.Presentation.Wpf.LazyRenderer.SetRenderableContainer(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Object)
   name: SetRenderableContainer(FrameworkElement, IVortexElement, String, Object)
   href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.LazyRenderer.html#Vortex_Presentation_Wpf_LazyRenderer_SetRenderableContainer_System_Windows_FrameworkElement_Vortex_Connector_IVortexElement_System_String_System_Object_
@@ -20692,6 +20535,19 @@ references:
   isSpec: "True"
   fullName: Vortex.Presentation.Wpf.Renderer.Get
   nameWithType: Renderer.Get
+- uid: Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute(Vortex.Connector.IVortexElement)
+  name: GetAuthorizeAttribute(IVortexElement)
+  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.Renderer.html#Vortex_Presentation_Wpf_Renderer_GetAuthorizeAttribute_Vortex_Connector_IVortexElement_
+  commentId: M:Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute(Vortex.Connector.IVortexElement)
+  fullName: Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute(Vortex.Connector.IVortexElement)
+  nameWithType: Renderer.GetAuthorizeAttribute(IVortexElement)
+- uid: Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute*
+  name: GetAuthorizeAttribute
+  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.Renderer.html#Vortex_Presentation_Wpf_Renderer_GetAuthorizeAttribute_
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute
+  isSpec: "True"
+  fullName: Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute
+  nameWithType: Renderer.GetAuthorizeAttribute
 - uid: Vortex.Presentation.Wpf.Renderer.GetClosestView(System.String,System.Type)
   name: GetClosestView(String, Type)
   href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.Renderer.html#Vortex_Presentation_Wpf_Renderer_GetClosestView_System_String_System_Type_
@@ -20915,6 +20771,19 @@ references:
   isSpec: "True"
   fullName: Vortex.Presentation.Wpf.Renderer.GetViewModelFromCache
   nameWithType: Renderer.GetViewModelFromCache
+- uid: Vortex.Presentation.Wpf.Renderer.HasAuthorized(Vortex.Connector.IVortexElement)
+  name: HasAuthorized(IVortexElement)
+  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.Renderer.html#Vortex_Presentation_Wpf_Renderer_HasAuthorized_Vortex_Connector_IVortexElement_
+  commentId: M:Vortex.Presentation.Wpf.Renderer.HasAuthorized(Vortex.Connector.IVortexElement)
+  fullName: Vortex.Presentation.Wpf.Renderer.HasAuthorized(Vortex.Connector.IVortexElement)
+  nameWithType: Renderer.HasAuthorized(IVortexElement)
+- uid: Vortex.Presentation.Wpf.Renderer.HasAuthorized*
+  name: HasAuthorized
+  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.Renderer.html#Vortex_Presentation_Wpf_Renderer_HasAuthorized_
+  commentId: Overload:Vortex.Presentation.Wpf.Renderer.HasAuthorized
+  isSpec: "True"
+  fullName: Vortex.Presentation.Wpf.Renderer.HasAuthorized
+  nameWithType: Renderer.HasAuthorized
 - uid: Vortex.Presentation.Wpf.Renderer.HasIgnore(System.String,Vortex.Connector.IVortexElement)
   name: HasIgnore(String, IVortexElement)
   href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.Renderer.html#Vortex_Presentation_Wpf_Renderer_HasIgnore_System_String_Vortex_Connector_IVortexElement_

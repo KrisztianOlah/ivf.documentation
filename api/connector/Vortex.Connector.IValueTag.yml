@@ -9,6 +9,7 @@ items:
   - Vortex.Connector.IValueTag.MakeReadOnly
   - Vortex.Connector.IValueTag.ShadowValueChange
   - Vortex.Connector.IValueTag.Subscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
+  - Vortex.Connector.IValueTag.Translator
   - Vortex.Connector.IValueTag.UnSubscribe(Vortex.Connector.ValueTypes.ValueChangedEventHandlerDelegate)
   langs:
   - csharp
@@ -20,11 +21,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IValueTag
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-    startLine: 8
+    startLine: 9
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector
@@ -49,6 +50,41 @@ items:
   modifiers.vb:
   - Public
   - Interface
+- uid: Vortex.Connector.IValueTag.Translator
+  commentId: P:Vortex.Connector.IValueTag.Translator
+  id: Translator
+  parent: Vortex.Connector.IValueTag
+  langs:
+  - csharp
+  - vb
+  name: Translator
+  nameWithType: IValueTag.Translator
+  fullName: Vortex.Connector.IValueTag.Translator
+  type: Property
+  source:
+    remote:
+      path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
+      branch: guard_for_var
+      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
+    id: Translator
+    path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
+    startLine: 15
+  assemblies:
+  - Vortex.Connector
+  namespace: Vortex.Connector
+  summary: "\nGets string translator for this primitive type.\n"
+  example: []
+  syntax:
+    content: ITranslator Translator { get; }
+    parameters: []
+    return:
+      type: Vortex.Localizations.Abstractions.ITranslator
+    content.vb: ReadOnly Property Translator As ITranslator
+  overload: Vortex.Connector.IValueTag.Translator*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: Vortex.Connector.IValueTag.EditValueChange
   commentId: P:Vortex.Connector.IValueTag.EditValueChange
   id: EditValueChange
@@ -63,11 +99,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EditValueChange
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-    startLine: 13
+    startLine: 21
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector
@@ -97,11 +133,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShadowValueChange
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-    startLine: 18
+    startLine: 26
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector
@@ -131,11 +167,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MakeReadOnly
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-    startLine: 23
+    startLine: 31
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector
@@ -159,11 +195,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Subscribe
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-    startLine: 30
+    startLine: 38
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector
@@ -191,11 +227,11 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-      branch: fix/build_remove_qlik_tests
+      branch: guard_for_var
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UnSubscribe
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTag.cs
-    startLine: 37
+    startLine: 45
   assemblies:
   - Vortex.Connector
   namespace: Vortex.Connector
@@ -396,6 +432,22 @@ references:
   name: IValueTagExtensions
   nameWithType: IValueTagExtensions
   fullName: Vortex.Connector.IValueTagExtensions
+- uid: Vortex.Connector.IValueTag.Translator*
+  commentId: Overload:Vortex.Connector.IValueTag.Translator
+  name: Translator
+  nameWithType: IValueTag.Translator
+  fullName: Vortex.Connector.IValueTag.Translator
+- uid: Vortex.Localizations.Abstractions.ITranslator
+  commentId: T:Vortex.Localizations.Abstractions.ITranslator
+  parent: Vortex.Localizations.Abstractions
+  name: ITranslator
+  nameWithType: ITranslator
+  fullName: Vortex.Localizations.Abstractions.ITranslator
+- uid: Vortex.Localizations.Abstractions
+  commentId: N:Vortex.Localizations.Abstractions
+  name: Vortex.Localizations.Abstractions
+  nameWithType: Vortex.Localizations.Abstractions
+  fullName: Vortex.Localizations.Abstractions
 - uid: Vortex.Connector.IValueTag.EditValueChange*
   commentId: Overload:Vortex.Connector.IValueTag.EditValueChange
   name: EditValueChange
