@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/Vortex.Adapters.Connector.Tc3Adapter.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NamespaceDoc
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/Adapter/Vortex.Adapters.Connector.Tc3Adapter.cs

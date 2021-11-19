@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Shadow/DisplaySlim/ShadowDisplaySlimTextBox.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShadowDisplaySlimTextBox
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Shadow/DisplaySlim/ShadowDisplaySlimTextBox.g.cs
@@ -67,7 +67,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Shadow/DisplaySlim/ShadowDisplaySlimTextBox.xaml.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Shadow/DisplaySlim/ShadowDisplaySlimTextBox.xaml.cs
@@ -99,7 +99,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Shadow/DisplaySlim/ShadowDisplaySlimTextBox.xaml.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DataContextChange
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Base/Shadow/DisplaySlim/ShadowDisplaySlimTextBox.xaml.cs
@@ -130,7 +130,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Shadow/DisplaySlim/ShadowDisplaySlimTextBox.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ValueBox
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Shadow/DisplaySlim/ShadowDisplaySlimTextBox.g.cs
@@ -157,7 +157,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Shadow/DisplaySlim/ShadowDisplaySlimTextBox.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _contentLoaded
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Shadow/DisplaySlim/ShadowDisplaySlimTextBox.g.cs
@@ -184,7 +184,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Shadow/DisplaySlim/ShadowDisplaySlimTextBox.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InitializeComponent
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Base/Shadow/DisplaySlim/ShadowDisplaySlimTextBox.g.cs

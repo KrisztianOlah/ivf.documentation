@@ -48,7 +48,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlineVariableInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -89,7 +89,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InvalidateSymbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -115,7 +115,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsValid
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -152,7 +152,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -183,7 +183,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _client
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -210,7 +210,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _handle
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -237,7 +237,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Handle
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -273,7 +273,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.IValueTagInfo.Group
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -311,7 +311,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.IValueTagInfo.Offset
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -349,7 +349,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.IValueTagInfo.Length
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -387,7 +387,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.IValueTagInfo.Size
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -425,7 +425,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Vortex.Connector.IValueTagInfo.IsAvailable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -462,7 +462,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IndexGroup
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -499,7 +499,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IndexOffset
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -538,7 +538,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsAvailableInController
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -577,7 +577,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Length
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -614,7 +614,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Size
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -651,7 +651,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: BitSize
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -688,7 +688,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -727,7 +727,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Name
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -764,7 +764,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadSymbolOnTheFly
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -793,7 +793,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AdsSymbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -828,7 +828,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateSymbolTable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -866,7 +866,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _symbols
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -897,7 +897,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadSymbolOnTheFlyUseSymbolLoader
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -926,7 +926,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadSymbolOnTheFlyUseSymbolReader
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -955,7 +955,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadSymbolOnTheFlyFromPreLoadedSymbols
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -984,7 +984,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LinkOnlineVariableSymbolInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -1015,7 +1015,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LinkOnlineVariableSymbolInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -1046,7 +1046,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: reservedGroups
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -1077,7 +1077,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReservedGroups
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -1117,7 +1117,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Link
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -1150,7 +1150,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsSymbolExpectedToBeAvailable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
@@ -1189,7 +1189,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SymbolInfoFactory
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/Symbols/OnlineVariableInfo.cs

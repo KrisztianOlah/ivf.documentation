@@ -17,7 +17,6 @@ items:
   - Vortex.Presentation.Wpf.LazyRenderer.Render(System.String,System.Object,System.Windows.FrameworkElement,System.Boolean,Vortex.Presentation.Wpf.ReportingLevel,System.Int32)
   - Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String,Vortex.Connector.IValueTag,System.Windows.FrameworkElement,System.Int32,System.Int32)
   - Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation(System.String,Vortex.Connector.IVortexElement,System.Boolean,System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Int32,System.Int32)
-  - Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
   - Vortex.Presentation.Wpf.LazyRenderer.SetRenderableContainer(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Object)
   - Vortex.Presentation.Wpf.LazyRenderer.ValidationResult
   langs:
@@ -30,7 +29,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LazyRenderer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -69,7 +68,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -95,7 +94,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _instance
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -126,7 +125,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: mutex
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -159,7 +158,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ValidationResult
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -190,7 +189,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Get
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -229,7 +228,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DefaultContainer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
@@ -250,41 +249,6 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
-  commentId: P:Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
-  id: SecureContainerCreator
-  parent: Vortex.Presentation.Wpf.LazyRenderer
-  langs:
-  - csharp
-  - vb
-  name: SecureContainerCreator
-  nameWithType: LazyRenderer.SecureContainerCreator
-  fullName: Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
-  type: Property
-  source:
-    remote:
-      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
-      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
-    id: SecureContainerCreator
-    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-    startLine: 54
-  assemblies:
-  - Vortex.Presentation.Wpf
-  namespace: Vortex.Presentation.Wpf
-  syntax:
-    content: public Func<string, FrameworkElement> SecureContainerCreator { get; set; }
-    parameters: []
-    return:
-      type: System.Func{System.String,System.Windows.FrameworkElement}
-    content.vb: Public Property SecureContainerCreator As Func(Of String, FrameworkElement)
-  overload: Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: Vortex.Presentation.Wpf.LazyRenderer.CreateDefaultContainer
   commentId: M:Vortex.Presentation.Wpf.LazyRenderer.CreateDefaultContainer
   id: CreateDefaultContainer
@@ -299,11 +263,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateDefaultContainer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-    startLine: 61
+    startLine: 54
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -327,11 +291,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SetRenderableContainer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-    startLine: 71
+    startLine: 64
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -364,11 +328,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreatePresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-    startLine: 138
+    startLine: 131
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -418,11 +382,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreatePresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-    startLine: 183
+    startLine: 176
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -461,11 +425,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreatePresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-    startLine: 269
+    startLine: 262
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -504,11 +468,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RenderPresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-    startLine: 297
+    startLine: 290
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -557,11 +521,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RenderPresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-    startLine: 371
+    startLine: 364
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -606,11 +570,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Render
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/LazyRenderer.cs
-    startLine: 390
+    startLine: 383
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -877,122 +841,6 @@ references:
   name: System.Windows
   nameWithType: System.Windows
   fullName: System.Windows
-- uid: Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator*
-  commentId: Overload:Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
-  name: SecureContainerCreator
-  nameWithType: LazyRenderer.SecureContainerCreator
-  fullName: Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
-- uid: System.Func{System.String,System.Windows.FrameworkElement}
-  commentId: T:System.Func{System.String,System.Windows.FrameworkElement}
-  parent: System
-  definition: System.Func`2
-  name: Func<String, FrameworkElement>
-  nameWithType: Func<String, FrameworkElement>
-  fullName: System.Func<System.String, System.Windows.FrameworkElement>
-  nameWithType.vb: Func(Of String, FrameworkElement)
-  fullName.vb: System.Func(Of System.String, System.Windows.FrameworkElement)
-  name.vb: Func(Of String, FrameworkElement)
-  spec.csharp:
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Windows.FrameworkElement
-    name: FrameworkElement
-    nameWithType: FrameworkElement
-    fullName: System.Windows.FrameworkElement
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Windows.FrameworkElement
-    name: FrameworkElement
-    nameWithType: FrameworkElement
-    fullName: System.Windows.FrameworkElement
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Func`2
-  commentId: T:System.Func`2
-  isExternal: true
-  name: Func<T, TResult>
-  nameWithType: Func<T, TResult>
-  fullName: System.Func<T, TResult>
-  nameWithType.vb: Func(Of T, TResult)
-  fullName.vb: System.Func(Of T, TResult)
-  name.vb: Func(Of T, TResult)
-  spec.csharp:
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Vortex.Presentation.Wpf.LazyRenderer.CreateDefaultContainer*
   commentId: Overload:Vortex.Presentation.Wpf.LazyRenderer.CreateDefaultContainer
   name: CreateDefaultContainer

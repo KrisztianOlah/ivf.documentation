@@ -26,7 +26,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: StringInterpolator
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
@@ -62,7 +62,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: openToken
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
@@ -93,7 +93,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: closeToken
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
@@ -125,7 +125,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Interpolate
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Interpolate
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
@@ -220,7 +220,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: FindParent
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
@@ -257,7 +257,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetObject
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
@@ -294,7 +294,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetInterpolatedValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
@@ -331,7 +331,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetPropertyInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
@@ -368,7 +368,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetPropertyValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
@@ -405,7 +405,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CleanUpTokens
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
@@ -440,7 +440,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ExtractString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/StringInterpolator/StringInterpolator.cs

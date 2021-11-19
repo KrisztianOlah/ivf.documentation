@@ -26,7 +26,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LocalizationHelper
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
@@ -60,7 +60,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: pattern
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
@@ -93,7 +93,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: rgx
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
@@ -126,7 +126,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetLocalizables
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
@@ -168,7 +168,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetTranslatable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
@@ -208,7 +208,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateTranslationTable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
@@ -250,7 +250,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateTranslationTable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
@@ -292,7 +292,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CleanUpLocalizationTokens
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
@@ -327,7 +327,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SaveLocalizer
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
@@ -366,7 +366,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TranslationTableFileName
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
@@ -403,7 +403,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LoadLocalizer
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
@@ -442,7 +442,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateTranslationTables
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizationHelper.cs

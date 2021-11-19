@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReportingConsole
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
@@ -53,7 +53,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UpdateStartUpInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
@@ -165,7 +165,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Start
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
@@ -200,7 +200,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Stop
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/AdsConnector/ReportingConsole.cs

@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBool.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OnlinerBool
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBool.cs
@@ -158,7 +158,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBool.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBool.cs
@@ -190,7 +190,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBool.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBool.cs
@@ -232,7 +232,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBool.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InstanceMinValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBool.cs
@@ -272,7 +272,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBool.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InstanceMaxValue
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/Onlines/OnlinerBool.cs

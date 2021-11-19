@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EnumeratorContainerShadowDisplaySlimView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.g.cs
@@ -74,7 +74,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.xaml.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.xaml.cs
@@ -106,7 +106,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.xaml.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: context
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.xaml.cs
@@ -144,7 +144,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.xaml.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: binding
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.xaml.cs
@@ -171,7 +171,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.xaml.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: BindToShadow
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.xaml.cs
@@ -197,7 +197,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.xaml.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: UserControl_DataContextChanged
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.xaml.cs
@@ -228,7 +228,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Label
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.g.cs
@@ -255,7 +255,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Combo
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.g.cs
@@ -282,7 +282,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _contentLoaded
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.g.cs
@@ -309,7 +309,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InitializeComponent
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Controls.Wpf/obj/Release/net48/Enumerators/Shadow/DisplaySlim/EnumeratorContainerShadowDisplaySlimView.g.cs

@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AdsBit
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
@@ -158,7 +158,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
@@ -190,7 +190,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
@@ -232,7 +232,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Client
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
@@ -269,7 +269,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Synchron
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
@@ -307,7 +307,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Read
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
@@ -342,7 +342,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Write
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
@@ -377,7 +377,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: WriteViaBinaryWriter
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
@@ -406,7 +406,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReadFromBinaryReader
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Adapters.Connector.Tc3/ValueTypes/AdsBit.cs

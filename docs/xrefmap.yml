@@ -18405,19 +18405,6 @@ references:
   isSpec: "True"
   fullName: Vortex.Presentation.Wpf.LazyRenderer.RenderPresentation
   nameWithType: LazyRenderer.RenderPresentation
-- uid: Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
-  name: SecureContainerCreator
-  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.LazyRenderer.html#Vortex_Presentation_Wpf_LazyRenderer_SecureContainerCreator
-  commentId: P:Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
-  fullName: Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
-  nameWithType: LazyRenderer.SecureContainerCreator
-- uid: Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator*
-  name: SecureContainerCreator
-  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.LazyRenderer.html#Vortex_Presentation_Wpf_LazyRenderer_SecureContainerCreator_
-  commentId: Overload:Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
-  isSpec: "True"
-  fullName: Vortex.Presentation.Wpf.LazyRenderer.SecureContainerCreator
-  nameWithType: LazyRenderer.SecureContainerCreator
 - uid: Vortex.Presentation.Wpf.LazyRenderer.SetRenderableContainer(System.Windows.FrameworkElement,Vortex.Connector.IVortexElement,System.String,System.Object)
   name: SetRenderableContainer(FrameworkElement, IVortexElement, String, Object)
   href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.LazyRenderer.html#Vortex_Presentation_Wpf_LazyRenderer_SetRenderableContainer_System_Windows_FrameworkElement_Vortex_Connector_IVortexElement_System_String_System_Object_
@@ -20535,19 +20522,6 @@ references:
   isSpec: "True"
   fullName: Vortex.Presentation.Wpf.Renderer.Get
   nameWithType: Renderer.Get
-- uid: Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute(Vortex.Connector.IVortexElement)
-  name: GetAuthorizeAttribute(IVortexElement)
-  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.Renderer.html#Vortex_Presentation_Wpf_Renderer_GetAuthorizeAttribute_Vortex_Connector_IVortexElement_
-  commentId: M:Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute(Vortex.Connector.IVortexElement)
-  fullName: Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute(Vortex.Connector.IVortexElement)
-  nameWithType: Renderer.GetAuthorizeAttribute(IVortexElement)
-- uid: Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute*
-  name: GetAuthorizeAttribute
-  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.Renderer.html#Vortex_Presentation_Wpf_Renderer_GetAuthorizeAttribute_
-  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute
-  isSpec: "True"
-  fullName: Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute
-  nameWithType: Renderer.GetAuthorizeAttribute
 - uid: Vortex.Presentation.Wpf.Renderer.GetClosestView(System.String,System.Type)
   name: GetClosestView(String, Type)
   href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.Renderer.html#Vortex_Presentation_Wpf_Renderer_GetClosestView_System_String_System_Type_
@@ -20771,19 +20745,6 @@ references:
   isSpec: "True"
   fullName: Vortex.Presentation.Wpf.Renderer.GetViewModelFromCache
   nameWithType: Renderer.GetViewModelFromCache
-- uid: Vortex.Presentation.Wpf.Renderer.HasAuthorized(Vortex.Connector.IVortexElement)
-  name: HasAuthorized(IVortexElement)
-  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.Renderer.html#Vortex_Presentation_Wpf_Renderer_HasAuthorized_Vortex_Connector_IVortexElement_
-  commentId: M:Vortex.Presentation.Wpf.Renderer.HasAuthorized(Vortex.Connector.IVortexElement)
-  fullName: Vortex.Presentation.Wpf.Renderer.HasAuthorized(Vortex.Connector.IVortexElement)
-  nameWithType: Renderer.HasAuthorized(IVortexElement)
-- uid: Vortex.Presentation.Wpf.Renderer.HasAuthorized*
-  name: HasAuthorized
-  href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.Renderer.html#Vortex_Presentation_Wpf_Renderer_HasAuthorized_
-  commentId: Overload:Vortex.Presentation.Wpf.Renderer.HasAuthorized
-  isSpec: "True"
-  fullName: Vortex.Presentation.Wpf.Renderer.HasAuthorized
-  nameWithType: Renderer.HasAuthorized
 - uid: Vortex.Presentation.Wpf.Renderer.HasIgnore(System.String,Vortex.Connector.IVortexElement)
   name: HasIgnore(String, IVortexElement)
   href: docu/api/presentation_wpf/Vortex.Presentation.Wpf.Renderer.html#Vortex_Presentation_Wpf_Renderer_HasIgnore_System_String_Vortex_Connector_IVortexElement_

@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ActionRunner
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
@@ -57,7 +57,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _actionRunner
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
@@ -88,7 +88,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Runner
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
@@ -125,7 +125,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
@@ -151,7 +151,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReportException
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
@@ -184,7 +184,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DefaulApprove
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
@@ -215,7 +215,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Execute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
@@ -252,7 +252,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetCaller
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/ActionRunner/ActionRunner.cs

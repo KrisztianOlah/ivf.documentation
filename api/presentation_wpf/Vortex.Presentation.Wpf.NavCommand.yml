@@ -38,7 +38,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NavCommand
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -75,7 +75,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -116,7 +116,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MenuIcon
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -147,7 +147,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Tag
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -182,7 +182,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SecurityProvider_OnAnyAuthenticationEvent
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -211,7 +211,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _instanceCount
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -242,7 +242,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EraseCachedElements
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -272,7 +272,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: NavCommandsList
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -303,7 +303,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ButtonContent
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -338,7 +338,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ViewType
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -373,7 +373,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Presenter
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -400,7 +400,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DataContext
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -431,7 +431,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CanExecuteChanged
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -462,7 +462,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CanExecute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -497,7 +497,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _element
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -524,7 +524,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateNewInstanceAtEachNavigation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -555,7 +555,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _tag
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -582,7 +582,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -610,7 +610,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: PreviewElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -645,7 +645,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Execute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -678,7 +678,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShowInWindow
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -709,7 +709,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ShowDialogueInWindow
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -740,7 +740,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: OpenView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
@@ -773,7 +773,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Navigation/NavCommand.cs

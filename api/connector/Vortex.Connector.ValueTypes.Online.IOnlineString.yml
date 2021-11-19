@@ -15,7 +15,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IOnlines/IOnlineString.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IOnlineString
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/ValueTypes/IOnlines/IOnlineString.cs

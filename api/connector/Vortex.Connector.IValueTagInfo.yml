@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IValueTagInfo
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
@@ -56,7 +56,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Group
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
@@ -91,7 +91,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Offset
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
@@ -126,7 +126,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Length
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
@@ -161,7 +161,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Size
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
@@ -194,7 +194,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsAvailable
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
@@ -229,7 +229,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Symbol
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/IValueTagInfo.cs

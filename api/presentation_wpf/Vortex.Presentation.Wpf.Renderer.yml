@@ -43,7 +43,6 @@ items:
   - Vortex.Presentation.Wpf.Renderer.FindClosestViewModel(System.String,System.Type)
   - Vortex.Presentation.Wpf.Renderer.FrameworkElementLoaded(System.Object,System.Windows.RoutedEventArgs)
   - Vortex.Presentation.Wpf.Renderer.Get
-  - Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute(Vortex.Connector.IVortexElement)
   - Vortex.Presentation.Wpf.Renderer.GetClosestView(System.String,System.Type)
   - Vortex.Presentation.Wpf.Renderer.GetClosestViewModel(System.String,System.Type)
   - Vortex.Presentation.Wpf.Renderer.GetContainerAttribute(Vortex.Connector.IVortexElement,System.Boolean)
@@ -61,7 +60,6 @@ items:
   - Vortex.Presentation.Wpf.Renderer.GetViewFromCache(System.String)
   - Vortex.Presentation.Wpf.Renderer.GetViewModel(System.String,System.Type,System.Object)
   - Vortex.Presentation.Wpf.Renderer.GetViewModelFromCache(System.String)
-  - Vortex.Presentation.Wpf.Renderer.HasAuthorized(Vortex.Connector.IVortexElement)
   - Vortex.Presentation.Wpf.Renderer.HasIgnore(System.String,Vortex.Connector.IVortexElement)
   - Vortex.Presentation.Wpf.Renderer.InvalidLicenseView(System.String)
   - Vortex.Presentation.Wpf.Renderer.IsDisplayable(System.Collections.Generic.List{System.Object})
@@ -92,7 +90,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Renderer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -129,7 +127,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _instance
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -160,7 +158,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: mutex
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -192,7 +190,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _viewAsseblyLookupList
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -223,7 +221,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: assembliesLoaded
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -250,7 +248,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -276,7 +274,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddContainer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -313,7 +311,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddViewModelTypeToComponentsCache
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -346,7 +344,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddViewTypeToComponentsCache
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -379,7 +377,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateDefaultContainer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -411,7 +409,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: DesignModeSettings
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -437,7 +435,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: FindClosestModelViewInPipeline
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -470,7 +468,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: FindClosestViewInPipeline
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -503,7 +501,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: FindClosestViewModel
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -536,7 +534,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetContainerAttribute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -569,7 +567,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetGroupAttribute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -602,7 +600,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetGroupedProperies
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -638,7 +636,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetIgnoreRenderingAttribute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
@@ -655,37 +653,6 @@ items:
       type: RenderIgnoreAttribute
     content.vb: Function GetIgnoreRenderingAttribute(vortexObject As IVortexElement) As RenderIgnoreAttribute
   overload: Vortex.Presentation.Wpf.Renderer.GetIgnoreRenderingAttribute*
-- uid: Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute(Vortex.Connector.IVortexElement)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute(Vortex.Connector.IVortexElement)
-  id: GetAuthorizeAttribute(Vortex.Connector.IVortexElement)
-  parent: Vortex.Presentation.Wpf.Renderer
-  langs:
-  - csharp
-  - vb
-  name: GetAuthorizeAttribute(IVortexElement)
-  nameWithType: Renderer.GetAuthorizeAttribute(IVortexElement)
-  fullName: Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute(Vortex.Connector.IVortexElement)
-  type: Method
-  source:
-    remote:
-      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
-      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
-    id: GetAuthorizeAttribute
-    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 377
-  assemblies:
-  - Vortex.Presentation.Wpf
-  namespace: Vortex.Presentation.Wpf
-  syntax:
-    content: RenderAuthorizedAttribute GetAuthorizeAttribute(IVortexElement vortexObject)
-    parameters:
-    - id: vortexObject
-      type: Vortex.Connector.IVortexElement
-    return:
-      type: RenderAuthorizedAttribute
-    content.vb: Function GetAuthorizeAttribute(vortexObject As IVortexElement) As RenderAuthorizedAttribute
-  overload: Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute*
 - uid: Vortex.Presentation.Wpf.Renderer.GetViewFromCache(System.String)
   commentId: M:Vortex.Presentation.Wpf.Renderer.GetViewFromCache(System.String)
   id: GetViewFromCache(System.String)
@@ -700,11 +667,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetViewFromCache
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 409
+    startLine: 377
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -731,11 +698,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetViewModelFromCache
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 419
+    startLine: 387
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -762,11 +729,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsDisplayable
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 429
+    startLine: 397
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -796,11 +763,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsEnumerator
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 434
+    startLine: 402
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -827,11 +794,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ViewViewModelLocatorCreator
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 447
+    startLine: 415
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -860,11 +827,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ProbeViewLocatorCreator
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 507
+    startLine: 475
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -893,11 +860,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _componentsCache
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 524
+    startLine: 492
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -920,11 +887,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ComponentsCache
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 526
+    startLine: 494
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -958,11 +925,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Diagnostics
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 534
+    startLine: 502
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -995,11 +962,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ViewAssemblyLookupList
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 540
+    startLine: 508
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1033,11 +1000,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 548
+    startLine: 516
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1068,11 +1035,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 587
+    startLine: 555
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1103,11 +1070,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 599
+    startLine: 567
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1138,11 +1105,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 611
+    startLine: 579
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1173,11 +1140,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 623
+    startLine: 591
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1208,11 +1175,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 635
+    startLine: 603
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1243,11 +1210,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AddElement
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 647
+    startLine: 615
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1280,11 +1247,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _cachedTypes
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 682
+    startLine: 650
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1311,11 +1278,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetTypeToCreate
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 684
+    startLine: 652
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1344,11 +1311,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreateContainer
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 696
+    startLine: 664
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1383,11 +1350,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: EnvelopeIfNecessary
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 800
+    startLine: 755
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1418,11 +1385,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: FindClosestView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 828
+    startLine: 783
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1451,11 +1418,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: FrameworkElementLoaded
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 854
+    startLine: 809
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1482,11 +1449,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetClosestView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 859
+    startLine: 814
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1515,11 +1482,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetClosestViewModel
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 864
+    startLine: 819
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1548,11 +1515,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetHeader
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 869
+    startLine: 824
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1585,11 +1552,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetSortedProperties
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 887
+    startLine: 842
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1621,11 +1588,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetSortedProperties
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 914
+    startLine: 869
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1657,11 +1624,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: HasIgnore
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 941
+    startLine: 896
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1676,37 +1643,6 @@ items:
       type: System.Boolean
     content.vb: Function HasIgnore(presentationType As String, obj As IVortexElement) As Boolean
   overload: Vortex.Presentation.Wpf.Renderer.HasIgnore*
-- uid: Vortex.Presentation.Wpf.Renderer.HasAuthorized(Vortex.Connector.IVortexElement)
-  commentId: M:Vortex.Presentation.Wpf.Renderer.HasAuthorized(Vortex.Connector.IVortexElement)
-  id: HasAuthorized(Vortex.Connector.IVortexElement)
-  parent: Vortex.Presentation.Wpf.Renderer
-  langs:
-  - csharp
-  - vb
-  name: HasAuthorized(IVortexElement)
-  nameWithType: Renderer.HasAuthorized(IVortexElement)
-  fullName: Vortex.Presentation.Wpf.Renderer.HasAuthorized(Vortex.Connector.IVortexElement)
-  type: Method
-  source:
-    remote:
-      path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
-      repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
-    id: HasAuthorized
-    path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 952
-  assemblies:
-  - Vortex.Presentation.Wpf
-  namespace: Vortex.Presentation.Wpf
-  syntax:
-    content: bool HasAuthorized(IVortexElement obj)
-    parameters:
-    - id: obj
-      type: Vortex.Connector.IVortexElement
-    return:
-      type: System.Boolean
-    content.vb: Function HasAuthorized(obj As IVortexElement) As Boolean
-  overload: Vortex.Presentation.Wpf.Renderer.HasAuthorized*
 - uid: Vortex.Presentation.Wpf.Renderer.IsObjectCountReached(System.Int32@,System.Int32)
   commentId: M:Vortex.Presentation.Wpf.Renderer.IsObjectCountReached(System.Int32@,System.Int32)
   id: IsObjectCountReached(System.Int32@,System.Int32)
@@ -1721,11 +1657,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: IsObjectCountReached
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 958
+    startLine: 907
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1757,11 +1693,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RendererBusy
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 964
+    startLine: 913
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1783,11 +1719,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RendererDone
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 973
+    startLine: 922
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1809,11 +1745,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RenderPresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 983
+    startLine: 932
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1852,11 +1788,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: RenderPresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1021
+    startLine: 970
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1905,11 +1841,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InvalidLicenseView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1109
+    startLine: 1058
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1940,11 +1876,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReportErrorOnElementCreation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1120
+    startLine: 1069
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -1973,11 +1909,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReportErrorOnElementCreation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1134
+    startLine: 1083
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2006,11 +1942,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ViewViewModelLocator
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1160
+    startLine: 1109
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2039,11 +1975,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ProbeViewLocator
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1176
+    startLine: 1125
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2072,11 +2008,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MaxObjectCountInDesign
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1191
+    startLine: 1140
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2109,11 +2045,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttachAssembliesInDesignMode
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1196
+    startLine: 1145
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2137,11 +2073,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttachAllAssemblieFromApplicationDomain
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1204
+    startLine: 1153
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2165,11 +2101,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttachAllAssembliesAtRuntime
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1226
+    startLine: 1175
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2193,11 +2129,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttachAllAssemblies
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1236
+    startLine: 1185
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2219,11 +2155,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttachAllAssembliesApplicationFolder
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1243
+    startLine: 1192
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2245,11 +2181,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: AttachAssemblyToLookUpList
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1296
+    startLine: 1245
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2281,11 +2217,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _CreatePresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1312
+    startLine: 1261
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2324,11 +2260,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _CreatePresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1349
+    startLine: 1298
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2364,11 +2300,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: CreatePresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1382
+    startLine: 1331
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2418,11 +2354,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _CreatePresentation
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1393
+    startLine: 1342
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2457,11 +2393,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetEnumeratorDiscriminatorAttribute
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1434
+    startLine: 1383
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2496,11 +2432,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetPropertyViaSymbol
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1473
+    startLine: 1422
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2535,11 +2471,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetReferencedAssemblies
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1494
+    startLine: 1443
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2570,11 +2506,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Get
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1508
+    startLine: 1457
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2609,11 +2545,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ReportingSeverity
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1532
+    startLine: 1481
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2646,11 +2582,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1540
+    startLine: 1489
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2688,11 +2624,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: GetViewModel
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1552
+    startLine: 1501
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -2733,11 +2669,11 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SecurityProvider_OnAnyAuthenticationEvent
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/Creator/Renderer.cs
-    startLine: 1574
+    startLine: 1523
   assemblies:
   - Vortex.Presentation.Wpf
   namespace: Vortex.Presentation.Wpf
@@ -3207,16 +3143,6 @@ references:
   name: RenderIgnoreAttribute
   nameWithType: RenderIgnoreAttribute
   fullName: RenderIgnoreAttribute
-- uid: Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute*
-  commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute
-  name: GetAuthorizeAttribute
-  nameWithType: Renderer.GetAuthorizeAttribute
-  fullName: Vortex.Presentation.Wpf.Renderer.GetAuthorizeAttribute
-- uid: RenderAuthorizedAttribute
-  commentId: T:RenderAuthorizedAttribute
-  name: RenderAuthorizedAttribute
-  nameWithType: RenderAuthorizedAttribute
-  fullName: RenderAuthorizedAttribute
 - uid: Vortex.Presentation.Wpf.Renderer.GetViewFromCache*
   commentId: Overload:Vortex.Presentation.Wpf.Renderer.GetViewFromCache
   name: GetViewFromCache
@@ -3730,11 +3656,6 @@ references:
   name: HasIgnore
   nameWithType: Renderer.HasIgnore
   fullName: Vortex.Presentation.Wpf.Renderer.HasIgnore
-- uid: Vortex.Presentation.Wpf.Renderer.HasAuthorized*
-  commentId: Overload:Vortex.Presentation.Wpf.Renderer.HasAuthorized
-  name: HasAuthorized
-  nameWithType: Renderer.HasAuthorized
-  fullName: Vortex.Presentation.Wpf.Renderer.HasAuthorized
 - uid: Vortex.Presentation.Wpf.Renderer.IsObjectCountReached*
   commentId: Overload:Vortex.Presentation.Wpf.Renderer.IsObjectCountReached
   name: IsObjectCountReached

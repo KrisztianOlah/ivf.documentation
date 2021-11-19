@@ -24,7 +24,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MenuControlView
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
@@ -74,7 +74,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlView.xaml.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/MenuedWindow/MenuControlView.xaml.cs
@@ -104,7 +104,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: MainContentControl
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
@@ -131,7 +131,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: ArrowLeft
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
@@ -158,7 +158,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: TitleText
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
@@ -185,7 +185,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Visible
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
@@ -212,7 +212,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Collapsed
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
@@ -239,7 +239,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _contentLoaded
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
@@ -266,7 +266,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: InitializeComponent
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
@@ -298,7 +298,7 @@ items:
   source:
     remote:
       path: vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _CreateDelegate
     path: ../ivf/vortex.framework.presentation/src/wpf/Vortex.Presentation.Wpf/obj/Release/net48/MenuedWindow/MenuControlView.g.cs

@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: LocalizerDictionary
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: .ctor
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
@@ -85,7 +85,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Culture
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
@@ -120,7 +120,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: Dictionary
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
@@ -155,7 +155,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: _sortedDictionary
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
@@ -182,7 +182,7 @@ items:
   source:
     remote:
       path: vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
-      branch: guard_for_var
+      branch: master
       repo: http://192.168.0.28/foxtroth.vortex/vortex.base/_git/ivf
     id: SortedDictionary
     path: ../ivf/vortex.connectors/src/connectors/Vortex.Connector/Localizations/LocalizerDictionary.cs
