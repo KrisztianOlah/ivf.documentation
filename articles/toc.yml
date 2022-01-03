@@ -8,9 +8,9 @@
 - name : Essentials
   href : 02essentials/toc.yml
 - name: TcOpen 🔗
-  href : https://docs.tcopengroup.org/articles/TcOpenFramework/application.html
+  href : https://docs.tcopengroup.org/
   items:
     - name : Messaging, Logging, sequences 🔗
-      href : https://docs.tcopengroup.org/articles/TcOpenFramework/application.html
+      href : https://docs.tcopengroup.org/articles/TcOpenFramework/TcoCore/Introduction.html
 # - name : Advanced
 #   href : 03advanced/toc.yml
