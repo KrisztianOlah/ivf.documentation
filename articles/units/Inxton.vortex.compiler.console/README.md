@@ -66,7 +66,7 @@ The best way to get started with the compiler is to use examples form [Inxton.Pa
 1. Open Visual Studio
 1. Create new **TwinCAT Project** (name it e.g. XAE)
 1. Create new **TwinCAT PLC project** in TwinCAT project under **PLC** branch (name it e.g MainPlc)
-1. Create new C# library project (.net framework 4.8) and name it {PlcProjectName}Connector (e.g. MainPlcConnector).
+1. Create new C# library project (from version v1.9.3 use [NET SDK projects format](https://docs.microsoft.com/en-us/dotnet/core/project-sdk/msbuild-props), netcore/netstadard) and name it {PlcProjectName}Connector (e.g. MainPlcConnector).
 1. Add NuGet package Inxton.Vortex.Core to newly created C# library project. (this package contains the compiler and supporting libraries) [nuget](https://www.nuget.org/packages/Inxton.Package.Vortex.Core).
 
    ~~~ PowerShell
