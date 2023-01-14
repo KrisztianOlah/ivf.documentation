@@ -18,7 +18,29 @@ Here we are coming with the results. We will progressively release several packa
 
 ## Licencing
 
-More information about support, licensing and pricing is available [here](https://www.inxton.com/pricing). The bottom line is that you can use a **developer license free of charge**. There are no limits to developer license except that it must not be deployed in the production environment and the run of the application is limited to a period of 30-120 minutes after which the application terminates and must be restarted. The application under development license can be used for testing until deployed to production.
+From v2 you can use Inxton libraries for TwinCAT3 free of charge under respecting the following:
+
+Copyright (c) 2022 MTS spol. s r.o.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software for commercial and non-commercial purposes.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Redistribution of binaries is permitted solely as part of another software solution, 
+in which this software is a means to create other software that does not provide the same 
+set of functionalities. It is expressly forbidden to sublicense or resell this software.
+
+You accept that the software may include telemetry features that may contain 
+personally non-identifiable information about the usage and perfomance of the software.
 
 ## Note to preview versions
 
