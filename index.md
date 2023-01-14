@@ -18,7 +18,7 @@ Here we are coming with the results. We will progressively release several packa
 
 ## Licencing
 
-From v2 you can use Inxton libraries for TwinCAT3 free of charge under respecting the following:
+From v2 you can use Inxton libraries for TwinCAT3 free of charge respecting the following:
 
 Copyright (c) 2022 MTS spol. s r.o.
 
