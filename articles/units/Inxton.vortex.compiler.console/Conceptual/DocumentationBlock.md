@@ -1,8 +1,8 @@
 # Documentation blocks (implementation pending)
 
-Types (FB, PRG, ENUMS, etc) and their members can be documented at PLC side and Ixnton helps you to transfer documentation content to the emitted code.
+Types (FB, PRG, ENUMS, etc) and their members can be documented at PLC side and Inxton helps you to transfer documentation content to the emitted code.
 
-Transferable documentations comments must be enclosed with syntax as indicated in the following example. In addition to that the documentation content mus be placed between documentation tags. Content placed within the documentation tags will then be placed as documentation comments to the emitted code. 
+Transferable documentations comments must be enclosed with syntax as indicated in the following example. In addition to that the documentation content must be placed between documentation tags. Content placed within the documentation tags will then be placed as documentation comments to the emitted code. 
 
 >NOTE: There is no syntax checking and the content is transferred 'as is'.
 
